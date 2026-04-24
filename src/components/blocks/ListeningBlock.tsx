@@ -9,9 +9,10 @@ type Props = {
   phrase: string;
   translation: string;
   speed: "slow" | "normal";
+  onCorrect?: () => void;
 };
 
-export default function ListeningBlock({ phrase, translation, speed }: Props) {
+export default function ListeningBlock({ phrase, translation, speed, onCorrect }: Props) {
   const [input, setInput] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [showTranslation, setShowTranslation] = useState(false);
@@ -102,9 +103,15 @@ export default function ListeningBlock({ phrase, translation, speed }: Props) {
           </button>
           {showTranslation && <p className="text-sm text-muted-foreground pl-4 border-l-2 border-primary">{translation}</p>}
 
-          <button onClick={() => { setInput(""); setSubmitted(false); setShowTranslation(false); }} className="w-full border-2 border-foreground py-2 font-mono text-sm font-bold uppercase tracking-widest hover:bg-foreground hover:text-background transition-colors flex items-center justify-center gap-2">
-            <RotateCcw size={14} /> Try Again
-          </button>
+          {isCorrect && onCorrect ? (
+            <button onClick={onCorrect} className="w-full border-4 border-green-500 bg-green-500 text-white py-3 font-black text-sm uppercase tracking-widest hover:opacity-90 transition-opacity">
+              Continue
+            </button>
+          ) : (
+            <button onClick={() => { setInput(""); setSubmitted(false); setShowTranslation(false); }} className="w-full border-2 border-foreground py-2 font-mono text-sm font-bold uppercase tracking-widest hover:bg-foreground hover:text-background transition-colors flex items-center justify-center gap-2">
+              <RotateCcw size={14} /> Try Again
+            </button>
+          )}
         </motion.div>
       )}
     </div>

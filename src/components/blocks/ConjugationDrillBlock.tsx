@@ -12,9 +12,10 @@ type Props = {
   pronouns: string[];
   correctForms: string[];
   hint?: string;
+  onCorrect?: () => void;
 };
 
-export default function ConjugationDrillBlock({ verb, translation, tense, pronouns, correctForms, hint }: Props) {
+export default function ConjugationDrillBlock({ verb, translation, tense, pronouns, correctForms, hint, onCorrect }: Props) {
   const [answers, setAnswers] = useState<string[]>(new Array(pronouns.length).fill(""));
   const [submitted, setSubmitted] = useState(false);
   const [showHint, setShowHint] = useState(false);
@@ -110,9 +111,16 @@ export default function ConjugationDrillBlock({ verb, translation, tense, pronou
             <div className="text-center font-mono text-lg font-bold">
               {correct}/{pronouns.length} correct {correct === pronouns.length ? "🏆" : correct >= pronouns.length / 2 ? "👍" : "💪"}
             </div>
-            <button onClick={handleReset} className="w-full border-2 border-foreground py-2 font-mono text-sm font-bold uppercase tracking-widest hover:bg-foreground hover:text-background transition-colors flex items-center justify-center gap-2">
-              <RotateCcw size={14} /> Try Again
-            </button>
+            
+            {correct === pronouns.length && onCorrect ? (
+              <button onClick={onCorrect} className="w-full border-4 border-green-500 bg-green-500 text-white py-2 font-mono text-sm font-bold uppercase tracking-widest hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+                Continue
+              </button>
+            ) : (
+              <button onClick={handleReset} className="w-full border-2 border-foreground py-2 font-mono text-sm font-bold uppercase tracking-widest hover:bg-foreground hover:text-background transition-colors flex items-center justify-center gap-2">
+                <RotateCcw size={14} /> Try Again
+              </button>
+            )}
           </motion.div>
         )}
       </div>

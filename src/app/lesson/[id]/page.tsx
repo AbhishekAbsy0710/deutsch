@@ -120,6 +120,8 @@ export default function LessonPage({ params }: { params: Promise<{ id: string }>
     );
   }
 
+  const isInteractiveBlock = ["quiz-mcq", "quiz-fill", "listening", "conjugation-drill", "speaking"].includes(block.type);
+
   return (
     <div className="flex flex-col min-h-screen max-w-3xl mx-auto w-full p-4 sm:p-8">
       <header className="flex items-center gap-4 mb-8 pt-4">
@@ -138,10 +140,10 @@ export default function LessonPage({ params }: { params: Promise<{ id: string }>
           {block.type === "grammar" && <GrammarBlock block={block} />}
           {block.type === "quiz-mcq" && <QuizMCQBlock key={`mcq-${currentBlockIdx}`} block={block} onCorrect={handleQuizCorrect} onWrong={handleQuizWrong} />}
           {block.type === "quiz-fill" && <QuizFillBlock key={`fill-${currentBlockIdx}`} block={block} onCorrect={handleQuizCorrect} onWrong={handleQuizWrong} />}
-          {block.type === "speaking" && <SpeakingBlock block={block} />}
+          {block.type === "speaking" && <SpeakingBlock block={block} onCorrect={handleQuizCorrect} />}
           {block.type === "flashcard" && <FlashcardBlock cards={block.cards} />}
-          {block.type === "conjugation-drill" && <ConjugationDrillBlock verb={block.verb} translation={block.translation} tense={block.tense} pronouns={block.pronouns} correctForms={block.correctForms} hint={block.hint} />}
-          {block.type === "listening" && <ListeningBlock phrase={block.phrase} translation={block.translation} speed={block.speed} />}
+          {block.type === "conjugation-drill" && <ConjugationDrillBlock verb={block.verb} translation={block.translation} tense={block.tense} pronouns={block.pronouns} correctForms={block.correctForms} hint={block.hint} onCorrect={handleQuizCorrect} />}
+          {block.type === "listening" && <ListeningBlock phrase={block.phrase} translation={block.translation} speed={block.speed} onCorrect={handleQuizCorrect} />}
         </div>
       </main>
 
@@ -154,7 +156,7 @@ export default function LessonPage({ params }: { params: Promise<{ id: string }>
         >
           <ArrowLeft className="mr-2 w-4 h-4" /> Back
         </Button>
-        <Button size="lg" onClick={handleNext} className={cn(block.type.startsWith("quiz") ? "hidden" : "", "border-2")}>
+        <Button size="lg" onClick={handleNext} className={cn(isInteractiveBlock ? "hidden" : "", "border-2")}>
           {isLast ? "Complete Lesson" : "Continue"} <ArrowRight className="ml-2 w-4 h-4" />
         </Button>
       </footer>
@@ -206,6 +208,16 @@ function VocabularyBlock({ block }: { block: Extract<LessonBlock, { type: "vocab
 
 // --- Grammar Block ---
 function GrammarBlock({ block }: { block: Extract<LessonBlock, { type: "grammar" }> }) {
+  const playAudio = async (text: string) => {
+    try {
+      await speakGerman(text);
+    } catch {
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = "de-DE";
+      window.speechSynthesis.speak(utterance);
+    }
+  };
+
   return (
     <div className="space-y-8 max-w-2xl mx-auto w-full">
       <div className="bg-foreground text-background px-4 py-2 inline-block font-mono text-sm font-bold uppercase tracking-wider">
@@ -217,8 +229,15 @@ function GrammarBlock({ block }: { block: Extract<LessonBlock, { type: "grammar"
       <div className="space-y-4 mt-8">
         {block.examples.map((ex, i) => (
           <div key={i} className="border-2 border-border p-4 hover:border-foreground transition-colors">
-            <p className="font-bold text-lg">{ex.de}</p>
-            <p className="text-muted-foreground">{ex.en}</p>
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <p className="font-bold text-lg">{ex.de}</p>
+                <p className="text-muted-foreground">{ex.en}</p>
+              </div>
+              <button onClick={() => playAudio(ex.de)} className="p-2 text-muted-foreground hover:text-primary transition-colors flex-shrink-0">
+                <Volume2 size={20} />
+              </button>
+            </div>
           </div>
         ))}
       </div>
@@ -356,7 +375,7 @@ function QuizFillBlock({ block, onCorrect, onWrong }: { block: Extract<LessonBlo
 }
 
 // --- Speaking Block with REAL Voice Recognition ---
-function SpeakingBlock({ block }: { block: Extract<LessonBlock, { type: "speaking" }> }) {
+function SpeakingBlock({ block, onCorrect }: { block: Extract<LessonBlock, { type: "speaking" }>, onCorrect?: () => void }) {
   const { status, transcript, error, startListening, stopListening, isSupported } = useSpeechRecognition();
   const [result, setResult] = useState<{ score: number; feedback: string } | null>(null);
 
@@ -432,28 +451,46 @@ function SpeakingBlock({ block }: { block: Extract<LessonBlock, { type: "speakin
             <div className="border-2 border-red-500 bg-red-500/5 p-4 text-red-700 text-sm">
               <p className="font-bold">Microphone not supported</p>
               <p>Please use Chrome or Edge for voice features.</p>
+              {onCorrect && (
+                <button onClick={onCorrect} className="mt-2 border-2 border-red-700 px-4 py-1 font-bold text-xs">
+                  Skip Exercise
+                </button>
+              )}
             </div>
           )}
           {isRecording && <p className="text-red-500 font-bold animate-pulse font-mono uppercase tracking-widest">● Recording... Speak now</p>}
           {status === "processing" && <p className="text-primary font-bold animate-pulse font-mono uppercase tracking-widest">Analyzing...</p>}
           {error && (
-            <div className="border-2 border-red-500 bg-red-500/5 p-3 text-red-700 text-sm">
-              {error}
+            <div className="border-2 border-red-500 bg-red-500/5 p-3 text-red-700 text-sm flex flex-col items-center gap-2">
+              <p>{error}</p>
+              {onCorrect && (
+                <button onClick={onCorrect} className="border-2 border-red-700 px-4 py-1 font-bold text-xs uppercase">
+                  Skip For Now
+                </button>
+              )}
             </div>
           )}
           {result && (
             <div className={cn(
-              "p-4 flex items-start gap-3 border-2",
+              "p-4 flex flex-col items-center gap-3 border-2",
               result.score >= 80 ? "border-green-500 bg-green-500/5 text-green-700" : 
               result.score >= 50 ? "border-yellow-500 bg-yellow-500/5 text-yellow-700" :
               "border-red-500 bg-red-500/5 text-red-700"
             )}>
-              {result.score >= 80 ? <CheckCircle2 className="flex-shrink-0 mt-0.5" /> : <XCircle className="flex-shrink-0 mt-0.5" />}
-              <div>
-                <p className="font-bold">{result.score}% Match</p>
-                <p className="text-sm mt-1">{result.feedback}</p>
-                {transcript && <p className="font-mono text-xs mt-2 opacity-70">You said: &ldquo;{transcript}&rdquo;</p>}
+              <div className="flex items-start gap-3 w-full">
+                {result.score >= 80 ? <CheckCircle2 className="flex-shrink-0 mt-0.5" /> : <XCircle className="flex-shrink-0 mt-0.5" />}
+                <div className="text-left flex-1">
+                  <p className="font-bold">{result.score}% Match</p>
+                  <p className="text-sm mt-1">{result.feedback}</p>
+                  {transcript && <p className="font-mono text-xs mt-2 opacity-70">You said: &ldquo;{transcript}&rdquo;</p>}
+                </div>
               </div>
+              
+              {result.score >= 60 && onCorrect && (
+                <button onClick={onCorrect} className="w-full mt-2 border-4 border-green-500 bg-green-500 text-white py-2 font-mono text-sm font-bold uppercase tracking-widest hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+                  Continue
+                </button>
+              )}
             </div>
           )}
         </div>
