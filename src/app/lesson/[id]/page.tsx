@@ -69,8 +69,8 @@ export default function LessonPage({ params }: { params: Promise<{ id: string }>
   const handleNext = () => {
     if (isLast) {
       // Calculate score
-      const quizCount = lesson.blocks.filter(b => b.type.startsWith("quiz")).length;
-      const score = quizCount > 0 ? Math.round((correctAnswers / quizCount) * 100) : 100;
+      const interactiveCount = lesson.blocks.filter(b => ["quiz-mcq", "quiz-fill", "listening", "conjugation-drill", "speaking"].includes(b.type)).length;
+      const score = interactiveCount > 0 ? Math.round((correctAnswers / interactiveCount) * 100) : 100;
       const xpEarned = 30 + Math.round(score * 0.2); // 30-50 XP based on score
       
       completeLesson(lesson.id, score, xpEarned);
@@ -81,8 +81,8 @@ export default function LessonPage({ params }: { params: Promise<{ id: string }>
   };
 
   if (lessonComplete) {
-    const quizCount = lesson.blocks.filter(b => b.type.startsWith("quiz")).length;
-    const score = quizCount > 0 ? Math.round((correctAnswers / quizCount) * 100) : 100;
+    const interactiveCount = lesson.blocks.filter(b => ["quiz-mcq", "quiz-fill", "listening", "conjugation-drill", "speaking"].includes(b.type)).length;
+    const score = interactiveCount > 0 ? Math.round((correctAnswers / interactiveCount) * 100) : 100;
     const xpEarned = 30 + Math.round(score * 0.2);
 
     return (
@@ -102,9 +102,9 @@ export default function LessonPage({ params }: { params: Promise<{ id: string }>
               <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground mt-1">XP Earned</p>
             </div>
           </div>
-          {quizCount > 0 && (
+          {interactiveCount > 0 && (
             <p className="text-muted-foreground font-mono text-sm">
-              {correctAnswers}/{quizCount} quizzes correct
+              {correctAnswers}/{interactiveCount} exercises correct
             </p>
           )}
           <div className="flex flex-col gap-3 mt-8">
