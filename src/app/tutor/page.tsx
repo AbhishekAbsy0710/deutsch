@@ -16,23 +16,38 @@ export default function TutorPage() {
   const { lessons: lessonProgress, xp, streak, level } = useProgressStore();
   const [hydrated, setHydrated] = useState(false);
 
-  // Wait for Zustand to hydrate from localStorage
+  // Wait for Zustand persist to finish loading from localStorage
   useEffect(() => {
-    setHydrated(true);
+    // Check if already hydrated
+    if (useProgressStore.persist.hasHydrated()) {
+      setHydrated(true);
+    }
+    // Listen for hydration completion
+    const unsub = useProgressStore.persist.onFinishHydration(() => {
+      setHydrated(true);
+    });
+    return unsub;
   }, []);
 
-  // Build progress summary for the AI — recalculates every render
+  // Build progress summary for the AI
   const progressSummary = useMemo(() => {
     if (!hydrated) return "";
     
-    const completed = Object.entries(lessonProgress)
+    // Re-read directly from store to ensure we have hydrated data
+    const storeState = useProgressStore.getState();
+    const lessons = storeState.lessons;
+    const currentXp = storeState.xp;
+    const currentStreak = storeState.streak;
+    const currentLevel = storeState.level;
+    
+    const completed = Object.entries(lessons)
       .filter(([, p]) => p.status === "completed")
       .map(([id]) => {
         const lesson = lessonData[id];
         return lesson ? `${lesson.title} (${lesson.module})` : id;
       });
     
-    const active = Object.entries(lessonProgress)
+    const active = Object.entries(lessons)
       .filter(([, p]) => p.status === "active")
       .map(([id]) => {
         const lesson = lessonData[id];
@@ -40,14 +55,16 @@ export default function TutorPage() {
       });
 
     let summary = "\n\nSTUDENT PROGRESS FROM LEARN TAB:\n";
-    if (level) summary += `Level: ${level}\n`;
-    summary += `XP: ${xp}, Streak: ${streak} days\n`;
+    if (currentLevel) summary += `Level: ${currentLevel}\n`;
+    summary += `XP: ${currentXp}, Streak: ${currentStreak} days\n`;
     if (completed.length > 0) summary += `Completed lessons: ${completed.join(", ")}\n`;
     else summary += `Completed lessons: none yet\n`;
     if (active.length > 0) summary += `Currently available: ${active.join(", ")}\n`;
     summary += "Use this info to answer progress questions and guide the student.";
+    
+    console.log("[Tutor] Progress summary:", summary);
     return summary;
-  }, [lessonProgress, xp, streak, level, hydrated]);
+  }, [hydrated, lessonProgress, xp, streak, level]);
   
   const [autoPlay, setAutoPlay] = useState(true);
   const autoPlayRef = useRef(autoPlay);
