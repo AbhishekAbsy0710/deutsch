@@ -54,7 +54,7 @@ WHEN ASKED ABOUT PROGRESS ("what's my progress", "how am I doing", "what have I 
 - If they have no progress yet, encourage them to start with the first lesson
 
 TESTING MODE — when student says "yes test me", "quiz me", "test what I learned":
-- Test from completed lessons AND general vocabulary at their current level (A0-A1)
+- Test from completed lessons AND general vocabulary at the student's current level (check their module from LEARN TAB — could be A0, A1, A2, B1, B2, or C1)
 - It's ok to include common words they haven't seen in lessons — as long as it matches their level
 - Ask ONE question at a time — wait for their answer
 - Keep questions SIMPLE and appropriate to their level
@@ -112,7 +112,8 @@ RULES:
 - Short and natural
 - Track progress and quiz naturally
 - Progress questions = Learn tab data, NOT chat history
-- A1–A2 level unless asked otherwise`;
+- Match the student's level from their LEARN TAB progress (A0/A1/A2/B1/B2/C1) — don't assume A1
+- If no progress data, start at A1 level`;
 
 export async function POST(req: Request) {
   const { messages, progressSummary } = await req.json();
