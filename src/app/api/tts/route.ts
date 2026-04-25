@@ -1,34 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { randomUUID } from "crypto";
-
-const VOICE = "de-DE-KatjaNeural";
-const OUTPUT_FORMAT = "audio-24khz-96kbitrate-mono-mp3";
-
-const TRUSTED_CLIENT_ID = randomUUID().replace(/-/g, "");
-
-async function getWssUrl(): Promise<string> {
-  const res = await fetch(
-    "https://dev.virtualearth.net/REST/v1/Locations?key=0",
-    { method: "HEAD" }
-  ).catch(() => null);
-  // The WSS endpoint doesn't actually require auth
-  return `wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=${TRUSTED_CLIENT_ID}&ConnectionId=${randomUUID().replace(/-/g, "")}`;
-}
-
-function buildSSML(text: string, voice: string): string {
-  // Escape XML special chars
-  const escaped = text
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
-
-  return `<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='de-DE'>
-    <voice name='${voice}'>
-      <prosody rate='-5%' pitch='+0Hz'>${escaped}</prosody>
-    </voice>
-  </speak>`;
-}
 
 export async function POST(request: NextRequest) {
   try {
@@ -50,31 +20,25 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "No speakable text" }, { status: 400 });
     }
 
-    console.log("[TTS API] Generating audio for:", cleaned.substring(0, 60));
+    console.log("[TTS] Text:", cleaned.substring(0, 80));
 
-    // Use Google Translate TTS as a simple, reliable fallback
-    // This is free and produces decent quality German speech
-    const encodedText = encodeURIComponent(cleaned);
-    
-    // Google Translate TTS - split into chunks if needed (max ~200 chars per request)
-    const maxChunkLen = 200;
+    // Split into chunks (Google TTS has ~200 char limit per request)
     const chunks: string[] = [];
     let remaining = cleaned;
-    
+
     while (remaining.length > 0) {
-      if (remaining.length <= maxChunkLen) {
+      if (remaining.length <= 200) {
         chunks.push(remaining);
         break;
       }
-      // Find a good break point
-      let breakPoint = remaining.lastIndexOf(". ", maxChunkLen);
-      if (breakPoint === -1) breakPoint = remaining.lastIndexOf(" ", maxChunkLen);
-      if (breakPoint === -1) breakPoint = maxChunkLen;
+      let breakPoint = remaining.lastIndexOf(". ", 200);
+      if (breakPoint === -1) breakPoint = remaining.lastIndexOf(" ", 200);
+      if (breakPoint === -1) breakPoint = 200;
       chunks.push(remaining.substring(0, breakPoint));
       remaining = remaining.substring(breakPoint).trimStart();
     }
 
-    // Fetch audio for each chunk
+    // Fetch audio for each chunk from Google Translate TTS
     const audioChunks: ArrayBuffer[] = [];
     for (const chunk of chunks) {
       const url = `https://translate.google.com/translate_tts?ie=UTF-8&tl=de&client=tw-ob&q=${encodeURIComponent(chunk)}`;
@@ -84,13 +48,18 @@ export async function POST(request: NextRequest) {
           "Referer": "https://translate.google.com/",
         },
       });
-      
+
       if (!res.ok) {
-        console.error("[TTS API] Google TTS failed for chunk:", res.status);
-        throw new Error(`Google TTS returned ${res.status}`);
+        console.error("[TTS] Google TTS failed:", res.status, chunk.substring(0, 40));
+        // Skip failed chunks instead of crashing the whole request
+        continue;
       }
-      
+
       audioChunks.push(await res.arrayBuffer());
+    }
+
+    if (audioChunks.length === 0) {
+      return NextResponse.json({ error: "TTS service unavailable" }, { status: 503 });
     }
 
     // Concatenate audio chunks
@@ -102,8 +71,6 @@ export async function POST(request: NextRequest) {
       offset += buf.byteLength;
     }
 
-    console.log("[TTS API] Audio generated, size:", totalLength, "bytes");
-
     return new NextResponse(combined, {
       headers: {
         "Content-Type": "audio/mpeg",
@@ -112,7 +79,7 @@ export async function POST(request: NextRequest) {
       },
     });
   } catch (error) {
-    console.error("[TTS API] Error:", error);
+    console.error("[TTS] Error:", error);
     return NextResponse.json(
       { error: "TTS generation failed" },
       { status: 500 }
