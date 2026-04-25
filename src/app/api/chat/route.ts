@@ -117,7 +117,11 @@ RULES:
 - If no progress data, start at A1 level`;
 
 export async function POST(req: Request) {
-  const { messages, progressSummary } = await req.json();
+  const body = await req.json();
+  const { messages, progressSummary } = body;
+  
+  console.log("[Chat] progressSummary received:", progressSummary ? progressSummary.substring(0, 200) : "EMPTY/NULL");
+  console.log("[Chat] body keys:", Object.keys(body));
 
   const coreMessages = messages.map((m: any) => {
     let content = m.content;
