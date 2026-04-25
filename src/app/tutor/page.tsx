@@ -73,8 +73,10 @@ export default function TutorPage() {
     autoPlayRef.current = autoPlay;
   }, [autoPlay]);
 
+  const progressRef = useRef(progressSummary);
+  useEffect(() => { progressRef.current = progressSummary; }, [progressSummary]);
+
   const chatHelpers = useChat({
-    body: { progressSummary },
     messages: [
       {
         id: "welcome",
@@ -89,16 +91,21 @@ export default function TutorPage() {
   const { messages, sendMessage, status: chatStatus, error } = chatHelpers;
   const isLoading = chatStatus === "streaming" || chatStatus === "submitted";
 
-  // Helper to extract text from different message formats
+  // Helper to extract text from different message formats (strip hidden context)
   const getMessageText = (msg: any): string => {
-    if (typeof msg.content === "string" && msg.content) return msg.content;
-    if (typeof msg.text === "string" && msg.text) return msg.text;
-    if (Array.isArray(msg.parts)) {
+    let text = "";
+    if (typeof msg.content === "string" && msg.content) text = msg.content;
+    else if (typeof msg.text === "string" && msg.text) text = msg.text;
+    else if (Array.isArray(msg.parts)) {
       const textPart = msg.parts.find((p: any) => p.type === "text");
-      if (textPart?.text) return textPart.text;
-      if (textPart?.state === "done" && textPart?.text) return textPart.text;
+      if (textPart?.text) text = textPart.text;
+      if (textPart?.state === "done" && textPart?.text) text = textPart.text;
     }
-    return "";
+    // Strip hidden progress context from display
+    if (text.includes("---CONTEXT (hidden from display)---")) {
+      text = text.split("---CONTEXT (hidden from display)---")[0].trim();
+    }
+    return text;
   };
 
   // Track if user has interacted with the page (required for Chrome autoplay policy)
@@ -153,11 +160,18 @@ export default function TutorPage() {
     }
   };
 
+  // Helper to build message with progress context attached
+  const buildMessageWithProgress = (userText: string) => {
+    const progress = progressRef.current;
+    // Attach progress as hidden context that the AI can read
+    return progress ? `${userText}\n\n---CONTEXT (hidden from display)---${progress}` : userText;
+  };
+
   const handleSubmit = (e?: React.FormEvent<HTMLFormElement>) => {
     e?.preventDefault();
     if (!input.trim()) return;
     hasInteracted.current = true;
-    sendMessage({ role: "user", content: input } as any);
+    sendMessage({ role: "user", content: buildMessageWithProgress(input) } as any);
     setInput("");
   };
 
@@ -172,7 +186,7 @@ export default function TutorPage() {
   // Handle Speech Recognition transcript
   useEffect(() => {
     if (status === "done" && transcript) {
-      sendMessage({ role: "user", content: transcript } as any);
+      sendMessage({ role: "user", content: buildMessageWithProgress(transcript) } as any);
     }
   }, [status, transcript, sendMessage]);
 

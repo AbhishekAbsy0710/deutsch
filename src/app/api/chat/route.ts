@@ -118,11 +118,10 @@ RULES:
 
 export async function POST(req: Request) {
   const body = await req.json();
-  const { messages, progressSummary } = body;
-  
-  console.log("[Chat] progressSummary received:", progressSummary ? progressSummary.substring(0, 200) : "EMPTY/NULL");
-  console.log("[Chat] body keys:", Object.keys(body));
+  const { messages } = body;
 
+  // Extract progress context from the latest user message
+  let progressSummary = "";
   const coreMessages = messages.map((m: any) => {
     let content = m.content;
     if (!content && m.parts) {
@@ -131,11 +130,19 @@ export async function POST(req: Request) {
         .map((p: any) => p.text)
         .join("");
     }
-    return {
-      role: m.role,
-      content: content || m.text || "",
-    };
+    content = content || m.text || "";
+    
+    // Extract and remove hidden progress context from user messages
+    if (m.role === "user" && content.includes("---CONTEXT (hidden from display)---")) {
+      const parts = content.split("---CONTEXT (hidden from display)---");
+      content = parts[0].trim();
+      progressSummary = parts[1] || "";
+    }
+    
+    return { role: m.role, content };
   });
+
+  console.log("[Chat] progressSummary:", progressSummary ? progressSummary.substring(0, 150) : "NONE");
 
   // Append student's Learn tab progress to system prompt
   const systemWithProgress = progressSummary 
