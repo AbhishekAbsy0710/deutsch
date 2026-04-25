@@ -73,7 +73,7 @@ RULES:
 - A1–A2 level unless asked otherwise`;
 
 export async function POST(req: Request) {
-  const { messages } = await req.json();
+  const { messages, progressSummary } = await req.json();
 
   const coreMessages = messages.map((m: any) => {
     let content = m.content;
@@ -89,9 +89,14 @@ export async function POST(req: Request) {
     };
   });
 
+  // Append student's Learn tab progress to system prompt
+  const systemWithProgress = progressSummary 
+    ? SYSTEM_PROMPT + progressSummary 
+    : SYSTEM_PROMPT;
+
   const result = streamText({
     model: groq("llama-3.3-70b-versatile"),
-    system: SYSTEM_PROMPT,
+    system: systemWithProgress,
     messages: coreMessages,
     maxRetries: 0,
   });

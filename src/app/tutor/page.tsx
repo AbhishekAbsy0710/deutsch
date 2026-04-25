@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
 import { useChat } from "@ai-sdk/react";
 import { Mic, MicOff, Send, Volume2, VolumeX, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -8,9 +8,39 @@ import { cn } from "@/lib/utils";
 import { useSpeechRecognition } from "@/hooks/useSpeechRecognition";
 import { useSpeechSynthesis } from "@/hooks/useSpeechSynthesis";
 import { OrganicPulse } from "@/components/OrganicPulse";
+import { useProgressStore } from "@/store/useProgressStore";
+import { lessonData } from "@/data/lessons";
 
 export default function TutorPage() {
   const { speak, stop, isSpeaking: isTtsSpeaking, isSupported: isTtsSupported } = useSpeechSynthesis();
+  const { lessons: lessonProgress, xp, streak, level } = useProgressStore();
+
+  // Build progress summary for the AI
+  const progressSummary = useMemo(() => {
+    const completed = Object.entries(lessonProgress)
+      .filter(([, p]) => p.status === "completed")
+      .map(([id]) => {
+        const lesson = lessonData[id];
+        return lesson ? `${lesson.title} (${lesson.module})` : id;
+      });
+    
+    const active = Object.entries(lessonProgress)
+      .filter(([, p]) => p.status === "active")
+      .map(([id]) => {
+        const lesson = lessonData[id];
+        return lesson ? `${lesson.title} (${lesson.module})` : id;
+      });
+
+    if (completed.length === 0 && active.length === 0) return "";
+    
+    let summary = "\n\nSTUDENT PROGRESS FROM LEARN TAB:\n";
+    if (level) summary += `Level: ${level}\n`;
+    summary += `XP: ${xp}, Streak: ${streak} days\n`;
+    if (completed.length > 0) summary += `Completed lessons: ${completed.join(", ")}\n`;
+    if (active.length > 0) summary += `Currently learning: ${active.join(", ")}\n`;
+    summary += "Use this info to quiz them on completed topics and guide them to their next lesson.";
+    return summary;
+  }, [lessonProgress, xp, streak, level]);
   
   const [autoPlay, setAutoPlay] = useState(true);
   const autoPlayRef = useRef(autoPlay);
@@ -20,6 +50,7 @@ export default function TutorPage() {
   }, [autoPlay]);
 
   const chatHelpers = useChat({
+    body: { progressSummary },
     messages: [
       {
         id: "welcome",
@@ -29,7 +60,7 @@ export default function TutorPage() {
         createdAt: new Date(),
       }
     ],
-  });
+  } as any);
 
   const { messages, sendMessage, status: chatStatus, error } = chatHelpers;
   const isLoading = chatStatus === "streaming" || chatStatus === "submitted";
