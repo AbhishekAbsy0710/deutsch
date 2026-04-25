@@ -41,7 +41,13 @@ export async function POST(request: NextRequest) {
     // Clean the text — keep English in brackets so it reads both German and English
     const cleaned = text
       .replace(/\*\*/g, "")
-      .replace(/[^\p{L}\p{N}\p{P}\p{Z}\n]/gu, "")  // Strip all emojis/symbols, keep letters, numbers, punctuation, spaces
+      .replace(/[\u{1F300}-\u{1F9FF}]/gu, "")   // Emojis block 1
+      .replace(/[\u{2600}-\u{26FF}]/gu, "")      // Misc symbols
+      .replace(/[\u{2700}-\u{27BF}]/gu, "")      // Dingbats
+      .replace(/[\u{FE00}-\u{FE0F}]/gu, "")      // Variation selectors
+      .replace(/[\u{200D}]/gu, "")               // Zero-width joiner
+      .replace(/[\u{E0020}-\u{E007F}]/gu, "")    // Tags
+      .replace(/[📖✏️➡️✅❌💡🇩🇪]/gu, "")        // Common tutor emojis
       .replace(/\n+/g, ". ")
       .replace(/\s+/g, " ")
       .trim();
