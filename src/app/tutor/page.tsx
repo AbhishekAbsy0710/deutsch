@@ -106,7 +106,7 @@ export default function TutorPage() {
       const textToSpeak = getMessageText(lastMsg);
       
       if (lastMsg.role === "assistant" && lastMsg.id !== lastSpokenMessageId.current && textToSpeak) {
-        // Debounce: wait 600ms for the message to fully settle before speaking
+        // Debounce: wait 300ms for the message to fully settle before speaking
         speakTimeoutRef.current = setTimeout(() => {
           const finalText = getMessageText(messages[messages.length - 1]);
           console.log("🔊 Auto-play (debounced):", finalText.substring(0, 80));

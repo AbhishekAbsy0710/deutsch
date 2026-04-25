@@ -8,7 +8,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Text is required" }, { status: 400 });
     }
 
-    // Clean the text — only keep speakable characters (letters, numbers, punctuation, spaces)
+    // Clean the text — only keep speakable characters
     let cleaned = text
       .replace(/\*\*/g, "")
       .replace(/[^a-zA-ZäöüÄÖÜßàáâãèéêìíîòóôùúûñçÀÁÂÃÈÉÊÌÍÎÒÓÔÙÚÛÑÇ0-9.,!?;:'"()\-\s]/g, "")
@@ -20,14 +20,12 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "No speakable text" }, { status: 400 });
     }
 
-    // Cap text length to prevent oversized requests (max ~800 chars)
-    if (cleaned.length > 800) {
-      cleaned = cleaned.substring(0, 800);
+    // Cap text to prevent oversized requests
+    if (cleaned.length > 600) {
+      cleaned = cleaned.substring(0, 600);
     }
 
-    console.log("[TTS] Length:", cleaned.length, "Text:", cleaned.substring(0, 60));
-
-    // Split into chunks (Google TTS has ~200 char limit per request)
+    // Split into chunks (Google TTS has ~200 char limit)
     const chunks: string[] = [];
     let remaining = cleaned;
 
@@ -43,12 +41,9 @@ export async function POST(request: NextRequest) {
       remaining = remaining.substring(breakPoint).trimStart();
     }
 
-    // Fetch audio for each chunk from Google Translate TTS
-    const audioBuffers: Uint8Array[] = [];
-    for (const chunk of chunks) {
-      if (!chunk.trim()) continue;
-      
-      try {
+    // Fetch ALL chunks in PARALLEL for speed
+    const results = await Promise.allSettled(
+      chunks.filter(c => c.trim()).map(async (chunk) => {
         const url = `https://translate.google.com/translate_tts?ie=UTF-8&tl=de&client=tw-ob&q=${encodeURIComponent(chunk)}`;
         const res = await fetch(url, {
           headers: {
@@ -57,33 +52,28 @@ export async function POST(request: NextRequest) {
           },
         });
 
-        if (!res.ok) {
-          console.error("[TTS] Chunk failed:", res.status);
-          continue;
-        }
+        if (!res.ok) throw new Error(`Status ${res.status}`);
 
-        // Verify it's actually audio
         const contentType = res.headers.get("content-type") || "";
-        if (!contentType.includes("audio")) {
-          console.error("[TTS] Not audio:", contentType);
-          continue;
-        }
+        if (!contentType.includes("audio")) throw new Error("Not audio");
 
         const buf = await res.arrayBuffer();
-        if (buf.byteLength > 0 && buf.byteLength < 5_000_000) {
-          audioBuffers.push(new Uint8Array(buf));
-        }
-      } catch (chunkErr) {
-        console.error("[TTS] Chunk error:", chunkErr);
-        continue;
-      }
-    }
+        if (buf.byteLength === 0 || buf.byteLength > 5_000_000) throw new Error("Bad size");
+
+        return new Uint8Array(buf);
+      })
+    );
+
+    // Collect successful results (in order)
+    const audioBuffers = results
+      .filter((r): r is PromiseFulfilledResult<Uint8Array> => r.status === "fulfilled")
+      .map(r => r.value);
 
     if (audioBuffers.length === 0) {
       return NextResponse.json({ error: "TTS service unavailable" }, { status: 503 });
     }
 
-    // Concatenate audio chunks safely
+    // Concatenate
     const totalLength = audioBuffers.reduce((sum, buf) => sum + buf.length, 0);
     const combined = new Uint8Array(totalLength);
     let offset = 0;
@@ -91,8 +81,6 @@ export async function POST(request: NextRequest) {
       combined.set(buf, offset);
       offset += buf.length;
     }
-
-    console.log("[TTS] Success:", totalLength, "bytes from", audioBuffers.length, "chunks");
 
     return new NextResponse(combined, {
       headers: {
