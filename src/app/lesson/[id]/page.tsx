@@ -69,7 +69,7 @@ export default function LessonPage({ params }: { params: Promise<{ id: string }>
   const handleNext = () => {
     if (isLast) {
       // Calculate score
-      const interactiveCount = lesson.blocks.filter(b => ["quiz-mcq", "quiz-fill", "listening", "conjugation-drill", "speaking"].includes(b.type)).length;
+      const interactiveCount = lesson.blocks.filter(b => ["quiz-mcq", "quiz-fill", "conjugation-drill"].includes(b.type)).length;
       const score = interactiveCount > 0 ? Math.round((correctAnswers / interactiveCount) * 100) : 100;
       const xpEarned = 30 + Math.round(score * 0.2); // 30-50 XP based on score
       
@@ -81,7 +81,7 @@ export default function LessonPage({ params }: { params: Promise<{ id: string }>
   };
 
   if (lessonComplete) {
-    const interactiveCount = lesson.blocks.filter(b => ["quiz-mcq", "quiz-fill", "listening", "conjugation-drill", "speaking"].includes(b.type)).length;
+    const interactiveCount = lesson.blocks.filter(b => ["quiz-mcq", "quiz-fill", "conjugation-drill"].includes(b.type)).length;
     const score = interactiveCount > 0 ? Math.round((correctAnswers / interactiveCount) * 100) : 100;
     const xpEarned = 30 + Math.round(score * 0.2);
 
