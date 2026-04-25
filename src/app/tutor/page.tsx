@@ -14,9 +14,17 @@ import { lessonData } from "@/data/lessons";
 export default function TutorPage() {
   const { speak, stop, isSpeaking: isTtsSpeaking, isSupported: isTtsSupported } = useSpeechSynthesis();
   const { lessons: lessonProgress, xp, streak, level } = useProgressStore();
+  const [hydrated, setHydrated] = useState(false);
 
-  // Build progress summary for the AI
+  // Wait for Zustand to hydrate from localStorage
+  useEffect(() => {
+    setHydrated(true);
+  }, []);
+
+  // Build progress summary for the AI — recalculates every render
   const progressSummary = useMemo(() => {
+    if (!hydrated) return "";
+    
     const completed = Object.entries(lessonProgress)
       .filter(([, p]) => p.status === "completed")
       .map(([id]) => {
@@ -31,16 +39,15 @@ export default function TutorPage() {
         return lesson ? `${lesson.title} (${lesson.module})` : id;
       });
 
-    if (completed.length === 0 && active.length === 0) return "";
-    
     let summary = "\n\nSTUDENT PROGRESS FROM LEARN TAB:\n";
     if (level) summary += `Level: ${level}\n`;
     summary += `XP: ${xp}, Streak: ${streak} days\n`;
     if (completed.length > 0) summary += `Completed lessons: ${completed.join(", ")}\n`;
-    if (active.length > 0) summary += `Currently learning: ${active.join(", ")}\n`;
-    summary += "Use this info to quiz them on completed topics and guide them to their next lesson.";
+    else summary += `Completed lessons: none yet\n`;
+    if (active.length > 0) summary += `Currently available: ${active.join(", ")}\n`;
+    summary += "Use this info to answer progress questions and guide the student.";
     return summary;
-  }, [lessonProgress, xp, streak, level]);
+  }, [lessonProgress, xp, streak, level, hydrated]);
   
   const [autoPlay, setAutoPlay] = useState(true);
   const autoPlayRef = useRef(autoPlay);
