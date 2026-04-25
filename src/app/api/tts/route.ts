@@ -65,9 +65,10 @@ export async function POST(request: NextRequest) {
     );
 
     // Collect successful results (in order)
-    const audioBuffers = results
-      .filter((r): r is PromiseFulfilledResult<Uint8Array> => r.status === "fulfilled")
-      .map(r => r.value);
+    const audioBuffers: Uint8Array[] = [];
+    for (const r of results) {
+      if (r.status === "fulfilled") audioBuffers.push(r.value);
+    }
 
     if (audioBuffers.length === 0) {
       return NextResponse.json({ error: "TTS service unavailable" }, { status: 503 });
