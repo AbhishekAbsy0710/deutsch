@@ -19,16 +19,19 @@ export default function TutorPage() {
     autoPlayRef.current = autoPlay;
   }, [autoPlay]);
 
-  const { messages, sendMessage, status: chatStatus, error } = useChat({
-    initialMessages: [
+  const chatHelpers = useChat({
+    messages: [
       {
         id: "welcome",
-        role: "assistant",
+        role: "assistant" as const,
         content: "Hallo! Ich bin dein Deutsch-Tutor. (Hello! I am your German tutor.) \n\nWie kann ich dir heute helfen? (How can I help you today?)",
+        parts: [{ type: "text" as const, text: "Hallo! Ich bin dein Deutsch-Tutor. (Hello! I am your German tutor.) \n\nWie kann ich dir heute helfen? (How can I help you today?)" }],
+        createdAt: new Date(),
       }
-    ]
-  } as any);
+    ],
+  });
 
+  const { messages, sendMessage, status: chatStatus, error } = chatHelpers;
   const isLoading = chatStatus === "streaming" || chatStatus === "submitted";
 
   // Helper to extract text from different message formats
@@ -99,7 +102,7 @@ export default function TutorPage() {
     e?.preventDefault();
     if (!input.trim()) return;
     hasInteracted.current = true;
-    sendMessage(input as any);
+    sendMessage({ role: "user", content: input } as any);
     setInput("");
   };
 
@@ -114,7 +117,7 @@ export default function TutorPage() {
   // Handle Speech Recognition transcript
   useEffect(() => {
     if (status === "done" && transcript) {
-      sendMessage(transcript as any);
+      sendMessage({ role: "user", content: transcript } as any);
     }
   }, [status, transcript, sendMessage]);
 
