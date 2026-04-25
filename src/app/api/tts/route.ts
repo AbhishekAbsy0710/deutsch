@@ -38,16 +38,10 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Text is required" }, { status: 400 });
     }
 
-    // Clean the text — keep English in brackets so it reads both German and English
+    // Clean the text — only keep speakable characters (letters, numbers, punctuation, spaces)
     const cleaned = text
       .replace(/\*\*/g, "")
-      .replace(/[\u{1F300}-\u{1F9FF}]/gu, "")   // Emojis block 1
-      .replace(/[\u{2600}-\u{26FF}]/gu, "")      // Misc symbols
-      .replace(/[\u{2700}-\u{27BF}]/gu, "")      // Dingbats
-      .replace(/[\u{FE00}-\u{FE0F}]/gu, "")      // Variation selectors
-      .replace(/[\u{200D}]/gu, "")               // Zero-width joiner
-      .replace(/[\u{E0020}-\u{E007F}]/gu, "")    // Tags
-      .replace(/[📖✏️➡️✅❌💡🇩🇪]/gu, "")        // Common tutor emojis
+      .replace(/[^a-zA-ZäöüÄÖÜßàáâãèéêìíîòóôùúûñçÀÁÂÃÈÉÊÌÍÎÒÓÔÙÚÛÑÇ0-9.,!?;:'"()\-\s]/g, "")
       .replace(/\n+/g, ". ")
       .replace(/\s+/g, " ")
       .trim();
