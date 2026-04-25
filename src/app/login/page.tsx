@@ -122,9 +122,9 @@ export default function LoginPage() {
           <Link href="/register" className="hover:text-foreground transition-colors underline underline-offset-4">
             Create Account
           </Link>
-          <button className="hover:text-foreground transition-colors underline underline-offset-4">
+          <Link href="/forgot-password" className="hover:text-foreground transition-colors underline underline-offset-4">
             Forgot Password?
-          </button>
+          </Link>
         </div>
       </motion.div>
     </div>
