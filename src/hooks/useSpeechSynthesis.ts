@@ -1,67 +1,93 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useRef, useState } from "react";
 
 export function useSpeechSynthesis() {
   const [isSpeaking, setIsSpeaking] = useState(false);
-  const [isSupported, setIsSupported] = useState(false);
-  const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const currentUrlRef = useRef<string | null>(null);
 
-  useEffect(() => {
-    setIsSupported(typeof window !== "undefined" && "speechSynthesis" in window);
+  const speak = useCallback(async (text: string) => {
+    if (!text.trim()) return;
+
+    console.log("[TTS] Requesting neural voice for:", text.substring(0, 60) + "...");
+
+    // Stop any currently playing audio
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    }
+    // Revoke previous blob URL to free memory
+    if (currentUrlRef.current) {
+      URL.revokeObjectURL(currentUrlRef.current);
+      currentUrlRef.current = null;
+    }
+
+    setIsSpeaking(true);
+
+    try {
+      const response = await fetch("/api/tts", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text }),
+      });
+
+      if (!response.ok) {
+        const err = await response.json().catch(() => ({}));
+        throw new Error(err.error || `TTS API error: ${response.status}`);
+      }
+
+      const audioBlob = await response.blob();
+      const audioUrl = URL.createObjectURL(audioBlob);
+      currentUrlRef.current = audioUrl;
+
+      const audio = new Audio(audioUrl);
+      audioRef.current = audio;
+
+      audio.onended = () => {
+        console.log("[TTS] ⏹ Playback finished");
+        setIsSpeaking(false);
+      };
+      audio.onerror = (e) => {
+        console.error("[TTS] ✖ Playback error:", e);
+        setIsSpeaking(false);
+      };
+
+      console.log("[TTS] ▶ Playing neural audio...");
+      await audio.play();
+    } catch (error) {
+      console.error("[TTS] Error:", error);
+      setIsSpeaking(false);
+      
+      // Fallback to browser speech synthesis if neural TTS fails
+      if ("speechSynthesis" in window) {
+        console.log("[TTS] Falling back to browser speech synthesis");
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = "de-DE";
+        utterance.rate = 0.93;
+        utterance.pitch = 1.05;
+        const voices = window.speechSynthesis.getVoices();
+        const deVoice = voices.find(v => v.lang.startsWith("de"));
+        if (deVoice) utterance.voice = deVoice;
+        utterance.onend = () => setIsSpeaking(false);
+        utterance.onerror = () => setIsSpeaking(false);
+        window.speechSynthesis.speak(utterance);
+      }
+    }
   }, []);
 
-  const getGermanVoice = useCallback((): SpeechSynthesisVoice | null => {
-    if (!isSupported) return null;
-    const voices = window.speechSynthesis.getVoices();
-    // Prefer high-quality German voices
-    return (
-      voices.find(v => v.lang === "de-DE" && v.name.includes("Anna")) ||
-      voices.find(v => v.lang === "de-DE" && v.name.includes("Google")) ||
-      voices.find(v => v.lang === "de-DE" && !v.localService) ||
-      voices.find(v => v.lang.startsWith("de")) ||
-      null
-    );
-  }, [isSupported]);
-
-  const speak = useCallback((text: string) => {
-    if (!isSupported) return;
-
-    // Cancel any ongoing speech
-    window.speechSynthesis.cancel();
-
-    // Extract only German text — strip English translations in parentheses
-    // and markdown formatting
-    const cleaned = text
-      .replace(/\(([^)]*)\)/g, "")     // Remove (English translations)
-      .replace(/\*\*/g, "")             // Remove **bold**
-      .replace(/[❌✅💡🎉😊👋🇩🇪📐🛒☕🚂🍕🎨👨‍👩‍👧‍👦🏆🐕🐱👶🎓🍎🍞🧀🧈💧🐟🍦🔴🔵🟢🟡⚫⚪🚗🏅👦👵👫🎊💶💰🍰]/gu, "") // Remove emojis
-      .replace(/\n+/g, ". ")            // Newlines to pauses
-      .replace(/\s+/g, " ")             // Collapse whitespace
-      .trim();
-
-    if (!cleaned) return;
-
-    const utterance = new SpeechSynthesisUtterance(cleaned);
-    const voice = getGermanVoice();
-    if (voice) utterance.voice = voice;
-    utterance.lang = "de-DE";
-    utterance.rate = 0.85; // Slightly slower for learning
-    utterance.pitch = 1.0;
-
-    utterance.onstart = () => setIsSpeaking(true);
-    utterance.onend = () => setIsSpeaking(false);
-    utterance.onerror = () => setIsSpeaking(false);
-
-    utteranceRef.current = utterance;
-    window.speechSynthesis.speak(utterance);
-  }, [isSupported, getGermanVoice]);
-
   const stop = useCallback(() => {
-    if (!isSupported) return;
-    window.speechSynthesis.cancel();
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    }
+    // Also stop browser fallback if active
+    if ("speechSynthesis" in window) {
+      window.speechSynthesis.cancel();
+    }
     setIsSpeaking(false);
-  }, [isSupported]);
+  }, []);
 
-  return { speak, stop, isSpeaking, isSupported };
+  return { speak, stop, isSpeaking, isSupported: true };
 }

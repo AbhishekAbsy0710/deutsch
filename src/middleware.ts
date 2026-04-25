@@ -32,7 +32,10 @@ export async function middleware(request: NextRequest) {
   const isPublicRoute = request.nextUrl.pathname === "/" ||
     request.nextUrl.pathname === "/login" ||
     request.nextUrl.pathname === "/register" ||
-    request.nextUrl.pathname === "/assessment"; // If assessment is public
+    request.nextUrl.pathname === "/api/chat" ||
+    request.nextUrl.pathname === "/api/tts" ||
+    request.nextUrl.pathname === "/assessment" ||
+    request.nextUrl.pathname.startsWith("/auth/callback"); // Allow OAuth callback
 
   if (!user && !isPublicRoute) {
     return NextResponse.redirect(new URL("/login", request.url));

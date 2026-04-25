@@ -89,12 +89,22 @@ export function speakGerman(text: string): Promise<void> {
       reject(new Error("Speech synthesis not supported"));
       return;
     }
+    
+    // Hack: Flush the queue to prevent Chrome/Safari from stalling
+    window.speechSynthesis.cancel();
+    
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "de-DE";
     utterance.rate = 0.85; // Slightly slower for learners
     utterance.onend = () => resolve();
     utterance.onerror = () => reject(new Error("Speech synthesis error"));
+    
     window.speechSynthesis.speak(utterance);
+    
+    // Hack: Force resume in case the browser paused the background context
+    if (window.speechSynthesis.resume) {
+      window.speechSynthesis.resume();
+    }
   });
 }
 

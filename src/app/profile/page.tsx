@@ -4,7 +4,9 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { User, Moon, Sun, Globe, Volume2, LogOut, RotateCcw } from "lucide-react";
 import { useProgressStore } from "@/store/useProgressStore";
-import { createClient } from "@/lib/supabase-auth";
+import { createClient } from "@/lib/supabase";
+import { signOut } from "@/lib/supabase-auth";
+import { useRouter } from "next/navigation";
 
 const goalLabels: Record<string, string> = {
   job: "Job in Germany",
@@ -21,8 +23,18 @@ const goalDescriptions: Record<string, string> = {
 };
 
 export default function ProfilePage() {
+  const router = useRouter();
   const [darkMode, setDarkMode] = useState(false);
   const [userEmail, setUserEmail] = useState<string | null>(null);
+
+  const handleLogout = async () => {
+    try {
+      await signOut();
+      router.push("/login");
+    } catch (err) {
+      console.error("Logout failed", err);
+    }
+  };
   const { xp, streak, lessons, goal, resetProgress } = useProgressStore();
   const completedCount = Object.values(lessons).filter(l => l.status === "completed").length;
   const currentLevel = completedCount >= 60 ? "B2" : completedCount >= 45 ? "B1" : completedCount >= 30 ? "A2" : completedCount >= 12 ? "A1" : "A0";
@@ -133,7 +145,10 @@ export default function ProfilePage() {
           </div>
 
           {/* Logout */}
-          <button className="w-full flex items-center gap-4 p-6 text-red-500 hover:bg-red-500/10 transition-colors text-left">
+          <button 
+            onClick={handleLogout}
+            className="w-full flex items-center gap-4 p-6 text-red-500 hover:bg-red-500/10 transition-colors text-left"
+          >
             <LogOut size={20} />
             <p className="font-bold text-lg">Log Out</p>
           </button>

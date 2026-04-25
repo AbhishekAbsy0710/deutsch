@@ -5,11 +5,21 @@ import { useChat } from "@ai-sdk/react";
 import { Mic, MicOff, Send, Volume2, VolumeX, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { useSpeechRecognition, speakGerman } from "@/hooks/useSpeechRecognition";
+import { useSpeechRecognition } from "@/hooks/useSpeechRecognition";
+import { useSpeechSynthesis } from "@/hooks/useSpeechSynthesis";
 import { OrganicPulse } from "@/components/OrganicPulse";
 
 export default function TutorPage() {
-  const { messages, input, handleInputChange, handleSubmit, setInput, isLoading } = useChat({
+  const { speak, stop, isSpeaking: isTtsSpeaking, isSupported: isTtsSupported } = useSpeechSynthesis();
+  
+  const [autoPlay, setAutoPlay] = useState(true);
+  const autoPlayRef = useRef(autoPlay);
+  
+  useEffect(() => {
+    autoPlayRef.current = autoPlay;
+  }, [autoPlay]);
+
+  const { messages, sendMessage, status: chatStatus, error } = useChat({
     initialMessages: [
       {
         id: "welcome",
@@ -17,10 +27,83 @@ export default function TutorPage() {
         content: "Hallo! Ich bin dein Deutsch-Tutor. (Hello! I am your German tutor.) \n\nWie kann ich dir heute helfen? (How can I help you today?)",
       }
     ]
-  });
+  } as any);
+
+  const isLoading = chatStatus === "streaming" || chatStatus === "submitted";
+
+  // Helper to extract text from different message formats
+  const getMessageText = (msg: any): string => {
+    if (typeof msg.content === "string" && msg.content) return msg.content;
+    if (typeof msg.text === "string" && msg.text) return msg.text;
+    if (Array.isArray(msg.parts)) {
+      const textPart = msg.parts.find((p: any) => p.type === "text");
+      if (textPart?.text) return textPart.text;
+      if (textPart?.state === "done" && textPart?.text) return textPart.text;
+    }
+    return "";
+  };
+
+  // Track if user has interacted with the page (required for Chrome autoplay policy)
+  const hasInteracted = useRef(false);
+
+  // Reliable Auto-Play with debounce to prevent cancel-restart loops
+  const lastSpokenMessageId = useRef<string>("welcome"); // Skip welcome message
+  const speakTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  
+  useEffect(() => {
+    // Clear any pending speak timeout on every update
+    if (speakTimeoutRef.current) {
+      clearTimeout(speakTimeoutRef.current);
+      speakTimeoutRef.current = null;
+    }
+
+    // Only auto-play after user has interacted (Chrome autoplay policy)
+    if (!hasInteracted.current) return;
+
+    if (!isLoading && autoPlay && messages.length > 0) {
+      const lastMsg = messages[messages.length - 1];
+      const textToSpeak = getMessageText(lastMsg);
+      
+      if (lastMsg.role === "assistant" && lastMsg.id !== lastSpokenMessageId.current && textToSpeak) {
+        // Debounce: wait 600ms for the message to fully settle before speaking
+        speakTimeoutRef.current = setTimeout(() => {
+          const finalText = getMessageText(messages[messages.length - 1]);
+          console.log("🔊 Auto-play (debounced):", finalText.substring(0, 80));
+          lastSpokenMessageId.current = lastMsg.id;
+          speak(finalText);
+        }, 600);
+      }
+    }
+
+    return () => {
+      if (speakTimeoutRef.current) {
+        clearTimeout(speakTimeoutRef.current);
+      }
+    };
+  }, [isLoading, messages, autoPlay, speak]);
+
+  const [input, setInput] = useState("");
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setInput(e.target.value);
+  };
+
+  const unlockAudio = () => {
+    if (window.speechSynthesis) {
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.resume();
+    }
+  };
+
+  const handleSubmit = (e?: React.FormEvent<HTMLFormElement>) => {
+    e?.preventDefault();
+    if (!input.trim()) return;
+    hasInteracted.current = true;
+    sendMessage(input as any);
+    setInput("");
+  };
 
   const { status, transcript, startListening, stopListening, isSupported } = useSpeechRecognition();
-  const [autoPlay, setAutoPlay] = useState(true);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   // Scroll to bottom when messages change
@@ -31,31 +114,12 @@ export default function TutorPage() {
   // Handle Speech Recognition transcript
   useEffect(() => {
     if (status === "done" && transcript) {
-      setInput(transcript);
-      // Auto-submit after a tiny delay to allow input state to update
-      setTimeout(() => {
-        const fakeEvent = { preventDefault: () => {} } as React.FormEvent<HTMLFormElement>;
-        handleSubmit(fakeEvent);
-      }, 100);
+      sendMessage(transcript as any);
     }
-  }, [status, transcript, setInput, handleSubmit]);
-
-  // Handle Auto-Play Voice for AI responses
-  const prevIsLoading = useRef(isLoading);
-  useEffect(() => {
-    // If it just stopped loading and auto-play is on
-    if (prevIsLoading.current && !isLoading && autoPlay) {
-      const lastMessage = messages[messages.length - 1];
-      if (lastMessage && lastMessage.role === "assistant") {
-        // Remove English translations in parentheses to avoid reading them in a German voice
-        const cleanText = lastMessage.content.replace(/\(.*?\)/g, '').trim();
-        speakGerman(cleanText).catch(console.error);
-      }
-    }
-    prevIsLoading.current = isLoading;
-  }, [isLoading, messages, autoPlay]);
+  }, [status, transcript, sendMessage]);
 
   const toggleRecording = () => {
+    hasInteracted.current = true;
     if (status === "listening") {
       stopListening();
     } else {
@@ -64,8 +128,7 @@ export default function TutorPage() {
   };
 
   const playMessage = (content: string) => {
-    const cleanText = content.replace(/\(.*?\)/g, '').trim();
-    speakGerman(cleanText).catch(console.error);
+    speak(content);
   };
 
   return (
@@ -87,7 +150,7 @@ export default function TutorPage() {
       </header>
 
       <main className="flex-1 overflow-y-auto pr-4 space-y-6 scrollbar-hide mb-8">
-        {messages.map((m) => (
+        {messages.map((m: any) => (
           <div
             key={m.id}
             className={cn(
@@ -103,10 +166,10 @@ export default function TutorPage() {
                   : "bg-card border-border"
               )}
             >
-              {m.content}
+              {getMessageText(m)}
               {m.role === "assistant" && (
                 <button 
-                  onClick={() => playMessage(m.content)}
+                  onClick={() => playMessage(getMessageText(m))}
                   className="absolute -right-3 -bottom-3 p-2 bg-background border-2 border-foreground rounded-full hover:bg-primary hover:text-primary-foreground hover:border-primary transition-colors z-10"
                 >
                   <Volume2 size={16} />
@@ -115,6 +178,18 @@ export default function TutorPage() {
             </div>
           </div>
         ))}
+        {error && (
+          <div className="flex justify-center my-4">
+            <div className="bg-destructive/10 text-destructive border border-destructive/20 p-4 w-full max-w-md">
+              <p className="font-bold">Connection Error</p>
+              <p className="text-sm opacity-90">
+                {error.message?.toLowerCase().includes("quota") || error.message?.toLowerCase().includes("429")
+                  ? "You have reached the free tier message limit. Please wait a minute before sending another message."
+                  : error.message || "Failed to communicate with the AI API."}
+              </p>
+            </div>
+          </div>
+        )}
         {isLoading && (
           <div className="flex justify-start">
             <div className="max-w-[85%] sm:max-w-[75%] p-4 border-2 border-border bg-card flex items-center gap-3">
@@ -166,7 +241,7 @@ export default function TutorPage() {
           <Button 
             type="submit" 
             size="lg" 
-            disabled={!input.trim() || isLoading || status === "listening"}
+            disabled={!input?.trim() || isLoading || status === "listening"}
             className="border-2 border-foreground px-8 bg-foreground text-background hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all h-auto"
           >
             <Send className="w-5 h-5" />
