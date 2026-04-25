@@ -38,11 +38,10 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Text is required" }, { status: 400 });
     }
 
-    // Clean the text
+    // Clean the text — keep English in brackets so it reads both German and English
     const cleaned = text
-      .replace(/\(([^)]*)\)/g, "")
       .replace(/\*\*/g, "")
-      .replace(/[❌✅💡🎉😊👋🇩🇪📐🛒☕🚂🍕🎨👨‍👩‍👧‍👦🏆🐕🐱👶🎓🍎🍞🧀🧈💧🐟🍦🔴🔵🟢🟡⚫⚪🚗🏅👦👵👫🎊💶💰🍰🌞]/gu, "")
+      .replace(/[^\p{L}\p{N}\p{P}\p{Z}\n]/gu, "")  // Strip all emojis/symbols, keep letters, numbers, punctuation, spaces
       .replace(/\n+/g, ". ")
       .replace(/\s+/g, " ")
       .trim();
