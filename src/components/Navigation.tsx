@@ -17,6 +17,10 @@ const navItems = [
 export function Navigation() {
   const pathname = usePathname();
 
+  // Hide navigation on auth pages
+  const authPages = ["/login", "/register", "/forgot-password", "/reset-password", "/assessment"];
+  if (authPages.includes(pathname)) return null;
+
   return (
     <>
       {/* Desktop Navigation */}
