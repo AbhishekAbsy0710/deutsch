@@ -32,6 +32,8 @@ export async function middleware(request: NextRequest) {
   const isPublicRoute = request.nextUrl.pathname === "/" ||
     request.nextUrl.pathname === "/login" ||
     request.nextUrl.pathname === "/register" ||
+    request.nextUrl.pathname === "/forgot-password" ||
+    request.nextUrl.pathname === "/reset-password" ||
     request.nextUrl.pathname === "/api/chat" ||
     request.nextUrl.pathname === "/api/tts" ||
     request.nextUrl.pathname === "/assessment" ||
