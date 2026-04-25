@@ -6,6 +6,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { Mail, Lock, ArrowRight, AlertTriangle } from "lucide-react";
 import { signIn, signInWithGoogle } from "@/lib/supabase-auth";
+import { useProgressStore } from "@/store/useProgressStore";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -19,7 +20,11 @@ export default function LoginPage() {
     setError("");
     setLoading(true);
     try {
-      await signIn(email, password);
+      const data = await signIn(email, password);
+      // Sync progress from Supabase on login
+      if (data.user) {
+        await useProgressStore.getState().syncWithSupabase(data.user.id);
+      }
       router.push("/learn");
     } catch (err: unknown) {
       setError(err instanceof Error ? err.message : "Login failed. Check your credentials.");

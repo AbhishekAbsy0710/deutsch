@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { BookOpen, Home, Trophy, User, MessageSquare, BookMarked } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useProgressSync } from "@/hooks/useProgressSync";
 
 const navItems = [
   { href: "/", label: "Home", icon: Home },
@@ -16,6 +17,9 @@ const navItems = [
 
 export function Navigation() {
   const pathname = usePathname();
+  
+  // Auto-sync progress with Supabase for authenticated users
+  useProgressSync();
 
   // Hide navigation on auth pages
   const authPages = ["/login", "/register", "/forgot-password", "/reset-password", "/assessment"];

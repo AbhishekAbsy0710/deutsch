@@ -31,6 +31,10 @@ interface ProgressStore extends UserProgress {
   setAssessment: (goal: string, level: string) => void;
   getLessonStatus: (lessonId: string) => LessonStatus;
   resetProgress: () => void;
+  // Cloud sync
+  syncWithSupabase: (userId: string) => Promise<void>;
+  saveToCloud: (userId: string) => void;
+  _userId: string | null;
 }
 
 import { lessonData } from "@/data/lessons";
@@ -77,6 +81,7 @@ export const useProgressStore = create<ProgressStore>()(
   persist(
     (set, get) => ({
       ...initialState,
+      _userId: null,
 
       completeLesson: (lessonId: string, score: number, xpEarned: number) => {
         const state = get();
@@ -109,6 +114,12 @@ export const useProgressStore = create<ProgressStore>()(
             get().unlockLesson(nextLessonId);
           }
         }
+
+        // Auto-save to Supabase if user is logged in
+        const userId = get()._userId;
+        if (userId) {
+          get().saveToCloud(userId);
+        }
       },
 
       unlockLesson: (lessonId: string) => {
@@ -126,6 +137,9 @@ export const useProgressStore = create<ProgressStore>()(
 
       setAssessment: (goal: string, level: string) => {
         set({ goal, level });
+        // Also save assessment to cloud
+        const userId = get()._userId;
+        if (userId) get().saveToCloud(userId);
       },
 
       getLessonStatus: (lessonId: string) => {
@@ -135,6 +149,50 @@ export const useProgressStore = create<ProgressStore>()(
 
       resetProgress: () => {
         set(initialState);
+      },
+
+      // Sync with Supabase on login
+      syncWithSupabase: async (userId: string) => {
+        const { loadProgressFromSupabase, mergeProgress, saveProgressToSupabase } = await import("@/lib/progress-sync");
+        set({ _userId: userId });
+
+        const cloudProgress = await loadProgressFromSupabase(userId);
+        const localProgress: UserProgress = {
+          lessons: get().lessons,
+          xp: get().xp,
+          streak: get().streak,
+          lastActiveDate: get().lastActiveDate,
+          goal: get().goal,
+          level: get().level,
+        };
+
+        if (cloudProgress) {
+          // Merge: keep the better progress from each source
+          const merged = mergeProgress(localProgress, cloudProgress);
+          set(merged);
+          // Push merged result back to cloud
+          await saveProgressToSupabase(userId, merged);
+          console.log("[Store] Synced with Supabase — merged", merged.xp, "XP");
+        } else {
+          // No cloud data — push local up
+          await saveProgressToSupabase(userId, localProgress);
+          console.log("[Store] Pushed local progress to Supabase");
+        }
+      },
+
+      // Fire-and-forget save to Supabase
+      saveToCloud: (userId: string) => {
+        import("@/lib/progress-sync").then(({ saveProgressToSupabase }) => {
+          const state = get();
+          saveProgressToSupabase(userId, {
+            lessons: state.lessons,
+            xp: state.xp,
+            streak: state.streak,
+            lastActiveDate: state.lastActiveDate,
+            goal: state.goal,
+            level: state.level,
+          });
+        });
       },
     }),
     {
