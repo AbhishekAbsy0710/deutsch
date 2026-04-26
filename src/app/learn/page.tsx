@@ -21,13 +21,17 @@ const modules = moduleMetadata.map(meta => ({
   lessons: Object.values(lessonData)
     .filter(lesson => lesson.module === meta.id)
     .sort((a, b) => {
-      // Handle both old format (l13) and new format (la1_01)
+      // Handle all ID formats: l13, la1_01, la2_01, lb1_01, lb2_01
       const getOrder = (id: string) => {
-        if (id.startsWith('la')) {
-          // New format: la1_01 -> 1000 + 1 = 1001, la1_14 -> 1000 + 14 = 1014
-          const parts = id.replace('la', '').split('_');
-          return 1000 + parseInt(parts[1], 10);
+        // New format with underscore: la1_01, la2_44, lb1_01, lb2_70
+        const match = id.match(/^l([ab])(\d)_(\d+)$/);
+        if (match) {
+          const prefix = match[1] === 'a' ? 1000 : 2000; // a=1000s, b=2000s
+          const level = parseInt(match[2], 10); // 1 or 2
+          const num = parseInt(match[3], 10); // lesson number
+          return prefix + (level * 100) + num;
         }
+        // Old format: l1, l13, l46, l61
         return parseInt(id.replace('l', ''), 10);
       };
       return getOrder(a.id) - getOrder(b.id);

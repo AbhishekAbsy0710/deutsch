@@ -35,9 +35,16 @@ export default function ProfilePage() {
       console.error("Logout failed", err);
     }
   };
-  const { xp, streak, lessons, goal, resetProgress } = useProgressStore();
+  const { xp, streak, lessons, goal, level, resetProgress } = useProgressStore();
   const completedCount = Object.values(lessons).filter(l => l.status === "completed").length;
-  const currentLevel = completedCount >= 60 ? "B2" : completedCount >= 45 ? "B1" : completedCount >= 30 ? "A2" : completedCount >= 12 ? "A1" : "A0";
+  
+  // Use the stored level from assessment, or calculate from progress
+  const currentLevel = level || (
+    completedCount >= 217 ? "B2" :
+    completedCount >= 121 ? "B1" :
+    completedCount >= 54 ? "A2" :
+    completedCount >= 12 ? "A1" : "A0"
+  );
 
   useEffect(() => {
     setDarkMode(document.documentElement.classList.contains("dark"));
@@ -167,7 +174,14 @@ export default function ProfilePage() {
 
         {/* Reset Progress */}
         <button
-          onClick={() => { if (confirm("Reset all progress? This cannot be undone.")) resetProgress(); }}
+          onClick={() => { 
+            if (confirm("Reset all progress? This cannot be undone.")) {
+              resetProgress();
+              // Clear persisted zustand state and reload
+              localStorage.removeItem('deutsch-progress');
+              window.location.href = '/';
+            }
+          }}
           className="w-full border-2 border-dashed border-border p-6 text-muted-foreground hover:border-red-500 hover:text-red-500 transition-colors flex items-center justify-center gap-3 font-mono text-sm"
         >
           <RotateCcw size={16} /> Reset All Progress
