@@ -15,7 +15,14 @@ export function useProgressSync() {
     if (hasSynced.current) return;
 
     const doSync = async () => {
-      // Skip sync if user just reset (no level = fresh state)
+      // Skip sync if user just reset progress
+      if (typeof window !== 'undefined' && sessionStorage.getItem('deutsch-just-reset')) {
+        console.log("[ProgressSync] Just reset — skipping sync");
+        sessionStorage.removeItem('deutsch-just-reset');
+        return;
+      }
+      
+      // Skip sync if no level set (fresh state)
       const currentLevel = useProgressStore.getState().level;
       if (!currentLevel) {
         console.log("[ProgressSync] No level set — skipping sync (fresh/reset state)");

@@ -176,11 +176,17 @@ export default function ProfilePage() {
         <button
           onClick={async () => { 
             if (confirm("Reset all progress? This cannot be undone.")) {
-              // Await cloud deletion + local state reset
+              // 1. Clear cloud data (await completion)
               await resetProgress();
-              // Clear persisted zustand state
+              
+              // 2. Nuclear localStorage clear for ALL progress-related keys
               localStorage.removeItem('deutsch-progress');
-              // Cloud is clean, local is clean — go to assessment
+              localStorage.removeItem('flashcard_reviews');
+              
+              // 3. Set a flag so sync hook knows to skip on next page
+              sessionStorage.setItem('deutsch-just-reset', 'true');
+              
+              // 4. Hard redirect to assessment
               window.location.href = '/assessment';
             }
           }}
