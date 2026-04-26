@@ -1,11 +1,40 @@
 "use client";
 
-import { useCallback, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 export function useSpeechSynthesis() {
   const [isSpeaking, setIsSpeaking] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const currentUrlRef = useRef<string | null>(null);
+
+  const stop = useCallback(() => {
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    }
+    // Also stop browser fallback if active
+    if ("speechSynthesis" in window) {
+      window.speechSynthesis.cancel();
+    }
+    setIsSpeaking(false);
+  }, []);
+
+  // Stop TTS when navigating away or switching tabs
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      if (document.hidden) {
+        stop();
+      }
+    };
+
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+    
+    // Cleanup on unmount (navigation away)
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+      stop();
+    };
+  }, [stop]);
 
   const speak = useCallback(async (text: string) => {
     if (!text.trim()) return;
@@ -75,18 +104,6 @@ export function useSpeechSynthesis() {
         window.speechSynthesis.speak(utterance);
       }
     }
-  }, []);
-
-  const stop = useCallback(() => {
-    if (audioRef.current) {
-      audioRef.current.pause();
-      audioRef.current.currentTime = 0;
-    }
-    // Also stop browser fallback if active
-    if ("speechSynthesis" in window) {
-      window.speechSynthesis.cancel();
-    }
-    setIsSpeaking(false);
   }, []);
 
   return { speak, stop, isSpeaking, isSupported: true };
