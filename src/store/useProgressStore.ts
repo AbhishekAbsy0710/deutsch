@@ -152,11 +152,14 @@ export const useProgressStore = create<ProgressStore>()(
       },
 
       setAssessment: (goal: string, level: string) => {
-        const state = get();
+        // Start from a CLEAN slate — reset all lessons to locked
+        const updatedLessons: Record<string, LessonProgress> = {};
+        lessonIds.forEach((id) => {
+          updatedLessons[id] = { status: "locked", attempts: 0 };
+        });
         
         // Bulk-unlock: mark all lessons BELOW this level as completed
         const lessonsToSkip = getLessonIdsBeforeLevel(level);
-        const updatedLessons = { ...state.lessons };
         
         for (const id of lessonsToSkip) {
           updatedLessons[id] = {
@@ -169,7 +172,7 @@ export const useProgressStore = create<ProgressStore>()(
         
         // Set the first lesson of the selected level as active
         const firstLesson = getFirstLessonOfLevel(level);
-        if (firstLesson && updatedLessons[firstLesson]?.status === "locked") {
+        if (firstLesson) {
           updatedLessons[firstLesson] = { 
             ...updatedLessons[firstLesson], 
             status: "active" 
@@ -183,7 +186,9 @@ export const useProgressStore = create<ProgressStore>()(
           goal, 
           level, 
           lessons: updatedLessons,
-          xp: state.xp + skippedXp,
+          xp: skippedXp,
+          streak: 0,
+          lastActiveDate: null,
         });
         
         // Also save assessment to cloud
