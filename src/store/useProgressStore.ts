@@ -39,22 +39,38 @@ interface ProgressStore extends UserProgress {
 
 import { lessonData } from "@/data/lessons";
 
+// Level ordering for skip-to-level feature
+const MODULE_ORDER = ["A0", "A1", "A2", "B1", "B2", "C1", "C2"];
+
+// Use insertion order from lessonData (Object.keys preserves spread order)
+const lessonIds = Object.keys(lessonData);
+
 // Define the lesson unlock chain dynamically
 const UNLOCK_CHAIN: Record<string, string> = {};
-const lessonIds = Object.keys(lessonData).sort((a, b) => {
-  const numA = parseInt(a.replace("l", ""));
-  const numB = parseInt(b.replace("l", ""));
-  return numA - numB;
-});
-
 for (let i = 0; i < lessonIds.length - 1; i++) {
   UNLOCK_CHAIN[lessonIds[i]] = lessonIds[i + 1];
 }
 
 const DEFAULT_LESSONS: Record<string, LessonProgress> = {};
 lessonIds.forEach((id) => {
-  DEFAULT_LESSONS[id] = { status: id === "l1" ? "active" : "locked", attempts: 0 };
+  DEFAULT_LESSONS[id] = { status: id === lessonIds[0] ? "active" : "locked", attempts: 0 };
 });
+
+// Helper: get all lesson IDs that belong to modules BEFORE the given level
+function getLessonIdsBeforeLevel(level: string): string[] {
+  const levelIndex = MODULE_ORDER.indexOf(level);
+  if (levelIndex <= 0) return []; // A0 or unknown — nothing to skip
+  const modulesToSkip = MODULE_ORDER.slice(0, levelIndex);
+  return lessonIds.filter(id => {
+    const lesson = lessonData[id];
+    return lesson && modulesToSkip.includes(lesson.module);
+  });
+}
+
+// Helper: get the first lesson ID of a given level
+function getFirstLessonOfLevel(level: string): string | null {
+  return lessonIds.find(id => lessonData[id]?.module === level) || null;
+}
 
 const initialState: UserProgress = {
   lessons: DEFAULT_LESSONS,
@@ -136,7 +152,40 @@ export const useProgressStore = create<ProgressStore>()(
       },
 
       setAssessment: (goal: string, level: string) => {
-        set({ goal, level });
+        const state = get();
+        
+        // Bulk-unlock: mark all lessons BELOW this level as completed
+        const lessonsToSkip = getLessonIdsBeforeLevel(level);
+        const updatedLessons = { ...state.lessons };
+        
+        for (const id of lessonsToSkip) {
+          updatedLessons[id] = {
+            status: "completed",
+            score: 100,
+            completedAt: new Date().toISOString(),
+            attempts: 1,
+          };
+        }
+        
+        // Set the first lesson of the selected level as active
+        const firstLesson = getFirstLessonOfLevel(level);
+        if (firstLesson && updatedLessons[firstLesson]?.status === "locked") {
+          updatedLessons[firstLesson] = { 
+            ...updatedLessons[firstLesson], 
+            status: "active" 
+          };
+        }
+        
+        // Calculate XP from skipped lessons (10 XP per skipped lesson)
+        const skippedXp = lessonsToSkip.length * 10;
+        
+        set({ 
+          goal, 
+          level, 
+          lessons: updatedLessons,
+          xp: state.xp + skippedXp,
+        });
+        
         // Also save assessment to cloud
         const userId = get()._userId;
         if (userId) get().saveToCloud(userId);

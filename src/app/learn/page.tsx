@@ -21,9 +21,16 @@ const modules = moduleMetadata.map(meta => ({
   lessons: Object.values(lessonData)
     .filter(lesson => lesson.module === meta.id)
     .sort((a, b) => {
-      const numA = parseInt(a.id.replace('l', ''), 10);
-      const numB = parseInt(b.id.replace('l', ''), 10);
-      return numA - numB;
+      // Handle both old format (l13) and new format (la1_01)
+      const getOrder = (id: string) => {
+        if (id.startsWith('la')) {
+          // New format: la1_01 -> 1000 + 1 = 1001, la1_14 -> 1000 + 14 = 1014
+          const parts = id.replace('la', '').split('_');
+          return 1000 + parseInt(parts[1], 10);
+        }
+        return parseInt(id.replace('l', ''), 10);
+      };
+      return getOrder(a.id) - getOrder(b.id);
     })
     .map(lesson => ({
       id: lesson.id,
