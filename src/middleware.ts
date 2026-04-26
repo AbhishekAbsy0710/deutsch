@@ -1,12 +1,9 @@
+import { NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
 import { createServerClient } from "@supabase/ssr";
-import { NextResponse, type NextRequest } from "next/server";
 
 export async function middleware(request: NextRequest) {
-  let response = NextResponse.next({
-    request: {
-      headers: request.headers,
-    },
-  });
+  const response = NextResponse.next();
 
   const supabase = createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -18,7 +15,6 @@ export async function middleware(request: NextRequest) {
         },
         setAll(cookiesToSet) {
           cookiesToSet.forEach(({ name, value, options }) => {
-            request.cookies.set(name, value);
             response.cookies.set(name, value, options);
           });
         },
@@ -28,22 +24,19 @@ export async function middleware(request: NextRequest) {
 
   const { data: { user } } = await supabase.auth.getUser();
 
-  // Protect all routes except public ones
-  const isPublicRoute = request.nextUrl.pathname === "/" ||
-    request.nextUrl.pathname === "/login" ||
-    request.nextUrl.pathname === "/register" ||
-    request.nextUrl.pathname === "/forgot-password" ||
-    request.nextUrl.pathname === "/reset-password" ||
-    request.nextUrl.pathname === "/api/chat" ||
-    request.nextUrl.pathname === "/api/tts" ||
-    request.nextUrl.pathname === "/assessment" ||
-    request.nextUrl.pathname.startsWith("/auth/callback"); // Allow OAuth callback
+  // Protected routes — redirect to login if not authenticated
+  const protectedPaths = ["/learn", "/profile", "/progress", "/review", "/tutor", "/assessment"];
+  const isProtected = protectedPaths.some(path => request.nextUrl.pathname.startsWith(path));
 
-  if (!user && !isPublicRoute) {
+  if (isProtected && !user) {
     return NextResponse.redirect(new URL("/login", request.url));
   }
-  
-  if (user && (request.nextUrl.pathname === "/login" || request.nextUrl.pathname === "/register")) {
+
+  // If logged in and trying to access login/register, redirect to learn
+  const authPaths = ["/login", "/register"];
+  const isAuthPage = authPaths.some(path => request.nextUrl.pathname === path);
+
+  if (isAuthPage && user) {
     return NextResponse.redirect(new URL("/learn", request.url));
   }
 
@@ -52,13 +45,13 @@ export async function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    /*
-     * Match all request paths except for the ones starting with:
-     * - _next/static (static files)
-     * - _next/image (image optimization files)
-     * - favicon.ico (favicon file)
-     * Feel free to modify this pattern to include more paths.
-     */
-    '/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',
+    "/learn/:path*",
+    "/profile/:path*",
+    "/progress/:path*",
+    "/review/:path*",
+    "/tutor/:path*",
+    "/assessment/:path*",
+    "/login",
+    "/register",
   ],
 };

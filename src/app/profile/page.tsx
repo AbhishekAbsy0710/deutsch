@@ -30,7 +30,8 @@ export default function ProfilePage() {
   const handleLogout = async () => {
     try {
       await signOut();
-      router.push("/login");
+      localStorage.removeItem('deutsch-progress');
+      window.location.href = '/login';
     } catch (err) {
       console.error("Logout failed", err);
     }
