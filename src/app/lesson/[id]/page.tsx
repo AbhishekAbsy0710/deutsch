@@ -6,38 +6,41 @@ import { lessonData, LessonBlock } from "@/data/lessons";
 import { useProgressStore } from "@/store/useProgressStore";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import { Mic, Volume2, ArrowRight, ArrowLeft, CheckCircle2, XCircle, MicOff, Trophy } from "lucide-react";
+import { Mic, Volume2, ArrowRight, ArrowLeft, CheckCircle2, XCircle, MicOff, Trophy, BookOpen, PenTool } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useSpeechRecognition, speakGerman, comparePronunciation } from "@/hooks/useSpeechRecognition";
 import { OrganicPulse } from "@/components/OrganicPulse";
 import FlashcardBlock from "@/components/blocks/FlashcardBlock";
 import ConjugationDrillBlock from "@/components/blocks/ConjugationDrillBlock";
 import ListeningBlock from "@/components/blocks/ListeningBlock";
+import CulturalNoteBlock from "@/components/blocks/CulturalNoteBlock";
+import ExampleDialogueBlock from "@/components/blocks/ExampleDialogueBlock";
+import SummaryBlock from "@/components/blocks/SummaryBlock";
 
-// Fisher-Yates shuffle that also tracks original index
-function shuffleOptions(options: string[], correctIndex: number): { shuffled: string[]; newCorrectIndex: number } {
+const STUDY_TYPES = ["vocabulary", "grammar", "flashcard", "cultural-note", "example-dialogue", "summary"];
+const TEST_TYPES = ["quiz-mcq", "quiz-fill", "conjugation-drill", "listening", "speaking"];
+
+function shuffleOptions(options: string[], correctIndex: number) {
   const indexed = options.map((opt, i) => ({ opt, isCorrect: i === correctIndex }));
   for (let i = indexed.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [indexed[i], indexed[j]] = [indexed[j], indexed[i]];
   }
-  return {
-    shuffled: indexed.map(x => x.opt),
-    newCorrectIndex: indexed.findIndex(x => x.isCorrect),
-  };
+  return { shuffled: indexed.map(x => x.opt), newCorrectIndex: indexed.findIndex(x => x.isCorrect) };
 }
 
 export default function LessonPage({ params }: { params: Promise<{ id: string }> }) {
   const router = useRouter();
   const { id } = use(params);
   const completeLesson = useProgressStore(s => s.completeLesson);
-  
+
   const lesson = lessonData[id as string];
-  const [currentBlockIdx, setCurrentBlockIdx] = useState(0);
+  const [phase, setPhase] = useState<"study" | "test">("study");
+  const [testBlockIdx, setTestBlockIdx] = useState(0);
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [totalQuizzes, setTotalQuizzes] = useState(0);
   const [lessonComplete, setLessonComplete] = useState(false);
-  
+
   if (!lesson) {
     return (
       <div className="flex-1 flex items-center justify-center">
@@ -52,39 +55,35 @@ export default function LessonPage({ params }: { params: Promise<{ id: string }>
     );
   }
 
-  const block = lesson.blocks[currentBlockIdx];
-  const progress = ((currentBlockIdx + 1) / lesson.blocks.length) * 100;
-  const isLast = currentBlockIdx === lesson.blocks.length - 1;
+  // Split blocks into study and test
+  const studyBlocks = lesson.blocks.filter(b => STUDY_TYPES.includes(b.type));
+  const testBlocks = lesson.blocks.filter(b => TEST_TYPES.includes(b.type));
+
+  const handleStartTest = () => { setPhase("test"); setTestBlockIdx(0); };
 
   const handleQuizCorrect = () => {
     setCorrectAnswers(prev => prev + 1);
     setTotalQuizzes(prev => prev + 1);
-    handleNext();
+    handleTestNext();
   };
 
-  const handleQuizWrong = () => {
-    setTotalQuizzes(prev => prev + 1);
-  };
+  const handleQuizWrong = () => { setTotalQuizzes(prev => prev + 1); };
 
-  const handleNext = () => {
-    if (isLast) {
-      // Calculate score
-      const interactiveCount = lesson.blocks.filter(b => ["quiz-mcq", "quiz-fill", "conjugation-drill"].includes(b.type)).length;
-      const score = interactiveCount > 0 ? Math.round((correctAnswers / interactiveCount) * 100) : 100;
-      const xpEarned = 30 + Math.round(score * 0.2); // 30-50 XP based on score
-      
+  const handleTestNext = () => {
+    if (testBlockIdx >= testBlocks.length - 1) {
+      const score = testBlocks.length > 0 ? Math.round((correctAnswers / testBlocks.length) * 100) : 100;
+      const xpEarned = 30 + Math.round(score * 0.2);
       completeLesson(lesson.id, score, xpEarned);
       setLessonComplete(true);
     } else {
-      setCurrentBlockIdx(prev => prev + 1);
+      setTestBlockIdx(prev => prev + 1);
     }
   };
 
+  // === LESSON COMPLETE ===
   if (lessonComplete) {
-    const interactiveCount = lesson.blocks.filter(b => ["quiz-mcq", "quiz-fill", "conjugation-drill"].includes(b.type)).length;
-    const score = interactiveCount > 0 ? Math.round((correctAnswers / interactiveCount) * 100) : 100;
+    const score = testBlocks.length > 0 ? Math.round((correctAnswers / testBlocks.length) * 100) : 100;
     const xpEarned = 30 + Math.round(score * 0.2);
-
     return (
       <div className="flex-1 flex items-center justify-center p-8">
         <div className="text-center space-y-8 max-w-md">
@@ -102,16 +101,16 @@ export default function LessonPage({ params }: { params: Promise<{ id: string }>
               <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground mt-1">XP Earned</p>
             </div>
           </div>
-          {interactiveCount > 0 && (
+          {testBlocks.length > 0 && (
             <p className="text-muted-foreground font-mono text-sm">
-              {correctAnswers}/{interactiveCount} exercises correct
+              {correctAnswers}/{testBlocks.length} exercises correct
             </p>
           )}
           <div className="flex flex-col gap-3 mt-8">
             <Button size="lg" className="w-full border-2" onClick={() => router.push("/learn")}>
               Continue Learning <ArrowRight className="ml-2 w-4 h-4" />
             </Button>
-            <Button variant="outline" size="lg" className="w-full border-2" onClick={() => { setCurrentBlockIdx(0); setCorrectAnswers(0); setTotalQuizzes(0); setLessonComplete(false); }}>
+            <Button variant="outline" size="lg" className="w-full border-2" onClick={() => { setPhase("study"); setTestBlockIdx(0); setCorrectAnswers(0); setTotalQuizzes(0); setLessonComplete(false); }}>
               Retry Lesson
             </Button>
           </div>
@@ -120,49 +119,101 @@ export default function LessonPage({ params }: { params: Promise<{ id: string }>
     );
   }
 
-  const isInteractiveBlock = ["quiz-mcq", "quiz-fill", "listening", "conjugation-drill", "speaking"].includes(block.type);
+  // === STUDY PHASE ===
+  if (phase === "study") {
+    return (
+      <div className="flex flex-col min-h-screen max-w-3xl mx-auto w-full p-4 sm:p-8">
+        <header className="flex items-center gap-4 mb-8 pt-4">
+          <Button variant="ghost" size="icon" onClick={() => router.push("/learn")}>
+            <XCircle className="w-6 h-6 text-muted-foreground" />
+          </Button>
+          <div className="flex-1 flex items-center gap-3">
+            <div className="bg-primary text-primary-foreground px-3 py-1 font-mono text-xs font-bold uppercase tracking-wider flex items-center gap-2">
+              <BookOpen size={14} /> Study
+            </div>
+            <span className="font-mono text-xs text-muted-foreground">{lesson.title}</span>
+          </div>
+          {testBlocks.length > 0 && (
+            <Button variant="outline" size="sm" className="border-2 font-mono text-xs" onClick={handleStartTest}>
+              Skip to Test <ArrowRight className="ml-1 w-3 h-3" />
+            </Button>
+          )}
+        </header>
+
+        <main className="flex-1 space-y-12 pb-8">
+          {studyBlocks.map((block, i) => (
+            <div key={i} className="animate-in fade-in slide-in-from-bottom-4 duration-500" style={{ animationDelay: `${i * 100}ms` }}>
+              {block.type === "vocabulary" && <VocabularyBlock block={block} />}
+              {block.type === "grammar" && <GrammarBlock block={block} />}
+              {block.type === "flashcard" && <FlashcardBlock cards={block.cards} />}
+              {block.type === "cultural-note" && <CulturalNoteBlock title={block.title} content={block.content} emoji={block.emoji} />}
+              {block.type === "example-dialogue" && <ExampleDialogueBlock title={block.title} lines={block.lines} context={block.context} />}
+              {block.type === "summary" && <SummaryBlock points={block.points} />}
+            </div>
+          ))}
+
+          {studyBlocks.length === 0 && (
+            <div className="text-center py-12 text-muted-foreground font-mono">
+              This lesson is all exercises. Let&apos;s test your knowledge!
+            </div>
+          )}
+        </main>
+
+        <footer className="mt-8 pt-6 border-t-2 border-border">
+          {testBlocks.length > 0 ? (
+            <Button size="lg" className="w-full border-2 text-lg py-6" onClick={handleStartTest}>
+              <PenTool className="mr-3 w-5 h-5" /> Start Test ({testBlocks.length} exercises) <ArrowRight className="ml-3 w-5 h-5" />
+            </Button>
+          ) : (
+            <Button size="lg" className="w-full border-2 text-lg py-6" onClick={() => { completeLesson(lesson.id, 100, 30); setLessonComplete(true); }}>
+              Complete Lesson <ArrowRight className="ml-3 w-5 h-5" />
+            </Button>
+          )}
+        </footer>
+      </div>
+    );
+  }
+
+  // === TEST PHASE ===
+  const testBlock = testBlocks[testBlockIdx];
+  const testProgress = ((testBlockIdx + 1) / testBlocks.length) * 100;
+  const isLastTest = testBlockIdx === testBlocks.length - 1;
 
   return (
     <div className="flex flex-col min-h-screen max-w-3xl mx-auto w-full p-4 sm:p-8">
       <header className="flex items-center gap-4 mb-8 pt-4">
-        <Button variant="ghost" size="icon" onClick={() => router.push("/learn")}>
-          <XCircle className="w-6 h-6 text-muted-foreground" />
+        <Button variant="ghost" size="icon" onClick={() => setPhase("study")}>
+          <ArrowLeft className="w-6 h-6 text-muted-foreground" />
         </Button>
-        <Progress value={progress} className="h-3 flex-1" />
+        <div className="bg-foreground text-background px-3 py-1 font-mono text-xs font-bold uppercase tracking-wider flex items-center gap-2">
+          <PenTool size={14} /> Test
+        </div>
+        <Progress value={testProgress} className="h-3 flex-1" />
         <span className="font-mono text-xs text-muted-foreground">
-          {currentBlockIdx + 1}/{lesson.blocks.length}
+          {testBlockIdx + 1}/{testBlocks.length}
         </span>
       </header>
 
       <main className="flex-1 flex flex-col justify-center min-h-[400px]">
-        <div key={currentBlockIdx} className="animate-in fade-in slide-in-from-bottom-4 duration-500">
-          {block.type === "vocabulary" && <VocabularyBlock block={block} />}
-          {block.type === "grammar" && <GrammarBlock block={block} />}
-          {block.type === "quiz-mcq" && <QuizMCQBlock key={`mcq-${currentBlockIdx}`} block={block} onCorrect={handleQuizCorrect} onWrong={handleQuizWrong} />}
-          {block.type === "quiz-fill" && <QuizFillBlock key={`fill-${currentBlockIdx}`} block={block} onCorrect={handleQuizCorrect} onWrong={handleQuizWrong} />}
-          {block.type === "speaking" && <SpeakingBlock block={block} onCorrect={handleQuizCorrect} />}
-          {block.type === "flashcard" && <FlashcardBlock cards={block.cards} />}
-          {block.type === "conjugation-drill" && <ConjugationDrillBlock verb={block.verb} translation={block.translation} tense={block.tense} pronouns={block.pronouns} correctForms={block.correctForms} hint={block.hint} onCorrect={handleQuizCorrect} />}
-          {block.type === "listening" && <ListeningBlock phrase={block.phrase} translation={block.translation} speed={block.speed} onCorrect={handleQuizCorrect} />}
+        <div key={testBlockIdx} className="animate-in fade-in slide-in-from-bottom-4 duration-500">
+          {testBlock.type === "quiz-mcq" && <QuizMCQBlock key={`mcq-${testBlockIdx}`} block={testBlock} onCorrect={handleQuizCorrect} onWrong={handleQuizWrong} />}
+          {testBlock.type === "quiz-fill" && <QuizFillBlock key={`fill-${testBlockIdx}`} block={testBlock} onCorrect={handleQuizCorrect} onWrong={handleQuizWrong} />}
+          {testBlock.type === "speaking" && <SpeakingBlock block={testBlock} onCorrect={handleQuizCorrect} />}
+          {testBlock.type === "conjugation-drill" && <ConjugationDrillBlock verb={testBlock.verb} translation={testBlock.translation} tense={testBlock.tense} pronouns={testBlock.pronouns} correctForms={testBlock.correctForms} hint={testBlock.hint} onCorrect={handleQuizCorrect} />}
+          {testBlock.type === "listening" && <ListeningBlock phrase={testBlock.phrase} translation={testBlock.translation} speed={testBlock.speed} onCorrect={handleQuizCorrect} />}
         </div>
       </main>
 
       <footer className="mt-8 pt-6 border-t-2 border-border flex justify-between items-center">
-        <Button 
-          variant="outline" 
-          disabled={currentBlockIdx === 0} 
-          onClick={() => setCurrentBlockIdx(prev => prev - 1)}
-          className="border-2"
-        >
+        <Button variant="outline" disabled={testBlockIdx === 0} onClick={() => setTestBlockIdx(prev => prev - 1)} className="border-2">
           <ArrowLeft className="mr-2 w-4 h-4" /> Back
         </Button>
-        <Button size="lg" onClick={handleNext} className={cn(isInteractiveBlock ? "hidden" : "", "border-2")}>
-          {isLast ? "Complete Lesson" : "Continue"} <ArrowRight className="ml-2 w-4 h-4" />
-        </Button>
+        <span className="font-mono text-xs text-muted-foreground">{correctAnswers} correct so far</span>
       </footer>
     </div>
   );
 }
+
 
 // --- Vocabulary Block ---
 function VocabularyBlock({ block }: { block: Extract<LessonBlock, { type: "vocabulary" }> }) {

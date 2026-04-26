@@ -18,6 +18,12 @@ export const lessonsA0: Record<string, Lesson> = {
         ]
       },
       {
+        type: "cultural-note",
+        title: "The Eszett (ß) Reform",
+        content: "In 2017, the German spelling council officially introduced an uppercase ß (ẞ). Before this, uppercase text replaced ß with SS (e.g., STRAẞE vs STRASSE). Switzerland and Liechtenstein don't use ß at all — they always write 'ss' instead.",
+        emoji: "🇩🇪"
+      },
+      {
         type: "grammar",
         title: "Diphthongs (Vowel Combinations)",
         explanation: "When certain vowels are combined, they make a completely new sound. These are crucial for correct pronunciation.",
@@ -29,17 +35,21 @@ export const lessonsA0: Record<string, Lesson> = {
         ]
       },
       {
-        type: "listening",
-        phrase: "Die Häuser sind groß.",
-        translation: "The houses are big.",
-        speed: "normal"
-      },
-      {
         type: "flashcard",
         cards: [
           { word: "groß", phonetic: "grohs", meaning: "big / large", example: { de: "Das Haus ist sehr groß.", en: "The house is very big." } },
+          { word: "schön", phonetic: "shöhn", meaning: "beautiful", example: { de: "Das Wetter ist schön.", en: "The weather is beautiful." } },
           { word: "neu", phonetic: "noy", meaning: "new", example: { de: "Das Auto ist neu.", en: "The car is new." } },
           { word: "zwei", phonetic: "tsvye", meaning: "two", example: { de: "Ich habe zwei Äpfel.", en: "I have two apples." } },
+        ]
+      },
+      {
+        type: "summary",
+        points: [
+          "German has 4 extra letters: ä, ö, ü (umlauts) and ß (eszett)",
+          "Key trick: 'ei' = 'eye', 'ie' = 'ee' — swap the sounds compared to spelling",
+          "Diphthongs 'eu/äu' = 'oy', 'au' = 'ow' — practice these daily",
+          "Switzerland doesn't use ß — they write 'ss' instead"
         ]
       },
       {
@@ -48,6 +58,19 @@ export const lessonsA0: Record<string, Lesson> = {
         options: ["Like 'eye'", "Like 'ee'", "Like 'oy'", "Like 'ay'"],
         correctIndex: 1,
         explanation: "'ie' sounds like a long 'e' (ee) in English. Conversely, 'ei' sounds like 'eye'."
+      },
+      {
+        type: "quiz-mcq",
+        question: "Which letter is NOT used in Switzerland?",
+        options: ["ä", "ö", "ß", "ü"],
+        correctIndex: 2,
+        explanation: "Switzerland and Liechtenstein don't use ß — they always write 'ss' instead (e.g., 'gross' instead of 'groß')."
+      },
+      {
+        type: "listening",
+        phrase: "Die Häuser sind groß.",
+        translation: "The houses are big.",
+        speed: "normal"
       }
     ]
   },
@@ -121,6 +144,12 @@ export const lessonsA0: Record<string, Lesson> = {
         ]
       },
       {
+        type: "cultural-note",
+        title: "Formality Matters in Germany",
+        content: "Germans take formality seriously. Use 'Guten Tag' and 'Auf Wiedersehen' with strangers, at work, and with older people. Only use 'Hallo' and 'Tschüss' with friends, family, and people your age. Getting this wrong can come across as rude — when in doubt, be formal!",
+        emoji: "🤝"
+      },
+      {
         type: "grammar",
         title: "Regional Greetings",
         explanation: "Depending on where you are in the German-speaking world, you will hear different greetings.",
@@ -131,11 +160,24 @@ export const lessonsA0: Record<string, Lesson> = {
         ]
       },
       {
-        type: "speaking",
-        phrase: "Guten Tag, auf Wiedersehen!",
-        translation: "Good day, goodbye!",
-        phonetic: "goo-ten tahk, owf vee-der-zayn",
-        tip: "Notice that 'Tag' is pronounced more like 'Tahk' at the end of the word."
+        type: "example-dialogue",
+        title: "Meeting a Colleague",
+        context: "Two colleagues meet in the morning at the office.",
+        lines: [
+          { speaker: "Anna", de: "Guten Morgen, Herr Weber!", en: "Good morning, Mr. Weber!" },
+          { speaker: "Herr Weber", de: "Guten Morgen, Frau Schmidt. Wie geht es Ihnen?", en: "Good morning, Ms. Schmidt. How are you?" },
+          { speaker: "Anna", de: "Gut, danke! Und Ihnen?", en: "Good, thank you! And you?" },
+          { speaker: "Herr Weber", de: "Auch gut, danke.", en: "Also good, thank you." }
+        ]
+      },
+      {
+        type: "summary",
+        points: [
+          "Use 'Guten Morgen/Tag/Abend' based on time of day (morning/day/evening)",
+          "'Gute Nacht' is ONLY for bedtime — never as a greeting",
+          "Formal: 'Auf Wiedersehen' / Informal: 'Tschüss'",
+          "When in doubt, use formal greetings — Germans appreciate politeness"
+        ]
       },
       {
         type: "quiz-mcq",
@@ -143,6 +185,20 @@ export const lessonsA0: Record<string, Lesson> = {
         options: ["Guten Abend", "Gute Nacht", "Guten Morgen", "Guten Tag"],
         correctIndex: 1,
         explanation: "'Gute Nacht' means good night and is only used when parting to go to sleep. 'Guten Abend' is used for greeting in the evening."
+      },
+      {
+        type: "quiz-fill",
+        sentenceBefore: "Auf ",
+        sentenceAfter: ", Frau Müller!",
+        missingWord: "Wiedersehen",
+        translation: "Goodbye, Ms. Müller!"
+      },
+      {
+        type: "speaking",
+        phrase: "Guten Tag, auf Wiedersehen!",
+        translation: "Good day, goodbye!",
+        phonetic: "goo-ten tahk, owf vee-der-zayn",
+        tip: "Notice that 'Tag' is pronounced more like 'Tahk' at the end of the word."
       }
     ]
   },

@@ -45,7 +45,10 @@ export type LessonBlock =
   | { type: "quiz-fill", sentenceBefore: string, sentenceAfter: string, missingWord: string, translation: string }
   | { type: "flashcard", cards: { word: string, phonetic: string, meaning: string, gender?: string, plural?: string, example: { de: string, en: string } }[] }
   | { type: "conjugation-drill", verb: string, translation: string, tense: string, pronouns: string[], correctForms: string[], hint?: string }
-  | { type: "listening", phrase: string, translation: string, speed: "slow" | "normal" };
+  | { type: "listening", phrase: string, translation: string, speed: "slow" | "normal" }
+  | { type: "cultural-note", title: string, content: string, emoji: string }
+  | { type: "example-dialogue", title: string, lines: { speaker: string, de: string, en: string }[], context: string }
+  | { type: "summary", points: string[] };
 
 export type Lesson = {
   id: string;
