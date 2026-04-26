@@ -7,11 +7,16 @@ import { useProgressStore } from "@/store/useProgressStore";
 import { lessonData } from "@/data/lessons";
 
 export default function ProgressPage() {
-  const { xp, streak, lessons } = useProgressStore();
+  const { xp, streak, lessons, level } = useProgressStore();
 
   const completedCount = Object.values(lessons).filter(l => l.status === "completed").length;
-  // Calculate CEFR level based on completed lessons roughly
-  const currentLevel = completedCount >= 60 ? "B2" : completedCount >= 45 ? "B1" : completedCount >= 30 ? "A2" : completedCount >= 12 ? "A1" : "A0";
+  // Use stored level from assessment, fallback to calculated level
+  const currentLevel = level || (
+    completedCount >= 217 ? "B2" :
+    completedCount >= 121 ? "B1" :
+    completedCount >= 54 ? "A2" :
+    completedCount >= 12 ? "A1" : "A0"
+  );
 
   const stats = [
     { label: "Day Streak", value: String(streak).padStart(2, "0"), icon: Flame, color: "text-primary" },

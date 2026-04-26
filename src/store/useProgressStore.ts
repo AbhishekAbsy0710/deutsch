@@ -30,7 +30,7 @@ interface ProgressStore extends UserProgress {
   unlockLesson: (lessonId: string) => void;
   setAssessment: (goal: string, level: string) => void;
   getLessonStatus: (lessonId: string) => LessonStatus;
-  resetProgress: () => void;
+  resetProgress: () => Promise<void>;
   // Cloud sync
   syncWithSupabase: (userId: string) => Promise<void>;
   saveToCloud: (userId: string) => void;
@@ -201,25 +201,28 @@ export const useProgressStore = create<ProgressStore>()(
         return lesson?.status ?? "locked";
       },
 
-      resetProgress: () => {
-        // Clear cloud data if user is logged in
+      resetProgress: async () => {
+        // Clear cloud data FIRST and WAIT for it
         const userId = get()._userId;
         if (userId) {
-          import("@/lib/supabase").then(({ createClient }) => {
+          try {
+            const { createClient } = await import("@/lib/supabase");
             const supabase = createClient();
-            // Delete all lesson progress rows for this user
-            supabase
+            // Delete all lesson progress rows for this user — AWAIT!
+            await supabase
               .from("lesson_progress")
               .delete()
-              .eq("user_id", userId)
-              .then(() => console.log("[Store] Cleared cloud lesson progress"));
-            // Reset profile stats
-            supabase
+              .eq("user_id", userId);
+            console.log("[Store] Cleared cloud lesson progress");
+            // Reset profile stats — AWAIT!
+            await supabase
               .from("profiles")
               .update({ xp: 0, streak: 0, current_level: "A0" })
-              .eq("id", userId)
-              .then(() => console.log("[Store] Reset cloud profile"));
-          });
+              .eq("id", userId);
+            console.log("[Store] Reset cloud profile");
+          } catch (err) {
+            console.error("[Store] Cloud reset error:", err);
+          }
         }
         
         // Build FRESH lessons object (don't reuse DEFAULT_LESSONS reference)

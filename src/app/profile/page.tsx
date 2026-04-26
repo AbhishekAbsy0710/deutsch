@@ -174,13 +174,14 @@ export default function ProfilePage() {
 
         {/* Reset Progress */}
         <button
-          onClick={() => { 
+          onClick={async () => { 
             if (confirm("Reset all progress? This cannot be undone.")) {
-              resetProgress();
+              // Await cloud deletion + local state reset
+              await resetProgress();
               // Clear persisted zustand state
               localStorage.removeItem('deutsch-progress');
-              // Wait briefly for cloud delete requests to fire, then go to assessment
-              setTimeout(() => { window.location.href = '/assessment'; }, 500);
+              // Cloud is clean, local is clean — go to assessment
+              window.location.href = '/assessment';
             }
           }}
           className="w-full border-2 border-dashed border-border p-6 text-muted-foreground hover:border-red-500 hover:text-red-500 transition-colors flex items-center justify-center gap-3 font-mono text-sm"
