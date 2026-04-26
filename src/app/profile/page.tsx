@@ -179,8 +179,8 @@ export default function ProfilePage() {
               resetProgress();
               // Clear persisted zustand state
               localStorage.removeItem('deutsch-progress');
-              // Wait briefly for cloud delete requests to fire, then reload
-              setTimeout(() => { window.location.href = '/'; }, 500);
+              // Wait briefly for cloud delete requests to fire, then go to assessment
+              setTimeout(() => { window.location.href = '/assessment'; }, 500);
             }
           }}
           className="w-full border-2 border-dashed border-border p-6 text-muted-foreground hover:border-red-500 hover:text-red-500 transition-colors flex items-center justify-center gap-3 font-mono text-sm"
