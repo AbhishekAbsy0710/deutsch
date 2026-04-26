@@ -221,7 +221,23 @@ export const useProgressStore = create<ProgressStore>()(
               .then(() => console.log("[Store] Reset cloud profile"));
           });
         }
-        set({ ...initialState, _userId: userId });
+        
+        // Build FRESH lessons object (don't reuse DEFAULT_LESSONS reference)
+        const freshLessons: Record<string, LessonProgress> = {};
+        lessonIds.forEach((id) => {
+          freshLessons[id] = { status: id === lessonIds[0] ? "active" : "locked", attempts: 0 };
+        });
+        
+        // Explicitly set every field to avoid Zustand persist shallow merge issues
+        set({
+          lessons: freshLessons,
+          xp: 0,
+          streak: 0,
+          lastActiveDate: null,
+          goal: null,
+          level: null,
+          _userId: userId,
+        });
       },
 
       // Sync with Supabase on login

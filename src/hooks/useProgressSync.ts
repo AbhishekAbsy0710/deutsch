@@ -15,6 +15,13 @@ export function useProgressSync() {
     if (hasSynced.current) return;
 
     const doSync = async () => {
+      // Skip sync if user just reset (no level = fresh state)
+      const currentLevel = useProgressStore.getState().level;
+      if (!currentLevel) {
+        console.log("[ProgressSync] No level set — skipping sync (fresh/reset state)");
+        return;
+      }
+
       const supabase = createClient();
       const { data: { user } } = await supabase.auth.getUser();
       
