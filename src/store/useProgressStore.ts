@@ -197,7 +197,26 @@ export const useProgressStore = create<ProgressStore>()(
       },
 
       resetProgress: () => {
-        set(initialState);
+        // Clear cloud data if user is logged in
+        const userId = get()._userId;
+        if (userId) {
+          import("@/lib/supabase").then(({ createClient }) => {
+            const supabase = createClient();
+            // Delete all lesson progress rows for this user
+            supabase
+              .from("lesson_progress")
+              .delete()
+              .eq("user_id", userId)
+              .then(() => console.log("[Store] Cleared cloud lesson progress"));
+            // Reset profile stats
+            supabase
+              .from("profiles")
+              .update({ xp: 0, streak: 0, current_level: "A0" })
+              .eq("id", userId)
+              .then(() => console.log("[Store] Reset cloud profile"));
+          });
+        }
+        set({ ...initialState, _userId: userId });
       },
 
       // Sync with Supabase on login

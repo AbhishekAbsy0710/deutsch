@@ -177,9 +177,10 @@ export default function ProfilePage() {
           onClick={() => { 
             if (confirm("Reset all progress? This cannot be undone.")) {
               resetProgress();
-              // Clear persisted zustand state and reload
+              // Clear persisted zustand state
               localStorage.removeItem('deutsch-progress');
-              window.location.href = '/';
+              // Wait briefly for cloud delete requests to fire, then reload
+              setTimeout(() => { window.location.href = '/'; }, 500);
             }
           }}
           className="w-full border-2 border-dashed border-border p-6 text-muted-foreground hover:border-red-500 hover:text-red-500 transition-colors flex items-center justify-center gap-3 font-mono text-sm"
