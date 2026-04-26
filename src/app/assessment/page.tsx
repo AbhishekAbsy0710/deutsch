@@ -21,6 +21,7 @@ const levels = [
   { id: "A1", title: "Beginner", desc: "I know basic phrases (Hallo, Danke)." },
   { id: "A2", title: "Elementary", desc: "I can have very simple conversations." },
   { id: "B1", title: "Intermediate", desc: "I can talk about familiar topics." },
+  { id: "B2", title: "Upper Intermediate", desc: "I can discuss complex topics fluently." },
 ];
 
 export default function AssessmentPage() {
