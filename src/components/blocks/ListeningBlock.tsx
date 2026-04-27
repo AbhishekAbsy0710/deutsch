@@ -4,6 +4,7 @@ import { useState, useCallback } from "react";
 import { motion } from "framer-motion";
 import { Volume2, Check, X, RotateCcw, Gauge } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { speakGermanNeural } from "@/lib/tts";
 
 type Props = {
   phrase: string;
@@ -18,16 +19,8 @@ export default function ListeningBlock({ phrase, translation, speed, onCorrect }
   const [showTranslation, setShowTranslation] = useState(false);
   const [currentSpeed, setCurrentSpeed] = useState<"slow" | "normal">(speed === "slow" ? "slow" : "normal");
 
-  const speak = useCallback((rate: number) => {
-    if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
-    window.speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(phrase);
-    u.lang = "de-DE";
-    u.rate = rate;
-    const voices = window.speechSynthesis.getVoices();
-    const deVoice = voices.find(v => v.lang === "de-DE");
-    if (deVoice) u.voice = deVoice;
-    window.speechSynthesis.speak(u);
+  const speak = useCallback(() => {
+    speakGermanNeural(phrase);
   }, [phrase]);
 
   const normalizeText = (t: string) => t.toLowerCase().trim()
@@ -56,10 +49,10 @@ export default function ListeningBlock({ phrase, translation, speed, onCorrect }
       </div>
 
       <div className="flex gap-3">
-        <button onClick={() => { setCurrentSpeed("slow"); speak(0.6); }} className={cn("flex-1 border-2 py-3 flex items-center justify-center gap-2 font-mono text-sm font-bold uppercase transition-colors", currentSpeed === "slow" ? "border-primary bg-primary/10 text-primary" : "border-border hover:border-foreground")}>
+        <button onClick={() => { setCurrentSpeed("slow"); speak(); }} className={cn("flex-1 border-2 py-3 flex items-center justify-center gap-2 font-mono text-sm font-bold uppercase transition-colors", currentSpeed === "slow" ? "border-primary bg-primary/10 text-primary" : "border-border hover:border-foreground")}>
           <Gauge size={16} /> Slow
         </button>
-        <button onClick={() => { setCurrentSpeed("normal"); speak(0.9); }} className={cn("flex-1 border-2 py-3 flex items-center justify-center gap-2 font-mono text-sm font-bold uppercase transition-colors", currentSpeed === "normal" ? "border-primary bg-primary/10 text-primary" : "border-border hover:border-foreground")}>
+        <button onClick={() => { setCurrentSpeed("normal"); speak(); }} className={cn("flex-1 border-2 py-3 flex items-center justify-center gap-2 font-mono text-sm font-bold uppercase transition-colors", currentSpeed === "normal" ? "border-primary bg-primary/10 text-primary" : "border-border hover:border-foreground")}>
           <Volume2 size={16} /> Normal
         </button>
       </div>

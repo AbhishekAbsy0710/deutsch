@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Volume2, RotateCcw, ChevronLeft, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { speakGermanNeural } from "@/lib/tts";
 
 type Card = {
   word: string;
@@ -28,15 +29,7 @@ export default function FlashcardBlock({ cards, onComplete }: Props) {
   const card = cards[idx];
 
   const speak = (text: string) => {
-    if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
-    window.speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = "de-DE";
-    u.rate = 0.85;
-    const voices = window.speechSynthesis.getVoices();
-    const deVoice = voices.find(v => v.lang === "de-DE");
-    if (deVoice) u.voice = deVoice;
-    window.speechSynthesis.speak(u);
+    speakGermanNeural(text);
   };
 
   const handleAnswer = (correct: boolean) => {

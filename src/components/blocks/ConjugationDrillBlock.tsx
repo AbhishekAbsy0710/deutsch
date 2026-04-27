@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Check, X, Volume2, RotateCcw } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { speakGermanNeural } from "@/lib/tts";
 
 type Props = {
   verb: string;
@@ -21,15 +22,7 @@ export default function ConjugationDrillBlock({ verb, translation, tense, pronou
   const [showHint, setShowHint] = useState(false);
 
   const speak = (text: string) => {
-    if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
-    window.speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = "de-DE";
-    u.rate = 0.85;
-    const voices = window.speechSynthesis.getVoices();
-    const deVoice = voices.find(v => v.lang === "de-DE");
-    if (deVoice) u.voice = deVoice;
-    window.speechSynthesis.speak(u);
+    speakGermanNeural(text);
   };
 
   const handleSubmit = () => setSubmitted(true);

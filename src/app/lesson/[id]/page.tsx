@@ -8,7 +8,8 @@ import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Mic, Volume2, ArrowRight, ArrowLeft, CheckCircle2, XCircle, MicOff, Trophy, BookOpen, PenTool } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { useSpeechRecognition, speakGerman, comparePronunciation } from "@/hooks/useSpeechRecognition";
+import { useSpeechRecognition, comparePronunciation } from "@/hooks/useSpeechRecognition";
+import { speakGermanNeural } from "@/lib/tts";
 import { OrganicPulse } from "@/components/OrganicPulse";
 import FlashcardBlock from "@/components/blocks/FlashcardBlock";
 import ConjugationDrillBlock from "@/components/blocks/ConjugationDrillBlock";
@@ -222,12 +223,8 @@ function VocabularyBlock({ block }: { block: Extract<LessonBlock, { type: "vocab
   const playAudio = async () => {
     setIsPlaying(true);
     try {
-      await speakGerman(block.word);
-    } catch {
-      const utterance = new SpeechSynthesisUtterance(block.word);
-      utterance.lang = "de-DE";
-      window.speechSynthesis.speak(utterance);
-    }
+      await speakGermanNeural(block.word);
+    } catch { /* ignore */ }
     setIsPlaying(false);
   };
 
@@ -259,14 +256,8 @@ function VocabularyBlock({ block }: { block: Extract<LessonBlock, { type: "vocab
 
 // --- Grammar Block ---
 function GrammarBlock({ block }: { block: Extract<LessonBlock, { type: "grammar" }> }) {
-  const playAudio = async (text: string) => {
-    try {
-      await speakGerman(text);
-    } catch {
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = "de-DE";
-      window.speechSynthesis.speak(utterance);
-    }
+  const playAudio = (text: string) => {
+    speakGermanNeural(text);
   };
 
   return (
@@ -447,7 +438,7 @@ function SpeakingBlock({ block, onCorrect }: { block: Extract<LessonBlock, { typ
 
   const playTarget = async () => {
     try {
-      await speakGerman(block.phrase);
+      await speakGermanNeural(block.phrase);
     } catch {
       // Silent fallback
     }

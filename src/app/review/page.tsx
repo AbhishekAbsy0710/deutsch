@@ -5,9 +5,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Volume2, ChevronLeft, ChevronRight, RotateCcw, Trophy, BookOpen } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { getBoxLabel, getBoxColor } from "@/lib/srs";
+import { speakGermanNeural } from "@/lib/tts";
+import { useProgressStore } from "@/store/useProgressStore";
+import { lessonData } from "@/data/lessons";
 import Link from "next/link";
 
-// Temporary local storage for flashcard reviews until Supabase is configured
 type LocalReview = {
   word_id: string;
   word: string;
@@ -30,24 +32,50 @@ function saveReviews(reviews: LocalReview[]) {
   localStorage.setItem("flashcard_reviews", JSON.stringify(reviews));
 }
 
-// Sample vocabulary to seed the review system
-const SEED_VOCABULARY: Omit<LocalReview, "box" | "next_review">[] = [
-  { word_id: "hallo", word: "Hallo", phonetic: "ha-loh", meaning: "Hello", example: { de: "Hallo, wie geht es dir?", en: "Hello, how are you?" } },
-  { word_id: "tschuess", word: "Tschüss", phonetic: "chüss", meaning: "Goodbye", example: { de: "Tschüss, bis morgen!", en: "Bye, see you tomorrow!" } },
-  { word_id: "bitte", word: "Bitte", phonetic: "bi-tuh", meaning: "Please / You're welcome", example: { de: "Ein Wasser, bitte.", en: "A water, please." } },
-  { word_id: "danke", word: "Danke", phonetic: "dan-kuh", meaning: "Thank you", example: { de: "Danke schön!", en: "Thank you very much!" } },
-  { word_id: "ja", word: "Ja", phonetic: "yah", meaning: "Yes", example: { de: "Ja, ich verstehe.", en: "Yes, I understand." } },
-  { word_id: "nein", word: "Nein", phonetic: "nine", meaning: "No", example: { de: "Nein, danke.", en: "No, thank you." } },
-  { word_id: "gut", word: "Gut", phonetic: "goot", meaning: "Good", example: { de: "Mir geht es gut.", en: "I'm doing well." } },
-  { word_id: "schlecht", word: "Schlecht", phonetic: "shlesht", meaning: "Bad", example: { de: "Das Wetter ist schlecht.", en: "The weather is bad." } },
-  { word_id: "der_hund", word: "der Hund", phonetic: "hoont", meaning: "the dog", gender: "der", example: { de: "Der Hund ist groß.", en: "The dog is big." } },
-  { word_id: "die_katze", word: "die Katze", phonetic: "ka-tsuh", meaning: "the cat", gender: "die", example: { de: "Die Katze schläft.", en: "The cat is sleeping." } },
-  { word_id: "das_haus", word: "das Haus", phonetic: "house", meaning: "the house", gender: "das", example: { de: "Das Haus ist groß.", en: "The house is big." } },
-  { word_id: "ich_bin", word: "Ich bin", phonetic: "ikh bin", meaning: "I am", example: { de: "Ich bin Student.", en: "I am a student." } },
-  { word_id: "entschuldigung", word: "Entschuldigung", phonetic: "ent-shool-di-gung", meaning: "Excuse me / Sorry", example: { de: "Entschuldigung, wo ist der Bahnhof?", en: "Excuse me, where is the train station?" } },
-  { word_id: "sprechen", word: "sprechen", phonetic: "shpre-khen", meaning: "to speak", example: { de: "Ich spreche Deutsch.", en: "I speak German." } },
-  { word_id: "lernen", word: "lernen", phonetic: "ler-nen", meaning: "to learn", example: { de: "Ich lerne Deutsch.", en: "I am learning German." } },
-];
+/**
+ * Extract all vocabulary from completed lessons.
+ * Pulls from flashcard blocks and vocabulary blocks.
+ */
+function getVocabFromCompletedLessons(completedLessonIds: string[]): Omit<LocalReview, "box" | "next_review">[] {
+  const vocab: Omit<LocalReview, "box" | "next_review">[] = [];
+  const seen = new Set<string>();
+
+  for (const lessonId of completedLessonIds) {
+    const lesson = lessonData[lessonId];
+    if (!lesson) continue;
+
+    for (const block of lesson.blocks) {
+      if (block.type === "flashcard") {
+        for (const card of block.cards) {
+          const id = card.word.toLowerCase().replace(/\s+/g, "_");
+          if (seen.has(id)) continue;
+          seen.add(id);
+          vocab.push({
+            word_id: id,
+            word: card.word,
+            phonetic: card.phonetic,
+            meaning: card.meaning,
+            gender: card.gender,
+            example: card.example,
+          });
+        }
+      }
+      if (block.type === "vocabulary") {
+        const id = block.word.toLowerCase().replace(/\s+/g, "_");
+        if (seen.has(id)) continue;
+        seen.add(id);
+        vocab.push({
+          word_id: id,
+          word: block.word,
+          phonetic: block.phonetic,
+          meaning: block.translation,
+          example: { de: block.example, en: block.translation },
+        });
+      }
+    }
+  }
+  return vocab;
+}
 
 export default function ReviewPage() {
   const [reviews, setReviews] = useState<LocalReview[]>([]);
@@ -57,29 +85,38 @@ export default function ReviewPage() {
   const [sessionResults, setSessionResults] = useState<{ word: string; correct: boolean }[]>([]);
   const [sessionComplete, setSessionComplete] = useState(false);
 
+  const lessons = useProgressStore(s => s.lessons);
+
   useEffect(() => {
+    // Get completed lesson IDs
+    const completedIds = Object.entries(lessons)
+      .filter(([, lp]) => lp.status === "completed")
+      .map(([id]) => id);
+
+    // Get vocabulary from completed lessons
+    const lessonVocab = getVocabFromCompletedLessons(completedIds);
+
+    // Load existing SRS data
     let stored = getStoredReviews();
-    if (stored.length === 0) {
-      // Seed with initial vocabulary
-      const today = new Date().toISOString().split("T")[0];
-      stored = SEED_VOCABULARY.map(v => ({ ...v, box: 1, next_review: today }));
-      saveReviews(stored);
-    }
-    setReviews(stored);
+    const storedIds = new Set(stored.map(r => r.word_id));
     const today = new Date().toISOString().split("T")[0];
+
+    // Add new words from newly completed lessons
+    let hasNew = false;
+    for (const v of lessonVocab) {
+      if (!storedIds.has(v.word_id)) {
+        stored.push({ ...v, box: 1, next_review: today });
+        hasNew = true;
+      }
+    }
+
+    if (hasNew) saveReviews(stored);
+    setReviews(stored);
     setDueCards(stored.filter(r => r.next_review <= today));
-  }, []);
+  }, [lessons]);
 
   const speak = useCallback((text: string) => {
-    if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
-    window.speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = "de-DE";
-    u.rate = 0.85;
-    const voices = window.speechSynthesis.getVoices();
-    const deVoice = voices.find(v => v.lang === "de-DE");
-    if (deVoice) u.voice = deVoice;
-    window.speechSynthesis.speak(u);
+    speakGermanNeural(text);
   }, []);
 
   const handleAnswer = (correct: boolean) => {
@@ -90,7 +127,6 @@ export default function ReviewPage() {
     const nextDate = new Date();
     nextDate.setDate(nextDate.getDate() + interval);
 
-    // Update reviews
     const updated = reviews.map(r => r.word_id === card.word_id ? { ...r, box: newBox, next_review: nextDate.toISOString().split("T")[0] } : r);
     setReviews(updated);
     saveReviews(updated);
@@ -106,27 +142,33 @@ export default function ReviewPage() {
     }
   };
 
+  // === NO CARDS ===
   if (dueCards.length === 0) {
     const mastered = reviews.filter(r => r.box >= 4).length;
+    const completedCount = Object.values(lessons).filter(l => l.status === "completed").length;
     return (
       <div className="flex-1 flex flex-col items-center justify-center px-6 py-20 text-center">
         <Trophy size={64} className="text-primary mb-6" />
-        <h1 className="text-4xl font-black uppercase tracking-tighter mb-4">All caught up!</h1>
+        <h1 className="text-4xl font-black uppercase tracking-tighter mb-4">
+          {reviews.length === 0 ? "No words to review yet!" : "All caught up!"}
+        </h1>
         <p className="text-muted-foreground font-mono text-sm max-w-md">
-          No cards due for review today. Come back tomorrow!
+          {reviews.length === 0
+            ? "Complete some lessons first to unlock vocabulary for review."
+            : "No cards due for review today. Come back tomorrow!"}
         </p>
         <div className="mt-8 grid grid-cols-3 gap-4 font-mono text-sm">
           <div className="border-2 border-foreground p-4 text-center">
             <div className="text-3xl font-black">{reviews.length}</div>
-            <div className="text-xs text-muted-foreground uppercase tracking-widest">Total Cards</div>
+            <div className="text-xs text-muted-foreground uppercase tracking-widest">Total Words</div>
           </div>
           <div className="border-2 border-green-500 p-4 text-center">
             <div className="text-3xl font-black text-green-600">{mastered}</div>
             <div className="text-xs text-muted-foreground uppercase tracking-widest">Mastered</div>
           </div>
           <div className="border-2 border-primary p-4 text-center">
-            <div className="text-3xl font-black text-primary">{Math.round((mastered / Math.max(reviews.length, 1)) * 100)}%</div>
-            <div className="text-xs text-muted-foreground uppercase tracking-widest">Progress</div>
+            <div className="text-3xl font-black text-primary">{completedCount}</div>
+            <div className="text-xs text-muted-foreground uppercase tracking-widest">Lessons</div>
           </div>
         </div>
         <Link href="/learn" className="mt-8 border-2 border-foreground px-6 py-3 font-mono text-sm font-bold uppercase tracking-widest hover:bg-foreground hover:text-background transition-colors flex items-center gap-2">
@@ -136,6 +178,7 @@ export default function ReviewPage() {
     );
   }
 
+  // === SESSION COMPLETE ===
   if (sessionComplete) {
     const correct = sessionResults.filter(r => r.correct).length;
     return (
@@ -160,6 +203,7 @@ export default function ReviewPage() {
     );
   }
 
+  // === REVIEW CARD ===
   const card = dueCards[currentIdx];
   const genderColor = card.gender === "der" ? "text-blue-500" : card.gender === "die" ? "text-pink-500" : card.gender === "das" ? "text-green-500" : "";
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { Volume2 } from "lucide-react";
-import { speakGerman } from "@/hooks/useSpeechRecognition";
+import { speakGermanNeural } from "@/lib/tts";
 
 type DialogueLine = { speaker: string; de: string; en: string };
 
@@ -14,14 +14,8 @@ export default function ExampleDialogueBlock({
   lines: DialogueLine[]; 
   context: string;
 }) {
-  const playLine = async (text: string) => {
-    try {
-      await speakGerman(text);
-    } catch {
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = "de-DE";
-      window.speechSynthesis.speak(utterance);
-    }
+  const playLine = (text: string) => {
+    speakGermanNeural(text);
   };
 
   return (
