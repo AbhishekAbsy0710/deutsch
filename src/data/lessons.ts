@@ -39,6 +39,7 @@ import { lessonsB2Supplement } from "./lessons-b2-supplement";
 import { lessonsC1Partikeln } from "./lessons-c1-partikeln";
 import { lessonsC1Grammar } from "./lessons-c1-grammar";
 import { lessonsC1Grammar2 } from "./lessons-c1-grammar2";
+import { lessonsC1Grammar3 } from "./lessons-c1-grammar3";
 import { lessonsC1Writing } from "./lessons-c1-writing";
 import { lessonsC1Vocab } from "./lessons-c1-vocab";
 import { lessonsC1Exam } from "./lessons-c1-exam";
@@ -107,6 +108,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC1Partikeln,
   ...lessonsC1Grammar,
   ...lessonsC1Grammar2,
+  ...lessonsC1Grammar3,
   ...lessonsC1Writing,
   ...lessonsC1Vocab,
   ...lessonsC1Exam,
