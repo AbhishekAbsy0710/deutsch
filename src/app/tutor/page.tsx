@@ -40,27 +40,82 @@ export default function TutorPage() {
     const currentStreak = storeState.streak;
     const currentLevel = storeState.level;
     
-    const completed = Object.entries(lessons)
+    // Module ordering for level determination
+    const MODULE_ORDER = ["A0", "A1", "A2", "B1", "B2", "C1", "C2"];
+    
+    // Compute completed lessons grouped by module
+    const completedByModule: Record<string, string[]> = {};
+    const completedIds: string[] = [];
+    Object.entries(lessons)
       .filter(([, p]) => p.status === "completed")
-      .map(([id]) => {
+      .forEach(([id]) => {
+        completedIds.push(id);
         const lesson = lessonData[id];
-        return lesson ? `${lesson.title} (${lesson.module})` : id;
+        if (lesson) {
+          if (!completedByModule[lesson.module]) completedByModule[lesson.module] = [];
+          completedByModule[lesson.module].push(lesson.title);
+        }
       });
     
-    const active = Object.entries(lessons)
+    // Determine highest completed module
+    let highestCompletedModule = "none";
+    for (let i = MODULE_ORDER.length - 1; i >= 0; i--) {
+      if (completedByModule[MODULE_ORDER[i]]?.length > 0) {
+        highestCompletedModule = MODULE_ORDER[i];
+        break;
+      }
+    }
+    
+    // Determine currently studying module (from active lessons)
+    let currentlyStudying = "none";
+    const activeEntries = Object.entries(lessons)
       .filter(([, p]) => p.status === "active")
-      .map(([id]) => {
-        const lesson = lessonData[id];
-        return lesson ? `${lesson.title} (${lesson.module})` : id;
-      });
+      .map(([id]) => lessonData[id])
+      .filter(Boolean);
+    
+    if (activeEntries.length > 0) {
+      // Get the highest-level active module
+      for (let i = MODULE_ORDER.length - 1; i >= 0; i--) {
+        if (activeEntries.some(l => l.module === MODULE_ORDER[i])) {
+          currentlyStudying = MODULE_ORDER[i];
+          break;
+        }
+      }
+    }
+    
+    // Get last 5 completed lesson titles for targeted testing
+    const recentCompleted = completedIds.slice(-5).map(id => {
+      const lesson = lessonData[id];
+      return lesson ? `${lesson.title} (${lesson.module})` : id;
+    });
+    
+    // Build per-module summary
+    const moduleCounts = MODULE_ORDER
+      .filter(m => completedByModule[m]?.length > 0)
+      .map(m => `${m}: ${completedByModule[m].length} lessons`)
+      .join(", ");
+    
+    // Get next uncompleted lesson at the student's current or next level
+    const targetLevel = currentlyStudying !== "none" ? currentlyStudying : 
+      (highestCompletedModule !== "none" ? highestCompletedModule : "A0");
+    const nextLesson = Object.keys(lessonData).find(id => {
+      const lesson = lessonData[id];
+      const progress = lessons[id];
+      return lesson && lesson.module === targetLevel && 
+        (!progress || progress.status !== "completed");
+    });
+    const nextLessonTitle = nextLesson ? `${lessonData[nextLesson].title} (${lessonData[nextLesson].module})` : "none";
 
     let summary = "\n\nSTUDENT PROGRESS FROM LEARN TAB:\n";
-    if (currentLevel) summary += `Level: ${currentLevel}\n`;
+    summary += `⭐ Highest completed module: ${highestCompletedModule}\n`;
+    summary += `📖 Currently studying: ${currentlyStudying}\n`;
+    if (currentLevel) summary += `Assessment level: ${currentLevel}\n`;
     summary += `XP: ${currentXp}, Streak: ${currentStreak} days\n`;
-    if (completed.length > 0) summary += `Completed lessons: ${completed.join(", ")}\n`;
-    else summary += `Completed lessons: none yet\n`;
-    if (active.length > 0) summary += `Currently available: ${active.join(", ")}\n`;
-    summary += "Use this info to answer progress questions and guide the student.";
+    summary += `Completed by module: ${moduleCounts || "none yet"}\n`;
+    summary += `Total completed: ${completedIds.length} lessons\n`;
+    if (recentCompleted.length > 0) summary += `Recent lessons: ${recentCompleted.join(", ")}\n`;
+    summary += `Next recommended lesson: ${nextLessonTitle}\n`;
+    summary += "\nIMPORTANT: The student's REAL level is their highest completed module. Test them at THIS level, not lower. If they completed B1 lessons, they are a B1 student — quiz them on B1 grammar, not A1 vocabulary.";
     
     console.log("[Tutor] Progress summary:", summary);
     return summary;
