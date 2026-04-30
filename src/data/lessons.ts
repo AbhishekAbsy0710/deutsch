@@ -36,6 +36,8 @@ import { lessonsB2Exam } from "./lessons-b2-exam";
 import { lessonsB2Comm } from "./lessons-b2-comm";
 import { lessonsB2Final } from "./lessons-b2-final";
 import { lessonsB2Supplement } from "./lessons-b2-supplement";
+import { lessonsC1Partikeln } from "./lessons-c1-partikeln";
+import { lessonsC1Grammar } from "./lessons-c1-grammar";
 
 export type LessonBlock = 
   | { type: "vocabulary", word: string, translation: string, example: string, audioUrl?: string, phonetic: string }
@@ -98,4 +100,6 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsB2Comm,
   ...lessonsB2Final,
   ...lessonsB2Supplement,
+  ...lessonsC1Partikeln,
+  ...lessonsC1Grammar,
 };
