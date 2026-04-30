@@ -17,6 +17,9 @@ import ListeningBlock from "@/components/blocks/ListeningBlock";
 import CulturalNoteBlock from "@/components/blocks/CulturalNoteBlock";
 import ExampleDialogueBlock from "@/components/blocks/ExampleDialogueBlock";
 import SummaryBlock from "@/components/blocks/SummaryBlock";
+import { motion } from "framer-motion";
+import Confetti from "react-confetti";
+import { useWindowSize } from "react-use";
 
 const STUDY_TYPES = ["vocabulary", "grammar", "flashcard", "cultural-note", "example-dialogue", "summary"];
 const TEST_TYPES = ["quiz-mcq", "quiz-fill", "conjugation-drill", "listening", "speaking"];
@@ -34,6 +37,7 @@ export default function LessonPage({ params }: { params: Promise<{ id: string }>
   const router = useRouter();
   const { id } = use(params);
   const completeLesson = useProgressStore(s => s.completeLesson);
+  const { width, height } = useWindowSize();
 
   const lesson = lessonData[id as string];
   const [phase, setPhase] = useState<"study" | "test">("study");
@@ -85,37 +89,66 @@ export default function LessonPage({ params }: { params: Promise<{ id: string }>
   if (lessonComplete) {
     const score = testBlocks.length > 0 ? Math.round((correctAnswers / testBlocks.length) * 100) : 100;
     const xpEarned = 30 + Math.round(score * 0.2);
+    
+    const containerVariants = {
+      hidden: { opacity: 0 },
+      show: {
+        opacity: 1,
+        transition: { staggerChildren: 0.2, delayChildren: 0.1 }
+      }
+    };
+    
+    const itemVariants = {
+      hidden: { opacity: 0, y: 20 },
+      show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 300, damping: 24 } as any }
+    };
+
     return (
       <div className="flex-1 flex items-center justify-center p-8">
-        <div className="text-center space-y-8 max-w-md">
-          <div className="w-24 h-24 bg-primary flex items-center justify-center mx-auto">
+        <Confetti width={width} height={height} recycle={false} numberOfPieces={500} gravity={0.15} />
+        <motion.div 
+          className="text-center space-y-8 max-w-md relative z-10 bg-background/80 p-8 rounded-3xl backdrop-blur-sm"
+          variants={containerVariants}
+          initial="hidden"
+          animate="show"
+        >
+          <motion.div 
+            variants={itemVariants}
+            className="w-24 h-24 bg-primary flex items-center justify-center mx-auto rounded-2xl shadow-xl shadow-primary/20"
+          >
             <Trophy className="w-12 h-12 text-primary-foreground" />
-          </div>
-          <h1 className="text-5xl font-black uppercase tracking-tighter">Lesson Complete!</h1>
-          <div className="grid grid-cols-2 gap-4">
-            <div className="border-2 border-foreground p-4">
+          </motion.div>
+          
+          <motion.h1 variants={itemVariants} className="text-5xl font-black uppercase tracking-tighter">
+            Lesson Complete!
+          </motion.h1>
+          
+          <motion.div variants={itemVariants} className="grid grid-cols-2 gap-4">
+            <div className="border-2 border-foreground p-4 bg-background">
               <p className="text-4xl font-black text-primary">{score}%</p>
               <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground mt-1">Score</p>
             </div>
-            <div className="border-2 border-foreground p-4">
+            <div className="border-2 border-foreground p-4 bg-background">
               <p className="text-4xl font-black">+{xpEarned}</p>
               <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground mt-1">XP Earned</p>
             </div>
-          </div>
+          </motion.div>
+          
           {testBlocks.length > 0 && (
-            <p className="text-muted-foreground font-mono text-sm">
+            <motion.p variants={itemVariants} className="text-muted-foreground font-mono text-sm">
               {correctAnswers}/{testBlocks.length} exercises correct
-            </p>
+            </motion.p>
           )}
-          <div className="flex flex-col gap-3 mt-8">
+          
+          <motion.div variants={itemVariants} className="flex flex-col gap-3 mt-8">
             <Button size="lg" className="w-full border-2" onClick={() => router.push("/learn")}>
               Continue Learning <ArrowRight className="ml-2 w-4 h-4" />
             </Button>
             <Button variant="outline" size="lg" className="w-full border-2" onClick={() => { setPhase("study"); setTestBlockIdx(0); setCorrectAnswers(0); setTotalQuizzes(0); setLessonComplete(false); }}>
               Retry Lesson
             </Button>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </div>
     );
   }
