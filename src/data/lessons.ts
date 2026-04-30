@@ -48,6 +48,7 @@ import { lessonsC1Kultur } from "./lessons-c1-kultur";
 import { lessonsC1MicroSkills } from "./lessons-c1-microskills";
 import { lessonsC1Dach } from "./lessons-c1-dach";
 import { lessonsC2Native } from "./lessons-c2-native";
+import { lessonsC2Modern } from "./lessons-c2-modern";
 import { lessonsC1Writing } from "./lessons-c1-writing";
 import { lessonsC1Writing2 } from "./lessons-c1-writing2";
 import { lessonsC1Vocab } from "./lessons-c1-vocab";
@@ -126,6 +127,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC1MicroSkills,
   ...lessonsC1Dach,
   ...lessonsC2Native,
+  ...lessonsC2Modern,
   ...lessonsC1Writing,
   ...lessonsC1Writing2,
   ...lessonsC1Vocab,
