@@ -44,6 +44,7 @@ import { lessonsC1Grammar4 } from "./lessons-c1-grammar4";
 import { lessonsC1Grammar5 } from "./lessons-c1-grammar5";
 import { lessonsC1Grammar6 } from "./lessons-c1-grammar6";
 import { lessonsC1Writing } from "./lessons-c1-writing";
+import { lessonsC1Writing2 } from "./lessons-c1-writing2";
 import { lessonsC1Vocab } from "./lessons-c1-vocab";
 import { lessonsC1Exam } from "./lessons-c1-exam";
 
@@ -116,6 +117,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC1Grammar5,
   ...lessonsC1Grammar6,
   ...lessonsC1Writing,
+  ...lessonsC1Writing2,
   ...lessonsC1Vocab,
   ...lessonsC1Exam,
 };
