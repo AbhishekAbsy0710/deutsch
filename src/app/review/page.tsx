@@ -8,12 +8,7 @@ import { speakGermanNeural } from "@/lib/tts";
 import { useProgressStore } from "@/store/useProgressStore";
 import { lessonData } from "@/data/lessons";
 import Link from "next/link";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+
 
 type ReviewCard = {
   word_id: string;
