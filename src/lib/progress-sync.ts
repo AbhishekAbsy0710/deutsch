@@ -74,6 +74,8 @@ export async function loadProgressFromSupabase(userId: string): Promise<UserProg
       lastActiveDate: profile.last_active || null,
       goal: null,
       level: profile.current_level || null,
+      achievements: [],
+      srs: {},
     };
   } catch (err) {
     console.error("[Sync] Load error:", err);
@@ -136,6 +138,8 @@ export function mergeProgress(local: UserProgress, cloud: UserProgress): UserPro
     goal: local.goal || cloud.goal,
     level: local.level || cloud.level,
     lessons: { ...DEFAULT_LESSONS },
+    achievements: Array.from(new Set([...(local.achievements || []), ...(cloud.achievements || [])])),
+    srs: { ...(cloud.srs || {}), ...(local.srs || {}) },
   };
 
   // For each lesson, keep the more advanced status

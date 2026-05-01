@@ -267,7 +267,7 @@ function VocabularyDictionary({ reviews, srs }: { reviews: ReviewCard[], srs: Re
         <p className="text-muted-foreground font-mono text-sm mt-2">All the words you've unlocked from completed lessons.</p>
       </div>
       
-      <Accordion className="w-full border-2 border-foreground bg-background" type="single" collapsible>
+      <Accordion className="w-full border-2 border-foreground bg-background">
         {reviews.map((r) => {
           const genderColor = r.gender === "der" ? "text-blue-500" : r.gender === "die" ? "text-pink-500" : r.gender === "das" ? "text-green-500" : "";
           const cardSrs = srs[r.word_id];
