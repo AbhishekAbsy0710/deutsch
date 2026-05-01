@@ -14,6 +14,8 @@ const moduleMetadata = [
   { id: "A2", title: "A2: Elementary Mastery", description: "The Dative case, Past tense, and Prepositions." },
   { id: "B1", title: "B1: Intermediate German", description: "Subordinate clauses, Genitive case, and complex sentences." },
   { id: "B2", title: "B2: Upper Intermediate", description: "Konjunktiv II, Passive voice, and advanced vocabulary." },
+  { id: "C1", title: "C1: Advanced Proficiency", description: "DACH-Region variations, modal particles, and academic discourse." },
+  { id: "C2", title: "C2: Native Mastery", description: "Native slang, colloquialisms, modern linguistics, and idioms." },
 ];
 
 const modules = moduleMetadata.map(meta => ({
@@ -23,6 +25,15 @@ const modules = moduleMetadata.map(meta => ({
     .sort((a, b) => {
       // Handle all ID formats: l13, la1_01, la2_01, lb1_01, lb2_01
       const getOrder = (id: string) => {
+        // C1/C2 format: c1-d1, c2-n1, c2-m1
+        const cxMatch = id.match(/^c(\d)-[a-z]+(\d+)$/);
+        if (cxMatch) {
+          const level = parseInt(cxMatch[1], 10);
+          const num = parseInt(cxMatch[2], 10);
+          const subTypeOffset = id.includes('-n') ? 0 : id.includes('-m') ? 50 : 0;
+          return (level + 2) * 1000 + subTypeOffset + num;
+        }
+
         // New format with underscore: la1_01, la2_44, lb1_01, lb2_70
         const match = id.match(/^l([ab])(\d)_(\d+)$/);
         if (match) {
