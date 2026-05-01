@@ -53,6 +53,11 @@ import { lessonsC1Writing } from "./lessons-c1-writing";
 import { lessonsC1Writing2 } from "./lessons-c1-writing2";
 import { lessonsC1Vocab } from "./lessons-c1-vocab";
 import { lessonsC1Exam } from "./lessons-c1-exam";
+import { lessonsC2Lit } from "./lessons-c2-lit";
+import { lessonsC2Dialects } from "./lessons-c2-dialects";
+import { lessonsC2Pro } from "./lessons-c2-pro";
+import { lessonsC2Idioms } from "./lessons-c2-idioms";
+import { lessonsC2Style } from "./lessons-c2-style";
 
 export type LessonBlock = 
   | { type: "vocabulary", word: string, translation: string, example: string, audioUrl?: string, phonetic: string }
@@ -132,4 +137,9 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC1Writing2,
   ...lessonsC1Vocab,
   ...lessonsC1Exam,
+  ...lessonsC2Lit,
+  ...lessonsC2Dialects,
+  ...lessonsC2Pro,
+  ...lessonsC2Idioms,
+  ...lessonsC2Style,
 };

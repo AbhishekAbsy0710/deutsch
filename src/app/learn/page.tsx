@@ -38,10 +38,14 @@ const modules = moduleMetadata.map(meta => ({
             'w': 200,  // Writing
             'e': 300,  // Exam
             'k': 400,  // Kultur/Landeskunde
-            'd': 500,  // DACH-Region
+            'd': 500,  // DACH-Region / Dialects
             'mp': 600, // Modalpartikeln
             'm': 700,  // Microskills (C1) / Modern (C2)
-            'n': 0     // Native (C2)
+            'n': 0,    // Native (C2)
+            'l': 100,  // Literature (C2)
+            'i': 200,  // Idioms (C2)
+            's': 300,  // Style (C2)
+            'p': 400,  // Professional (C2)
           };
           
           const subTypeOffset = offsets[prefix] !== undefined ? offsets[prefix] : 900;
