@@ -25,13 +25,27 @@ const modules = moduleMetadata.map(meta => ({
     .sort((a, b) => {
       // Handle all ID formats: l13, la1_01, la2_01, lb1_01, lb2_01
       const getOrder = (id: string) => {
-        // C1/C2 format: c1-d1, c2-n1, c2-m1
-        const cxMatch = id.match(/^c(\d)-[a-z]+(\d+)$/);
+        // C1/C2 format: c1-g1, c2-n1, c1-mp1
+        const cxMatch = id.match(/^c(\d)-([a-z]+)(\d+)$/);
         if (cxMatch) {
           const level = parseInt(cxMatch[1], 10);
-          const num = parseInt(cxMatch[2], 10);
-          const subTypeOffset = id.includes('-n') ? 0 : id.includes('-m') ? 50 : 0;
-          return (level + 2) * 1000 + subTypeOffset + num;
+          const prefix = cxMatch[2];
+          const num = parseInt(cxMatch[3], 10);
+          
+          const offsets: Record<string, number> = {
+            'g': 0,    // Grammar
+            'v': 100,  // Vocabulary
+            'w': 200,  // Writing
+            'e': 300,  // Exam
+            'k': 400,  // Kultur/Landeskunde
+            'd': 500,  // DACH-Region
+            'mp': 600, // Modalpartikeln
+            'm': 700,  // Microskills (C1) / Modern (C2)
+            'n': 0     // Native (C2)
+          };
+          
+          const subTypeOffset = offsets[prefix] !== undefined ? offsets[prefix] : 900;
+          return (level + 2) * 10000 + subTypeOffset + num;
         }
 
         // New format with underscore: la1_01, la2_44, lb1_01, lb2_70
