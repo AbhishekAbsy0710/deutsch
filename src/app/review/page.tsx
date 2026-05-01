@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Volume2, ChevronLeft, ChevronRight, RotateCcw, Trophy, BookOpen, Minus } from "lucide-react";
+import { Volume2, ChevronLeft, ChevronRight, RotateCcw, Trophy, BookOpen, Minus, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { speakGermanNeural } from "@/lib/tts";
 import { useProgressStore } from "@/store/useProgressStore";
