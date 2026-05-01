@@ -4,7 +4,7 @@ export const lessonsC2Modern: Record<string, Lesson> = {
   "c2-m1": {
     id: "c2-m1",
     title: "Gendersprache (Gender-Inclusive German)",
-    module: "C1",
+    module: "C2",
     blocks: [
       {
         type: "grammar",
@@ -31,7 +31,7 @@ export const lessonsC2Modern: Record<string, Lesson> = {
   "c2-m2": {
     id: "c2-m2",
     title: "Behördendeutsch (Extreme Bureaucracy)",
-    module: "C1",
+    module: "C2",
     blocks: [
       {
         type: "grammar",
@@ -49,7 +49,7 @@ export const lessonsC2Modern: Record<string, Lesson> = {
   "c2-m3": {
     id: "c2-m3",
     title: "DDR-Wortschatz (East German Lexicon)",
-    module: "C1",
+    module: "C2",
     blocks: [
       {
         type: "cultural-note",

@@ -4,7 +4,7 @@ export const lessonsC2Native: Record<string, Lesson> = {
   "c2-n1": {
     id: "c2-n1",
     title: "Interjektionen (The Sounds Germans Make)",
-    module: "C1",
+    module: "C2",
     blocks: [
       {
         type: "grammar",
@@ -22,7 +22,7 @@ export const lessonsC2Native: Record<string, Lesson> = {
   "c2-n2": {
     id: "c2-n2",
     title: "Umgangssprache & Jugendsprache (Slang)",
-    module: "C1",
+    module: "C2",
     blocks: [
       {
         type: "grammar",
@@ -40,7 +40,7 @@ export const lessonsC2Native: Record<string, Lesson> = {
   "c2-n3": {
     id: "c2-n3",
     title: "Chat-Sprache (Texting Abbreviations)",
-    module: "C1",
+    module: "C2",
     blocks: [
       {
         type: "grammar",
@@ -58,7 +58,7 @@ export const lessonsC2Native: Record<string, Lesson> = {
   "c2-n4": {
     id: "c2-n4",
     title: "Onomatopoesie (Animal Sounds & Noises)",
-    module: "C1",
+    module: "C2",
     blocks: [
       {
         type: "grammar",
@@ -86,7 +86,7 @@ export const lessonsC2Native: Record<string, Lesson> = {
   "c2-n5": {
     id: "c2-n5",
     title: "Alltags-Fluchen (Everyday Frustrations)",
-    module: "C1",
+    module: "C2",
     blocks: [
       {
         type: "grammar",
