@@ -10,6 +10,13 @@ export interface LessonProgress {
   attempts: number;
 }
 
+export interface SRSData {
+  nextReviewDate: string; // ISO date
+  interval: number;       // days
+  easeFactor: number;
+  repetitions: number;
+}
+
 export interface UserProgress {
   // Core progress
   lessons: Record<string, LessonProgress>;
@@ -22,6 +29,10 @@ export interface UserProgress {
   // Assessment
   goal: string | null;
   level: string | null;
+  
+  // Gamification & Review
+  achievements: string[];
+  srs: Record<string, SRSData>; // Maps a flashcard word to its SRS state
 }
 
 interface ProgressStore extends UserProgress {
@@ -31,6 +42,11 @@ interface ProgressStore extends UserProgress {
   setAssessment: (goal: string, level: string) => void;
   getLessonStatus: (lessonId: string) => LessonStatus;
   resetProgress: () => Promise<void>;
+  
+  // Gamification
+  unlockAchievement: (achievementId: string) => void;
+  updateSRS: (word: string, quality: number) => void; // quality: 0-5
+  
   // Cloud sync
   syncWithSupabase: (userId: string) => Promise<void>;
   saveToCloud: (userId: string) => void;
@@ -79,6 +95,8 @@ const initialState: UserProgress = {
   lastActiveDate: null,
   goal: null,
   level: null,
+  achievements: [],
+  srs: {},
 };
 
 function checkAndUpdateStreak(lastDate: string | null, currentStreak: number): number {
@@ -136,6 +154,48 @@ export const useProgressStore = create<ProgressStore>()(
         if (userId) {
           get().saveToCloud(userId);
         }
+      },
+
+      unlockAchievement: (achievementId: string) => {
+        const state = get();
+        if (!state.achievements.includes(achievementId)) {
+          set({ achievements: [...state.achievements, achievementId] });
+          const userId = get()._userId;
+          if (userId) get().saveToCloud(userId);
+        }
+      },
+
+      updateSRS: (word: string, quality: number) => {
+        const state = get();
+        const existing = state.srs[word] || { interval: 0, easeFactor: 2.5, repetitions: 0, nextReviewDate: new Date().toISOString() };
+        
+        let { interval, easeFactor, repetitions } = existing;
+        
+        if (quality >= 3) {
+          if (repetitions === 0) interval = 1;
+          else if (repetitions === 1) interval = 6;
+          else interval = Math.round(interval * easeFactor);
+          repetitions += 1;
+        } else {
+          repetitions = 0;
+          interval = 1;
+        }
+        
+        easeFactor = easeFactor + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02));
+        if (easeFactor < 1.3) easeFactor = 1.3;
+        
+        const nextReviewDate = new Date();
+        nextReviewDate.setDate(nextReviewDate.getDate() + interval);
+        
+        set({
+          srs: {
+            ...state.srs,
+            [word]: { interval, easeFactor, repetitions, nextReviewDate: nextReviewDate.toISOString() }
+          }
+        });
+        
+        const userId = get()._userId;
+        if (userId) get().saveToCloud(userId);
       },
 
       unlockLesson: (lessonId: string) => {
@@ -256,6 +316,8 @@ export const useProgressStore = create<ProgressStore>()(
           lastActiveDate: get().lastActiveDate,
           goal: get().goal,
           level: get().level,
+          achievements: get().achievements,
+          srs: get().srs,
         };
 
         if (cloudProgress) {
@@ -283,6 +345,8 @@ export const useProgressStore = create<ProgressStore>()(
             lastActiveDate: state.lastActiveDate,
             goal: state.goal,
             level: state.level,
+            achievements: state.achievements,
+            srs: state.srs,
           });
         });
       },

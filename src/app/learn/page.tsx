@@ -25,12 +25,15 @@ const modules = moduleMetadata.map(meta => ({
     .sort((a, b) => {
       // Handle all ID formats: l13, la1_01, la2_01, lb1_01, lb2_01
       const getOrder = (id: string) => {
-        // C1/C2 format: c1-g1, c2-n1, c1-mp1
-        const cxMatch = id.match(/^c(\d)-([a-z]+)(\d+)$/);
+        // B1/B2/C1/C2 format: c1-g1, c2-n1, c1-mp1, b2-so1
+        const cxMatch = id.match(/^([bc])(\d)-([a-z]+)(\d+)$/);
         if (cxMatch) {
-          const level = parseInt(cxMatch[1], 10);
-          const prefix = cxMatch[2];
-          const num = parseInt(cxMatch[3], 10);
+          const levelChar = cxMatch[1];
+          const levelNum = parseInt(cxMatch[2], 10);
+          const prefix = cxMatch[3];
+          const num = parseInt(cxMatch[4], 10);
+          const baseOffset = levelChar === 'c' ? 2 : 0;
+          const level = levelNum + baseOffset;
           
           const offsets: Record<string, number> = {
             'g': 0,    // Grammar
@@ -46,9 +49,16 @@ const modules = moduleMetadata.map(meta => ({
             'i': 200,  // Idioms (C2)
             's': 300,  // Style (C2)
             'p': 400,  // Professional (C2)
+            'sl': 800, // Slang (C1)
+            'so': 800, // Social (B2)
+            'sw': 500, // Swear (C2)
           };
           
           const subTypeOffset = offsets[prefix] !== undefined ? offsets[prefix] : 900;
+          
+          if (levelChar === 'b') {
+            return 2000 + (levelNum * 100) + subTypeOffset + num;
+          }
           return (level + 2) * 10000 + subTypeOffset + num;
         }
 

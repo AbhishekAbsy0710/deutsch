@@ -128,10 +128,21 @@ export default function TutorPage() {
     autoPlayRef.current = autoPlay;
   }, [autoPlay]);
 
+  const [activeScenario, setActiveScenario] = useState<string>("");
+
+  const ROLEPLAY_SCENARIOS = [
+    { id: "", label: "No Roleplay (Default Tutor)" },
+    { id: "Strict Berlin Landlord who is complaining about noise and recycling", label: "Angry Berlin Landlord" },
+    { id: "Friendly German bakery owner (Bäcker) who chats about bread and the weather", label: "Friendly Bakery Owner" },
+    { id: "Strict Goethe Institute B2 Exam Grader conducting a speaking test", label: "Strict B2 Exam Grader" },
+    { id: "A friendly stranger at a busy club in Berlin striking up a conversation", label: "Stranger at a Bar" }
+  ];
+
   const progressRef = useRef(progressSummary);
   useEffect(() => { progressRef.current = progressSummary; }, [progressSummary]);
 
   const chatHelpers = useChat({
+    body: { scenario: activeScenario },
     messages: [
       {
         id: "welcome",
@@ -275,6 +286,23 @@ export default function TutorPage() {
           {autoPlay ? "Auto-Play ON" : "Auto-Play OFF"}
         </Button>
       </header>
+
+      <div className="mb-6 flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
+        {ROLEPLAY_SCENARIOS.map(scenario => (
+          <button
+            key={scenario.id}
+            onClick={() => setActiveScenario(scenario.id)}
+            className={cn(
+              "whitespace-nowrap px-4 py-2 border-2 font-mono text-xs uppercase tracking-widest transition-colors",
+              activeScenario === scenario.id 
+                ? "bg-primary text-primary-foreground border-primary" 
+                : "bg-background text-foreground border-border hover:border-foreground"
+            )}
+          >
+            {scenario.label}
+          </button>
+        ))}
+      </div>
 
       <main className="flex-1 overflow-y-auto pr-4 space-y-6 scrollbar-hide mb-8">
         {messages.map((m: any) => (

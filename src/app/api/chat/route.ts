@@ -166,7 +166,7 @@ RULES:
 
 export async function POST(req: Request) {
   const body = await req.json();
-  const { messages } = body;
+  const { messages, scenario } = body;
 
   // Extract progress context from the latest user message
   let progressSummary = "";
@@ -192,10 +192,15 @@ export async function POST(req: Request) {
 
   console.log("[Chat] progressSummary:", progressSummary ? progressSummary.substring(0, 150) : "NONE");
 
-  // Append student's Learn tab progress to system prompt
-  const systemWithProgress = progressSummary 
+  let scenarioPrompt = "";
+  if (scenario) {
+    scenarioPrompt = `\n\n=== ROLEPLAY SCENARIO ACTIVE ===\nYou are now roleplaying the following scenario: "${scenario}".\nStay strictly in character. Do NOT break character to talk about learning German, but STILL include the English bracket translations for everything you say to help the student understand.`;
+  }
+
+  // Append student's Learn tab progress and scenario to system prompt
+  const systemWithProgress = (progressSummary 
     ? SYSTEM_PROMPT + progressSummary 
-    : SYSTEM_PROMPT;
+    : SYSTEM_PROMPT) + scenarioPrompt;
 
   const result = streamText({
     model: groq("llama-3.3-70b-versatile"),

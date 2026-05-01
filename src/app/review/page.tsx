@@ -2,9 +2,8 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Volume2, ChevronLeft, ChevronRight, RotateCcw, Trophy, BookOpen } from "lucide-react";
+import { Volume2, ChevronLeft, ChevronRight, RotateCcw, Trophy, BookOpen, Minus } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { getBoxLabel, getBoxColor } from "@/lib/srs";
 import { speakGermanNeural } from "@/lib/tts";
 import { useProgressStore } from "@/store/useProgressStore";
 import { lessonData } from "@/data/lessons";
@@ -16,34 +15,20 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-type LocalReview = {
+type ReviewCard = {
   word_id: string;
   word: string;
   phonetic: string;
   meaning: string;
   gender?: string;
   example: { de: string; en: string };
-  box: number;
-  next_review: string;
 };
-
-function getStoredReviews(): LocalReview[] {
-  if (typeof window === "undefined") return [];
-  try {
-    return JSON.parse(localStorage.getItem("flashcard_reviews") || "[]");
-  } catch { return []; }
-}
-
-function saveReviews(reviews: LocalReview[]) {
-  localStorage.setItem("flashcard_reviews", JSON.stringify(reviews));
-}
 
 /**
  * Extract all vocabulary from completed lessons.
- * Pulls from flashcard blocks and vocabulary blocks.
  */
-function getVocabFromCompletedLessons(completedLessonIds: string[]): Omit<LocalReview, "box" | "next_review">[] {
-  const vocab: Omit<LocalReview, "box" | "next_review">[] = [];
+function getVocabFromCompletedLessons(completedLessonIds: string[]): ReviewCard[] {
+  const vocab: ReviewCard[] = [];
   const seen = new Set<string>();
 
   for (const lessonId of completedLessonIds) {
@@ -84,60 +69,52 @@ function getVocabFromCompletedLessons(completedLessonIds: string[]): Omit<LocalR
 }
 
 export default function ReviewPage() {
-  const [reviews, setReviews] = useState<LocalReview[]>([]);
-  const [dueCards, setDueCards] = useState<LocalReview[]>([]);
+  const [allCards, setAllCards] = useState<ReviewCard[]>([]);
+  const [dueCards, setDueCards] = useState<ReviewCard[]>([]);
   const [currentIdx, setCurrentIdx] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [sessionResults, setSessionResults] = useState<{ word: string; correct: boolean }[]>([]);
   const [sessionComplete, setSessionComplete] = useState(false);
 
   const lessons = useProgressStore(s => s.lessons);
+  const srs = useProgressStore(s => s.srs);
+  const updateSRS = useProgressStore(s => s.updateSRS);
 
+  // Initialize Data
   useEffect(() => {
-    // Get completed lesson IDs
     const completedIds = Object.entries(lessons)
       .filter(([, lp]) => lp.status === "completed")
       .map(([id]) => id);
 
-    // Get vocabulary from completed lessons
     const lessonVocab = getVocabFromCompletedLessons(completedIds);
+    setAllCards(lessonVocab);
 
-    // Load existing SRS data
-    let stored = getStoredReviews();
-    const storedIds = new Set(stored.map(r => r.word_id));
     const today = new Date().toISOString().split("T")[0];
+    
+    // Determine which cards are due.
+    // A card is due if it has no SRS data (new), or its nextReviewDate <= today.
+    const due = lessonVocab.filter(card => {
+      const cardSrs = srs[card.word_id];
+      if (!cardSrs) return true; // new card
+      const reviewDate = cardSrs.nextReviewDate.split("T")[0];
+      return reviewDate <= today;
+    });
 
-    // Add new words from newly completed lessons
-    let hasNew = false;
-    for (const v of lessonVocab) {
-      if (!storedIds.has(v.word_id)) {
-        stored.push({ ...v, box: 1, next_review: today });
-        hasNew = true;
-      }
-    }
-
-    if (hasNew) saveReviews(stored);
-    setReviews(stored);
-    setDueCards(stored.filter(r => r.next_review <= today));
-  }, [lessons]);
+    setDueCards(due);
+  }, [lessons, srs]); // React to store changes
 
   const speak = useCallback((text: string) => {
     speakGermanNeural(text);
   }, []);
 
-  const handleAnswer = (correct: boolean) => {
+  const handleAnswer = (quality: number) => {
     const card = dueCards[currentIdx];
-    const BOX_INTERVALS = [1, 3, 7, 14, 30];
-    const newBox = correct ? Math.min(card.box + 1, 5) : 1;
-    const interval = BOX_INTERVALS[newBox - 1];
-    const nextDate = new Date();
-    nextDate.setDate(nextDate.getDate() + interval);
+    
+    // Update global SRS store
+    updateSRS(card.word_id, quality);
 
-    const updated = reviews.map(r => r.word_id === card.word_id ? { ...r, box: newBox, next_review: nextDate.toISOString().split("T")[0] } : r);
-    setReviews(updated);
-    saveReviews(updated);
-
-    const newResults = [...sessionResults, { word: card.word, correct }];
+    const isCorrect = quality >= 3;
+    const newResults = [...sessionResults, { word: card.word, correct: isCorrect }];
     setSessionResults(newResults);
     setFlipped(false);
 
@@ -150,23 +127,23 @@ export default function ReviewPage() {
 
   // === NO CARDS ===
   if (dueCards.length === 0) {
-    const mastered = reviews.filter(r => r.box >= 4).length;
+    const mastered = allCards.filter(c => srs[c.word_id]?.interval >= 14).length;
     const completedCount = Object.values(lessons).filter(l => l.status === "completed").length;
     return (
       <div className="flex-1 overflow-y-auto">
         <div className="flex flex-col items-center justify-center px-6 py-20 text-center">
           <Trophy size={64} className="text-primary mb-6" />
           <h1 className="text-4xl font-black uppercase tracking-tighter mb-4">
-            {reviews.length === 0 ? "No words to review yet!" : "All caught up!"}
+            {allCards.length === 0 ? "No words to review yet!" : "All caught up!"}
           </h1>
           <p className="text-muted-foreground font-mono text-sm max-w-md">
-            {reviews.length === 0
+            {allCards.length === 0
               ? "Complete some lessons first to unlock vocabulary for review."
               : "No cards due for review today. Come back tomorrow!"}
           </p>
           <div className="mt-8 grid grid-cols-3 gap-4 font-mono text-sm">
             <div className="border-2 border-foreground p-4 text-center">
-              <div className="text-3xl font-black">{reviews.length}</div>
+              <div className="text-3xl font-black">{allCards.length}</div>
               <div className="text-xs text-muted-foreground uppercase tracking-widest">Total Words</div>
             </div>
             <div className="border-2 border-green-500 p-4 text-center">
@@ -183,7 +160,7 @@ export default function ReviewPage() {
           </Link>
         </div>
         
-        <VocabularyDictionary reviews={reviews} />
+        <VocabularyDictionary reviews={allCards} srs={srs} />
       </div>
     );
   }
@@ -203,16 +180,13 @@ export default function ReviewPage() {
             ))}
           </div>
           <div className="flex gap-4 mt-8">
-            <button onClick={() => { setCurrentIdx(0); setSessionResults([]); setSessionComplete(false); setFlipped(false); const today = new Date().toISOString().split("T")[0]; setDueCards(reviews.filter(r => r.next_review <= today)); }} className="border-2 border-foreground px-6 py-3 font-mono text-sm font-bold uppercase tracking-widest hover:bg-foreground hover:text-background transition-colors flex items-center gap-2">
-              <RotateCcw size={14} /> Review Again
-            </button>
             <Link href="/learn" className="border-2 border-primary bg-primary text-primary-foreground px-6 py-3 font-mono text-sm font-bold uppercase tracking-widest hover:opacity-90 flex items-center gap-2">
               <BookOpen size={14} /> Continue Learning
             </Link>
           </div>
         </div>
         
-        <VocabularyDictionary reviews={reviews} />
+        <VocabularyDictionary reviews={allCards} srs={srs} />
       </div>
     );
   }
@@ -231,10 +205,6 @@ export default function ReviewPage() {
         <div className="h-2 bg-secondary overflow-hidden">
           <motion.div className="h-full bg-primary" animate={{ width: `${((currentIdx) / dueCards.length) * 100}%` }} transition={{ duration: 0.3 }} />
         </div>
-        <div className="flex gap-4 mt-3 font-mono text-xs text-muted-foreground">
-          <span style={{ color: getBoxColor(card.box) }}>● {getBoxLabel(card.box)}</span>
-          <span>{dueCards.length - currentIdx} remaining</span>
-        </div>
       </header>
 
       <motion.div
@@ -242,7 +212,7 @@ export default function ReviewPage() {
         onClick={() => setFlipped(!flipped)}
         whileTap={{ scale: 0.98 }}
       >
-        <div className="border-4 border-foreground min-h-[320px] relative">
+        <div className="border-4 border-foreground min-h-[320px] relative bg-card">
           <AnimatePresence mode="wait">
             {!flipped ? (
               <motion.div key="front" initial={{ rotateY: 90 }} animate={{ rotateY: 0 }} exit={{ rotateY: -90 }} transition={{ duration: 0.25 }} className="p-10 flex flex-col items-center justify-center min-h-[320px] text-center">
@@ -272,11 +242,14 @@ export default function ReviewPage() {
 
       {flipped && (
         <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="flex gap-4 mt-6">
-          <button onClick={() => handleAnswer(false)} className="flex-1 border-4 border-red-500 text-red-600 py-5 font-black text-lg uppercase tracking-widest hover:bg-red-500 hover:text-white transition-colors flex items-center justify-center gap-2">
-            <ChevronLeft size={24} /> Forgot
+          <button onClick={() => handleAnswer(1)} className="flex-1 border-4 border-red-500 text-red-600 py-4 font-black text-sm uppercase tracking-widest hover:bg-red-500 hover:text-white transition-colors flex flex-col items-center justify-center gap-1">
+            <ChevronLeft size={20} /> Forgot (1)
           </button>
-          <button onClick={() => handleAnswer(true)} className="flex-1 border-4 border-green-500 text-green-600 py-5 font-black text-lg uppercase tracking-widest hover:bg-green-500 hover:text-white transition-colors flex items-center justify-center gap-2">
-            Knew it <ChevronRight size={24} />
+          <button onClick={() => handleAnswer(3)} className="flex-1 border-4 border-yellow-500 text-yellow-600 py-4 font-black text-sm uppercase tracking-widest hover:bg-yellow-500 hover:text-white transition-colors flex flex-col items-center justify-center gap-1">
+            <Minus size={20} /> Hard (3)
+          </button>
+          <button onClick={() => handleAnswer(5)} className="flex-1 border-4 border-green-500 text-green-600 py-4 font-black text-sm uppercase tracking-widest hover:bg-green-500 hover:text-white transition-colors flex flex-col items-center justify-center gap-1">
+            <ChevronRight size={20} /> Easy (5)
           </button>
         </motion.div>
       )}
@@ -284,7 +257,7 @@ export default function ReviewPage() {
   );
 }
 
-function VocabularyDictionary({ reviews }: { reviews: LocalReview[] }) {
+function VocabularyDictionary({ reviews, srs }: { reviews: ReviewCard[], srs: Record<string, any> }) {
   if (reviews.length === 0) return null;
   
   return (
@@ -294,16 +267,22 @@ function VocabularyDictionary({ reviews }: { reviews: LocalReview[] }) {
         <p className="text-muted-foreground font-mono text-sm mt-2">All the words you've unlocked from completed lessons.</p>
       </div>
       
-      <Accordion className="w-full border-2 border-foreground bg-background">
+      <Accordion className="w-full border-2 border-foreground bg-background" type="single" collapsible>
         {reviews.map((r) => {
           const genderColor = r.gender === "der" ? "text-blue-500" : r.gender === "die" ? "text-pink-500" : r.gender === "das" ? "text-green-500" : "";
+          const cardSrs = srs[r.word_id];
+          const masteryStr = cardSrs ? `Mastery: ${cardSrs.interval} days` : "New";
+          
           return (
             <AccordionItem key={r.word_id} value={r.word_id} className="border-b-2 border-foreground last:border-b-0">
               <AccordionTrigger className="hover:no-underline hover:bg-muted/50 px-4 py-4 data-[state=open]:bg-primary/10 transition-colors">
                 <div className="flex justify-between w-full items-center pr-4 text-left">
                   <div className="flex flex-col">
                     <span className="text-xl font-black">{r.word}</span>
-                    {r.gender && <span className={cn("font-mono text-xs uppercase tracking-widest font-bold", genderColor)}>{r.gender}</span>}
+                    <div className="flex gap-2 items-center">
+                      {r.gender && <span className={cn("font-mono text-xs uppercase tracking-widest font-bold", genderColor)}>{r.gender}</span>}
+                      <span className="font-mono text-[10px] text-muted-foreground border px-1">{masteryStr}</span>
+                    </div>
                   </div>
                   <span className="text-muted-foreground font-mono text-sm max-w-[150px] truncate">{r.meaning}</span>
                 </div>

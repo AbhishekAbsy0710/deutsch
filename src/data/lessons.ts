@@ -58,6 +58,9 @@ import { lessonsC2Dialects } from "./lessons-c2-dialects";
 import { lessonsC2Pro } from "./lessons-c2-pro";
 import { lessonsC2Idioms } from "./lessons-c2-idioms";
 import { lessonsC2Style } from "./lessons-c2-style";
+import { lessonsC1Slang } from "./lessons-c1-slang";
+import { lessonsB2Social } from "./lessons-b2-social";
+import { lessonsC2Swear } from "./lessons-c2-swear";
 
 export type LessonBlock = 
   | { type: "vocabulary", word: string, translation: string, example: string, audioUrl?: string, phonetic: string }
@@ -120,6 +123,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsB2Comm,
   ...lessonsB2Final,
   ...lessonsB2Supplement,
+  ...lessonsB2Social,
   ...lessonsC1Partikeln,
   ...lessonsC1Grammar,
   ...lessonsC1Grammar2,
@@ -137,9 +141,11 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC1Writing2,
   ...lessonsC1Vocab,
   ...lessonsC1Exam,
+  ...lessonsC1Slang,
   ...lessonsC2Lit,
   ...lessonsC2Dialects,
   ...lessonsC2Pro,
   ...lessonsC2Idioms,
   ...lessonsC2Style,
+  ...lessonsC2Swear,
 };

@@ -108,7 +108,30 @@ export function speakGerman(text: string): Promise<void> {
   });
 }
 
-// Compare two strings for pronunciation similarity (simple version)
+// Calculate Levenshtein distance between two strings
+function levenshteinDistance(a: string, b: string): number {
+  if (a.length === 0) return b.length;
+  if (b.length === 0) return a.length;
+
+  const matrix = Array(b.length + 1).fill(null).map(() => Array(a.length + 1).fill(null));
+
+  for (let i = 0; i <= a.length; i++) matrix[0][i] = i;
+  for (let j = 0; j <= b.length; j++) matrix[j][0] = j;
+
+  for (let j = 1; j <= b.length; j++) {
+    for (let i = 1; i <= a.length; i++) {
+      const indicator = a[i - 1] === b[j - 1] ? 0 : 1;
+      matrix[j][i] = Math.min(
+        matrix[j][i - 1] + 1, // deletion
+        matrix[j - 1][i] + 1, // insertion
+        matrix[j - 1][i - 1] + indicator // substitution
+      );
+    }
+  }
+  return matrix[b.length][a.length];
+}
+
+// Compare two strings for pronunciation similarity using Levenshtein distance
 export function comparePronunciation(spoken: string, target: string): { score: number; feedback: string } {
   const normalize = (s: string) => s.toLowerCase().trim().replace(/[.,!?]/g, "");
   const spokenNorm = normalize(spoken);
@@ -118,18 +141,13 @@ export function comparePronunciation(spoken: string, target: string): { score: n
     return { score: 100, feedback: "Perfect! Your pronunciation matches exactly." };
   }
 
-  // Simple word-level comparison
-  const spokenWords = spokenNorm.split(/\s+/);
-  const targetWords = targetNorm.split(/\s+/);
-  let matches = 0;
-  for (const sw of spokenWords) {
-    if (targetWords.includes(sw)) matches++;
-  }
-  const score = Math.round((matches / Math.max(targetWords.length, 1)) * 100);
+  const distance = levenshteinDistance(spokenNorm, targetNorm);
+  const maxLength = Math.max(spokenNorm.length, targetNorm.length, 1);
+  const score = Math.max(0, Math.round(((maxLength - distance) / maxLength) * 100));
 
-  if (score >= 80) {
+  if (score >= 85) {
     return { score, feedback: "Great job! Very close to the target pronunciation." };
-  } else if (score >= 50) {
+  } else if (score >= 60) {
     return { score, feedback: `Good attempt! You said "${spoken}" — try to match "${target}" more closely.` };
   } else {
     return { score, feedback: `You said "${spoken}" — the target is "${target}". Try again!` };
