@@ -267,27 +267,28 @@ function VocabularyDictionary({ reviews, srs }: { reviews: ReviewCard[], srs: Re
         <p className="text-muted-foreground font-mono text-sm mt-2">All the words you've unlocked from completed lessons.</p>
       </div>
       
-      <Accordion className="w-full border-2 border-foreground bg-background">
+      <div className="w-full border-2 border-foreground bg-background divide-y-2 divide-foreground">
         {reviews.map((r) => {
           const genderColor = r.gender === "der" ? "text-blue-500" : r.gender === "die" ? "text-pink-500" : r.gender === "das" ? "text-green-500" : "";
           const cardSrs = srs[r.word_id];
           const masteryStr = cardSrs ? `Mastery: ${cardSrs.interval} days` : "New";
           
           return (
-            <AccordionItem key={r.word_id} value={r.word_id} className="border-b-2 border-foreground last:border-b-0">
-              <AccordionTrigger className="hover:no-underline hover:bg-muted/50 px-4 py-4 data-[state=open]:bg-primary/10 transition-colors">
-                <div className="flex justify-between w-full items-center pr-4 text-left">
-                  <div className="flex flex-col">
-                    <span className="text-xl font-black">{r.word}</span>
-                    <div className="flex gap-2 items-center">
-                      {r.gender && <span className={cn("font-mono text-xs uppercase tracking-widest font-bold", genderColor)}>{r.gender}</span>}
-                      <span className="font-mono text-[10px] text-muted-foreground border px-1">{masteryStr}</span>
-                    </div>
+            <details key={r.word_id} className="group">
+              <summary className="list-none hover:bg-muted/50 px-4 py-4 cursor-pointer transition-colors flex justify-between items-center outline-none group-open:bg-primary/10">
+                <div className="flex flex-col text-left">
+                  <span className="text-xl font-black">{r.word}</span>
+                  <div className="flex gap-2 items-center">
+                    {r.gender && <span className={cn("font-mono text-xs uppercase tracking-widest font-bold", genderColor)}>{r.gender}</span>}
+                    <span className="font-mono text-[10px] text-muted-foreground border px-1">{masteryStr}</span>
                   </div>
-                  <span className="text-muted-foreground font-mono text-sm max-w-[150px] truncate">{r.meaning}</span>
                 </div>
-              </AccordionTrigger>
-              <AccordionContent className="px-6 py-6 bg-secondary/20 border-t-2 border-foreground/10">
+                <div className="flex items-center gap-4 text-muted-foreground">
+                  <span className="font-mono text-sm max-w-[150px] truncate">{r.meaning}</span>
+                  <ChevronDown className="w-5 h-5 transition-transform group-open:rotate-180" />
+                </div>
+              </summary>
+              <div className="px-6 py-6 bg-secondary/20 border-t-2 border-foreground/10">
                 <div className="space-y-6">
                   <div>
                     <h4 className="font-mono text-xs text-muted-foreground uppercase tracking-widest mb-1">Meaning</h4>
@@ -306,11 +307,11 @@ function VocabularyDictionary({ reviews, srs }: { reviews: ReviewCard[], srs: Re
                     </div>
                   )}
                 </div>
-              </AccordionContent>
-            </AccordionItem>
+              </div>
+            </details>
           );
         })}
-      </Accordion>
+      </div>
     </div>
   );
 }
