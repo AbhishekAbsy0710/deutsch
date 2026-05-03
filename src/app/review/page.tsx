@@ -89,7 +89,7 @@ export default function ReviewPage() {
     // Determine which cards are due.
     // A card is due if it has no SRS data (new), or its nextReviewDate <= today.
     const due = lessonVocab.filter(card => {
-      const cardSrs = srs[card.word_id];
+      const cardSrs = srs?.[card.word_id];
       if (!cardSrs) return true; // new card
       const reviewDate = cardSrs.nextReviewDate.split("T")[0];
       return reviewDate <= today;
@@ -122,8 +122,8 @@ export default function ReviewPage() {
 
   // === NO CARDS ===
   if (dueCards.length === 0) {
-    const mastered = allCards.filter(c => srs[c.word_id]?.interval >= 14).length;
-    const completedCount = Object.values(lessons).filter(l => l.status === "completed").length;
+    const mastered = allCards.filter(c => srs?.[c.word_id]?.interval >= 14).length;
+    const completedCount = Object.values(lessons || {}).filter(l => l.status === "completed").length;
     return (
       <div className="flex-1 overflow-y-auto">
         <div className="flex flex-col items-center justify-center px-6 py-20 text-center">
@@ -222,13 +222,17 @@ export default function ReviewPage() {
             ) : (
               <motion.div key="back" initial={{ rotateY: 90 }} animate={{ rotateY: 0 }} exit={{ rotateY: -90 }} transition={{ duration: 0.25 }} className="p-10 flex flex-col items-center justify-center min-h-[320px] text-center bg-secondary/30">
                 <p className="text-3xl font-bold">{card.meaning}</p>
-                <div className="border-t border-border mt-8 pt-6 w-full max-w-md">
-                  <p className="text-xl font-bold">{card.example.de}</p>
-                  <p className="text-muted-foreground mt-2">{card.example.en}</p>
-                </div>
-                <button onClick={(e) => { e.stopPropagation(); speak(card.example.de); }} className="mt-6 border border-primary/30 px-4 py-2 flex items-center gap-2 text-primary hover:bg-primary hover:text-primary-foreground transition-colors font-mono text-xs uppercase tracking-widest">
-                  <Volume2 size={14} /> Listen
-                </button>
+                {card.example?.de && (
+                  <>
+                    <div className="border-t border-border mt-8 pt-6 w-full max-w-md">
+                      <p className="text-xl font-bold">{card.example.de}</p>
+                      <p className="text-muted-foreground mt-2">{card.example.en}</p>
+                    </div>
+                    <button onClick={(e) => { e.stopPropagation(); speak(card.example.de); }} className="mt-6 border border-primary/30 px-4 py-2 flex items-center gap-2 text-primary hover:bg-primary hover:text-primary-foreground transition-colors font-mono text-xs uppercase tracking-widest">
+                      <Volume2 size={14} /> Listen
+                    </button>
+                  </>
+                )}
               </motion.div>
             )}
           </AnimatePresence>
@@ -265,7 +269,7 @@ function VocabularyDictionary({ reviews, srs }: { reviews: ReviewCard[], srs: Re
       <div className="w-full border-2 border-foreground bg-background divide-y-2 divide-foreground">
         {reviews.map((r) => {
           const genderColor = r.gender === "der" ? "text-blue-500" : r.gender === "die" ? "text-pink-500" : r.gender === "das" ? "text-green-500" : "";
-          const cardSrs = srs[r.word_id];
+          const cardSrs = srs?.[r.word_id];
           const masteryStr = cardSrs ? `Mastery: ${cardSrs.interval} days` : "New";
           
           return (
