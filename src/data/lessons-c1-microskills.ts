@@ -17,6 +17,18 @@ export const lessonsC1MicroSkills: Record<string, Lesson> = {
           { de: "u. a. (unter anderem)", en: "among other things" },
           { de: "z. T. (zum Teil)", en: "partly" },
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "What does the abbreviation 'bzw.' stand for?",
+        options: [
+          "beziehungsweise (or / respectively)",
+          "besonders zur (especially for)",
+          "bis zum Weiteren (until further notice)",
+          "bezüglich (regarding)"
+        ],
+        correctIndex: 0,
+        explanation: "'bzw.' stands for 'beziehungsweise', which is used incredibly often in formal German as an alternative to 'oder' or to mean 'respectively'."
       }
     ]
   },
@@ -35,6 +47,15 @@ export const lessonsC1MicroSkills: Record<string, Lesson> = {
           { de: "das Public Viewing", en: "watching a sports game on a big screen in public (In English, this means viewing a dead body!)" },
           { de: "das Mobbing", en: "bullying (at school or work)" },
           { de: "das Homeoffice", en: "working from home (Ich mache heute Homeoffice.)" },
+        ]
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "das Handy", phonetic: "hen-dee", meaning: "mobile phone / cell phone", example: { de: "Ich habe mein Handy vergessen.", en: "I forgot my cell phone." } },
+          { word: "das Public Viewing", phonetic: "pub-lik vyoo-ing", meaning: "watching a sports game in public", example: { de: "Gehen wir heute zum Public Viewing?", en: "Are we going to watch the game in public today?" } },
+          { word: "der Beamer", phonetic: "bee-mer", meaning: "video projector", example: { de: "Kann jemand den Beamer einschalten?", en: "Can someone turn on the projector?" } },
+          { word: "das Mobbing", phonetic: "mob-bing", meaning: "bullying", example: { de: "Mobbing am Arbeitsplatz ist ein großes Problem.", en: "Bullying in the workplace is a big problem." } }
         ]
       }
     ]
@@ -62,6 +83,18 @@ export const lessonsC1MicroSkills: Record<string, Lesson> = {
         examples: [
           { de: "plus, minus, mal, geteilt durch", en: "plus, minus, times, divided by" },
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "How do you correctly pronounce '3,5' in German?",
+        options: [
+          "drei Punkt fünf",
+          "drei Komma fünf",
+          "drei und fünf",
+          "dreieinhalb"
+        ],
+        correctIndex: 1,
+        explanation: "Germans use a comma (Komma) for decimals. '3,5' is spoken as 'drei Komma fünf'. A point is used for thousands (10.000)."
       }
     ]
   },
@@ -80,6 +113,13 @@ export const lessonsC1MicroSkills: Record<string, Lesson> = {
           { de: "Da liegt der Hund begraben.", en: "That's the crux of the matter (That's where the dog is buried)." },
           { de: "Aller Anfang ist schwer.", en: "Every beginning is difficult." },
         ]
+      },
+      {
+        type: "quiz-fill",
+        sentenceBefore: "Morgenstund hat ",
+        sentenceAfter: " im Mund.",
+        missingWord: "Gold",
+        translation: "The early bird catches the worm. (Literally: Morning hour has gold in the mouth.)"
       }
     ]
   }

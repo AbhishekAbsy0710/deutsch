@@ -21,9 +21,13 @@ export const lessonsA1New4: Record<string, Lesson> = {
         type: "flashcard",
         cards: [
           { word: "hundert", phonetic: "hoon-dert", meaning: "100", example: { de: "Das kostet hundert Euro.", en: "That costs 100 euros." } },
+          { word: "fünfhundert", phonetic: "fünf-hoon-dert", meaning: "500", example: { de: "Wir haben fünfhundert Euro.", en: "We have 500 euros." } },
           { word: "tausend", phonetic: "tow-zent", meaning: "1,000", example: { de: "Zweitausend Kilometer.", en: "Two thousand kilometers." } },
           { word: "zehntausend", phonetic: "tsayn-tow-zent", meaning: "10,000", example: { de: "Berlin hat zehntausend Restaurants.", en: "Berlin has ten thousand restaurants." } },
           { word: "eine Million", phonetic: "ay-ne mil-yohn", meaning: "1,000,000", example: { de: "Berlin hat vier Millionen Einwohner.", en: "Berlin has four million inhabitants." } },
+          { word: "eine Milliarde", phonetic: "ay-ne mil-yar-de", meaning: "1,000,000,000", example: { de: "Die Erde hat acht Milliarden Menschen.", en: "The earth has eight billion people." } },
+          { word: "die Zahl", phonetic: "tsahl", meaning: "the number", example: { de: "Das ist eine große Zahl.", en: "That is a big number." } },
+          { word: "zählen", phonetic: "tsay-len", meaning: "to count", example: { de: "Kannst du bis 100 zählen?", en: "Can you count to 100?" } },
           { word: "3,50 €", phonetic: "dry oy-ro fünf-tsikh", meaning: "€3.50", example: { de: "Das macht drei Euro fünfzig.", en: "That's three euros fifty." } }
         ]
       },
@@ -67,7 +71,13 @@ export const lessonsA1New4: Record<string, Lesson> = {
           { word: "schlafen → schläft", phonetic: "shlah-fen → shleft", meaning: "to sleep → he sleeps", example: { de: "Das Kind schläft.", en: "The child sleeps." } },
           { word: "laufen → läuft", phonetic: "low-fen → loyft", meaning: "to run/walk → he runs", example: { de: "Er läuft schnell.", en: "He runs fast." } },
           { word: "tragen → trägt", phonetic: "trah-gen → trekt", meaning: "to carry/wear → he wears", example: { de: "Sie trägt ein Kleid.", en: "She wears a dress." } },
-          { word: "wissen → weiß", phonetic: "vis-sen → vys", meaning: "to know (facts) → he knows", example: { de: "Er weiß das nicht.", en: "He doesn't know that." } }
+          { word: "wissen → weiß", phonetic: "vis-sen → vys", meaning: "to know (facts) → he knows", example: { de: "Er weiß das nicht.", en: "He doesn't know that." } },
+          { word: "lesen → liest", phonetic: "lay-zen → leest", meaning: "to read → he reads", example: { de: "Sie liest ein Buch.", en: "She reads a book." } },
+          { word: "sprechen → spricht", phonetic: "shpre-khen → shprikht", meaning: "to speak → he speaks", example: { de: "Er spricht Deutsch.", en: "He speaks German." } },
+          { word: "treffen → trifft", phonetic: "tref-fen → trift", meaning: "to meet → he meets", example: { de: "Er trifft Freunde.", en: "He meets friends." } },
+          { word: "nehmen → nimmt", phonetic: "nay-men → nimt", meaning: "to take → he takes", example: { de: "Sie nimmt den Bus.", en: "She takes the bus." } },
+          { word: "fahren → fährt", phonetic: "fah-ren → fairt", meaning: "to drive → he drives", example: { de: "Er fährt nach Berlin.", en: "He drives to Berlin." } },
+          { word: "waschen → wäscht", phonetic: "va-shen → vesht", meaning: "to wash → he washes", example: { de: "Er wäscht das Auto.", en: "He washes the car." } },
         ]
       },
       {
@@ -109,7 +119,12 @@ export const lessonsA1New4: Record<string, Lesson> = {
           { word: "das Flugzeug", phonetic: "flook-tsoyk", meaning: "airplane (fly-thing)", example: { de: "Das Flugzeug fliegt.", en: "The airplane flies." } },
           { word: "der Staubsauger", phonetic: "shtowp-zow-ger", meaning: "vacuum cleaner (dust-sucker)", example: { de: "Ich brauche den Staubsauger.", en: "I need the vacuum cleaner." } },
           { word: "die Geburtstagsparty", phonetic: "ge-boorts-tahks-par-tee", meaning: "birthday party", example: { de: "Kommst du zur Geburtstagsparty?", en: "Are you coming to the birthday party?" } },
-          { word: "das Ausländeramt", phonetic: "ows-len-der-amt", meaning: "foreigners' office", example: { de: "Ich muss zum Ausländeramt.", en: "I have to go to the foreigners' office." } }
+          { word: "das Ausländeramt", phonetic: "ows-len-der-amt", meaning: "foreigners' office", example: { de: "Ich muss zum Ausländeramt.", en: "I have to go to the foreigners' office." } },
+          { word: "der Kühlschrank", phonetic: "kül-shrank", meaning: "refrigerator (cool-closet)", example: { de: "Die Milch ist im Kühlschrank.", en: "The milk is in the fridge." } },
+          { word: "der Schreibtisch", phonetic: "shryp-tish", meaning: "desk (write-table)", example: { de: "Ich sitze am Schreibtisch.", en: "I sit at the desk." } },
+          { word: "das Feuerzeug", phonetic: "foy-er-tsoyk", meaning: "lighter (fire-thing)", example: { de: "Hast du ein Feuerzeug?", en: "Do you have a lighter?" } },
+          { word: "der Fernseher", phonetic: "fairn-zay-er", meaning: "television", example: { de: "Wir haben einen neuen Fernseher.", en: "We have a new television." } },
+          { word: "das Rathaus", phonetic: "raht-hows", meaning: "town hall (council-house)", example: { de: "Das Rathaus ist im Zentrum.", en: "The town hall is in the center." } }
         ]
       },
       {

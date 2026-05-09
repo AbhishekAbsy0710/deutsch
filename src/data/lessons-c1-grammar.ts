@@ -29,6 +29,16 @@ export const lessonsC1Grammar: Record<string, Lesson> = {
         ]
       },
       {
+        type: "flashcard",
+        cards: [
+          { word: "die Entwicklung", phonetic: "ent-vik-loong", meaning: "development (from entwickeln)", example: { de: "Die Entwicklung der neuen Software dauert an.", en: "The development of the new software continues." } },
+          { word: "die Bedeutung", phonetic: "be-doy-toong", meaning: "meaning / significance (from bedeuten)", example: { de: "Die Bedeutung dieses Fundes ist enorm.", en: "The significance of this discovery is enormous." } },
+          { word: "die Möglichkeit", phonetic: "mög-likh-kite", meaning: "possibility (from möglich)", example: { de: "Es besteht die Möglichkeit eines Fehlers.", en: "There is the possibility of an error." } },
+          { word: "das Verständnis", phonetic: "fer-shtent-nis", meaning: "understanding (from verstehen)", example: { de: "Wir bitten um Ihr Verständnis.", en: "We ask for your understanding." } },
+          { word: "die Vorbereitung", phonetic: "for-be-ry-toong", meaning: "preparation (from vorbereiten)", example: { de: "Die Vorbereitung auf die Prüfung ist wichtig.", en: "Preparation for the exam is important." } }
+        ]
+      },
+      {
         type: "cultural-note",
         title: "Why Germans Love Nominal Style",
         content: "German academic and business writing is heavily nominalized. Where English might say 'We need to improve how we communicate,' German formal style prefers 'Die Verbesserung der Kommunikation ist erforderlich.' If you want to work or study in Germany, mastering this style is non-negotiable.",
@@ -91,6 +101,17 @@ export const lessonsC1Grammar: Record<string, Lesson> = {
           { de: "in Kauf nehmen", en: "to accept (a negative consequence)" },
           { de: "zum Ausdruck bringen", en: "to express (lit: to bring to expression)" },
           { de: "unter Druck setzen", en: "to pressure (lit: to put under pressure)" },
+        ]
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "eine Frage stellen", phonetic: "eye-nuh frah-ge shtel-len", meaning: "to ask a question", example: { de: "Darf ich Ihnen eine Frage stellen?", en: "May I ask you a question?" } },
+          { word: "eine Entscheidung treffen", phonetic: "eye-nuh ent-shy-doong tre-fen", meaning: "to make a decision", example: { de: "Wir müssen heute eine Entscheidung treffen.", en: "We must make a decision today." } },
+          { word: "Kritik üben", phonetic: "kri-teek ü-ben", meaning: "to criticize", example: { de: "Der Professor übte Kritik an der Methode.", en: "The professor criticized the method." } },
+          { word: "in Betracht ziehen", phonetic: "in be-trakht tsee-en", meaning: "to take into consideration", example: { de: "Wir müssen alle Optionen in Betracht ziehen.", en: "We must take all options into consideration." } },
+          { word: "zur Verfügung stehen", phonetic: "tsoor fer-fü-goong shtay-en", meaning: "to be available", example: { de: "Die Unterlagen stehen Ihnen online zur Verfügung.", en: "The documents are available to you online." } },
+          { word: "in Anspruch nehmen", phonetic: "in an-shprookh nay-men", meaning: "to make use of", example: { de: "Sie können unsere Hilfe in Anspruch nehmen.", en: "You can make use of our help." } }
         ]
       },
       {

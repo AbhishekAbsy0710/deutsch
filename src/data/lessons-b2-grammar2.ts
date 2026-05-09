@@ -22,7 +22,8 @@ export const lessonsB2Grammar2: Record<string, Lesson> = {
         cards: [
           { word: "ist zu beachten", phonetic: "ist tsoo be-akh-ten", meaning: "must be observed/noted", example: { de: "Folgendes ist zu beachten.", en: "The following must be noted." } },
           { word: "ist zu empfehlen", phonetic: "ist tsoo em-pfay-len", meaning: "is to be recommended", example: { de: "Dieses Restaurant ist zu empfehlen.", en: "This restaurant is recommended." } },
-          { word: "ist nicht zu übersehen", phonetic: "ist nikht tsoo", meaning: "cannot be overlooked", example: { de: "Der Fortschritt ist nicht zu übersehen.", en: "The progress cannot be overlooked." } }
+          { word: "ist nicht zu übersehen", phonetic: "ist nikht tsoo", meaning: "cannot be overlooked", example: { de: "Der Fortschritt ist nicht zu übersehen.", en: "The progress cannot be overlooked." } },
+          { word: "Es ist zu hoffen, dass...", phonetic: "es ist tsoo hof-fen das", meaning: "It is to be hoped that...", example: { de: "Es ist zu hoffen, dass sich die Lage bessert.", en: "It is to be hoped that the situation improves." } }
         ]
       },
       {
@@ -47,7 +48,8 @@ export const lessonsB2Grammar2: Record<string, Lesson> = {
           { de: "Es wird hier nicht geraucht.", en: "There is no smoking here." },
           { de: "Hier wird nicht geraucht. (no 'es' needed)", en: "Same meaning — 'es' drops when not in first position." },
           { de: "Es wurde viel gelacht.", en: "There was a lot of laughing." },
-          { de: "Auf der Party wurde getanzt und gesungen.", en: "At the party there was dancing and singing." }
+          { de: "Auf der Party wurde getanzt und gesungen.", en: "At the party there was dancing and singing." },
+          { de: "Dem Rat wird gefolgt.", en: "The advice is followed. (Dative passive - 'der Rat' becomes 'dem Rat' and subject is dropped)" }
         ]
       },
       {
@@ -89,7 +91,8 @@ export const lessonsB2Grammar2: Record<string, Lesson> = {
           { word: "wird wohl ... sein", phonetic: "virt vohl zayn", meaning: "is probably... (present guess)", example: { de: "Er wird wohl zu Hause sein.", en: "He is probably at home." } },
           { word: "wird ... haben (Futur II)", phonetic: "virt hah-ben", meaning: "has probably... (past guess)", example: { de: "Sie wird es vergessen haben.", en: "She has probably forgotten it." } },
           { word: "wohl", phonetic: "vohl", meaning: "probably / I suppose", example: { de: "Das wird wohl stimmen.", en: "That's probably true." } },
-          { word: "vermutlich", phonetic: "fer-moot-likh", meaning: "presumably", example: { de: "Er wird vermutlich nicht kommen.", en: "He presumably won't come." } }
+          { word: "vermutlich", phonetic: "fer-moot-likh", meaning: "presumably", example: { de: "Er wird vermutlich nicht kommen.", en: "He presumably won't come." } },
+          { word: "dürfte gewesen sein", phonetic: "dürf-te ge-vay-zen zayn", meaning: "might have been", example: { de: "Das dürfte ein Fehler gewesen sein.", en: "That might have been a mistake." } }
         ]
       },
       {
@@ -124,7 +127,8 @@ export const lessonsB2Grammar2: Record<string, Lesson> = {
           { word: "Es geht um + Akk", phonetic: "es gayt um", meaning: "it's about / it concerns", example: { de: "Es geht um die Zukunft.", en: "It's about the future." } },
           { word: "Es handelt sich um + Akk", phonetic: "es han-delt zikh um", meaning: "it concerns / it's a matter of", example: { de: "Es handelt sich um ein Missverständnis.", en: "It's a misunderstanding." } },
           { word: "Es kommt darauf an", phonetic: "es komt da-rowf an", meaning: "it depends", example: { de: "Es kommt darauf an, wie man es sieht.", en: "It depends on how you see it." } },
-          { word: "Es lohnt sich", phonetic: "es lohnt zikh", meaning: "it's worth it", example: { de: "Es lohnt sich, Deutsch zu lernen.", en: "It's worth it to learn German." } }
+          { word: "Es lohnt sich", phonetic: "es lohnt zikh", meaning: "it's worth it", example: { de: "Es lohnt sich, Deutsch zu lernen.", en: "It's worth it to learn German." } },
+          { word: "Es bedarf + Genitiv", phonetic: "es be-darf", meaning: "it requires / there is a need for", example: { de: "Es bedarf einer genauen Untersuchung.", en: "It requires a close examination." } }
         ]
       },
       {
@@ -160,7 +164,9 @@ export const lessonsB2Grammar2: Record<string, Lesson> = {
           { word: "bestehen aus + Dat", phonetic: "be-shtay-en ows", meaning: "to consist of", example: { de: "Das Team besteht aus fünf Personen.", en: "The team consists of five people." } },
           { word: "sich unterscheiden von + Dat", phonetic: "oon-ter-shy-den fon", meaning: "to differ from", example: { de: "Deutsch unterscheidet sich von Englisch.", en: "German differs from English." } },
           { word: "sich handeln um + Akk", phonetic: "han-deln um", meaning: "to be about / concern", example: { de: "Es handelt sich um eine dringende Angelegenheit.", en: "It concerns an urgent matter." } },
-          { word: "sich eignen für + Akk", phonetic: "ayg-nen für", meaning: "to be suitable for", example: { de: "Das eignet sich für Anfänger.", en: "That is suitable for beginners." } }
+          { word: "sich eignen für + Akk", phonetic: "ayg-nen für", meaning: "to be suitable for", example: { de: "Das eignet sich für Anfänger.", en: "That is suitable for beginners." } },
+          { word: "zweifeln an + Dat", phonetic: "tsvy-feln an", meaning: "to doubt", example: { de: "Er zweifelt an der Richtigkeit der Aussage.", en: "He doubts the correctness of the statement." } },
+          { word: "warnen vor + Dat", phonetic: "var-nen for", meaning: "to warn against", example: { de: "Experten warnen vor den Risiken.", en: "Experts warn against the risks." } }
         ]
       },
       {
@@ -193,7 +199,8 @@ export const lessonsB2Grammar2: Record<string, Lesson> = {
         cards: [
           { word: "einer der + Superlativ + Plural", phonetic: "ay-ner dair", meaning: "one of the most...", example: { de: "Einstein, einer der größten Physiker aller Zeiten...", en: "Einstein, one of the greatest physicists of all time..." } },
           { word: "also known as / called", phonetic: "ge-nant", meaning: "genannt (in appositives)", example: { de: "J.W. von Goethe, auch 'der Dichterfürst' genannt,...", en: "Goethe, also called 'the prince of poets'..." } },
-          { word: "d.h. (das heißt)", phonetic: "das hayst", meaning: "i.e. (that is)", example: { de: "Der Bund, d.h. die Bundesregierung, entscheidet.", en: "The federation, i.e. the federal government, decides." } }
+          { word: "d.h. (das heißt)", phonetic: "das hayst", meaning: "i.e. (that is)", example: { de: "Der Bund, d.h. die Bundesregierung, entscheidet.", en: "The federation, i.e. the federal government, decides." } },
+          { word: "der damalige", phonetic: "dair dah-mah-li-ge", meaning: "the then (at that time)", example: { de: "Helmut Kohl, der damalige Bundeskanzler,...", en: "Helmut Kohl, the then Chancellor..." } }
         ]
       },
       {
@@ -228,7 +235,8 @@ export const lessonsB2Grammar2: Record<string, Lesson> = {
           { word: "dürfte (subjektiv)", phonetic: "dürf-te", meaning: "is likely to / probably", example: { de: "Das dürfte kein Problem sein.", en: "That's probably not a problem." } },
           { word: "soll (subjektiv)", phonetic: "zol", meaning: "is said to / reportedly", example: { de: "Das Hotel soll sehr gut sein.", en: "The hotel is said to be very good." } },
           { word: "will ... haben (subjektiv)", phonetic: "vil hah-ben", meaning: "claims to have", example: { de: "Er will das nicht gewusst haben.", en: "He claims not to have known that." } },
-          { word: "kann (subjektiv)", phonetic: "kan", meaning: "could possibly / might", example: { de: "Das kann nicht stimmen.", en: "That can't be right." } }
+          { word: "kann (subjektiv)", phonetic: "kan", meaning: "could possibly / might", example: { de: "Das kann nicht stimmen.", en: "That can't be right." } },
+          { word: "müsste (subjektiv)", phonetic: "müs-te", meaning: "ought to be / should be (probability)", example: { de: "Er müsste jetzt eigentlich zu Hause sein.", en: "He should actually be at home by now." } }
         ]
       },
       {
@@ -263,7 +271,8 @@ export const lessonsB2Grammar2: Record<string, Lesson> = {
           { word: "erklären", phonetic: "er-kleh-ren", meaning: "to explain / to declare", example: { de: "Die Firma erklärte, sie werde 100 neue Stellen schaffen.", en: "The company declared it would create 100 new jobs." } },
           { word: "betonen", phonetic: "be-toh-nen", meaning: "to emphasize / to stress", example: { de: "Der Sprecher betonte, die Maßnahmen seien notwendig.", en: "The spokesperson emphasized that the measures are necessary." } },
           { word: "mitteilen", phonetic: "mit-ty-len", meaning: "to inform / to communicate", example: { de: "Das Ministerium teilte mit, die Reform werde umgesetzt.", en: "The ministry communicated that the reform would be implemented." } },
-          { word: "berichten", phonetic: "be-rikh-ten", meaning: "to report", example: { de: "Die Zeitung berichtet, der Verdächtige sei geflohen.", en: "The newspaper reports that the suspect has fled." } }
+          { word: "berichten", phonetic: "be-rikh-ten", meaning: "to report", example: { de: "Die Zeitung berichtet, der Verdächtige sei geflohen.", en: "The newspaper reports that the suspect has fled." } },
+          { word: "hinzufügen", phonetic: "hin-tsoo-fü-gen", meaning: "to add", example: { de: "Er fügte hinzu, man werde keine weiteren Fragen beantworten.", en: "He added that no further questions would be answered." } }
         ]
       },
       {

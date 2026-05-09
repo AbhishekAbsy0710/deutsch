@@ -24,6 +24,26 @@ export const lessonsC1Exam: Record<string, Lesson> = {
           { de: "Question: Die Studie kritisiert den Mangel an Förderung.", en: "The study criticizes the lack of funding." },
           { de: "Text: Die Forscher bemängeln die unzureichende finanzielle Unterstützung.", en: "The researchers complain about the insufficient financial support." },
         ]
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "der Lückentext", phonetic: "lü-ken-tekst", meaning: "cloze test / fill-in-the-blanks", example: { de: "Im ersten Teil müssen Sie einen Lückentext ergänzen.", en: "In the first part you have to complete a fill-in-the-blanks text." } },
+          { word: "die Textzuordnung", phonetic: "tekst-tsoo-ort-noong", meaning: "text matching", example: { de: "Bei der Textzuordnung ist genaues Lesen gefragt.", en: "Text matching requires precise reading." } },
+          { word: "die Schlussfolgerung", phonetic: "shloos-fol-ge-roong", meaning: "conclusion / inference", example: { de: "Welche Schlussfolgerung lässt sich aus dem Text ziehen?", en: "What conclusion can be drawn from the text?" } }
+        ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "When scanning a C1 reading text, what should you look for?",
+        options: [
+          "The exact words used in the question.",
+          "Every single unknown word to translate it.",
+          "Synonyms and paraphrases of the keywords in the question.",
+          "The author's biography."
+        ],
+        correctIndex: 2,
+        explanation: "C1 reading heavily tests your ability to recognize synonyms. The exact words from the question will almost never be in the text."
       }
     ]
   },
@@ -47,6 +67,14 @@ export const lessonsC1Exam: Record<string, Lesson> = {
         title: "Signal Words in Listening",
         content: "Pay attention to connectors like 'jedoch' (however), 'zwar... aber' (admittedly... but), and 'dennoch' (nevertheless). They signal a pivot in the speaker's argument, which is exactly where the test designers hide the trap answers.",
         emoji: "🎧"
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "das Hintergrundgeräusch", phonetic: "hin-ter-groont-ge-roysh", meaning: "background noise", example: { de: "C1-Hörtexte enthalten oft störende Hintergrundgeräusche.", en: "C1 listening texts often contain distracting background noises." } },
+          { word: "die Kernaussage", phonetic: "kern-ows-zah-ge", meaning: "core statement / main point", example: { de: "Konzentrieren Sie sich auf die Kernaussage.", en: "Focus on the main point." } },
+          { word: "der Dialekt", phonetic: "dee-a-lekt", meaning: "dialect", example: { de: "Manchmal haben die Sprecher einen leichten Dialekt.", en: "Sometimes the speakers have a slight dialect." } }
+        ]
       }
     ]
   },
@@ -72,6 +100,22 @@ export const lessonsC1Exam: Record<string, Lesson> = {
           { de: "Die vorliegende Grafik veranschaulicht...", en: "The graph at hand illustrates..." },
           { de: "Während Person A behauptet, dass..., vertritt Person B die Ansicht, dass...", en: "While Person A claims that..., Person B takes the view that..." },
         ]
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "die Erörterung", phonetic: "er-ör-te-roong", meaning: "discursive essay / discussion", example: { de: "Sie müssen eine strukturierte Erörterung schreiben.", en: "You have to write a structured discursive essay." } },
+          { word: "das Schaubild / die Grafik", phonetic: "show-bilt / gra-fik", meaning: "chart / graph", example: { de: "Das Schaubild zeigt die Entwicklung der Arbeitslosigkeit.", en: "The chart shows the development of unemployment." } },
+          { word: "veranschaulichen", phonetic: "fer-an-show-li-khen", meaning: "to illustrate", example: { de: "Die vorliegende Grafik veranschaulicht den Trend.", en: "The present graph illustrates the trend." } },
+          { word: "die Stellungnahme", phonetic: "shtel-loong-nah-me", meaning: "statement of opinion / position", example: { de: "Ihre Stellungnahme sollte gut begründet sein.", en: "Your statement of opinion should be well-reasoned." } }
+        ]
+      },
+      {
+        type: "quiz-fill",
+        sentenceBefore: "Die vorliegende Grafik ",
+        sentenceAfter: " die Entwicklung der letzten zehn Jahre.",
+        missingWord: "veranschaulicht",
+        translation: "The present graph illustrates the development over the last ten years."
       }
     ]
   },
@@ -97,6 +141,14 @@ export const lessonsC1Exam: Record<string, Lesson> = {
           { de: "Da muss ich Ihnen leider widersprechen, denn...", en: "I unfortunately have to disagree with you there, because..." },
           { de: "Das ist ein interessanter Punkt. Dennoch denke ich, dass...", en: "That is an interesting point. Nevertheless, I think that..." },
           { de: "Lassen Sie uns festhalten, dass...", en: "Let us conclude that..." },
+        ]
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "der Monolog", phonetic: "mo-no-lohk", meaning: "monologue / solo presentation", example: { de: "Der Monolog dauert etwa drei Minuten.", en: "The monologue lasts about three minutes." } },
+          { word: "der Mitprüfling", phonetic: "mit-prüf-ling", meaning: "fellow examinee / partner", example: { de: "Diskutieren Sie das Thema mit Ihrem Mitprüfling.", en: "Discuss the topic with your fellow examinee." } },
+          { word: "Strukturierungswörter", phonetic: "shtrook-too-ree-roongs-vör-ter", meaning: "structuring words (fillers/connectors)", example: { de: "Verwenden Sie Strukturierungswörter, um fließender zu klingen.", en: "Use structuring words to sound more fluent." } }
         ]
       }
     ]

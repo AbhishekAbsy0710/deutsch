@@ -32,6 +32,9 @@ export const lessonsA1New3: Record<string, Lesson> = {
         cards: [
           { word: "Herr", phonetic: "hair", meaning: "Mr.", example: { de: "Guten Tag, Herr Schmidt.", en: "Good day, Mr. Schmidt." } },
           { word: "Frau", phonetic: "frow", meaning: "Mrs./Ms.", example: { de: "Auf Wiedersehen, Frau Müller.", en: "Goodbye, Mrs. Müller." } },
+          { word: "der Vorname", phonetic: "for-nah-me", meaning: "first name", example: { de: "Mein Vorname ist Thomas.", en: "My first name is Thomas." } },
+          { word: "der Nachname", phonetic: "nakh-nah-me", meaning: "last name / surname", example: { de: "Wie ist Ihr Nachname?", en: "What is your last name?" } },
+          { word: "die Anrede", phonetic: "an-ray-de", meaning: "form of address", example: { de: "Die richtige Anrede ist wichtig.", en: "The correct form of address is important." } },
           { word: "duzen", phonetic: "doo-tsen", meaning: "to use 'du'", example: { de: "Wir duzen uns.", en: "We use 'du' with each other." } },
           { word: "siezen", phonetic: "zee-tsen", meaning: "to use 'Sie'", example: { de: "Ich sieze meinen Chef.", en: "I use 'Sie' with my boss." } }
         ]
@@ -55,8 +58,12 @@ export const lessonsA1New3: Record<string, Lesson> = {
         cards: [
           { word: "Entschuldigung", phonetic: "ent-shool-di-goong", meaning: "Excuse me / Sorry", example: { de: "Entschuldigung, wo ist die Toilette?", en: "Excuse me, where is the toilet?" } },
           { word: "Es tut mir leid.", phonetic: "es toot meer lyt", meaning: "I'm sorry. (sincere)", example: { de: "Es tut mir wirklich leid.", en: "I'm really sorry." } },
+          { word: "Verzeihung!", phonetic: "fer-tsy-oong", meaning: "Forgive me! / Pardon!", example: { de: "Verzeihung, ich habe Sie nicht gesehen.", en: "Pardon, I didn't see you." } },
           { word: "Kein Problem!", phonetic: "kyn pro-blem", meaning: "No problem!", example: { de: "A: Entschuldigung! — B: Kein Problem!", en: "A: Sorry! — B: No problem!" } },
           { word: "Macht nichts!", phonetic: "makht nikhts", meaning: "Never mind! / No worries!", example: { de: "A: Tut mir leid! — B: Macht nichts!", en: "A: I'm sorry! — B: Never mind!" } },
+          { word: "Schade!", phonetic: "shah-de", meaning: "What a pity! / Too bad!", example: { de: "Du kannst nicht kommen? Schade!", en: "You can't come? Too bad!" } },
+          { word: "Viel Glück!", phonetic: "feel glük", meaning: "Good luck!", example: { de: "Viel Glück für die Prüfung!", en: "Good luck for the exam!" } },
+          { word: "Gute Besserung!", phonetic: "goo-te bes-se-roong", meaning: "Get well soon!", example: { de: "Bist du krank? Gute Besserung!", en: "Are you sick? Get well soon!" } },
           { word: "Bitte schön!", phonetic: "bit-te shön", meaning: "You're welcome! / Here you go!", example: { de: "A: Danke! — B: Bitte schön!", en: "A: Thanks! — B: You're welcome!" } },
           { word: "Gern geschehen!", phonetic: "gairn ge-shay-en", meaning: "My pleasure!", example: { de: "A: Vielen Dank! — B: Gern geschehen!", en: "A: Many thanks! — B: My pleasure!" } }
         ]
@@ -107,7 +114,10 @@ export const lessonsA1New3: Record<string, Lesson> = {
         type: "flashcard",
         cards: [
           { word: "Ich verstehe nicht.", phonetic: "ikh fer-shtay-e nikht", meaning: "I don't understand.", example: { de: "Entschuldigung, ich verstehe nicht.", en: "Sorry, I don't understand." } },
+          { word: "Ich spreche kein Deutsch.", phonetic: "ikh shpre-khe kyn doytsh", meaning: "I don't speak German.", example: { de: "Tut mir leid, ich spreche kein Deutsch.", en: "Sorry, I don't speak German." } },
+          { word: "Sprechen Sie Englisch?", phonetic: "shpre-khen zee eng-lish", meaning: "Do you speak English? (formal)", example: { de: "Entschuldigung, sprechen Sie Englisch?", en: "Excuse me, do you speak English?" } },
           { word: "Wie bitte?", phonetic: "vee bit-te", meaning: "Pardon? / Come again?", example: { de: "Wie bitte? Noch einmal, bitte.", en: "Pardon? One more time, please." } },
+          { word: "langsam", phonetic: "lang-zam", meaning: "slowly", example: { de: "Bitte sprechen Sie langsam.", en: "Please speak slowly." } },
           { word: "Was bedeutet das?", phonetic: "vas be-doy-tet das", meaning: "What does that mean?", example: { de: "Was bedeutet 'Feierabend'?", en: "What does 'Feierabend' mean?" } },
           { word: "Wo ist die Toilette?", phonetic: "vo ist dee toy-let-te", meaning: "Where is the toilet?", example: { de: "Entschuldigung, wo ist die Toilette?", en: "Excuse me, where is the toilet?" } },
           { word: "Ich brauche Hilfe.", phonetic: "ikh brow-khe hil-fe", meaning: "I need help.", example: { de: "Bitte, ich brauche Hilfe!", en: "Please, I need help!" } },

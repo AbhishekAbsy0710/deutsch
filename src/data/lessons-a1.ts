@@ -315,6 +315,12 @@ export const lessonsA1: Record<string, Lesson> = {
           { word: "einen", phonetic: "eye-nen", meaning: "a/an (masculine accusative)", example: { de: "Ich habe einen Hund.", en: "I have a dog." } },
           { word: "mich", phonetic: "mikh", meaning: "me (accusative)", example: { de: "Siehst du mich?", en: "Do you see me?" } },
           { word: "dich", phonetic: "dikh", meaning: "you (accusative)", example: { de: "Ich liebe dich.", en: "I love you." } },
+          { word: "ihn", phonetic: "een", meaning: "him (accusative)", example: { de: "Ich kenne ihn.", en: "I know him." } },
+          { word: "sie", phonetic: "zee", meaning: "her / them (accusative)", example: { de: "Ich höre sie.", en: "I hear her/them." } },
+          { word: "es", phonetic: "es", meaning: "it (accusative)", example: { de: "Ich kaufe es.", en: "I am buying it." } },
+          { word: "uns", phonetic: "oons", meaning: "us (accusative)", example: { de: "Sie sieht uns.", en: "She sees us." } },
+          { word: "euch", phonetic: "oykh", meaning: "you all (accusative)", example: { de: "Ich verstehe euch.", en: "I understand you all." } },
+          { word: "Sie", phonetic: "zee", meaning: "you (formal accusative)", example: { de: "Ich frage Sie.", en: "I ask you (formal)." } },
         ]
       },
       {
@@ -378,6 +384,12 @@ export const lessonsA1: Record<string, Lesson> = {
           { word: "das Kind", phonetic: "kint", meaning: "the child", example: { de: "Das Kind spielt.", en: "The child plays." } },
           { word: "der Sohn", phonetic: "zohn", meaning: "the son", example: { de: "Er ist mein Sohn.", en: "He is my son." } },
           { word: "die Tochter", phonetic: "tokh-ter", meaning: "the daughter", example: { de: "Sie ist meine Tochter.", en: "She is my daughter." } },
+          { word: "der Großvater", phonetic: "grohs-fah-ter", meaning: "the grandfather", example: { de: "Mein Großvater ist alt.", en: "My grandfather is old." } },
+          { word: "die Großmutter", phonetic: "grohs-moot-ter", meaning: "the grandmother", example: { de: "Meine Großmutter ist nett.", en: "My grandmother is nice." } },
+          { word: "die Großeltern", phonetic: "grohs-el-tern", meaning: "the grandparents", example: { de: "Ich besuche meine Großeltern.", en: "I visit my grandparents." } },
+          { word: "der Onkel", phonetic: "on-kel", meaning: "the uncle", example: { de: "Das ist mein Onkel.", en: "That is my uncle." } },
+          { word: "die Tante", phonetic: "tan-tuh", meaning: "the aunt", example: { de: "Meine Tante wohnt hier.", en: "My aunt lives here." } },
+          { word: "der Cousin / die Cousine", phonetic: "koo-zeng / koo-zee-nuh", meaning: "the cousin", example: { de: "Mein Cousin ist da.", en: "My cousin is here." } },
         ]
       },
       {
@@ -414,6 +426,14 @@ export const lessonsA1: Record<string, Lesson> = {
           { word: "die Milch", phonetic: "milkh", meaning: "the milk", example: { de: "Die Milch ist kalt.", en: "The milk is cold." } },
           { word: "das Fleisch", phonetic: "flysh", meaning: "the meat", example: { de: "Ich esse kein Fleisch.", en: "I don't eat meat." } },
           { word: "das Gemüse", phonetic: "ge-mü-zuh", meaning: "the vegetables", example: { de: "Gemüse ist gesund.", en: "Vegetables are healthy." } },
+          { word: "der Käse", phonetic: "kay-zuh", meaning: "the cheese", example: { de: "Ich esse Brot mit Käse.", en: "I eat bread with cheese." } },
+          { word: "die Wurst", phonetic: "voorst", meaning: "the sausage", example: { de: "Die Wurst schmeckt gut.", en: "The sausage tastes good." } },
+          { word: "der Saft", phonetic: "zaft", meaning: "the juice", example: { de: "Ein Glas Saft, bitte.", en: "A glass of juice, please." } },
+          { word: "das Bier", phonetic: "beer", meaning: "the beer", example: { de: "Zwei Bier, bitte.", en: "Two beers, please." } },
+          { word: "der Wein", phonetic: "vyne", meaning: "the wine", example: { de: "Trinkst du gern Wein?", en: "Do you like drinking wine?" } },
+          { word: "der Tee", phonetic: "tay", meaning: "the tea", example: { de: "Ich trinke oft Tee.", en: "I often drink tea." } },
+          { word: "der Fisch", phonetic: "fish", meaning: "the fish", example: { de: "Der Fisch ist frisch.", en: "The fish is fresh." } },
+          { word: "das Obst", phonetic: "ohpst", meaning: "the fruit", example: { de: "Obst ist süß.", en: "Fruit is sweet." } },
           { word: "essen", phonetic: "es-sen", meaning: "to eat", example: { de: "Wir essen Pizza.", en: "We are eating pizza." } },
           { word: "trinken", phonetic: "trin-ken", meaning: "to drink", example: { de: "Was trinkst du?", en: "What are you drinking?" } },
         ]
@@ -447,10 +467,15 @@ export const lessonsA1: Record<string, Lesson> = {
           { word: "die Uhr", phonetic: "oor", meaning: "the clock / o'clock", example: { de: "Es ist drei Uhr.", en: "It is three o'clock." } },
           { word: "die Stunde", phonetic: "shtoon-duh", meaning: "the hour", example: { de: "Eine Stunde hat 60 Minuten.", en: "An hour has 60 minutes." } },
           { word: "die Minute", phonetic: "mi-noo-tuh", meaning: "the minute", example: { de: "Warte eine Minute.", en: "Wait one minute." } },
+          { word: "die Sekunde", phonetic: "ze-koon-duh", meaning: "the second", example: { de: "Eine Minute hat 60 Sekunden.", en: "A minute has 60 seconds." } },
           { word: "spät", phonetic: "shpayt", meaning: "late", example: { de: "Wie spät ist es?", en: "How late is it? (What time is it?)" } },
           { word: "halb", phonetic: "halp", meaning: "half", example: { de: "Es ist halb acht.", en: "It is half past seven. (Literally: halfway to eight)" } },
           { word: "Viertel nach", phonetic: "feer-tel nakh", meaning: "quarter past", example: { de: "Es ist Viertel nach drei.", en: "It is quarter past three." } },
           { word: "Viertel vor", phonetic: "feer-tel for", meaning: "quarter to", example: { de: "Es ist Viertel vor vier.", en: "It is quarter to four." } },
+          { word: "nach", phonetic: "nakh", meaning: "past (time)", example: { de: "Es ist zehn nach drei.", en: "It is ten past three." } },
+          { word: "vor", phonetic: "for", meaning: "to (time)", example: { de: "Es ist fünf vor zwölf.", en: "It is five to twelve." } },
+          { word: "der Mittag", phonetic: "mit-tahk", meaning: "noon / midday", example: { de: "Es ist Mittag.", en: "It is noon." } },
+          { word: "die Mitternacht", phonetic: "mit-ter-nakht", meaning: "midnight", example: { de: "Es ist Mitternacht.", en: "It is midnight." } },
         ]
       },
       {
@@ -487,6 +512,12 @@ export const lessonsA1: Record<string, Lesson> = {
           { word: "Musik hören", phonetic: "moo-zeek hö-ren", meaning: "to listen to music", example: { de: "Ich höre gern Musik.", en: "I like listening to music." } },
           { word: "Kino", phonetic: "kee-no", meaning: "cinema / movies", gender: "das", example: { de: "Wir gehen ins Kino.", en: "We are going to the movies." } },
           { word: "spielen", phonetic: "shpee-len", meaning: "to play", example: { de: "Ich spiele Gitarre.", en: "I play guitar." } },
+          { word: "schwimmen", phonetic: "shvim-men", meaning: "to swim", example: { de: "Wir schwimmen im See.", en: "We swim in the lake." } },
+          { word: "tanzen", phonetic: "tan-tsen", meaning: "to dance", example: { de: "Sie tanzt sehr gut.", en: "She dances very well." } },
+          { word: "singen", phonetic: "zing-en", meaning: "to sing", example: { de: "Er singt ein Lied.", en: "He sings a song." } },
+          { word: "kochen", phonetic: "ko-khen", meaning: "to cook", example: { de: "Ich koche gern.", en: "I like to cook." } },
+          { word: "reisen", phonetic: "ry-zen", meaning: "to travel", example: { de: "Wir reisen oft.", en: "We travel often." } },
+          { word: "Sport machen", phonetic: "shport ma-khen", meaning: "to do sports", example: { de: "Ich mache viel Sport.", en: "I do a lot of sports." } },
           { word: "gern", phonetic: "gairn", meaning: "gladly / like to", example: { de: "Ich koche gern.", en: "I like to cook." } },
         ]
       },
@@ -530,6 +561,12 @@ export const lessonsA1: Record<string, Lesson> = {
           { word: "der Beruf", phonetic: "be-roof", meaning: "the profession / job", example: { de: "Was bist du von Beruf?", en: "What is your profession?" } },
           { word: "das Büro", phonetic: "bü-ro", meaning: "the office", example: { de: "Ich arbeite im Büro.", en: "I work in the office." } },
           { word: "der Chef / die Chefin", phonetic: "shef", meaning: "the boss", example: { de: "Mein Chef ist nett.", en: "My boss is nice." } },
+          { word: "der Lehrer / die Lehrerin", phonetic: "lay-rer", meaning: "the teacher", example: { de: "Er ist Lehrer.", en: "He is a teacher." } },
+          { word: "der Arzt / die Ärztin", phonetic: "artst / arts-tin", meaning: "the doctor", example: { de: "Sie ist Ärztin.", en: "She is a doctor." } },
+          { word: "der Student / die Studentin", phonetic: "shtoo-dent", meaning: "the university student", example: { de: "Ich bin Student.", en: "I am a student." } },
+          { word: "der Polizist / die Polizistin", phonetic: "po-lee-tsist", meaning: "the police officer", example: { de: "Die Polizistin hilft.", en: "The police officer is helping." } },
+          { word: "der Verkäufer / die Verkäuferin", phonetic: "fer-koy-fer", meaning: "the salesperson", example: { de: "Er ist Verkäufer.", en: "He is a salesperson." } },
+          { word: "der Kellner / die Kellnerin", phonetic: "kel-ner", meaning: "the waiter / waitress", example: { de: "Die Kellnerin bringt das Essen.", en: "The waitress brings the food." } },
         ]
       },
       {
@@ -575,8 +612,12 @@ export const lessonsA1: Record<string, Lesson> = {
           { word: "Was?", phonetic: "vas", meaning: "What?", example: { de: "Was machst du?", en: "What are you doing?" } },
           { word: "Wann?", phonetic: "van", meaning: "When?", example: { de: "Wann kommst du?", en: "When are you coming?" } },
           { word: "Wo?", phonetic: "vo", meaning: "Where?", example: { de: "Wo wohnst du?", en: "Where do you live?" } },
+          { word: "Woher?", phonetic: "vo-hair", meaning: "Where from?", example: { de: "Woher kommst du?", en: "Where do you come from?" } },
+          { word: "Wohin?", phonetic: "vo-hin", meaning: "Where to?", example: { de: "Wohin gehst du?", en: "Where are you going?" } },
           { word: "Warum?", phonetic: "va-room", meaning: "Why?", example: { de: "Warum weinst du?", en: "Why are you crying?" } },
           { word: "Wie?", phonetic: "vee", meaning: "How?", example: { de: "Wie heißt du?", en: "How are you called? (What is your name?)" } },
+          { word: "Welche?", phonetic: "vel-khuh", meaning: "Which?", example: { de: "Welche Farbe?", en: "Which color?" } },
+          { word: "Wie viel / Wie viele?", phonetic: "vee-feel", meaning: "How much / How many?", example: { de: "Wie viel kostet das?", en: "How much does that cost?" } },
         ]
       },
       {

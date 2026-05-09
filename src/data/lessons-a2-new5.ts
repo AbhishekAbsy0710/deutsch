@@ -27,7 +27,12 @@ export const lessonsA2New5: Record<string, Lesson> = {
           { word: "die Fabrik", phonetic: "fa-breek", meaning: "FACTORY (not fabric!)", example: { de: "In der Fabrik arbeiten 200 Leute.", en: "200 people work in the factory." } },
           { word: "das Rezept", phonetic: "re-tsept", meaning: "RECIPE or PRESCRIPTION", example: { de: "Hast du ein Rezept für Kuchen?", en: "Do you have a recipe for cake?" } },
           { word: "aktuell", phonetic: "ak-too-el", meaning: "CURRENT (not actual!)", example: { de: "Das ist die aktuelle Situation.", en: "That is the current situation." } },
-          { word: "sensibel", phonetic: "zen-zee-bel", meaning: "SENSITIVE (not sensible!)", example: { de: "Er ist sehr sensibel.", en: "He is very sensitive." } }
+          { word: "sensibel", phonetic: "zen-zee-bel", meaning: "SENSITIVE (not sensible!)", example: { de: "Er ist sehr sensibel.", en: "He is very sensitive." } },
+          { word: "also", phonetic: "al-zo", meaning: "SO / THEREFORE (not also!)", example: { de: "Es regnet, also bleibe ich.", en: "It's raining, so I'm staying." } },
+          { word: "brav", phonetic: "brahf", meaning: "WELL-BEHAVED (not brave!)", example: { de: "Das Kind ist sehr brav.", en: "The child is very well-behaved." } },
+          { word: "eventuell", phonetic: "e-ven-too-el", meaning: "POSSIBLY (not eventually!)", example: { de: "Eventuell komme ich später.", en: "Possibly I will come later." } },
+          { word: "die Rente", phonetic: "ren-te", meaning: "PENSION (not rent!)", example: { de: "Mein Opa bekommt Rente.", en: "My grandpa receives a pension." } },
+          { word: "spenden", phonetic: "shpen-den", meaning: "to DONATE (not spend!)", example: { de: "Ich spende Geld für Kinder.", en: "I donate money for children." } }
         ]
       },
       {
@@ -70,7 +75,11 @@ export const lessonsA2New5: Record<string, Lesson> = {
           { word: "ja", phonetic: "yah", meaning: "emphasizes (obviously!)", example: { de: "Du weißt ja, dass...", en: "You know (of course) that..." } },
           { word: "halt", phonetic: "halt", meaning: "just / simply (resigned)", example: { de: "Ich bin halt müde.", en: "I'm just tired (can't help it)." } },
           { word: "eben", phonetic: "ay-ben", meaning: "exactly / just (that's it)", example: { de: "Das ist eben so.", en: "That's just how it is." } },
-          { word: "denn", phonetic: "den", meaning: "so/then (curiosity)", example: { de: "Was machst du denn hier?", en: "What are you doing here (then)?" } }
+          { word: "denn", phonetic: "den", meaning: "so/then (curiosity)", example: { de: "Was machst du denn hier?", en: "What are you doing here (then)?" } },
+          { word: "eigentlich", phonetic: "ay-gent-likh", meaning: "actually / by the way", example: { de: "Was machst du eigentlich?", en: "What are you actually doing?" } },
+          { word: "sowieso", phonetic: "zo-vee-zo", meaning: "anyway", example: { de: "Das mache ich sowieso.", en: "I'll do that anyway." } },
+          { word: "überhaupt", phonetic: "ü-ber-howpt", meaning: "at all", example: { de: "Das stimmt überhaupt nicht.", en: "That's not true at all." } },
+          { word: "wohl", phonetic: "vohl", meaning: "probably / I suppose", example: { de: "Er wird wohl krank sein.", en: "He is probably sick." } }
         ]
       },
       {
@@ -107,7 +116,14 @@ export const lessonsA2New5: Record<string, Lesson> = {
           { word: "die Staatsangehörigkeit", phonetic: "shtahts-an-ge-hö-rikh-kyt", meaning: "nationality / citizenship", example: { de: "Staatsangehörigkeit: spanisch", en: "Nationality: Spanish" } },
           { word: "der Familienstand", phonetic: "fa-mee-lee-en-shtant", meaning: "marital status", example: { de: "Familienstand: ledig / verheiratet", en: "Marital status: single / married" } },
           { word: "die Unterschrift", phonetic: "oon-ter-shrift", meaning: "signature", example: { de: "Bitte hier Ihre Unterschrift.", en: "Your signature here, please." } },
-          { word: "die Anschrift / Adresse", phonetic: "an-shrift", meaning: "address", example: { de: "Anschrift: Berliner Str. 15, 10115 Berlin", en: "Address format: Street #, ZIP City" } }
+          { word: "die Anschrift / Adresse", phonetic: "an-shrift", meaning: "address", example: { de: "Anschrift: Berliner Str. 15, 10115 Berlin", en: "Address format: Street #, ZIP City" } },
+          { word: "die Postleitzahl (PLZ)", phonetic: "post-lyt-tsahl", meaning: "zip code", example: { de: "Die Postleitzahl von Berlin ist 10115.", en: "The zip code for Berlin is 10115." } },
+          { word: "das Geschlecht", phonetic: "ge-shlekht", meaning: "gender / sex", example: { de: "Geschlecht: weiblich", en: "Gender: female" } },
+          { word: "männlich", phonetic: "men-likh", meaning: "male", example: { de: "Geschlecht: männlich", en: "Gender: male" } },
+          { word: "weiblich", phonetic: "vyb-likh", meaning: "female", example: { de: "Geschlecht: weiblich", en: "Gender: female" } },
+          { word: "ledig", phonetic: "lay-dikh", meaning: "single / unmarried", example: { de: "Er ist noch ledig.", en: "He is still single." } },
+          { word: "verheiratet", phonetic: "fer-hy-rah-tet", meaning: "married", example: { de: "Wir sind seit zehn Jahren verheiratet.", en: "We have been married for ten years." } },
+          { word: "geschieden", phonetic: "ge-shee-den", meaning: "divorced", example: { de: "Sie sind geschieden.", en: "They are divorced." } }
         ]
       },
       {
@@ -163,7 +179,13 @@ export const lessonsA2New5: Record<string, Lesson> = {
           { word: "das Bargeld", phonetic: "bar-gelt", meaning: "cash", example: { de: "Nur Barzahlung! Keine Karte.", en: "Cash only! No card." } },
           { word: "die Mülltrennung", phonetic: "mül-tren-noong", meaning: "waste separation/recycling", example: { de: "In Deutschland trennt man den Müll.", en: "In Germany you separate your trash." } },
           { word: "der Feiertag", phonetic: "fy-er-tahk", meaning: "public holiday", example: { de: "Am Feiertag sind die Geschäfte zu.", en: "On public holidays the shops are closed." } },
-          { word: "das Bürgeramt", phonetic: "bür-ger-amt", meaning: "citizens' office", example: { de: "Ich habe einen Termin beim Bürgeramt.", en: "I have an appointment at the citizens' office." } }
+          { word: "das Bürgeramt", phonetic: "bür-ger-amt", meaning: "citizens' office", example: { de: "Ich habe einen Termin beim Bürgeramt.", en: "I have an appointment at the citizens' office." } },
+          { word: "die Krankenversicherung", phonetic: "kran-ken-fer-zi-khe-roong", meaning: "health insurance", example: { de: "Die Krankenversicherung ist Pflicht.", en: "Health insurance is mandatory." } },
+          { word: "der Rundfunkbeitrag", phonetic: "roont-foonk-by-trahk", meaning: "broadcasting fee", example: { de: "Jeder Haushalt muss den Rundfunkbeitrag zahlen.", en: "Every household must pay the broadcasting fee." } },
+          { word: "die Kaution", phonetic: "kow-tsee-ohn", meaning: "security deposit", example: { de: "Die Kaution beträgt drei Monatsmieten.", en: "The deposit is three months' rent." } },
+          { word: "der Mietvertrag", phonetic: "meet-fer-trahk", meaning: "rental contract", example: { de: "Ich habe den Mietvertrag unterschrieben.", en: "I signed the rental contract." } },
+          { word: "die Steuer", phonetic: "shtoy-er", meaning: "tax", example: { de: "Wir müssen Steuern zahlen.", en: "We have to pay taxes." } },
+          { word: "das Leitungswasser", phonetic: "ly-toongs-vas-ser", meaning: "tap water", example: { de: "Man kann in Deutschland das Leitungswasser trinken.", en: "You can drink the tap water in Germany." } }
         ]
       },
       {

@@ -16,7 +16,14 @@ export const lessonsA2New6: Record<string, Lesson> = {
           { word: "das Gepäck", phonetic: "ge-pek", meaning: "luggage", example: { de: "Wo ist mein Gepäck?", en: "Where is my luggage?" } },
           { word: "buchen", phonetic: "boo-khen", meaning: "to book", example: { de: "Ich habe einen Flug gebucht.", en: "I booked a flight." } },
           { word: "der Flug", phonetic: "flook", meaning: "the flight", example: { de: "Der Flug dauert zwei Stunden.", en: "The flight takes two hours." } },
-          { word: "der Strand", phonetic: "shtrant", meaning: "the beach", example: { de: "Wir gehen an den Strand.", en: "We go to the beach." } }
+          { word: "der Strand", phonetic: "shtrant", meaning: "the beach", example: { de: "Wir gehen an den Strand.", en: "We go to the beach." } },
+          { word: "das Ticket / die Fahrkarte", phonetic: "ti-ket / fahr-kar-te", meaning: "the ticket", example: { de: "Ich habe ein Ticket nach Paris.", en: "I have a ticket to Paris." } },
+          { word: "die Unterkunft", phonetic: "oon-ter-koonft", meaning: "the accommodation", example: { de: "Wir suchen eine günstige Unterkunft.", en: "We are looking for cheap accommodation." } },
+          { word: "besichtigen", phonetic: "be-zikh-ti-gen", meaning: "to visit / sightsee", example: { de: "Wir besichtigen heute das Schloss.", en: "We are visiting the castle today." } },
+          { word: "das Visum", phonetic: "vee-zoom", meaning: "the visa", example: { de: "Brauche ich ein Visum für dieses Land?", en: "Do I need a visa for this country?" } },
+          { word: "die Grenze", phonetic: "gren-tse", meaning: "the border", example: { de: "Wir überqueren gleich die Grenze.", en: "We are crossing the border soon." } },
+          { word: "übernachten", phonetic: "ü-ber-nakh-ten", meaning: "to stay overnight", example: { de: "Wo werden wir übernachten?", en: "Where will we stay overnight?" } },
+          { word: "der Flughafen", phonetic: "flook-hah-fen", meaning: "the airport", example: { de: "Der Flughafen ist sehr groß.", en: "The airport is very big." } }
         ]
       },
       {
@@ -58,7 +65,15 @@ export const lessonsA2New6: Record<string, Lesson> = {
           { word: "das Doppelzimmer", phonetic: "dop-pel-tsim-mer", meaning: "double room", example: { de: "Haben Sie ein Doppelzimmer frei?", en: "Do you have a double room available?" } },
           { word: "der Schlüssel", phonetic: "shlü-sel", meaning: "the key", example: { de: "Kann ich den Schlüssel haben?", en: "Can I have the key?" } },
           { word: "das Frühstück", phonetic: "frü-shtük", meaning: "breakfast", example: { de: "Ist das Frühstück inklusive?", en: "Is breakfast included?" } },
-          { word: "auschecken", phonetic: "ows-chek-ken", meaning: "to check out", example: { de: "Wir checken um 11 Uhr aus.", en: "We check out at 11." } }
+          { word: "auschecken", phonetic: "ows-chek-ken", meaning: "to check out", example: { de: "Wir checken um 11 Uhr aus.", en: "We check out at 11." } },
+          { word: "einchecken", phonetic: "ayn-chek-ken", meaning: "to check in", example: { de: "Wir können ab 15 Uhr einchecken.", en: "We can check in from 3 pm." } },
+          { word: "reservieren", phonetic: "re-zer-vee-ren", meaning: "to reserve", example: { de: "Ich möchte ein Zimmer reservieren.", en: "I would like to reserve a room." } },
+          { word: "das Handtuch", phonetic: "hant-tookh", meaning: "the towel", example: { de: "Wir brauchen frische Handtücher.", en: "We need fresh towels." } },
+          { word: "der Aufzug / Fahrstuhl", phonetic: "owf-tsook", meaning: "the elevator", example: { de: "Der Aufzug ist leider kaputt.", en: "The elevator is unfortunately broken." } },
+          { word: "das Schwimmbad", phonetic: "shvim-baht", meaning: "the swimming pool", example: { de: "Gibt es hier ein Schwimmbad?", en: "Is there a pool here?" } },
+          { word: "die Rechnung", phonetic: "rekh-noong", meaning: "the bill / invoice", example: { de: "Ich brauche die Rechnung, bitte.", en: "I need the bill, please." } },
+          { word: "stornieren", phonetic: "shtor-nee-ren", meaning: "to cancel (a booking)", example: { de: "Kann ich die Reservierung stornieren?", en: "Can I cancel the reservation?" } },
+          { word: "inklusive", phonetic: "in-kloo-zee-ve", meaning: "included", example: { de: "Ist das Frühstück inklusive?", en: "Is breakfast included?" } }
         ]
       },
       {
@@ -102,7 +117,13 @@ export const lessonsA2New6: Record<string, Lesson> = {
           { word: "das Kino", phonetic: "kee-no", meaning: "cinema", example: { de: "Gehen wir ins Kino?", en: "Shall we go to the cinema?" } },
           { word: "der Film", phonetic: "film", meaning: "movie/film", example: { de: "Der Film war super!", en: "The movie was great!" } },
           { word: "das Theater", phonetic: "tay-ah-ter", meaning: "theater", example: { de: "Wir gehen ins Theater.", en: "We're going to the theater." } },
-          { word: "das Konzert", phonetic: "kon-tsert", meaning: "concert", example: { de: "Hast du Karten für das Konzert?", en: "Do you have tickets for the concert?" } }
+          { word: "das Konzert", phonetic: "kon-tsert", meaning: "concert", example: { de: "Hast du Karten für das Konzert?", en: "Do you have tickets for the concert?" } },
+          { word: "der Schauspieler", phonetic: "show-shpee-ler", meaning: "the actor", example: { de: "Wer ist dein Lieblingsschauspieler?", en: "Who is your favorite actor?" } },
+          { word: "die Eintrittskarte", phonetic: "ayn-trits-kar-te", meaning: "the admission ticket", example: { de: "Was kostet die Eintrittskarte?", en: "How much is the admission ticket?" } },
+          { word: "die Bühne", phonetic: "bü-ne", meaning: "the stage", example: { de: "Die Sänger stehen auf der Bühne.", en: "The singers are on the stage." } },
+          { word: "das Publikum", phonetic: "poob-li-koom", meaning: "the audience", example: { de: "Das Publikum applaudiert laut.", en: "The audience applauds loudly." } },
+          { word: "das Instrument", phonetic: "in-stroo-ment", meaning: "the instrument", example: { de: "Spielst du ein Instrument?", en: "Do you play an instrument?" } },
+          { word: "singen", phonetic: "zing-en", meaning: "to sing", example: { de: "Sie kann sehr gut singen.", en: "She can sing very well." } }
         ]
       },
       {
@@ -162,7 +183,11 @@ export const lessonsA2New6: Record<string, Lesson> = {
         cards: [
           { word: "Annas", phonetic: "an-nas", meaning: "Anna's", example: { de: "Das ist Annas Handy.", en: "That is Anna's phone." } },
           { word: "von + Dativ", phonetic: "fon", meaning: "of (possession)", example: { de: "Die Mutter von meinem Freund.", en: "My friend's mother." } },
-          { word: "des Mannes", phonetic: "des man-nes", meaning: "of the man (Genitive)", example: { de: "Die Frau des Mannes.", en: "The man's wife." } }
+          { word: "des Mannes", phonetic: "des man-nes", meaning: "of the man (Genitive)", example: { de: "Die Frau des Mannes.", en: "The man's wife." } },
+          { word: "der Frau", phonetic: "dair frow", meaning: "of the woman (Genitive)", example: { de: "Das Auto der Frau.", en: "The woman's car." } },
+          { word: "des Kindes", phonetic: "des kin-des", meaning: "of the child (Genitive)", example: { de: "Das Spielzeug des Kindes.", en: "The child's toy." } },
+          { word: "der Kinder", phonetic: "dair kin-der", meaning: "of the children (Genitive Plural)", example: { de: "Die Schule der Kinder.", en: "The children's school." } },
+          { word: "wessen", phonetic: "ves-sen", meaning: "whose?", example: { de: "Wessen Buch ist das?", en: "Whose book is that?" } }
         ]
       },
       {
@@ -198,7 +223,12 @@ export const lessonsA2New6: Record<string, Lesson> = {
           { word: "sich freuen über (+Akk)", phonetic: "zikh froy-en ü-ber", meaning: "to be happy about", example: { de: "Sie freut sich über die Blumen.", en: "She is happy about the flowers." } },
           { word: "denken an (+Akk)", phonetic: "den-ken an", meaning: "to think of/about", example: { de: "Ich denke oft an meine Familie.", en: "I often think of my family." } },
           { word: "sich interessieren für (+Akk)", phonetic: "zikh in-te-re-see-ren für", meaning: "to be interested in", example: { de: "Ich interessiere mich für Musik.", en: "I'm interested in music." } },
-          { word: "Angst haben vor (+Dat)", phonetic: "angst hah-ben for", meaning: "to be afraid of", example: { de: "Ich habe Angst vor Hunden.", en: "I'm afraid of dogs." } }
+          { word: "Angst haben vor (+Dat)", phonetic: "angst hah-ben for", meaning: "to be afraid of", example: { de: "Ich habe Angst vor Hunden.", en: "I'm afraid of dogs." } },
+          { word: "sprechen über (+Akk)", phonetic: "shpre-khen ü-ber", meaning: "to talk about", example: { de: "Wir sprechen über den Film.", en: "We are talking about the movie." } },
+          { word: "erzählen von (+Dat)", phonetic: "er-tsäh-len fon", meaning: "to tell about", example: { de: "Erzähl mir von deiner Reise!", en: "Tell me about your trip!" } },
+          { word: "träumen von (+Dat)", phonetic: "troy-men fon", meaning: "to dream of", example: { de: "Ich träume von einem Haus am Meer.", en: "I dream of a house by the sea." } },
+          { word: "bitten um (+Akk)", phonetic: "bit-ten oom", meaning: "to ask for", example: { de: "Darf ich dich um Hilfe bitten?", en: "May I ask you for help?" } },
+          { word: "sich erinnern an (+Akk)", phonetic: "zikh er-in-nern an", meaning: "to remember", example: { de: "Ich erinnere mich nicht an seinen Namen.", en: "I don't remember his name." } }
         ]
       },
       {
@@ -249,7 +279,12 @@ export const lessonsA2New6: Record<string, Lesson> = {
           { word: "Te = Temporal", phonetic: "tem-po-rahl", meaning: "WHEN? (morgen, heute)", example: { de: "Ich gehe morgen...", en: "I go tomorrow..." } },
           { word: "Ka = Kausal", phonetic: "kow-zahl", meaning: "WHY? (wegen, deswegen)", example: { de: "...wegen des Wetters...", en: "...because of the weather..." } },
           { word: "Mo = Modal", phonetic: "mo-dahl", meaning: "HOW? (mit dem Bus, gern)", example: { de: "...gern mit dem Bus...", en: "...gladly by bus..." } },
-          { word: "Lo = Lokal", phonetic: "lo-kahl", meaning: "WHERE? (nach Berlin)", example: { de: "...nach Berlin.", en: "...to Berlin." } }
+          { word: "Lo = Lokal", phonetic: "lo-kahl", meaning: "WHERE? (nach Berlin)", example: { de: "...nach Berlin.", en: "...to Berlin." } },
+          { word: "wann?", phonetic: "van", meaning: "when?", example: { de: "Wann fährst du?", en: "When are you traveling?" } },
+          { word: "warum?", phonetic: "va-room", meaning: "why?", example: { de: "Warum weinst du?", en: "Why are you crying?" } },
+          { word: "wie?", phonetic: "vee", meaning: "how?", example: { de: "Wie fährst du dorthin?", en: "How are you getting there?" } },
+          { word: "wohin?", phonetic: "vo-hin", meaning: "where to?", example: { de: "Wohin gehst du?", en: "Where are you going?" } },
+          { word: "wo?", phonetic: "vo", meaning: "where?", example: { de: "Wo wohnst du?", en: "Where do you live?" } }
         ]
       },
       {
@@ -296,7 +331,11 @@ export const lessonsA2New6: Record<string, Lesson> = {
         cards: [
           { word: "wird + Partizip II", phonetic: "virt", meaning: "is being (done)", example: { de: "Das Zimmer wird gereinigt.", en: "The room is being cleaned." } },
           { word: "werden + Partizip II", phonetic: "vair-den", meaning: "are being (done)", example: { de: "Die Tickets werden verkauft.", en: "The tickets are being sold." } },
-          { word: "wurde + Partizip II", phonetic: "voor-de", meaning: "was (done) - past", example: { de: "Das Haus wurde 1990 gebaut.", en: "The house was built in 1990." } }
+          { word: "wurde + Partizip II", phonetic: "voor-de", meaning: "was (done) - past", example: { de: "Das Haus wurde 1990 gebaut.", en: "The house was built in 1990." } },
+          { word: "wurden + Partizip II", phonetic: "voor-den", meaning: "were (done) - past", example: { de: "Die Fehler wurden korrigiert.", en: "The mistakes were corrected." } },
+          { word: "worden", phonetic: "vor-den", meaning: "been (done) - Perfekt", example: { de: "Das Auto ist repariert worden.", en: "The car has been repaired." } },
+          { word: "von (+ Dat)", phonetic: "fon", meaning: "by (a person/actor)", example: { de: "Das Buch wird von Anna gelesen.", en: "The book is read by Anna." } },
+          { word: "durch (+ Akk)", phonetic: "doorkh", meaning: "by/through (means/cause)", example: { de: "Das Haus wurde durch das Feuer zerstört.", en: "The house was destroyed by the fire." } }
         ]
       },
       {

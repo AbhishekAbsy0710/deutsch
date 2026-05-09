@@ -38,6 +38,25 @@ export const lessonsC1Grammar2: Record<string, Lesson> = {
           "Use the stem + -e, -est, -e, -en, -et, -en.",
           "If Konjunktiv I looks exactly like the normal present tense, switch to Konjunktiv II."
         ]
+      },
+      {
+        type: "quiz-fill",
+        sentenceBefore: "Der Minister betonte, er ",
+        sentenceAfter: " nicht zurücktreten. (werden)",
+        missingWord: "werde",
+        translation: "The minister emphasized he would not resign."
+      },
+      {
+        type: "quiz-mcq",
+        question: "Why do we say 'Die Experten sagen, sie HÄTTEN sich geirrt' instead of '...sie HABEN sich geirrt' in formal reports?",
+        options: [
+          "Because 'haben' is past tense.",
+          "Because 'haben' is the normal present tense, so we must use Konjunktiv II as a fallback to show indirect speech.",
+          "Because experts never make mistakes.",
+          "Because it is a hypothetical situation."
+        ],
+        correctIndex: 1,
+        explanation: "For 'sie' (plural), the Konjunktiv I of 'haben' is 'haben'. Since this looks exactly like the indicative (normal) present tense, we must use the Konjunktiv II ('hätten') to make it clear we are quoting someone."
       }
     ]
   },
@@ -80,6 +99,27 @@ export const lessonsC1Grammar2: Record<string, Lesson> = {
           "They are framed between the article and the noun.",
           "Partizip I = active/ongoing. Partizip II = passive/completed."
         ]
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "zunehmend", phonetic: "tsoo-nay-ment", meaning: "increasing (Partizip I)", example: { de: "Der zunehmende Druck...", en: "The increasing pressure..." } },
+          { word: "veröffentlicht", phonetic: "fer-öf-fent-likht", meaning: "published (Partizip II)", example: { de: "Die veröffentlichte Studie...", en: "The published study..." } },
+          { word: "wachsend", phonetic: "vakh-sent", meaning: "growing (Partizip I)", example: { de: "Eine wachsende Wirtschaft...", en: "A growing economy..." } },
+          { word: "beschlossen", phonetic: "be-shlo-sen", meaning: "decided/resolved (Partizip II)", example: { de: "Das beschlossene Gesetz...", en: "The resolved law..." } }
+        ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "Translate: 'Das von der Regierung beschlossene Gesetz'",
+        options: [
+          "The law that is deciding the government",
+          "The government that decided the law",
+          "The law decided by the government",
+          "The law that decides for the government"
+        ],
+        correctIndex: 2,
+        explanation: "Look at the article 'Das' and the noun at the end 'Gesetz'. Everything in between describes the law. 'von der Regierung beschlossene' = 'decided by the government'."
       }
     ]
   },
@@ -349,6 +389,18 @@ export const lessonsC1Grammar2: Record<string, Lesson> = {
           "Nouns: Dativ -> Akkusativ.",
           "TeKaMoLo applies to the adverbial blocks in between."
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "Which sentence has the correct word order?",
+        options: [
+          "Ich gebe dem Kollegen ihn.",
+          "Ich gebe ihn dem Kollegen.",
+          "Ich gebe dem Kollegen den Bericht.",
+          "Both B and C are correct."
+        ],
+        correctIndex: 3,
+        explanation: "Pronouns ALWAYS come before nouns. So 'ihn' (Akk pronoun) comes before 'dem Kollegen' (Dat noun). If both are nouns, Dative precedes Accusative: 'dem Kollegen den Bericht'."
       }
     ]
   },

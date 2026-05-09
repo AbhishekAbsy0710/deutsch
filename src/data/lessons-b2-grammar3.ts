@@ -23,7 +23,9 @@ export const lessonsB2Grammar3: Record<string, Lesson> = {
           { word: "infolgedessen", phonetic: "in-fol-ge-des-sen", meaning: "as a result / consequently", example: { de: "Die Kosten stiegen. Infolgedessen mussten Stellen gestrichen werden.", en: "Costs rose. Consequently, positions had to be cut." } },
           { word: "demzufolge", phonetic: "dem-tsoo-fol-ge", meaning: "according to that / consequently", example: { de: "Die Studie zeigt, dass... Demzufolge müssen wir handeln.", en: "The study shows that... Consequently, we must act." } },
           { word: "aufgrund + Genitiv", phonetic: "owf-groont", meaning: "due to / on account of", example: { de: "Aufgrund technischer Probleme verspätet sich der Zug.", en: "Due to technical problems, the train is delayed." } },
-          { word: "zumal", phonetic: "tsoo-mahl", meaning: "especially since / particularly as", example: { de: "Das ist wichtig, zumal die Zeit drängt.", en: "That is important, especially since time is pressing." } }
+          { word: "zumal", phonetic: "tsoo-mahl", meaning: "especially since / particularly as", example: { de: "Das ist wichtig, zumal die Zeit drängt.", en: "That is important, especially since time is pressing." } },
+          { word: "aus diesem Grund", phonetic: "ows dee-zem groont", meaning: "for this reason", example: { de: "Er war krank, aus diesem Grund blieb er zu Hause.", en: "He was sick; for this reason, he stayed at home." } },
+          { word: "weshalb", phonetic: "ves-halp", meaning: "which is why", example: { de: "Das Auto war kaputt, weshalb wir zu Fuß gingen.", en: "The car was broken, which is why we walked." } }
         ]
       },
       {
@@ -58,7 +60,8 @@ export const lessonsB2Grammar3: Record<string, Lesson> = {
           { word: "vorausgesetzt, (dass)", phonetic: "for-ows-ge-zetst", meaning: "provided that / on the condition that", example: { de: "Vorausgesetzt, Sie haben Erfahrung, können Sie sich bewerben.", en: "Provided you have experience, you can apply." } },
           { word: "es sei denn", phonetic: "es zay den", meaning: "unless", example: { de: "Wir treffen uns um 8, es sei denn, du hast andere Pläne.", en: "We'll meet at 8, unless you have other plans." } },
           { word: "falls", phonetic: "fals", meaning: "in case / if (less certain than wenn)", example: { de: "Falls es Probleme gibt, melden Sie sich.", en: "In case there are problems, get in touch." } },
-          { word: "unter der Bedingung, dass", phonetic: "oon-ter dair be-ding-oong", meaning: "on the condition that", example: { de: "Ich helfe dir, unter der Bedingung, dass du auch etwas tust.", en: "I'll help you, on the condition that you also do something." } }
+          { word: "unter der Bedingung, dass", phonetic: "oon-ter dair be-ding-oong", meaning: "on the condition that", example: { de: "Ich helfe dir, unter der Bedingung, dass du auch etwas tust.", en: "I'll help you, on the condition that you also do something." } },
+          { word: "unter der Voraussetzung, dass", phonetic: "oon-ter dair for-ows-zet-soong", meaning: "on the premise that", example: { de: "Wir stimmen zu, unter der Voraussetzung, dass die Kosten sinken.", en: "We agree, on the premise that the costs decrease." } }
         ]
       },
       {
@@ -92,7 +95,8 @@ export const lessonsB2Grammar3: Record<string, Lesson> = {
           { word: "gleichwohl", phonetic: "glaykh-vohl", meaning: "nevertheless / nonetheless (literary)", example: { de: "Die Lage ist ernst. Gleichwohl gibt es Hoffnung.", en: "The situation is serious. Nevertheless, there is hope." } },
           { word: "nichtsdestotrotz", phonetic: "nikhts-des-to-trots", meaning: "nonetheless / notwithstanding", example: { de: "Das Projekt ist teuer. Nichtsdestotrotz lohnt es sich.", en: "The project is expensive. Nonetheless, it's worth it." } },
           { word: "ungeachtet + Genitiv", phonetic: "oon-ge-akh-tet", meaning: "regardless of / irrespective of", example: { de: "Ungeachtet der Kritik setzte sie ihren Plan um.", en: "Regardless of the criticism, she implemented her plan." } },
-          { word: "wenn auch / wenngleich", phonetic: "ven owkh / ven-glaykh", meaning: "even though / albeit", example: { de: "Wenngleich das Risiko hoch ist, müssen wir es versuchen.", en: "Even though the risk is high, we must try." } }
+          { word: "wenn auch / wenngleich", phonetic: "ven owkh / ven-glaykh", meaning: "even though / albeit", example: { de: "Wenngleich das Risiko hoch ist, müssen wir es versuchen.", en: "Even though the risk is high, we must try." } },
+          { word: "obschon / obzwar", phonetic: "op-shohn / op-tsvar", meaning: "although (literary)", example: { de: "Obschon er müde war, arbeitete er weiter.", en: "Although he was tired, he continued working." } }
         ]
       },
       {
@@ -126,7 +130,8 @@ export const lessonsB2Grammar3: Record<string, Lesson> = {
           { word: "ehe", phonetic: "ay-uh", meaning: "before (formal / literary)", example: { de: "Ehe wir beginnen, möchte ich etwas klarstellen.", en: "Before we begin, I'd like to clarify something." } },
           { word: "kaum dass", phonetic: "kowm das", meaning: "no sooner ... than / hardly ... when", example: { de: "Kaum dass die Sonne aufging, machten wir uns auf den Weg.", en: "No sooner had the sun risen than we set off." } },
           { word: "solange", phonetic: "zo-lang-uh", meaning: "as long as", example: { de: "Solange du hier bist, fühle ich mich sicher.", en: "As long as you're here, I feel safe." } },
-          { word: "inzwischen / währenddessen", phonetic: "in-tsvi-shen / veh-rent-des-sen", meaning: "meanwhile / in the meantime", example: { de: "Er arbeitet. Währenddessen kocht sie.", en: "He works. Meanwhile, she cooks." } }
+          { word: "inzwischen / währenddessen", phonetic: "in-tsvi-shen / veh-rent-des-sen", meaning: "meanwhile / in the meantime", example: { de: "Er arbeitet. Währenddessen kocht sie.", en: "He works. Meanwhile, she cooks." } },
+          { word: "seitdem", phonetic: "zyt-dem", meaning: "since then", example: { de: "Er zog nach Berlin. Seitdem geht es ihm besser.", en: "He moved to Berlin. Since then, he has been doing better." } }
         ]
       },
       {
@@ -160,7 +165,8 @@ export const lessonsB2Grammar3: Record<string, Lesson> = {
           { word: "sodass / so dass", phonetic: "zo-das", meaning: "so that (result)", example: { de: "Die Straßen waren glatt, sodass es viele Unfälle gab.", en: "The roads were slippery, so there were many accidents." } },
           { word: "folglich", phonetic: "folk-likh", meaning: "consequently / therefore", example: { de: "Die Nachfrage sank. Folglich mussten Preise gesenkt werden.", en: "Demand fell. Consequently, prices had to be lowered." } },
           { word: "damit", phonetic: "da-mit", meaning: "so that (purpose, different subjects)", example: { de: "Ich erkläre es, damit du es verstehst.", en: "I explain it so that you understand." } },
-          { word: "um ... zu + Infinitiv", phonetic: "um tsoo", meaning: "in order to (purpose, same subject)", example: { de: "Er spart, um ein Haus zu kaufen.", en: "He saves in order to buy a house." } }
+          { word: "um ... zu + Infinitiv", phonetic: "um tsoo", meaning: "in order to (purpose, same subject)", example: { de: "Er spart, um ein Haus zu kaufen.", en: "He saves in order to buy a house." } },
+          { word: "demnach", phonetic: "dem-nakh", meaning: "accordingly / thus", example: { de: "Der Vertrag wurde unterschrieben. Demnach ist das Geschäft abgeschlossen.", en: "The contract was signed. Accordingly, the deal is closed." } }
         ]
       },
       {
@@ -194,7 +200,8 @@ export const lessonsB2Grammar3: Record<string, Lesson> = {
           { word: "indem", phonetic: "in-dem", meaning: "by (doing) / by means of", example: { de: "Du kannst helfen, indem du zuhörst.", en: "You can help by listening." } },
           { word: "dadurch, dass", phonetic: "da-durkh das", meaning: "by the fact that / through", example: { de: "Dadurch, dass er trainiert, wird er stärker.", en: "By training, he becomes stronger." } },
           { word: "wobei", phonetic: "vo-bay", meaning: "whereby / although / in which", example: { de: "Das Projekt ist fast fertig, wobei einige Details noch fehlen.", en: "The project is almost done, although some details are still missing." } },
-          { word: "insofern", phonetic: "in-zo-fern", meaning: "insofar / in that respect", example: { de: "Das ist insofern wichtig, als es alle betrifft.", en: "That is important insofar as it affects everyone." } }
+          { word: "insofern", phonetic: "in-zo-fern", meaning: "insofar / in that respect", example: { de: "Das ist insofern wichtig, als es alle betrifft.", en: "That is important insofar as it affects everyone." } },
+          { word: "ohne dass", phonetic: "oh-ne das", meaning: "without (doing)", example: { de: "Er ging, ohne dass jemand es bemerkte.", en: "He left without anyone noticing." } }
         ]
       },
       {
@@ -229,7 +236,8 @@ export const lessonsB2Grammar3: Record<string, Lesson> = {
           { word: "vielmehr", phonetic: "feel-mair", meaning: "rather / on the contrary", example: { de: "Es ist keine Kritik, vielmehr ein Vorschlag.", en: "It's not criticism; rather, it's a suggestion." } },
           { word: "stattdessen", phonetic: "shtat-des-sen", meaning: "instead (of that)", example: { de: "Er wollte reisen. Stattdessen musste er arbeiten.", en: "He wanted to travel. Instead, he had to work." } },
           { word: "im Gegensatz zu + Dat", phonetic: "im gay-gen-zats tsoo", meaning: "in contrast to / unlike", example: { de: "Im Gegensatz zu seinem Bruder ist er ruhig.", en: "In contrast to his brother, he is quiet." } },
-          { word: "einerseits ... andererseits", phonetic: "ay-ner-zyts ... an-de-rer-zyts", meaning: "on the one hand ... on the other hand", example: { de: "Einerseits ist es günstig, andererseits ist die Qualität schlecht.", en: "On the one hand it's cheap, on the other hand the quality is poor." } }
+          { word: "einerseits ... andererseits", phonetic: "ay-ner-zyts ... an-de-rer-zyts", meaning: "on the one hand ... on the other hand", example: { de: "Einerseits ist es günstig, andererseits ist die Qualität schlecht.", en: "On the one hand it's cheap, on the other hand the quality is poor." } },
+          { word: "jedoch", phonetic: "ye-dokh", meaning: "however", example: { de: "Die Idee ist gut, jedoch fehlt das Geld.", en: "The idea is good, however, the money is missing." } }
         ]
       },
       {
@@ -264,7 +272,8 @@ export const lessonsB2Grammar3: Record<string, Lesson> = {
           { word: "zusammenfassend", phonetic: "tsoo-za-men-fas-sent", meaning: "in summary / to sum up", example: { de: "Zusammenfassend lässt sich sagen, dass...", en: "In summary, it can be said that..." } },
           { word: "abschließend", phonetic: "ap-shlee-sent", meaning: "in conclusion / finally", example: { de: "Abschließend möchte ich betonen, dass...", en: "In conclusion, I would like to emphasize that..." } },
           { word: "insgesamt", phonetic: "ins-ge-zamt", meaning: "overall / altogether", example: { de: "Insgesamt bin ich mit dem Ergebnis zufrieden.", en: "Overall, I am satisfied with the result." } },
-          { word: "letzten Endes", phonetic: "lets-ten en-des", meaning: "ultimately / in the end", example: { de: "Letzten Endes kommt es auf die Qualität an.", en: "Ultimately, it comes down to quality." } }
+          { word: "letzten Endes", phonetic: "lets-ten en-des", meaning: "ultimately / in the end", example: { de: "Letzten Endes kommt es auf die Qualität an.", en: "Ultimately, it comes down to quality." } },
+          { word: "alles in allem", phonetic: "al-les in al-lem", meaning: "all in all", example: { de: "Alles in allem war es ein erfolgreiches Jahr.", en: "All in all, it was a successful year." } }
         ]
       },
       {

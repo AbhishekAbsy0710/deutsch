@@ -34,6 +34,15 @@ export const lessonsC1Vocab: Record<string, Lesson> = {
         title: "Behördendeutsch",
         content: "German administration uses a highly nominalized, complex language called 'Behördendeutsch' or 'Amtsdeutsch'. It is notoriously difficult even for native speakers. Words like 'Bescheinigung' (certificate) and 'Vorschrift' (regulation) are everywhere.",
         emoji: "🏛️"
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "die Gesetzgebung", phonetic: "ge-zets-gey-boong", meaning: "legislation", example: { de: "Die neue Gesetzgebung tritt bald in Kraft.", en: "The new legislation comes into effect soon." } },
+          { word: "verfassungswidrig", phonetic: "fer-fas-soongs-vee-drikh", meaning: "unconstitutional", example: { de: "Das Gesetz wurde für verfassungswidrig erklärt.", en: "The law was declared unconstitutional." } },
+          { word: "der Bescheid", phonetic: "be-shyt", meaning: "official notification / decision", example: { de: "Ich warte noch auf den Bescheid vom Amt.", en: "I am still waiting for the official notification from the office." } },
+          { word: "widersprechen", phonetic: "vee-der-shpre-khen", meaning: "to formally object / appeal (+ Dativ)", example: { de: "Ich werde diesem Bescheid widersprechen.", en: "I will formally object to this decision." } }
+        ]
       }
     ]
   },
@@ -93,6 +102,15 @@ export const lessonsC1Vocab: Record<string, Lesson> = {
           { de: "die Aktiengesellschaft (AG)", en: "public limited company (PLC/Corp)" },
           { de: "Insolvenz anmelden", en: "to file for bankruptcy" },
           { de: "Angebot und Nachfrage", en: "supply and demand" },
+        ]
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "das Bruttoinlandsprodukt (BIP)", phonetic: "broot-toh-in-lands-pro-dookt", meaning: "Gross Domestic Product (GDP)", example: { de: "Das BIP ist dieses Jahr gesunken.", en: "The GDP decreased this year." } },
+          { word: "die Kaufkraft", phonetic: "kowf-kraft", meaning: "purchasing power", example: { de: "Die Inflation senkt die Kaufkraft der Konsumenten.", en: "Inflation lowers the purchasing power of consumers." } },
+          { word: "der Umsatz", phonetic: "oom-zats", meaning: "revenue / turnover", example: { de: "Das Unternehmen hat seinen Umsatz verdoppelt.", en: "The company doubled its revenue." } },
+          { word: "die Insolvenz", phonetic: "in-zol-vents", meaning: "bankruptcy", example: { de: "Die Firma musste Insolvenz anmelden.", en: "The company had to file for bankruptcy." } }
         ]
       }
     ]
@@ -205,6 +223,18 @@ export const lessonsC1Vocab: Record<string, Lesson> = {
           { de: "das Wortspiel", en: "pun / wordplay" },
           { de: "sich über jemanden lustig machen", en: "to make fun of someone" },
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "What does 'Schadenfreude' mean?",
+        options: [
+          "Joy from helping others.",
+          "Malicious joy derived from another person's misfortune.",
+          "Dark humor.",
+          "The irony of fate."
+        ],
+        correctIndex: 1,
+        explanation: "'Schadenfreude' literally translates to 'damage-joy'. It means taking pleasure in someone else's bad luck or misfortune."
       }
     ]
   },
@@ -234,6 +264,18 @@ export const lessonsC1Vocab: Record<string, Lesson> = {
           { de: "das Fahrrad (D) -> das Velo (CH)", en: "bicycle" },
           { de: "das Brötchen (D) -> die Semmel (A/Bayern)", en: "bread roll" },
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "If someone in Switzerland says 'Grüezi' and rides a 'Velo', what are they doing?",
+        options: [
+          "Saying 'Good morning' and riding a horse.",
+          "Saying 'Hello' and riding a bicycle.",
+          "Saying 'Goodbye' and driving a car.",
+          "Saying 'Cheers' and eating a tomato."
+        ],
+        correctIndex: 1,
+        explanation: "In Swiss German, 'Grüezi' means hello, and 'das Velo' (from French) is used instead of 'das Fahrrad' for bicycle."
       }
     ]
   }

@@ -23,6 +23,18 @@ export const lessonsC1Grammar6: Record<string, Lesson> = {
         examples: [
           { de: "Erschöpft von der Arbeit, schlief er sofort ein.", en: "Exhausted from work, he immediately fell asleep." },
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "Which sentence violates the 'Rule of the Subject'?",
+        options: [
+          "In Berlin angekommen, ging er sofort ins Hotel.",
+          "Laut weinend verließ das Kind den Raum.",
+          "In Berlin angekommen, regnete es.",
+          "Von der Sonne geblendet, verlor er die Kontrolle über das Auto."
+        ],
+        correctIndex: 2,
+        explanation: "In option C, the subject of the participle phrase is the person arriving in Berlin, but the subject of the main clause is 'es' (the weather). This is grammatically illegal in German."
       }
     ]
   },
@@ -41,6 +53,13 @@ export const lessonsC1Grammar6: Record<string, Lesson> = {
           { de: "Woher sie auch kommen mag, sie ist hier willkommen.", en: "Wherever she may come from, she is welcome here." },
           { de: "Er kann noch so laut schreien, niemand hört ihn.", en: "No matter how loud he screams, nobody hears him." },
         ]
+      },
+      {
+        type: "quiz-fill",
+        sentenceBefore: "Was ",
+        sentenceAfter: " passiert, wir bleiben zusammen.",
+        missingWord: "auch immer",
+        translation: "Whatever happens, we stay together."
       }
     ]
   },
@@ -58,6 +77,15 @@ export const lessonsC1Grammar6: Record<string, Lesson> = {
           { de: "Die Hyperbel (Übertreibung): 'Ich habe dir das schon tausendmal gesagt!'", en: "Exaggeration." },
           { de: "Der Euphemismus: 'Er ist von uns gegangen.' (statt: Er ist gestorben)", en: "A polite/mild expression for something harsh." },
           { de: "Die rhetorische Frage: 'Wer hätte das gedacht?'", en: "A question not meant to be answered." },
+        ]
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "die Alliteration", phonetic: "al-li-te-ra-tsy-on", meaning: "alliteration (same starting sound)", example: { de: "Milch macht müde Männer munter.", en: "Milk makes tired men lively." } },
+          { word: "die Übertreibung / Hyperbel", phonetic: "ü-ber-try-boong / hü-per-bel", meaning: "exaggeration", example: { de: "Ich habe dir das schon tausendmal gesagt!", en: "I've told you that a thousand times!" } },
+          { word: "der Euphemismus", phonetic: "oy-fe-mis-moos", meaning: "euphemism (mild expression)", example: { de: "Statt 'sterben' sagt man 'von uns gehen'.", en: "Instead of 'die' one says 'leave us'." } },
+          { word: "die Metapher", phonetic: "me-ta-fer", meaning: "metaphor", example: { de: "Jemandem das Herz brechen.", en: "To break someone's heart." } }
         ]
       }
     ]
@@ -93,6 +121,18 @@ export const lessonsC1Grammar6: Record<string, Lesson> = {
           { de: "im Grunde genommen", en: "basically / fundamentally" },
           { de: "am Rande", en: "on the edge / by the way" },
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "Why do we say 'im Grunde genommen' instead of 'im Grund genommen'?",
+        options: [
+          "Because 'Grund' is feminine.",
+          "Because of the Fugen-s.",
+          "Because it is an archaic Dativ-e ending that survived in a fixed idiom.",
+          "Because it is plural."
+        ],
+        correctIndex: 2,
+        explanation: "In old German, masculine and neuter nouns in the Dative case took an '-e'. This rule died out, but fixed phrases like 'im Grunde', 'zu Hause', and 'am Rande' preserved it."
       }
     ]
   }

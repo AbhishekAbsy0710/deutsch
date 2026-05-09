@@ -34,7 +34,13 @@ export const lessonsA2New4: Record<string, Lesson> = {
           { word: "Ich glaube...", phonetic: "ikh glow-be", meaning: "I believe / I think...", example: { de: "Ich glaube, es regnet morgen.", en: "I think it will rain tomorrow." } },
           { word: "Stimmt!", phonetic: "shtimt", meaning: "That's right! / Correct!", example: { de: "Ja, das stimmt.", en: "Yes, that's correct." } },
           { word: "Ich bin einverstanden.", phonetic: "ikh bin ayn-fer-shtan-den", meaning: "I agree.", example: { de: "Ich bin damit einverstanden.", en: "I agree with that." } },
-          { word: "Das finde ich nicht.", phonetic: "das fin-de ikh nikht", meaning: "I don't think so.", example: { de: "Das finde ich nicht richtig.", en: "I don't think that's right." } }
+          { word: "Das finde ich nicht.", phonetic: "das fin-de ikh nikht", meaning: "I don't think so.", example: { de: "Das finde ich nicht richtig.", en: "I don't think that's right." } },
+          { word: "Meiner Meinung nach...", phonetic: "my-ner my-noong nakh", meaning: "In my opinion...", example: { de: "Meiner Meinung nach ist das falsch.", en: "In my opinion, that is wrong." } },
+          { word: "Ich denke...", phonetic: "ikh den-ke", meaning: "I think...", example: { de: "Ich denke, wir sollten gehen.", en: "I think we should go." } },
+          { word: "Genau!", phonetic: "ge-now", meaning: "Exactly!", example: { de: "Genau! Das sehe ich auch so.", en: "Exactly! I see it that way too." } },
+          { word: "Da hast du recht.", phonetic: "da hast doo rekht", meaning: "You are right there.", example: { de: "Ja, da hast du recht.", en: "Yes, you are right about that." } },
+          { word: "Das sehe ich auch so.", phonetic: "das zay-e ikh owkh zo", meaning: "I see it the same way.", example: { de: "Das sehe ich auch so.", en: "I agree (see it that way too)." } },
+          { word: "Das sehe ich anders.", phonetic: "das zay-e ikh an-ders", meaning: "I see it differently.", example: { de: "Nein, das sehe ich ganz anders.", en: "No, I see that completely differently." } }
         ]
       },
       {
@@ -80,7 +86,13 @@ export const lessonsA2New4: Record<string, Lesson> = {
           { word: "Wollen wir...?", phonetic: "vol-len veer", meaning: "Shall we...?", example: { de: "Wollen wir essen gehen?", en: "Shall we go eat?" } },
           { word: "Lass uns...", phonetic: "las oons", meaning: "Let's...", example: { de: "Lass uns ein Eis essen!", en: "Let's eat ice cream!" } },
           { word: "Ich habe etwas vor.", phonetic: "ikh hah-be et-vas for", meaning: "I have plans.", example: { de: "Samstag habe ich leider etwas vor.", en: "Saturday I unfortunately have plans." } },
-          { word: "Gerne!", phonetic: "gair-ne", meaning: "Gladly! / Sure!", example: { de: "Ja, sehr gerne!", en: "Yes, very gladly!" } }
+          { word: "Gerne!", phonetic: "gair-ne", meaning: "Gladly! / Sure!", example: { de: "Ja, sehr gerne!", en: "Yes, very gladly!" } },
+          { word: "Wie wäre es mit...", phonetic: "vee vä-re es mit", meaning: "How about...", example: { de: "Wie wäre es mit einem Kaffee?", en: "How about a coffee?" } },
+          { word: "Abgemacht!", phonetic: "ap-ge-makht", meaning: "Agreed! / It's a deal!", example: { de: "Morgen um acht? Abgemacht!", en: "Tomorrow at eight? Agreed!" } },
+          { word: "Passt es dir...?", phonetic: "past es deer", meaning: "Does it suit you...?", example: { de: "Passt es dir am Freitag?", en: "Does Friday suit you?" } },
+          { word: "Ich schlage vor...", phonetic: "ikh shlah-ge for", meaning: "I suggest...", example: { de: "Ich schlage vor, wir gehen ins Kino.", en: "I suggest we go to the cinema." } },
+          { word: "sich treffen", phonetic: "zikh tref-fen", meaning: "to meet up", example: { de: "Wollen wir uns morgen treffen?", en: "Shall we meet up tomorrow?" } },
+          { word: "der Vorschlag", phonetic: "for-shlahk", meaning: "the suggestion", example: { de: "Das ist ein guter Vorschlag.", en: "That is a good suggestion." } }
         ]
       },
       {
@@ -115,7 +127,14 @@ export const lessonsA2New4: Record<string, Lesson> = {
           { word: "der Anruf", phonetic: "an-roof", meaning: "the phone call", example: { de: "Ich habe einen Anruf verpasst.", en: "I missed a call." } },
           { word: "zurückrufen", phonetic: "tsoo-rük-roo-fen", meaning: "to call back", example: { de: "Können Sie mich zurückrufen?", en: "Can you call me back?" } },
           { word: "die Mailbox", phonetic: "mayl-boks", meaning: "voicemail", example: { de: "Bitte sprechen Sie auf die Mailbox.", en: "Please leave a message." } },
-          { word: "Auf Wiederhören!", phonetic: "owf vee-der-hö-ren", meaning: "Goodbye! (on phone)", example: { de: "Danke, auf Wiederhören!", en: "Thanks, goodbye! (phone only)" } }
+          { word: "Auf Wiederhören!", phonetic: "owf vee-der-hö-ren", meaning: "Goodbye! (on phone)", example: { de: "Danke, auf Wiederhören!", en: "Thanks, goodbye! (phone only)" } },
+          { word: "verbinden", phonetic: "fer-bin-den", meaning: "to connect", example: { de: "Ich verbinde Sie mit Herrn Meyer.", en: "I'll connect you with Mr. Meyer." } },
+          { word: "die Nachricht", phonetic: "nakh-rikht", meaning: "the message", example: { de: "Ich möchte eine Nachricht hinterlassen.", en: "I'd like to leave a message." } },
+          { word: "hinterlassen", phonetic: "hin-ter-las-sen", meaning: "to leave (a message)", example: { de: "Kann ich eine Nachricht hinterlassen?", en: "Can I leave a message?" } },
+          { word: "wählen", phonetic: "väh-len", meaning: "to dial / choose", example: { de: "Sie haben die falsche Nummer gewählt.", en: "You dialed the wrong number." } },
+          { word: "besetzt", phonetic: "be-zetst", meaning: "busy / occupied", example: { de: "Die Leitung ist leider besetzt.", en: "The line is unfortunately busy." } },
+          { word: "der Apparat", phonetic: "ap-pa-raht", meaning: "the telephone / device", example: { de: "Bleiben Sie bitte am Apparat.", en: "Please stay on the line." } },
+          { word: "die Vorwahl", phonetic: "for-vahl", meaning: "the area code", example: { de: "Wie ist die Vorwahl von Berlin?", en: "What is the area code for Berlin?" } }
         ]
       },
       {
@@ -167,7 +186,13 @@ export const lessonsA2New4: Record<string, Lesson> = {
           { word: "zum Schluss", phonetic: "tsoom shloos", meaning: "finally / in the end", example: { de: "Zum Schluss gehen wir nach Hause.", en: "Finally we go home." } },
           { word: "deshalb", phonetic: "des-halp", meaning: "therefore / that's why", example: { de: "Ich bin müde, deshalb gehe ich schlafen.", en: "I'm tired, therefore I go to sleep." } },
           { word: "trotzdem", phonetic: "trots-dem", meaning: "nevertheless / still", example: { de: "Es ist kalt, trotzdem gehe ich raus.", en: "It's cold, but I still go outside." } },
-          { word: "außerdem", phonetic: "ow-ser-dem", meaning: "besides / moreover", example: { de: "Ich habe keine Zeit. Außerdem bin ich müde.", en: "I have no time. Besides, I'm tired." } }
+          { word: "außerdem", phonetic: "ow-ser-dem", meaning: "besides / moreover", example: { de: "Ich habe keine Zeit. Außerdem bin ich müde.", en: "I have no time. Besides, I'm tired." } },
+          { word: "schließlich", phonetic: "shlees-likh", meaning: "finally / eventually", example: { de: "Schließlich haben wir das Ziel erreicht.", en: "Finally we reached the goal." } },
+          { word: "vorher", phonetic: "for-hair", meaning: "beforehand / previously", example: { de: "Ich muss vorher noch einkaufen.", en: "I have to shop beforehand." } },
+          { word: "nachher", phonetic: "nakh-hair", meaning: "afterwards / later", example: { de: "Wir können nachher darüber sprechen.", en: "We can talk about it afterwards." } },
+          { word: "deswegen", phonetic: "des-vay-gen", meaning: "because of that", example: { de: "Ich war krank, deswegen war ich nicht da.", en: "I was sick, because of that I wasn't there." } },
+          { word: "darum", phonetic: "dah-room", meaning: "therefore", example: { de: "Es regnet, darum bleiben wir hier.", en: "It's raining, therefore we stay here." } },
+          { word: "folglich", phonetic: "folk-likh", meaning: "consequently", example: { de: "Ich habe gelernt, folglich bin ich vorbereitet.", en: "I studied, consequently I am prepared." } }
         ]
       },
       {

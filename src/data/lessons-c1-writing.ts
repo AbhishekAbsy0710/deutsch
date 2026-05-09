@@ -33,6 +33,17 @@ export const lessonsC1Writing: Record<string, Lesson> = {
           "Never start arguing in the Einleitung.",
           "Use high-level Redemittel to frame the discussion."
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "Where should you present your first argument in a standard German essay?",
+        options: [
+          "In the Einleitung (Introduction)",
+          "In the Hauptteil (Main Body)",
+          "In the Schluss (Conclusion)"
+        ],
+        correctIndex: 1,
+        explanation: "The Einleitung only introduces the topic and the core question. Arguments strictly belong in the Hauptteil."
       }
     ]
   },
@@ -66,6 +77,18 @@ export const lessonsC1Writing: Record<string, Lesson> = {
           "Use Konjunktiv I to report the author's claims.",
           "Paraphrase everything—never copy whole sentences."
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "Which tense/mood must you use when summarizing the author's claims?",
+        options: [
+          "Präteritum",
+          "Konjunktiv II",
+          "Konjunktiv I",
+          "Futur I"
+        ],
+        correctIndex: 2,
+        explanation: "In a summary, you must use Konjunktiv I to report what the author says (indirect speech)."
       }
     ]
   },
@@ -99,6 +122,18 @@ export const lessonsC1Writing: Record<string, Lesson> = {
           "Use the hourglass structure for maximum rhetorical impact.",
           "Save your strongest argument for the very end of the Hauptteil."
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "In the 'Sanduhr-Prinzip' (Hourglass Principle), where does your strongest supporting argument go?",
+        options: [
+          "At the very beginning of the Hauptteil.",
+          "Right after the pivot phrase.",
+          "At the very end of the Hauptteil.",
+          "In the Schluss."
+        ],
+        correctIndex: 2,
+        explanation: "The hourglass structure starts with the opposing side's strongest argument, works down to their weakest, pivots, starts your side with the weakest argument, and ends with your strongest argument for maximum impact."
       }
     ]
   },
@@ -269,6 +304,13 @@ export const lessonsC1Writing: Record<string, Lesson> = {
           "Always use 'bezüglich' + Genitiv instead of 'über'.",
           "Wrap requests in Konjunktiv II to maximize politeness."
         ]
+      },
+      {
+        type: "quiz-fill",
+        sentenceBefore: "Ich wende mich an Sie ",
+        sentenceAfter: " meines Antrags. (regarding)",
+        missingWord: "bezüglich",
+        translation: "I am writing to you regarding my application."
       }
     ]
   }

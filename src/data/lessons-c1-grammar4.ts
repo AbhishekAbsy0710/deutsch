@@ -23,6 +23,13 @@ export const lessonsC1Grammar4: Record<string, Lesson> = {
         examples: [
           { de: "Wir widmen uns nun der noch zu klärenden Frage.", en: "We now dedicate ourselves to the question that still needs to be clarified." },
         ]
+      },
+      {
+        type: "quiz-fill",
+        sentenceBefore: "Das ist ein nicht ",
+        sentenceAfter: " Problem. (unterschätzen)",
+        missingWord: "zu unterschätzendes",
+        translation: "That is a problem not to be underestimated."
       }
     ]
   },
@@ -42,6 +49,16 @@ export const lessonsC1Grammar4: Record<string, Lesson> = {
           { de: "befugt zu (+ Dat)", en: "authorized to (Sie sind nicht dazu befugt.)" },
           { de: "zurückzuführen auf (+ Akk)", en: "attributable to (Der Fehler ist auf mangelnde Planung zurückzuführen.)" },
         ]
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "angewiesen auf (+ Akk)", phonetic: "an-ge-vee-zen owf", meaning: "dependent on", example: { de: "Wir sind auf Spenden angewiesen.", en: "We are dependent on donations." } },
+          { word: "maßgeblich für (+ Akk)", phonetic: "mahs-gayb-likh für", meaning: "decisive / instrumental for", example: { de: "Ihre Forschung war maßgeblich für den Durchbruch.", en: "Her research was instrumental to the breakthrough." } },
+          { word: "bewandert in (+ Dat)", phonetic: "be-van-dert in", meaning: "versed / skilled in", example: { de: "Er ist in der klassischen Musik sehr bewandert.", en: "He is very well-versed in classical music." } },
+          { word: "befugt zu (+ Dat)", phonetic: "be-fookt tsoo", meaning: "authorized to", example: { de: "Nur der Direktor ist zur Unterschrift befugt.", en: "Only the director is authorized to sign." } },
+          { word: "zurückzuführen auf (+ Akk)", phonetic: "tsoo-rük-tsoo-fü-ren owf", meaning: "attributable to", example: { de: "Der Erfolg ist auf harte Arbeit zurückzuführen.", en: "The success is attributable to hard work." } }
+        ]
       }
     ]
   },
@@ -59,6 +76,18 @@ export const lessonsC1Grammar4: Record<string, Lesson> = {
           { de: "Zwar ist das Konzept gut, aber an der Umsetzung mangelt es.", en: "Admittedly the concept is good, but it is lacking in execution." },
           { de: "Je mehr wir lernen, desto besser verstehen wir die Welt.", en: "The more we learn, the better we understand the world. (Je + Nebensatz, desto + Hauptsatz mit Inversion)" },
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "Which of the following is correct?",
+        options: [
+          "Weder er hat angerufen, noch er hat geschrieben.",
+          "Weder hat er angerufen, noch hat er geschrieben.",
+          "Weder hat er angerufen, noch er hat geschrieben.",
+          "Weder er hat angerufen, noch hat er geschrieben."
+        ],
+        correctIndex: 1,
+        explanation: "When starting with 'weder' and 'noch', the conjugated verb must immediately follow in position 2. So it's 'weder hat er' and 'noch hat er'."
       }
     ]
   }

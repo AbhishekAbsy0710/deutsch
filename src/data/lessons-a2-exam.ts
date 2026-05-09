@@ -37,7 +37,12 @@ export const lessonsA2ExamSkills: Record<string, Lesson> = {
           { word: "in der Mitte", phonetic: "in dair mit-te", meaning: "in the middle", example: { de: "In der Mitte steht ein Tisch.", en: "In the middle there is a table." } },
           { word: "Es sieht aus wie...", phonetic: "es zeet ows vee", meaning: "It looks like...", example: { de: "Es sieht aus wie ein Park.", en: "It looks like a park." } },
           { word: "Ich glaube / Ich denke", phonetic: "ikh glow-be / ikh den-ke", meaning: "I believe / I think", example: { de: "Ich glaube, die Frau ist glücklich.", en: "I believe the woman is happy." } },
-          { word: "vielleicht", phonetic: "feel-lykht", meaning: "maybe / perhaps", example: { de: "Vielleicht sind sie im Urlaub.", en: "Maybe they are on vacation." } }
+          { word: "vielleicht", phonetic: "feel-lykht", meaning: "maybe / perhaps", example: { de: "Vielleicht sind sie im Urlaub.", en: "Maybe they are on vacation." } },
+          { word: "Wahrscheinlich", phonetic: "var-shyn-likh", meaning: "probably", example: { de: "Wahrscheinlich ist es Sommer.", en: "It is probably summer." } },
+          { word: "Außerdem", phonetic: "ow-ser-dame", meaning: "furthermore / besides", example: { de: "Außerdem sehe ich ein Auto.", en: "Furthermore, I see a car." } },
+          { word: "Meiner Meinung nach", phonetic: "my-ner my-noong nakh", meaning: "in my opinion", example: { de: "Meiner Meinung nach ist das Bild schön.", en: "In my opinion, the picture is beautiful." } },
+          { word: "neben", phonetic: "nay-ben", meaning: "next to", example: { de: "Neben dem Tisch steht ein Stuhl.", en: "Next to the table is a chair." } },
+          { word: "Die Person trägt...", phonetic: "dee per-zohn trägt", meaning: "The person is wearing...", example: { de: "Die Person trägt eine Brille.", en: "The person is wearing glasses." } }
         ]
       },
       {
@@ -98,7 +103,12 @@ export const lessonsA2ExamSkills: Record<string, Lesson> = {
           { word: "die Grußformel", phonetic: "groos-for-mel", meaning: "closing formula", example: { de: "Viele Grüße / Mit freundlichen Grüßen", en: "Best regards / Yours sincerely" } },
           { word: "Vielen Dank für...", phonetic: "fee-len dank für", meaning: "Thank you for...", example: { de: "Vielen Dank für Ihre schnelle Antwort.", en: "Thank you for your quick reply." } },
           { word: "Ich freue mich auf...", phonetic: "ikh froy-e mikh owf", meaning: "I look forward to...", example: { de: "Ich freue mich auf das Treffen!", en: "I look forward to the meeting!" } },
-          { word: "Könnten Sie mir sagen...", phonetic: "könn-ten zee meer zah-gen", meaning: "Could you tell me...", example: { de: "Könnten Sie mir sagen, wann der Kurs beginnt?", en: "Could you tell me when the course starts?" } }
+          { word: "Könnten Sie mir sagen...", phonetic: "könn-ten zee meer zah-gen", meaning: "Could you tell me...", example: { de: "Könnten Sie mir sagen, wann der Kurs beginnt?", en: "Could you tell me when the course starts?" } },
+          { word: "Mit freundlichen Grüßen", phonetic: "mit froynt-li-khen grü-sen", meaning: "Yours sincerely (formal)", example: { de: "Mit freundlichen Grüßen, Thomas Müller", en: "Yours sincerely, Thomas Müller" } },
+          { word: "Viele Grüße", phonetic: "fee-le grü-se", meaning: "Best regards (informal)", example: { de: "Viele Grüße, Anna", en: "Best regards, Anna" } },
+          { word: "Es tut mir leid, aber...", phonetic: "es toot meer lyt a-ber", meaning: "I am sorry, but...", example: { de: "Es tut mir leid, aber ich kann nicht kommen.", en: "I am sorry, but I cannot come." } },
+          { word: "Ich möchte Sie fragen, ob...", phonetic: "ikh mökh-te zee frah-gen op", meaning: "I would like to ask you if...", example: { de: "Ich möchte Sie fragen, ob das möglich ist.", en: "I would like to ask you if that is possible." } },
+          { word: "Sag mir bitte Bescheid", phonetic: "zahk meer bit-te be-shyt", meaning: "Please let me know", example: { de: "Sag mir bitte Bescheid, ob du kommst.", en: "Please let me know if you are coming." } }
         ]
       },
       {

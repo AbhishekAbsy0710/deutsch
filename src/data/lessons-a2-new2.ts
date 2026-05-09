@@ -16,7 +16,13 @@ export const lessonsA2New2: Record<string, Lesson> = {
           { word: "Angst haben", phonetic: "angst hah-ben", meaning: "to be afraid", example: { de: "Ich habe Angst vor Spinnen.", en: "I'm afraid of spiders." } },
           { word: "aufgeregt", phonetic: "owf-ge-raykt", meaning: "excited / nervous", example: { de: "Ich bin total aufgeregt!", en: "I'm totally excited!" } },
           { word: "zufrieden", phonetic: "tsoo-free-den", meaning: "satisfied / content", example: { de: "Ich bin zufrieden mit dem Ergebnis.", en: "I'm satisfied with the result." } },
-          { word: "sich ärgern", phonetic: "zikh air-gern", meaning: "to be annoyed", example: { de: "Ich ärgere mich über das Wetter.", en: "I'm annoyed about the weather." } }
+          { word: "sich ärgern", phonetic: "zikh air-gern", meaning: "to be annoyed", example: { de: "Ich ärgere mich über das Wetter.", en: "I'm annoyed about the weather." } },
+          { word: "gelangweilt", phonetic: "ge-lang-vylt", meaning: "bored", example: { de: "Mir ist sehr gelangweilt.", en: "I am very bored." } },
+          { word: "nervös", phonetic: "ner-vös", meaning: "nervous", example: { de: "Vor der Prüfung bin ich nervös.", en: "Before the exam I am nervous." } },
+          { word: "überrascht", phonetic: "ü-ber-rasht", meaning: "surprised", example: { de: "Ich war total überrascht.", en: "I was totally surprised." } },
+          { word: "enttäuscht", phonetic: "ent-toysht", meaning: "disappointed", example: { de: "Sie ist sehr enttäuscht.", en: "She is very disappointed." } },
+          { word: "entspannt", phonetic: "ent-shpant", meaning: "relaxed", example: { de: "Im Urlaub bin ich entspannt.", en: "On vacation I am relaxed." } },
+          { word: "stolz", phonetic: "shtolts", meaning: "proud", example: { de: "Ich bin stolz auf dich.", en: "I am proud of you." } }
         ]
       },
       {
@@ -60,7 +66,14 @@ export const lessonsA2New2: Record<string, Lesson> = {
           { word: "das Fitnessstudio", phonetic: "fit-nes-shtoo-dee-oh", meaning: "the gym", example: { de: "Ich gehe ins Fitnessstudio.", en: "I go to the gym." } },
           { word: "die Mannschaft", phonetic: "man-shaft", meaning: "the team", example: { de: "Unsere Mannschaft hat gewonnen!", en: "Our team won!" } },
           { word: "trainieren", phonetic: "tray-nee-ren", meaning: "to train / work out", example: { de: "Ich trainiere dreimal pro Woche.", en: "I train three times per week." } },
-          { word: "das Spiel", phonetic: "shpeel", meaning: "the game / match", example: { de: "Das Spiel beginnt um 20 Uhr.", en: "The game starts at 8 pm." } }
+          { word: "das Spiel", phonetic: "shpeel", meaning: "the game / match", example: { de: "Das Spiel beginnt um 20 Uhr.", en: "The game starts at 8 pm." } },
+          { word: "das Stadion", phonetic: "shta-dee-on", meaning: "the stadium", example: { de: "Wir gehen am Samstag ins Stadion.", en: "We are going to the stadium on Saturday." } },
+          { word: "der Verein", phonetic: "fer-ayn", meaning: "the club / association", example: { de: "Er ist in einem Tennisverein.", en: "He is in a tennis club." } },
+          { word: "gewinnen", phonetic: "ge-vin-nen", meaning: "to win", example: { de: "Wer wird das Spiel gewinnen?", en: "Who will win the game?" } },
+          { word: "verlieren", phonetic: "fer-lee-ren", meaning: "to lose", example: { de: "Wir haben leider verloren.", en: "We unfortunately lost." } },
+          { word: "das Tor", phonetic: "tohr", meaning: "the goal", example: { de: "Er hat ein Tor geschossen!", en: "He scored a goal!" } },
+          { word: "der Trainer", phonetic: "tray-ner", meaning: "the coach", example: { de: "Unser Trainer ist sehr streng.", en: "Our coach is very strict." } },
+          { word: "das Training", phonetic: "tray-ning", meaning: "the practice / training", example: { de: "Das Training fängt gleich an.", en: "Practice starts soon." } }
         ]
       },
       {
@@ -112,7 +125,13 @@ export const lessonsA2New2: Record<string, Lesson> = {
           { word: "die Rechnung", phonetic: "rekh-noong", meaning: "the bill/check", example: { de: "Zahlen bitte!", en: "Check please!" } },
           { word: "das Trinkgeld", phonetic: "trink-gelt", meaning: "the tip", example: { de: "Trinkgeld ist in Deutschland üblich.", en: "Tipping is common in Germany." } },
           { word: "die Vorspeise", phonetic: "for-shpy-ze", meaning: "the appetizer/starter", example: { de: "Als Vorspeise nehme ich die Suppe.", en: "As a starter I'll have the soup." } },
-          { word: "das Hauptgericht", phonetic: "howpt-ge-rikht", meaning: "the main course", example: { de: "Das Hauptgericht ist Fisch.", en: "The main course is fish." } }
+          { word: "das Hauptgericht", phonetic: "howpt-ge-rikht", meaning: "the main course", example: { de: "Das Hauptgericht ist Fisch.", en: "The main course is fish." } },
+          { word: "die Nachspeise", phonetic: "nakh-shpy-ze", meaning: "the dessert", example: { de: "Gibt es Eis als Nachspeise?", en: "Is there ice cream for dessert?" } },
+          { word: "das Getränk", phonetic: "ge-trenk", meaning: "the beverage / drink", example: { de: "Was möchten Sie als Getränk?", en: "What would you like for a drink?" } },
+          { word: "der Kellner", phonetic: "kel-ner", meaning: "the waiter", example: { de: "Der Kellner bringt das Essen.", en: "The waiter brings the food." } },
+          { word: "reservieren", phonetic: "re-zer-vee-ren", meaning: "to reserve", example: { de: "Ich möchte einen Tisch reservieren.", en: "I want to reserve a table." } },
+          { word: "schmecken", phonetic: "shmek-ken", meaning: "to taste good", example: { de: "Hat es Ihnen geschmeckt?", en: "Did it taste good to you?" } },
+          { word: "bezahlen", phonetic: "be-tsah-len", meaning: "to pay", example: { de: "Wir möchten bitte bezahlen.", en: "We would like to pay please." } }
         ]
       },
       {
@@ -155,7 +174,13 @@ export const lessonsA2New2: Record<string, Lesson> = {
           { word: "die Tablette", phonetic: "ta-blet-te", meaning: "the pill/tablet", example: { de: "Nehmen Sie dreimal täglich eine Tablette.", en: "Take one pill three times daily." } },
           { word: "das Fieber", phonetic: "fee-ber", meaning: "the fever", example: { de: "Ich habe 38 Grad Fieber.", en: "I have a 38-degree fever." } },
           { word: "die Erkältung", phonetic: "er-kel-toong", meaning: "the cold (illness)", example: { de: "Ich habe eine starke Erkältung.", en: "I have a bad cold." } },
-          { word: "die Versichertenkarte", phonetic: "fer-zi-kher-ten-kar-te", meaning: "insurance card", example: { de: "Ihre Versichertenkarte bitte.", en: "Your insurance card, please." } }
+          { word: "die Versichertenkarte", phonetic: "fer-zi-kher-ten-kar-te", meaning: "insurance card", example: { de: "Ihre Versichertenkarte bitte.", en: "Your insurance card, please." } },
+          { word: "die Schmerzen", phonetic: "shmer-tsen", meaning: "the pain", example: { de: "Wo haben Sie Schmerzen?", en: "Where do you have pain?" } },
+          { word: "der Husten", phonetic: "hoos-ten", meaning: "the cough", example: { de: "Ich habe Husten und Schnupfen.", en: "I have a cough and a runny nose." } },
+          { word: "der Schnupfen", phonetic: "shnoop-fen", meaning: "the runny nose", example: { de: "Er hat einen starken Schnupfen.", en: "He has a bad runny nose." } },
+          { word: "die Spritze", phonetic: "shprit-se", meaning: "the injection/shot", example: { de: "Sie bekommen eine Spritze.", en: "You're getting a shot." } },
+          { word: "untersuchen", phonetic: "oon-ter-zoo-khen", meaning: "to examine", example: { de: "Der Arzt untersucht mich.", en: "The doctor is examining me." } },
+          { word: "gute Besserung", phonetic: "goo-te bes-se-roong", meaning: "get well soon", example: { de: "Gute Besserung!", en: "Get well soon!" } }
         ]
       },
       {
@@ -188,7 +213,12 @@ export const lessonsA2New2: Record<string, Lesson> = {
           { word: "der Fahrplan", phonetic: "fahr-plahn", meaning: "the schedule/timetable", example: { de: "Schau mal auf den Fahrplan.", en: "Check the timetable." } },
           { word: "umsteigen", phonetic: "oom-shty-gen", meaning: "to transfer/change", example: { de: "Sie müssen am Hauptbahnhof umsteigen.", en: "You have to transfer at the main station." } },
           { word: "die Einzelfahrkarte", phonetic: "ayn-tsel-fahr-kar-te", meaning: "single ticket", example: { de: "Eine Einzelfahrkarte, bitte.", en: "A single ticket, please." } },
-          { word: "die Tageskarte", phonetic: "tah-ges-kar-te", meaning: "day pass", example: { de: "Eine Tageskarte ist günstiger.", en: "A day pass is cheaper." } }
+          { word: "die Tageskarte", phonetic: "tah-ges-kar-te", meaning: "day pass", example: { de: "Eine Tageskarte ist günstiger.", en: "A day pass is cheaper." } },
+          { word: "der Bus", phonetic: "boos", meaning: "the bus", example: { de: "Ich warte auf den Bus.", en: "I am waiting for the bus." } },
+          { word: "die S-Bahn", phonetic: "es-bahn", meaning: "the suburban train", example: { de: "Die S-Bahn ist sehr schnell.", en: "The S-Bahn is very fast." } },
+          { word: "der Automat", phonetic: "ow-to-maht", meaning: "the ticket machine", example: { de: "Der Fahrkartenautomat ist kaputt.", en: "The ticket machine is broken." } },
+          { word: "entwerten", phonetic: "ent-vair-ten", meaning: "to validate (a ticket)", example: { de: "Vergessen Sie nicht, das Ticket zu entwerten.", en: "Don't forget to validate the ticket." } },
+          { word: "der Kontrolleur", phonetic: "kon-tro-lör", meaning: "the ticket inspector", example: { de: "Der Kontrolleur kommt!", en: "The inspector is coming!" } }
         ]
       },
       {
@@ -240,7 +270,13 @@ export const lessonsA2New2: Record<string, Lesson> = {
           { word: "der Krankenwagen", phonetic: "kran-ken-vah-gen", meaning: "the ambulance", example: { de: "Der Krankenwagen kommt.", en: "The ambulance is coming." } },
           { word: "die Feuerwehr", phonetic: "foy-er-vair", meaning: "the fire department", example: { de: "Die Feuerwehr löscht das Feuer.", en: "The fire dept puts out the fire." } },
           { word: "der Unfall", phonetic: "oon-fal", meaning: "the accident", example: { de: "Es gab einen Unfall.", en: "There was an accident." } },
-          { word: "Vorsicht!", phonetic: "for-zikht", meaning: "Caution! / Watch out!", example: { de: "Vorsicht, die Straße ist glatt!", en: "Careful, the road is slippery!" } }
+          { word: "Vorsicht!", phonetic: "for-zikht", meaning: "Caution! / Watch out!", example: { de: "Vorsicht, die Straße ist glatt!", en: "Careful, the road is slippery!" } },
+          { word: "die Polizei", phonetic: "po-li-tsy", meaning: "the police", example: { de: "Rufen Sie die Polizei!", en: "Call the police!" } },
+          { word: "brennen", phonetic: "bren-nen", meaning: "to burn / be on fire", example: { de: "Das Haus brennt!", en: "The house is on fire!" } },
+          { word: "sich verletzen", phonetic: "zikh fer-let-sen", meaning: "to injure oneself", example: { de: "Ich habe mich verletzt.", en: "I injured myself." } },
+          { word: "bluten", phonetic: "bloo-ten", meaning: "to bleed", example: { de: "Mein Finger blutet.", en: "My finger is bleeding." } },
+          { word: "gefährlich", phonetic: "ge-fair-likh", meaning: "dangerous", example: { de: "Das ist sehr gefährlich.", en: "That is very dangerous." } },
+          { word: "der Dieb", phonetic: "deeb", meaning: "the thief", example: { de: "Der Dieb hat meine Tasche gestohlen.", en: "The thief stole my bag." } }
         ]
       },
       {
@@ -292,7 +328,14 @@ export const lessonsA2New2: Record<string, Lesson> = {
           { word: "vereinbaren", phonetic: "fer-ayn-bah-ren", meaning: "to arrange / schedule", example: { de: "Können wir einen Termin vereinbaren?", en: "Can we arrange an appointment?" } },
           { word: "absagen", phonetic: "ap-zah-gen", meaning: "to cancel", example: { de: "Ich muss leider absagen.", en: "I unfortunately have to cancel." } },
           { word: "verschieben", phonetic: "fer-shee-ben", meaning: "to reschedule / postpone", example: { de: "Wir verschieben den Termin.", en: "We're postponing the appointment." } },
-          { word: "bestätigen", phonetic: "be-shtä-ti-gen", meaning: "to confirm", example: { de: "Können Sie den Termin bestätigen?", en: "Can you confirm the appointment?" } }
+          { word: "bestätigen", phonetic: "be-shtä-ti-gen", meaning: "to confirm", example: { de: "Können Sie den Termin bestätigen?", en: "Can you confirm the appointment?" } },
+          { word: "der Betreff", phonetic: "be-tref", meaning: "the subject (of an email)", example: { de: "Was ist der Betreff der E-Mail?", en: "What is the subject of the email?" } },
+          { word: "die Anrede", phonetic: "an-ray-de", meaning: "the greeting / salutation", example: { de: "Die formelle Anrede ist 'Sehr geehrte(r)'.", en: "The formal salutation is 'Sehr geehrte(r)'." } },
+          { word: "die Grußformel", phonetic: "groos-for-mel", meaning: "the complimentary close", example: { de: "Die Grußformel am Ende ist 'Mit freundlichen Grüßen'.", en: "The complimentary close at the end is 'Mit freundlichen Grüßen'." } },
+          { word: "pünktlich", phonetic: "pünkt-likh", meaning: "punctual / on time", example: { de: "Bitte seien Sie pünktlich.", en: "Please be on time." } },
+          { word: "sich verspäten", phonetic: "zikh fer-shpay-ten", meaning: "to be late / delayed", example: { de: "Ich verspäte mich um 10 Minuten.", en: "I will be 10 minutes late." } },
+          { word: "dringend", phonetic: "dring-ent", meaning: "urgent", example: { de: "Es ist sehr dringend.", en: "It is very urgent." } },
+          { word: "passen", phonetic: "pas-sen", meaning: "to suit / fit", example: { de: "Passt es Ihnen am Freitag?", en: "Does Friday suit you?" } }
         ]
       },
       {
@@ -337,7 +380,11 @@ export const lessonsA2New2: Record<string, Lesson> = {
           { word: "musste", phonetic: "moos-te", meaning: "had to", example: { de: "Wir mussten früh aufstehen.", en: "We had to get up early." } },
           { word: "wollte", phonetic: "vol-te", meaning: "wanted to", example: { de: "Er wollte nach Hause gehen.", en: "He wanted to go home." } },
           { word: "durfte", phonetic: "door-fte", meaning: "was allowed to", example: { de: "Ich durfte nicht mitspielen.", en: "I wasn't allowed to play along." } },
-          { word: "sollte", phonetic: "zol-te", meaning: "was supposed to / should", example: { de: "Du solltest das nicht machen.", en: "You shouldn't do that." } }
+          { word: "sollte", phonetic: "zol-te", meaning: "was supposed to / should", example: { de: "Du solltest das nicht machen.", en: "You shouldn't do that." } },
+          { word: "mochte", phonetic: "mokh-te", meaning: "liked to", example: { de: "Als Kind mochte ich Schokolade.", en: "As a child I liked chocolate." } },
+          { word: "wusste", phonetic: "voos-te", meaning: "knew", example: { de: "Ich wusste das nicht.", en: "I didn't know that." } },
+          { word: "hatte", phonetic: "hat-te", meaning: "had", example: { de: "Wir hatten viel Spaß.", en: "We had a lot of fun." } },
+          { word: "war", phonetic: "var", meaning: "was", example: { de: "Ich war gestern im Kino.", en: "I was at the movies yesterday." } }
         ]
       },
       {

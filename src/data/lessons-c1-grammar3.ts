@@ -23,6 +23,27 @@ export const lessonsC1Grammar3: Record<string, Lesson> = {
         title: "Dativ fallback",
         content: "When these prepositions are used with a naked plural noun (no article/adjective to show the Genitive), German grammar rules dictate you must fallback to Dativ. Example: 'mangels Beweisen' (Dativ) instead of 'mangels Beweise' (Genitiv without article).",
         emoji: "🤓"
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "zwecks", phonetic: "tsveks", meaning: "for the purpose of (+ Genitiv)", example: { de: "Zwecks besserer Planung bitten wir um Anmeldung.", en: "For the purpose of better planning, we ask for registration." } },
+          { word: "mangels", phonetic: "mang-els", meaning: "for lack of (+ Genitiv)", example: { de: "Das Projekt wurde mangels finanzieller Mittel eingestellt.", en: "The project was stopped for lack of financial means." } },
+          { word: "zugunsten", phonetic: "tsoo-goon-sten", meaning: "in favor of (+ Genitiv)", example: { de: "Das Gericht entschied zugunsten des Angeklagten.", en: "The court ruled in favor of the defendant." } },
+          { word: "infolge", phonetic: "in-fol-ge", meaning: "as a result of (+ Genitiv)", example: { de: "Infolge des Unfalls gab es einen Stau.", en: "As a result of the accident, there was a traffic jam." } }
+        ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "Which of the following is correct when using 'mangels' with a plural noun lacking an article?",
+        options: [
+          "mangels Beweise (Genitiv)",
+          "mangels Beweisen (Dativ Fallback)",
+          "mangels von Beweisen",
+          "mangels den Beweisen"
+        ],
+        correctIndex: 1,
+        explanation: "Because there is no article or adjective to show it's Genitive (naked plural), German uses the Dativ fallback ('Beweisen')."
       }
     ]
   },
@@ -48,6 +69,13 @@ export const lessonsC1Grammar3: Record<string, Lesson> = {
         examples: [
           { de: "Wir freuen uns (darüber), dass du da bist.", en: "We are happy that you are here." },
         ]
+      },
+      {
+        type: "quiz-fill",
+        sentenceBefore: "Wir bestehen ",
+        sentenceAfter: ", dass der Vertrag heute unterschrieben wird.",
+        missingWord: "darauf",
+        translation: "We insist (on it) that the contract is signed today."
       }
     ]
   },
@@ -100,6 +128,13 @@ export const lessonsC1Grammar3: Record<string, Lesson> = {
           { de: "irgendwer", en: "anyone at all (Irgendwer muss es ja tun.)" },
           { de: "irgendwelche", en: "any random (Hast du irgendwelche Fragen?)" },
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "Which word emphasizes absolute totality (every single one) stronger than 'alle'?",
+        options: ["einige", "manche", "sämtliche", "jegliche"],
+        correctIndex: 2,
+        explanation: "'Sämtliche' means absolutely every single one, without exception. It is a stronger, more formal version of 'alle'."
       }
     ]
   },
@@ -124,6 +159,15 @@ export const lessonsC1Grammar3: Record<string, Lesson> = {
         examples: [
           { de: "ver- = doing something wrongly", en: "sich verlaufen (get lost walking), sich vertippen (make a typo), sich verrechnen (miscalculate)" },
           { de: "er- = reaching a goal / fatal outcome", en: "erarbeiten (work to achieve), ertrinken (drown), erschießen (shoot to death)" },
+        ]
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "zerstören", phonetic: "tser-shtö-ren", meaning: "to destroy", example: { de: "Das alte Gebäude wurde komplett zerstört.", en: "The old building was completely destroyed." } },
+          { word: "sich verlaufen", phonetic: "zikh fer-low-fen", meaning: "to get lost (walking)", example: { de: "Wir haben uns im Wald verlaufen.", en: "We got lost in the forest." } },
+          { word: "entdecken", phonetic: "ent-de-ken", meaning: "to discover (lit: un-cover)", example: { de: "Kolumbus hat Amerika entdeckt.", en: "Columbus discovered America." } },
+          { word: "erarbeiten", phonetic: "er-ar-by-ten", meaning: "to work out / develop (through effort)", example: { de: "Wir müssen einen neuen Plan erarbeiten.", en: "We must develop a new plan." } }
         ]
       }
     ]

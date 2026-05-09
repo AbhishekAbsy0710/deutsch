@@ -23,6 +23,13 @@ export const lessonsC1Writing2: Record<string, Lesson> = {
           { de: "Herr Müller, der Leiter der Abteilung, hat gekündigt.", en: "Mr. Müller, the head of the department, has resigned." },
           { de: "Meine Schwester, eine begabte Pianistin, gibt morgen ein Konzert.", en: "My sister, a gifted pianist, is giving a concert tomorrow." },
         ]
+      },
+      {
+        type: "quiz-fill",
+        sentenceBefore: "Er verließ den Raum, ",
+        sentenceAfter: " ein Wort zu sagen. (without saying)",
+        missingWord: "ohne",
+        translation: "He left the room without saying a word."
       }
     ]
   },
@@ -49,6 +56,17 @@ export const lessonsC1Writing2: Record<string, Lesson> = {
           { de: "Ich danke Ihnen für Ihre Antwort.", en: "I thank you for your reply." },
           { de: "Ich hoffe, es geht Dir/dir gut.", en: "I hope you are doing well." },
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "Which of the following sentences has the correct capitalization?",
+        options: [
+          "Wir bereiten uns auf das schlimmste vor.",
+          "Wir bereiten uns auf das Schlimmste vor.",
+          "wir bereiten uns auf das Schlimmste vor."
+        ],
+        correctIndex: 1,
+        explanation: "'Schlimmste' must be capitalized here because the article 'das' turns the adjective into a noun (Nominalisierung)."
       }
     ]
   },
@@ -73,6 +91,13 @@ export const lessonsC1Writing2: Record<string, Lesson> = {
         examples: [
           { de: "Er sagte: „Das ist unmöglich.“", en: "He said: 'That is impossible.'" },
         ]
+      },
+      {
+        type: "quiz-fill",
+        sentenceBefore: "Die Forscherin betonte, die Ergebnisse ",
+        sentenceAfter: " eindeutig. (be / Konjunktiv I)",
+        missingWord: "seien",
+        translation: "The researcher emphasized that the results are unambiguous."
       }
     ]
   }

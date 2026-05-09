@@ -24,6 +24,9 @@ export const lessonsB1: Record<string, Lesson> = {
           { word: "der", phonetic: "dair", meaning: "of the (fem/plural)", example: { de: "Das ist das Auto der Mutter.", en: "That is the car of the mother." } },
           { word: "wegen", phonetic: "vay-gen", meaning: "because of (+ Genitive)", example: { de: "Wegen des Regens...", en: "Because of the rain..." } },
           { word: "während", phonetic: "vay-rent", meaning: "during (+ Genitive)", example: { de: "Während des Essens...", en: "During the meal..." } },
+          { word: "trotz", phonetic: "trots", meaning: "despite (+ Genitive)", example: { de: "Trotz des schlechten Wetters...", en: "Despite the bad weather..." } },
+          { word: "innerhalb", phonetic: "in-ner-halp", meaning: "inside/within (+ Genitive)", example: { de: "Innerhalb der Stadt...", en: "Within the city..." } },
+          { word: "außerhalb", phonetic: "ow-ser-halp", meaning: "outside of (+ Genitive)", example: { de: "Außerhalb des Hauses...", en: "Outside of the house..." } }
         ]
       },
       {
@@ -58,6 +61,10 @@ export const lessonsB1: Record<string, Lesson> = {
           { word: "wenn", phonetic: "ven", meaning: "if / whenever", example: { de: "Wenn es regnet, bleibe ich hier.", en: "If it rains, I stay here." } },
           { word: "ob", phonetic: "op", meaning: "if / whether (yes/no)", example: { de: "Ich frage mich, ob er kommt.", en: "I wonder whether he is coming." } },
           { word: "obwohl", phonetic: "op-vohl", meaning: "although", example: { de: "Obwohl es kalt ist, gehe ich.", en: "Although it is cold, I go." } },
+          { word: "da", phonetic: "dah", meaning: "since / because (often at start)", example: { de: "Da ich Zeit habe, helfe ich dir.", en: "Since I have time, I'll help you." } },
+          { word: "bevor", phonetic: "be-for", meaning: "before (verb to end)", example: { de: "Bevor ich gehe, esse ich.", en: "Before I go, I eat." } },
+          { word: "nachdem", phonetic: "nakh-dame", meaning: "after (verb to end)", example: { de: "Nachdem er aß, schlief er.", en: "After he ate, he slept." } },
+          { word: "damit", phonetic: "da-mit", meaning: "so that (verb to end)", example: { de: "Ich lerne, damit ich bestehe.", en: "I study so that I pass." } }
         ]
       },
       {
@@ -127,6 +134,10 @@ export const lessonsB1: Record<string, Lesson> = {
           { word: "sich erinnern", phonetic: "zikh er-in-nern", meaning: "to remember", example: { de: "Ich erinnere mich nicht.", en: "I don't remember." } },
           { word: "sich interessieren", phonetic: "zikh in-te-re-see-ren", meaning: "to be interested", example: { de: "Sie interessiert sich für Musik.", en: "She is interested in music." } },
           { word: "sich beeilen", phonetic: "zikh be-eye-len", meaning: "to hurry", example: { de: "Wir müssen uns beeilen!", en: "We have to hurry!" } },
+          { word: "sich ausruhen", phonetic: "zikh ows-roo-en", meaning: "to rest", example: { de: "Ich muss mich ausruhen.", en: "I need to rest." } },
+          { word: "sich bewerben", phonetic: "zikh be-vair-ben", meaning: "to apply", example: { de: "Ich bewerbe mich um den Job.", en: "I am applying for the job." } },
+          { word: "sich entscheiden", phonetic: "zikh ent-shy-den", meaning: "to decide", example: { de: "Ich kann mich nicht entscheiden.", en: "I can't decide." } },
+          { word: "sich aufregen", phonetic: "zikh owf-ray-gen", meaning: "to get upset/excited", example: { de: "Reg dich nicht auf!", en: "Don't get upset!" } }
         ]
       },
       {
@@ -160,6 +171,10 @@ export const lessonsB1: Record<string, Lesson> = {
           { word: "denken an", phonetic: "den-ken an", meaning: "to think of (+ Acc)", example: { de: "Denk an mich!", en: "Think of me!" } },
           { word: "bitten um", phonetic: "bit-ten oom", meaning: "to ask for (+ Acc)", example: { de: "Ich bitte um Hilfe.", en: "I ask for help." } },
           { word: "träumen von", phonetic: "troy-men fon", meaning: "to dream of (+ Dat)", example: { de: "Er träumt von Geld.", en: "He dreams of money." } },
+          { word: "sich erinnern an", phonetic: "zikh er-in-nern an", meaning: "to remember (+ Acc)", example: { de: "Ich erinnere mich an dich.", en: "I remember you." } },
+          { word: "sich freuen auf", phonetic: "zikh froy-en owf", meaning: "to look forward to (+ Acc)", example: { de: "Ich freue mich auf morgen.", en: "I am looking forward to tomorrow." } },
+          { word: "sich freuen über", phonetic: "zikh froy-en ü-ber", meaning: "to be happy about (+ Acc)", example: { de: "Ich freue mich über das Geschenk.", en: "I am happy about the gift." } },
+          { word: "teilnehmen an", phonetic: "tyle-nay-men an", meaning: "to take part in (+ Dat)", example: { de: "Ich nehme an dem Kurs teil.", en: "I am taking part in the course." } }
         ]
       },
       {
@@ -222,6 +237,9 @@ export const lessonsB1: Record<string, Lesson> = {
           { word: "versuchen", phonetic: "fer-zoo-khen", meaning: "to try", example: { de: "Ich versuche es.", en: "I try it." } },
           { word: "vergessen", phonetic: "fer-ges-sen", meaning: "to forget", example: { de: "Ich habe es vergessen.", en: "I forgot it." } },
           { word: "wichtig", phonetic: "vikh-tikh", meaning: "important", example: { de: "Das ist sehr wichtig.", en: "That is very important." } },
+          { word: "aufhören", phonetic: "owf-hö-ren", meaning: "to stop", example: { de: "Er hört auf zu rauchen.", en: "He stops smoking." } },
+          { word: "anfangen", phonetic: "an-fang-en", meaning: "to start", example: { de: "Ich fange an zu lernen.", en: "I am starting to study." } },
+          { word: "vorhaben", phonetic: "for-ha-ben", meaning: "to plan / intend", example: { de: "Ich habe vor, nach Berlin zu reisen.", en: "I intend to travel to Berlin." } }
         ]
       },
       {
@@ -310,6 +328,10 @@ export const lessonsB1: Record<string, Lesson> = {
           { word: "der Kunde", phonetic: "koon-duh", meaning: "the customer", example: { de: "Ich helfe dem Kunden.", en: "I help the customer." } },
           { word: "der Kollege", phonetic: "ko-lay-guh", meaning: "the colleague", example: { de: "Ich spreche mit dem Kollegen.", en: "I speak with the colleague." } },
           { word: "der Polizist", phonetic: "po-li-tsist", meaning: "the police officer", example: { de: "Fragen Sie den Polizisten.", en: "Ask the police officer." } },
+          { word: "der Präsident", phonetic: "prä-zee-dent", meaning: "the president", example: { de: "Wir sehen den Präsidenten.", en: "We see the president." } },
+          { word: "der Tourist", phonetic: "too-rist", meaning: "the tourist", example: { de: "Der Reiseführer hilft dem Touristen.", en: "The guide helps the tourist." } },
+          { word: "der Experte", phonetic: "eks-pair-tuh", meaning: "the expert", example: { de: "Fragen Sie einen Experten.", en: "Ask an expert." } },
+          { word: "der Automat", phonetic: "ow-to-maht", meaning: "the vending/ticket machine", example: { de: "Ich gehe zum Automaten.", en: "I go to the machine." } }
         ]
       }
     ]
@@ -328,6 +350,10 @@ export const lessonsB1: Record<string, Lesson> = {
           { word: "der Vertrag", phonetic: "fer-trahk", meaning: "the contract", example: { de: "Ich unterschreibe den Vertrag.", en: "I sign the contract." } },
           { word: "verdienen", phonetic: "fer-dee-nen", meaning: "to earn", example: { de: "Wie viel verdienst du?", en: "How much do you earn?" } },
           { word: "kündigen", phonetic: "kün-di-gen", meaning: "to quit / resign / fire", example: { de: "Er hat seinen Job gekündigt.", en: "He quit his job." } },
+          { word: "das Gehalt", phonetic: "ge-halt", meaning: "the salary", example: { de: "Mein Gehalt ist gut.", en: "My salary is good." } },
+          { word: "der Arbeitgeber", phonetic: "ar-byt-gay-ber", meaning: "the employer", example: { de: "Mein Arbeitgeber ist sehr fair.", en: "My employer is very fair." } },
+          { word: "die Vollzeit", phonetic: "fol-tsyt", meaning: "full-time", example: { de: "Ich arbeite in Vollzeit.", en: "I work full-time." } },
+          { word: "die Teilzeit", phonetic: "tyle-tsyt", meaning: "part-time", example: { de: "Sie sucht eine Stelle in Teilzeit.", en: "She is looking for a part-time position." } }
         ]
       },
       {
@@ -352,6 +378,10 @@ export const lessonsB1: Record<string, Lesson> = {
           { word: "glauben", phonetic: "glow-ben", meaning: "to believe", example: { de: "Ich glaube, er hat recht.", en: "I believe he is right." } },
           { word: "zustimmen", phonetic: "tsoo-shtim-men", meaning: "to agree (+ Dat)", example: { de: "Da stimme ich dir zu.", en: "I agree with you there." } },
           { word: "recht haben", phonetic: "rekht ha-ben", meaning: "to be right", example: { de: "Du hast völlig recht.", en: "You are completely right." } },
+          { word: "die Ansicht", phonetic: "an-zikht", meaning: "the view / opinion", example: { de: "Ich bin der Ansicht, dass das stimmt.", en: "I am of the view that this is true." } },
+          { word: "einerseits", phonetic: "eye-ner-zyts", meaning: "on one hand", example: { de: "Einerseits ist es teuer...", en: "On one hand it is expensive..." } },
+          { word: "andererseits", phonetic: "an-der-er-zyts", meaning: "on the other hand", example: { de: "...andererseits ist es gut.", en: "...on the other hand it is good." } },
+          { word: "überzeugt", phonetic: "ü-ber-tsoygt", meaning: "convinced", example: { de: "Ich bin davon überzeugt.", en: "I am convinced of that." } }
         ]
       },
       {
@@ -384,6 +414,9 @@ export const lessonsB1: Record<string, Lesson> = {
           { word: "schützen", phonetic: "shüt-tsen", meaning: "to protect", example: { de: "Umweltschutz ist wichtig.", en: "Environmental protection is important." } },
           { word: "verschmutzen", phonetic: "fer-shmoot-tsen", meaning: "to pollute", example: { de: "Die Luft ist verschmutzt.", en: "The air is polluted." } },
           { word: "das Klima", phonetic: "klee-ma", meaning: "the climate", example: { de: "Der Klimawandel ist ein Problem.", en: "Climate change is a problem." } },
+          { word: "nachhaltig", phonetic: "nakh-hal-tikh", meaning: "sustainable", example: { de: "Wir müssen nachhaltig leben.", en: "We must live sustainably." } },
+          { word: "die globale Erwärmung", phonetic: "dee glo-bah-luh er-vair-moong", meaning: "global warming", example: { de: "Die globale Erwärmung ist gefährlich.", en: "Global warming is dangerous." } },
+          { word: "die Energiequelle", phonetic: "dee eh-ner-gee-kvel-luh", meaning: "the energy source", example: { de: "Die Sonne ist eine Energiequelle.", en: "The sun is an energy source." } }
         ]
       },
       {
@@ -407,6 +440,10 @@ export const lessonsB1: Record<string, Lesson> = {
           { word: "die Nachricht", phonetic: "nakh-rikht", meaning: "the message / news", example: { de: "Hast du meine Nachricht bekommen?", en: "Did you get my message?" } },
           { word: "herunterladen", phonetic: "he-roon-ter-lah-den", meaning: "to download", example: { de: "Ich lade die App herunter.", en: "I am downloading the app." } },
           { word: "speichern", phonetic: "shpy-khern", meaning: "to save (data)", example: { de: "Hast du das Dokument gespeichert?", en: "Did you save the document?" } },
+          { word: "die Datei", phonetic: "da-tye", meaning: "the file", example: { de: "Wo ist die Datei?", en: "Where is the file?" } },
+          { word: "löschen", phonetic: "lö-shen", meaning: "to delete", example: { de: "Ich habe die E-Mail gelöscht.", en: "I deleted the email." } },
+          { word: "hochladen", phonetic: "hokh-lah-den", meaning: "to upload", example: { de: "Ich lade das Video hoch.", en: "I upload the video." } },
+          { word: "das Passwort", phonetic: "pas-vort", meaning: "the password", example: { de: "Ich habe mein Passwort vergessen.", en: "I forgot my password." } }
         ]
       },
       {
@@ -434,6 +471,9 @@ export const lessonsB1: Record<string, Lesson> = {
           { word: "einziehen", phonetic: "yn-tsee-en", meaning: "to move in", example: { de: "Wann können wir einziehen?", en: "When can we move in?" } },
           { word: "umziehen", phonetic: "oom-tsee-en", meaning: "to move (change residence)", example: { de: "Ich ziehe nächsten Monat um.", en: "I am moving next month." } },
           { word: "der Vertrag", phonetic: "fer-trahk", meaning: "the contract", example: { de: "Der Mietvertrag ist unterschrieben.", en: "The lease is signed." } },
+          { word: "die Kaution", phonetic: "kow-tsee-ohn", meaning: "the deposit", example: { de: "Die Kaution beträgt zwei Monatsmieten.", en: "The deposit is two months' rent." } },
+          { word: "die Nebenkosten", phonetic: "nay-ben-kos-ten", meaning: "the utilities / extra costs", example: { de: "Die Nebenkosten sind hoch.", en: "The utilities are high." } },
+          { word: "möbliert", phonetic: "mö-bleert", meaning: "furnished", example: { de: "Ich suche eine möblierte Wohnung.", en: "I am looking for a furnished apartment." } }
         ]
       },
       {

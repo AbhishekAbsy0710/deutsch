@@ -25,7 +25,10 @@ export const lessonsB1Exam: Record<string, Lesson> = {
           { word: "Das klingt gut, aber...", phonetic: "das klingt goot, ah-ber", meaning: "That sounds good, but...", example: { de: "Das klingt gut, aber ich kann am Samstag nicht.", en: "That sounds good, but I can't on Saturday." } },
           { word: "Wer kümmert sich um...?", phonetic: "vair küm-mert zikh oom", meaning: "Who takes care of...?", example: { de: "Wer kümmert sich um die Getränke?", en: "Who takes care of the drinks?" } },
           { word: "Sollen wir...?", phonetic: "zol-len veer", meaning: "Should we...?", example: { de: "Sollen wir ein Geschenk kaufen?", en: "Should we buy a gift?" } },
-          { word: "Abgemacht! / Einverstanden!", phonetic: "ap-ge-makht", meaning: "Deal! / Agreed!", example: { de: "OK, abgemacht! Dann sehen wir uns am Samstag.", en: "OK, deal! Then we'll see each other Saturday." } }
+          { word: "Abgemacht! / Einverstanden!", phonetic: "ap-ge-makht", meaning: "Deal! / Agreed!", example: { de: "OK, abgemacht! Dann sehen wir uns am Samstag.", en: "OK, deal! Then we'll see each other Saturday." } },
+          { word: "Was hältst du davon?", phonetic: "vas hayltst doo da-fon", meaning: "What do you think of that?", example: { de: "Was hältst du davon, wenn wir ins Kino gehen?", en: "What do you think of us going to the cinema?" } },
+          { word: "Das kommt darauf an.", phonetic: "das komt da-rowf an", meaning: "That depends.", example: { de: "Das kommt darauf an, wie das Wetter ist.", en: "That depends on what the weather is like." } },
+          { word: "Ich bin dafür / dagegen.", phonetic: "ikh bin da-für / da-gay-gen", meaning: "I am for / against it.", example: { de: "Ich bin absolut dafür.", en: "I am absolutely for it." } }
         ]
       },
       {
@@ -72,7 +75,10 @@ export const lessonsB1Exam: Record<string, Lesson> = {
           { word: "Mein Thema ist...", phonetic: "myn tay-ma ist", meaning: "My topic is...", example: { de: "Mein Thema ist 'Soziale Medien'.", en: "My topic is 'Social Media'." } },
           { word: "In meinem Heimatland...", phonetic: "in my-nem hy-maht-lant", meaning: "In my home country...", example: { de: "In meinem Heimatland ist das anders.", en: "In my home country it's different." } },
           { word: "Aus meiner Erfahrung...", phonetic: "ows my-ner er-fah-roong", meaning: "From my experience...", example: { de: "Aus meiner Erfahrung kann ich sagen, dass...", en: "From my experience I can say that..." } },
-          { word: "Abschließend möchte ich sagen...", phonetic: "ap-shlee-sent", meaning: "In closing, I'd like to say...", example: { de: "Abschließend möchte ich sagen, dass...", en: "In closing, I'd like to say that..." } }
+          { word: "Abschließend möchte ich sagen...", phonetic: "ap-shlee-sent", meaning: "In closing, I'd like to say...", example: { de: "Abschließend möchte ich sagen, dass...", en: "In closing, I'd like to say that..." } },
+          { word: "Zuerst möchte ich über... sprechen.", phonetic: "tsoo-erst möch-te ikh ü-ber... shpre-khen", meaning: "First I would like to talk about...", example: { de: "Zuerst möchte ich über meine Erfahrungen sprechen.", en: "First I would like to talk about my experiences." } },
+          { word: "Ein weiteres Beispiel ist...", phonetic: "ayn vy-te-res by-shpeel ist", meaning: "Another example is...", example: { de: "Ein weiteres Beispiel ist das Internet.", en: "Another example is the internet." } },
+          { word: "Vielen Dank für Ihre Aufmerksamkeit.", phonetic: "fee-len dank für ee-re owf-merk-zam-kyt", meaning: "Thank you for your attention.", example: { de: "Das war meine Präsentation. Vielen Dank für Ihre Aufmerksamkeit.", en: "That was my presentation. Thank you for your attention." } }
         ]
       }
     ]
@@ -108,7 +114,9 @@ export const lessonsB1Exam: Record<string, Lesson> = {
           { word: "Ich möchte Sie bitten,...", phonetic: "ikh möch-te zee bit-ten", meaning: "I would like to ask you to...", example: { de: "Ich möchte Sie bitten, mir die Unterlagen zu schicken.", en: "I'd like to ask you to send me the documents." } },
           { word: "Könnten Sie mir bitte mitteilen,...", phonetic: "kön-ten zee meer bit-te mit-ty-len", meaning: "Could you please let me know...", example: { de: "Könnten Sie mir bitte mitteilen, wann der Kurs beginnt?", en: "Could you please let me know when the course starts?" } },
           { word: "Ich würde mich freuen,...", phonetic: "ikh vür-de mikh froy-en", meaning: "I would be happy to...", example: { de: "Ich würde mich über eine Antwort freuen.", en: "I would appreciate a response." } },
-          { word: "Mit freundlichen Grüßen", phonetic: "mit froynt-li-khen grü-sen", meaning: "Kind regards (formal)", example: { de: "Mit freundlichen Grüßen, Max Mustermann", en: "Kind regards, Max Mustermann" } }
+          { word: "Mit freundlichen Grüßen", phonetic: "mit froynt-li-khen grü-sen", meaning: "Kind regards (formal)", example: { de: "Mit freundlichen Grüßen, Max Mustermann", en: "Kind regards, Max Mustermann" } },
+          { word: "Es tut mir leid, aber...", phonetic: "es toot meer lyt, ah-ber", meaning: "I am sorry, but...", example: { de: "Es tut mir leid, aber ich kann nicht kommen.", en: "I am sorry, but I cannot come." } },
+          { word: "Ich hoffe, Sie können das verstehen.", phonetic: "ikh hof-fe, zee kön-nen das fer-shtay-en", meaning: "I hope you can understand.", example: { de: "Ich hoffe, Sie können meine Situation verstehen.", en: "I hope you can understand my situation." } }
         ]
       }
     ]
@@ -127,7 +135,10 @@ export const lessonsB1Exam: Record<string, Lesson> = {
           { word: "der Bericht", phonetic: "be-rikht", meaning: "report", example: { de: "Der Bericht informiert über...", en: "The report informs about..." } },
           { word: "laut (+ Dat)", phonetic: "lowt", meaning: "according to", example: { de: "Laut einer Studie...", en: "According to a study..." } },
           { word: "berichten über (+ Acc)", phonetic: "be-rikh-ten", meaning: "to report on", example: { de: "Die Zeitung berichtet über den Skandal.", en: "The newspaper reports on the scandal." } },
-          { word: "die Umfrage", phonetic: "oom-frah-ge", meaning: "survey / poll", example: { de: "Laut einer Umfrage finden 70% der Deutschen...", en: "According to a survey, 70% of Germans find..." } }
+          { word: "die Umfrage", phonetic: "oom-frah-ge", meaning: "survey / poll", example: { de: "Laut einer Umfrage finden 70% der Deutschen...", en: "According to a survey, 70% of Germans find..." } },
+          { word: "der Redakteur", phonetic: "re-dak-töhr", meaning: "editor", example: { de: "Der Redakteur hat den Artikel geschrieben.", en: "The editor wrote the article." } },
+          { word: "veröffentlichen", phonetic: "fer-öf-fent-li-khen", meaning: "to publish", example: { de: "Der Artikel wurde gestern veröffentlicht.", en: "The article was published yesterday." } },
+          { word: "der Leserbrief", phonetic: "lay-zer-breef", meaning: "letter to the editor", example: { de: "Ich habe einen Leserbrief geschrieben.", en: "I wrote a letter to the editor." } }
         ]
       },
       {
@@ -155,7 +166,10 @@ export const lessonsB1Exam: Record<string, Lesson> = {
           { word: "der Moderator / die Moderatorin", phonetic: "mo-de-rah-tor", meaning: "presenter / host", example: { de: "Der Moderator stellt Fragen.", en: "The host asks questions." } },
           { word: "das Interview", phonetic: "in-ter-vyoo", meaning: "interview", example: { de: "Im Interview sagte der Minister...", en: "In the interview, the minister said..." } },
           { word: "die Durchsage", phonetic: "doorkh-zah-ge", meaning: "announcement (public)", example: { de: "Bitte beachten Sie die Durchsage.", en: "Please pay attention to the announcement." } },
-          { word: "live / in Echtzeit", phonetic: "lyf / in ekht-tsyt", meaning: "live / in real time", example: { de: "Die Sendung wird live übertragen.", en: "The show is broadcast live." } }
+          { word: "live / in Echtzeit", phonetic: "lyf / in ekht-tsyt", meaning: "live / in real time", example: { de: "Die Sendung wird live übertragen.", en: "The show is broadcast live." } },
+          { word: "der Wetterbericht", phonetic: "vet-ter-be-rikht", meaning: "weather forecast", example: { de: "Was sagt der Wetterbericht für morgen?", en: "What does the weather forecast say for tomorrow?" } },
+          { word: "der Verkehrsstau", phonetic: "fer-kairs-shtow", meaning: "traffic jam", example: { de: "Es gibt einen Verkehrsstau auf der A8.", en: "There is a traffic jam on the A8." } },
+          { word: "der Zuhörer", phonetic: "tsoo-hö-rer", meaning: "listener", example: { de: "Liebe Zuhörer, herzlich willkommen.", en: "Dear listeners, welcome." } }
         ]
       },
       {
@@ -184,7 +198,10 @@ export const lessonsB1Exam: Record<string, Lesson> = {
           { word: "die Mailbox / der Anrufbeantworter", phonetic: "mayl-boks", meaning: "voicemail", example: { de: "Bitte sprechen Sie nach dem Ton.", en: "Please speak after the tone." } },
           { word: "zurückrufen", phonetic: "tsoo-rük-roo-fen", meaning: "to call back", example: { de: "Können Sie mich bitte zurückrufen?", en: "Can you please call me back?" } },
           { word: "verbinden mit", phonetic: "fer-bin-den mit", meaning: "to connect/transfer to", example: { de: "Ich verbinde Sie mit Frau Meier.", en: "I'll connect you with Mrs. Meier." } },
-          { word: "Einen Moment bitte.", phonetic: "ay-nen mo-ment bit-te", meaning: "One moment please.", example: { de: "Einen Moment bitte, ich schaue nach.", en: "One moment please, I'll check." } }
+          { word: "Einen Moment bitte.", phonetic: "ay-nen mo-ment bit-te", meaning: "One moment please.", example: { de: "Einen Moment bitte, ich schaue nach.", en: "One moment please, I'll check." } },
+          { word: "buchstabieren", phonetic: "bookh-shta-bee-ren", meaning: "to spell", example: { de: "Können Sie das bitte buchstabieren?", en: "Can you please spell that?" } },
+          { word: "die Verbindung", phonetic: "fer-bin-doong", meaning: "connection", example: { de: "Die Verbindung ist sehr schlecht.", en: "The connection is very bad." } },
+          { word: "sich verwählen", phonetic: "zikh fer-vay-len", meaning: "to dial the wrong number", example: { de: "Entschuldigung, da haben Sie sich verwählt.", en: "Sorry, you have the wrong number." } }
         ]
       },
       {

@@ -25,7 +25,8 @@ export const lessonsB2Final: Record<string, Lesson> = {
           { word: "-bar (Verb → Adjektiv)", phonetic: "bar", meaning: "turns verbs into '-able' adjectives", example: { de: "machen → machbar; lösen → lösbar", en: "doable; solvable" } },
           { word: "-los (= without)", phonetic: "lohs", meaning: "without / -less", example: { de: "arbeitslos, hoffnungslos, sinnlos", en: "unemployed, hopeless, pointless" } },
           { word: "un- (negation prefix)", phonetic: "un", meaning: "un- / not", example: { de: "unmöglich, unglaublich, unzufrieden", en: "impossible, unbelievable, dissatisfied" } },
-          { word: "Fugen-s / Fugen-n", phonetic: "foo-gen", meaning: "linking element in compounds", example: { de: "Arbeit-s-platz, Straße-n-bahn", en: "workplace, tram (note the linking elements)" } }
+          { word: "Fugen-s / Fugen-n", phonetic: "foo-gen", meaning: "linking element in compounds", example: { de: "Arbeit-s-platz, Straße-n-bahn", en: "workplace, tram (note the linking elements)" } },
+          { word: "die Eigenverantwortung", phonetic: "ay-gen-fer-ant-vor-toong", meaning: "personal responsibility", example: { de: "Studieren erfordert viel Eigenverantwortung.", en: "Studying requires a lot of personal responsibility." } }
         ]
       },
       {
@@ -61,7 +62,8 @@ export const lessonsB2Final: Record<string, Lesson> = {
           { word: "die Umgangssprache", phonetic: "um-gangs-shpra-khe", meaning: "colloquial language", example: { de: "Im Alltag verwendet man Umgangssprache.", en: "In everyday life, one uses colloquial language." } },
           { word: "die Fachsprache", phonetic: "fakh-shpra-khe", meaning: "technical/specialized language", example: { de: "Fachsprache findet man in wissenschaftlichen Texten.", en: "Technical language is found in scientific texts." } },
           { word: "umgangssprachlich", phonetic: "um-gangs-shprakh-likh", meaning: "colloquial", example: { de: "'Kohle' ist umgangssprachlich für Geld.", en: "'Kohle' is colloquial for money." } },
-          { word: "gehoben", phonetic: "ge-hoh-ben", meaning: "elevated / formal (register)", example: { de: "'Antlitz' ist ein gehobener Ausdruck für 'Gesicht'.", en: "'Antlitz' is a formal expression for 'face'." } }
+          { word: "gehoben", phonetic: "ge-hoh-ben", meaning: "elevated / formal (register)", example: { de: "'Antlitz' ist ein gehobener Ausdruck für 'Gesicht'.", en: "'Antlitz' is a formal expression for 'face'." } },
+          { word: "bedauerlicherweise", phonetic: "be-dow-er-li-kher-vy-ze", meaning: "unfortunately (formal)", example: { de: "Bedauerlicherweise muss ich den Termin absagen.", en: "Unfortunately, I must cancel the appointment." } }
         ]
       }
     ]
@@ -91,7 +93,8 @@ export const lessonsB2Final: Record<string, Lesson> = {
           { word: "auf Augenhöhe", phonetic: "owf ow-gen-hö-uh", meaning: "at eye level / on equal terms", example: { de: "Wir verhandeln auf Augenhöhe.", en: "We negotiate on equal terms." } },
           { word: "unter einen Hut bringen", phonetic: "oon-ter ay-nen hoot bring-en", meaning: "to reconcile / to combine", example: { de: "Familie und Beruf unter einen Hut zu bringen ist schwer.", en: "Combining family and career is difficult." } },
           { word: "ins kalte Wasser springen", phonetic: "ins kal-te vas-ser shpring-en", meaning: "to take the plunge / jump in the deep end", example: { de: "Bei meinem ersten Job bin ich ins kalte Wasser gesprungen.", en: "At my first job, I jumped in the deep end." } },
-          { word: "die Katze im Sack kaufen", phonetic: "dee kat-se im zak kow-fen", meaning: "to buy a pig in a poke / buy blindly", example: { de: "Ohne Probefahrt kaufe ich nicht die Katze im Sack.", en: "Without a test drive, I won't buy sight unseen." } }
+          { word: "die Katze im Sack kaufen", phonetic: "dee kat-se im zak kow-fen", meaning: "to buy a pig in a poke / buy blindly", example: { de: "Ohne Probefahrt kaufe ich nicht die Katze im Sack.", en: "Without a test drive, I won't buy sight unseen." } },
+          { word: "auf dem Laufenden bleiben", phonetic: "owf dem low-fen-den bly-ben", meaning: "to keep up to date / stay informed", example: { de: "Ich lese Nachrichten, um auf dem Laufenden zu bleiben.", en: "I read news to stay informed." } }
         ]
       },
       {
@@ -128,7 +131,9 @@ export const lessonsB2Final: Record<string, Lesson> = {
           { word: "bekommen", phonetic: "be-ko-men", meaning: "to receive / to get (NOT to become)", example: { de: "Ich bekomme morgen ein Paket.", en: "I will receive a package tomorrow." } },
           { word: "aktuell", phonetic: "ak-too-el", meaning: "current / up-to-date (NOT actual)", example: { de: "Das ist eine aktuelle Nachricht.", en: "That is a current/recent piece of news." } },
           { word: "sensibel", phonetic: "zen-zee-bel", meaning: "sensitive (NOT sensible)", example: { de: "Er ist ein sensibler Mensch.", en: "He is a sensitive person." } },
-          { word: "eventuell", phonetic: "e-ven-too-el", meaning: "possibly / perhaps (NOT eventually)", example: { de: "Eventuell komme ich morgen.", en: "I might come tomorrow." } }
+          { word: "eventuell", phonetic: "e-ven-too-el", meaning: "possibly / perhaps (NOT eventually)", example: { de: "Eventuell komme ich morgen.", en: "I might come tomorrow." } },
+          { word: "die Rente", phonetic: "ren-te", meaning: "pension (NOT rent)", example: { de: "Meine Oma bekommt jetzt Rente.", en: "My grandma receives a pension now." } },
+          { word: "die Miete", phonetic: "mee-te", meaning: "rent (the money you pay)", example: { de: "Ich muss meine Miete bezahlen.", en: "I have to pay my rent." } }
         ]
       },
       {

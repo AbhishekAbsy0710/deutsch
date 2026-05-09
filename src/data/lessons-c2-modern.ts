@@ -25,6 +25,18 @@ export const lessonsC2Modern: Record<string, Lesson> = {
           { de: "die Lehrer -> die Lehrenden", en: "the teachers (literally: the teaching ones)" },
           { de: "die Mitarbeiter -> die Mitarbeitenden", en: "the employees (literally: the cooperating ones)" },
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "Why do many German universities prefer 'Studierende' instead of 'Studenten'?",
+        options: [
+          "It sounds more formal.",
+          "It is shorter to write.",
+          "It is a gender-neutral present participle.",
+          "It is easier for foreigners to pronounce."
+        ],
+        correctIndex: 2,
+        explanation: "By using the present participle 'die Studierenden' (the studying ones), institutions avoid the masculine plural 'Studenten' and the cumbersome 'Studentinnen und Studenten'."
       }
     ]
   },
@@ -42,6 +54,13 @@ export const lessonsC2Modern: Record<string, Lesson> = {
           { de: "die Personensorgeberechtigten", en: "Bureaucratic for 'die Eltern' (Parents / Legal guardians)" },
           { de: "die Nichtlebendgeburt", en: "Bureaucratic for 'die Fehlgeburt' (Stillbirth)" },
           { de: "der Fahrtrichtungsanzeiger", en: "Bureaucratic for 'der Blinker' (Turn signal on a car)" },
+        ]
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "die Lichtzeichenanlage", phonetic: "/ˈlɪçtˌt͡saɪ̯çənˌʔanlaːɡə/", meaning: "traffic light (bureaucratic for 'die Ampel')", example: { de: "Die Lichtzeichenanlage ist defekt.", en: "The traffic light is broken." } },
+          { word: "die Personensorgeberechtigten", phonetic: "/pɛʁˈzoːnənˌzɔʁɡəbəˌʁɛçtɪçtən/", meaning: "legal guardians / parents (bureaucratic)", example: { de: "Die Unterschrift der Personensorgeberechtigten fehlt.", en: "The signature of the legal guardians is missing." } }
         ]
       }
     ]
@@ -67,6 +86,13 @@ export const lessonsC2Modern: Record<string, Lesson> = {
           { de: "die Plaste", en: "Plastic (West: das Plastik)" },
           { de: "der Plattenbau", en: "Prefabricated concrete apartment block (Iconic East German architecture)" },
         ]
+      },
+      {
+        type: "quiz-fill",
+        sentenceBefore: "Ich gehe in die ",
+        sentenceAfter: ", um Milch zu kaufen. (supermarket - East German term)",
+        missingWord: "Kaufhalle",
+        translation: "I am going to the supermarket to buy milk."
       }
     ]
   }

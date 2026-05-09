@@ -16,7 +16,11 @@ export const lessonsB1Vocab1: Record<string, Lesson> = {
           { word: "die Qualifikation", phonetic: "kva-li-fi-ka-tsee-ohn", meaning: "qualification", example: { de: "Welche Qualifikationen bringen Sie mit?", en: "What qualifications do you bring?" } },
           { word: "die Berufserfahrung", phonetic: "be-roofs-er-fah-roong", meaning: "work experience", example: { de: "Ich habe fünf Jahre Berufserfahrung.", en: "I have five years of work experience." } },
           { word: "das Gehalt / der Lohn", phonetic: "ge-halt / lohn", meaning: "salary / wage", example: { de: "Was sind Ihre Gehaltsvorstellungen?", en: "What are your salary expectations?" } },
-          { word: "die Stelle / die Position", phonetic: "shtel-le", meaning: "position / job", example: { de: "Ich bewerbe mich um diese Stelle.", en: "I'm applying for this position." } }
+          { word: "die Stelle / die Position", phonetic: "shtel-le", meaning: "position / job", example: { de: "Ich bewerbe mich um diese Stelle.", en: "I'm applying for this position." } },
+          { word: "die Stärke", phonetic: "shtair-ke", meaning: "strength", example: { de: "Was sind Ihre Stärken?", en: "What are your strengths?" } },
+          { word: "die Schwäche", phonetic: "shve-khe", meaning: "weakness", example: { de: "Jeder Mensch hat Schwächen.", en: "Everyone has weaknesses." } },
+          { word: "die Probezeit", phonetic: "proh-be-tsyt", meaning: "probationary period", example: { de: "Die Probezeit dauert sechs Monate.", en: "The probationary period lasts six months." } },
+          { word: "der Arbeitsvertrag", phonetic: "ar-byts-fer-trahk", meaning: "employment contract", example: { de: "Ich habe den Arbeitsvertrag unterschrieben.", en: "I signed the employment contract." } }
         ]
       },
       {
@@ -48,7 +52,11 @@ export const lessonsB1Vocab1: Record<string, Lesson> = {
           { word: "die Überstunde", phonetic: "ü-ber-shtoon-de", meaning: "overtime", example: { de: "Ich mache heute Überstunden.", en: "I'm working overtime today." } },
           { word: "der Feierabend", phonetic: "fy-er-ah-bent", meaning: "end of workday", example: { de: "Schönen Feierabend!", en: "Have a nice evening! (after work)" } },
           { word: "die Zusammenarbeit", phonetic: "tsoo-za-men-ar-byt", meaning: "collaboration / teamwork", example: { de: "Die Zusammenarbeit war sehr gut.", en: "The collaboration was very good." } },
-          { word: "die Fortbildung", phonetic: "fort-bil-doong", meaning: "continuing education / training", example: { de: "Ich mache eine Fortbildung.", en: "I'm doing continuing education." } }
+          { word: "die Fortbildung", phonetic: "fort-bil-doong", meaning: "continuing education / training", example: { de: "Ich mache eine Fortbildung.", en: "I'm doing continuing education." } },
+          { word: "die Abteilung", phonetic: "ap-ty-loong", meaning: "department", example: { de: "Ich arbeite in der IT-Abteilung.", en: "I work in the IT department." } },
+          { word: "der Vorgesetzte", phonetic: "for-ge-zet-ste", meaning: "supervisor", example: { de: "Mein Vorgesetzter ist heute nicht da.", en: "My supervisor isn't here today." } },
+          { word: "die Kündigung", phonetic: "kün-di-goong", meaning: "resignation / dismissal", example: { de: "Er hat seine Kündigung eingereicht.", en: "He submitted his resignation." } },
+          { word: "sich krankschreiben lassen", phonetic: "zikh krangk-shry-ben las-sen", meaning: "to get a doctor's note / take sick leave", example: { de: "Ich muss mich krankschreiben lassen.", en: "I need to get a doctor's note." } }
         ]
       },
       {
@@ -88,7 +96,11 @@ export const lessonsB1Vocab1: Record<string, Lesson> = {
           { word: "das Studium", phonetic: "shtoo-dee-oom", meaning: "university studies", example: { de: "Mein Studium dauert vier Jahre.", en: "My studies last four years." } },
           { word: "das Praktikum", phonetic: "prak-ti-koom", meaning: "internship", example: { de: "Ich mache ein Praktikum bei Siemens.", en: "I'm doing an internship at Siemens." } },
           { word: "der Abschluss", phonetic: "ap-shloos", meaning: "degree / diploma / graduation", example: { de: "Welchen Abschluss hast du?", en: "What degree do you have?" } },
-          { word: "die Weiterbildung", phonetic: "vy-ter-bil-doong", meaning: "further education / upskilling", example: { de: "Weiterbildung ist sehr wichtig.", en: "Continuing education is very important." } }
+          { word: "die Weiterbildung", phonetic: "vy-ter-bil-doong", meaning: "further education / upskilling", example: { de: "Weiterbildung ist sehr wichtig.", en: "Continuing education is very important." } },
+          { word: "das Semester", phonetic: "ze-mes-ter", meaning: "semester", example: { de: "Das Sommersemester beginnt bald.", en: "The summer semester starts soon." } },
+          { word: "die Vorlesung", phonetic: "for-lay-zoong", meaning: "lecture", example: { de: "Die Vorlesung war sehr interessant.", en: "The lecture was very interesting." } },
+          { word: "die Prüfung bestehen", phonetic: "prü-foong be-shtay-en", meaning: "to pass an exam", example: { de: "Er hat die Prüfung bestanden.", en: "He passed the exam." } },
+          { word: "durchfallen", phonetic: "doorkh-fal-len", meaning: "to fail (an exam)", example: { de: "Sie ist leider durchgefallen.", en: "Unfortunately, she failed." } }
         ]
       }
     ]
@@ -108,7 +120,11 @@ export const lessonsB1Vocab1: Record<string, Lesson> = {
           { word: "die Nebenwirkung", phonetic: "nay-ben-vir-koong", meaning: "side effect", example: { de: "Das Medikament hat Nebenwirkungen.", en: "The medication has side effects." } },
           { word: "die Untersuchung", phonetic: "oon-ter-zoo-khoong", meaning: "examination / checkup", example: { de: "Ich habe eine Untersuchung beim Arzt.", en: "I have a checkup at the doctor." } },
           { word: "die Überweisung", phonetic: "ü-ber-vy-zoong", meaning: "referral (medical)", example: { de: "Der Hausarzt hat mir eine Überweisung gegeben.", en: "The GP gave me a referral." } },
-          { word: "die Krankenversicherung", phonetic: "kran-ken-fer-zi-khe-roong", meaning: "health insurance", example: { de: "In Deutschland braucht man eine Krankenversicherung.", en: "In Germany you need health insurance." } }
+          { word: "die Krankenversicherung", phonetic: "kran-ken-fer-zi-khe-roong", meaning: "health insurance", example: { de: "In Deutschland braucht man eine Krankenversicherung.", en: "In Germany you need health insurance." } },
+          { word: "das Rezept", phonetic: "re-tsept", meaning: "prescription", example: { de: "Der Arzt hat mir ein Rezept gegeben.", en: "The doctor gave me a prescription." } },
+          { word: "die Apotheke", phonetic: "a-po-tay-ke", meaning: "pharmacy", example: { de: "Ich hole die Medikamente in der Apotheke.", en: "I get the meds at the pharmacy." } },
+          { word: "das Schmerzmittel", phonetic: "shmerts-mit-tel", meaning: "painkiller", example: { de: "Haben Sie ein Schmerzmittel?", en: "Do you have a painkiller?" } },
+          { word: "der Blutdruck", phonetic: "bloot-drook", meaning: "blood pressure", example: { de: "Mein Blutdruck ist zu hoch.", en: "My blood pressure is too high." } }
         ]
       },
       {
@@ -133,7 +149,9 @@ export const lessonsB1Vocab1: Record<string, Lesson> = {
           { word: "die Entspannung", phonetic: "ent-shpan-oong", meaning: "relaxation", example: { de: "Yoga hilft bei der Entspannung.", en: "Yoga helps with relaxation." } },
           { word: "die Depression", phonetic: "de-pre-see-ohn", meaning: "depression", example: { de: "Depression ist behandelbar.", en: "Depression is treatable." } },
           { word: "die Work-Life-Balance", phonetic: "vörk-lyf-ba-lans", meaning: "work-life balance", example: { de: "Eine gute Work-Life-Balance ist wichtig.", en: "Good work-life balance is important." } },
-          { word: "sich überfordert fühlen", phonetic: "ü-ber-for-dert", meaning: "to feel overwhelmed", example: { de: "Ich fühle mich überfordert.", en: "I feel overwhelmed." } }
+          { word: "sich überfordert fühlen", phonetic: "ü-ber-for-dert", meaning: "to feel overwhelmed", example: { de: "Ich fühle mich überfordert.", en: "I feel overwhelmed." } },
+          { word: "die Erschöpfung", phonetic: "er-shöp-foong", meaning: "exhaustion", example: { de: "Ich leide an Erschöpfung.", en: "I am suffering from exhaustion." } },
+          { word: "abschalten", phonetic: "ap-shal-ten", meaning: "to switch off / unwind", example: { de: "Im Urlaub kann ich gut abschalten.", en: "On vacation I can unwind well." } }
         ]
       },
       {
@@ -162,7 +180,11 @@ export const lessonsB1Vocab1: Record<string, Lesson> = {
           { word: "vegetarisch / vegan", phonetic: "ve-ge-tah-rish / vay-gahn", meaning: "vegetarian / vegan", example: { de: "Ich ernähre mich vegetarisch.", en: "I eat vegetarian." } },
           { word: "die Sucht", phonetic: "zookht", meaning: "addiction", example: { de: "Rauchen ist eine Sucht.", en: "Smoking is an addiction." } },
           { word: "das Wohlbefinden", phonetic: "vohl-be-fin-den", meaning: "well-being", example: { de: "Sport fördert das Wohlbefinden.", en: "Exercise promotes well-being." } },
-          { word: "sich ernähren", phonetic: "zikh er-nay-ren", meaning: "to eat / nourish oneself", example: { de: "Wie ernähren Sie sich?", en: "How do you eat? (What's your diet?)" } }
+          { word: "sich ernähren", phonetic: "zikh er-nay-ren", meaning: "to eat / nourish oneself", example: { de: "Wie ernähren Sie sich?", en: "How do you eat? (What's your diet?)" } },
+          { word: "das Übergewicht", phonetic: "ü-ber-ge-vikht", meaning: "overweight", example: { de: "Übergewicht kann ungesund sein.", en: "Being overweight can be unhealthy." } },
+          { word: "die Kalorie", phonetic: "ka-lo-ree-e", meaning: "calorie", example: { de: "Wie viele Kalorien hat das?", en: "How many calories does that have?" } },
+          { word: "Sport treiben", phonetic: "shport try-ben", meaning: "to do sports / exercise", example: { de: "Ich treibe dreimal pro Woche Sport.", en: "I exercise three times a week." } },
+          { word: "ausgewogen", phonetic: "ows-ge-voh-gen", meaning: "balanced", example: { de: "Eine ausgewogene Ernährung.", en: "A balanced diet." } }
         ]
       },
       {
@@ -192,7 +214,11 @@ export const lessonsB1Vocab1: Record<string, Lesson> = {
           { word: "das Arbeitslosengeld", phonetic: "ar-byts-loh-zen-gelt", meaning: "unemployment benefits", example: { de: "Er bekommt Arbeitslosengeld.", en: "He receives unemployment benefits." } },
           { word: "die Pflegeversicherung", phonetic: "pflay-ge-fer-zi-khe-roong", meaning: "long-term care insurance", example: { de: "Pflegeversicherung ist in Deutschland Pflicht.", en: "Long-term care insurance is mandatory in Germany." } },
           { word: "das Sozialamt", phonetic: "zo-tsee-ahl-amt", meaning: "social welfare office", example: { de: "Das Sozialamt hilft in Notlagen.", en: "The welfare office helps in emergencies." } },
-          { word: "der Beitrag", phonetic: "by-trahk", meaning: "contribution / premium", example: { de: "Die Beiträge werden vom Gehalt abgezogen.", en: "Contributions are deducted from salary." } }
+          { word: "der Beitrag", phonetic: "by-trahk", meaning: "contribution / premium", example: { de: "Die Beiträge werden vom Gehalt abgezogen.", en: "Contributions are deducted from salary." } },
+          { word: "die Steuer", phonetic: "shtoy-er", meaning: "tax", example: { de: "Ich muss Steuern zahlen.", en: "I have to pay taxes." } },
+          { word: "brutto", phonetic: "broot-to", meaning: "gross", example: { de: "Das ist mein Bruttogehalt.", en: "That is my gross salary." } },
+          { word: "netto", phonetic: "net-to", meaning: "net", example: { de: "Was bleibt netto übrig?", en: "What is left net?" } },
+          { word: "die Rente", phonetic: "ren-te", meaning: "pension", example: { de: "Er geht bald in Rente.", en: "He is retiring soon." } }
         ]
       },
       {
@@ -224,7 +250,10 @@ export const lessonsB1Vocab1: Record<string, Lesson> = {
           { word: "die Einbürgerung", phonetic: "yn-bür-ge-roong", meaning: "naturalization (citizenship)", example: { de: "Nach 8 Jahren kann man die Einbürgerung beantragen.", en: "After 8 years you can apply for citizenship." } },
           { word: "beantragen", phonetic: "be-an-trah-gen", meaning: "to apply for (officially)", example: { de: "Ich möchte einen neuen Ausweis beantragen.", en: "I'd like to apply for a new ID card." } },
           { word: "verlängern", phonetic: "fer-leng-ern", meaning: "to extend / renew", example: { de: "Ich muss mein Visum verlängern.", en: "I need to extend my visa." } },
-          { word: "die Gebühr", phonetic: "ge-bür", meaning: "fee / charge", example: { de: "Die Gebühr beträgt 50 Euro.", en: "The fee is 50 euros." } }
+          { word: "die Gebühr", phonetic: "ge-bür", meaning: "fee / charge", example: { de: "Die Gebühr beträgt 50 Euro.", en: "The fee is 50 euros." } },
+          { word: "der Reisepass", phonetic: "ry-ze-pas", meaning: "passport", example: { de: "Mein Reisepass ist noch gültig.", en: "My passport is still valid." } },
+          { word: "die Meldebescheinigung", phonetic: "mel-de-be-shy-ni-goong", meaning: "registration certificate", example: { de: "Sie brauchen eine Meldebescheinigung.", en: "You need a registration certificate." } },
+          { word: "der Termin", phonetic: "ter-meen", meaning: "appointment", example: { de: "Ich brauche einen Termin bei der Behörde.", en: "I need an appointment at the authorities." } }
         ]
       },
       {

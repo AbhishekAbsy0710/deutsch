@@ -23,6 +23,18 @@ export const lessonsC1Grammar5: Record<string, Lesson> = {
         examples: [
           { de: "Sollten Sie weitere Informationen benötigen, stehen wir Ihnen zur Verfügung.", en: "Should you require further information, we are at your disposal. (Very common formal email phrase)" },
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "Which sentence correctly drops 'wenn'?",
+        options: [
+          "Habe ich Zeit, ich komme.",
+          "Zeit hätte ich, würde ich kommen.",
+          "Hätte ich Zeit, würde ich kommen.",
+          "Ich hätte Zeit, ich würde kommen."
+        ],
+        correctIndex: 2,
+        explanation: "When dropping 'wenn', the verb moves to position 1 of the conditional clause: 'Hätte ich Zeit...'. The main clause also starts with a verb, creating a V-V structure: '...würde ich kommen.'"
       }
     ]
   },
@@ -48,6 +60,13 @@ export const lessonsC1Grammar5: Record<string, Lesson> = {
           { de: "Er tut so, als wäre er der Chef.", en: "He acts as if he were the boss." },
           { de: "Es sieht so aus, als würde es gleich regnen.", en: "It looks as if it's going to rain soon." },
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "Fill in the blank: Er sieht so aus, als ___ er krank.",
+        options: ["ob", "wäre", "ist", "dass"],
+        correctIndex: 1,
+        explanation: "Because there is no 'ob', the verb MUST immediately follow 'als'. Therefore: 'als wäre er krank'."
       }
     ]
   },
@@ -70,6 +89,13 @@ export const lessonsC1Grammar5: Record<string, Lesson> = {
         title: "Authority in Text",
         content: "'Die Rechnung ist zu bezahlen' sounds much more official and detached than 'Sie müssen die Rechnung bezahlen'. You will see this constantly in contracts and official letters.",
         emoji: "📜"
+      },
+      {
+        type: "quiz-fill",
+        sentenceBefore: "Der Vertrag ist bis morgen ",
+        sentenceAfter: ". (unterschreiben)",
+        missingWord: "zu unterschreiben",
+        translation: "The contract must be signed by tomorrow."
       }
     ]
   },
@@ -96,6 +122,18 @@ export const lessonsC1Grammar5: Record<string, Lesson> = {
           { de: "Es geht mir gut. -> Mir geht es gut.", en: "I am doing well." },
           { de: "Es gibt ein Problem. -> Hier gibt es ein Problem.", en: "There is a problem here." },
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "Which sentence is INCORRECT?",
+        options: [
+          "Gestern wurde es viel getanzt.",
+          "Es wurde gestern viel getanzt.",
+          "Gestern wurde viel getanzt.",
+          "Wurde gestern viel getanzt?"
+        ],
+        correctIndex: 0,
+        explanation: "In a passive sentence without a real subject (viel getanzt), 'es' is just a placeholder. When 'Gestern' moves to position 1, the placeholder 'es' MUST be dropped."
       }
     ]
   }

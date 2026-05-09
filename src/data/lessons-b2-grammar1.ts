@@ -24,7 +24,8 @@ export const lessonsB2Grammar1: Record<string, Lesson> = {
           { word: "er/sie habe", phonetic: "hah-be", meaning: "he/she has (reportedly)", example: { de: "Sie sagt, sie habe das Buch gelesen.", en: "She says she has read the book." } },
           { word: "er/sie könne", phonetic: "kön-ne", meaning: "he/she can (reportedly)", example: { de: "Er meint, er könne das allein schaffen.", en: "He claims he can manage it alone." } },
           { word: "er/sie wolle", phonetic: "vol-le", meaning: "he/she wants (reportedly)", example: { de: "Die Partei sagt, sie wolle Steuern senken.", en: "The party says it wants to lower taxes." } },
-          { word: "er/sie müsse", phonetic: "müs-se", meaning: "he/she must (reportedly)", example: { de: "Der Arzt sagt, ich müsse mehr Sport treiben.", en: "The doctor says I must do more sport." } }
+          { word: "er/sie müsse", phonetic: "müs-se", meaning: "he/she must (reportedly)", example: { de: "Der Arzt sagt, ich müsse mehr Sport treiben.", en: "The doctor says I must do more sport." } },
+          { word: "er/sie dürfe", phonetic: "dür-fe", meaning: "he/she may (reportedly)", example: { de: "Er sagt, er dürfe nicht kommen.", en: "He says he is not allowed to come." } }
         ]
       },
       {
@@ -64,6 +65,7 @@ export const lessonsB2Grammar1: Record<string, Lesson> = {
           { word: "er habe ... gemacht", phonetic: "hah-be ge-makht", meaning: "he has (reportedly) done", example: { de: "Er sagt, er habe den Brief geschrieben.", en: "He says he wrote the letter." } },
           { word: "sie werde ... kommen", phonetic: "vair-de ko-men", meaning: "she will (reportedly) come", example: { de: "Sie sagt, sie werde morgen kommen.", en: "She says she will come tomorrow." } },
           { word: "sie hätten (replacement)", phonetic: "het-ten", meaning: "they have (reportedly) — Konj II replaces Konj I", example: { de: "Sie behaupten, sie hätten nichts gewusst.", en: "They claim they didn't know anything." } },
+          { word: "sie würden ... gehen (replacement)", phonetic: "vür-den gay-en", meaning: "they would go (reportedly) — replacing 'werden'", example: { de: "Sie sagen, sie würden bald gehen.", en: "They say they will go soon." } },
           { word: "Laut + Dativ", phonetic: "lowt", meaning: "according to", example: { de: "Laut einer Studie sei das Risiko gering.", en: "According to a study, the risk is low." } }
         ]
       },
@@ -99,7 +101,8 @@ export const lessonsB2Grammar1: Record<string, Lesson> = {
           { word: "machbar", phonetic: "makh-bar", meaning: "doable / feasible", example: { de: "Das Projekt ist durchaus machbar.", en: "The project is certainly feasible." } },
           { word: "lösbar", phonetic: "lös-bar", meaning: "solvable", example: { de: "Jedes Problem ist lösbar.", en: "Every problem is solvable." } },
           { word: "verständlich", phonetic: "fer-shtent-likh", meaning: "understandable", example: { de: "Die Erklärung war leicht verständlich.", en: "The explanation was easily understandable." } },
-          { word: "erkennbar", phonetic: "er-ken-bar", meaning: "recognizable / detectable", example: { de: "Der Unterschied ist kaum erkennbar.", en: "The difference is barely detectable." } }
+          { word: "erkennbar", phonetic: "er-ken-bar", meaning: "recognizable / detectable", example: { de: "Der Unterschied ist kaum erkennbar.", en: "The difference is barely detectable." } },
+          { word: "leserlich", phonetic: "lay-zer-likh", meaning: "legible", example: { de: "Die Handschrift ist schwer leserlich.", en: "The handwriting is hard to read." } }
         ]
       },
       {
@@ -139,7 +142,8 @@ export const lessonsB2Grammar1: Record<string, Lesson> = {
           { word: "der ankommende Zug", phonetic: "an-ko-men-de tsook", meaning: "the arriving train", example: { de: "Der in München ankommende Zug hat Verspätung.", en: "The train arriving in Munich is delayed." } },
           { word: "die veröffentlichte Studie", phonetic: "fer-öf-fent-likh-te", meaning: "the published study", example: { de: "Die kürzlich veröffentlichte Studie zeigt...", en: "The recently published study shows..." } },
           { word: "das betroffene Gebiet", phonetic: "be-trof-fe-ne", meaning: "the affected area", example: { de: "Das vom Hochwasser betroffene Gebiet ist groß.", en: "The area affected by flooding is large." } },
-          { word: "die steigende Nachfrage", phonetic: "shtay-gen-de", meaning: "the rising demand", example: { de: "Die weltweit steigende Nachfrage nach Energie...", en: "The globally rising demand for energy..." } }
+          { word: "die steigende Nachfrage", phonetic: "shtay-gen-de", meaning: "the rising demand", example: { de: "Die weltweit steigende Nachfrage nach Energie...", en: "The globally rising demand for energy..." } },
+          { word: "das zu lösende Problem", phonetic: "tsoo lö-zen-de", meaning: "the problem to be solved", example: { de: "Das zu lösende Problem ist komplex.", en: "The problem to be solved is complex." } }
         ]
       },
       {
@@ -176,7 +180,8 @@ export const lessonsB2Grammar1: Record<string, Lesson> = {
           { word: "die Entwicklung (entwickeln)", phonetic: "ent-vik-loong", meaning: "the development (to develop)", example: { de: "Die Entwicklung neuer Technologien...", en: "The development of new technologies..." } },
           { word: "die Entscheidung (entscheiden)", phonetic: "ent-shy-doong", meaning: "the decision (to decide)", example: { de: "Die Entscheidung des Gerichts war überraschend.", en: "The court's decision was surprising." } },
           { word: "die Verbesserung (verbessern)", phonetic: "fer-bes-se-roong", meaning: "the improvement (to improve)", example: { de: "Die Verbesserung der Luftqualität...", en: "The improvement of air quality..." } },
-          { word: "die Bedeutung (bedeuten)", phonetic: "be-doy-toong", meaning: "the meaning/significance (to mean)", example: { de: "Die Bedeutung dieser Entdeckung ist enorm.", en: "The significance of this discovery is enormous." } }
+          { word: "die Bedeutung (bedeuten)", phonetic: "be-doy-toong", meaning: "the meaning/significance (to mean)", example: { de: "Die Bedeutung dieser Entdeckung ist enorm.", en: "The significance of this discovery is enormous." } },
+          { word: "das Ergebnis (ergeben)", phonetic: "er-gap-nis", meaning: "the result (to result in)", example: { de: "Das Ergebnis der Umfrage ist eindeutig.", en: "The result of the survey is clear." } }
         ]
       },
       {
@@ -212,7 +217,8 @@ export const lessonsB2Grammar1: Record<string, Lesson> = {
           { word: "wegen + Genitiv → weil + Nebensatz", phonetic: "vay-gen → vayl", meaning: "because of → because", example: { de: "Wegen des Regens → Weil es regnet", en: "Because of the rain → Because it rains" } },
           { word: "trotz + Genitiv → obwohl + Nebensatz", phonetic: "trots → ob-vohl", meaning: "despite → although", example: { de: "Trotz des Erfolgs → Obwohl er Erfolg hatte", en: "Despite the success → Although he had success" } },
           { word: "während + Genitiv → während + Nebensatz", phonetic: "veh-rent", meaning: "during → while", example: { de: "Während des Studiums → Während er studierte", en: "During his studies → While he was studying" } },
-          { word: "nach + Dativ → nachdem + Nebensatz", phonetic: "nakh → nakh-dem", meaning: "after (noun) → after (clause)", example: { de: "Nach der Prüfung → Nachdem er die Prüfung bestanden hatte", en: "After the exam → After he had passed the exam" } }
+          { word: "nach + Dativ → nachdem + Nebensatz", phonetic: "nakh → nakh-dem", meaning: "after (noun) → after (clause)", example: { de: "Nach der Prüfung → Nachdem er die Prüfung bestanden hatte", en: "After the exam → After he had passed the exam" } },
+          { word: "mangels + Genitiv → da es fehlt an", phonetic: "man-gels", meaning: "for lack of → since there is a lack of", example: { de: "Mangels Beweisen → Da es an Beweisen mangelte", en: "For lack of evidence → Since there was a lack of evidence" } }
         ]
       },
       {
@@ -290,7 +296,8 @@ export const lessonsB2Grammar1: Record<string, Lesson> = {
           { word: "laut + Dativ", phonetic: "lowt", meaning: "according to", example: { de: "Laut der Polizei gebe es keine Verletzten.", en: "According to the police, there are no injuries." } },
           { word: "zufolge + Dativ", phonetic: "tsoo-fol-ge", meaning: "according to (postposition)", example: { de: "Berichten zufolge sei ein Erdbeben aufgetreten.", en: "According to reports, an earthquake has occurred." } },
           { word: "angeblich", phonetic: "an-geb-likh", meaning: "allegedly / reportedly", example: { de: "Er habe angeblich den Vertrag unterschrieben.", en: "He allegedly signed the contract." } },
-          { word: "behaupten", phonetic: "be-howp-ten", meaning: "to claim / to assert", example: { de: "Der Zeuge behauptet, er habe nichts gesehen.", en: "The witness claims he saw nothing." } }
+          { word: "behaupten", phonetic: "be-howp-ten", meaning: "to claim / to assert", example: { de: "Der Zeuge behauptet, er habe nichts gesehen.", en: "The witness claims he saw nothing." } },
+          { word: "dem Vernehmen nach", phonetic: "dem fer-nay-men nakh", meaning: "according to rumors / reportedly", example: { de: "Dem Vernehmen nach wird die Firma verkauft.", en: "Reportedly, the company is being sold." } }
         ]
       },
       {

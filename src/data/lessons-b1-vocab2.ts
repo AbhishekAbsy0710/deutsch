@@ -16,7 +16,10 @@ export const lessonsB1Vocab2: Record<string, Lesson> = {
           { word: "die Mülltrennung", phonetic: "mül-tren-oong", meaning: "waste separation/recycling", example: { de: "Mülltrennung ist in Deutschland Pflicht.", en: "Waste separation is mandatory in Germany." } },
           { word: "der Verbrauch", phonetic: "fer-browkh", meaning: "consumption / usage", example: { de: "Wir müssen den Energieverbrauch senken.", en: "We must reduce energy consumption." } },
           { word: "umweltfreundlich", phonetic: "oom-velt-froynt-likh", meaning: "environmentally friendly", example: { de: "Öffentliche Verkehrsmittel sind umweltfreundlicher.", en: "Public transport is more environmentally friendly." } },
-          { word: "das Recycling", phonetic: "ree-sy-kling", meaning: "recycling", example: { de: "Recycling spart Ressourcen.", en: "Recycling saves resources." } }
+          { word: "das Recycling", phonetic: "ree-sy-kling", meaning: "recycling", example: { de: "Recycling spart Ressourcen.", en: "Recycling saves resources." } },
+          { word: "die Umweltverschmutzung", phonetic: "oom-velt-fer-shmoot-tsoong", meaning: "pollution", example: { de: "Die Umweltverschmutzung nimmt zu.", en: "Pollution is increasing." } },
+          { word: "der Umweltschutz", phonetic: "oom-velt-shoots", meaning: "environmental protection", example: { de: "Umweltschutz ist wichtig.", en: "Environmental protection is important." } },
+          { word: "die globale Erwärmung", phonetic: "glo-bah-le er-vair-moong", meaning: "global warming", example: { de: "Die globale Erwärmung hat Folgen.", en: "Global warming has consequences." } }
         ]
       },
       {
@@ -46,7 +49,10 @@ export const lessonsB1Vocab2: Record<string, Lesson> = {
           { word: "das Gesetz", phonetic: "ge-zets", meaning: "law", example: { de: "Das Gesetz gilt für alle.", en: "The law applies to everyone." } },
           { word: "das Grundgesetz", phonetic: "groont-ge-zets", meaning: "constitution (Basic Law)", example: { de: "Das Grundgesetz schützt die Grundrechte.", en: "The Basic Law protects fundamental rights." } },
           { word: "die Gleichberechtigung", phonetic: "glykh-be-rekh-ti-goong", meaning: "equal rights / equality", example: { de: "Gleichberechtigung ist ein Grundrecht.", en: "Equality is a fundamental right." } },
-          { word: "ehrenamtlich", phonetic: "ay-ren-amt-likh", meaning: "voluntary / volunteer", example: { de: "Ich arbeite ehrenamtlich im Tierheim.", en: "I volunteer at the animal shelter." } }
+          { word: "ehrenamtlich", phonetic: "ay-ren-amt-likh", meaning: "voluntary / volunteer", example: { de: "Ich arbeite ehrenamtlich im Tierheim.", en: "I volunteer at the animal shelter." } },
+          { word: "der Bundeskanzler", phonetic: "boon-des-kants-ler", meaning: "Federal Chancellor", example: { de: "Der Bundeskanzler regiert das Land.", en: "The Chancellor governs the country." } },
+          { word: "der Bundestag", phonetic: "boon-des-tahk", meaning: "German parliament", example: { de: "Der Bundestag sitzt in Berlin.", en: "The Bundestag is seated in Berlin." } },
+          { word: "der Politiker", phonetic: "po-lee-ti-ker", meaning: "politician", example: { de: "Politiker treffen Entscheidungen.", en: "Politicians make decisions." } }
         ]
       },
       {
@@ -71,7 +77,10 @@ export const lessonsB1Vocab2: Record<string, Lesson> = {
           { word: "soziale Medien", phonetic: "zo-tsee-ah-le may-dee-en", meaning: "social media", example: { de: "Soziale Medien können süchtig machen.", en: "Social media can be addictive." } },
           { word: "der Datenschutz", phonetic: "dah-ten-shoots", meaning: "data protection / privacy", example: { de: "Datenschutz ist in Europa sehr wichtig.", en: "Data protection is very important in Europe." } },
           { word: "die Quelle", phonetic: "kvel-le", meaning: "source", example: { de: "Überprüfe immer die Quelle!", en: "Always check the source!" } },
-          { word: "der Beitrag / der Post", phonetic: "by-trahk", meaning: "post / contribution", example: { de: "Sein Beitrag hat viele Likes bekommen.", en: "His post got many likes." } }
+          { word: "der Beitrag / der Post", phonetic: "by-trahk", meaning: "post / contribution", example: { de: "Sein Beitrag hat viele Likes bekommen.", en: "His post got many likes." } },
+          { word: "recherchieren", phonetic: "re-sher-shee-ren", meaning: "to research", example: { de: "Ich muss für das Projekt recherchieren.", en: "I need to research for the project." } },
+          { word: "glaubwürdig", phonetic: "glowp-vür-dikh", meaning: "credible", example: { de: "Ist diese Nachricht glaubwürdig?", en: "Is this news credible?" } },
+          { word: "manipulieren", phonetic: "ma-ni-poo-lee-ren", meaning: "to manipulate", example: { de: "Bilder können leicht manipuliert werden.", en: "Images can be easily manipulated." } }
         ]
       },
       {
@@ -99,7 +108,10 @@ export const lessonsB1Vocab2: Record<string, Lesson> = {
           { word: "die Garantie", phonetic: "ga-ran-tee", meaning: "warranty / guarantee", example: { de: "Das Gerät hat zwei Jahre Garantie.", en: "The device has a two-year warranty." } },
           { word: "die Rückgabe", phonetic: "rük-gah-be", meaning: "return (of product)", example: { de: "Die Rückgabe ist innerhalb von 14 Tagen möglich.", en: "Returns are possible within 14 days." } },
           { word: "der Kassenbon", phonetic: "kas-sen-bon", meaning: "receipt", example: { de: "Haben Sie den Kassenbon noch?", en: "Do you still have the receipt?" } },
-          { word: "mangelhaft / defekt", phonetic: "mang-el-haft", meaning: "faulty / defective", example: { de: "Das Produkt ist mangelhaft.", en: "The product is faulty." } }
+          { word: "mangelhaft / defekt", phonetic: "mang-el-haft", meaning: "faulty / defective", example: { de: "Das Produkt ist mangelhaft.", en: "The product is faulty." } },
+          { word: "die Quittung", phonetic: "kvit-toong", meaning: "receipt", example: { de: "Ich brauche eine Quittung für die Steuer.", en: "I need a receipt for taxes." } },
+          { word: "die Verbraucherzentrale", phonetic: "fer-brow-kher-tsen-trah-le", meaning: "consumer advice center", example: { de: "Die Verbraucherzentrale hilft bei Problemen.", en: "The consumer advice center helps with problems." } },
+          { word: "beschädigt", phonetic: "be-shay-dikht", meaning: "damaged", example: { de: "Das Paket war beschädigt.", en: "The package was damaged." } }
         ]
       },
       {
@@ -126,7 +138,11 @@ export const lessonsB1Vocab2: Record<string, Lesson> = {
           { word: "eifersüchtig", phonetic: "y-fer-züch-tikh", meaning: "jealous", example: { de: "Er ist eifersüchtig.", en: "He is jealous." } },
           { word: "vertrauen (+ Dat)", phonetic: "fer-trow-en", meaning: "to trust", example: { de: "Ich vertraue dir.", en: "I trust you." } },
           { word: "enttäuscht", phonetic: "ent-toysht", meaning: "disappointed", example: { de: "Ich bin von dir enttäuscht.", en: "I'm disappointed in you." } },
-          { word: "sich scheiden lassen", phonetic: "shy-den", meaning: "to get divorced", example: { de: "Sie haben sich scheiden lassen.", en: "They got divorced." } }
+          { word: "sich scheiden lassen", phonetic: "shy-den", meaning: "to get divorced", example: { de: "Sie haben sich scheiden lassen.", en: "They got divorced." } },
+          { word: "die Liebe", phonetic: "lee-be", meaning: "love", example: { de: "Liebe ist das Wichtigste.", en: "Love is the most important thing." } },
+          { word: "verliebt sein", phonetic: "fer-leept zyn", meaning: "to be in love", example: { de: "Ich bin in dich verliebt.", en: "I am in love with you." } },
+          { word: "vermissen", phonetic: "fer-mis-sen", meaning: "to miss", example: { de: "Ich vermisse meine Familie.", en: "I miss my family." } },
+          { word: "der Kompromiss", phonetic: "kom-pro-mis", meaning: "compromise", example: { de: "Wir müssen einen Kompromiss finden.", en: "We have to find a compromise." } }
         ]
       },
       {
@@ -156,7 +172,10 @@ export const lessonsB1Vocab2: Record<string, Lesson> = {
           { word: "die Identität", phonetic: "i-den-ti-tayt", meaning: "identity", example: { de: "Sprache ist Teil der Identität.", en: "Language is part of identity." } },
           { word: "die Tradition", phonetic: "tra-di-tsee-ohn", meaning: "tradition", example: { de: "Wir pflegen unsere Traditionen.", en: "We maintain our traditions." } },
           { word: "die Vielfalt", phonetic: "feel-falt", meaning: "diversity", example: { de: "Vielfalt macht uns stärker.", en: "Diversity makes us stronger." } },
-          { word: "der Integrationskurs", phonetic: "in-te-gra-tsee-ohns-koors", meaning: "integration course", example: { de: "Der Integrationskurs dauert 600 Stunden.", en: "The integration course lasts 600 hours." } }
+          { word: "der Integrationskurs", phonetic: "in-te-gra-tsee-ohns-koors", meaning: "integration course", example: { de: "Der Integrationskurs dauert 600 Stunden.", en: "The integration course lasts 600 hours." } },
+          { word: "die Staatsbürgerschaft", phonetic: "shtaats-bür-ger-shaft", meaning: "citizenship", example: { de: "Ich habe die deutsche Staatsbürgerschaft.", en: "I have German citizenship." } },
+          { word: "die Toleranz", phonetic: "to-le-rants", meaning: "tolerance", example: { de: "Toleranz ist in einer Gesellschaft wichtig.", en: "Tolerance is important in a society." } },
+          { word: "sich anpassen", phonetic: "zikh an-pas-sen", meaning: "to adapt", example: { de: "Man muss sich anpassen.", en: "One must adapt." } }
         ]
       },
       {
@@ -193,7 +212,10 @@ export const lessonsB1Vocab2: Record<string, Lesson> = {
           { word: "die Infrastruktur", phonetic: "in-fra-strook-toor", meaning: "infrastructure", example: { de: "Die Infrastruktur auf dem Land ist schlechter.", en: "Infrastructure in the countryside is worse." } },
           { word: "die Anonymität", phonetic: "a-no-nü-mi-tayt", meaning: "anonymity", example: { de: "In der Stadt hat man mehr Anonymität.", en: "In the city you have more anonymity." } },
           { word: "die Lebensqualität", phonetic: "lay-bens-kva-li-tayt", meaning: "quality of life", example: { de: "Die Lebensqualität ist auf dem Land höher.", en: "Quality of life is higher in the countryside." } },
-          { word: "der Pendelverkehr", phonetic: "pen-del-fer-kair", meaning: "commuter traffic", example: { de: "Der Pendelverkehr ist stressig.", en: "Commuting is stressful." } }
+          { word: "der Pendelverkehr", phonetic: "pen-del-fer-kair", meaning: "commuter traffic", example: { de: "Der Pendelverkehr ist stressig.", en: "Commuting is stressful." } },
+          { word: "die Luftverschmutzung", phonetic: "looft-fer-shmoot-tsoong", meaning: "air pollution", example: { de: "In der Stadt gibt es mehr Luftverschmutzung.", en: "There is more air pollution in the city." } },
+          { word: "die Natur", phonetic: "na-toor", meaning: "nature", example: { de: "Ich liebe die Natur.", en: "I love nature." } },
+          { word: "das Verkehrsnetz", phonetic: "fer-kairs-nets", meaning: "transport network", example: { de: "Das Verkehrsnetz ist hier sehr gut.", en: "The transport network is very good here." } }
         ]
       }
     ]
@@ -211,7 +233,9 @@ export const lessonsB1Vocab2: Record<string, Lesson> = {
           { word: "das Bundesland (pl. Bundesländer)", phonetic: "boon-des-lant", meaning: "federal state", example: { de: "Deutschland hat 16 Bundesländer.", en: "Germany has 16 federal states." } },
           { word: "der Feiertag", phonetic: "fy-er-tahk", meaning: "public holiday", example: { de: "Weihnachten ist ein Feiertag.", en: "Christmas is a public holiday." } },
           { word: "die Hauptstadt", phonetic: "howpt-shtat", meaning: "capital city", example: { de: "Berlin ist die Hauptstadt Deutschlands.", en: "Berlin is the capital of Germany." } },
-          { word: "der Tag der Deutschen Einheit", phonetic: "tahk dair doyt-shen ayn-hyt", meaning: "German Unity Day (Oct 3)", example: { de: "Am 3. Oktober feiert man den Tag der Deutschen Einheit.", en: "On October 3rd, German Unity Day is celebrated." } }
+          { word: "der Tag der Deutschen Einheit", phonetic: "tahk dair doyt-shen ayn-hyt", meaning: "German Unity Day (Oct 3)", example: { de: "Am 3. Oktober feiert man den Tag der Deutschen Einheit.", en: "On October 3rd, German Unity Day is celebrated." } },
+          { word: "die Europäische Union", phonetic: "oy-ro-pay-i-she oo-nee-ohn", meaning: "European Union", example: { de: "Deutschland ist Teil der Europäischen Union.", en: "Germany is part of the European Union." } },
+          { word: "das Wahrzeichen", phonetic: "vahr-tsy-khen", meaning: "landmark", example: { de: "Das Brandenburger Tor ist das Wahrzeichen Berlins.", en: "The Brandenburg Gate is the landmark of Berlin." } }
         ]
       },
       {

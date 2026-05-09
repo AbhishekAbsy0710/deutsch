@@ -128,7 +128,11 @@ export const lessonsB1Final: Record<string, Lesson> = {
           { word: "die Fabrik", phonetic: "fa-breek", meaning: "factory (NOT 'fabric'!)", example: { de: "Er arbeitet in einer Fabrik. (= factory)", en: "Fabric = Stoff" } },
           { word: "eventuell", phonetic: "eh-ven-too-el", meaning: "possibly, perhaps (NOT 'eventually'!)", example: { de: "Eventuell komme ich morgen. (= Maybe I'll come)", en: "Eventually = schließlich" } },
           { word: "sensibel", phonetic: "zen-zee-bel", meaning: "sensitive (NOT 'sensible'!)", example: { de: "Sie ist sehr sensibel. (= She's very sensitive)", en: "Sensible = vernünftig" } },
-          { word: "die Rente", phonetic: "ren-te", meaning: "pension (NOT 'rent'!)", example: { de: "Er geht in Rente. (= He's retiring)", en: "Rent = Miete" } }
+          { word: "die Rente", phonetic: "ren-te", meaning: "pension (NOT 'rent'!)", example: { de: "Er geht in Rente. (= He's retiring)", en: "Rent = Miete" } },
+          { word: "das Gymnasium", phonetic: "güm-nah-zee-oom", meaning: "grammar school / high school (NOT 'gym'!)", example: { de: "Er geht aufs Gymnasium.", en: "Gym = das Fitnessstudio" } },
+          { word: "die Art", phonetic: "ahrt", meaning: "type / kind (NOT 'art'!)", example: { de: "Das ist eine andere Art von Film.", en: "Art = die Kunst" } },
+          { word: "der See", phonetic: "zay", meaning: "lake (NOT 'sea'!)", example: { de: "Wir schwimmen im See.", en: "Sea = das Meer" } },
+          { word: "brav", phonetic: "brahf", meaning: "well-behaved / good (NOT 'brave'!)", example: { de: "Der Hund ist sehr brav.", en: "Brave = mutig" } }
         ]
       },
       {
@@ -449,7 +453,10 @@ export const lessonsB1Final: Record<string, Lesson> = {
           { word: "großzügig / geizig", phonetic: "grohs-tsü-gikh / gy-tsikh", meaning: "generous / stingy", example: { de: "Er ist sehr großzügig mit seinem Geld.", en: "He is very generous with his money." } },
           { word: "selbstbewusst / schüchtern", phonetic: "zelpst-be-voost / shükh-tern", meaning: "confident / shy", example: { de: "Sie wirkt selbstbewusst, ist aber eigentlich schüchtern.", en: "She seems confident, but is actually shy." } },
           { word: "verantwortungsvoll", phonetic: "fer-ant-vor-toongs-fol", meaning: "responsible", example: { de: "Ein guter Mitarbeiter ist verantwortungsvoll.", en: "A good employee is responsible." } },
-          { word: "neugierig / aufgeschlossen", phonetic: "noy-gee-rikh", meaning: "curious / open-minded", example: { de: "Sie ist neugierig und aufgeschlossen gegenüber neuen Kulturen.", en: "She's curious and open-minded towards new cultures." } }
+          { word: "neugierig / aufgeschlossen", phonetic: "noy-gee-rikh", meaning: "curious / open-minded", example: { de: "Sie ist neugierig und aufgeschlossen gegenüber neuen Kulturen.", en: "She's curious and open-minded towards new cultures." } },
+          { word: "humorvoll / ernst", phonetic: "hoo-mohr-fol / ernst", meaning: "humorous / serious", example: { de: "Er ist sehr humorvoll und macht oft Witze.", en: "He is very humorous and often makes jokes." } },
+          { word: "sympathisch / unsympathisch", phonetic: "züm-pah-tish", meaning: "likeable / unlikeable", example: { de: "Ich finde sie sehr sympathisch.", en: "I find her very likeable." } },
+          { word: "arrogant / bescheiden", phonetic: "a-ro-gant / be-shy-den", meaning: "arrogant / modest", example: { de: "Er ist erfolgreich, aber sehr bescheiden.", en: "He is successful but very modest." } }
         ]
       },
       {
@@ -578,7 +585,10 @@ export const lessonsB1Final: Record<string, Lesson> = {
           { word: "Keine Ahnung!", phonetic: "ky-ne ah-noong", meaning: "No idea! / I have no clue!", example: { de: "Wo ist der Bahnhof? — Keine Ahnung!", en: "Where's the train station? — No idea!" } },
           { word: "Es lohnt sich.", phonetic: "es lohnt zikh", meaning: "It's worth it.", example: { de: "Der Film ist lang, aber es lohnt sich.", en: "The film is long, but it's worth it." } },
           { word: "Ich bin dran. / Du bist dran.", phonetic: "ikh bin drahn", meaning: "It's my turn. / It's your turn.", example: { de: "Wer ist dran? — Du bist dran!", en: "Whose turn is it? — It's your turn!" } },
-          { word: "Das kommt darauf an.", phonetic: "das komt da-rowf ahn", meaning: "It depends.", example: { de: "Ist das teuer? — Das kommt darauf an.", en: "Is it expensive? — It depends." } }
+          { word: "Das kommt darauf an.", phonetic: "das komt da-rowf ahn", meaning: "It depends.", example: { de: "Ist das teuer? — Das kommt darauf an.", en: "Is it expensive? — It depends." } },
+          { word: "Hals- und Beinbruch!", phonetic: "hals oont byn-brookh", meaning: "Break a leg! / Good luck!", example: { de: "Für die Prüfung morgen: Hals- und Beinbruch!", en: "For the exam tomorrow: break a leg!" } },
+          { word: "Ich verstehe nur Bahnhof.", phonetic: "ikh fer-shtay-e noor bahn-hohf", meaning: "It's all Greek to me. / I don't understand anything.", example: { de: "Bei dieser Aufgabe verstehe ich nur Bahnhof.", en: "With this task, I don't understand anything." } },
+          { word: "Tomaten auf den Augen haben", phonetic: "to-mah-ten owf dayn ow-gen hah-ben", meaning: "To be blind to something obvious.", example: { de: "Ich habe den Schlüssel nicht gesehen. Ich hatte wohl Tomaten auf den Augen.", en: "I didn't see the key. I must have had tomatoes on my eyes." } }
         ]
       },
       {

@@ -16,7 +16,9 @@ export const lessonsB2Vocab2: Record<string, Lesson> = {
           { word: "die Work-Life-Balance", phonetic: "vörk-layf-ba-lans", meaning: "work-life balance", example: { de: "Eine gute Work-Life-Balance ist entscheidend.", en: "A good work-life balance is crucial." } },
           { word: "die Belastbarkeit", phonetic: "be-last-bar-kyt", meaning: "resilience / stress tolerance", example: { de: "Belastbarkeit ist eine wichtige Eigenschaft.", en: "Resilience is an important quality." } },
           { word: "die Sucht", phonetic: "zookht", meaning: "addiction", example: { de: "Smartphone-Sucht betrifft viele Jugendliche.", en: "Smartphone addiction affects many young people." } },
-          { word: "die Prävention", phonetic: "pre-ven-tsee-ohn", meaning: "prevention", example: { de: "Prävention ist besser als Behandlung.", en: "Prevention is better than treatment." } }
+          { word: "die Prävention", phonetic: "pre-ven-tsee-ohn", meaning: "prevention", example: { de: "Prävention ist besser als Behandlung.", en: "Prevention is better than treatment." } },
+          { word: "das Symptom", phonetic: "zümp-tohm", meaning: "symptom", example: { de: "Müdigkeit ist ein häufiges Symptom.", en: "Fatigue is a common symptom." } },
+          { word: "erschöpft", phonetic: "er-shöpft", meaning: "exhausted", example: { de: "Nach der Arbeit bin ich oft völlig erschöpft.", en: "After work, I am often completely exhausted." } }
         ]
       },
       {
@@ -43,7 +45,9 @@ export const lessonsB2Vocab2: Record<string, Lesson> = {
           { word: "die Filmkritik", phonetic: "film-kri-tik", meaning: "film review / film criticism", example: { de: "Die Filmkritik war überwiegend positiv.", en: "The film reviews were predominantly positive." } },
           { word: "das Kulturerbe", phonetic: "kool-toor-er-be", meaning: "cultural heritage", example: { de: "Das Kulturerbe muss bewahrt werden.", en: "Cultural heritage must be preserved." } },
           { word: "die Inszenierung", phonetic: "in-tse-nee-roong", meaning: "staging / production", example: { de: "Die Inszenierung von Faust war modern.", en: "The staging of Faust was modern." } },
-          { word: "fesseln", phonetic: "fes-seln", meaning: "to captivate / grip", example: { de: "Der Film hat mich von Anfang an gefesselt.", en: "The film captivated me from the beginning." } }
+          { word: "fesseln", phonetic: "fes-seln", meaning: "to captivate / grip", example: { de: "Der Film hat mich von Anfang an gefesselt.", en: "The film captivated me from the beginning." } },
+          { word: "der Protagonist", phonetic: "pro-ta-go-nist", meaning: "protagonist", example: { de: "Der Protagonist des Romans ist ein Arzt.", en: "The protagonist of the novel is a doctor." } },
+          { word: "die Spannung", phonetic: "shpan-noong", meaning: "suspense / tension", example: { de: "Die Spannung im Film war kaum zu ertragen.", en: "The suspense in the film was almost unbearable." } }
         ]
       },
       {
@@ -78,7 +82,9 @@ export const lessonsB2Vocab2: Record<string, Lesson> = {
           { word: "die Nachkriegszeit", phonetic: "nakh-kreegs-tsayt", meaning: "post-war period", example: { de: "In der Nachkriegszeit wurde Deutschland geteilt.", en: "In the post-war period, Germany was divided." } },
           { word: "der Kalte Krieg", phonetic: "kal-te kreek", meaning: "the Cold War", example: { de: "Berlin war ein Symbol des Kalten Krieges.", en: "Berlin was a symbol of the Cold War." } },
           { word: "der Mauerfall", phonetic: "mow-er-fal", meaning: "fall of the Wall", example: { de: "Der Mauerfall veränderte Europa.", en: "The fall of the Wall changed Europe." } },
-          { word: "die Europäische Union (EU)", phonetic: "oy-ro-peh-i-she oo-nee-ohn", meaning: "European Union", example: { de: "Deutschland ist Gründungsmitglied der EU.", en: "Germany is a founding member of the EU." } }
+          { word: "die Europäische Union (EU)", phonetic: "oy-ro-peh-i-she oo-nee-ohn", meaning: "European Union", example: { de: "Deutschland ist Gründungsmitglied der EU.", en: "Germany is a founding member of the EU." } },
+          { word: "der Eiserne Vorhang", phonetic: "ay-zer-ne for-hang", meaning: "the Iron Curtain", example: { de: "Der Eiserne Vorhang teilte Europa.", en: "The Iron Curtain divided Europe." } },
+          { word: "fliehen", phonetic: "flee-en", meaning: "to flee", example: { de: "Viele Menschen versuchten zu fliehen.", en: "Many people tried to flee." } }
         ]
       },
       {
@@ -104,7 +110,9 @@ export const lessonsB2Vocab2: Record<string, Lesson> = {
           { word: "die Elektromobilität", phonetic: "e-lek-tro-mo-bi-li-tet", meaning: "electric mobility / e-mobility", example: { de: "Die Elektromobilität wächst schnell.", en: "Electric mobility is growing rapidly." } },
           { word: "die Smart City", phonetic: "smart si-tee", meaning: "smart city", example: { de: "Smart Cities nutzen Technologie für Nachhaltigkeit.", en: "Smart cities use technology for sustainability." } },
           { word: "die Ressource", phonetic: "re-soor-se", meaning: "resource", example: { de: "Natürliche Ressourcen sind begrenzt.", en: "Natural resources are limited." } },
-          { word: "klimaneutral", phonetic: "klee-ma-noy-trahl", meaning: "climate neutral / carbon neutral", example: { de: "Deutschland will bis 2045 klimaneutral sein.", en: "Germany wants to be climate neutral by 2045." } }
+          { word: "klimaneutral", phonetic: "klee-ma-noy-trahl", meaning: "climate neutral / carbon neutral", example: { de: "Deutschland will bis 2045 klimaneutral sein.", en: "Germany wants to be climate neutral by 2045." } },
+          { word: "der Treibhauseffekt", phonetic: "tryp-hows-ef-fekt", meaning: "greenhouse effect", example: { de: "Der Treibhauseffekt erwärmt die Erde.", en: "The greenhouse effect warms the earth." } },
+          { word: "die Umweltverschmutzung", phonetic: "um-velt-fer-shmoot-soong", meaning: "environmental pollution", example: { de: "Die Umweltverschmutzung in den Meeren ist dramatisch.", en: "Environmental pollution in the oceans is dramatic." } }
         ]
       },
       {
@@ -129,7 +137,9 @@ export const lessonsB2Vocab2: Record<string, Lesson> = {
           { word: "die Überwachung", phonetic: "ü-ber-va-khoong", meaning: "surveillance / monitoring", example: { de: "Staatliche Überwachung ist umstritten.", en: "Government surveillance is controversial." } },
           { word: "der gläserne Bürger", phonetic: "gleh-zer-ne bür-ger", meaning: "transparent citizen (privacy metaphor)", example: { de: "Wird der gläserne Bürger Realität?", en: "Is the transparent citizen becoming reality?" } },
           { word: "die Verschlüsselung", phonetic: "fer-shlü-se-loong", meaning: "encryption", example: { de: "Ende-zu-Ende-Verschlüsselung schützt Nachrichten.", en: "End-to-end encryption protects messages." } },
-          { word: "das autonome Fahren", phonetic: "ow-to-noh-me fah-ren", meaning: "autonomous driving", example: { de: "Autonomes Fahren wird die Mobilität verändern.", en: "Autonomous driving will change mobility." } }
+          { word: "das autonome Fahren", phonetic: "ow-to-noh-me fah-ren", meaning: "autonomous driving", example: { de: "Autonomes Fahren wird die Mobilität verändern.", en: "Autonomous driving will change mobility." } },
+          { word: "die Cyberkriminalität", phonetic: "sy-ber-kri-mi-na-li-tet", meaning: "cybercrime", example: { de: "Die Cyberkriminalität verursacht Milliardenkosten.", en: "Cybercrime causes billions in costs." } },
+          { word: "hacken", phonetic: "ha-ken", meaning: "to hack", example: { de: "Sein Konto wurde gehackt.", en: "His account was hacked." } }
         ]
       },
       {
@@ -156,7 +166,9 @@ export const lessonsB2Vocab2: Record<string, Lesson> = {
           { word: "die Berichterstattung", phonetic: "be-rikht-er-shta-toong", meaning: "reporting / media coverage", example: { de: "Die Berichterstattung war objektiv.", en: "The reporting was objective." } },
           { word: "der öffentliche Diskurs", phonetic: "öf-fent-li-khe dis-koors", meaning: "public discourse", example: { de: "Der öffentliche Diskurs wird immer polarisierter.", en: "Public discourse is becoming increasingly polarized." } },
           { word: "die Zensur", phonetic: "tsen-zoor", meaning: "censorship", example: { de: "Zensur widerspricht demokratischen Grundsätzen.", en: "Censorship contradicts democratic principles." } },
-          { word: "die Meinungsbildung", phonetic: "my-noonks-bil-doong", meaning: "opinion formation", example: { de: "Medien spielen eine zentrale Rolle bei der Meinungsbildung.", en: "Media play a central role in opinion formation." } }
+          { word: "die Meinungsbildung", phonetic: "my-noonks-bil-doong", meaning: "opinion formation", example: { de: "Medien spielen eine zentrale Rolle bei der Meinungsbildung.", en: "Media play a central role in opinion formation." } },
+          { word: "die Auflage", phonetic: "owf-la-ge", meaning: "circulation (of a newspaper) / edition", example: { de: "Die Zeitung hat eine hohe Auflage.", en: "The newspaper has a high circulation." } },
+          { word: "die Glaubwürdigkeit", phonetic: "glowp-vür-dikh-kyt", meaning: "credibility", example: { de: "Die Glaubwürdigkeit der Presse steht auf dem Spiel.", en: "The credibility of the press is at stake." } }
         ]
       },
       {
@@ -181,7 +193,9 @@ export const lessonsB2Vocab2: Record<string, Lesson> = {
           { word: "der Föderalismus", phonetic: "fö-de-ra-lis-mus", meaning: "federalism", example: { de: "Deutschland ist ein föderaler Staat mit 16 Bundesländern.", en: "Germany is a federal state with 16 states." } },
           { word: "das Grundgesetz", phonetic: "groont-ge-zets", meaning: "Basic Law (German constitution)", example: { de: "Das Grundgesetz garantiert die Menschenwürde.", en: "The Basic Law guarantees human dignity." } },
           { word: "die Menschenrechte (Pl.)", phonetic: "men-shen-rekh-te", meaning: "human rights", example: { de: "Menschenrechte sind universell gültig.", en: "Human rights are universally valid." } },
-          { word: "der Sozialstaat", phonetic: "zo-tsee-ahl-shtaht", meaning: "welfare state", example: { de: "Deutschland versteht sich als Sozialstaat.", en: "Germany considers itself a welfare state." } }
+          { word: "der Sozialstaat", phonetic: "zo-tsee-ahl-shtaht", meaning: "welfare state", example: { de: "Deutschland versteht sich als Sozialstaat.", en: "Germany considers itself a welfare state." } },
+          { word: "die Verfassung", phonetic: "fer-fas-soong", meaning: "constitution", example: { de: "Das Grundgesetz ist die deutsche Verfassung.", en: "The Basic Law is the German constitution." } },
+          { word: "das Abkommen", phonetic: "ap-ko-men", meaning: "agreement / treaty", example: { de: "Das Pariser Abkommen ist historisch.", en: "The Paris Agreement is historic." } }
         ]
       },
       {
@@ -205,7 +219,9 @@ export const lessonsB2Vocab2: Record<string, Lesson> = {
           { word: "die Organspende", phonetic: "or-gan-shpen-de", meaning: "organ donation", example: { de: "Die Debatte um die Organspende ist ethisch komplex.", en: "The debate about organ donation is ethically complex." } },
           { word: "die Impfpflicht", phonetic: "impf-pflikht", meaning: "mandatory vaccination", example: { de: "Soll es eine Impfpflicht geben?", en: "Should there be mandatory vaccination?" } },
           { word: "die Rehabilitation", phonetic: "re-ha-bi-li-ta-tsee-ohn", meaning: "rehabilitation", example: { de: "Nach der Operation braucht er Rehabilitation.", en: "After the surgery, he needs rehabilitation." } },
-          { word: "die Alternativmedizin", phonetic: "al-ter-na-teev-me-di-tseen", meaning: "alternative medicine", example: { de: "Alternativmedizin wird kontrovers diskutiert.", en: "Alternative medicine is controversially discussed." } }
+          { word: "die Alternativmedizin", phonetic: "al-ter-na-teev-me-di-tseen", meaning: "alternative medicine", example: { de: "Alternativmedizin wird kontrovers diskutiert.", en: "Alternative medicine is controversially discussed." } },
+          { word: "das Pflegepersonal", phonetic: "pfley-ge-per-zo-nahl", meaning: "nursing staff", example: { de: "Es gibt einen Mangel an Pflegepersonal.", en: "There is a shortage of nursing staff." } },
+          { word: "die Beitragserhöhung", phonetic: "by-trahks-er-hö-oong", meaning: "premium increase", example: { de: "Die Krankenkasse kündigte eine Beitragserhöhung an.", en: "The health insurance announced a premium increase." } }
         ]
       },
       {
@@ -230,7 +246,9 @@ export const lessonsB2Vocab2: Record<string, Lesson> = {
           { word: "die Zivilgesellschaft", phonetic: "tsee-veel-ge-zel-shaft", meaning: "civil society", example: { de: "Die Zivilgesellschaft spielt eine wichtige Rolle.", en: "Civil society plays an important role." } },
           { word: "die Solidarität", phonetic: "zo-li-da-ri-tet", meaning: "solidarity", example: { de: "Solidarität ist in Krisenzeiten besonders wichtig.", en: "Solidarity is especially important in times of crisis." } },
           { word: "die Verantwortung", phonetic: "fer-ant-vor-toong", meaning: "responsibility", example: { de: "Wir tragen die Verantwortung für künftige Generationen.", en: "We bear responsibility for future generations." } },
-          { word: "das Engagement", phonetic: "ang-ga-zhe-mon", meaning: "commitment / engagement", example: { de: "Politisches Engagement ist unverzichtbar.", en: "Political engagement is indispensable." } }
+          { word: "das Engagement", phonetic: "ang-ga-zhe-mon", meaning: "commitment / engagement", example: { de: "Politisches Engagement ist unverzichtbar.", en: "Political engagement is indispensable." } },
+          { word: "die Aufgeschlossenheit", phonetic: "owf-ge-shlos-sen-hyt", meaning: "open-mindedness", example: { de: "Aufgeschlossenheit gegenüber anderen Kulturen ist wichtig.", en: "Open-mindedness towards other cultures is important." } },
+          { word: "das Bewusstsein", phonetic: "be-voost-zayn", meaning: "awareness / consciousness", example: { de: "Das Umweltbewusstsein ist gestiegen.", en: "Environmental awareness has increased." } }
         ]
       },
       {
@@ -255,7 +273,9 @@ export const lessonsB2Vocab2: Record<string, Lesson> = {
           { word: "die Sensationsberichterstattung", phonetic: "zen-za-tsee-ohns-be-rikht-er-shta-toong", meaning: "sensationalist reporting", example: { de: "Sensationsberichterstattung schadet dem Vertrauen.", en: "Sensationalist reporting damages trust." } },
           { word: "die Objektivität", phonetic: "ob-yek-ti-vi-tet", meaning: "objectivity", example: { de: "Objektivität ist ein journalistisches Ideal.", en: "Objectivity is a journalistic ideal." } },
           { word: "die Meinungsmache", phonetic: "my-noonks-ma-khe", meaning: "opinion manipulation", example: { de: "Meinungsmache durch Algorithmen ist ein Problem.", en: "Opinion manipulation through algorithms is a problem." } },
-          { word: "der Whistleblower", phonetic: "vis-sel-blo-er", meaning: "whistleblower", example: { de: "Whistleblower verdienen rechtlichen Schutz.", en: "Whistleblowers deserve legal protection." } }
+          { word: "der Whistleblower", phonetic: "vis-sel-blo-er", meaning: "whistleblower", example: { de: "Whistleblower verdienen rechtlichen Schutz.", en: "Whistleblowers deserve legal protection." } },
+          { word: "die Informationsflut", phonetic: "in-for-ma-tsee-ohns-floot", meaning: "information overload", example: { de: "Viele fühlen sich von der Informationsflut überfordert.", en: "Many feel overwhelmed by the information overload." } },
+          { word: "die Schlagzeile", phonetic: "shlahk-tsy-le", meaning: "headline", example: { de: "Der Skandal beherrschte die Schlagzeilen.", en: "The scandal dominated the headlines." } }
         ]
       },
       {

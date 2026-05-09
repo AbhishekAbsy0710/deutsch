@@ -22,7 +22,9 @@ export const lessonsB1Grammar2: Record<string, Lesson> = {
         cards: [
           { word: "nachdem", phonetic: "nakh-daim", meaning: "after (+ tense shift!)", example: { de: "Nachdem sie gefrühstückt hatte, fuhr sie los.", en: "After she had breakfast, she left." } },
           { word: "bevor / ehe", phonetic: "be-for / ay-e", meaning: "before", example: { de: "Bevor du gehst, ruf mich an.", en: "Before you leave, call me." } },
-          { word: "während", phonetic: "vay-rent", meaning: "while / during", example: { de: "Während ich arbeite, darf niemand stören.", en: "While I work, nobody may disturb." } }
+          { word: "während", phonetic: "vay-rent", meaning: "while / during", example: { de: "Während ich arbeite, darf niemand stören.", en: "While I work, nobody may disturb." } },
+          { word: "als", phonetic: "als", meaning: "when (single event in past)", example: { de: "Als ich jung war, spielte ich Fußball.", en: "When I was young, I played soccer." } },
+          { word: "wenn", phonetic: "ven", meaning: "when (present/future/repeated)", example: { de: "Immer wenn es regnet, bleibe ich zu Hause.", en: "Whenever it rains, I stay home." } }
         ]
       },
       {
@@ -56,7 +58,9 @@ export const lessonsB1Grammar2: Record<string, Lesson> = {
           { word: "seitdem / seit", phonetic: "zyt-daim", meaning: "since (time)", example: { de: "Seit ich ihn kenne, bin ich glücklich.", en: "Since I've known him, I'm happy." } },
           { word: "bis", phonetic: "bis", meaning: "until", example: { de: "Bleib hier, bis der Regen aufhört.", en: "Stay here until the rain stops." } },
           { word: "sobald", phonetic: "zo-balt", meaning: "as soon as", example: { de: "Sobald ich Zeit habe, rufe ich an.", en: "As soon as I have time, I'll call." } },
-          { word: "solange", phonetic: "zo-lang-e", meaning: "as long as", example: { de: "Solange du lernst, darfst du bleiben.", en: "As long as you study, you may stay." } }
+          { word: "solange", phonetic: "zo-lang-e", meaning: "as long as", example: { de: "Solange du lernst, darfst du bleiben.", en: "As long as you study, you may stay." } },
+          { word: "bis dass", phonetic: "bis das", meaning: "until that", example: { de: "Wir warten, bis dass er kommt.", en: "We are waiting until he comes." } },
+          { word: "solange bis", phonetic: "zo-lang-e bis", meaning: "until such time as", example: { de: "Ich warte, solange bis er sich entschuldigt.", en: "I am waiting until he apologizes." } }
         ]
       },
       {
@@ -82,6 +86,16 @@ export const lessonsB1Grammar2: Record<string, Lesson> = {
           { de: "Weil es regnete, blieben wir zu Hause.", en: "'weil' = because (neutral)" },
           { de: "Wir blieben zu Hause. Es regnete nämlich.", en: "'nämlich' goes INSIDE the main clause, after verb" },
           { de: "Es regnete. Deshalb blieben wir zu Hause.", en: "'deshalb' = therefore (main clause, verb position 2)" }
+        ]
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "da", phonetic: "da", meaning: "since (causal)", example: { de: "Da es regnet, bleiben wir zu Hause.", en: "Since it is raining, we are staying home." } },
+          { word: "weil", phonetic: "vyl", meaning: "because", example: { de: "Wir bleiben zu Hause, weil es regnet.", en: "We are staying home because it is raining." } },
+          { word: "nämlich", phonetic: "naim-likh", meaning: "namely / you see", example: { de: "Er kommt nicht, er ist nämlich krank.", en: "He isn't coming, he is sick you see." } },
+          { word: "deshalb / deswegen", phonetic: "des-halp", meaning: "therefore", example: { de: "Ich bin krank, deshalb komme ich nicht.", en: "I am sick, therefore I am not coming." } },
+          { word: "aus diesem Grund", phonetic: "ows dee-zem groont", meaning: "for this reason", example: { de: "Aus diesem Grund habe ich abgesagt.", en: "For this reason, I canceled." } }
         ]
       },
       {
@@ -120,6 +134,15 @@ export const lessonsB1Grammar2: Record<string, Lesson> = {
         ]
       },
       {
+        type: "flashcard",
+        cards: [
+          { word: "obwohl", phonetic: "op-vohl", meaning: "although", example: { de: "Obwohl er müde ist, arbeitet er.", en: "Although he is tired, he works." } },
+          { word: "trotzdem", phonetic: "trots-daim", meaning: "nevertheless", example: { de: "Er ist müde. Trotzdem arbeitet er.", en: "He is tired. Nevertheless he works." } },
+          { word: "dennoch", phonetic: "den-nokh", meaning: "yet / still", example: { de: "Das Auto ist alt, dennoch läuft es gut.", en: "The car is old, yet it runs well." } },
+          { word: "obgleich", phonetic: "op-glykh", meaning: "although (formal)", example: { de: "Obgleich es regnete, gingen wir.", en: "Although it rained, we went." } }
+        ]
+      },
+      {
         type: "quiz-fill",
         sentenceBefore: "",
         sentenceAfter: " ich krank bin, gehe ich zur Arbeit.",
@@ -150,7 +173,9 @@ export const lessonsB1Grammar2: Record<string, Lesson> = {
           { word: "wenn", phonetic: "ven", meaning: "if / whenever", example: { de: "Wenn du willst, können wir gehen.", en: "If you want, we can go." } },
           { word: "falls", phonetic: "fals", meaning: "in case / if (less likely)", example: { de: "Falls es Probleme gibt, ruf an.", en: "In case there are problems, call." } },
           { word: "sonst / andernfalls", phonetic: "zonst", meaning: "otherwise / or else", example: { de: "Lern Deutsch, sonst verstehst du nichts!", en: "Learn German, otherwise you won't understand anything!" } },
-          { word: "vorausgesetzt, dass", phonetic: "for-ows-ge-zetst", meaning: "provided that", example: { de: "Vorausgesetzt, dass du kommst, machen wir eine Party.", en: "Provided that you come, we'll have a party." } }
+          { word: "vorausgesetzt, dass", phonetic: "for-ows-ge-zetst", meaning: "provided that", example: { de: "Vorausgesetzt, dass du kommst, machen wir eine Party.", en: "Provided that you come, we'll have a party." } },
+          { word: "im Falle, dass", phonetic: "im fal-le das", meaning: "in the event that", example: { de: "Im Falle, dass es regnet, bleiben wir drinnen.", en: "In the event that it rains, we will stay indoors." } },
+          { word: "unter der Bedingung, dass", phonetic: "oon-ter dair be-ding-oong das", meaning: "on the condition that", example: { de: "Unter der Bedingung, dass du zahlst.", en: "On the condition that you pay." } }
         ]
       },
       {
@@ -183,6 +208,14 @@ export const lessonsB1Grammar2: Record<string, Lesson> = {
         ]
       },
       {
+        type: "flashcard",
+        cards: [
+          { word: "so... dass", phonetic: "zo... das", meaning: "so... that", example: { de: "Er war so müde, dass er einschlief.", en: "He was so tired that he fell asleep." } },
+          { word: "sodass", phonetic: "zo-das", meaning: "so that (consequence)", example: { de: "Es regnet, sodass wir bleiben.", en: "It is raining, so that we are staying." } },
+          { word: "dermaßen... dass", phonetic: "dair-mah-sen... das", meaning: "to such an extent... that", example: { de: "Er hat sich dermaßen aufgeregt, dass er weinte.", en: "He got upset to such an extent that he cried." } }
+        ]
+      },
+      {
         type: "quiz-fill",
         sentenceBefore: "Der Film war so langweilig, ",
         sentenceAfter: " ich eingeschlafen bin.",
@@ -205,6 +238,14 @@ export const lessonsB1Grammar2: Record<string, Lesson> = {
           { de: "Sie lernte, ohne Pausen zu machen.", en: "She studied without taking breaks." },
           { de: "Anstatt zu lernen, spielte er Videospiele.", en: "Instead of studying, he played video games." },
           { de: "Statt zu arbeiten, liegt er auf dem Sofa.", en: "Instead of working, he lies on the sofa." }
+        ]
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "ohne... zu", phonetic: "oh-ne... tsoo", meaning: "without... -ing", example: { de: "Er ging, ohne etwas zu sagen.", en: "He left without saying anything." } },
+          { word: "anstatt... zu", phonetic: "an-shtat... tsoo", meaning: "instead of... -ing", example: { de: "Anstatt zu schlafen, las er ein Buch.", en: "Instead of sleeping, he read a book." } },
+          { word: "ohne dass", phonetic: "oh-ne das", meaning: "without (different subject)", example: { de: "Sie ging, ohne dass er es sah.", en: "She left without him seeing it." } }
         ]
       },
       {
@@ -245,6 +286,16 @@ export const lessonsB1Grammar2: Record<string, Lesson> = {
           { de: "Sie hat nicht kommen können.", en: "She wasn't able to come." },
           { de: "Er hat gehen wollen.", en: "He wanted to go." },
           { de: "Wir haben das nicht sagen dürfen.", en: "We weren't allowed to say that." }
+        ]
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "hat... machen müssen", phonetic: "hat... ma-khen müs-sen", meaning: "had to do", example: { de: "Er hat gestern arbeiten müssen.", en: "He had to work yesterday." } },
+          { word: "hat... kommen können", phonetic: "hat... ko-men kön-nen", meaning: "could come", example: { de: "Sie hat leider nicht kommen können.", en: "She unfortunately couldn't come." } },
+          { word: "hat... gehen wollen", phonetic: "hat... gay-en vol-len", meaning: "wanted to go", example: { de: "Ich habe früh gehen wollen.", en: "I wanted to go early." } },
+          { word: "hat... sagen dürfen", phonetic: "hat... za-gen dür-fen", meaning: "was allowed to say", example: { de: "Er hat nichts sagen dürfen.", en: "He wasn't allowed to say anything." } },
+          { word: "hat... helfen sollen", phonetic: "hat... hel-fen zol-len", meaning: "was supposed to help", example: { de: "Ich habe ihm helfen sollen.", en: "I was supposed to help him." } }
         ]
       },
       {

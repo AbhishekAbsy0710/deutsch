@@ -28,7 +28,9 @@ export const lessonsB2Supplement: Record<string, Lesson> = {
           { word: "die Luftverschmutzung", phonetic: "luft-fer-shmoo-tsoong", meaning: "air pollution", example: { de: "Luftverschmutzung verursacht Atemwegserkrankungen.", en: "Air pollution causes respiratory diseases." } },
           { word: "das Ökosystem", phonetic: "ö-ko-züs-tem", meaning: "ecosystem", example: { de: "Ökosysteme sind empfindlich und vernetzt.", en: "Ecosystems are sensitive and interconnected." } },
           { word: "die Einwegverpackung", phonetic: "ayn-vek-fer-pa-koong", meaning: "single-use packaging", example: { de: "Einwegverpackungen sollen verboten werden.", en: "Single-use packaging should be banned." } },
-          { word: "biologisch abbaubar", phonetic: "bee-o-lo-gish ap-bow-bar", meaning: "biodegradable", example: { de: "Dieses Material ist biologisch abbaubar.", en: "This material is biodegradable." } }
+          { word: "biologisch abbaubar", phonetic: "bee-o-lo-gish ap-bow-bar", meaning: "biodegradable", example: { de: "Dieses Material ist biologisch abbaubar.", en: "This material is biodegradable." } },
+          { word: "das Recycling", phonetic: "re-sy-kling", meaning: "recycling", example: { de: "Recycling schont wertvolle Ressourcen.", en: "Recycling conserves valuable resources." } },
+          { word: "erneuerbar", phonetic: "er-noy-er-bar", meaning: "renewable", example: { de: "Erneuerbare Energien sind entscheidend.", en: "Renewable energies are crucial." } }
         ]
       },
       {
@@ -55,7 +57,9 @@ export const lessonsB2Supplement: Record<string, Lesson> = {
           { word: "der Bildungsabschluss", phonetic: "bil-doongs-ap-shloos", meaning: "educational qualification", example: { de: "Welchen Bildungsabschluss haben Sie?", en: "What educational qualification do you have?" } },
           { word: "die Chancengleichheit", phonetic: "shan-sen-glaykh-hyt", meaning: "equal opportunities", example: { de: "Chancengleichheit im Bildungssystem ist das Ziel.", en: "Equal opportunities in the education system is the goal." } },
           { word: "die Lehrplanreform", phonetic: "lair-plan-re-form", meaning: "curriculum reform", example: { de: "Die Lehrplanreform berücksichtigt digitale Kompetenzen.", en: "The curriculum reform takes digital skills into account." } },
-          { word: "das duale Ausbildungssystem", phonetic: "doo-ah-le ows-bil-doongs-züs-tem", meaning: "dual vocational training system", example: { de: "Das duale Ausbildungssystem ist ein Vorbild weltweit.", en: "The dual training system is a role model worldwide." } }
+          { word: "das duale Ausbildungssystem", phonetic: "doo-ah-le ows-bil-doongs-züs-tem", meaning: "dual vocational training system", example: { de: "Das duale Ausbildungssystem ist ein Vorbild weltweit.", en: "The dual training system is a role model worldwide." } },
+          { word: "das BAföG", phonetic: "bah-fög", meaning: "student financial aid (in Germany)", example: { de: "Viele Studenten bekommen BAföG.", en: "Many students receive BAföG." } },
+          { word: "die Nachhilfe", phonetic: "nakh-hil-fe", meaning: "tutoring", example: { de: "Er gibt Nachhilfe in Mathematik.", en: "He gives tutoring in math." } }
         ]
       },
       {
@@ -94,7 +98,9 @@ export const lessonsB2Supplement: Record<string, Lesson> = {
           { word: "die Empathie", phonetic: "em-pa-tee", meaning: "empathy", example: { de: "Empathie ist die Fähigkeit, sich in andere hineinzuversetzen.", en: "Empathy is the ability to put oneself in others' shoes." } },
           { word: "die Versöhnung", phonetic: "fer-zö-noong", meaning: "reconciliation", example: { de: "Nach dem Streit kam es zur Versöhnung.", en: "After the argument, there was reconciliation." } },
           { word: "sich verlieben in + Akk", phonetic: "zikh fer-lee-ben in", meaning: "to fall in love with", example: { de: "Sie hat sich in ihren Kollegen verliebt.", en: "She fell in love with her colleague." } },
-          { word: "einsam", phonetic: "ayn-zahm", meaning: "lonely", example: { de: "Trotz vieler Kontakte fühlt sie sich einsam.", en: "Despite many contacts, she feels lonely." } }
+          { word: "einsam", phonetic: "ayn-zahm", meaning: "lonely", example: { de: "Trotz vieler Kontakte fühlt sie sich einsam.", en: "Despite many contacts, she feels lonely." } },
+          { word: "das Mitgefühl", phonetic: "mit-ge-fühl", meaning: "compassion / sympathy", example: { de: "Er zeigte großes Mitgefühl.", en: "He showed great compassion." } },
+          { word: "die Hingabe", phonetic: "hin-gah-be", meaning: "devotion / dedication", example: { de: "Sie arbeitet mit großer Hingabe.", en: "She works with great dedication." } }
         ]
       },
       {
@@ -121,7 +127,9 @@ export const lessonsB2Supplement: Record<string, Lesson> = {
           { word: "die Wegwerfgesellschaft", phonetic: "vek-verf-ge-zel-shaft", meaning: "throwaway society", example: { de: "Wir leben in einer Wegwerfgesellschaft.", en: "We live in a throwaway society." } },
           { word: "der Markenname", phonetic: "mar-ken-nah-me", meaning: "brand name", example: { de: "Markennamen beeinflussen die Kaufentscheidung.", en: "Brand names influence the purchase decision." } },
           { word: "die Manipulation", phonetic: "ma-ni-poo-la-tsee-ohn", meaning: "manipulation", example: { de: "Werbung kann eine Form der Manipulation sein.", en: "Advertising can be a form of manipulation." } },
-          { word: "nachhaltig einkaufen", phonetic: "nakh-hal-tikh ayn-kow-fen", meaning: "to shop sustainably", example: { de: "Immer mehr Menschen versuchen, nachhaltig einzukaufen.", en: "More and more people try to shop sustainably." } }
+          { word: "nachhaltig einkaufen", phonetic: "nakh-hal-tikh ayn-kow-fen", meaning: "to shop sustainably", example: { de: "Immer mehr Menschen versuchen, nachhaltig einzukaufen.", en: "More and more people try to shop sustainably." } },
+          { word: "das Gütesiegel", phonetic: "gü-te-zee-gel", meaning: "seal of quality / certification mark", example: { de: "Achten Sie auf das ökologische Gütesiegel.", en: "Pay attention to the ecological certification mark." } },
+          { word: "der Boykott", phonetic: "boy-kot", meaning: "boycott", example: { de: "Die Verbraucher rufen zum Boykott auf.", en: "Consumers are calling for a boycott." } }
         ]
       },
       {
@@ -148,7 +156,9 @@ export const lessonsB2Supplement: Record<string, Lesson> = {
           { word: "das Carsharing", phonetic: "kar-sheh-ring", meaning: "car sharing", example: { de: "Carsharing ist in Großstädten sehr beliebt.", en: "Car sharing is very popular in major cities." } },
           { word: "die Verkehrswende", phonetic: "fer-kairs-ven-de", meaning: "transport transition", example: { de: "Die Verkehrswende erfordert massive Investitionen.", en: "The transport transition requires massive investments." } },
           { word: "der Stau", phonetic: "shtow", meaning: "traffic jam", example: { de: "Im Berufsverkehr gibt es oft stundenlangen Stau.", en: "During rush hour, there are often hours-long traffic jams." } },
-          { word: "die Radinfrastruktur", phonetic: "raht-in-fra-shtrook-toor", meaning: "cycling infrastructure", example: { de: "Kopenhagen hat eine vorbildliche Radinfrastruktur.", en: "Copenhagen has exemplary cycling infrastructure." } }
+          { word: "die Radinfrastruktur", phonetic: "raht-in-fra-shtrook-toor", meaning: "cycling infrastructure", example: { de: "Kopenhagen hat eine vorbildliche Radinfrastruktur.", en: "Copenhagen has exemplary cycling infrastructure." } },
+          { word: "der Ausbau", phonetic: "ows-bow", meaning: "expansion", example: { de: "Der Ausbau des Schienennetzes dauert zu lange.", en: "The expansion of the rail network is taking too long." } },
+          { word: "der Radweg", phonetic: "raht-vek", meaning: "bike lane", example: { de: "Wir brauchen sichere Radwege in der Stadt.", en: "We need safe bike lanes in the city." } }
         ]
       },
       {

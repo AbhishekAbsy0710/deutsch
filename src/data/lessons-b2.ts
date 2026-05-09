@@ -24,6 +24,8 @@ export const lessonsB2: Record<string, Lesson> = {
           { word: "ich hätte", phonetic: "ikh het-tuh", meaning: "I would have / if I had", example: { de: "Ich hätte Zeit.", en: "I would have time." } },
           { word: "ich würde", phonetic: "ikh vür-duh", meaning: "I would", example: { de: "Ich würde gehen.", en: "I would go." } },
           { word: "ich könnte", phonetic: "ikh kön-tuh", meaning: "I could", example: { de: "Ich könnte dir helfen.", en: "I could help you." } },
+          { word: "ich gäbe", phonetic: "ikh gae-buh", meaning: "I would give", example: { de: "Ich gäbe viel darum, das zu wissen.", en: "I'd give a lot to know that." } },
+          { word: "ich wüsste", phonetic: "ikh vüs-tuh", meaning: "I would know", example: { de: "Wenn ich das nur wüsste...", en: "If I only knew that..." } }
         ]
       },
       {
@@ -58,6 +60,13 @@ export const lessonsB2: Record<string, Lesson> = {
         tip: "A very common phrase to express regret or disagreement about a past action."
       },
       {
+        type: "speaking",
+        phrase: "An deiner Stelle hätte ich anders reagiert.",
+        translation: "In your place, I would have reacted differently.",
+        phonetic: "an dy-ner shtel-le het-tuh ikh an-ders re-a-geert",
+        tip: "Essential B2 phrase for giving retroactive advice or opinions."
+      },
+      {
         type: "quiz-fill",
         sentenceBefore: "Wenn ich das gewusst hätte, ",
         sentenceAfter: " ich dir geholfen.",
@@ -87,6 +96,8 @@ export const lessonsB2: Record<string, Lesson> = {
           { word: "reparieren", phonetic: "re-pa-ree-ren", meaning: "to repair", example: { de: "Es muss repariert werden.", en: "It must be repaired." } },
           { word: "lösen", phonetic: "lö-zen", meaning: "to solve", example: { de: "Das Problem muss gelöst werden.", en: "The problem must be solved." } },
           { word: "erledigen", phonetic: "er-lay-di-gen", meaning: "to take care of / handle", example: { de: "Das muss sofort erledigt werden.", en: "That must be taken care of immediately." } },
+          { word: "einreichen", phonetic: "yn-ry-khen", meaning: "to submit", example: { de: "Die Unterlagen müssen bis Freitag eingereicht werden.", en: "The documents must be submitted by Friday." } },
+          { word: "vermeiden", phonetic: "fer-my-den", meaning: "to avoid", example: { de: "Fehler sollten vermieden werden.", en: "Mistakes should be avoided." } }
         ]
       },
       {
@@ -120,6 +131,8 @@ export const lessonsB2: Record<string, Lesson> = {
           { word: "damit", phonetic: "da-mit", meaning: "with it", example: { de: "Was machst du damit?", en: "What are you doing with it?" } },
           { word: "darüber", phonetic: "da-rü-ber", meaning: "about it", example: { de: "Lass uns darüber sprechen.", en: "Let's talk about it." } },
           { word: "daran", phonetic: "da-ran", meaning: "of it / on it", example: { de: "Ich erinnere mich daran.", en: "I remember it." } },
+          { word: "daraus", phonetic: "da-rows", meaning: "from it / out of it", example: { de: "Was lernen wir daraus?", en: "What do we learn from it?" } },
+          { word: "davon", phonetic: "da-fon", meaning: "of it / from it", example: { de: "Ich habe nichts davon gehört.", en: "I heard nothing of it." } },
         ]
       },
       {
@@ -152,6 +165,8 @@ export const lessonsB2: Record<string, Lesson> = {
           { word: "womit", phonetic: "vo-mit", meaning: "with what", example: { de: "Womit öffne ich das?", en: "What do I open this with?" } },
           { word: "worauf", phonetic: "vo-rowf", meaning: "for what / on what", example: { de: "Worauf freust du dich?", en: "What are you looking forward to?" } },
           { word: "woran", phonetic: "vo-ran", meaning: "of what / at what", example: { de: "Woran denkst du?", en: "What are you thinking of?" } },
+          { word: "woraus", phonetic: "vo-rows", meaning: "from what", example: { de: "Woraus besteht das?", en: "What does that consist of?" } },
+          { word: "wovon", phonetic: "vo-fon", meaning: "of what / from what", example: { de: "Wovon sprichst du?", en: "What are you speaking of?" } },
         ]
       },
       {
@@ -174,7 +189,8 @@ export const lessonsB2: Record<string, Lesson> = {
         examples: [
           { de: "lachen (to laugh) -> lachend -> das lachende Kind", en: "the laughing child" },
           { de: "kochen (to boil) -> kochend -> das kochende Wasser", en: "the boiling water" },
-          { de: "stehlen (to steal) -> gestohlen -> das gestohlene Auto", en: "the stolen car" }
+          { de: "stehlen (to steal) -> gestohlen -> das gestohlene Auto", en: "the stolen car" },
+          { de: "gebrauchen (to use) -> gebraucht -> der gebrauchte Wagen", en: "the used car" }
         ]
       },
       {
@@ -208,6 +224,8 @@ export const lessonsB2: Record<string, Lesson> = {
           { word: "in Betracht ziehen", phonetic: "in be-trakht tsee-en", meaning: "to take into consideration", example: { de: "Das müssen wir in Betracht ziehen.", en: "We must take that into consideration." } },
           { word: "zur Verfügung stehen", phonetic: "tsoor fer-fü-goong shtay-en", meaning: "to be available", example: { de: "Ich stehe Ihnen zur Verfügung.", en: "I am available to you." } },
           { word: "unter Druck stehen", phonetic: "oon-ter drook shtay-en", meaning: "to be under pressure", example: { de: "Der Manager steht unter Druck.", en: "The manager is under pressure." } },
+          { word: "in Anspruch nehmen", phonetic: "in an-shprookh nay-men", meaning: "to make use of", example: { de: "Ich möchte Ihre Hilfe in Anspruch nehmen.", en: "I would like to make use of your help." } },
+          { word: "einen Fehler begehen", phonetic: "y-nen fay-ler be-gay-en", meaning: "to make a mistake", example: { de: "Er hat einen großen Fehler begangen.", en: "He made a huge mistake." } },
         ]
       }
     ]
@@ -226,7 +244,8 @@ export const lessonsB2: Record<string, Lesson> = {
           { de: "entweder ... oder", en: "either ... or (Wir gehen entweder ins Kino oder ins Theater.)" },
           { de: "sowohl ... als auch", en: "both ... and (Er spricht sowohl Deutsch als auch Englisch.)" },
           { de: "nicht nur ... sondern auch", en: "not only ... but also" },
-          { de: "je ... desto", en: "the ... the (Je mehr ich lerne, desto besser spreche ich.)" }
+          { de: "je ... desto", en: "the ... the (Je mehr ich lerne, desto besser spreche ich.)" },
+          { de: "zwar ... aber", en: "admittedly ... but (Es ist zwar teuer, aber sehr gut.)" }
         ]
       },
       {
@@ -250,7 +269,8 @@ export const lessonsB2: Record<string, Lesson> = {
         examples: [
           { de: "Man lernt, indem man übt.", en: "One learns BY practicing." },
           { de: "Er ging, ohne ein Wort zu sagen.", en: "He left WITHOUT saying a word." },
-          { de: "Anstatt zu arbeiten, schläft er.", en: "INSTEAD OF working, he sleeps." }
+          { de: "Anstatt zu arbeiten, schläft er.", en: "INSTEAD OF working, he sleeps." },
+          { de: "Dadurch, dass er viel liest, lernt er schnell.", en: "DUE TO the fact that he reads a lot, he learns quickly." }
         ]
       },
       {

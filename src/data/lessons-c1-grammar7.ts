@@ -23,6 +23,18 @@ export const lessonsC1Grammar7: Record<string, Lesson> = {
           { de: "Er ist viel schneller gelaufen [als ich].", en: "He ran much faster than me." },
           { de: "Ich habe mich entschlossen, [diesen Kurs zu belegen].", en: "I have decided to take this course." },
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "Which of the following elements MUST go into the Nachfeld (after the final verb)?",
+        options: [
+          "Short prepositional phrases like 'im Kino'.",
+          "Time expressions like 'am Freitag'.",
+          "Comparisons with 'als' and 'wie'.",
+          "Direct objects in the accusative case."
+        ],
+        correctIndex: 2,
+        explanation: "Comparisons ('schneller als ich') and long 'zu'-infinitive clauses must be moved to the Nachfeld so they don't break the flow of the sentence."
       }
     ]
   },
@@ -40,6 +52,18 @@ export const lessonsC1Grammar7: Record<string, Lesson> = {
           { de: "ver[ʔ]eisen", en: "To freeze. The sharp break distinguishes it from 'verreisen' (to travel)." },
           { de: "Spiegel[ʔ]ei", en: "Fried egg. You must break between Spiegel and Ei." },
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "How do you pronounce 'Spiegelei' natively?",
+        options: [
+          "Shpee-ge-lye (flowing together smoothly)",
+          "Shpee-gel ... eye (with a sharp break between 'l' and 'e')",
+          "Shpee-ge-lay",
+          "Shpee-gley"
+        ],
+        correctIndex: 1,
+        explanation: "German uses the Glottal Stop (Knacklaut) before vowels that start a new morpheme. 'Spiegel-ei' has a sharp stop before the 'e'."
       }
     ]
   },
@@ -58,6 +82,18 @@ export const lessonsC1Grammar7: Record<string, Lesson> = {
           { de: "wir -> sounds like [via]", en: "we" },
           { de: "erklären -> sounds like [e-a-klä-ren]", en: "to explain (the 'er' prefix vocalizes)" },
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "How is the 'er' in 'Wasser' pronounced?",
+        options: [
+          "Like a rolling 'r'",
+          "Like the English 'er' in 'water'",
+          "Like a short, open 'a'",
+          "It is silent."
+        ],
+        correctIndex: 2,
+        explanation: "The 'er' suffix in German is vocalized into a short, open 'a' sound (Tiefschwa). So 'Wasser' sounds like 'Vas-sa'."
       }
     ]
   },
@@ -82,6 +118,15 @@ export const lessonsC1Grammar7: Record<string, Lesson> = {
         title: "Dropping the final 'e'",
         content: "In spoken German, the first-person singular 'e' is almost always dropped. 'Ich gehe' becomes 'Ich geh'. 'Ich habe' becomes 'Ich hab'. Using the full 'e' in spoken conversation sounds very formal or robotic.",
         emoji: "🤖"
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "Hamma", phonetic: "ham-ma", meaning: "Haben wir (Do we have / We have)", example: { de: "Hamma noch Milch?", en: "Do we still have milk?" } },
+          { word: "Gemma", phonetic: "gem-ma", meaning: "Gehen wir (Let's go)", example: { de: "Gemma essen?", en: "Shall we go eat?" } },
+          { word: "Haste", phonetic: "has-te", meaning: "Hast du (Do you have)", example: { de: "Haste mal 'ne Minute?", en: "Do you have a minute?" } },
+          { word: "Isso", phonetic: "is-so", meaning: "Es ist so (That's the way it is)", example: { de: "Isso.", en: "That's just how it is." } }
+        ]
       }
     ]
   }

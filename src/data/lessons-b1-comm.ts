@@ -14,7 +14,11 @@ export const lessonsB1Comm: Record<string, Lesson> = {
           { word: "Das sehe ich genauso.", phonetic: "das zay-e ikh ge-now-zo", meaning: "I see it exactly the same way.", example: { de: "Das sehe ich genauso wie du.", en: "I see it exactly like you do." } },
           { word: "Das stimmt, aber...", phonetic: "das shtimt, ah-ber", meaning: "That's true, but...", example: { de: "Das stimmt, aber man muss auch bedenken...", en: "That's true, but one must also consider..." } },
           { word: "Da muss ich widersprechen.", phonetic: "da moos ikh vee-der-shpre-khen", meaning: "I must disagree.", example: { de: "Da muss ich dir leider widersprechen.", en: "I'm afraid I must disagree with you." } },
-          { word: "Genau! / Richtig!", phonetic: "ge-now / rikh-tikh", meaning: "Exactly! / Right!", example: { de: "Genau, das denke ich auch!", en: "Exactly, I think so too!" } }
+          { word: "Genau! / Richtig!", phonetic: "ge-now / rikh-tikh", meaning: "Exactly! / Right!", example: { de: "Genau, das denke ich auch!", en: "Exactly, I think so too!" } },
+          { word: "Ich bin der gleichen Meinung.", phonetic: "ikh bin dair gly-khen my-noong", meaning: "I am of the same opinion.", example: { de: "Ich bin der gleichen Meinung wie du.", en: "I am of the same opinion as you." } },
+          { word: "Da haben Sie recht.", phonetic: "da hah-ben zee rekht", meaning: "You are right there.", example: { de: "Ja, da haben Sie völlig recht.", en: "Yes, you are completely right there." } },
+          { word: "Das ist völlig falsch.", phonetic: "das ist fül-likh falsh", meaning: "That is completely wrong.", example: { de: "Nein, das ist völlig falsch.", en: "No, that is completely wrong." } },
+          { word: "Das sehe ich ganz anders.", phonetic: "das zay-e ikh gants an-ders", meaning: "I see that completely differently.", example: { de: "Das sehe ich ganz anders als du.", en: "I see that completely differently than you." } }
         ]
       },
       {
@@ -43,7 +47,10 @@ export const lessonsB1Comm: Record<string, Lesson> = {
           { word: "Wie wäre es mit...?", phonetic: "vee vay-re es mit", meaning: "How about...?", example: { de: "Wie wäre es mit einem Spaziergang?", en: "How about a walk?" } },
           { word: "Ich schlage vor, dass...", phonetic: "ikh shlah-ge for", meaning: "I suggest that...", example: { de: "Ich schlage vor, dass wir morgen anfangen.", en: "I suggest that we start tomorrow." } },
           { word: "Ich würde dir empfehlen,...", phonetic: "ikh vür-de dir emp-fay-len", meaning: "I would recommend...", example: { de: "Ich würde dir empfehlen, mehr zu üben.", en: "I would recommend you practice more." } },
-          { word: "Vielleicht solltest du...", phonetic: "fee-lykht zol-test doo", meaning: "Maybe you should...", example: { de: "Vielleicht solltest du ihn anrufen.", en: "Maybe you should call him." } }
+          { word: "Vielleicht solltest du...", phonetic: "fee-lykht zol-test doo", meaning: "Maybe you should...", example: { de: "Vielleicht solltest du ihn anrufen.", en: "Maybe you should call him." } },
+          { word: "Es wäre besser, wenn...", phonetic: "es vay-re bes-ser ven", meaning: "It would be better if...", example: { de: "Es wäre besser, wenn du wartest.", en: "It would be better if you waited." } },
+          { word: "Warum versuchst du nicht...?", phonetic: "vah-room fer-zookhst doo nikht", meaning: "Why don't you try...?", example: { de: "Warum versuchst du nicht, ihn zu fragen?", en: "Why don't you try to ask him?" } },
+          { word: "Mein Rat wäre...", phonetic: "myn raht vay-re", meaning: "My advice would be...", example: { de: "Mein Rat wäre, früh zu buchen.", en: "My advice would be to book early." } }
         ]
       },
       {
@@ -72,7 +79,10 @@ export const lessonsB1Comm: Record<string, Lesson> = {
           { word: "Das ist nicht akzeptabel.", phonetic: "das ist nikht ak-tsep-tah-bel", meaning: "That is not acceptable.", example: { de: "Dieser Service ist nicht akzeptabel.", en: "This service is not acceptable." } },
           { word: "Ich bin damit nicht zufrieden.", phonetic: "ikh bin da-mit nikht tsoo-free-den", meaning: "I am not satisfied with this.", example: { de: "Ich bin mit dem Ergebnis nicht zufrieden.", en: "I am not satisfied with the result." } },
           { word: "Ich erwarte eine Lösung.", phonetic: "ikh er-var-te", meaning: "I expect a solution.", example: { de: "Ich erwarte eine schnelle Lösung.", en: "I expect a quick solution." } },
-          { word: "die Beschwerde", phonetic: "be-shvair-de", meaning: "complaint (noun)", example: { de: "Ich möchte eine formelle Beschwerde einreichen.", en: "I'd like to file a formal complaint." } }
+          { word: "die Beschwerde", phonetic: "be-shvair-de", meaning: "complaint (noun)", example: { de: "Ich möchte eine formelle Beschwerde einreichen.", en: "I'd like to file a formal complaint." } },
+          { word: "Ich fordere mein Geld zurück.", phonetic: "ikh for-de-re myn gelt tsoo-rük", meaning: "I demand my money back.", example: { de: "Der Artikel ist kaputt, ich fordere mein Geld zurück.", en: "The item is broken, I demand my money back." } },
+          { word: "Das ist eine Unverschämtheit.", phonetic: "das ist eye-ne oon-fer-shaimt-hyt", meaning: "That is an outrage / impudence.", example: { de: "So lange zu warten ist eine Unverschämtheit.", en: "Waiting so long is an outrage." } },
+          { word: "Ich werde mich beim Chef beschweren.", phonetic: "ikh vair-de mikh bym shef be-shvay-ren", meaning: "I will complain to the boss.", example: { de: "Wenn Sie mir nicht helfen, werde ich mich beim Chef beschweren.", en: "If you don't help me, I will complain to the boss." } }
         ]
       },
       {
@@ -97,7 +107,10 @@ export const lessonsB1Comm: Record<string, Lesson> = {
           { word: "Einerseits...andererseits...", phonetic: "ay-ner-zyts...an-de-rer-zyts", meaning: "On the one hand...on the other...", example: { de: "Einerseits ist es praktisch, andererseits teuer.", en: "On the one hand it's practical, on the other expensive." } },
           { word: "Dafür spricht...", phonetic: "da-für shprikht", meaning: "In favor of this...", example: { de: "Dafür spricht, dass es günstig ist.", en: "In favor: it's affordable." } },
           { word: "Dagegen spricht...", phonetic: "da-gay-gen shprikht", meaning: "Against this...", example: { de: "Dagegen spricht, dass es viel Zeit kostet.", en: "Against: it costs a lot of time." } },
-          { word: "Abwägen", phonetic: "ap-vay-gen", meaning: "to weigh up / consider", example: { de: "Man muss die Vor- und Nachteile abwägen.", en: "One must weigh the pros and cons." } }
+          { word: "Abwägen", phonetic: "ap-vay-gen", meaning: "to weigh up / consider", example: { de: "Man muss die Vor- und Nachteile abwägen.", en: "One must weigh the pros and cons." } },
+          { word: "Ein weiteres Argument ist...", phonetic: "ayn vy-te-res ar-goo-ment ist", meaning: "Another argument is...", example: { de: "Ein weiteres Argument ist der Preis.", en: "Another argument is the price." } },
+          { word: "Auf der einen Seite... auf der anderen Seite...", phonetic: "owf dair ay-nen zy-te... owf dair an-de-ren zy-te", meaning: "On the one side... on the other side...", example: { de: "Auf der einen Seite gut, auf der anderen schlecht.", en: "On the one side good, on the other bad." } },
+          { word: "Ein wichtiger Punkt ist...", phonetic: "ayn vikh-ti-ger poonkt ist", meaning: "An important point is...", example: { de: "Ein wichtiger Punkt ist die Gesundheit.", en: "An important point is health." } }
         ]
       },
       {
@@ -127,7 +140,10 @@ export const lessonsB1Comm: Record<string, Lesson> = {
           { word: "plötzlich", phonetic: "plöts-likh", meaning: "suddenly", example: { de: "Plötzlich klingelte das Telefon.", en: "Suddenly the phone rang." } },
           { word: "schließlich / zum Schluss", phonetic: "shlees-likh", meaning: "finally / in the end", example: { de: "Schließlich haben wir das Problem gelöst.", en: "Finally we solved the problem." } },
           { word: "inzwischen / währenddessen", phonetic: "in-tsvi-shen", meaning: "meanwhile / in the meantime", example: { de: "Inzwischen hat er angerufen.", en: "Meanwhile he called." } },
-          { word: "Es war einmal...", phonetic: "es var ayn-mahl", meaning: "Once upon a time...", example: { de: "Es war einmal ein König...", en: "Once upon a time there was a king..." } }
+          { word: "Es war einmal...", phonetic: "es var ayn-mahl", meaning: "Once upon a time...", example: { de: "Es war einmal ein König...", en: "Once upon a time there was a king..." } },
+          { word: "Kurz darauf", phonetic: "koorts da-rowf", meaning: "Shortly after", example: { de: "Kurz darauf fing es an zu regnen.", en: "Shortly after, it started to rain." } },
+          { word: "Schließlich und endlich", phonetic: "shlees-likh oont ent-likh", meaning: "Finally and at last", example: { de: "Schließlich und endlich haben wir es geschafft.", en: "Finally and at last we made it." } },
+          { word: "Im Anschluss daran", phonetic: "im an-shloos da-ran", meaning: "Following that / subsequently", example: { de: "Im Anschluss daran gingen wir nach Hause.", en: "Following that we went home." } }
         ]
       },
       {
@@ -154,7 +170,9 @@ export const lessonsB1Comm: Record<string, Lesson> = {
           { word: "Ich habe vor,...zu...", phonetic: "ikh hah-be for", meaning: "I plan to...", example: { de: "Ich habe vor, nach Deutschland zu ziehen.", en: "I plan to move to Germany." } },
           { word: "Mein Ziel ist es,...zu...", phonetic: "myn tseel ist es", meaning: "My goal is to...", example: { de: "Mein Ziel ist es, fließend Deutsch zu sprechen.", en: "My goal is to speak German fluently." } },
           { word: "Ich wünsche mir...", phonetic: "ikh vün-she meer", meaning: "I wish for...", example: { de: "Ich wünsche mir mehr Freizeit.", en: "I wish for more free time." } },
-          { word: "die Zukunft", phonetic: "tsoo-koonft", meaning: "the future", example: { de: "In Zukunft möchte ich selbstständig arbeiten.", en: "In the future I want to work independently." } }
+          { word: "die Zukunft", phonetic: "tsoo-koonft", meaning: "the future", example: { de: "In Zukunft möchte ich selbstständig arbeiten.", en: "In the future I want to work independently." } },
+          { word: "Ich nehme mir vor,...", phonetic: "ikh nay-me meer for", meaning: "I resolve to...", example: { de: "Ich nehme mir vor, gesünder zu essen.", en: "I resolve to eat healthier." } },
+          { word: "Es ist mein größter Wunsch...", phonetic: "es ist myn grös-ter voonsh", meaning: "It is my greatest wish...", example: { de: "Es ist mein größter Wunsch, Arzt zu werden.", en: "It is my greatest wish to become a doctor." } }
         ]
       },
       {
@@ -189,7 +207,10 @@ export const lessonsB1Comm: Record<string, Lesson> = {
         cards: [
           { word: "Ich möchte über...sprechen.", phonetic: "ikh mökh-te ü-ber...shpre-khen", meaning: "I'd like to talk about...", example: { de: "Ich möchte über gesunde Ernährung sprechen.", en: "I'd like to talk about healthy eating." } },
           { word: "Zusammenfassend kann man sagen...", phonetic: "tsoo-za-men-fas-sent", meaning: "In summary, one can say...", example: { de: "Zusammenfassend kann man sagen, dass es Vor- und Nachteile gibt.", en: "In summary, there are pros and cons." } },
-          { word: "Haben Sie / Hast du noch Fragen?", phonetic: "hah-ben zee nokh frah-gen", meaning: "Do you have any questions?", example: { de: "Vielen Dank. Haben Sie noch Fragen?", en: "Thank you. Any questions?" } }
+          { word: "Haben Sie / Hast du noch Fragen?", phonetic: "hah-ben zee nokh frah-gen", meaning: "Do you have any questions?", example: { de: "Vielen Dank. Haben Sie noch Fragen?", en: "Thank you. Any questions?" } },
+          { word: "Das führt mich zum nächsten Punkt.", phonetic: "das fürt mikh tsoom naykh-sten poonkt", meaning: "That brings me to the next point.", example: { de: "Das führt mich zum nächsten Punkt: den Kosten.", en: "That brings me to the next point: the costs." } },
+          { word: "Um ein Beispiel zu nennen...", phonetic: "oom ayn by-shpeel tsoo nen-nen", meaning: "To give an example...", example: { de: "Um ein Beispiel zu nennen: In meiner Stadt...", en: "To give an example: In my city..." } },
+          { word: "Ich bedanke mich für Ihre Aufmerksamkeit.", phonetic: "ikh be-dang-ke mikh für ee-re owf-mairk-zam-kyt", meaning: "I thank you for your attention.", example: { de: "Ich bedanke mich für Ihre Aufmerksamkeit.", en: "I thank you for your attention." } }
         ]
       }
     ]
@@ -206,7 +227,10 @@ export const lessonsB1Comm: Record<string, Lesson> = {
           { word: "Wäre es möglich, dass...?", phonetic: "vay-re es mö-glikh", meaning: "Would it be possible that...?", example: { de: "Wäre es möglich, dass wir den Termin verschieben?", en: "Would it be possible to postpone the appointment?" } },
           { word: "Ich bin bereit,...", phonetic: "ikh bin be-ryt", meaning: "I am willing to...", example: { de: "Ich bin bereit, einen Kompromiss zu finden.", en: "I'm willing to find a compromise." } },
           { word: "der Kompromiss", phonetic: "kom-pro-mis", meaning: "compromise", example: { de: "Lass uns einen Kompromiss finden.", en: "Let's find a compromise." } },
-          { word: "Das kommt darauf an.", phonetic: "das komt da-rowf an", meaning: "That depends.", example: { de: "Das kommt darauf an, wie viel es kostet.", en: "That depends on how much it costs." } }
+          { word: "Das kommt darauf an.", phonetic: "das komt da-rowf an", meaning: "That depends.", example: { de: "Das kommt darauf an, wie viel es kostet.", en: "That depends on how much it costs." } },
+          { word: "Könnten Sie mir entgegenkommen?", phonetic: "kön-ten zee meer ent-gay-gen-ko-men", meaning: "Could you meet me halfway?", example: { de: "Könnten Sie mir beim Preis entgegenkommen?", en: "Could you meet me halfway on the price?" } },
+          { word: "Das ist mein letztes Angebot.", phonetic: "das ist myn lets-tes an-ge-boht", meaning: "That is my final offer.", example: { de: "Tut mir leid, das ist mein letztes Angebot.", en: "Sorry, that is my final offer." } },
+          { word: "Wir müssen einen Mittelweg finden.", phonetic: "veer müs-sen ay-nen mit-tel-vayk fin-den", meaning: "We need to find a middle ground.", example: { de: "Wir müssen einen Mittelweg finden, der für beide passt.", en: "We need to find a middle ground that works for both." } }
         ]
       },
       {
@@ -234,7 +258,10 @@ export const lessonsB1Comm: Record<string, Lesson> = {
           { word: "Falls...", phonetic: "fals", meaning: "In case...", example: { de: "Falls es Probleme gibt, rufen Sie mich an.", en: "In case there are problems, call me." } },
           { word: "Unter der Bedingung, dass...", phonetic: "oon-ter dair be-ding-oong", meaning: "On the condition that...", example: { de: "Unter der Bedingung, dass du pünktlich bist.", en: "On the condition that you're on time." } },
           { word: "Im Falle von...", phonetic: "im fal-le fon", meaning: "In the event of...", example: { de: "Im Falle von Feuer, verlassen Sie das Gebäude.", en: "In case of fire, leave the building." } },
-          { word: "sofern", phonetic: "zo-fairn", meaning: "provided that / as long as", example: { de: "Sofern das Wetter gut ist, gehen wir raus.", en: "Provided the weather is good, we'll go out." } }
+          { word: "sofern", phonetic: "zo-fairn", meaning: "provided that / as long as", example: { de: "Sofern das Wetter gut ist, gehen wir raus.", en: "Provided the weather is good, we'll go out." } },
+          { word: "Es sei denn, dass...", phonetic: "es zy den das", meaning: "Unless...", example: { de: "Wir gehen spazieren. Es sei denn, dass es regnet.", en: "We go for a walk. Unless it rains." } },
+          { word: "Andernfalls...", phonetic: "an-dern-fals", meaning: "Otherwise...", example: { de: "Zieh dich warm an. Andernfalls wirst du krank.", en: "Dress warmly. Otherwise you will get sick." } },
+          { word: "Vorausgesetzt, dass...", phonetic: "fo-rows-ge-zetst das", meaning: "Provided that...", example: { de: "Vorausgesetzt, dass ich Zeit habe, komme ich.", en: "Provided that I have time, I will come." } }
         ]
       },
       {
@@ -273,7 +300,10 @@ export const lessonsB1Comm: Record<string, Lesson> = {
           { word: "Das ist ein Ding, mit dem man...", phonetic: "das ist ayn ding, mit daim man", meaning: "It's a thing you use to...", example: { de: "Das ist ein Ding, mit dem man Flaschen öffnet. (= Flaschenöffner)", en: "It's a thing you use to open bottles. (= bottle opener)" } },
           { word: "Wie heißt das nochmal?", phonetic: "vee hyst das nokh-mahl", meaning: "What's that called again?", example: { de: "Wie heißt das nochmal auf Deutsch?", en: "What's that called again in German?" } },
           { word: "Ich meine...", phonetic: "ikh my-ne", meaning: "I mean...", example: { de: "Ich meine das, was man zum Kochen braucht.", en: "I mean the thing you need for cooking." } },
-          { word: "Es sieht aus wie...", phonetic: "es zeet ows vee", meaning: "It looks like...", example: { de: "Es sieht aus wie ein kleiner Computer.", en: "It looks like a small computer." } }
+          { word: "Es sieht aus wie...", phonetic: "es zeet ows vee", meaning: "It looks like...", example: { de: "Es sieht aus wie ein kleiner Computer.", en: "It looks like a small computer." } },
+          { word: "Das Wort fällt mir gerade nicht ein.", phonetic: "das vort fält meer ge-rah-de nikht yn", meaning: "I can't think of the word right now.", example: { de: "Das Wort fällt mir gerade nicht ein, aber es ist rot.", en: "I can't think of the word right now, but it is red." } },
+          { word: "Es dient dazu,...", phonetic: "es deent da-tsoo", meaning: "It serves to...", example: { de: "Es dient dazu, Wasser zu kochen.", en: "It serves to boil water." } },
+          { word: "Man benutzt es für...", phonetic: "man be-nootst es für", meaning: "One uses it for...", example: { de: "Man benutzt es für die Arbeit.", en: "One uses it for work." } }
         ]
       },
       {

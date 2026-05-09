@@ -31,7 +31,12 @@ export const lessonsA2New8: Record<string, Lesson> = {
         cards: [
           { word: "als", phonetic: "als", meaning: "when (one past event)", example: { de: "Als ich klein war...", en: "When I was little..." } },
           { word: "wenn", phonetic: "ven", meaning: "when(ever) / if", example: { de: "Wenn ich Zeit habe...", en: "When I have time..." } },
-          { word: "(immer) wenn", phonetic: "im-mer ven", meaning: "whenever (emphasizes repetition)", example: { de: "Immer wenn er kam, brachte er Blumen mit.", en: "Whenever he came, he brought flowers." } }
+          { word: "(immer) wenn", phonetic: "im-mer ven", meaning: "whenever (emphasizes repetition)", example: { de: "Immer wenn er kam, brachte er Blumen mit.", en: "Whenever he came, he brought flowers." } },
+          { word: "damals", phonetic: "dah-mahls", meaning: "back then", example: { de: "Damals hatten wir kein Internet.", en: "Back then we didn't have internet." } },
+          { word: "früher", phonetic: "frü-er", meaning: "in the past / earlier", example: { de: "Früher war alles anders.", en: "In the past everything was different." } },
+          { word: "oft", phonetic: "oft", meaning: "often", example: { de: "Ich bin oft nach Berlin gefahren.", en: "I often traveled to Berlin." } },
+          { word: "manchmal", phonetic: "manch-mahl", meaning: "sometimes", example: { de: "Manchmal, wenn es regnet...", en: "Sometimes, when it rains..." } },
+          { word: "plötzlich", phonetic: "plöts-likh", meaning: "suddenly", example: { de: "Als wir aßen, klingelte plötzlich das Telefon.", en: "When we were eating, the phone suddenly rang." } }
         ]
       },
       {
@@ -73,11 +78,15 @@ export const lessonsA2New8: Record<string, Lesson> = {
         type: "flashcard",
         cards: [
           { word: "seit + Dativ", phonetic: "zyt", meaning: "since / for (ongoing)", example: { de: "Seit wann lernst du Deutsch?", en: "Since when have you been learning German?" } },
-          { word: "vor + Dativ", phonetic: "for", meaning: "ago", example: { de: "Vor einer Stunde.", en: "An hour ago." } },
+          { word: "vor + Dativ", phonetic: "for", meaning: "ago / before", example: { de: "Vor einer Stunde.", en: "An hour ago." } },
           { word: "nach + Dativ", phonetic: "nakh", meaning: "after", example: { de: "Nach der Arbeit.", en: "After work." } },
           { word: "am + Tag", phonetic: "am", meaning: "on (days/dates)", example: { de: "Am Montag. Am 15. Mai.", en: "On Monday. On May 15th." } },
           { word: "um + Uhrzeit", phonetic: "oom", meaning: "at (clock time)", example: { de: "Um 8 Uhr.", en: "At 8 o'clock." } },
-          { word: "in + Dativ", phonetic: "in", meaning: "in (future time)", example: { de: "In einer Woche.", en: "In one week." } }
+          { word: "in + Dativ", phonetic: "in", meaning: "in (future time)", example: { de: "In einer Woche.", en: "In one week." } },
+          { word: "während (+ Genitiv)", phonetic: "väh-rent", meaning: "during", example: { de: "Während des Urlaubs...", en: "During the vacation..." } },
+          { word: "bis (+ Akk)", phonetic: "bis", meaning: "until", example: { de: "Ich arbeite bis 17 Uhr.", en: "I work until 5 pm." } },
+          { word: "von ... bis ...", phonetic: "fon ... bis ...", meaning: "from ... to ...", example: { de: "Wir haben von Montag bis Freitag geöffnet.", en: "We are open from Monday to Friday." } },
+          { word: "ab (+ Dativ)", phonetic: "ap", meaning: "from (future start)", example: { de: "Ab morgen esse ich gesünder.", en: "From tomorrow on I will eat healthier." } }
         ]
       },
       {

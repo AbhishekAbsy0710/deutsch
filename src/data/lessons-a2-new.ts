@@ -30,7 +30,12 @@ export const lessonsA2New: Record<string, Lesson> = {
         cards: [
           { word: "weil", phonetic: "vyl", meaning: "because", example: { de: "Ich bin müde, weil ich nicht geschlafen habe.", en: "I'm tired because I didn't sleep." } },
           { word: "dass", phonetic: "das", meaning: "that", example: { de: "Ich glaube, dass er recht hat.", en: "I believe that he is right." } },
-          { word: "wenn", phonetic: "ven", meaning: "when / if", example: { de: "Wenn du kommst, rufe mich an.", en: "When you come, call me." } }
+          { word: "wenn", phonetic: "ven", meaning: "when / if", example: { de: "Wenn du kommst, rufe mich an.", en: "When you come, call me." } },
+          { word: "obwohl", phonetic: "op-vohl", meaning: "although", example: { de: "Er geht spazieren, obwohl es regnet.", en: "He goes for a walk, although it is raining." } },
+          { word: "da", phonetic: "dah", meaning: "since (because)", example: { de: "Da ich krank bin, bleibe ich zu Hause.", en: "Since I am sick, I stay at home." } },
+          { word: "als", phonetic: "als", meaning: "when (in the past)", example: { de: "Als ich ein Kind war, spielte ich oft.", en: "When I was a child, I played often." } },
+          { word: "bevor", phonetic: "be-for", meaning: "before", example: { de: "Wasch dir die Hände, bevor du isst.", en: "Wash your hands before you eat." } },
+          { word: "nachdem", phonetic: "nakh-daym", meaning: "after", example: { de: "Nachdem wir gegessen hatten, gingen wir schlafen.", en: "After we had eaten, we went to sleep." } }
         ]
       },
       {
@@ -65,7 +70,12 @@ export const lessonsA2New: Record<string, Lesson> = {
           { word: "sich waschen", phonetic: "zikh va-shen", meaning: "to wash oneself", example: { de: "Ich wasche mir die Hände.", en: "I wash my hands." } },
           { word: "sich setzen", phonetic: "zikh zet-sen", meaning: "to sit down", example: { de: "Bitte setzen Sie sich!", en: "Please sit down!" } },
           { word: "sich fühlen", phonetic: "zikh fü-len", meaning: "to feel", example: { de: "Ich fühle mich gut.", en: "I feel good." } },
-          { word: "sich anziehen", phonetic: "zikh an-tsee-en", meaning: "to get dressed", example: { de: "Ich ziehe mich an.", en: "I get dressed." } }
+          { word: "sich anziehen", phonetic: "zikh an-tsee-en", meaning: "to get dressed", example: { de: "Ich ziehe mich an.", en: "I get dressed." } },
+          { word: "sich ausruhen", phonetic: "zikh ows-roo-en", meaning: "to rest", example: { de: "Ich muss mich ausruhen.", en: "I need to rest." } },
+          { word: "sich beeilen", phonetic: "zikh be-y-len", meaning: "to hurry", example: { de: "Wir müssen uns beeilen.", en: "We must hurry." } },
+          { word: "sich ärgern", phonetic: "zikh air-gern", meaning: "to be annoyed", example: { de: "Ärgere dich nicht!", en: "Don't be annoyed!" } },
+          { word: "sich interessieren für", phonetic: "zikh in-te-res-see-ren für", meaning: "to be interested in", example: { de: "Ich interessiere mich für Kunst.", en: "I am interested in art." } },
+          { word: "sich duschen", phonetic: "zikh doo-shen", meaning: "to shower oneself", example: { de: "Ich dusche mich jeden Morgen.", en: "I shower every morning." } }
         ]
       },
       {
@@ -106,7 +116,11 @@ export const lessonsA2New: Record<string, Lesson> = {
           { word: "erzählen", phonetic: "er-tsay-len", meaning: "to tell (a story)", example: { de: "Erzähl mir alles!", en: "Tell me everything!" } },
           { word: "vergessen", phonetic: "fer-ges-sen", meaning: "to forget", example: { de: "Ich habe das vergessen.", en: "I forgot that." } },
           { word: "bezahlen", phonetic: "be-tsah-len", meaning: "to pay", example: { de: "Wer bezahlt?", en: "Who is paying?" } },
-          { word: "entschuldigen", phonetic: "ent-shool-di-gen", meaning: "to excuse / apologize", example: { de: "Entschuldigen Sie bitte!", en: "Excuse me please!" } }
+          { word: "entschuldigen", phonetic: "ent-shool-di-gen", meaning: "to excuse / apologize", example: { de: "Entschuldigen Sie bitte!", en: "Excuse me please!" } },
+          { word: "besuchen", phonetic: "be-zoo-khen", meaning: "to visit", example: { de: "Ich besuche meine Oma.", en: "I am visiting my grandma." } },
+          { word: "verkaufen", phonetic: "fer-kow-fen", meaning: "to sell", example: { de: "Er verkauft sein Auto.", en: "He is selling his car." } },
+          { word: "verbieten", phonetic: "fer-bee-ten", meaning: "to forbid", example: { de: "Rauchen ist hier verboten.", en: "Smoking is forbidden here." } },
+          { word: "erfinden", phonetic: "er-fin-den", meaning: "to invent", example: { de: "Wer hat das Auto erfunden?", en: "Who invented the car?" } }
         ]
       },
       {
@@ -147,7 +161,12 @@ export const lessonsA2New: Record<string, Lesson> = {
           { word: "zeigen", phonetic: "tsy-gen", meaning: "to show", example: { de: "Können Sie mir den Weg zeigen?", en: "Can you show me the way?" } },
           { word: "schenken", phonetic: "shen-ken", meaning: "to give (as gift)", example: { de: "Was schenkst du ihr?", en: "What are you giving her?" } },
           { word: "erklären", phonetic: "er-klä-ren", meaning: "to explain", example: { de: "Erklär mir das bitte!", en: "Please explain that to me!" } },
-          { word: "empfehlen", phonetic: "emp-fay-len", meaning: "to recommend", example: { de: "Was empfehlen Sie mir?", en: "What do you recommend to me?" } }
+          { word: "empfehlen", phonetic: "emp-fay-len", meaning: "to recommend", example: { de: "Was empfehlen Sie mir?", en: "What do you recommend to me?" } },
+          { word: "bringen", phonetic: "bring-en", meaning: "to bring", example: { de: "Bring mir ein Glas Wasser.", en: "Bring me a glass of water." } },
+          { word: "leihen", phonetic: "ly-en", meaning: "to lend/borrow", example: { de: "Kannst du mir Geld leihen?", en: "Can you lend me money?" } },
+          { word: "schicken", phonetic: "shik-ken", meaning: "to send", example: { de: "Ich schicke dir eine E-Mail.", en: "I am sending you an email." } },
+          { word: "wünschen", phonetic: "vün-shen", meaning: "to wish", example: { de: "Ich wünsche dir viel Glück.", en: "I wish you good luck." } },
+          { word: "glauben", phonetic: "glow-ben", meaning: "to believe", example: { de: "Ich glaube dir nicht.", en: "I don't believe you." } }
         ]
       },
       {
@@ -198,7 +217,11 @@ export const lessonsA2New: Record<string, Lesson> = {
           { word: "dieser", phonetic: "dee-zer", meaning: "this (masc)", example: { de: "Dieser Film ist toll!", en: "This movie is great!" } },
           { word: "jeder", phonetic: "yay-der", meaning: "every / each", example: { de: "Jeden Tag lerne ich.", en: "I study every day." } },
           { word: "alle", phonetic: "al-le", meaning: "all / everyone", example: { de: "Alle sind eingeladen.", en: "Everyone is invited." } },
-          { word: "einige", phonetic: "ay-ni-ge", meaning: "some / a few", example: { de: "Einige Fragen habe ich.", en: "I have some questions." } }
+          { word: "einige", phonetic: "ay-ni-ge", meaning: "some / a few", example: { de: "Einige Fragen habe ich.", en: "I have some questions." } },
+          { word: "manche", phonetic: "man-khe", meaning: "some / certain", example: { de: "Manche Leute mögen keinen Käse.", en: "Some people don't like cheese." } },
+          { word: "viele", phonetic: "fee-le", meaning: "many", example: { de: "Viele Leute lernen Deutsch.", en: "Many people learn German." } },
+          { word: "wenige", phonetic: "vay-ni-ge", meaning: "few", example: { de: "Nur wenige wissen das.", en: "Only a few know that." } },
+          { word: "beide", phonetic: "by-de", meaning: "both", example: { de: "Wir beide gehen ins Kino.", en: "We both go to the cinema." } }
         ]
       },
       {
@@ -240,7 +263,12 @@ export const lessonsA2New: Record<string, Lesson> = {
         cards: [
           { word: "ob", phonetic: "op", meaning: "whether / if", example: { de: "Ich weiß nicht, ob das stimmt.", en: "I don't know if that's correct." } },
           { word: "Wissen Sie, ...?", phonetic: "vis-sen zee", meaning: "Do you know...?", example: { de: "Wissen Sie, wo der Bahnhof ist?", en: "Do you know where the station is?" } },
-          { word: "Können Sie mir sagen, ...?", phonetic: "kö-nen zee meer zah-gen", meaning: "Can you tell me...?", example: { de: "Können Sie mir sagen, wann der Zug kommt?", en: "Can you tell me when the train comes?" } }
+          { word: "Können Sie mir sagen, ...?", phonetic: "kö-nen zee meer zah-gen", meaning: "Can you tell me...?", example: { de: "Können Sie mir sagen, wann der Zug kommt?", en: "Can you tell me when the train comes?" } },
+          { word: "Darf ich fragen, ...?", phonetic: "darf ikh frah-gen", meaning: "May I ask...?", example: { de: "Darf ich fragen, wie alt Sie sind?", en: "May I ask how old you are?" } },
+          { word: "Ich möchte wissen, ...", phonetic: "ikh mökh-te vis-sen", meaning: "I would like to know...", example: { de: "Ich möchte wissen, ob das möglich ist.", en: "I would like to know if that is possible." } },
+          { word: "warum", phonetic: "vah-room", meaning: "why", example: { de: "Wissen Sie, warum er weint?", en: "Do you know why he is crying?" } },
+          { word: "wann", phonetic: "van", meaning: "when", example: { de: "Können Sie mir sagen, wann der Film beginnt?", en: "Can you tell me when the movie starts?" } },
+          { word: "wohin", phonetic: "vo-hin", meaning: "where to", example: { de: "Ich frage mich, wohin sie geht.", en: "I wonder where she is going." } }
         ]
       },
       {
@@ -261,12 +289,18 @@ export const lessonsA2New: Record<string, Lesson> = {
         type: "flashcard",
         cards: [
           { word: "aufwachen", phonetic: "owf-va-khen", meaning: "to wake up", example: { de: "Ich wache um 6 Uhr auf.", en: "I wake up at 6 o'clock." } },
+          { word: "aufstehen", phonetic: "owf-shtay-en", meaning: "to get up", example: { de: "Ich stehe um halb 7 auf.", en: "I get up at half past 6." } },
+          { word: "Zähne putzen", phonetic: "tsay-ne poot-sen", meaning: "to brush teeth", example: { de: "Ich putze mir die Zähne.", en: "I brush my teeth." } },
+          { word: "sich rasieren", phonetic: "zikh ra-zee-ren", meaning: "to shave", example: { de: "Er rasiert sich jeden Morgen.", en: "He shaves every morning." } },
           { word: "duschen", phonetic: "doo-shen", meaning: "to shower", example: { de: "Ich dusche jeden Morgen.", en: "I shower every morning." } },
           { word: "frühstücken", phonetic: "frü-shtü-ken", meaning: "to eat breakfast", example: { de: "Was frühstückst du?", en: "What do you eat for breakfast?" } },
           { word: "zur Arbeit gehen", phonetic: "tsoor ar-byt gay-en", meaning: "to go to work", example: { de: "Ich gehe um 8 zur Arbeit.", en: "I go to work at 8." } },
           { word: "Mittagessen", phonetic: "mit-tahk-es-sen", meaning: "lunch", example: { de: "Um 12 Uhr esse ich Mittag.", en: "At 12 I eat lunch." } },
           { word: "Feierabend", phonetic: "fy-er-ah-bent", meaning: "end of work day", example: { de: "Um 17 Uhr habe ich Feierabend.", en: "I finish work at 5 pm." } },
-          { word: "ins Bett gehen", phonetic: "ins bet gay-en", meaning: "to go to bed", example: { de: "Ich gehe um 23 Uhr ins Bett.", en: "I go to bed at 11 pm." } }
+          { word: "Abendessen", phonetic: "ah-bent-es-sen", meaning: "dinner", example: { de: "Wir essen um 19 Uhr zu Abend.", en: "We eat dinner at 7 pm." } },
+          { word: "fernsehen", phonetic: "fairn-zay-en", meaning: "to watch TV", example: { de: "Abends sehen wir fern.", en: "In the evening we watch TV." } },
+          { word: "ins Bett gehen", phonetic: "ins bet gay-en", meaning: "to go to bed", example: { de: "Ich gehe um 23 Uhr ins Bett.", en: "I go to bed at 11 pm." } },
+          { word: "schlafen gehen", phonetic: "shlah-fen gay-en", meaning: "to go to sleep", example: { de: "Die Kinder gehen jetzt schlafen.", en: "The children are going to sleep now." } }
         ]
       },
       {
@@ -306,11 +340,19 @@ export const lessonsA2New: Record<string, Lesson> = {
           { word: "der Hund", phonetic: "hoont", meaning: "the dog", gender: "m", example: { de: "Der Hund ist treu.", en: "The dog is loyal." } },
           { word: "die Katze", phonetic: "kat-se", meaning: "the cat", gender: "f", example: { de: "Die Katze schläft gern.", en: "The cat likes to sleep." } },
           { word: "der Vogel", phonetic: "foh-gel", meaning: "the bird", gender: "m", example: { de: "Der Vogel singt.", en: "The bird is singing." } },
-          { word: "der Baum", phonetic: "bowm", meaning: "the tree", gender: "m", example: { de: "Der Baum ist groß.", en: "The tree is big." } },
-          { word: "die Blume", phonetic: "bloo-me", meaning: "the flower", gender: "f", example: { de: "Die Blumen sind schön.", en: "The flowers are beautiful." } },
           { word: "das Pferd", phonetic: "pfairt", meaning: "the horse", gender: "n", example: { de: "Das Pferd läuft schnell.", en: "The horse runs fast." } },
           { word: "der Fisch", phonetic: "fish", meaning: "the fish", gender: "m", example: { de: "Der Fisch schwimmt.", en: "The fish swims." } },
-          { word: "die Kuh", phonetic: "koo", meaning: "the cow", gender: "f", example: { de: "Die Kuh gibt Milch.", en: "The cow gives milk." } }
+          { word: "die Kuh", phonetic: "koo", meaning: "the cow", gender: "f", example: { de: "Die Kuh gibt Milch.", en: "The cow gives milk." } },
+          { word: "das Schwein", phonetic: "shvyn", meaning: "the pig", gender: "n", example: { de: "Das Schwein ist rosa.", en: "The pig is pink." } },
+          { word: "das Schaf", phonetic: "shahf", meaning: "the sheep", gender: "n", example: { de: "Das Schaf frisst Gras.", en: "The sheep eats grass." } },
+          { word: "die Maus", phonetic: "mows", meaning: "the mouse", gender: "f", example: { de: "Die Katze jagt die Maus.", en: "The cat chases the mouse." } },
+          { word: "der Bär", phonetic: "bair", meaning: "the bear", gender: "m", example: { de: "Der Bär ist stark.", en: "The bear is strong." } },
+          { word: "der Baum", phonetic: "bowm", meaning: "the tree", gender: "m", example: { de: "Der Baum ist groß.", en: "The tree is big." } },
+          { word: "die Blume", phonetic: "bloo-me", meaning: "the flower", gender: "f", example: { de: "Die Blumen sind schön.", en: "The flowers are beautiful." } },
+          { word: "der Wald", phonetic: "valt", meaning: "the forest", gender: "m", example: { de: "Wir gehen im Wald spazieren.", en: "We walk in the forest." } },
+          { word: "der Berg", phonetic: "bairk", meaning: "the mountain", gender: "m", example: { de: "Der Berg ist hoch.", en: "The mountain is high." } },
+          { word: "das Meer", phonetic: "mair", meaning: "the sea / ocean", gender: "n", example: { de: "Wir fahren ans Meer.", en: "We travel to the sea." } },
+          { word: "der See", phonetic: "zay", meaning: "the lake", gender: "m", example: { de: "Wir schwimmen im See.", en: "We swim in the lake." } }
         ]
       },
       {

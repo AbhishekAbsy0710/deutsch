@@ -22,7 +22,8 @@ export const lessonsB2Comm: Record<string, Lesson> = {
           { word: "Ich vertrete die Ansicht, dass...", phonetic: "ikh fer-tray-te dee an-zikht das", meaning: "I hold the view that...", example: { de: "Ich vertrete die Ansicht, dass Bildung der Schlüssel ist.", en: "I hold the view that education is the key." } },
           { word: "Dagegen lässt sich einwenden, dass...", phonetic: "da-gay-gen lest zikh ayn-ven-den das", meaning: "Against this, one can object that...", example: { de: "Dagegen lässt sich einwenden, dass die Kosten hoch sind.", en: "Against this, one can object that the costs are high." } },
           { word: "Abwägen der Vor- und Nachteile", phonetic: "ap-veh-gen dair for unt nakh-ty-le", meaning: "weighing the pros and cons", example: { de: "Nach Abwägen der Vor- und Nachteile komme ich zu dem Schluss...", en: "After weighing the pros and cons, I come to the conclusion..." } },
-          { word: "Alles in allem", phonetic: "al-les in al-lem", meaning: "all in all / all things considered", example: { de: "Alles in allem halte ich das für eine gute Idee.", en: "All in all, I consider that a good idea." } }
+          { word: "Alles in allem", phonetic: "al-les in al-lem", meaning: "all in all / all things considered", example: { de: "Alles in allem halte ich das für eine gute Idee.", en: "All in all, I consider that a good idea." } },
+          { word: "Meines Erachtens", phonetic: "my-nes er-akh-tens", meaning: "in my opinion (formal)", example: { de: "Meines Erachtens ist das eine Fehlentscheidung.", en: "In my opinion, that is a wrong decision." } }
         ]
       },
       {
@@ -56,7 +57,8 @@ export const lessonsB2Comm: Record<string, Lesson> = {
           { word: "Ich stimme Ihnen grundsätzlich zu, aber...", phonetic: "ikh shtim-me ee-nen groont-sets-likh tsoo ah-ber", meaning: "I fundamentally agree with you, but...", example: { de: "Ich stimme Ihnen grundsätzlich zu, aber man sollte auch bedenken...", en: "I fundamentally agree, but one should also consider..." } },
           { word: "Das ist ein berechtigter Einwand.", phonetic: "das ist ayn be-rekh-tikh-ter ayn-vant", meaning: "That's a valid objection.", example: { de: "Das ist ein berechtigter Einwand. Allerdings...", en: "That's a valid objection. However..." } },
           { word: "Dem kann ich nicht zustimmen, weil...", phonetic: "dem kan ikh nikht tsoo-shtim-men vayl", meaning: "I can't agree with that because...", example: { de: "Dem kann ich nicht zustimmen, weil die Daten etwas anderes zeigen.", en: "I can't agree because the data shows something different." } },
-          { word: "Lassen Sie mich einen anderen Aspekt beleuchten.", phonetic: "las-sen zee mikh ay-nen an-de-ren as-pekt be-loyh-ten", meaning: "Let me shed light on a different aspect.", example: { de: "Lassen Sie mich einen anderen Aspekt beleuchten.", en: "Let me shed light on a different aspect." } }
+          { word: "Lassen Sie mich einen anderen Aspekt beleuchten.", phonetic: "las-sen zee mikh ay-nen an-de-ren as-pekt be-loyh-ten", meaning: "Let me shed light on a different aspect.", example: { de: "Lassen Sie mich einen anderen Aspekt beleuchten.", en: "Let me shed light on a different aspect." } },
+          { word: "Da bin ich völlig anderer Ansicht.", phonetic: "da bin ikh fül-likh an-de-rer an-zikht", meaning: "I am of a completely different opinion there.", example: { de: "Da bin ich völlig anderer Ansicht, weil...", en: "I am of a completely different opinion there, because..." } }
         ]
       }
     ]
@@ -84,7 +86,8 @@ export const lessonsB2Comm: Record<string, Lesson> = {
           { word: "Ich werde mein Thema in drei Punkte gliedern.", phonetic: "ikh ver-de myn tay-ma in dry poonk-te glee-dern", meaning: "I will structure my topic in three points.", example: { de: "Ich werde mein Thema in drei Punkte gliedern.", en: "I will structure my topic in three points." } },
           { word: "Kommen wir nun zum nächsten Punkt.", phonetic: "ko-men veer noon tsum nekh-sten poonkt", meaning: "Let's now move to the next point.", example: { de: "Kommen wir nun zum nächsten Punkt: die Nachteile.", en: "Let's now move to the next point: the disadvantages." } },
           { word: "Aus eigener Erfahrung...", phonetic: "ows ay-ge-ner er-fah-roong", meaning: "From my own experience...", example: { de: "Aus eigener Erfahrung weiß ich, dass Sport gegen Stress hilft.", en: "From my own experience, I know that sport helps against stress." } },
-          { word: "Haben Sie / Hast du dazu noch Fragen?", phonetic: "hah-ben zee da-tsoo nokh frah-gen", meaning: "Do you have any questions about that?", example: { de: "Haben Sie dazu noch Fragen?", en: "Do you have any further questions?" } }
+          { word: "Haben Sie / Hast du dazu noch Fragen?", phonetic: "hah-ben zee da-tsoo nokh frah-gen", meaning: "Do you have any questions about that?", example: { de: "Haben Sie dazu noch Fragen?", en: "Do you have any further questions?" } },
+          { word: "Zusammenfassend lässt sich sagen, dass...", phonetic: "tsoo-zam-men-fas-sent lest zikh zah-gen das", meaning: "In summary, it can be said that...", example: { de: "Zusammenfassend lässt sich sagen, dass wir auf einem guten Weg sind.", en: "In summary, it can be said that we are on a good path." } }
         ]
       }
     ]
@@ -137,7 +140,8 @@ export const lessonsB2Comm: Record<string, Lesson> = {
           { word: "fristgerecht", phonetic: "frist-ge-rekht", meaning: "within the deadline / on time", example: { de: "Bitte reichen Sie die Unterlagen fristgerecht ein.", en: "Please submit the documents within the deadline." } },
           { word: "in Kenntnis setzen", phonetic: "in kent-nis zet-sen", meaning: "to inform / to notify", example: { de: "Wir setzen Sie hiermit in Kenntnis, dass...", en: "We hereby notify you that..." } },
           { word: "Bezug nehmen auf + Akk", phonetic: "be-tsook nay-men owf", meaning: "to refer to", example: { de: "Ich nehme Bezug auf Ihr Schreiben vom 15. März.", en: "I refer to your letter of March 15." } },
-          { word: "zur Verfügung stellen", phonetic: "tsoor fer-fü-goong shtel-len", meaning: "to provide / to make available", example: { de: "Die Informationen werden Ihnen zur Verfügung gestellt.", en: "The information will be made available to you." } }
+          { word: "zur Verfügung stellen", phonetic: "tsoor fer-fü-goong shtel-len", meaning: "to provide / to make available", example: { de: "Die Informationen werden Ihnen zur Verfügung gestellt.", en: "The information will be made available to you." } },
+          { word: "mit freundlichen Grüßen", phonetic: "mit froint-li-khen grü-sen", meaning: "with kind regards (formal closing)", example: { de: "Mit freundlichen Grüßen, Ihr Team", en: "Sincerely, your team" } }
         ]
       }
     ]
@@ -165,7 +169,9 @@ export const lessonsB2Comm: Record<string, Lesson> = {
           { word: "empört", phonetic: "em-pört", meaning: "outraged / indignant", example: { de: "Die Bürger waren empört über die Entscheidung.", en: "The citizens were outraged by the decision." } },
           { word: "gleichgültig", phonetic: "glaykh-gül-tikh", meaning: "indifferent / apathetic", example: { de: "Er war der Sache gegenüber gleichgültig.", en: "He was indifferent to the matter." } },
           { word: "zuversichtlich", phonetic: "tsoo-fer-zikht-likh", meaning: "confident / optimistic", example: { de: "Ich bin zuversichtlich, dass wir das schaffen.", en: "I'm confident that we can manage it." } },
-          { word: "beunruhigt", phonetic: "be-oon-roo-ikht", meaning: "worried / concerned", example: { de: "Die Nachricht hat mich beunruhigt.", en: "The news has worried me." } }
+          { word: "beunruhigt", phonetic: "be-oon-roo-ikht", meaning: "worried / concerned", example: { de: "Die Nachricht hat mich beunruhigt.", en: "The news has worried me." } },
+          { word: "erschüttert", phonetic: "er-shüt-tert", meaning: "shaken / shocked", example: { de: "Wir sind alle erschüttert von den Ereignissen.", en: "We are all shocked by the events." } },
+          { word: "überwältigt", phonetic: "ü-ber-vel-tikht", meaning: "overwhelmed", example: { de: "Ich bin überwältigt von so viel Unterstützung.", en: "I am overwhelmed by so much support." } }
         ]
       }
     ]

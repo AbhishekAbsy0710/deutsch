@@ -25,7 +25,11 @@ export const lessonsB1Grammar3: Record<string, Lesson> = {
           { word: "trotz", phonetic: "trots", meaning: "despite (+ Gen)", example: { de: "Trotz der Kälte ging er raus.", en: "Despite the cold he went out." } },
           { word: "innerhalb", phonetic: "in-ner-halp", meaning: "within (+ Gen)", example: { de: "Innerhalb eines Monats.", en: "Within a month." } },
           { word: "außerhalb", phonetic: "ow-ser-halp", meaning: "outside of (+ Gen)", example: { de: "Außerhalb der Stadt.", en: "Outside of the city." } },
-          { word: "statt / anstatt", phonetic: "shtat", meaning: "instead of (+ Gen)", example: { de: "Statt des Kaffees trinke ich Tee.", en: "Instead of coffee I drink tea." } }
+          { word: "statt / anstatt", phonetic: "shtat", meaning: "instead of (+ Gen)", example: { de: "Statt des Kaffees trinke ich Tee.", en: "Instead of coffee I drink tea." } },
+          { word: "aufgrund", phonetic: "owf-groont", meaning: "due to / because of (+ Gen)", example: { de: "Aufgrund des Wetters bleiben wir hier.", en: "Due to the weather we are staying here." } },
+          { word: "infolge", phonetic: "in-fol-ge", meaning: "as a result of (+ Gen)", example: { de: "Infolge des Unfalls gab es Stau.", en: "As a result of the accident there was a traffic jam." } },
+          { word: "mangels", phonetic: "mang-els", meaning: "for lack of (+ Gen)", example: { de: "Mangels Beweisen wurde er freigesprochen.", en: "For lack of evidence he was acquitted." } },
+          { word: "zwecks", phonetic: "tsveks", meaning: "for the purpose of (+ Gen)", example: { de: "Zwecks Klärung rufen wir an.", en: "We are calling for the purpose of clarification." } }
         ]
       },
       {
@@ -51,6 +55,15 @@ export const lessonsB1Grammar3: Record<string, Lesson> = {
           { de: "Spoken: Das Auto von meinem Bruder ist rot.", en: "My brother's car is red. (von + Dativ)" },
           { de: "Names + -s: Marias Auto / Toms Haus", en: "Like English 's — just add -s to names (no apostrophe!)" },
           { de: "Names ending in s/z: Thomas' Auto / Fritz' Buch", en: "Add apostrophe only if name ends in s, ß, x, z" }
+        ]
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "des Hauses", phonetic: "des how-zes", meaning: "of the house", example: { de: "Die Tür des Hauses ist blau.", en: "The door of the house is blue." } },
+          { word: "des Mannes", phonetic: "des man-nes", meaning: "of the man", example: { de: "Das Auto des Mannes.", en: "The car of the man." } },
+          { word: "der Frau", phonetic: "dair frow", meaning: "of the woman", example: { de: "Die Tasche der Frau.", en: "The bag of the woman." } },
+          { word: "der Kinder", phonetic: "dair kin-der", meaning: "of the children", example: { de: "Das Spielzeug der Kinder.", en: "The toys of the children." } }
         ]
       },
       {
@@ -94,6 +107,15 @@ export const lessonsB1Grammar3: Record<string, Lesson> = {
         ]
       },
       {
+        type: "flashcard",
+        cards: [
+          { word: "der gute Mann", phonetic: "dair goo-te man", meaning: "the good man (weak)", example: { de: "Der gute Mann hilft mir.", en: "The good man helps me." } },
+          { word: "ein guter Mann", phonetic: "ayn goo-ter man", meaning: "a good man (mixed)", example: { de: "Er ist ein guter Mann.", en: "He is a good man." } },
+          { word: "guter Wein", phonetic: "goo-ter vyn", meaning: "good wine (strong)", example: { de: "Das ist guter Wein.", en: "That is good wine." } },
+          { word: "den guten Mann", phonetic: "den goo-ten man", meaning: "the good man (Accusative)", example: { de: "Ich sehe den guten Mann.", en: "I see the good man." } }
+        ]
+      },
+      {
         type: "quiz-mcq",
         question: "'Ich trinke ____ Kaffee.' (heiß, no article, Akkusativ maskulin)",
         options: ["heißer", "heißen", "heiße", "heißes"],
@@ -119,6 +141,15 @@ export const lessonsB1Grammar3: Record<string, Lesson> = {
         ]
       },
       {
+        type: "flashcard",
+        cards: [
+          { word: "winken → winkend", phonetic: "vin-ken → vin-kent", meaning: "waving", example: { de: "Das winkende Kind.", en: "The waving child." } },
+          { word: "singen → singend", phonetic: "zing-en → zing-ent", meaning: "singing", example: { de: "Der singende Vogel.", en: "The singing bird." } },
+          { word: "fliegen → fliegend", phonetic: "flee-gen → flee-gent", meaning: "flying", example: { de: "Das fliegende Auto.", en: "The flying car." } },
+          { word: "weinen → weinend", phonetic: "vy-nen → vy-nent", meaning: "crying", example: { de: "Das weinende Baby.", en: "The crying baby." } }
+        ]
+      },
+      {
         type: "quiz-fill",
         sentenceBefore: "Das ",
         sentenceAfter: " Kind hat mich geweckt.",
@@ -141,6 +172,15 @@ export const lessonsB1Grammar3: Record<string, Lesson> = {
           { de: "schließen → geschlossen → die geschlossene Tür", en: "the closed door" },
           { de: "kochen → gekocht → das gekochte Ei", en: "the boiled egg" },
           { de: "brechen → gebrochen → der gebrochene Arm", en: "the broken arm" }
+        ]
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "schreiben → geschrieben", phonetic: "shry-ben → ge-shree-ben", meaning: "written", example: { de: "Das geschriebene Wort.", en: "The written word." } },
+          { word: "waschen → gewaschen", phonetic: "va-shen → ge-va-shen", meaning: "washed", example: { de: "Das gewaschene Hemd.", en: "The washed shirt." } },
+          { word: "verstecken → versteckt", phonetic: "fer-shtek-ken → fer-shtekt", meaning: "hidden", example: { de: "Der versteckte Schatz.", en: "The hidden treasure." } },
+          { word: "reparieren → repariert", phonetic: "re-pa-ree-ren → re-pa-reert", meaning: "repaired", example: { de: "Das reparierte Fahrrad.", en: "The repaired bicycle." } }
         ]
       },
       {
@@ -195,7 +235,9 @@ export const lessonsB1Grammar3: Record<string, Lesson> = {
           { word: "dafür / wofür", phonetic: "da-für / vo-für", meaning: "for that / for what", example: { de: "Wofür brauchst du das?", en: "What do you need that for?" } },
           { word: "damit / womit", phonetic: "da-mit / vo-mit", meaning: "with that / with what", example: { de: "Womit kann ich Ihnen helfen?", en: "What can I help you with?" } },
           { word: "daran / woran", phonetic: "da-ran / vo-ran", meaning: "about that / about what (an)", example: { de: "Woran denkst du?", en: "What are you thinking about?" } },
-          { word: "davon / wovon", phonetic: "da-fon / vo-fon", meaning: "of/from that / of/from what", example: { de: "Wovon träumst du?", en: "What do you dream of?" } }
+          { word: "davon / wovon", phonetic: "da-fon / vo-fon", meaning: "of/from that / of/from what", example: { de: "Wovon träumst du?", en: "What do you dream of?" } },
+          { word: "daraus / woraus", phonetic: "da-rows / vo-rows", meaning: "from that / from what", example: { de: "Woraus besteht das?", en: "What is it made of?" } },
+          { word: "darin / worin", phonetic: "da-rin / vo-rin", meaning: "in that / in what", example: { de: "Worin liegt das Problem?", en: "Wherein lies the problem?" } }
         ]
       },
       {
@@ -234,6 +276,15 @@ export const lessonsB1Grammar3: Record<string, Lesson> = {
         ]
       },
       {
+        type: "flashcard",
+        cards: [
+          { word: "mit dem", phonetic: "mit daim", meaning: "with whom / with which (masc/neut Dat)", example: { de: "Der Mann, mit dem ich sprach.", en: "The man with whom I spoke." } },
+          { word: "für die", phonetic: "für dee", meaning: "for whom / for which (fem/pl Acc)", example: { de: "Die Frau, für die ich arbeite.", en: "The woman for whom I work." } },
+          { word: "in der", phonetic: "in dair", meaning: "in which (fem Dat)", example: { de: "Die Stadt, in der ich lebe.", en: "The city in which I live." } },
+          { word: "an den", phonetic: "an den", meaning: "of whom / about which (masc Acc)", example: { de: "Der Film, an den ich dachte.", en: "The movie I thought of." } }
+        ]
+      },
+      {
         type: "quiz-mcq",
         question: "'Die Firma, ____ ____ ich arbeite, ist groß.' (arbeiten bei + Dativ)",
         options: ["in der", "bei der", "für die", "über die"],
@@ -264,7 +315,11 @@ export const lessonsB1Grammar3: Record<string, Lesson> = {
           { word: "sei", phonetic: "zy", meaning: "is (Konjunktiv I of sein)", example: { de: "Er sagt, er sei müde.", en: "He says he is tired. (reported)" } },
           { word: "habe", phonetic: "hah-be", meaning: "has (Konjunktiv I of haben)", example: { de: "Sie meint, sie habe recht.", en: "She thinks she's right. (reported)" } },
           { word: "werde", phonetic: "vair-de", meaning: "will (Konjunktiv I of werden)", example: { de: "Er sagt, er werde kommen.", en: "He says he will come. (reported)" } },
-          { word: "könne", phonetic: "kön-ne", meaning: "can (Konjunktiv I of können)", example: { de: "Sie sagt, sie könne es machen.", en: "She says she can do it. (reported)" } }
+          { word: "könne", phonetic: "kön-ne", meaning: "can (Konjunktiv I of können)", example: { de: "Sie sagt, sie könne es machen.", en: "She says she can do it. (reported)" } },
+          { word: "müsse", phonetic: "müs-se", meaning: "must (Konjunktiv I of müssen)", example: { de: "Er sagt, er müsse gehen.", en: "He says he must go. (reported)" } },
+          { word: "wolle", phonetic: "vol-le", meaning: "wants to (Konjunktiv I of wollen)", example: { de: "Sie sagt, sie wolle schlafen.", en: "She says she wants to sleep. (reported)" } },
+          { word: "solle", phonetic: "zol-le", meaning: "should (Konjunktiv I of sollen)", example: { de: "Der Arzt sagt, er solle ruhen.", en: "The doctor says he should rest. (reported)" } },
+          { word: "dürfe", phonetic: "dür-fe", meaning: "may (Konjunktiv I of dürfen)", example: { de: "Sie sagt, sie dürfe das nicht.", en: "She says she may not do that. (reported)" } }
         ]
       },
       {

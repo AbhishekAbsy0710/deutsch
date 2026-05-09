@@ -135,7 +135,9 @@ export const lessonsB2Exam: Record<string, Lesson> = {
           { word: "der Forumsbeitrag", phonetic: "fo-rooms-by-trahk", meaning: "forum post", example: { de: "Schreiben Sie einen Forumsbeitrag zum Thema.", en: "Write a forum post on the topic." } },
           { word: "Ich bin der Auffassung, dass...", phonetic: "ikh bin dair owf-fas-soong", meaning: "I am of the view that... (B2 opinion)", example: { de: "Ich bin der Auffassung, dass Homeoffice produktiver ist.", en: "I am of the view that working from home is more productive." } },
           { word: "Das liegt daran, dass...", phonetic: "das leekt da-ran das", meaning: "That is because... (B2 reasoning)", example: { de: "Das liegt daran, dass man sich besser konzentrieren kann.", en: "That is because one can concentrate better." } },
-          { word: "Ein gutes Beispiel hierfür ist...", phonetic: "ayn goo-tes by-shpeel heer-für ist", meaning: "A good example of this is...", example: { de: "Ein gutes Beispiel hierfür ist Schweden.", en: "A good example of this is Sweden." } }
+          { word: "Ein gutes Beispiel hierfür ist...", phonetic: "ayn goo-tes by-shpeel heer-für ist", meaning: "A good example of this is...", example: { de: "Ein gutes Beispiel hierfür ist Schweden.", en: "A good example of this is Sweden." } },
+          { word: "meines Erachtens", phonetic: "my-nes er-akh-tens", meaning: "in my opinion", example: { de: "Meines Erachtens ist das ein Fehler.", en: "In my opinion, that is a mistake." } },
+          { word: "die Argumentation", phonetic: "ar-goo-men-ta-tsee-ohn", meaning: "argumentation", example: { de: "Ihre Argumentation ist sehr überzeugend.", en: "Her argumentation is very convincing." } }
         ]
       },
       {
@@ -170,7 +172,9 @@ export const lessonsB2Exam: Record<string, Lesson> = {
           { word: "Sehr geehrte/r...", phonetic: "zair ge-ehr-te", meaning: "Dear... (formal)", example: { de: "Sehr geehrte Frau Schmidt,", en: "Dear Mrs. Schmidt," } },
           { word: "Hiermit möchte ich...", phonetic: "heer-mit möch-te ikh", meaning: "I hereby wish to...", example: { de: "Hiermit möchte ich mich beschweren über...", en: "I hereby wish to complain about..." } },
           { word: "Ich wäre Ihnen dankbar, wenn...", phonetic: "ikh veh-re ee-nen dank-bar ven", meaning: "I would be grateful if...", example: { de: "Ich wäre Ihnen dankbar, wenn Sie mir die Unterlagen zusenden könnten.", en: "I would be grateful if you could send me the documents." } },
-          { word: "Mit freundlichen Grüßen", phonetic: "mit froynt-li-khen grü-sen", meaning: "Kind regards (formal closing)", example: { de: "Mit freundlichen Grüßen, Max Müller", en: "Kind regards, Max Müller" } }
+          { word: "Mit freundlichen Grüßen", phonetic: "mit froynt-li-khen grü-sen", meaning: "Kind regards (formal closing)", example: { de: "Mit freundlichen Grüßen, Max Müller", en: "Kind regards, Max Müller" } },
+          { word: "die Rückmeldung", phonetic: "rük-mel-doong", meaning: "feedback / reply", example: { de: "Ich freue mich auf Ihre Rückmeldung.", en: "I look forward to your reply." } },
+          { word: "sich wenden an", phonetic: "zikh ven-den an", meaning: "to turn to / contact", example: { de: "Bitte wenden Sie sich an unseren Support.", en: "Please contact our support team." } }
         ]
       }
     ]
@@ -197,7 +201,9 @@ export const lessonsB2Exam: Record<string, Lesson> = {
           { word: "Ich möchte folgende Aspekte ansprechen...", phonetic: "ikh möch-te fol-gen-de as-pek-te an-shpre-khen", meaning: "I would like to address the following aspects...", example: { de: "Ich möchte folgende Aspekte ansprechen: erstens die Kosten, zweitens die Qualität.", en: "I'd like to address the following aspects: first the costs, second the quality." } },
           { word: "Da bin ich ganz Ihrer Meinung.", phonetic: "da bin ikh gants ee-rer my-noong", meaning: "I completely agree with you on that.", example: { de: "Da bin ich ganz Ihrer Meinung.", en: "I completely agree with you on that." } },
           { word: "Da muss ich Ihnen leider widersprechen.", phonetic: "da mus ikh ee-nen ly-der vee-der-shpre-khen", meaning: "I'm afraid I have to disagree with you.", example: { de: "Da muss ich Ihnen leider widersprechen.", en: "I'm afraid I have to disagree." } },
-          { word: "Ich sehe das etwas anders.", phonetic: "ikh zay-uh das et-vas an-ders", meaning: "I see that somewhat differently.", example: { de: "Ich sehe das etwas anders, und zwar...", en: "I see that somewhat differently, namely..." } }
+          { word: "Ich sehe das etwas anders.", phonetic: "ikh zay-uh das et-vas an-ders", meaning: "I see that somewhat differently.", example: { de: "Ich sehe das etwas anders, und zwar...", en: "I see that somewhat differently, namely..." } },
+          { word: "die Gliederung", phonetic: "glee-de-roong", meaning: "structure / outline", example: { de: "Ich beginne mit der Gliederung meiner Präsentation.", en: "I'll start with the outline of my presentation." } },
+          { word: "zum Abschluss", phonetic: "tsum ap-shloos", meaning: "in conclusion / finally", example: { de: "Zum Abschluss möchte ich noch erwähnen, dass...", en: "In conclusion, I'd like to mention that..." } }
         ]
       }
     ]
@@ -224,7 +230,9 @@ export const lessonsB2Exam: Record<string, Lesson> = {
           { word: "Ich schlage vor, dass...", phonetic: "ikh shlah-ge for das", meaning: "I suggest that...", example: { de: "Ich schlage vor, dass wir uns morgen treffen.", en: "I suggest that we meet tomorrow." } },
           { word: "Wären Sie damit einverstanden?", phonetic: "veh-ren zee da-mit ayn-fer-shtan-den", meaning: "Would you agree with that?", example: { de: "Wir könnten es so machen. Wären Sie damit einverstanden?", en: "We could do it that way. Would you agree?" } },
           { word: "Einigen wir uns auf...", phonetic: "ay-ni-gen veer uns owf", meaning: "Let's agree on...", example: { de: "Einigen wir uns auf einen Termin nächste Woche.", en: "Let's agree on an appointment next week." } },
-          { word: "Das klingt nach einem guten Kompromiss.", phonetic: "das klingt nakh ay-nem goo-ten kom-pro-mis", meaning: "That sounds like a good compromise.", example: { de: "Das klingt nach einem guten Kompromiss. Einverstanden!", en: "That sounds like a good compromise. Agreed!" } }
+          { word: "Das klingt nach einem guten Kompromiss.", phonetic: "das klingt nakh ay-nem goo-ten kom-pro-mis", meaning: "That sounds like a good compromise.", example: { de: "Das klingt nach einem guten Kompromiss. Einverstanden!", en: "That sounds like a good compromise. Agreed!" } },
+          { word: "der Gegenvorschlag", phonetic: "gay-gen-for-shlahk", meaning: "counter-proposal", example: { de: "Ich hätte einen Gegenvorschlag.", en: "I would have a counter-proposal." } },
+          { word: "die Kompromissbereitschaft", phonetic: "kom-pro-mis-be-ryt-shaft", meaning: "willingness to compromise", example: { de: "Wir müssen Kompromissbereitschaft zeigen.", en: "We must show a willingness to compromise." } }
         ]
       },
       {

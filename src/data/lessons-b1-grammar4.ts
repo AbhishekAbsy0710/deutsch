@@ -27,7 +27,11 @@ export const lessonsB1Grammar4: Record<string, Lesson> = {
           { word: "Wert legen auf", phonetic: "vairt lay-gen", meaning: "to value / attach importance to", example: { de: "Ich lege Wert auf Pünktlichkeit.", en: "I value punctuality." } },
           { word: "in Frage kommen", phonetic: "in frah-ge", meaning: "to be an option / to come into question", example: { de: "Das kommt nicht in Frage!", en: "That's out of the question!" } },
           { word: "zur Verfügung stehen", phonetic: "tsoor fer-fü-goong", meaning: "to be available", example: { de: "Ich stehe Ihnen zur Verfügung.", en: "I'm at your disposal." } },
-          { word: "einen Beitrag leisten", phonetic: "by-trahk lys-ten", meaning: "to make a contribution", example: { de: "Jeder kann einen Beitrag leisten.", en: "Everyone can make a contribution." } }
+          { word: "einen Beitrag leisten", phonetic: "by-trahk lys-ten", meaning: "to make a contribution", example: { de: "Jeder kann einen Beitrag leisten.", en: "Everyone can make a contribution." } },
+          { word: "die Absicht haben", phonetic: "dee ap-zikht hah-ben", meaning: "to have the intention", example: { de: "Ich habe die Absicht zu studieren.", en: "I have the intention to study." } },
+          { word: "Interesse wecken", phonetic: "in-te-res-se vek-ken", meaning: "to arouse interest", example: { de: "Das Thema hat mein Interesse geweckt.", en: "The topic aroused my interest." } },
+          { word: "einen Fehler begehen", phonetic: "ay-nen fay-ler be-gay-en", meaning: "to make a mistake", example: { de: "Er hat einen großen Fehler begangen.", en: "He made a big mistake." } },
+          { word: "die Flucht ergreifen", phonetic: "dee flookht er-gry-fen", meaning: "to flee", example: { de: "Der Dieb ergriff die Flucht.", en: "The thief fled." } }
         ]
       },
       {
@@ -65,7 +69,10 @@ export const lessonsB1Grammar4: Record<string, Lesson> = {
           { word: "einerseits...andererseits", phonetic: "ay-ner-zyts...an-derer-zyts", meaning: "on the one hand...on the other", example: { de: "Einerseits ist es teuer, andererseits ist es gut.", en: "On the one hand it's expensive, on the other it's good." } },
           { word: "folglich", phonetic: "folk-likh", meaning: "consequently", example: { de: "Er lernte nie, folglich fiel er durch.", en: "He never studied, consequently he failed." } },
           { word: "nämlich", phonetic: "naim-likh", meaning: "namely / you see (reason)", example: { de: "Ich kann nicht. Ich bin nämlich krank.", en: "I can't. You see, I'm sick." } },
-          { word: "zwar...aber", phonetic: "tsvar...ah-ber", meaning: "admittedly...but", example: { de: "Es ist zwar teuer, aber gut.", en: "It's admittedly expensive, but good." } }
+          { word: "zwar...aber", phonetic: "tsvar...ah-ber", meaning: "admittedly...but", example: { de: "Es ist zwar teuer, aber gut.", en: "It's admittedly expensive, but good." } },
+          { word: "infolgedessen", phonetic: "in-fol-ge-des-sen", meaning: "as a result", example: { de: "Es regnete, infolgedessen blieben wir da.", en: "It rained, as a result we stayed there." } },
+          { word: "zudem", phonetic: "tsoo-daim", meaning: "moreover / additionally", example: { de: "Er ist klug und zudem sehr nett.", en: "He is smart and moreover very nice." } },
+          { word: "nichtsdestotrotz", phonetic: "nikhts-des-to-trots", meaning: "nevertheless (formal)", example: { de: "Es war schwer, nichtsdestotrotz schaffte er es.", en: "It was hard, nevertheless he managed it." } }
         ]
       },
       {
@@ -94,6 +101,13 @@ export const lessonsB1Grammar4: Record<string, Lesson> = {
         ]
       },
       {
+        type: "flashcard",
+        cards: [
+          { word: "je... desto...", phonetic: "yay... des-to...", meaning: "the... the...", example: { de: "Je mehr, desto besser.", en: "The more, the better." } },
+          { word: "je... umso...", phonetic: "yay... oom-zo...", meaning: "the... the...", example: { de: "Je früher, umso besser.", en: "The earlier, the better." } }
+        ]
+      },
+      {
         type: "quiz-fill",
         sentenceBefore: "Je mehr ich übe, ",
         sentenceAfter: " besser werde ich.",
@@ -119,6 +133,14 @@ export const lessonsB1Grammar4: Record<string, Lesson> = {
         ]
       },
       {
+        type: "flashcard",
+        cards: [
+          { word: "tun so, als ob", phonetic: "toon zo, als op", meaning: "to act as if", example: { de: "Er tut so, als ob er reich wäre.", en: "He acts as if he were rich." } },
+          { word: "aussehen, als ob", phonetic: "ows-zay-en, als op", meaning: "to look as if", example: { de: "Es sieht aus, als ob es regnen würde.", en: "It looks as if it's going to rain." } },
+          { word: "klingen, als ob", phonetic: "kling-en, als op", meaning: "to sound as if", example: { de: "Das klingt, als ob es Spaß machen würde.", en: "That sounds as if it would be fun." } }
+        ]
+      },
+      {
         type: "quiz-mcq",
         question: "'Er spricht so, als ob er alles ____.' (wissen, Konjunktiv II)",
         options: ["wusste", "wüsste", "weiß", "gewusst"],
@@ -141,6 +163,14 @@ export const lessonsB1Grammar4: Record<string, Lesson> = {
           { de: "Du brauchst nur zu fragen. (= Du musst nur fragen.)", en: "You only need to ask." },
           { de: "Er braucht heute nicht zu kommen.", en: "He doesn't need to come today." },
           { de: "⚠️ Du brauchst zu lernen. ❌ (WRONG — never positive!)", en: "Correct: Du musst lernen. ✅" }
+        ]
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "braucht nicht zu", phonetic: "browkht nikht tsoo", meaning: "does not need to", example: { de: "Er braucht nicht zu kommen.", en: "He does not need to come." } },
+          { word: "brauchst nur zu", phonetic: "browkhst noor tsoo", meaning: "only need to", example: { de: "Du brauchst nur zu fragen.", en: "You only need to ask." } },
+          { word: "brauchen kaum zu", phonetic: "brow-khen kowm tsoo", meaning: "hardly need to", example: { de: "Wir brauchen kaum zu warten.", en: "We hardly need to wait." } }
         ]
       },
       {
@@ -181,7 +211,10 @@ export const lessonsB1Grammar4: Record<string, Lesson> = {
           { word: "schicken + Dat + Acc", phonetic: "shik-ken", meaning: "to send sb sth", example: { de: "Ich schicke dir eine E-Mail.", en: "I'll send you an email." } },
           { word: "erklären + Dat + Acc", phonetic: "er-klay-ren", meaning: "to explain sth to sb", example: { de: "Erkläre mir die Aufgabe!", en: "Explain the task to me!" } },
           { word: "empfehlen + Dat + Acc", phonetic: "emp-fay-len", meaning: "to recommend sth to sb", example: { de: "Ich empfehle Ihnen das Restaurant.", en: "I recommend the restaurant to you." } },
-          { word: "leihen + Dat + Acc", phonetic: "ly-en", meaning: "to lend sb sth", example: { de: "Leihst du mir dein Auto?", en: "Will you lend me your car?" } }
+          { word: "leihen + Dat + Acc", phonetic: "ly-en", meaning: "to lend sb sth", example: { de: "Leihst du mir dein Auto?", en: "Will you lend me your car?" } },
+          { word: "schenken + Dat + Acc", phonetic: "sheng-ken", meaning: "to gift sb sth", example: { de: "Ich schenke ihm ein Buch.", en: "I'm gifting him a book." } },
+          { word: "bringen + Dat + Acc", phonetic: "bring-en", meaning: "to bring sb sth", example: { de: "Bring mir ein Glas Wasser!", en: "Bring me a glass of water!" } },
+          { word: "wünschen + Dat + Acc", phonetic: "vün-shen", meaning: "to wish sb sth", example: { de: "Ich wünsche dir viel Glück.", en: "I wish you much luck." } }
         ]
       },
       {

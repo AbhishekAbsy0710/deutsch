@@ -16,7 +16,13 @@ export const lessonsA1New2: Record<string, Lesson> = {
           { word: "das Schlafzimmer", phonetic: "shlahf-tsim-mer", meaning: "the bedroom", example: { de: "Das Schlafzimmer ist oben.", en: "The bedroom is upstairs." } },
           { word: "das Badezimmer", phonetic: "bah-de-tsim-mer", meaning: "the bathroom", example: { de: "Das Badezimmer ist klein.", en: "The bathroom is small." } },
           { word: "der Balkon", phonetic: "bal-kohn", meaning: "the balcony", example: { de: "Wir haben einen Balkon.", en: "We have a balcony." } },
-          { word: "der Garten", phonetic: "gar-ten", meaning: "the garden", example: { de: "Die Kinder spielen im Garten.", en: "The children play in the garden." } }
+          { word: "der Garten", phonetic: "gar-ten", meaning: "the garden", example: { de: "Die Kinder spielen im Garten.", en: "The children play in the garden." } },
+          { word: "das Fenster", phonetic: "fen-ster", meaning: "the window", example: { de: "Mach das Fenster auf.", en: "Open the window." } },
+          { word: "die Tür", phonetic: "tür", meaning: "the door", example: { de: "Die Tür ist zu.", en: "The door is closed." } },
+          { word: "das Bett", phonetic: "bet", meaning: "the bed", example: { de: "Mein Bett ist bequem.", en: "My bed is comfortable." } },
+          { word: "der Schrank", phonetic: "shrank", meaning: "the cupboard / closet", example: { de: "Der Schrank ist voll.", en: "The closet is full." } },
+          { word: "der Tisch", phonetic: "tish", meaning: "the table", example: { de: "Das Essen steht auf dem Tisch.", en: "The food is on the table." } },
+          { word: "der Stuhl", phonetic: "shtool", meaning: "the chair", example: { de: "Ich brauche einen Stuhl.", en: "I need a chair." } },
         ]
       },
       {
@@ -57,7 +63,13 @@ export const lessonsA1New2: Record<string, Lesson> = {
           { word: "das Geld", phonetic: "gelt", meaning: "the money", example: { de: "Ich habe kein Geld.", en: "I have no money." } },
           { word: "bezahlen", phonetic: "be-tsah-len", meaning: "to pay", example: { de: "Wo kann ich bezahlen?", en: "Where can I pay?" } },
           { word: "die Kasse", phonetic: "kas-se", meaning: "the cash register/checkout", example: { de: "Bitte gehen Sie zur Kasse.", en: "Please go to the checkout." } },
-          { word: "der Euro", phonetic: "oy-ro", meaning: "the euro", example: { de: "Das kostet fünf Euro.", en: "That costs five euros." } }
+          { word: "der Euro", phonetic: "oy-ro", meaning: "the euro", example: { de: "Das kostet fünf Euro.", en: "That costs five euros." } },
+          { word: "teuer", phonetic: "toy-er", meaning: "expensive", example: { de: "Das Auto ist sehr teuer.", en: "The car is very expensive." } },
+          { word: "billig", phonetic: "bil-likh", meaning: "cheap", example: { de: "Das ist ganz billig.", en: "That is quite cheap." } },
+          { word: "kaufen", phonetic: "kow-fen", meaning: "to buy", example: { de: "Ich kaufe ein Buch.", en: "I am buying a book." } },
+          { word: "verkaufen", phonetic: "fer-kow-fen", meaning: "to sell", example: { de: "Er verkauft sein Haus.", en: "He is selling his house." } },
+          { word: "die Kreditkarte", phonetic: "kre-deet-kar-te", meaning: "the credit card", example: { de: "Kann ich mit Kreditkarte bezahlen?", en: "Can I pay by credit card?" } },
+          { word: "der Kassenbon", phonetic: "kas-sen-bon", meaning: "the receipt", example: { de: "Brauchen Sie den Kassenbon?", en: "Do you need the receipt?" } },
         ]
       },
       {
@@ -101,7 +113,12 @@ export const lessonsA1New2: Record<string, Lesson> = {
           { word: "die Straße", phonetic: "shtrah-se", meaning: "the street", example: { de: "Die Straße ist lang.", en: "The street is long." } },
           { word: "die Apotheke", phonetic: "a-po-tay-ke", meaning: "the pharmacy", example: { de: "Wo ist die Apotheke?", en: "Where is the pharmacy?" } },
           { word: "die Post", phonetic: "post", meaning: "the post office", example: { de: "Die Post ist am Marktplatz.", en: "The post office is at the market square." } },
-          { word: "der Bahnhof", phonetic: "bahn-hohf", meaning: "the train station", example: { de: "Wie komme ich zum Bahnhof?", en: "How do I get to the train station?" } }
+          { word: "der Bahnhof", phonetic: "bahn-hohf", meaning: "the train station", example: { de: "Wie komme ich zum Bahnhof?", en: "How do I get to the train station?" } },
+          { word: "die Bank", phonetic: "bank", meaning: "the bank", example: { de: "Die Bank ist geschlossen.", en: "The bank is closed." } },
+          { word: "das Krankenhaus", phonetic: "kran-ken-hows", meaning: "the hospital", example: { de: "Ich fahre ins Krankenhaus.", en: "I am going to the hospital." } },
+          { word: "der Flughafen", phonetic: "flook-hah-fen", meaning: "the airport", example: { de: "Der Flughafen ist groß.", en: "The airport is big." } },
+          { word: "der Bus", phonetic: "boos", meaning: "the bus", example: { de: "Ich fahre mit dem Bus.", en: "I take the bus." } },
+          { word: "die U-Bahn", phonetic: "oo-bahn", meaning: "the subway", example: { de: "Wo ist die U-Bahn?", en: "Where is the subway?" } },
         ]
       },
       {
@@ -143,9 +160,14 @@ export const lessonsA1New2: Record<string, Lesson> = {
           { word: "die Haare", phonetic: "hah-re", meaning: "the hair", example: { de: "Sie hat lange Haare.", en: "She has long hair." } },
           { word: "die Augen", phonetic: "ow-gen", meaning: "the eyes", example: { de: "Er hat blaue Augen.", en: "He has blue eyes." } },
           { word: "dünn", phonetic: "dün", meaning: "thin / slim", example: { de: "Er ist groß und dünn.", en: "He is tall and thin." } },
+          { word: "dick", phonetic: "dik", meaning: "fat / thick", example: { de: "Der Hund ist etwas dick.", en: "The dog is a bit fat." } },
           { word: "freundlich", phonetic: "froynt-likh", meaning: "friendly", example: { de: "Sie ist sehr freundlich.", en: "She is very friendly." } },
           { word: "nett", phonetic: "net", meaning: "nice", example: { de: "Er ist ein netter Mann.", en: "He is a nice man." } },
-          { word: "lustig", phonetic: "loos-tikh", meaning: "funny", example: { de: "Mein Bruder ist lustig.", en: "My brother is funny." } }
+          { word: "lustig", phonetic: "loos-tikh", meaning: "funny", example: { de: "Mein Bruder ist lustig.", en: "My brother is funny." } },
+          { word: "alt", phonetic: "alt", meaning: "old", example: { de: "Das Haus ist sehr alt.", en: "The house is very old." } },
+          { word: "jung", phonetic: "yoong", meaning: "young", example: { de: "Sie ist noch jung.", en: "She is still young." } },
+          { word: "schön", phonetic: "shöhn", meaning: "beautiful / nice", example: { de: "Das Bild ist schön.", en: "The picture is beautiful." } },
+          { word: "hässlich", phonetic: "hes-likh", meaning: "ugly", example: { de: "Das Gebäude ist hässlich.", en: "The building is ugly." } },
         ]
       },
       {
@@ -186,10 +208,14 @@ export const lessonsA1New2: Record<string, Lesson> = {
           { word: "der Geburtstag", phonetic: "ge-boorts-tahk", meaning: "the birthday", example: { de: "Herzlichen Glückwunsch zum Geburtstag!", en: "Happy birthday!" } },
           { word: "Weihnachten", phonetic: "vy-nakh-ten", meaning: "Christmas", example: { de: "Frohe Weihnachten!", en: "Merry Christmas!" } },
           { word: "Ostern", phonetic: "oh-stern", meaning: "Easter", example: { de: "Frohe Ostern!", en: "Happy Easter!" } },
+          { word: "Silvester", phonetic: "zil-ves-ter", meaning: "New Year's Eve", example: { de: "Was machst du an Silvester?", en: "What are you doing on New Year's Eve?" } },
           { word: "feiern", phonetic: "fy-ern", meaning: "to celebrate", example: { de: "Wir feiern heute.", en: "We are celebrating today." } },
           { word: "das Geschenk", phonetic: "ge-shenk", meaning: "the gift/present", example: { de: "Das ist ein Geschenk für dich.", en: "That is a gift for you." } },
           { word: "die Einladung", phonetic: "ayn-lah-doong", meaning: "the invitation", example: { de: "Danke für die Einladung!", en: "Thanks for the invitation!" } },
-          { word: "die Party", phonetic: "par-tee", meaning: "the party", example: { de: "Kommst du zur Party?", en: "Are you coming to the party?" } }
+          { word: "die Party", phonetic: "par-tee", meaning: "the party", example: { de: "Kommst du zur Party?", en: "Are you coming to the party?" } },
+          { word: "das Fest", phonetic: "fest", meaning: "the festival / celebration", example: { de: "Das Fest war sehr schön.", en: "The celebration was very nice." } },
+          { word: "gratulieren", phonetic: "gra-too-lee-ren", meaning: "to congratulate", example: { de: "Ich gratuliere dir!", en: "I congratulate you!" } },
+          { word: "der Kuchen", phonetic: "koo-khen", meaning: "the cake", example: { de: "Ich backe einen Kuchen.", en: "I am baking a cake." } },
         ]
       },
       {
@@ -286,7 +312,11 @@ export const lessonsA1New2: Record<string, Lesson> = {
           { word: "das Stück", phonetic: "shtük", meaning: "the piece", example: { de: "Ein Stück Kuchen, bitte.", en: "A piece of cake, please." } },
           { word: "die Tüte", phonetic: "tü-te", meaning: "the bag", example: { de: "Brauchen Sie eine Tüte?", en: "Do you need a bag?" } },
           { word: "das Gramm", phonetic: "gram", meaning: "gram", example: { de: "200 Gramm Schinken.", en: "200 grams of ham." } },
-          { word: "die Flasche", phonetic: "fla-she", meaning: "the bottle", example: { de: "Eine Flasche Wasser, bitte.", en: "A bottle of water, please." } }
+          { word: "das Kilo", phonetic: "kee-lo", meaning: "kilo / kilogram", example: { de: "Ein Kilo Äpfel, bitte.", en: "One kilo of apples, please." } },
+          { word: "das Pfund", phonetic: "pfoont", meaning: "pound (500g)", example: { de: "Ein Pfund Tomaten.", en: "A pound of tomatoes." } },
+          { word: "der Liter", phonetic: "lee-ter", meaning: "liter", example: { de: "Ein Liter Milch.", en: "A liter of milk." } },
+          { word: "die Flasche", phonetic: "fla-she", meaning: "the bottle", example: { de: "Eine Flasche Wasser, bitte.", en: "A bottle of water, please." } },
+          { word: "die Dose", phonetic: "do-ze", meaning: "the can", example: { de: "Eine Dose Cola.", en: "A can of cola." } },
         ]
       },
       {
@@ -338,6 +368,10 @@ export const lessonsA1New2: Record<string, Lesson> = {
           { word: "Geh!", phonetic: "gay", meaning: "Go! (du)", example: { de: "Geh nach Hause!", en: "Go home!" } },
           { word: "Warte!", phonetic: "var-te", meaning: "Wait! (du)", example: { de: "Warte auf mich!", en: "Wait for me!" } },
           { word: "Hör zu!", phonetic: "hör tsoo", meaning: "Listen! (du)", example: { de: "Hör bitte zu!", en: "Please listen!" } },
+          { word: "Hilf mir!", phonetic: "hilf meer", meaning: "Help me! (du)", example: { de: "Hilf mir bitte!", en: "Please help me!" } },
+          { word: "Ruf an!", phonetic: "roof an", meaning: "Call! (du)", example: { de: "Ruf mich morgen an!", en: "Call me tomorrow!" } },
+          { word: "Mach auf!", phonetic: "makh owf", meaning: "Open! (du)", example: { de: "Mach die Tür auf!", en: "Open the door!" } },
+          { word: "Mach zu!", phonetic: "makh tsoo", meaning: "Close! (du)", example: { de: "Mach das Fenster zu!", en: "Close the window!" } },
           { word: "bitte", phonetic: "bit-te", meaning: "please", example: { de: "Hilf mir bitte!", en: "Please help me!" } }
         ]
       },

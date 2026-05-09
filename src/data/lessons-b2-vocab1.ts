@@ -26,7 +26,9 @@ export const lessonsB2Vocab1: Record<string, Lesson> = {
           { word: "die Einwanderung", phonetic: "ayn-van-de-roong", meaning: "immigration", example: { de: "Die Einwanderung nach Deutschland hat zugenommen.", en: "Immigration to Germany has increased." } },
           { word: "sich integrieren", phonetic: "zikh in-te-gree-ren", meaning: "to integrate (oneself)", example: { de: "Er hat sich gut integriert.", en: "He has integrated well." } },
           { word: "die Herkunft", phonetic: "hehr-koonft", meaning: "origin / background", example: { de: "Die Herkunft spielt keine Rolle.", en: "Origin doesn't matter." } },
-          { word: "das Heimweh", phonetic: "hym-vay", meaning: "homesickness", example: { de: "Sie hat Heimweh nach ihrer Familie.", en: "She is homesick for her family." } }
+          { word: "das Heimweh", phonetic: "hym-vay", meaning: "homesickness", example: { de: "Sie hat Heimweh nach ihrer Familie.", en: "She is homesick for her family." } },
+          { word: "die Wurzeln (Pl.)", phonetic: "voor-tseln", meaning: "roots", example: { de: "Er hat seine Wurzeln nicht vergessen.", en: "He has not forgotten his roots." } },
+          { word: "der Brauch", phonetic: "browkh", meaning: "custom / tradition", example: { de: "Das ist ein alter lokaler Brauch.", en: "That is an old local custom." } }
         ]
       },
       {
@@ -53,7 +55,9 @@ export const lessonsB2Vocab1: Record<string, Lesson> = {
           { word: "die Muttersprache", phonetic: "mu-ter-shpra-khe", meaning: "native language / mother tongue", example: { de: "Deutsch ist nicht meine Muttersprache.", en: "German is not my native language." } },
           { word: "die Redewendung", phonetic: "ray-de-ven-doong", meaning: "idiom / expression", example: { de: "Redewendungen machen die Sprache lebendig.", en: "Idioms make language lively." } },
           { word: "der Dialekt", phonetic: "dee-a-lekt", meaning: "dialect", example: { de: "In Bayern spricht man einen anderen Dialekt.", en: "In Bavaria, they speak a different dialect." } },
-          { word: "nonverbal", phonetic: "non-ver-bahl", meaning: "nonverbal", example: { de: "Nonverbale Kommunikation wird oft unterschätzt.", en: "Nonverbal communication is often underestimated." } }
+          { word: "nonverbal", phonetic: "non-ver-bahl", meaning: "nonverbal", example: { de: "Nonverbale Kommunikation wird oft unterschätzt.", en: "Nonverbal communication is often underestimated." } },
+          { word: "schlagfertig", phonetic: "shlahk-fer-tikh", meaning: "quick-witted", example: { de: "Sie hat immer eine schlagfertige Antwort parat.", en: "She always has a quick-witted answer ready." } },
+          { word: "sich ausdrücken", phonetic: "zikh ows-drü-ken", meaning: "to express oneself", example: { de: "Er kann sich sehr gut auf Deutsch ausdrücken.", en: "He can express himself very well in German." } }
         ]
       },
       {
@@ -80,7 +84,9 @@ export const lessonsB2Vocab1: Record<string, Lesson> = {
           { word: "der Lebenslauf", phonetic: "lay-bens-lowf", meaning: "CV / resume", example: { de: "Bitte senden Sie Ihren Lebenslauf.", en: "Please send your CV." } },
           { word: "die Qualifikation", phonetic: "kva-li-fi-ka-tsee-ohn", meaning: "qualification", example: { de: "Welche Qualifikationen bringen Sie mit?", en: "What qualifications do you bring?" } },
           { word: "der Arbeitgeber", phonetic: "ar-byt-gay-ber", meaning: "employer", example: { de: "Ein guter Arbeitgeber bietet Weiterbildung.", en: "A good employer offers further training." } },
-          { word: "der Arbeitnehmer", phonetic: "ar-byt-nay-mer", meaning: "employee", example: { de: "Arbeitnehmer haben Rechte.", en: "Employees have rights." } }
+          { word: "der Arbeitnehmer", phonetic: "ar-byt-nay-mer", meaning: "employee", example: { de: "Arbeitnehmer haben Rechte.", en: "Employees have rights." } },
+          { word: "die Probezeit", phonetic: "proh-be-tsayt", meaning: "probationary period", example: { de: "Die Probezeit dauert in der Regel sechs Monate.", en: "The probationary period usually lasts six months." } },
+          { word: "der Karrieresprung", phonetic: "kar-ree-e-re-shproong", meaning: "career leap", example: { de: "Dieser Job ist ein großer Karrieresprung für sie.", en: "This job is a big career leap for her." } }
         ]
       },
       {
@@ -107,7 +113,9 @@ export const lessonsB2Vocab1: Record<string, Lesson> = {
           { word: "die Elternzeit", phonetic: "el-tern-tsayt", meaning: "parental leave", example: { de: "Er geht für sechs Monate in Elternzeit.", en: "He is going on parental leave for six months." } },
           { word: "das Homeoffice", phonetic: "hohm-of-fis", meaning: "working from home", example: { de: "Seit der Pandemie arbeiten viele im Homeoffice.", en: "Since the pandemic, many work from home." } },
           { word: "die Kernarbeitszeit", phonetic: "kern-ar-byts-tsayt", meaning: "core working hours", example: { de: "Die Kernarbeitszeit ist von 10 bis 15 Uhr.", en: "Core working hours are from 10 to 3 PM." } },
-          { word: "der Tarifvertrag", phonetic: "ta-reef-fer-trahk", meaning: "collective agreement", example: { de: "Der Tarifvertrag regelt die Gehälter.", en: "The collective agreement regulates salaries." } }
+          { word: "der Tarifvertrag", phonetic: "ta-reef-fer-trahk", meaning: "collective agreement", example: { de: "Der Tarifvertrag regelt die Gehälter.", en: "The collective agreement regulates salaries." } },
+          { word: "die Kündigungsfrist", phonetic: "kün-di-goongs-frist", meaning: "notice period", example: { de: "Meine Kündigungsfrist beträgt drei Monate.", en: "My notice period is three months." } },
+          { word: "die Gewerkschaft", phonetic: "ge-verk-shaft", meaning: "trade union", example: { de: "Die Gewerkschaft fordert höhere Löhne.", en: "The trade union demands higher wages." } }
         ]
       },
       {
@@ -134,7 +142,9 @@ export const lessonsB2Vocab1: Record<string, Lesson> = {
           { word: "das Ehrenamt", phonetic: "ay-ren-amt", meaning: "volunteer work / honorary position", example: { de: "Millionen Deutsche engagieren sich im Ehrenamt.", en: "Millions of Germans are involved in volunteer work." } },
           { word: "der Zusammenhalt", phonetic: "tsoo-za-men-halt", meaning: "cohesion / solidarity", example: { de: "Der gesellschaftliche Zusammenhalt ist wichtig.", en: "Social cohesion is important." } },
           { word: "die Toleranz", phonetic: "to-le-rants", meaning: "tolerance", example: { de: "Toleranz ist die Grundlage einer offenen Gesellschaft.", en: "Tolerance is the foundation of an open society." } },
-          { word: "das Vorurteil", phonetic: "for-ur-tyl", meaning: "prejudice", example: { de: "Vorurteile abbauen ist eine wichtige Aufgabe.", en: "Breaking down prejudices is an important task." } }
+          { word: "das Vorurteil", phonetic: "for-ur-tyl", meaning: "prejudice", example: { de: "Vorurteile abbauen ist eine wichtige Aufgabe.", en: "Breaking down prejudices is an important task." } },
+          { word: "die Chancengleichheit", phonetic: "shan-sen-glaykh-hyt", meaning: "equal opportunity", example: { de: "Chancengleichheit im Bildungssystem ist essenziell.", en: "Equal opportunity in the education system is essential." } },
+          { word: "die Solidarität", phonetic: "zo-li-da-ri-tet", meaning: "solidarity", example: { de: "In Krisenzeiten ist Solidarität gefragt.", en: "In times of crisis, solidarity is required." } }
         ]
       },
       {
@@ -161,7 +171,9 @@ export const lessonsB2Vocab1: Record<string, Lesson> = {
           { word: "die Nachhaltigkeit", phonetic: "nakh-hal-tikh-kyt", meaning: "sustainability", example: { de: "Nachhaltigkeit muss Priorität haben.", en: "Sustainability must be a priority." } },
           { word: "bahnbrechend", phonetic: "bahn-bre-khent", meaning: "groundbreaking", example: { de: "Das war eine bahnbrechende Entdeckung.", en: "That was a groundbreaking discovery." } },
           { word: "der Durchbruch", phonetic: "durkh-brookh", meaning: "breakthrough", example: { de: "Forscher haben einen Durchbruch erzielt.", en: "Researchers have achieved a breakthrough." } },
-          { word: "die Studie", phonetic: "shtoo-dee-uh", meaning: "study (research)", example: { de: "Einer aktuellen Studie zufolge...", en: "According to a current study..." } }
+          { word: "die Studie", phonetic: "shtoo-dee-uh", meaning: "study (research)", example: { de: "Einer aktuellen Studie zufolge...", en: "According to a current study..." } },
+          { word: "die Forschungseinrichtung", phonetic: "for-shoongs-ayn-rikh-toong", meaning: "research facility", example: { de: "Die Universität hat eine neue Forschungseinrichtung gebaut.", en: "The university built a new research facility." } },
+          { word: "die Erkenntnis", phonetic: "er-kent-nis", meaning: "insight / finding", example: { de: "Diese Erkenntnis wird die Medizin verändern.", en: "This finding will change medicine." } }
         ]
       },
       {
@@ -185,7 +197,9 @@ export const lessonsB2Vocab1: Record<string, Lesson> = {
           { word: "die Cybermobbing", phonetic: "sy-ber-mo-bing", meaning: "cyberbullying", example: { de: "Cybermobbing ist ein wachsendes Problem.", en: "Cyberbullying is a growing problem." } },
           { word: "der Algorithmus", phonetic: "al-go-rit-mus", meaning: "algorithm", example: { de: "Algorithmen bestimmen, was wir online sehen.", en: "Algorithms determine what we see online." } },
           { word: "die Desinformation", phonetic: "des-in-for-ma-tsee-ohn", meaning: "disinformation / fake news", example: { de: "Desinformation untergräbt das Vertrauen.", en: "Disinformation undermines trust." } },
-          { word: "die Medienkompetenz", phonetic: "me-dee-en-kom-pe-tents", meaning: "media literacy", example: { de: "Medienkompetenz muss in der Schule unterrichtet werden.", en: "Media literacy must be taught in schools." } }
+          { word: "die Medienkompetenz", phonetic: "me-dee-en-kom-pe-tents", meaning: "media literacy", example: { de: "Medienkompetenz muss in der Schule unterrichtet werden.", en: "Media literacy must be taught in schools." } },
+          { word: "die Privatsphäre", phonetic: "pri-vaht-sfeh-re", meaning: "privacy", example: { de: "Jeder hat ein Recht auf Privatsphäre.", en: "Everyone has a right to privacy." } },
+          { word: "das Urheberrecht", phonetic: "oor-hay-ber-rekht", meaning: "copyright", example: { de: "Man darf das Urheberrecht nicht verletzen.", en: "One must not violate copyright." } }
         ]
       },
       {
@@ -210,7 +224,9 @@ export const lessonsB2Vocab1: Record<string, Lesson> = {
           { word: "die Parallelgesellschaft", phonetic: "pa-ra-lel-ge-zel-shaft", meaning: "parallel society", example: { de: "Parallelgesellschaften entstehen durch fehlende Integration.", en: "Parallel societies arise from lack of integration." } },
           { word: "die Mehrsprachigkeit", phonetic: "mair-shprah-khikh-kyt", meaning: "multilingualism", example: { de: "Mehrsprachigkeit ist in Europa die Norm.", en: "Multilingualism is the norm in Europe." } },
           { word: "die Vielfalt", phonetic: "feel-falt", meaning: "diversity", example: { de: "Kulturelle Vielfalt ist eine Bereicherung.", en: "Cultural diversity is an enrichment." } },
-          { word: "der Integrationskurs", phonetic: "in-te-gra-tsee-ohns-koors", meaning: "integration course", example: { de: "Integrationskurse umfassen Sprach- und Orientierungsunterricht.", en: "Integration courses include language and orientation classes." } }
+          { word: "der Integrationskurs", phonetic: "in-te-gra-tsee-ohns-koors", meaning: "integration course", example: { de: "Integrationskurse umfassen Sprach- und Orientierungsunterricht.", en: "Integration courses include language and orientation classes." } },
+          { word: "die Assimilation", phonetic: "as-si-mi-la-tsee-ohn", meaning: "assimilation", example: { de: "Integration bedeutet nicht zwangsläufig Assimilation.", en: "Integration does not necessarily mean assimilation." } },
+          { word: "die Segregation", phonetic: "ze-gre-ga-tsee-ohn", meaning: "segregation", example: { de: "Die Segregation in den Städten nimmt zu.", en: "Segregation in cities is increasing." } }
         ]
       },
       {
@@ -237,7 +253,9 @@ export const lessonsB2Vocab1: Record<string, Lesson> = {
           { word: "sachlich", phonetic: "zakh-likh", meaning: "objective / factual", example: { de: "Bitte bleiben Sie sachlich.", en: "Please stay objective." } },
           { word: "differenziert", phonetic: "di-fe-ren-tseert", meaning: "nuanced / differentiated", example: { de: "Eine differenzierte Betrachtung ist nötig.", en: "A nuanced view is necessary." } },
           { word: "überzeugen", phonetic: "ü-ber-tsoy-gen", meaning: "to convince", example: { de: "Können Sie mich überzeugen?", en: "Can you convince me?" } },
-          { word: "der Kompromiss", phonetic: "kom-pro-mis", meaning: "compromise", example: { de: "Wir müssen einen Kompromiss finden.", en: "We need to find a compromise." } }
+          { word: "der Kompromiss", phonetic: "kom-pro-mis", meaning: "compromise", example: { de: "Wir müssen einen Kompromiss finden.", en: "We need to find a compromise." } },
+          { word: "die Rhetorik", phonetic: "re-toh-rik", meaning: "rhetoric", example: { de: "Er beherrscht die Kunst der Rhetorik.", en: "He masters the art of rhetoric." } },
+          { word: "einlenken", phonetic: "ayn-len-ken", meaning: "to yield / give in", example: { de: "Am Ende musste die Opposition einlenken.", en: "In the end, the opposition had to yield." } }
         ]
       },
       {
@@ -264,7 +282,9 @@ export const lessonsB2Vocab1: Record<string, Lesson> = {
           { word: "die Finanzierung", phonetic: "fi-nan-tsee-roong", meaning: "financing / funding", example: { de: "Die Finanzierung des Projekts ist gesichert.", en: "The project's financing is secured." } },
           { word: "das Geschäftsmodell", phonetic: "ge-shefts-mo-del", meaning: "business model", example: { de: "Wir müssen unser Geschäftsmodell überdenken.", en: "We need to rethink our business model." } },
           { word: "scheitern", phonetic: "shy-tern", meaning: "to fail", example: { de: "90% der Start-ups scheitern in den ersten drei Jahren.", en: "90% of start-ups fail in the first three years." } },
-          { word: "skalieren", phonetic: "ska-lee-ren", meaning: "to scale (a business)", example: { de: "Das Unternehmen konnte schnell skalieren.", en: "The company was able to scale quickly." } }
+          { word: "skalieren", phonetic: "ska-lee-ren", meaning: "to scale (a business)", example: { de: "Das Unternehmen konnte schnell skalieren.", en: "The company was able to scale quickly." } },
+          { word: "der Konkurrent", phonetic: "kon-koo-rent", meaning: "competitor", example: { de: "Unser größter Konkurrent hat ein neues Produkt auf den Markt gebracht.", en: "Our biggest competitor launched a new product." } },
+          { word: "der Profit", phonetic: "pro-fit", meaning: "profit", example: { de: "Das Unternehmen macht dieses Jahr viel Profit.", en: "The company is making a lot of profit this year." } }
         ]
       },
       {

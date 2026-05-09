@@ -34,7 +34,14 @@ export const lessonsA2New7: Record<string, Lesson> = {
           { word: "versuchen, ... zu", phonetic: "fer-zoo-khen", meaning: "to try to...", example: { de: "Ich versuche, mehr Sport zu machen.", en: "I try to do more sport." } },
           { word: "anfangen, ... zu", phonetic: "an-fang-en", meaning: "to start to...", example: { de: "Es fängt an zu regnen.", en: "It starts to rain." } },
           { word: "aufhören, ... zu", phonetic: "owf-hö-ren", meaning: "to stop ...-ing", example: { de: "Ich höre auf zu rauchen.", en: "I stop smoking." } },
-          { word: "vergessen, ... zu", phonetic: "fer-ges-sen", meaning: "to forget to...", example: { de: "Vergiss nicht, die Tür abzuschließen!", en: "Don't forget to lock the door!" } }
+          { word: "vergessen, ... zu", phonetic: "fer-ges-sen", meaning: "to forget to...", example: { de: "Vergiss nicht, die Tür abzuschließen!", en: "Don't forget to lock the door!" } },
+          { word: "hoffen, ... zu", phonetic: "hof-fen", meaning: "to hope to...", example: { de: "Ich hoffe, dich bald zu sehen.", en: "I hope to see you soon." } },
+          { word: "planen, ... zu", phonetic: "plah-nen", meaning: "to plan to...", example: { de: "Wir planen, umzuziehen.", en: "We plan to move." } },
+          { word: "vorhaben, ... zu", phonetic: "for-hah-ben", meaning: "to intend to...", example: { de: "Was hast du vor zu tun?", en: "What do you intend to do?" } },
+          { word: "Lust haben, ... zu", phonetic: "loost hah-ben", meaning: "to feel like ...-ing", example: { de: "Hast du Lust, spazieren zu gehen?", en: "Do you feel like going for a walk?" } },
+          { word: "Zeit haben, ... zu", phonetic: "tsyt hah-ben", meaning: "to have time to...", example: { de: "Ich habe keine Zeit, zu kochen.", en: "I have no time to cook." } },
+          { word: "Es ist wichtig, ... zu", phonetic: "es ist vikh-tikh", meaning: "It is important to...", example: { de: "Es ist wichtig, viel Wasser zu trinken.", en: "It is important to drink a lot of water." } },
+          { word: "Es ist verboten, ... zu", phonetic: "es ist fer-boh-ten", meaning: "It is forbidden to...", example: { de: "Es ist verboten, hier zu parken.", en: "It is forbidden to park here." } }
         ]
       },
       {
@@ -80,7 +87,11 @@ export const lessonsA2New7: Record<string, Lesson> = {
         type: "flashcard",
         cards: [
           { word: "um...zu + Infinitiv", phonetic: "oom...tsoo", meaning: "in order to (same subject)", example: { de: "Ich jogge, um gesund zu bleiben.", en: "I jog to stay healthy." } },
-          { word: "damit", phonetic: "da-mit", meaning: "so that (different subjects)", example: { de: "Ich erkläre es, damit du es verstehst.", en: "I explain it so that you understand." } }
+          { word: "damit", phonetic: "da-mit", meaning: "so that (different subjects)", example: { de: "Ich erkläre es, damit du es verstehst.", en: "I explain it so that you understand." } },
+          { word: "wozu?", phonetic: "vo-tsoo", meaning: "what for? / to what end?", example: { de: "Wozu lernst du Deutsch?", en: "What are you learning German for?" } },
+          { word: "die Absicht", phonetic: "ap-zikht", meaning: "the intention", example: { de: "Das war nicht meine Absicht.", en: "That was not my intention." } },
+          { word: "das Ziel", phonetic: "tseel", meaning: "the goal", example: { de: "Mein Ziel ist es, B1 zu erreichen.", en: "My goal is to reach B1." } },
+          { word: "deshalb", phonetic: "des-halp", meaning: "therefore (result)", example: { de: "Ich bin krank, deshalb bleibe ich zu Hause.", en: "I am sick, therefore I stay at home." } }
         ]
       },
       {
@@ -124,8 +135,14 @@ export const lessonsA2New7: Record<string, Lesson> = {
         cards: [
           { word: "das Brötchen", phonetic: "brööt-khen", meaning: "bread roll (little bread)", example: { de: "Zwei Brötchen, bitte!", en: "Two bread rolls, please!" } },
           { word: "das Mädchen", phonetic: "met-khen", meaning: "girl (always neuter!)", example: { de: "Das Mädchen heißt Lisa.", en: "The girl is called Lisa." } },
+          { word: "das Häuschen", phonetic: "hoys-khen", meaning: "little house", example: { de: "Wir haben ein Häuschen im Garten.", en: "We have a little house in the garden." } },
+          { word: "das Tischlein", phonetic: "tish-lyn", meaning: "little table", example: { de: "Das ist ein schönes Tischlein.", en: "That is a nice little table." } },
           { word: "die -ung", phonetic: "-oong", meaning: "feminine ending (always!)", example: { de: "Wohnung, Rechnung, Übung, Zeitung", en: "apartment, bill, exercise, newspaper" } },
-          { word: "die -keit / -heit", phonetic: "-kyt / -hyt", meaning: "feminine ending (always!)", example: { de: "Möglichkeit, Gesundheit, Freiheit", en: "possibility, health, freedom" } }
+          { word: "die -keit / -heit", phonetic: "-kyt / -hyt", meaning: "feminine ending (always!)", example: { de: "Möglichkeit, Gesundheit, Freiheit", en: "possibility, health, freedom" } },
+          { word: "die -schaft", phonetic: "-shaft", meaning: "feminine ending (always!)", example: { de: "Freundschaft, Mannschaft, Gesellschaft", en: "friendship, team, society" } },
+          { word: "die -tion", phonetic: "-tsee-ohn", meaning: "feminine ending (always!)", example: { de: "Information, Situation, Aktion", en: "information, situation, action" } },
+          { word: "die -tät", phonetic: "-tet", meaning: "feminine ending (always!)", example: { de: "Universität, Qualität, Realität", en: "university, quality, reality" } },
+          { word: "der -ismus", phonetic: "-is-moos", meaning: "masculine ending (always!)", example: { de: "Tourismus, Optimismus, Kapitalismus", en: "tourism, optimism, capitalism" } }
         ]
       },
       {

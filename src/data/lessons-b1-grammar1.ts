@@ -31,7 +31,13 @@ export const lessonsB1Grammar1: Record<string, Lesson> = {
           { word: "sitzen → saß", phonetic: "zahs", meaning: "sat", example: { de: "Er saß am Tisch.", en: "He sat at the table." } },
           { word: "stehen → stand", phonetic: "shtant", meaning: "stood", example: { de: "Sie stand vor der Tür.", en: "She stood at the door." } },
           { word: "tragen → trug", phonetic: "trook", meaning: "wore/carried", example: { de: "Sie trug ein rotes Kleid.", en: "She wore a red dress." } },
-          { word: "schlafen → schlief", phonetic: "shleef", meaning: "slept", example: { de: "Das Kind schlief ein.", en: "The child fell asleep." } }
+          { word: "schlafen → schlief", phonetic: "shleef", meaning: "slept", example: { de: "Das Kind schlief ein.", en: "The child fell asleep." } },
+          { word: "bleiben → blieb", phonetic: "bleep", meaning: "stayed", example: { de: "Wir blieben zu Hause.", en: "We stayed at home." } },
+          { word: "denken → dachte", phonetic: "dakh-te", meaning: "thought", example: { de: "Ich dachte an dich.", en: "I thought of you." } },
+          { word: "bringen → brachte", phonetic: "brakh-te", meaning: "brought", example: { de: "Er brachte Geschenke mit.", en: "He brought gifts along." } },
+          { word: "wissen → wusste", phonetic: "voos-te", meaning: "knew", example: { de: "Sie wusste die Antwort.", en: "She knew the answer." } },
+          { word: "tun → tat", phonetic: "taht", meaning: "did", example: { de: "Das tat mir weh.", en: "That hurt me." } },
+          { word: "ziehen → zog", phonetic: "tsohk", meaning: "pulled / moved", example: { de: "Er zog nach Berlin.", en: "He moved to Berlin." } }
         ]
       },
       {
@@ -78,7 +84,11 @@ export const lessonsB1Grammar1: Record<string, Lesson> = {
           { word: "dürfte", phonetic: "dürf-te", meaning: "would be allowed / probably", example: { de: "Das dürfte stimmen.", en: "That's probably right." } },
           { word: "wüsste", phonetic: "vüss-te", meaning: "would know", example: { de: "Ich wüsste gern, warum.", en: "I would like to know why." } },
           { word: "gäbe", phonetic: "gay-be", meaning: "would give / there would be", example: { de: "Wenn es mehr Zeit gäbe...", en: "If there were more time..." } },
-          { word: "käme", phonetic: "kay-me", meaning: "would come", example: { de: "Wenn er käme, wäre ich froh.", en: "If he came, I would be happy." } }
+          { word: "käme", phonetic: "kay-me", meaning: "would come", example: { de: "Wenn er käme, wäre ich froh.", en: "If he came, I would be happy." } },
+          { word: "bräuchte", phonetic: "broykh-te", meaning: "would need", example: { de: "Ich bräuchte deine Hilfe.", en: "I would need your help." } },
+          { word: "ginge", phonetic: "ging-e", meaning: "would go/work", example: { de: "Ginge das vielleicht morgen?", en: "Would that work tomorrow perhaps?" } },
+          { word: "ließe", phonetic: "lee-se", meaning: "would let", example: { de: "Wenn sich das machen ließe...", en: "If that could be done..." } },
+          { word: "hieße", phonetic: "hee-se", meaning: "would mean/be called", example: { de: "Das hieße, wir müssen warten.", en: "That would mean we have to wait." } }
         ]
       },
       {
@@ -166,6 +176,16 @@ export const lessonsB1Grammar1: Record<string, Lesson> = {
         ]
       },
       {
+        type: "flashcard",
+        cards: [
+          { word: "wird gebaut", phonetic: "virt ge-bowt", meaning: "is being built (Präsens)", example: { de: "Das Haus wird gebaut.", en: "The house is being built." } },
+          { word: "wurde gebaut", phonetic: "voor-de ge-bowt", meaning: "was built (Präteritum)", example: { de: "Das Haus wurde gestern gebaut.", en: "The house was built yesterday." } },
+          { word: "ist gebaut worden", phonetic: "ist ge-bowt vor-den", meaning: "has been built (Perfekt)", example: { de: "Das Haus ist schon gebaut worden.", en: "The house has already been built." } },
+          { word: "war gebaut worden", phonetic: "var ge-bowt vor-den", meaning: "had been built (Plusquamperfekt)", example: { de: "Das Haus war bereits gebaut worden.", en: "The house had already been built." } },
+          { word: "wird gebaut werden", phonetic: "virt ge-bowt vair-den", meaning: "will be built (Futur I)", example: { de: "Das Haus wird morgen gebaut werden.", en: "The house will be built tomorrow." } }
+        ]
+      },
+      {
         type: "quiz-mcq",
         question: "Which sentence is Passive Perfekt?",
         options: [
@@ -230,6 +250,15 @@ export const lessonsB1Grammar1: Record<string, Lesson> = {
         ]
       },
       {
+        type: "flashcard",
+        cards: [
+          { word: "ist geöffnet", phonetic: "ist ge-öff-net", meaning: "is open (state)", example: { de: "Der Laden ist geöffnet.", en: "The store is open." } },
+          { word: "wird geöffnet", phonetic: "virt ge-öff-net", meaning: "is being opened (action)", example: { de: "Die Tür wird gerade geöffnet.", en: "The door is being opened right now." } },
+          { word: "ist geschlossen", phonetic: "ist ge-shlos-sen", meaning: "is closed (state)", example: { de: "Die Bank ist sonntags geschlossen.", en: "The bank is closed on Sundays." } },
+          { word: "wird geschlossen", phonetic: "virt ge-shlos-sen", meaning: "is being closed (action)", example: { de: "Das Fenster wird vom Lehrer geschlossen.", en: "The window is being closed by the teacher." } }
+        ]
+      },
+      {
         type: "quiz-mcq",
         question: "'Das Geschäft ist geschlossen.' — Is this Vorgangs- or Zustandspassiv?",
         options: ["Vorgangspassiv (action)", "Zustandspassiv (state)", "Active voice", "Perfekt"],
@@ -259,7 +288,10 @@ export const lessonsB1Grammar1: Record<string, Lesson> = {
         cards: [
           { word: "lassen (lässt, ließ, gelassen)", phonetic: "las-sen", meaning: "to let / to have done / to leave", example: { de: "Lass das!", en: "Stop that! / Leave it!" } },
           { word: "sich...lassen", phonetic: "zikh...las-sen", meaning: "can be (done) — possibility", example: { de: "Das lässt sich machen.", en: "That can be done. / That's doable." } },
-          { word: "Lass uns...", phonetic: "las oons", meaning: "Let's...", example: { de: "Lass uns ins Kino gehen!", en: "Let's go to the cinema!" } }
+          { word: "Lass uns...", phonetic: "las oons", meaning: "Let's...", example: { de: "Lass uns ins Kino gehen!", en: "Let's go to the cinema!" } },
+          { word: "Ich lasse mich scheiden.", phonetic: "ikh las-se mikh shy-den", meaning: "I am getting divorced.", example: { de: "Er lässt sich scheiden.", en: "He is getting divorced." } },
+          { word: "Das lässt sich nicht ändern.", phonetic: "das läst zikh nikht ayn-dern", meaning: "That can't be changed.", example: { de: "Tut mir leid, das lässt sich nicht ändern.", en: "Sorry, that can't be changed." } },
+          { word: "Lassen Sie mich ausreden!", phonetic: "las-sen zee mikh ows-ray-den", meaning: "Let me finish speaking!", example: { de: "Bitte lassen Sie mich ausreden!", en: "Please let me finish speaking!" } }
         ]
       },
       {
@@ -295,6 +327,16 @@ export const lessonsB1Grammar1: Record<string, Lesson> = {
           { de: "Er wird wohl im Büro sein. (= He's probably at the office now)", en: "wohl = probably" },
           { de: "Das wird schon stimmen. (= That's probably correct)", en: "schon = probably/surely (emphasis)" },
           { de: "Sie werden sicher Hunger haben.", en: "They surely must be hungry." }
+        ]
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "wohl", phonetic: "vohl", meaning: "probably", example: { de: "Er wird wohl schlafen.", en: "He is probably sleeping." } },
+          { word: "sicher", phonetic: "zi-kher", meaning: "surely", example: { de: "Sie wird sicher gleich kommen.", en: "She will surely come soon." } },
+          { word: "wahrscheinlich", phonetic: "var-shyn-likh", meaning: "probably", example: { de: "Das wird wahrscheinlich teuer sein.", en: "That will probably be expensive." } },
+          { word: "vermutlich", phonetic: "fer-moot-likh", meaning: "presumably", example: { de: "Er wird vermutlich im Stau stehen.", en: "He is presumably stuck in traffic." } },
+          { word: "bestimmt", phonetic: "be-shtimt", meaning: "definitely/certainly", example: { de: "Das wird bestimmt gut schmecken.", en: "That will definitely taste good." } }
         ]
       },
       {

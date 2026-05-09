@@ -222,6 +222,14 @@ export const lessonsA0: Record<string, Lesson> = {
           { word: "zehn", phonetic: "tsayn", meaning: "ten", example: { de: "Zehn Hunde.", en: "Ten dogs." } },
           { word: "elf", phonetic: "elf", meaning: "eleven", example: { de: "Elf Spieler.", en: "Eleven players." } },
           { word: "zwölf", phonetic: "zvölf", meaning: "twelve", example: { de: "Zwölf Monate.", en: "Twelve months." } },
+          { word: "dreizehn", phonetic: "dry-tsayn", meaning: "thirteen", example: { de: "Dreizehn Jahre.", en: "Thirteen years." } },
+          { word: "vierzehn", phonetic: "feer-tsayn", meaning: "fourteen", example: { de: "Vierzehn Tage.", en: "Fourteen days." } },
+          { word: "fünfzehn", phonetic: "fünf-tsayn", meaning: "fifteen", example: { de: "Fünfzehn Minuten.", en: "Fifteen minutes." } },
+          { word: "sechzehn", phonetic: "zex-tsayn", meaning: "sixteen", example: { de: "Sechzehn Euro.", en: "Sixteen Euros." } },
+          { word: "siebzehn", phonetic: "zeep-tsayn", meaning: "seventeen", example: { de: "Siebzehn Autos.", en: "Seventeen cars." } },
+          { word: "achtzehn", phonetic: "akh-tsayn", meaning: "eighteen", example: { de: "Achtzehn Jahre alt.", en: "Eighteen years old." } },
+          { word: "neunzehn", phonetic: "noyn-tsayn", meaning: "nineteen", example: { de: "Neunzehn Bücher.", en: "Nineteen books." } },
+          { word: "zwanzig", phonetic: "tsvan-tsikh", meaning: "twenty", example: { de: "Zwanzig Leute.", en: "Twenty people." } },
         ]
       },
       {
@@ -255,6 +263,20 @@ export const lessonsA0: Record<string, Lesson> = {
     title: "Numbers 20-100",
     module: "A0",
     blocks: [
+      {
+        type: "flashcard",
+        cards: [
+          { word: "zwanzig", phonetic: "tsvan-tsikh", meaning: "twenty", example: { de: "Ich habe zwanzig Euro.", en: "I have twenty Euros." } },
+          { word: "dreißig", phonetic: "dry-sikh", meaning: "thirty", example: { de: "Er ist dreißig Jahre alt.", en: "He is thirty years old." } },
+          { word: "vierzig", phonetic: "feer-tsikh", meaning: "forty", example: { de: "Das kostet vierzig Cent.", en: "That costs forty cents." } },
+          { word: "fünfzig", phonetic: "fünf-tsikh", meaning: "fifty", example: { de: "Fünfzig Prozent.", en: "Fifty percent." } },
+          { word: "sechzig", phonetic: "zex-tsikh", meaning: "sixty", example: { de: "Sechzig Minuten.", en: "Sixty minutes." } },
+          { word: "siebzig", phonetic: "zeep-tsikh", meaning: "seventy", example: { de: "Siebzig Personen.", en: "Seventy people." } },
+          { word: "achtzig", phonetic: "akh-tsikh", meaning: "eighty", example: { de: "Achtzig Tage.", en: "Eighty days." } },
+          { word: "neunzig", phonetic: "noyn-tsikh", meaning: "ninety", example: { de: "Neunzig Prozent.", en: "Ninety percent." } },
+          { word: "hundert", phonetic: "hoon-dert", meaning: "one hundred", example: { de: "Hundert Jahre.", en: "One hundred years." } },
+        ]
+      },
       {
         type: "grammar",
         title: "Tens (20, 30, 40...)",
@@ -347,6 +369,15 @@ export const lessonsA0: Record<string, Lesson> = {
           { word: "Januar", phonetic: "ya-noo-ar", meaning: "January", gender: "der", example: { de: "Januar ist kalt.", en: "January is cold." } },
           { word: "Februar", phonetic: "fay-broo-ar", meaning: "February", gender: "der", example: { de: "Mein Geburtstag ist im Februar.", en: "My birthday is in February." } },
           { word: "März", phonetic: "merts", meaning: "March", gender: "der", example: { de: "Im März beginnt der Frühling.", en: "Spring begins in March." } },
+          { word: "April", phonetic: "a-pril", meaning: "April", gender: "der", example: { de: "April macht was er will.", en: "April does what it wants." } },
+          { word: "Mai", phonetic: "my", meaning: "May", gender: "der", example: { de: "Der Mai ist schön.", en: "May is beautiful." } },
+          { word: "Juni", phonetic: "yoo-nee", meaning: "June", gender: "der", example: { de: "Im Juni ist es warm.", en: "In June it is warm." } },
+          { word: "Juli", phonetic: "yoo-lee", meaning: "July", gender: "der", example: { de: "Wir fahren im Juli in den Urlaub.", en: "We go on vacation in July." } },
+          { word: "August", phonetic: "ow-goost", meaning: "August", gender: "der", example: { de: "August ist ein Sommermonat.", en: "August is a summer month." } },
+          { word: "September", phonetic: "zep-tem-ber", meaning: "September", gender: "der", example: { de: "Die Schule beginnt im September.", en: "School starts in September." } },
+          { word: "Oktober", phonetic: "ok-toh-ber", meaning: "October", gender: "der", example: { de: "Oktoberfest ist im Oktober.", en: "Oktoberfest is in October." } },
+          { word: "November", phonetic: "no-vem-ber", meaning: "November", gender: "der", example: { de: "November ist oft grau.", en: "November is often gray." } },
+          { word: "Dezember", phonetic: "de-tsem-ber", meaning: "December", gender: "der", example: { de: "Weihnachten ist im Dezember.", en: "Christmas is in December." } },
           { word: "Frühling", phonetic: "früh-ling", meaning: "Spring", gender: "der", example: { de: "Der Frühling ist schön.", en: "Spring is beautiful." } },
           { word: "Sommer", phonetic: "zom-mer", meaning: "Summer", gender: "der", example: { de: "Im Sommer ist es heiß.", en: "In summer it is hot." } },
           { word: "Herbst", phonetic: "herpst", meaning: "Autumn / Fall", gender: "der", example: { de: "Der Herbst ist bunt.", en: "Autumn is colorful." } },
@@ -388,6 +419,9 @@ export const lessonsA0: Record<string, Lesson> = {
           { word: "weiß", phonetic: "vyce", meaning: "white", example: { de: "Schnee ist weiß.", en: "Snow is white." } },
           { word: "braun", phonetic: "brown", meaning: "brown", example: { de: "Der Hund ist braun.", en: "The dog is brown." } },
           { word: "grau", phonetic: "grow", meaning: "gray", example: { de: "Die Wolke ist grau.", en: "The cloud is gray." } },
+          { word: "orange", phonetic: "o-ran-zhuh", meaning: "orange", example: { de: "Die Orange ist orange.", en: "The orange is orange." } },
+          { word: "rosa", phonetic: "ro-zah", meaning: "pink", example: { de: "Das Schwein ist rosa.", en: "The pig is pink." } },
+          { word: "lila", phonetic: "lee-lah", meaning: "purple", example: { de: "Die Blume ist lila.", en: "The flower is purple." } },
         ]
       },
       {
@@ -423,6 +457,8 @@ export const lessonsA0: Record<string, Lesson> = {
           { word: "Hilfe", phonetic: "hil-fuh", meaning: "help", gender: "die", example: { de: "Hilfe! Ich brauche Hilfe.", en: "Help! I need help." } },
           { word: "genau", phonetic: "ge-now", meaning: "exactly", example: { de: "Ja, genau!", en: "Yes, exactly!" } },
           { word: "alles klar", phonetic: "al-les klahr", meaning: "alright / understood", example: { de: "Alles klar, bis morgen.", en: "Alright, see you tomorrow." } },
+          { word: "Gern geschehen", phonetic: "gern ge-shay-en", meaning: "you're welcome", example: { de: "Danke! - Gern geschehen.", en: "Thank you! - You're welcome." } },
+          { word: "Tut mir leid", phonetic: "toot meer lite", meaning: "I'm sorry", example: { de: "Es tut mir leid.", en: "I am sorry." } },
         ]
       },
       {
@@ -457,6 +493,8 @@ export const lessonsA0: Record<string, Lesson> = {
           { word: "wohnen", phonetic: "voh-nen", meaning: "to live (reside)", example: { de: "Ich wohne in Berlin.", en: "I live in Berlin." } },
           { word: "sein", phonetic: "zayn", meaning: "to be", example: { de: "Ich bin 25 Jahre alt.", en: "I am 25 years old." } },
           { word: "alt", phonetic: "alt", meaning: "old", example: { de: "Wie alt bist du?", en: "How old are you?" } },
+          { word: "arbeiten", phonetic: "ar-by-ten", meaning: "to work", example: { de: "Ich arbeite als Arzt.", en: "I work as a doctor." } },
+          { word: "der Beruf", phonetic: "be-roof", meaning: "the profession", gender: "der", example: { de: "Was ist dein Beruf?", en: "What is your profession?" } },
         ]
       },
       {
@@ -499,8 +537,13 @@ export const lessonsA0: Record<string, Lesson> = {
           { word: "Deutschland", phonetic: "doytsh-lant", meaning: "Germany", example: { de: "Ich wohne in Deutschland.", en: "I live in Germany." } },
           { word: "Österreich", phonetic: "ö-ster-rykh", meaning: "Austria", example: { de: "Wien ist in Österreich.", en: "Vienna is in Austria." } },
           { word: "die Schweiz", phonetic: "dee shvyts", meaning: "Switzerland", example: { de: "Ich komme aus der Schweiz.", en: "I come from Switzerland." } },
+          { word: "Spanien", phonetic: "shpah-nee-en", meaning: "Spain", example: { de: "Spanien ist warm.", en: "Spain is warm." } },
+          { word: "Italien", phonetic: "ee-tah-lee-en", meaning: "Italy", example: { de: "Rom ist in Italien.", en: "Rome is in Italy." } },
+          { word: "Frankreich", phonetic: "frank-rykh", meaning: "France", example: { de: "Ich reise nach Frankreich.", en: "I travel to France." } },
           { word: "Deutsch", phonetic: "doytsh", meaning: "German (language)", example: { de: "Ich spreche Deutsch.", en: "I speak German." } },
           { word: "Englisch", phonetic: "eng-lish", meaning: "English (language)", example: { de: "Sprichst du Englisch?", en: "Do you speak English?" } },
+          { word: "Spanisch", phonetic: "shpah-nish", meaning: "Spanish (language)", example: { de: "Er lernt Spanisch.", en: "He is learning Spanish." } },
+          { word: "Französisch", phonetic: "fran-zö-zish", meaning: "French (language)", example: { de: "Sie spricht Französisch.", en: "She speaks French." } },
           { word: "sprechen", phonetic: "shpre-khen", meaning: "to speak", example: { de: "Er spricht sehr gut Deutsch.", en: "He speaks German very well." } },
         ]
       },

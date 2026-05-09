@@ -16,6 +16,18 @@ export const lessonsC2Native: Record<string, Lesson> = {
           { de: "Ach so!", en: "Oh, I see! / Oh, I get it now! (The ultimate lightbulb moment sound)" },
           { de: "Hä?", en: "Huh? / What? (Very colloquial way to say 'Ich verstehe nicht')" },
         ]
+      },
+      {
+        type: "quiz-mcq",
+        question: "Which interjection would a German most likely use when they finally understand something after a long explanation?",
+        options: [
+          "Tja",
+          "Ach so!",
+          "Naja",
+          "Hä?"
+        ],
+        correctIndex: 1,
+        explanation: "'Ach so!' is the classic German 'Aha!' or lightbulb moment sound."
       }
     ]
   },
@@ -34,6 +46,13 @@ export const lessonsC2Native: Record<string, Lesson> = {
           { de: "Alter / Digga", en: "Dude / Bro" },
           { de: "Läuft bei dir.", en: "Things are going well for you. / You're doing great." },
         ]
+      },
+      {
+        type: "quiz-fill",
+        sentenceBefore: "Das Konzert gestern war richtig ",
+        sentenceAfter: "! (awesome / cool - slang)",
+        missingWord: "geil",
+        translation: "The concert yesterday was really awesome!"
       }
     ]
   },
@@ -79,6 +98,14 @@ export const lessonsC2Native: Record<string, Lesson> = {
           { de: "Aua / Autsch", en: "Ouch!" },
           { de: "Puh", en: "Phew (Relief or exhaustion)" },
           { de: "Hatschi", en: "Achoo (Sneezing)" },
+        ]
+      },
+      {
+        type: "flashcard",
+        cards: [
+          { word: "Wau-Wau", phonetic: "/vaʊ̯ vaʊ̯/", meaning: "woof (dog)", example: { de: "Der Hund macht Wau-Wau.", en: "The dog goes woof." } },
+          { word: "Miau", phonetic: "/miˈaʊ̯/", meaning: "meow (cat)", example: { de: "Die Katze macht Miau.", en: "The cat goes meow." } },
+          { word: "Kikeriki", phonetic: "/ˌkikəʁiˈkiː/", meaning: "cock-a-doodle-doo (rooster)", example: { de: "Der Hahn ruft Kikeriki.", en: "The rooster crows cock-a-doodle-doo." } }
         ]
       }
     ]

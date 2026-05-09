@@ -78,7 +78,13 @@ export const lessonsA1New: Record<string, Lesson> = {
           { word: "einkaufen", phonetic: "ayn-kow-fen", meaning: "to go shopping", example: { de: "Wir kaufen heute ein.", en: "We're shopping today." } },
           { word: "mitkommen", phonetic: "mit-kom-men", meaning: "to come along", example: { de: "Kommst du mit?", en: "Are you coming along?" } },
           { word: "zumachen", phonetic: "tsoo-makh-en", meaning: "to close", example: { de: "Mach bitte die Tür zu!", en: "Please close the door!" } },
-          { word: "aufmachen", phonetic: "owf-makh-en", meaning: "to open", example: { de: "Mach das Fenster auf!", en: "Open the window!" } }
+          { word: "aufmachen", phonetic: "owf-makh-en", meaning: "to open", example: { de: "Mach das Fenster auf!", en: "Open the window!" } },
+          { word: "abfahren", phonetic: "ap-fah-ren", meaning: "to depart", example: { de: "Der Zug fährt um 8 Uhr ab.", en: "The train departs at 8 o'clock." } },
+          { word: "ankommen", phonetic: "an-kom-men", meaning: "to arrive", example: { de: "Wann kommst du an?", en: "When do you arrive?" } },
+          { word: "fernsehen", phonetic: "fairn-zay-en", meaning: "to watch TV", example: { de: "Abends sehe ich fern.", en: "In the evening I watch TV." } },
+          { word: "abholen", phonetic: "ap-ho-len", meaning: "to pick up", example: { de: "Ich hole dich ab.", en: "I will pick you up." } },
+          { word: "einladen", phonetic: "ayn-lah-den", meaning: "to invite", example: { de: "Ich lade dich ein.", en: "I am inviting you." } },
+          { word: "anfangen", phonetic: "an-fang-en", meaning: "to begin / start", example: { de: "Der Film fängt bald an.", en: "The movie starts soon." } },
         ]
       },
       {
@@ -119,7 +125,9 @@ export const lessonsA1New: Record<string, Lesson> = {
         type: "flashcard",
         cards: [
           { word: "der Erste", phonetic: "airs-te", meaning: "the first", example: { de: "Heute ist der Erste.", en: "Today is the first." } },
+          { word: "der Zweite", phonetic: "tsvy-te", meaning: "the second", example: { de: "Am zweiten Mai.", en: "On the second of May." } },
           { word: "der Dritte", phonetic: "drit-te", meaning: "the third", example: { de: "Am dritten März.", en: "On the third of March." } },
+          { word: "der Letzte", phonetic: "lets-te", meaning: "the last", example: { de: "Er ist der Letzte.", en: "He is the last." } },
           { word: "das Datum", phonetic: "dah-toom", meaning: "the date", example: { de: "Welches Datum ist heute?", en: "What is today's date?" } },
           { word: "der Geburtstag", phonetic: "ge-boorts-tahk", meaning: "the birthday", example: { de: "Wann hast du Geburtstag?", en: "When is your birthday?" } }
         ]
@@ -165,7 +173,15 @@ export const lessonsA1New: Record<string, Lesson> = {
           { word: "mir", phonetic: "meer", meaning: "to me (dative)", example: { de: "Hilf mir bitte!", en: "Help me please!" } },
           { word: "dir", phonetic: "deer", meaning: "to you (dative)", example: { de: "Ich danke dir.", en: "I thank you." } },
           { word: "ihm", phonetic: "eem", meaning: "to him/it (dative)", example: { de: "Ich helfe ihm.", en: "I help him." } },
-          { word: "gefallen", phonetic: "ge-fal-len", meaning: "to please / to like", example: { de: "Gefällt dir das?", en: "Do you like that?" } }
+          { word: "ihr", phonetic: "eer", meaning: "to her (dative)", example: { de: "Wie geht es ihr?", en: "How is she? (How goes it to her?)" } },
+          { word: "uns", phonetic: "oons", meaning: "to us (dative)", example: { de: "Das gehört uns.", en: "That belongs to us." } },
+          { word: "euch", phonetic: "oykh", meaning: "to you all (dative)", example: { de: "Ich helfe euch.", en: "I am helping you all." } },
+          { word: "ihnen / Ihnen", phonetic: "ee-nen", meaning: "to them / to you (formal)", example: { de: "Ich danke Ihnen.", en: "I thank you (formal)." } },
+          { word: "helfen", phonetic: "hel-fen", meaning: "to help", example: { de: "Kannst du mir helfen?", en: "Can you help me?" } },
+          { word: "gefallen", phonetic: "ge-fal-len", meaning: "to please / to like", example: { de: "Gefällt dir das?", en: "Do you like that?" } },
+          { word: "gehören", phonetic: "ge-hö-ren", meaning: "to belong to", example: { de: "Das gehört mir.", en: "That belongs to me." } },
+          { word: "danken", phonetic: "dan-ken", meaning: "to thank", example: { de: "Ich danke dir.", en: "I thank you." } },
+          { word: "antworten", phonetic: "ant-vor-ten", meaning: "to answer", example: { de: "Bitte antworte mir.", en: "Please answer me." } },
         ]
       },
       {
@@ -278,8 +294,16 @@ export const lessonsA1New: Record<string, Lesson> = {
           { word: "der Regen", phonetic: "ray-gen", meaning: "the rain", example: { de: "Es gibt viel Regen.", en: "There is a lot of rain." } },
           { word: "der Schnee", phonetic: "shnay", meaning: "the snow", example: { de: "Im Winter gibt es Schnee.", en: "In winter there is snow." } },
           { word: "der Wind", phonetic: "vint", meaning: "the wind", example: { de: "Heute ist es sehr windig.", en: "Today it is very windy." } },
+          { word: "das Gewitter", phonetic: "ge-vit-ter", meaning: "the thunderstorm", example: { de: "Morgen gibt es ein Gewitter.", en: "Tomorrow there will be a thunderstorm." } },
+          { word: "der Nebel", phonetic: "nay-bel", meaning: "the fog", example: { de: "Der Nebel ist dicht.", en: "The fog is thick." } },
           { word: "sonnig", phonetic: "zon-nikh", meaning: "sunny", example: { de: "Es ist sonnig und warm.", en: "It is sunny and warm." } },
           { word: "bewölkt", phonetic: "be-völkt", meaning: "cloudy", example: { de: "Heute ist es bewölkt.", en: "Today it is cloudy." } },
+          { word: "windig", phonetic: "vin-dikh", meaning: "windy", example: { de: "Es ist sehr windig.", en: "It is very windy." } },
+          { word: "neblig", phonetic: "nay-blikh", meaning: "foggy", example: { de: "Heute morgen war es neblig.", en: "This morning it was foggy." } },
+          { word: "kalt", phonetic: "kalt", meaning: "cold", example: { de: "Im Winter ist es kalt.", en: "In winter it is cold." } },
+          { word: "warm", phonetic: "varm", meaning: "warm", example: { de: "Es ist schön warm.", en: "It is nice and warm." } },
+          { word: "heiß", phonetic: "hys", meaning: "hot", example: { de: "Im Sommer ist es heiß.", en: "In summer it is hot." } },
+          { word: "kühl", phonetic: "kül", meaning: "cool", example: { de: "Es ist heute kühl.", en: "It is cool today." } },
           { word: "regnen", phonetic: "rayg-nen", meaning: "to rain", example: { de: "Es regnet seit Stunden.", en: "It has been raining for hours." } },
           { word: "schneien", phonetic: "shny-en", meaning: "to snow", example: { de: "Im Dezember schneit es oft.", en: "In December it often snows." } }
         ]

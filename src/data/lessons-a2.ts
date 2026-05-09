@@ -26,6 +26,11 @@ export const lessonsA2: Record<string, Lesson> = {
           { word: "helfen", phonetic: "hel-fen", meaning: "to help (+ Dative)", example: { de: "Kannst du mir helfen?", en: "Can you help me?" } },
           { word: "danken", phonetic: "dan-ken", meaning: "to thank (+ Dative)", example: { de: "Ich danke dir.", en: "I thank you." } },
           { word: "gehören", phonetic: "ge-hö-ren", meaning: "to belong to (+ Dative)", example: { de: "Das Haus gehört mir.", en: "The house belongs to me." } },
+          { word: "antworten", phonetic: "ant-vor-ten", meaning: "to answer (+ Dative)", example: { de: "Er antwortet dem Lehrer.", en: "He answers the teacher." } },
+          { word: "gefallen", phonetic: "ge-fal-len", meaning: "to please / to like (+ Dative)", example: { de: "Das Buch gefällt mir.", en: "I like the book. (The book pleases me.)" } },
+          { word: "schmecken", phonetic: "shmek-ken", meaning: "to taste good to (+ Dative)", example: { de: "Die Suppe schmeckt mir.", en: "The soup tastes good to me." } },
+          { word: "passen", phonetic: "pas-sen", meaning: "to fit (+ Dative)", example: { de: "Die Hose passt mir nicht.", en: "The pants don't fit me." } },
+          { word: "gratulieren", phonetic: "gra-too-lee-ren", meaning: "to congratulate (+ Dative)", example: { de: "Ich gratuliere dir zum Geburtstag.", en: "I congratulate you on your birthday." } },
         ]
       },
       {
@@ -64,6 +69,8 @@ export const lessonsA2: Record<string, Lesson> = {
           { word: "seit", phonetic: "zyt", meaning: "since / for (time)", example: { de: "Seit einem Monat.", en: "For one month." } },
           { word: "von", phonetic: "fon", meaning: "from / of", example: { de: "Das Geschenk ist von meinem Vater.", en: "The gift is from my father." } },
           { word: "zu", phonetic: "tsoo", meaning: "to (a place/person)", example: { de: "Ich gehe zum Arzt.", en: "I go to the doctor." } },
+          { word: "gegenüber", phonetic: "gay-gen-ü-ber", meaning: "opposite / across from", example: { de: "Die Bank ist gegenüber dem Bahnhof.", en: "The bank is opposite the station." } },
+          { word: "außer", phonetic: "ow-ser", meaning: "except for / besides", example: { de: "Alle außer mir sind hier.", en: "Everyone except me is here." } },
         ]
       },
       {
@@ -109,6 +116,10 @@ export const lessonsA2: Record<string, Lesson> = {
           { word: "hinter", phonetic: "hin-ter", meaning: "behind", example: { de: "Der Garten ist hinter dem Haus.", en: "The garden is behind the house." } },
           { word: "neben", phonetic: "nay-ben", meaning: "next to", example: { de: "Ich sitze neben dir.", en: "I sit next to you." } },
           { word: "zwischen", phonetic: "tsvi-shen", meaning: "between", example: { de: "Der Stuhl steht zwischen den Tischen.", en: "The chair is between the tables." } },
+          { word: "liegen", phonetic: "lee-gen", meaning: "to lie (location - Dative)", example: { de: "Das Buch liegt auf dem Tisch.", en: "The book is lying on the table." } },
+          { word: "legen", phonetic: "lay-gen", meaning: "to lay/put (motion - Accusative)", example: { de: "Ich lege das Buch auf den Tisch.", en: "I lay the book onto the table." } },
+          { word: "stehen", phonetic: "shtay-en", meaning: "to stand (location - Dative)", example: { de: "Die Lampe steht in der Ecke.", en: "The lamp stands in the corner." } },
+          { word: "stellen", phonetic: "shtel-len", meaning: "to place upright (motion - Acc)", example: { de: "Ich stelle die Lampe in die Ecke.", en: "I place the lamp into the corner." } },
         ]
       },
       {
@@ -143,6 +154,13 @@ export const lessonsA2: Record<string, Lesson> = {
           { word: "anrufen", phonetic: "an-roo-fen", meaning: "to call (by phone)", example: { de: "Ruf mich an!", en: "Call me!" } },
           { word: "mitkommen", phonetic: "mit-kom-men", meaning: "to come along", example: { de: "Kommst du mit?", en: "Are you coming along?" } },
           { word: "fernsehen", phonetic: "fairn-zay-en", meaning: "to watch TV", example: { de: "Abends sehe ich fern.", en: "In the evening I watch TV." } },
+          { word: "abfahren", phonetic: "ap-fah-ren", meaning: "to depart", example: { de: "Der Zug fährt um 8 Uhr ab.", en: "The train departs at 8." } },
+          { word: "ankommen", phonetic: "an-kom-men", meaning: "to arrive", example: { de: "Wann kommen wir an?", en: "When do we arrive?" } },
+          { word: "einsteigen", phonetic: "yn-shty-gen", meaning: "to board / get in", example: { de: "Bitte steigen Sie ein.", en: "Please get in." } },
+          { word: "aussteigen", phonetic: "ows-shty-gen", meaning: "to get off / out", example: { de: "Wir steigen am Bahnhof aus.", en: "We get off at the station." } },
+          { word: "aufmachen", phonetic: "owf-ma-khen", meaning: "to open", example: { de: "Mach bitte das Fenster auf.", en: "Please open the window." } },
+          { word: "zumachen", phonetic: "tsoo-ma-khen", meaning: "to close", example: { de: "Mach bitte die Tür zu.", en: "Please close the door." } },
+          { word: "abholen", phonetic: "ap-ho-len", meaning: "to pick up", example: { de: "Ich hole dich am Bahnhof ab.", en: "I'll pick you up at the station." } },
         ]
       },
       {
@@ -175,6 +193,10 @@ export const lessonsA2: Record<string, Lesson> = {
           { word: "gekauft", phonetic: "ge-kowft", meaning: "bought", example: { de: "Ich habe Milch gekauft.", en: "I bought milk." } },
           { word: "gemacht", phonetic: "ge-makht", meaning: "made / done", example: { de: "Was hast du gemacht?", en: "What did you do?" } },
           { word: "gesagt", phonetic: "ge-zakt", meaning: "said", example: { de: "Wer hat das gesagt?", en: "Who said that?" } },
+          { word: "gearbeitet", phonetic: "ge-ar-by-tet", meaning: "worked", example: { de: "Ich habe gestern viel gearbeitet.", en: "I worked a lot yesterday." } },
+          { word: "gelernt", phonetic: "ge-lairnt", meaning: "learned / studied", example: { de: "Hast du für den Test gelernt?", en: "Did you study for the test?" } },
+          { word: "geholt", phonetic: "ge-hohlt", meaning: "fetched / got", example: { de: "Ich habe das Auto geholt.", en: "I fetched the car." } },
+          { word: "gewohnt", phonetic: "ge-vohnt", meaning: "lived (resided)", example: { de: "Ich habe in Berlin gewohnt.", en: "I lived in Berlin." } },
         ]
       },
       {
@@ -208,6 +230,10 @@ export const lessonsA2: Record<string, Lesson> = {
           { word: "gefahren", phonetic: "ge-fah-ren", meaning: "drove / traveled (sein)", example: { de: "Wir sind nach Rom gefahren.", en: "We drove to Rome." } },
           { word: "gekommen", phonetic: "ge-kom-men", meaning: "came (sein)", example: { de: "Wann bist du gekommen?", en: "When did you come?" } },
           { word: "geblieben", phonetic: "ge-blee-ben", meaning: "stayed (sein)", example: { de: "Ich bin zu Hause geblieben.", en: "I stayed at home." } },
+          { word: "geflogen", phonetic: "ge-floh-gen", meaning: "flew (sein)", example: { de: "Wir sind nach Spanien geflogen.", en: "We flew to Spain." } },
+          { word: "gelaufen", phonetic: "ge-low-fen", meaning: "ran/walked (sein)", example: { de: "Er ist schnell gelaufen.", en: "He ran fast." } },
+          { word: "gewesen", phonetic: "ge-vay-zen", meaning: "been (sein)", example: { de: "Ich bin in Paris gewesen.", en: "I have been in Paris." } },
+          { word: "passiert", phonetic: "pas-seert", meaning: "happened (sein)", example: { de: "Was ist passiert?", en: "What happened?" } },
         ]
       },
       {
@@ -243,6 +269,12 @@ export const lessonsA2: Record<string, Lesson> = {
           { word: "gefunden", phonetic: "ge-foon-den", meaning: "found", example: { de: "Wir haben den Schlüssel gefunden.", en: "We found the key." } },
           { word: "geschrieben", phonetic: "ge-shree-ben", meaning: "wrote", example: { de: "Sie hat einen Brief geschrieben.", en: "She wrote a letter." } },
           { word: "gesprochen", phonetic: "ge-shpro-khen", meaning: "spoke", example: { de: "Hast du mit ihm gesprochen?", en: "Did you speak with him?" } },
+          { word: "gelesen", phonetic: "ge-lay-zen", meaning: "read", example: { de: "Ich habe das Buch gelesen.", en: "I read the book." } },
+          { word: "gesehen", phonetic: "ge-zay-en", meaning: "seen", example: { de: "Hast du den Film gesehen?", en: "Have you seen the movie?" } },
+          { word: "geschlafen", phonetic: "ge-shlah-fen", meaning: "slept", example: { de: "Ich habe gut geschlafen.", en: "I slept well." } },
+          { word: "getroffen", phonetic: "ge-trof-fen", meaning: "met", example: { de: "Ich habe Freunde getroffen.", en: "I met friends." } },
+          { word: "genommen", phonetic: "ge-nom-men", meaning: "taken", example: { de: "Er hat das Geld genommen.", en: "He took the money." } },
+          { word: "gegeben", phonetic: "ge-gay-ben", meaning: "given", example: { de: "Sie hat mir ein Geschenk gegeben.", en: "She gave me a present." } },
         ]
       },
       {
@@ -349,6 +381,13 @@ export const lessonsA2: Record<string, Lesson> = {
           { word: "am besten", phonetic: "am bes-ten", meaning: "best", example: { de: "Er spielt am besten.", en: "He plays best." } },
           { word: "mehr", phonetic: "mair", meaning: "more", example: { de: "Ich brauche mehr Zeit.", en: "I need more time." } },
           { word: "lieber", phonetic: "lee-ber", meaning: "prefer / rather", example: { de: "Ich trinke lieber Tee.", en: "I prefer to drink tea." } },
+          { word: "größer", phonetic: "grö-ser", meaning: "bigger", example: { de: "Mein Haus ist größer.", en: "My house is bigger." } },
+          { word: "kleiner", phonetic: "kly-ner", meaning: "smaller", example: { de: "Dein Hund ist kleiner.", en: "Your dog is smaller." } },
+          { word: "älter", phonetic: "el-ter", meaning: "older", example: { de: "Sie ist älter als ich.", en: "She is older than me." } },
+          { word: "jünger", phonetic: "yüng-er", meaning: "younger", example: { de: "Er ist jünger.", en: "He is younger." } },
+          { word: "teurer", phonetic: "toy-rer", meaning: "more expensive", example: { de: "Das ist teurer.", en: "That is more expensive." } },
+          { word: "billiger", phonetic: "bil-li-ger", meaning: "cheaper", example: { de: "Das T-Shirt ist billiger.", en: "The T-shirt is cheaper." } },
+          { word: "höher", phonetic: "hö-er", meaning: "higher", example: { de: "Der Berg ist höher.", en: "The mountain is higher." } },
         ]
       },
       {
@@ -408,6 +447,12 @@ export const lessonsA2: Record<string, Lesson> = {
           { word: "der Bahnhof", phonetic: "bahn-hof", meaning: "the train station", example: { de: "Der Bahnhof ist in der Nähe.", en: "The station is nearby." } },
           { word: "die Fahrkarte", phonetic: "fahr-kar-te", meaning: "the ticket (for transit)", example: { de: "Ich brauche eine Fahrkarte.", en: "I need a ticket." } },
           { word: "das Gepäck", phonetic: "ge-pek", meaning: "luggage", example: { de: "Wo ist mein Gepäck?", en: "Where is my luggage?" } },
+          { word: "das Gleis", phonetic: "glys", meaning: "the track / platform", example: { de: "Der Zug fährt auf Gleis 3 ab.", en: "The train departs from track 3." } },
+          { word: "der Bahnsteig", phonetic: "bahn-shtyk", meaning: "the platform", example: { de: "Bitte treten Sie zurück vom Bahnsteig.", en: "Please step back from the platform." } },
+          { word: "die Haltestelle", phonetic: "hal-te-shtel-le", meaning: "the bus/tram stop", example: { de: "Wo ist die nächste Haltestelle?", en: "Where is the next stop?" } },
+          { word: "die Verspätung", phonetic: "fer-shpay-toong", meaning: "the delay", example: { de: "Der Zug hat zehn Minuten Verspätung.", en: "The train has a 10-minute delay." } },
+          { word: "der Fahrplan", phonetic: "fahr-plahn", meaning: "the schedule/timetable", example: { de: "Schau auf den Fahrplan.", en: "Look at the timetable." } },
+          { word: "der Koffer", phonetic: "kof-fer", meaning: "the suitcase", example: { de: "Mein Koffer ist sehr schwer.", en: "My suitcase is very heavy." } },
         ]
       },
       {
@@ -441,10 +486,16 @@ export const lessonsA2: Record<string, Lesson> = {
           { word: "die Hose", phonetic: "ho-zuh", meaning: "the pants", example: { de: "Die Hose ist zu groß.", en: "The pants are too big." } },
           { word: "das Hemd", phonetic: "hemt", meaning: "the shirt", example: { de: "Das Hemd ist weiß.", en: "The shirt is white." } },
           { word: "der Schuh", phonetic: "shoo", meaning: "the shoe", example: { de: "Meine Schuhe sind schwarz.", en: "My shoes are black." } },
+          { word: "die Jacke", phonetic: "yak-ke", meaning: "the jacket", example: { de: "Zieh die Jacke an.", en: "Put the jacket on." } },
+          { word: "der Pullover", phonetic: "pool-o-ver", meaning: "the sweater", example: { de: "Der Pullover ist warm.", en: "The sweater is warm." } },
+          { word: "das Kleid", phonetic: "klyt", meaning: "the dress", example: { de: "Das Kleid ist wunderschön.", en: "The dress is beautiful." } },
+          { word: "der Rock", phonetic: "rok", meaning: "the skirt", example: { de: "Sie trägt einen kurzen Rock.", en: "She is wearing a short skirt." } },
           { word: "kaufen", phonetic: "kow-fen", meaning: "to buy", example: { de: "Ich kaufe das.", en: "I buy that." } },
           { word: "kosten", phonetic: "kos-ten", meaning: "to cost", example: { de: "Wie viel kostet das?", en: "How much does that cost?" } },
           { word: "teuer", phonetic: "toy-er", meaning: "expensive", example: { de: "Das ist sehr teuer.", en: "That is very expensive." } },
           { word: "billig", phonetic: "bil-likh", meaning: "cheap", example: { de: "Das T-Shirt ist billig.", en: "The T-shirt is cheap." } },
+          { word: "die Größe", phonetic: "grö-se", meaning: "the size", example: { de: "Haben Sie das in Größe M?", en: "Do you have this in size M?" } },
+          { word: "anprobieren", phonetic: "an-pro-bee-ren", meaning: "to try on", example: { de: "Kann ich die Hose anprobieren?", en: "Can I try the pants on?" } },
         ]
       },
       {
@@ -473,11 +524,18 @@ export const lessonsA2: Record<string, Lesson> = {
         cards: [
           { word: "der Kopf", phonetic: "kopf", meaning: "the head", example: { de: "Mein Kopf tut weh.", en: "My head hurts." } },
           { word: "der Bauch", phonetic: "bowkh", meaning: "the stomach", example: { de: "Ich habe Bauchschmerzen.", en: "I have a stomachache." } },
+          { word: "der Arm", phonetic: "arm", meaning: "the arm", example: { de: "Mein Arm tut weh.", en: "My arm hurts." } },
+          { word: "das Bein", phonetic: "byn", meaning: "the leg", example: { de: "Er hat sich das Bein gebrochen.", en: "He broke his leg." } },
+          { word: "der Hals", phonetic: "hals", meaning: "the neck/throat", example: { de: "Ich habe Halsschmerzen.", en: "I have a sore throat." } },
           { word: "der Arzt", phonetic: "artst", meaning: "the doctor", example: { de: "Ich muss zum Arzt gehen.", en: "I have to go to the doctor." } },
           { word: "das Krankenhaus", phonetic: "kran-ken-hows", meaning: "the hospital", example: { de: "Er ist im Krankenhaus.", en: "He is in the hospital." } },
           { word: "krank", phonetic: "krank", meaning: "sick", example: { de: "Ich bin heute krank.", en: "I am sick today." } },
           { word: "gesund", phonetic: "ge-zoont", meaning: "healthy", example: { de: "Bleiben Sie gesund!", en: "Stay healthy!" } },
           { word: "die Apotheke", phonetic: "a-po-tay-kuh", meaning: "the pharmacy", example: { de: "Ich brauche Medizin aus der Apotheke.", en: "I need medicine from the pharmacy." } },
+          { word: "das Fieber", phonetic: "fee-ber", meaning: "the fever", example: { de: "Das Kind hat Fieber.", en: "The child has a fever." } },
+          { word: "die Schmerzen", phonetic: "shmer-tsen", meaning: "the pain", example: { de: "Haben Sie Schmerzen?", en: "Do you have pain?" } },
+          { word: "das Medikament", phonetic: "me-di-ka-ment", meaning: "the medicine", example: { de: "Nehmen Sie dieses Medikament.", en: "Take this medicine." } },
+          { word: "das Rezept", phonetic: "re-tsept", meaning: "the prescription / recipe", example: { de: "Der Arzt gibt mir ein Rezept.", en: "The doctor gives me a prescription." } },
         ]
       },
       {
