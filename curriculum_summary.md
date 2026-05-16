@@ -1,0 +1,990 @@
+
+## A0
+- German Alphabet & Special Characters
+- The Eszett (ß) Reform
+- Diphthongs (Vowel Combinations)
+- Pronunciation Rules
+- Consonant Rules
+- The 'ch', 'sch', and 'sp/st' sounds
+- Greetings & Farewells
+- Formality Matters in Germany
+- Regional Greetings
+- Meeting a Colleague
+- Numbers 1-20
+- Numbers 13-19
+- Numbers 20-100
+- Tens (20, 30, 40...)
+- Compound Numbers (21-99)
+- Days of the Week
+- Using 'am' with days
+- Months & Seasons
+- Using 'im' with months and seasons
+- Colors
+- Adjectives as Predicates
+- Essential Phrases
+- The magic word 'Bitte'
+- Self Introduction
+- Introducing yourself
+- Countries & Languages
+- Countries with Articles
+- Classroom Phrases
+- Crucial Survival Phrases
+- Possessive Pronouns (Full Table)
+
+## A1
+- All Possessive Pronouns
+- Endings by Gender
+- Separable Verbs Intro
+- What Are Separable Verbs?
+- With Modal Verbs: No Separation!
+- Ordinal Numbers & Dates
+- Ordinal Numbers (erste, zweite, dritte...)
+- Saying Dates
+- Dative Verbs (helfen, gefallen)
+- Verbs That Need Dative
+- Dative Personal Pronouns
+- \
+- Es gibt + Accusative
+- The Pronoun 'man'
+- Weather (Das Wetter)
+- Talking About Weather
+- Housing & Rooms (Wohnen)
+- Describing Where You Live
+- Shopping & Prices (Einkaufen)
+- Asking About Prices
+- Directions & Places
+- Asking for Directions
+- Describing People
+- Describing Appearance & Personality
+- Celebrations & Invitations
+- Congratulations & Wishes
+- Expressing Likes & Preferences
+- gern → lieber → am liebsten
+- mögen vs gefallen vs schmecken
+- At the Supermarket (Im Supermarkt)
+- Useful Supermarket Phrases
+- Basic Commands (Imperativ Intro)
+- Giving Simple Commands
+- Important Everyday Commands
+- Formal vs. Informal (du / Sie)
+- When to Use du vs. Sie
+- The 'Sie' Rule
+- Apologizing & Polite Expressions
+- Entschuldigung vs. Es tut mir leid
+- Asking for Help & Survival Phrases
+- Essential Survival German
+- Large Numbers (100–1.000.000)
+- Numbers Beyond 100
+- Common Irregular Verbs (Reference)
+- The 20 Most Important Strong Verbs
+- Compound Nouns (Wortbildung)
+- How German Builds Words
+- The Gender Rule
+- Personal Pronouns
+- Subject Pronouns (Nominative)
+- Regular Verbs (Present Tense)
+- Verb Conjugation Rules
+- Irregular Verbs: haben & sein
+- The two most important verbs
+- Nouns & Gender (der, die, das)
+- The Three Genders
+- Capitalization Rule
+- Plurals
+- Plural Forms
+- Indefinite Articles (ein, eine)
+- A / An
+- Negation (nicht vs kein)
+- Nicht vs Kein
+- The Nominative Case
+- The Subject of the Sentence
+- Predicate Nominative
+- The Accusative Case (Direct Object)
+- The Direct Object
+- Accusative Prepositions
+- Prepositions that force Accusative
+- Family Vocabulary
+- Possessive Pronouns (mein / dein)
+- Food & Drink
+- Telling Time
+- How to tell time
+- Hobbies & Free Time
+- Using 'gern' (to like to do something)
+- Professions & Work
+- Professions & Gender
+- Stating your profession
+- Question Words (W-Fragen)
+- The W-Words
+- Sentence Structure (V2 Rule)
+- The Golden Rule: Verb in Position 2
+- Yes/No Questions
+- Modal Verbs (können, müssen, wollen)
+- How Modal Verbs Work
+- Describing Pictures (Bildbeschreibung)
+- The Rules for Placing 'nicht'
+- nicht vs. kein — Quick Reminder
+- 'nicht' Position Cheat Sheet
+- schon / noch / noch nicht / erst
+- Signs You See EVERY Day
+- The 'halb' Trap & 24-Hour Clock
+- The Biggest Time Trap: 'halb'
+- Viertel vor / Viertel nach
+- 24-Hour Clock (Der Standard!)
+- denn vs. weil (Two Words for 'because')
+
+## A2
+- The Exam Speaking Task
+- Location Words for Describing
+- Writing Emails for the Exam (Schreiben-Aufgabe)
+- The Email Structure Template
+- Exam Tip: The Opening & Closing
+- Sample Informal Email
+- Subordinate Clauses (weil, dass, wenn)
+- The Verb Goes to the END!
+- Comma + Conjunction + ... + VERB
+- Reflexive Verbs (sich freuen, sich waschen)
+- What Are Reflexive Verbs?
+- Inseparable Verb Prefixes
+- Prefixes That NEVER Separate
+- Verbs with Two Objects (Dative + Accusative)
+- Giving, Showing, Telling — Two Objects
+- Demonstrative Pronouns (dieser, jeder, alle)
+- dieser / diese / dieses (this)
+- jeder / alle / einige / manche
+- Indirect Questions (ob & W-Words)
+- Polite Questions with 'ob' (whether/if)
+- Indirect W-Questions
+- Daily Routines (Tagesablauf)
+- Time Expressions for Daily Life
+- Animals & Nature (Tiere & Natur)
+- Talking About Pets & Animals
+- Emotions & Feelings (Gefühle)
+- Expressing How You Feel
+- Sports & Fitness (Sport & Fitness)
+- Talking About Sports
+- At the Restaurant (Im Restaurant)
+- Restaurant Phrases You Must Know
+- At the Doctor (Beim Arzt)
+- Medical Phrases
+- Public Transportation (Öffentliche Verkehrsmittel)
+- Navigating Public Transport
+- Emergency Situations (Notfälle)
+- Emergency Numbers & Key Phrases
+- Informal Emails & Making Appointments
+- Writing Informal Emails/Messages
+- Making & Changing Appointments
+- Simple Past of Modal Verbs (Präteritum)
+- Modal Verbs in the Simple Past
+- Months, Seasons & Calendar
+- Using 'im' with Months & Seasons
+- School & Education (Schule & Bildung)
+- Education Phrases
+- Media & Technology (Medien & Technik)
+- Digital Communication Phrases
+- Furniture & Household (Möbel & Haushalt)
+- Location with Furniture (Dative!)
+- Futur I — Talking About the Future
+- werden + Infinitive
+- Basic Relative Clauses (Relativsätze)
+- Relative Pronouns = Article Forms
+- Relative Pronoun Table (Nom/Akk)
+- Polite Requests (Konjunktiv II Intro)
+- würde + Infinitive (would)
+- hätte / wäre / könnte (Fixed Polite Forms)
+- Expressing Opinions (Meinungen)
+- How to Say What You Think
+- Agreeing & Disagreeing
+- Making Plans & Suggestions
+- Suggesting Activities
+- Accepting & Declining
+- On the Phone (Am Telefon)
+- Phone Etiquette in Germany
+- Connecting Words (Konnektoren)
+- Story Sequencing Words
+- Cause & Consequence Connectors
+- False Friends & Tricky Words
+- Words That LOOK English But Aren't
+- Modal Particles (doch, mal, ja, halt)
+- The Secret to Sounding German
+- The Power of 'doch'
+- Filling Out Forms (Formulare)
+- German Address Format
+- German Date Format
+- Living in Germany (Kultur & Alltag)
+- Essential Cultural Rules
+- Vacation & Packing (Urlaub & Reise)
+- Talking About Vacations
+- At the Hotel (Im Hotel)
+- Hotel Phrases
+- Music, Cinema & Entertainment
+- Talking About Entertainment
+- Genitive Intro (Possession: 's' & 'von')
+- Showing Possession
+- Genitive Articles Preview
+- Verbs with Prepositions (warten auf, denken an)
+- Fixed Verb + Preposition Combos
+- Word Order: TeKaMoLo Rule
+- The Golden Rule of German Sentence Order
+- Remember: Te-Ka-Mo-Lo
+- Basic Passive Voice (Passiv Intro)
+- What Is the Passive?
+- Where You'll See Passive
+- Infinitive with 'zu' (Infinitiv mit zu)
+- zu + Infinitive Clauses
+- Verbs That Need 'zu'
+- Purpose Clauses (um...zu / damit)
+- um...zu = in order to
+- damit = so that (different subjects)
+- Diminutives & Word Endings (-chen, -lein, -ung, -keit)
+- Making Things Small: -chen & -lein
+- Predicting Gender with Suffixes
+- 'als' vs 'wenn' (When in the Past)
+- The Two Words for 'When'
+- The Rule
+- Temporal Prepositions (seit, vor, nach, in)
+- Time Prepositions with Dative
+- seit vs. vor — The Key Difference
+- The Dative Case (Indirect Object)
+- The Indirect Object
+- Dative Prepositions
+- Prepositions that FORCE Dative
+- Two-Way Prepositions
+- Wechselpräpositionen (Accusative or Dative?)
+- Separable Verbs
+- Trennbare Verben
+- The Perfekt Tense (with haben)
+- The Conversational Past Tense
+- The Perfekt Tense (with sein)
+- When to use 'sein' instead of 'haben'
+- Irregular Past Participles
+- Strong Verbs
+- Simple Past of Haben and Sein
+- Präteritum (Simple Past)
+- The Imperative (Commands)
+- Giving Orders
+- Comparison of Adjectives
+- Komparativ & Superlativ
+- Conjunctions (und, oder, aber)
+- Coordinating Conjunctions
+- Travel & Transportation
+- Using 'mit' for transportation
+- Shopping & Clothes
+- Health & Body Parts
+- Expressing Pain
+- Adjective Declensions (Intro)
+- The Hardest Topic in German
+- Expressing Agreement & Disagreement
+- Four Little Words That Change Everything
+- schon vs. erst — The Key Distinction
+- Position Verbs (stellen/stehen, legen/liegen)
+- Put vs. Be — Movement vs. Position
+- The Pattern
+- Reading Signs (Schilder in Deutschland)
+- Both Mean 'because' — Different Word Order!
+- When to Use Which?
+- Paired Conjunctions (entweder...oder, weder...noch)
+- Two-Part Conjunctions
+- Formal Letters & Emails (Briefe & E-Mails)
+- German Letter Format
+- Semi-Formal & Informal
+- At the Bank & Post Office (Bank & Post)
+- Renting an Apartment (Wohnung mieten)
+- Understanding German Rental Listings
+
+## B1
+- Levels of Agreement/Disagreement
+- Giving Advice & Making Suggestions
+- Making Formal Complaints (Sich beschweren)
+- Discussing Pros & Cons (Vorteile & Nachteile)
+- The B1 Argumentation Framework
+- Narrating Events & Stories (Erzählen)
+- Sequencing a Story
+- Describing Dreams, Hopes & Plans
+- Giving a Structured Presentation (Präsentation)
+- Presentation Phrases — Your Toolkit
+- Negotiating & Compromise (Verhandeln)
+- Polite Negotiation Phrases
+- Expressing Conditions & Consequences
+- Circumlocution (Talking Around a Word)
+- When You Don't Know the Word
+- Exam Sprechen: Planning Together (Gemeinsam planen)
+- Exam Task: Plan an Event Together
+- Exam Sprechen: Presentation Structure (Thema präsentieren)
+- The 5-Part Presentation Blueprint
+- Example: Topic 'Online Shopping'
+- Exam Schreiben: Structured Email/Essay
+- B1 Schreiben: The Structured Email
+- Email Structure Template
+- Reading Newspaper Articles (Zeitungsartikel lesen)
+- Reading Strategy: SQ3R for German
+- Understanding Radio & TV News (Nachrichten verstehen)
+- Listening Strategy for B1
+- Telephone & Voicemail (Telefonieren)
+- Job & Apartment Ads — Decoding Real Listings
+- Reading a Real Apartment Ad
+- German Office Culture (Bürokultur)
+- Cultural Tips for the German Workplace
+- Futur II — Past Assumptions (Er wird wohl gegangen sein)
+- Guessing About Completed Actions
+- Futur I vs. Futur II
+- Erweiterte Partizipien (Extended Participial Phrases)
+- Compressing Relative Clauses Into Adjective Phrases
+- Komparativ & Superlativ mit Adjektivdeklination
+- Comparative/Superlative WITH Adjective Endings
+- Vergleichssätze (Comparison Clauses)
+- Falsche Freunde (False Friends: German ≠ English)
+- Exam Schreiben Teil 2: Stellungnahme (Opinion Text)
+- Writing an Opinion Text (~80 words)
+- Exam Schreiben Teil 3: Kurze formelle Nachricht (40 words)
+- The Quick Formal Message
+- Exam Sprechen Teil 3: Feedback & Questions
+- Reacting to Your Partner's Presentation
+- Exam Lesen: Reading Text Types (Blog, Anzeige, Leserbrief)
+- The 5 Lesen Task Types
+- Bureaucracy Survival Vocab (Formular, Zeugnis, Antrag)
+- Indefinitpronomen (jemand, niemand, jeder, alle, mancher)
+- Referring to People/Things in General
+- Genitiv-Relativpronomen: dessen & deren (whose)
+- Saying 'Whose' in German Relative Clauses
+- dessen/deren: Key Rules
+- Modalpartikeln (doch, mal, halt, eben, ja, eigentlich)
+- The 'Flavoring' Words That Make You Sound Natural
+- Charaktereigenschaften (Personality Traits & Descriptions)
+- Describing People's Personalities at B1
+- Adjektive als Nomen (Nominalized Adjectives: der Deutsche)
+- When Adjectives Become Nouns
+- Common Nominalized Adjectives at B1
+- Wortbildung (Word Formation: Suffixes, Prefixes & Compounds)
+- Decoding Unknown Words — The #1 Reading Strategy
+- Redewendungen & Alltagsausdrücke (Common German Idioms)
+- Everyday Idioms You'll Hear in Hören & Sprechen
+- Präteritum Mastery (Irregular Verbs)
+- Why Präteritum Matters at B1
+- Konjunktiv II Expanded (Wishes & Polite Forms)
+- Beyond 'würde': Real Konjunktiv II Forms
+- Wishes with 'wenn...nur'
+- Konjunktiv II Past (Regrets & Hypotheticals)
+- What IF Something Had Happened?
+- Expressing Regret
+- Passive Voice in All Tenses
+- Passive: The Full Picture
+- Key Detail: worden vs. geworden
+- Passive with Modal Verbs
+- Modal + Passive = Power Combo
+- Zustandspassiv vs. Vorgangspassiv
+- Two Types of Passive
+- 'lassen' — The Swiss Army Knife Verb
+- Three Meanings of 'lassen'
+- Futur I for Assumptions & Predictions
+- Futur I ≠ Just Future!
+- Signal Words for Assumptions
+- Temporal Conjunctions I (nachdem, bevor, während)
+- Sequencing Events in Time
+- Temporal Conjunctions II (seitdem, bis, sobald)
+- Since, Until, As Soon As
+- Causal Conjunctions (da, weil, nämlich, deshalb)
+- Four Ways to Say 'Because/Therefore'
+- Word Order Differences
+- Concessive Conjunctions (obwohl, trotzdem, dennoch)
+- Saying 'Although' and 'Nevertheless'
+- Conditional Clauses (wenn, falls, sonst)
+- Real vs. Unreal Conditions
+- Consecutive Clauses (so...dass, sodass)
+- Result Clauses: 'so...that'
+- ohne...zu / (an)statt...zu (Without / Instead of doing)
+- Infinitive Clauses with Prepositions
+- Compare: ohne...zu vs. ohne dass
+- Double Infinitive with Modals (Perfekt of Modals)
+- The Most Complex Structure in German
+- In Subordinate Clauses: Verb Order Flip
+- Genitive Prepositions
+- Prepositions That Demand the Genitive
+- Genitive in Everyday German (Formal vs. Colloquial)
+- The Genitive Is 'Dying' — But Not for Exams!
+- Adjective Declension — All Three Tables
+- The Logic Behind Adjective Endings
+- The Cheat Sheet
+- Partizip I as Adjective (Present Participle)
+- The '-ing' Adjective: Infinitiv + d
+- Partizip II as Adjective (Past Participle)
+- Describing Completed States
+- Partizip I vs. Partizip II Adjective
+- Pronominaladverbien (da- and wo- Compounds)
+- da + Preposition = About That/It
+- wo + Preposition = About What?
+- Relative Clauses with Prepositions
+- Preposition + Relative Pronoun
+- wo- Compound in Relative Clauses
+- Indirekte Rede (Reported Speech)
+- Reporting What Someone Said
+- Where You See This
+- Nomen-Verb-Verbindungen (Fixed Noun-Verb Combos)
+- German's Formal Phrasal Verbs
+- Advanced Connectors (Konnektoren-Inventar)
+- Beyond und/aber/weil
+- je...desto / je...umso (The More...The More)
+- Proportional Comparisons
+- als ob / als wenn (As If)
+- Describing Appearances vs. Reality
+- brauchen + zu + Infinitive
+- The Softer 'müssen nicht'
+- Verbs with Two Objects (Dative + Accusative)
+- Giving, Showing, Telling — Two Objects
+- Complex Sentence Word Order
+- When Multiple Clauses Collide
+- The TMP Rule Reminder (Position of Adverbials)
+- Job Application & Interview (Bewerbung)
+- Workplace Communication (Büroalltag)
+- Office Email Phrases
+- Education System (Bildungssystem)
+- The German School System
+- Health & Wellness Deep Dive (Gesundheit)
+- Mental Health & Stress (Psychische Gesundheit)
+- Talking About Feelings (Advanced)
+- Healthy Lifestyle (Gesunde Lebensweise)
+- Insurance & Social System (Sozialversicherung)
+- Germany's 5 Pillars of Social Insurance
+- Bureaucracy Deep Dive (Behörden & Visa)
+- Environment & Climate Change (Umwelt & Klimawandel)
+- Discussing Environmental Topics
+- Politics & Society (Politik & Gesellschaft)
+- Media Literacy (Medienkompetenz)
+- Discussing Media (Exam Topic)
+- Consumer Rights (Verbraucherrechte)
+- Relationships & Emotions (Beziehungen & Gefühle)
+- Expressing Complex Emotions
+- Cultural Integration (Integration & Migration)
+- Discussing Integration (Common Exam Topic)
+- City vs. Country Life (Stadt vs. Land)
+- A Classic Debate Topic
+- German History & Culture Basics
+- Key Cultural Knowledge for B1
+- The Genitive Case
+- Possession (The 'of' Case)
+- Subordinating Conjunctions
+- Verb to the End!
+- Comma Splicing & Sentence Structure
+- Starting with a Subordinate Clause
+- Reflexive Verbs
+- Actions directed at yourself
+- Verbs with Fixed Prepositions
+- Verben mit Präpositionen
+- Relative Clauses
+- Using 'who', 'which', and 'that'
+- Infinitive with 'zu'
+- Saying 'to do' something
+- The Passive Voice
+- Das Passiv
+- The Plusquamperfekt
+- The Past Perfect
+- N-Declension (Weak Nouns)
+- The N-Deklination
+- Work & Professional Life
+- Expressing Opinions
+- Meiner Meinung nach...
+- Environment & Nature
+- Media & Technology
+- Denglish
+- Housing & Real Estate
+- Argumentation — These, Antithese, Synthese
+
+## B2
+- Building a B2-Level Argument
+- Debating — Einwände & Gegenargumente
+- Politely Disagreeing & Raising Objections
+- Presenting — Structured Argumentation for Sprechen
+- B2 Presentation Structure
+- Summarizing — Zusammenfassen & Paraphrasieren
+- How to Summarize Complex Ideas at B2
+- Formal Register — Geschäftssprache & Amtsdeutsch
+- Switching Between Registers
+- Expressing Emotions Precisely — Beyond 'gut' und 'schlecht'
+- Emotional Vocabulary for Nuanced Expression
+- Negotiating — Kompromiss, Zugeständnis & Bedingung
+- Negotiation Language for Professional Contexts
+- B2 Lesen Teil 1 — Matching Headings to Paragraphs
+- Goethe B2 Lesen: Teil 1 Strategy
+- B2 Lesen Teil 2 — Multiple-Choice on Complex Texts
+- Goethe B2 Lesen: Teil 2 Strategy
+- B2 Lesen Teil 3 & 4 — Opinions & Arguments
+- Goethe B2: Reading Opinions & Commentaries
+- B2 Hören — Radio, Interviews & Discussions
+- Goethe B2 Hören: Strategy for All Parts
+- B2 Schreiben Teil 1 — Forum Post (Forumsbeitrag)
+- Goethe B2 Schreiben: The Forum Post (~150 words)
+- B2 Schreiben Teil 2 — Formal Email (Formelle Nachricht)
+- Goethe B2 Schreiben: The Formal Message (~100 words)
+- B2 Sprechen Teil 1 & 2 — Presentation & Discussion
+- Goethe B2 Sprechen: Präsentation + Diskussion
+- B2 Sprechen Teil 3 — Negotiation (Gemeinsam verhandeln)
+- Goethe B2 Sprechen: Negotiation with Partner
+- Erweiterte Wortbildung (Advanced Word Formation)
+- Nominalkomposita, Derivation & Konversion
+- Stilregister — Informal, Formal & Academic
+- Switching Registers Like a Native Speaker
+- Redewendungen B2 (Advanced Idioms)
+- Idioms That Make You Sound Native
+- Falsche Freunde B2 (False Friends)
+- Words That Look Like English But Mean Something Different
+- Korrekte Zeichensetzung (Punctuation Rules)
+- German Punctuation You Must Master for B2 Writing
+- B2 Abschluss — Gesamtwiederholung & Prüfungstipps
+- Your B2 Toolkit — Everything in One Place
+- Konjunktiv I — Indirect Speech (Indirekte Rede)
+- Reporting What Others Said
+- Konjunktiv I — All Tenses & Replacement Rules
+- Konjunktiv I in Perfekt & Futur + The Replacement Rule
+- Passiversatzformen — Alternatives to the Passive
+- Three Ways to Avoid 'werden + Partizip II'
+- Erweiterte Partizipialattribute (Extended Participle Phrases)
+- Compressing Relative Clauses into Adjective Phrases
+- Nominalisierung — From Verbal to Nominal Style
+- Making Your Writing Sound Academic
+- Verbalisierung — From Nominal Back to Verbal Style
+- When Nominal Style Gets Too Heavy
+- Genitiv Advanced — Prepositions & Formal Usage
+- Genitiv Prepositions You Must Know for B2
+- Konjunktiv I — Practice with Newspaper Headlines
+- Reading German News Like a Native
+- Modaler Infinitiv — sein + zu + Infinitiv
+- Must/Can Be Done (Without Passive Voice)
+- Subjektlose Passivkonstruktionen (Subjectless Passive)
+- 'Es wird getanzt!' — Passive Without a Subject
+- Futur I & II für Vermutungen (Future Tense for Guessing)
+- Using Future Tense to Express Probability
+- Das Wort 'es' — Placeholder, Subject & Fixed Expressions
+- The Many Faces of 'es'
+- Verben mit Präpositionen — Systematic Mastery
+- The Verb-Preposition Combinations You Must Know
+- Appositionen (Appositives/Parenthetical Additions)
+- Adding Extra Information Between Commas
+- Subjektive Bedeutung der Modalverben
+- When Modal Verbs Express Opinions, Not Facts
+- Indirekte Rede — Full Tense System
+- Reporting in All Tenses
+- Kausale Konnektoren B2 (Cause & Reason)
+- Beyond 'weil' and 'deshalb'
+- Konditionale Konnektoren B2 (Conditions)
+- Beyond 'wenn' — Advanced Conditional Connectors
+- Konzessive Konnektoren B2 (Concession & Contrast)
+- Beyond 'trotzdem' — Saying 'Even Though / Nevertheless'
+- Temporale Konnektoren B2 (Advanced Time Connectors)
+- Precise Time Relationships
+- Konsekutive & Finale Konnektoren B2
+- Result & Purpose Connectors
+- Modale & Instrumentale Konnektoren
+- How & By What Means — indem, dadurch dass, wobei
+- Adversative Konnektoren (Contrast & Opposition)
+- Precise Contrast — Beyond 'aber'
+- Konnektoren-Masterclass — Combining for B2 Writing
+- Putting It All Together
+- Dating & Flirting
+- Dating in DACH
+- At the Bar
+- Clubbing & Nightlife
+- Feierabendbier & Clubs
+- WG-Leben & Wohnen (Shared Living)
+- The WG (Wohngemeinschaft)
+- WG Casting
+- Behördengänge & Bürokratie
+- German Bureaucracy
+- Vereinsleben & Stammtisch
+- Vereine
+- Smalltalk & Networking
+- Smalltalk in Germany
+- Networking Event
+- Umwelt & Nachhaltigkeit (Environment & Sustainability)
+- Aspekte B2 — Umwelt als Prüfungsthema
+- Bildung & Erziehung (Education & Upbringing)
+- Gefühle & Beziehungen (Feelings & Relationships)
+- Aspekte B2 Kap. 9 — Mit viel Gefühl
+- Konsum & Werbung (Consumerism & Advertising)
+- Mobilität & Verkehr (Mobility & Transport)
+- Heimat & Identität (Home & Identity)
+- Aspekte B2 — Kap. 1: Heimat ist...
+- Kommunikation & Sprache (Communication & Language)
+- Arbeitswelt vertieft I — Bewerbung & Karriere
+- Arbeitswelt vertieft II — Büro & Arbeitsrecht
+- Zusammenleben — Generationen & Gesellschaft
+- Wissenschaft & Innovation vertieft
+- Zusammenleben — Soziale Medien & digitale Gesellschaft
+- Heimat & Identität vertieft — Multikulti & Integration
+- Kommunikation vertieft — Streitkultur & Debatte
+- Arbeitswelt III — Wirtschaftsdeutsch & Start-ups
+- Gesundheit & Psychologie (Health & Psychology)
+- Kulturwelten — Literatur, Theater & Film
+- Geschichte — Berliner Mauer & Wiedervereinigung
+- German History You Need for B2 Exam Topics
+- Zukunft & Technologie — Klima & Energie
+- Zukunft & Technologie — Datenschutz & Digitalisierung
+- Medien & Meinungsfreiheit
+- Geschichte vertieft — EU & Nachkriegsordnung
+- Gesundheit vertieft — Gesundheitssystem & Vorsorge
+- Kulturwelten vertieft — Debattenkultur & Werte
+- Medien vertieft — Journalismus & digitale Ethik
+- Konjunktiv II (Present/Future)
+- The Subjunctive II
+- Konjunktiv II (The Past)
+- Unreal Past (I would have...)
+- Passive Voice with Modal Verbs
+- It MUST be done
+- Da-Words (Prepositional Adverbs)
+- dafür, darüber, damit...
+- Wo-Words
+- worauf, womit, worüber...
+- Participles as Adjectives
+- Partizip I und II
+- Noun-Verb Collocations
+- Nomen-Verb-Verbindungen
+- Two-Part Conjunctions
+- Doppelkonjunktionen
+- Advanced Subordinate Clauses
+- indem, ohne dass, anstatt dass
+- Politics & Society
+- Economy & Finance
+- Arts & Culture
+- Science & Research
+- Expressing Probability
+- How sure are you?
+- B2 Review: Expressing Nuance
+- Mastering the Details
+- DACH-Region: Austriazismen (Austria)
+
+## C1
+- Standard Austrian German
+- DACH-Region: Helvetismen (Switzerland)
+- Standard Swiss German
+- Swiss Spelling Exception
+- DACH-Region: Regionalismen in Deutschland
+- Regional Words within Germany
+- Goethe C1 Lesen (Reading Comprehension)
+- The Goethe C1 Reading Exam
+- Strategy: Scanning and Skimming
+- Goethe C1 Hören (Listening Comprehension)
+- The Goethe C1 Listening Exam
+- Signal Words in Listening
+- Goethe C1 Schreiben (Writing)
+- The Goethe C1 Writing Exam
+- The Graph Essay Structure
+- Goethe C1 Sprechen (Speaking)
+- The Goethe C1 Speaking Exam
+- Winning the Discussion
+- TestDaF Vorbereitung
+- TestDaF vs. Goethe
+- The Digital TestDaF
+- C1 Abschluss — Gesamtwiederholung
+- Congratulations! (Herzlichen Glückwunsch!)
+- Nominalisierung Advanced
+- Turning Verbs & Adjectives into Nouns
+- Common Nominalisierung Patterns
+- Why Germans Love Nominal Style
+- Funktionsverbgefüge
+- Function Verb Constructions
+- Most Important FVG for C1
+- In a Business Meeting
+- Register & Stilebenen
+- Four Registers of German
+- Colloquial vs. Standard Equivalents
+- The 'weil' Controversy
+- Redewendungen & Idioms
+- Essential German Idioms
+- Friends Chatting After an Exam
+- Colloquial German (Umgangssprache)
+- How Germans ACTUALLY Talk
+- Common Spoken Contractions
+- When NOT to Use Colloquial German
+- Konjunktiv I Mastery in Academic Contexts
+- Konjunktiv I in Academic Writing
+- The Fallback Rule (Ersatzform)
+- The Language of Journalism
+- Erweiterte Partizipialattribute
+- Extended Participle Phrases
+- Partizip I vs. Partizip II
+- Decoding the Monster
+- Nomen-Verb-Verbindungen: Advanced
+- The Core C1 FVG
+- Action vs. State FVG
+- Subjunctive Fixed Expressions
+- Fossilized Konjunktiv I
+- Sei es... sei es...
+- Sounding Sophisticated
+- Advanced Negation
+- Beyond 'nicht' and 'kein'
+- Usage Examples
+- Double Negation as Affirmation
+- Textreferenz (Textual Cohesion)
+- Erstere and Letztere
+- Demonstrative Pronouns for Cohesion
+- Verbalperiphrasen (Modal Alternatives)
+- What are Verbalperiphrasen?
+- Nuance in Context
+- Abtönungspartikeln Extended
+- Advanced Flavor Particles
+- Contextual Examples
+- Advanced Mittelfeld Word Order
+- TeKaMoLo Revisited
+- The Pronoun Rule
+- Nicht-Placement C1
+- Nomen-Verb-Verbindungen Part 2
+- More High-Frequency FVG
+- Passiv with FVG
+- Advanced Genitive Prepositions
+- The C1 Preposition Arsenal
+- Dativ fallback
+- Pronominaladverbien als Korrelate
+- The Placeholder 'Da-'
+- When to drop the Korrelat
+- Präpositional-Attribute
+- Nouns Taking Prepositions
+- Usage in Nominal Style
+- Advanced Indefinitpronomen
+- Jegliche, Sämtliche, Manche
+- Irgend- Compounds
+- Semantic Prefixes (ver-, zer-, ent-, er-)
+- Decoding Inseparable Prefixes
+- The versatile 'ver-' and 'er-'
+- Das Gerundivum (zu + Partizip I)
+- The Passive Participle Attribute
+- Usage in Academic Texts
+- Adjektive mit Präpositionen (Advanced)
+- High-Level Prepositional Adjectives
+- Zweiteilige Konnektoren: Word Order Inversion
+- Advanced Inversion Rules
+- Konditionalsätze ohne 'wenn'
+- Dropping 'wenn'
+- Stylistic Note
+- Irreale Vergleichssätze (als / als ob)
+- Als ob / Als wenn (As if)
+- Als (As if - Advanced Word Order)
+- Passiversatz: 'sein zu' + Infinitiv
+- The 'sein zu' Construction
+- Authority in Text
+- Advanced Rules for 'es'
+- Es als Platzhalter (Placeholder)
+- Obligatorisches 'es' (Mandatory)
+- Partizipialkonstruktionen (Satzwertige Partizipien)
+- Shortening Sentences with Participles
+- Rule of the Subject
+- Generalisierende Konzessivsätze (auch immer)
+- The 'However/Whatever' Construction
+- Stilmittel (Rhetorical Devices)
+- Rhetoric for Essays and Analysis
+- Archaische Formen: Dativ-e & Fugen-s
+- Das Fugen-s (The Glue 's')
+- Der archaische Dativ-e
+- Dativ-e Examples
+- Syntax: Das Nachfeld (The After-Field)
+- Breaking the Verb Bracket
+- Obligatory Nachfeld
+- Phonetik: Der Knacklaut (Glottal Stop)
+- The Hard Attack
+- Phonetik: Die R-Vokalisierung
+- When 'R' becomes an 'A'
+- Phonetik: Assimilation & Elision
+- Native Rapid Speech
+- Dropping the final 'e'
+- Landeskunde: Das Politische System
+- Federalism in Germany
+- Kanzler vs. Präsident
+- Landeskunde: Wichtige Geschichte
+- 1949 and 1989
+- Article 1
+- Karriere: Der deutsche Lebenslauf
+- Strict Formatting Rules
+- Karriere: Das Arbeitszeugnis
+- The Secret Language of HR
+- Akademische Abkürzungen (Abbreviations)
+- Reading the Code
+- Denglisch (Pseudo-Anglicisms)
+- English words that aren't English
+- Brüche, Dezimalen & Mathematik
+- Fractions and Decimals
+- Basic Operations
+- Klassische Sprichwörter (Proverbs)
+- Cultural Wisdom
+- Modalpartikeln: doch & mal
+- What Are Modalpartikeln?
+- The Secret to Sounding Native
+- 'doch' — Contradiction & Emphasis
+- 'mal' — Making Things Casual
+- Friends Making Weekend Plans
+- Modalpartikeln: ja & eben/halt
+- 'ja' as a Modalpartikel (NOT meaning 'yes')
+- 'eben' & 'halt' — Accepting Reality
+- Reacting to Bad Weather
+- Regional Differences: eben vs halt
+- Modalpartikeln: eigentlich, wohl & schon
+- 'eigentlich' — Actually / To Be Honest
+- 'wohl' — Probably / I Suppose
+- 'schon' — Emphasis & Reassurance (NOT 'already')
+- Nervous Before a Job Interview
+- Modalpartikeln: Combining Like a Native
+- Stacking Modalpartikeln
+- Quick Reference: All 8 Modalpartikeln
+- A Typical German Conversation (Stacked Partikeln)
+- Internet Slang & Texting
+- German Text-Speak (Chatsprache)
+- Texting in the Group Chat
+- Jugendsprache (Youth Slang)
+- Jugendwort des Jahres
+- Fachsprache: Recht & Verwaltung (Law & Admin)
+- Legal Terminology
+- Administrative Jargon (Amtsdeutsch)
+- Behördendeutsch
+- Fachsprache: Medizin (Medicine)
+- Medical Professionals & Facilities
+- Symptoms & Treatments
+- Fachsprache: Wirtschaft Advanced (Business & Economy)
+- Macroeconomics
+- Corporate Finance & Markets
+- Fachsprache: Wissenschaft & Technik (Science & Tech)
+- Research & Methodology
+- Technology & Innovation
+- Deutsche Literatur (Kafka, Brecht, Goethe)
+- Literary Giants
+- Literary Terms
+- Philosophie & Ethikdiskussionen
+- Moral Reasoning
+- Die Würde des Menschen
+- Humor, Ironie & Sarkasmus
+- German Humor Exists!
+- Types of Humor
+- Dialekte: Bayern, Österreich, Schweiz
+- The DACH Region Varieties
+- Regional Vocabulary
+- Academic Writing: Essay Structure
+- The Standard Essay Structure
+- Redemittel: Einleitung
+- Textzusammenfassung (Text Summary)
+- Rules of a Zusammenfassung
+- Avoiding Plagiarism (Paraphrasing)
+- Erörterung (Discursive Essay)
+- Linear vs. Dialectical
+- The Sanduhr-Prinzip (Hourglass Principle)
+- Kommentar & Stellungnahme
+- What is a Stellungnahme?
+- Refuting Counterarguments
+- Wissenschaftliches Schreiben
+- Academic Hedging
+- The Passive & Man
+- Textanalyse (Argumentative Texts)
+- Analyzing Structure
+- Identifying Bias & Tone
+- Textanalyse (Informative Texts)
+- Describing Data & Charts
+- Comparing Data Points
+- Formal Correspondence at C1 Level
+- The C1 Formal Email
+- Making Polite Requests
+- Advanced Kommasetzung (Comma Rules)
+- Infinitiv- und Partizipialgruppen
+- Appositionen (Appositions)
+- Groß- und Kleinschreibung (Capitalization)
+- Nominalization Traps
+- Pronouns in Letters
+- Zitierregeln (Quoting and Attribution)
+- Indirect Speech with Konjunktiv I
+- German Quotation Marks
+- Bayerisch (Bavarian) - Vocabulary & Culture
+
+## C2
+- Servus in Bayern!
+- Key Bavarian Characteristics
+- At the Oktoberfest
+- Schwäbisch (Swabian)
+- Wir können alles. Außer Hochdeutsch.
+- Key Swabian Characteristics
+- Over the fence
+- Plattdeutsch (Low German)
+- Moin! Welcome to the North.
+- English Similarities
+- At the Hamburg fish market
+- Sächsisch & Kölsch
+- From the Rhine to the East
+- Regional greetings
+- Berliner Schnauze
+- Ick bin ein Berliner
+- Ordering a Currywurst
+- Loriot & Kabarett (German Humor)
+- Yes, German Humor Exists
+- Kabarett vs. Comedy
+- The Noodle Sketch
+- Tatort Culture
+- Sunday Night at 8:15 PM
+- Tatort Vocabulary
+- At the crime scene
+- Untranslatable Words
+- A Word for Everything
+- C2 Untranslatables
+- Discussing a failed project
+- Wortspiele (Wordplay & Puns)
+- The Double Meaning (Teekesselchen)
+- Two friends joking
+- Extreme Sarcasm & Complaining
+- Meckern auf hohem Niveau
+- The Art of Sarcasm
+- At the train station
+- Classic Literature: Goethe & Schiller
+- Reading the Masters
+- Key Features of Classic Literature
+- Goethe: Faust I
+- 20th Century Lit: Kafka & Brecht
+- Modernism & The Absurd
+- Kafka: Die Verwandlung
+- Historical Speeches & Rhetoric
+- The Weight of History
+- Rhetorical Devices
+- Richard von Weizsäcker (8. Mai 1985)
+- Poetic Register & Archaic Structures
+- Archaic Grammar Rules
+- Rilke: Der Panther
+- Gendersprache (Gender-Inclusive German)
+- Modern Inclusivity
+- Partizipialformen (Neutralization)
+- Behördendeutsch (Extreme Bureaucracy)
+- The Language of the State
+- DDR-Wortschatz (East German Lexicon)
+- The Divided Language
+- Ostdeutsch vs. Westdeutsch
+- Interjektionen (The Sounds Germans Make)
+- Filling the Silence
+- Umgangssprache & Jugendsprache (Slang)
+- Street German
+- Chat-Sprache (Texting Abbreviations)
+- WhatsApp in German
+- Onomatopoesie (Animal Sounds & Noises)
+- German Animals
+- Human Noises
+- Alltags-Fluchen (Everyday Frustrations)
+- Mild Swearing
+- The Boardroom: High-Stakes Negotiations
+- Executive German
+- Key Strategies
+- A tense board meeting
+- Juristendeutsch (Legal German)
+- Juristendeutsch
+- Contract Excerpt
+- Defending a Thesis (Disputation)
+- The Disputation
+- The Defense
+- Medical & Technical Journals
+- Fachsprache (Jargon)
+- Engineering Report
+- Diplomacy & PR: The Public Apology
+- The Art of the Non-Apology
+- Press Release
+- Deliberate Rule-Breaking
+- Breaking the Rules Like a Pro
+- A casual chat
+- Flawless Nuance: Synonyms
+- The Burden of Choice
+- Discussing an employee's resignation
+- The Art of the 'Schachtelsatz'
+- The Monster Sentences
+- A typical legal notice
+- Expressing Frustration (Schimpfen)
+- The Art of German Complaining (Meckern)
+- At the Train Station
+- Where Does 'nicht' Go? (Nicht-Stellung)
+
+## Unknown
+- Alphabet & Sounds

@@ -1,4 +1,7 @@
 import { lessonsA0 } from "./lessons-a0";
+import { lessonsA0Body } from "./lessons-a0-body";
+import { lessonsA0Food } from "./lessons-a0-food";
+import { lessonsA0Home } from "./lessons-a0-home";
 import { lessonsA1 } from "./lessons-a1";
 import { lessonsA1New } from "./lessons-a1-new";
 import { lessonsA1New2 } from "./lessons-a1-new2";
@@ -84,6 +87,9 @@ export type Lesson = {
 
 export const lessonData: Record<string, Lesson> = {
   ...lessonsA0,
+  ...lessonsA0Body,
+  ...lessonsA0Food,
+  ...lessonsA0Home,
   ...lessonsA1,
   ...lessonsA1New,
   ...lessonsA1New2,
