@@ -50,6 +50,7 @@ import { lessonsB1Expand3 } from "./lessons-b1-expand3";
 import { lessonsB1Expand4 } from "./lessons-b1-expand4";
 import { lessonsB1Expand5 } from "./lessons-b1-expand5";
 import { lessonsB1Expand6 } from "./lessons-b1-expand6";
+import { lessonsB1Mega1 } from "./lessons-b1-mega1";
 import { lessonsB2 } from "./lessons-b2";
 import { lessonsB2Grammar1 } from "./lessons-b2-grammar1";
 import { lessonsB2Grammar2 } from "./lessons-b2-grammar2";
@@ -65,6 +66,7 @@ import { lessonsB2Expand2 } from "./lessons-b2-expand2";
 import { lessonsB2Expand3 } from "./lessons-b2-expand3";
 import { lessonsB2Expand4 } from "./lessons-b2-expand4";
 import { lessonsB2Expand5 } from "./lessons-b2-expand5";
+import { lessonsB2Mega1 } from "./lessons-b2-mega1";
 import { lessonsC1Partikeln } from "./lessons-c1-partikeln";
 import { lessonsC1Grammar } from "./lessons-c1-grammar";
 import { lessonsC1Grammar2 } from "./lessons-c1-grammar2";
@@ -174,6 +176,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsB1Expand4,
   ...lessonsB1Expand5,
   ...lessonsB1Expand6,
+  ...lessonsB1Mega1,
   ...lessonsB2,
   ...lessonsB2Grammar1,
   ...lessonsB2Grammar2,
@@ -190,6 +193,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsB2Expand3,
   ...lessonsB2Expand4,
   ...lessonsB2Expand5,
+  ...lessonsB2Mega1,
   ...lessonsC1Partikeln,
   ...lessonsC1Grammar,
   ...lessonsC1Grammar2,
