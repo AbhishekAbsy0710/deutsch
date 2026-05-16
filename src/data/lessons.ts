@@ -28,6 +28,8 @@ import { lessonsA2New7 } from "./lessons-a2-new7";
 import { lessonsA2New8 } from "./lessons-a2-new8";
 import { lessonsA2Vocab1 } from "./lessons-a2-vocab1";
 import { lessonsA2Vocab2 } from "./lessons-a2-vocab2";
+import { lessonsA2Vocab3 } from "./lessons-a2-vocab3";
+import { lessonsA2Vocab4 } from "./lessons-a2-vocab4";
 import { lessonsB1 } from "./lessons-b1";
 import { lessonsB1Grammar1 } from "./lessons-b1-grammar1";
 import { lessonsB1Grammar2 } from "./lessons-b1-grammar2";
@@ -127,6 +129,8 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsA2ExamSkills,
   ...lessonsA2Vocab1,
   ...lessonsA2Vocab2,
+  ...lessonsA2Vocab3,
+  ...lessonsA2Vocab4,
   ...lessonsB1,
   ...lessonsB1Grammar1,
   ...lessonsB1Grammar2,
