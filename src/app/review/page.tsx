@@ -50,9 +50,7 @@ function getVocabUpToLevel(lessons: Record<string, { status: string }>, userLeve
 
   for (const [lessonId, lesson] of Object.entries(lessonData)) {
     if (!includedModules.includes(lesson.module)) continue;
-    // Only include completed or active lessons
-    const lp = lessons[lessonId];
-    if (!lp || (lp.status !== "completed" && lp.status !== "active")) continue;
+    // Include ALL lessons from modules up to current level — full dictionary
 
     for (const block of lesson.blocks) {
       if (block.type === "flashcard") {
