@@ -56,6 +56,7 @@ import { lessonsB1Expand5 } from "./lessons-b1-expand5";
 import { lessonsB1Expand6 } from "./lessons-b1-expand6";
 import { lessonsB1Mega1 } from "./lessons-b1-mega1";
 import { lessonsB1Mega2 } from "./lessons-b1-mega2";
+import { lessonsB1Mega3 } from "./lessons-b1-mega3";
 import { lessonsB2 } from "./lessons-b2";
 import { lessonsB2Grammar1 } from "./lessons-b2-grammar1";
 import { lessonsB2Grammar2 } from "./lessons-b2-grammar2";
@@ -107,6 +108,7 @@ import { lessonsC2Expand2 } from "./lessons-c2-expand2";
 import { lessonsC2Expand3 } from "./lessons-c2-expand3";
 import { lessonsC2Expand4 } from "./lessons-c2-expand4";
 import { lessonsC1Mega1 } from "./lessons-c1-mega1";
+import { lessonsC1Mega2 } from "./lessons-c1-mega2";
 import { lessonsC2Mega1 } from "./lessons-c2-mega1";
 
 export type LessonBlock = 
@@ -190,6 +192,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsB1Expand6,
   ...lessonsB1Mega1,
   ...lessonsB1Mega2,
+  ...lessonsB1Mega3,
   ...lessonsB2,
   ...lessonsB2Grammar1,
   ...lessonsB2Grammar2,
@@ -242,5 +245,6 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC2Expand3,
   ...lessonsC2Expand4,
   ...lessonsC1Mega1,
+  ...lessonsC1Mega2,
   ...lessonsC2Mega1,
 };
