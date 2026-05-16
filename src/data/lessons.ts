@@ -7,6 +7,11 @@ import { lessonsA1New } from "./lessons-a1-new";
 import { lessonsA1New2 } from "./lessons-a1-new2";
 import { lessonsA1New3 } from "./lessons-a1-new3";
 import { lessonsA1New4 } from "./lessons-a1-new4";
+import { lessonsA1Vocab1 } from "./lessons-a1-vocab1";
+import { lessonsA1Vocab2 } from "./lessons-a1-vocab2";
+import { lessonsA1Vocab3 } from "./lessons-a1-vocab3";
+import { lessonsA1Vocab4 } from "./lessons-a1-vocab4";
+import { lessonsA1Vocab5 } from "./lessons-a1-vocab5";
 import { lessonsA1New5, lessonsA2New9 } from "./lessons-final-gaps";
 import { lessonsA1Final, lessonsA2Final } from "./lessons-final-gaps2";
 import { lessonsA2ExamSkills } from "./lessons-a2-exam";
@@ -97,6 +102,11 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsA1New4,
   ...lessonsA1New5,
   ...lessonsA1Final,
+  ...lessonsA1Vocab1,
+  ...lessonsA1Vocab2,
+  ...lessonsA1Vocab3,
+  ...lessonsA1Vocab4,
+  ...lessonsA1Vocab5,
   ...lessonsA2,
   ...lessonsA2New,
   ...lessonsA2New2,

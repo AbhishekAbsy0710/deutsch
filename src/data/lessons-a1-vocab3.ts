@@ -1,0 +1,115 @@
+import { Lesson } from "./lessons";
+
+export const lessonsA1Vocab3: Record<string, Lesson> = {
+  "la1_66": {
+    id: "la1_66",
+    title: "Common Verbs",
+    module: "A1",
+    blocks: [
+      {
+        type: "flashcard",
+        cards: [
+          { word: "brauchen", phonetic: "brow-khen", meaning: "to need", example: { de: "Ich brauche Hilfe.", en: "I need help." } },
+          { word: "bekommen", phonetic: "beh-ko-men", meaning: "to get / receive", example: { de: "Ich bekomme einen Brief.", en: "I receive a letter." } },
+          { word: "bringen", phonetic: "bring-en", meaning: "to bring", example: { de: "Bring mir das Buch.", en: "Bring me the book." } },
+          { word: "denken", phonetic: "den-ken", meaning: "to think", example: { de: "Ich denke an dich.", en: "I think of you." } },
+          { word: "finden", phonetic: "fin-den", meaning: "to find", example: { de: "Ich finde den Schlüssel nicht.", en: "I can't find the key." } },
+          { word: "fragen", phonetic: "frah-gen", meaning: "to ask", example: { de: "Darf ich fragen?", en: "May I ask?" } },
+          { word: "glauben", phonetic: "glow-ben", meaning: "to believe", example: { de: "Ich glaube dir.", en: "I believe you." } },
+          { word: "hoffen", phonetic: "ho-fen", meaning: "to hope", example: { de: "Ich hoffe es.", en: "I hope so." } },
+          { word: "kennen", phonetic: "ke-nen", meaning: "to know (person/place)", example: { de: "Ich kenne Berlin.", en: "I know Berlin." } },
+          { word: "legen", phonetic: "lay-gen", meaning: "to put / lay", example: { de: "Leg das Buch auf den Tisch.", en: "Put the book on the table." } },
+          { word: "lieben", phonetic: "lee-ben", meaning: "to love", example: { de: "Ich liebe dich.", en: "I love you." } },
+          { word: "machen", phonetic: "ma-khen", meaning: "to make / do", example: { de: "Was machst du?", en: "What are you doing?" } },
+          { word: "meinen", phonetic: "my-nen", meaning: "to mean / think", example: { de: "Was meinst du?", en: "What do you think?" } },
+          { word: "nehmen", phonetic: "nay-men", meaning: "to take", example: { de: "Ich nehme das.", en: "I'll take that." } },
+          { word: "öffnen", phonetic: "öf-nen", meaning: "to open", example: { de: "Öffne die Tür.", en: "Open the door." } },
+          { word: "passen", phonetic: "pa-sen", meaning: "to fit / suit", example: { de: "Die Hose passt nicht.", en: "The pants don't fit." } },
+          { word: "probieren", phonetic: "pro-bee-ren", meaning: "to try / taste", example: { de: "Probier den Kuchen!", en: "Try the cake!" } },
+          { word: "rufen", phonetic: "roo-fen", meaning: "to call / shout", example: { de: "Ruf die Polizei!", en: "Call the police!" } },
+          { word: "schenken", phonetic: "shen-ken", meaning: "to give (a gift)", example: { de: "Ich schenke dir ein Buch.", en: "I give you a book." } },
+          { word: "schicken", phonetic: "shi-ken", meaning: "to send", example: { de: "Ich schicke eine E-Mail.", en: "I send an email." } },
+          { word: "suchen", phonetic: "zoo-khen", meaning: "to search / look for", example: { de: "Ich suche mein Handy.", en: "I'm looking for my phone." } },
+          { word: "vergessen", phonetic: "fer-ge-sen", meaning: "to forget", example: { de: "Ich vergesse oft.", en: "I often forget." } },
+          { word: "versuchen", phonetic: "fer-zoo-khen", meaning: "to try / attempt", example: { de: "Ich versuche es.", en: "I'll try." } },
+          { word: "warten", phonetic: "var-ten", meaning: "to wait", example: { de: "Warte auf mich!", en: "Wait for me!" } },
+          { word: "zeigen", phonetic: "tsy-gen", meaning: "to show", example: { de: "Zeig mir das.", en: "Show me that." } },
+          { word: "beginnen", phonetic: "beh-gi-nen", meaning: "to begin", example: { de: "Der Film beginnt um acht.", en: "The film begins at eight." } },
+          { word: "besuchen", phonetic: "beh-zoo-khen", meaning: "to visit", example: { de: "Ich besuche meine Oma.", en: "I visit my grandma." } },
+          { word: "verstehen", phonetic: "fer-shtay-en", meaning: "to understand", example: { de: "Ich verstehe dich.", en: "I understand you." } },
+          { word: "erklären", phonetic: "er-kleh-ren", meaning: "to explain", example: { de: "Kannst du das erklären?", en: "Can you explain that?" } },
+          { word: "entschuldigen", phonetic: "ent-shool-di-gen", meaning: "to excuse / apologize", example: { de: "Entschuldigen Sie bitte.", en: "Excuse me, please." } },
+        ]
+      },
+    ]
+  },
+  "la1_67": {
+    id: "la1_67",
+    title: "Time & Frequency",
+    module: "A1",
+    blocks: [
+      {
+        type: "flashcard",
+        cards: [
+          { word: "heute", phonetic: "hoy-tuh", meaning: "today", example: { de: "Heute ist Montag.", en: "Today is Monday." } },
+          { word: "gestern", phonetic: "ges-tern", meaning: "yesterday", example: { de: "Gestern war Sonntag.", en: "Yesterday was Sunday." } },
+          { word: "morgen", phonetic: "mor-gen", meaning: "tomorrow", example: { de: "Morgen gehe ich einkaufen.", en: "Tomorrow I go shopping." } },
+          { word: "jetzt", phonetic: "yetst", meaning: "now", example: { de: "Ich gehe jetzt.", en: "I'm going now." } },
+          { word: "später", phonetic: "shpay-ter", meaning: "later", example: { de: "Bis später!", en: "See you later!" } },
+          { word: "früh", phonetic: "frü", meaning: "early", example: { de: "Ich stehe früh auf.", en: "I get up early." } },
+          { word: "spät", phonetic: "shpayt", meaning: "late", example: { de: "Es ist spät.", en: "It's late." } },
+          { word: "morgens", phonetic: "mor-gens", meaning: "in the morning", example: { de: "Morgens trinke ich Kaffee.", en: "In the morning I drink coffee." } },
+          { word: "mittags", phonetic: "mi-tahks", meaning: "at noon", example: { de: "Mittags esse ich warm.", en: "At noon I eat a hot meal." } },
+          { word: "abends", phonetic: "ah-bents", meaning: "in the evening", example: { de: "Abends sehe ich fern.", en: "In the evening I watch TV." } },
+          { word: "nachts", phonetic: "nakhts", meaning: "at night", example: { de: "Nachts schlafe ich.", en: "At night I sleep." } },
+          { word: "immer", phonetic: "i-mer", meaning: "always", example: { de: "Ich trinke immer Tee.", en: "I always drink tea." } },
+          { word: "oft", phonetic: "oft", meaning: "often", example: { de: "Ich gehe oft spazieren.", en: "I often go for a walk." } },
+          { word: "manchmal", phonetic: "mankh-mahl", meaning: "sometimes", example: { de: "Manchmal regnet es.", en: "Sometimes it rains." } },
+          { word: "selten", phonetic: "zel-ten", meaning: "rarely / seldom", example: { de: "Ich gehe selten ins Kino.", en: "I rarely go to the cinema." } },
+          { word: "nie", phonetic: "nee", meaning: "never", example: { de: "Ich rauche nie.", en: "I never smoke." } },
+          { word: "jeden Tag", phonetic: "yay-den tahk", meaning: "every day", example: { de: "Ich lerne jeden Tag.", en: "I study every day." } },
+          { word: "jede Woche", phonetic: "yay-duh vo-khuh", meaning: "every week", example: { de: "Ich gehe jede Woche schwimmen.", en: "I go swimming every week." } },
+          { word: "das Jahr", phonetic: "yahr", meaning: "the year", gender: "das", example: { de: "Ein Jahr hat zwölf Monate.", en: "A year has twelve months." } },
+          { word: "der Monat", phonetic: "moh-naht", meaning: "the month", gender: "der", example: { de: "Welcher Monat ist es?", en: "Which month is it?" } },
+          { word: "der Tag", phonetic: "tahk", meaning: "the day", gender: "der", example: { de: "Der Tag ist schön.", en: "The day is beautiful." } },
+          { word: "die Nacht", phonetic: "nakht", meaning: "the night", gender: "die", example: { de: "Die Nacht ist ruhig.", en: "The night is quiet." } },
+          { word: "der Morgen", phonetic: "mor-gen", meaning: "the morning", gender: "der", example: { de: "Am Morgen bin ich müde.", en: "In the morning I'm tired." } },
+          { word: "der Abend", phonetic: "ah-bent", meaning: "the evening", gender: "der", example: { de: "Am Abend lese ich.", en: "In the evening I read." } },
+          { word: "die Stunde", phonetic: "shtoon-duh", meaning: "the hour", gender: "die", example: { de: "Eine Stunde hat 60 Minuten.", en: "An hour has 60 minutes." } },
+        ]
+      },
+    ]
+  },
+  "la1_68": {
+    id: "la1_68",
+    title: "Shopping & Money",
+    module: "A1",
+    blocks: [
+      {
+        type: "flashcard",
+        cards: [
+          { word: "das Geschäft", phonetic: "geh-sheft", meaning: "the shop / store", gender: "das", example: { de: "Das Geschäft ist offen.", en: "The shop is open." } },
+          { word: "der Laden", phonetic: "lah-den", meaning: "the shop / store", gender: "der", example: { de: "Der Laden schließt um sechs.", en: "The shop closes at six." } },
+          { word: "die Größe", phonetic: "grö-suh", meaning: "the size", gender: "die", example: { de: "Welche Größe brauchen Sie?", en: "Which size do you need?" } },
+          { word: "die Farbe", phonetic: "far-buh", meaning: "the color", gender: "die", example: { de: "Welche Farbe möchten Sie?", en: "Which color would you like?" } },
+          { word: "das Angebot", phonetic: "an-geh-boht", meaning: "the offer / sale", gender: "das", example: { de: "Das ist im Angebot.", en: "That's on sale." } },
+          { word: "der Rabatt", phonetic: "ra-bat", meaning: "the discount", gender: "der", example: { de: "Gibt es einen Rabatt?", en: "Is there a discount?" } },
+          { word: "die Quittung", phonetic: "kvi-tung", meaning: "the receipt", gender: "die", example: { de: "Kann ich die Quittung haben?", en: "Can I have the receipt?" } },
+          { word: "bar", phonetic: "bar", meaning: "cash (in cash)", example: { de: "Ich zahle bar.", en: "I pay in cash." } },
+          { word: "günstig", phonetic: "güns-tikh", meaning: "cheap / affordable", example: { de: "Das ist günstig.", en: "That is affordable." } },
+          { word: "umtauschen", phonetic: "oom-tow-shen", meaning: "to exchange / return", example: { de: "Kann ich das umtauschen?", en: "Can I exchange this?" } },
+          { word: "der Cent", phonetic: "tsent", meaning: "the cent", gender: "der", example: { de: "Das kostet 50 Cent.", en: "That costs 50 cents." } },
+          { word: "kosten", phonetic: "kos-ten", meaning: "to cost", example: { de: "Was kostet das?", en: "What does it cost?" } },
+          { word: "das Sonderangebot", phonetic: "zon-der-an-geh-boht", meaning: "the special offer", gender: "das", example: { de: "Heute gibt es Sonderangebote.", en: "Today there are special offers." } },
+          { word: "die Rechnung", phonetic: "rekh-nung", meaning: "the bill / invoice", gender: "die", example: { de: "Die Rechnung, bitte.", en: "The bill, please." } },
+          { word: "das Trinkgeld", phonetic: "trink-gelt", meaning: "the tip", gender: "das", example: { de: "Ich gebe Trinkgeld.", en: "I give a tip." } },
+          { word: "bestellen", phonetic: "beh-shte-len", meaning: "to order", example: { de: "Ich möchte bestellen.", en: "I would like to order." } },
+          { word: "die Speisekarte", phonetic: "shpy-zuh-kar-tuh", meaning: "the menu", gender: "die", example: { de: "Die Speisekarte, bitte.", en: "The menu, please." } },
+          { word: "das Hauptgericht", phonetic: "howpt-ge-rikht", meaning: "the main course", gender: "das", example: { de: "Als Hauptgericht nehme ich Fisch.", en: "For the main course I'll have fish." } },
+          { word: "die Vorspeise", phonetic: "for-shpy-zuh", meaning: "the starter / appetizer", gender: "die", example: { de: "Als Vorspeise nehme ich Suppe.", en: "For the starter I'll have soup." } },
+          { word: "der Nachtisch", phonetic: "nakh-tish", meaning: "the dessert", gender: "der", example: { de: "Zum Nachtisch nehme ich Eis.", en: "For dessert I'll have ice cream." } },
+        ]
+      },
+    ]
+  },
+};
