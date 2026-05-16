@@ -15,6 +15,7 @@ import { lessonsA1Vocab5 } from "./lessons-a1-vocab5";
 import { lessonsA1Vocab6 } from "./lessons-a1-vocab6";
 import { lessonsA1Vocab7 } from "./lessons-a1-vocab7";
 import { lessonsA1Vocab8 } from "./lessons-a1-vocab8";
+import { lessonsA1Vocab9 } from "./lessons-a1-vocab9";
 import { lessonsA1New5, lessonsA2New9 } from "./lessons-final-gaps";
 import { lessonsA1Final, lessonsA2Final } from "./lessons-final-gaps2";
 import { lessonsA2ExamSkills } from "./lessons-a2-exam";
@@ -32,6 +33,7 @@ import { lessonsA2Vocab2 } from "./lessons-a2-vocab2";
 import { lessonsA2Vocab3 } from "./lessons-a2-vocab3";
 import { lessonsA2Vocab4 } from "./lessons-a2-vocab4";
 import { lessonsA2Vocab5 } from "./lessons-a2-vocab5";
+import { lessonsA2Expand1 } from "./lessons-a2-expand1";
 import { lessonsB1 } from "./lessons-b1";
 import { lessonsB1Grammar1 } from "./lessons-b1-grammar1";
 import { lessonsB1Grammar2 } from "./lessons-b1-grammar2";
@@ -137,6 +139,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsA1Vocab6,
   ...lessonsA1Vocab7,
   ...lessonsA1Vocab8,
+  ...lessonsA1Vocab9,
   ...lessonsA2,
   ...lessonsA2New,
   ...lessonsA2New2,
@@ -154,6 +157,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsA2Vocab3,
   ...lessonsA2Vocab4,
   ...lessonsA2Vocab5,
+  ...lessonsA2Expand1,
   ...lessonsB1,
   ...lessonsB1Grammar1,
   ...lessonsB1Grammar2,
