@@ -102,6 +102,8 @@ import { lessonsC1Expand5 } from "./lessons-c1-expand5";
 import { lessonsC2Expand2 } from "./lessons-c2-expand2";
 import { lessonsC2Expand3 } from "./lessons-c2-expand3";
 import { lessonsC2Expand4 } from "./lessons-c2-expand4";
+import { lessonsC1Mega1 } from "./lessons-c1-mega1";
+import { lessonsC2Mega1 } from "./lessons-c2-mega1";
 
 export type LessonBlock = 
   | { type: "vocabulary", word: string, translation: string, example: string, audioUrl?: string, phonetic: string }
@@ -231,4 +233,6 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC2Expand2,
   ...lessonsC2Expand3,
   ...lessonsC2Expand4,
+  ...lessonsC1Mega1,
+  ...lessonsC2Mega1,
 };
