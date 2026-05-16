@@ -40,6 +40,8 @@ import { lessonsB1Vocab2 } from "./lessons-b1-vocab2";
 import { lessonsB1Comm } from "./lessons-b1-comm";
 import { lessonsB1Exam } from "./lessons-b1-exam";
 import { lessonsB1Final } from "./lessons-b1-final";
+import { lessonsB1Expand1 } from "./lessons-b1-expand1";
+import { lessonsB1Expand2 } from "./lessons-b1-expand2";
 import { lessonsB2 } from "./lessons-b2";
 import { lessonsB2Grammar1 } from "./lessons-b2-grammar1";
 import { lessonsB2Grammar2 } from "./lessons-b2-grammar2";
@@ -50,6 +52,7 @@ import { lessonsB2Exam } from "./lessons-b2-exam";
 import { lessonsB2Comm } from "./lessons-b2-comm";
 import { lessonsB2Final } from "./lessons-b2-final";
 import { lessonsB2Supplement } from "./lessons-b2-supplement";
+import { lessonsB2Expand1 } from "./lessons-b2-expand1";
 import { lessonsC1Partikeln } from "./lessons-c1-partikeln";
 import { lessonsC1Grammar } from "./lessons-c1-grammar";
 import { lessonsC1Grammar2 } from "./lessons-c1-grammar2";
@@ -75,6 +78,7 @@ import { lessonsC2Style } from "./lessons-c2-style";
 import { lessonsC1Slang } from "./lessons-c1-slang";
 import { lessonsB2Social } from "./lessons-b2-social";
 import { lessonsC2Swear } from "./lessons-c2-swear";
+import { lessonsC1Expand1, lessonsC2Expand1 } from "./lessons-c1c2-expand1";
 
 export type LessonBlock = 
   | { type: "vocabulary", word: string, translation: string, example: string, audioUrl?: string, phonetic: string }
@@ -141,6 +145,8 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsB1Comm,
   ...lessonsB1Exam,
   ...lessonsB1Final,
+  ...lessonsB1Expand1,
+  ...lessonsB1Expand2,
   ...lessonsB2,
   ...lessonsB2Grammar1,
   ...lessonsB2Grammar2,
@@ -152,6 +158,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsB2Final,
   ...lessonsB2Supplement,
   ...lessonsB2Social,
+  ...lessonsB2Expand1,
   ...lessonsC1Partikeln,
   ...lessonsC1Grammar,
   ...lessonsC1Grammar2,
@@ -176,4 +183,6 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC2Idioms,
   ...lessonsC2Style,
   ...lessonsC2Swear,
+  ...lessonsC1Expand1,
+  ...lessonsC2Expand1,
 };
