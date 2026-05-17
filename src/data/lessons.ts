@@ -44,6 +44,7 @@ import { lessonsA1Mega25 } from "./lessons-a1-mega25";
 import { lessonsA1Mega26 } from "./lessons-a1-mega26";
 import { lessonsA1Mega27 } from "./lessons-a1-mega27";
 import { lessonsA1Mega28 } from "./lessons-a1-mega28";
+import { lessonsA1Mega29 } from "./lessons-a1-mega29";
 import { lessonsA1New5, lessonsA2New9 } from "./lessons-final-gaps";
 import { lessonsA1Final, lessonsA2Final } from "./lessons-final-gaps2";
 import { lessonsA2ExamSkills } from "./lessons-a2-exam";
@@ -88,6 +89,7 @@ import { lessonsA2Mega23 } from "./lessons-a2-mega23";
 import { lessonsA2Mega24 } from "./lessons-a2-mega24";
 import { lessonsA2Mega25 } from "./lessons-a2-mega25";
 import { lessonsA2Mega26 } from "./lessons-a2-mega26";
+import { lessonsA2Mega27 } from "./lessons-a2-mega27";
 import { lessonsB1 } from "./lessons-b1";
 import { lessonsB1Grammar1 } from "./lessons-b1-grammar1";
 import { lessonsB1Grammar2 } from "./lessons-b1-grammar2";
@@ -133,6 +135,7 @@ import { lessonsB1Mega26 } from "./lessons-b1-mega26";
 import { lessonsB1Mega27 } from "./lessons-b1-mega27";
 import { lessonsB1Mega28 } from "./lessons-b1-mega28";
 import { lessonsB1Mega29 } from "./lessons-b1-mega29";
+import { lessonsB1Mega30 } from "./lessons-b1-mega30";
 import { lessonsB2 } from "./lessons-b2";
 import { lessonsB2Grammar1 } from "./lessons-b2-grammar1";
 import { lessonsB2Grammar2 } from "./lessons-b2-grammar2";
@@ -175,6 +178,7 @@ import { lessonsB2Mega24 } from "./lessons-b2-mega24";
 import { lessonsB2Mega25 } from "./lessons-b2-mega25";
 import { lessonsB2Mega26 } from "./lessons-b2-mega26";
 import { lessonsB2Mega27 } from "./lessons-b2-mega27";
+import { lessonsB2Mega28 } from "./lessons-b2-mega28";
 import { lessonsC1Partikeln } from "./lessons-c1-partikeln";
 import { lessonsC1Grammar } from "./lessons-c1-grammar";
 import { lessonsC1Grammar2 } from "./lessons-c1-grammar2";
@@ -235,6 +239,7 @@ import { lessonsC1Mega24 } from "./lessons-c1-mega24";
 import { lessonsC1Mega25 } from "./lessons-c1-mega25";
 import { lessonsC1Mega26 } from "./lessons-c1-mega26";
 import { lessonsC1Mega27 } from "./lessons-c1-mega27";
+import { lessonsC1Mega28 } from "./lessons-c1-mega28";
 import { lessonsC2Mega1 } from "./lessons-c2-mega1";
 import { lessonsC2Mega2 } from "./lessons-c2-mega2";
 import { lessonsC2Mega3 } from "./lessons-c2-mega3";
@@ -260,6 +265,7 @@ import { lessonsC2Mega22 } from "./lessons-c2-mega22";
 import { lessonsC2Mega23 } from "./lessons-c2-mega23";
 import { lessonsC2Mega24 } from "./lessons-c2-mega24";
 import { lessonsC2Mega25 } from "./lessons-c2-mega25";
+import { lessonsC2Mega26 } from "./lessons-c2-mega26";
 
 export type LessonBlock = 
   | { type: "vocabulary", word: string, translation: string, example: string, audioUrl?: string, phonetic: string }
@@ -330,6 +336,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsA1Mega26,
   ...lessonsA1Mega27,
   ...lessonsA1Mega28,
+  ...lessonsA1Mega29,
   ...lessonsA2,
   ...lessonsA2New,
   ...lessonsA2New2,
@@ -374,6 +381,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsA2Mega24,
   ...lessonsA2Mega25,
   ...lessonsA2Mega26,
+  ...lessonsA2Mega27,
   ...lessonsB1,
   ...lessonsB1Grammar1,
   ...lessonsB1Grammar2,
@@ -419,6 +427,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsB1Mega27,
   ...lessonsB1Mega28,
   ...lessonsB1Mega29,
+  ...lessonsB1Mega30,
   ...lessonsB2,
   ...lessonsB2Grammar1,
   ...lessonsB2Grammar2,
@@ -462,6 +471,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsB2Mega25,
   ...lessonsB2Mega26,
   ...lessonsB2Mega27,
+  ...lessonsB2Mega28,
   ...lessonsC1Partikeln,
   ...lessonsC1Grammar,
   ...lessonsC1Grammar2,
@@ -522,6 +532,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC1Mega25,
   ...lessonsC1Mega26,
   ...lessonsC1Mega27,
+  ...lessonsC1Mega28,
   ...lessonsC2Mega1,
   ...lessonsC2Mega2,
   ...lessonsC2Mega3,
@@ -547,4 +558,5 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC2Mega23,
   ...lessonsC2Mega24,
   ...lessonsC2Mega25,
+  ...lessonsC2Mega26,
 };
