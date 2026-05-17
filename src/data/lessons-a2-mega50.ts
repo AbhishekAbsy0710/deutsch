@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega50: Record<string, Lesson> = {
+  "la2_m95": { id: "la2_m95", title: "Celebrations & Events A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Hochzeit", phonetic: "hokh-tsyte", meaning: "wedding", gender: "die", example: { de: "Zur Hochzeit einladen.", en: "Invite to the wedding." } },
+    { word: "die Taufe", phonetic: "tow-fuh", meaning: "baptism / christening", gender: "die", example: { de: "Eine Taufe feiern.", en: "Celebrate a baptism." } },
+    { word: "die Beerdigung", phonetic: "beh-er-di-gung", meaning: "funeral", gender: "die", example: { de: "Zur Beerdigung gehen.", en: "Go to the funeral." } },
+    { word: "die Einweihungsfeier", phonetic: "ayn-vy-hungs-fy-er", meaning: "housewarming party", gender: "die", example: { de: "Eine Einweihungsfeier geben.", en: "Throw a housewarming." } },
+    { word: "die Verlobung", phonetic: "fer-loh-bung", meaning: "engagement", gender: "die", example: { de: "Die Verlobung feiern.", en: "Celebrate the engagement." } },
+    { word: "der Junggesellenabschied", phonetic: "yung-geh-ze-len-ap-sheet", meaning: "bachelor party", gender: "der", example: { de: "Einen Junggesellenabschied planen.", en: "Plan a bachelor party." } },
+    { word: "die Konfirmation", phonetic: "kon-fir-ma-tsee-ohn", meaning: "confirmation", gender: "die", example: { de: "Die Konfirmation feiern.", en: "Celebrate confirmation." } },
+    { word: "der Polterabend", phonetic: "pol-ter-ah-bent", meaning: "pre-wedding party", gender: "der", example: { de: "Polterabend feiern.", en: "Celebrate the pre-wedding party." } },
+    { word: "die Einladung", phonetic: "ayn-lah-dung", meaning: "invitation", gender: "die", example: { de: "Eine Einladung verschicken.", en: "Send an invitation." } },
+    { word: "die Überraschungsparty", phonetic: "ü-ber-ra-shungs-par-tee", meaning: "surprise party", gender: "die", example: { de: "Eine Überraschungsparty organisieren.", en: "Organize a surprise party." } },
+    { word: "der Empfang", phonetic: "emp-fang", meaning: "reception", gender: "der", example: { de: "Ein festlicher Empfang.", en: "A festive reception." } },
+    { word: "die Dekoration", phonetic: "de-ko-ra-tsee-ohn", meaning: "decoration", gender: "die", example: { de: "Schöne Dekoration.", en: "Beautiful decoration." } },
+    { word: "die Torte", phonetic: "tor-tuh", meaning: "cake (layered)", gender: "die", example: { de: "Eine Hochzeitstorte.", en: "A wedding cake." } },
+    { word: "der Blumenstrauß", phonetic: "bloo-men-shtrows", meaning: "bouquet", gender: "der", example: { de: "Einen Blumenstrauß schenken.", en: "Give a bouquet." } },
+    { word: "die Rede", phonetic: "ray-duh", meaning: "speech", gender: "die", example: { de: "Eine Rede halten.", en: "Give a speech." } },
+    { word: "der Trauzeuge", phonetic: "trow-tsoy-guh", meaning: "best man / witness", gender: "der", example: { de: "Als Trauzeuge fungieren.", en: "Serve as best man." } },
+    { word: "die Brautjungfer", phonetic: "browt-yung-fer", meaning: "bridesmaid", gender: "die", example: { de: "Die Brautjungfer begleitet.", en: "The bridesmaid accompanies." } },
+    { word: "anstoßen", phonetic: "an-shtoh-sen", meaning: "to toast (drink)", example: { de: "Auf das Brautpaar anstoßen.", en: "Toast to the couple." } },
+    { word: "gratulieren", phonetic: "gra-too-lee-ren", meaning: "to congratulate", example: { de: "Herzlich gratulieren.", en: "Congratulate warmly." } },
+    { word: "die Feuerwerk", phonetic: "foy-er-verk", meaning: "fireworks", gender: "das", example: { de: "Ein Feuerwerk anschauen.", en: "Watch fireworks." } },
+  ]}] },
+};

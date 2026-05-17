@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega51: Record<string, Lesson> = {
+  "lb2_m96": { id: "lb2_m96", title: "Toxicology B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Toxikologie", phonetic: "tok-si-ko-lo-gee", meaning: "toxicology", gender: "die", example: { de: "Forensische Toxikologie.", en: "Forensic toxicology." } },
+    { word: "das Gift", phonetic: "gift", meaning: "poison / toxin", gender: "das", example: { de: "Ein tödliches Gift.", en: "A lethal poison." } },
+    { word: "die Vergiftung", phonetic: "fer-gif-tung", meaning: "poisoning", gender: "die", example: { de: "Akute Vergiftung.", en: "Acute poisoning." } },
+    { word: "die Dosis-Wirkungs-Beziehung", phonetic: "doh-zis-vir-kungs-beh-tsee-ung", meaning: "dose-response relationship", gender: "die", example: { de: "Nichtlineare Dosis-Wirkungs-Beziehung.", en: "Nonlinear dose-response relationship." } },
+    { word: "die Genotoxizität", phonetic: "ge-no-tok-si-tsi-tayt", meaning: "genotoxicity", gender: "die", example: { de: "DNA-schädigende Genotoxizität.", en: "DNA-damaging genotoxicity." } },
+    { word: "die Neurotoxizität", phonetic: "noy-ro-tok-si-tsi-tayt", meaning: "neurotoxicity", gender: "die", example: { de: "Schwermetall-Neurotoxizität.", en: "Heavy metal neurotoxicity." } },
+    { word: "die Hepatotoxizität", phonetic: "he-pa-to-tok-si-tsi-tayt", meaning: "hepatotoxicity", gender: "die", example: { de: "Arzneimittel-Hepatotoxizität.", en: "Drug hepatotoxicity." } },
+    { word: "die Nephrotoxizität", phonetic: "ne-fro-tok-si-tsi-tayt", meaning: "nephrotoxicity", gender: "die", example: { de: "Cisplatin-Nephrotoxizität.", en: "Cisplatin nephrotoxicity." } },
+    { word: "der Schadstoff", phonetic: "shaht-shtof", meaning: "pollutant / contaminant", gender: "der", example: { de: "Umweltschadstoff.", en: "Environmental pollutant." } },
+    { word: "die Bioakkumulation", phonetic: "bee-oh-a-koo-moo-la-tsee-ohn", meaning: "bioaccumulation", gender: "die", example: { de: "Quecksilber-Bioakkumulation.", en: "Mercury bioaccumulation." } },
+    { word: "die Entgiftung", phonetic: "ent-gif-tung", meaning: "detoxification", gender: "die", example: { de: "Hepatische Entgiftung.", en: "Hepatic detoxification." } },
+    { word: "die Risikobewertung", phonetic: "ri-zi-ko-beh-ver-tung", meaning: "risk assessment", gender: "die", example: { de: "Toxikologische Risikobewertung.", en: "Toxicological risk assessment." } },
+    { word: "die Kanzerogenität", phonetic: "kan-tse-ro-ge-ni-tayt", meaning: "carcinogenicity", gender: "die", example: { de: "Chemische Kanzerogenität.", en: "Chemical carcinogenicity." } },
+    { word: "die Teratogenität", phonetic: "te-ra-to-ge-ni-tayt", meaning: "teratogenicity", gender: "die", example: { de: "Arzneimittel-Teratogenität.", en: "Drug teratogenicity." } },
+    { word: "die Ökotoxikologie", phonetic: "ö-ko-tok-si-ko-lo-gee", meaning: "ecotoxicology", gender: "die", example: { de: "Aquatische Ökotoxikologie.", en: "Aquatic ecotoxicology." } },
+    { word: "der Grenzwert", phonetic: "grents-vert", meaning: "threshold value / limit", gender: "der", example: { de: "Zulässiger Grenzwert.", en: "Permissible limit." } },
+    { word: "die Pharmakokinetik", phonetic: "far-ma-ko-ki-nay-tik", meaning: "pharmacokinetics", gender: "die", example: { de: "ADME-Pharmakokinetik.", en: "ADME pharmacokinetics." } },
+    { word: "die Xenobiotika", phonetic: "kse-no-bee-oh-ti-ka", meaning: "xenobiotics", example: { de: "Xenobiotika-Metabolismus.", en: "Xenobiotic metabolism." } },
+    { word: "die Halbwertszeit", phonetic: "halp-verts-tsyte", meaning: "half-life", gender: "die", example: { de: "Biologische Halbwertszeit.", en: "Biological half-life." } },
+    { word: "die Mutagenität", phonetic: "moo-ta-ge-ni-tayt", meaning: "mutagenicity", gender: "die", example: { de: "Ames-Test-Mutagenität.", en: "Ames test mutagenicity." } },
+  ]}] },
+};

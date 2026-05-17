@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega49: Record<string, Lesson> = {
+  "lc2_m92": { id: "lc2_m92", title: "Advanced Astrobiology C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Astrobiologie", phonetic: "as-tro-bee-oh-lo-gee", meaning: "astrobiology", gender: "die", example: { de: "Exoplanetare Astrobiologie.", en: "Exoplanetary astrobiology." } },
+    { word: "die Extremophile", phonetic: "eks-tray-mo-fee-luh", meaning: "extremophile", gender: "der", example: { de: "Thermophile Extremophile.", en: "Thermophilic extremophiles." } },
+    { word: "die Habitable Zone", phonetic: "ha-bi-tah-bluh tso-nuh", meaning: "habitable zone", example: { de: "Zirkumstellare habitable Zone.", en: "Circumstellar habitable zone." } },
+    { word: "die Panspermie", phonetic: "pan-shper-mee", meaning: "panspermia", gender: "die", example: { de: "Gerichtete Panspermie.", en: "Directed panspermia." } },
+    { word: "die Biosignatur", phonetic: "bee-oh-zig-na-toor", meaning: "biosignature", gender: "die", example: { de: "Atmosphärische Biosignatur.", en: "Atmospheric biosignature." } },
+    { word: "die Abiogenese", phonetic: "ah-bee-oh-ge-nay-zuh", meaning: "abiogenesis", gender: "die", example: { de: "Chemische Abiogenese.", en: "Chemical abiogenesis." } },
+    { word: "die RNA-Welt-Hypothese", phonetic: "er-en-ah-velt-hü-po-tay-zuh", meaning: "RNA world hypothesis", gender: "die", example: { de: "Prebiotische RNA-Welt-Hypothese.", en: "Prebiotic RNA world hypothesis." } },
+    { word: "die Chemoautotrophie", phonetic: "ke-mo-ow-to-tro-fee", meaning: "chemoautotrophy", gender: "die", example: { de: "Hydrothermale Chemoautotrophie.", en: "Hydrothermal chemoautotrophy." } },
+    { word: "die Lithopanspermie", phonetic: "li-to-pan-shper-mee", meaning: "lithopanspermia", gender: "die", example: { de: "Interplanetare Lithopanspermie.", en: "Interplanetary lithopanspermia." } },
+    { word: "die Planetare Habitabilität", phonetic: "pla-ne-tah-ruh ha-bi-ta-bi-li-tayt", meaning: "planetary habitability", example: { de: "Mars-planetare Habitabilität.", en: "Mars planetary habitability." } },
+    { word: "die Biogeochemie", phonetic: "bee-oh-ge-oh-ke-mee", meaning: "biogeochemistry", gender: "die", example: { de: "Globale Biogeochemie.", en: "Global biogeochemistry." } },
+    { word: "die Exobiologie", phonetic: "ek-so-bee-oh-lo-gee", meaning: "exobiology", gender: "die", example: { de: "Spekulativ Exobiologie.", en: "Speculative exobiology." } },
+    { word: "die Prebiotic Chemie", phonetic: "pray-bee-oh-tik ke-mee", meaning: "prebiotic chemistry", example: { de: "Miller-Urey prebiotic Chemie.", en: "Miller-Urey prebiotic chemistry." } },
+    { word: "die Titan-Astrobiologie", phonetic: "ti-tahn-as-tro-bee-oh-lo-gee", meaning: "Titan astrobiology", example: { de: "Kohlenwasserstoff-Titan-Astrobiologie.", en: "Hydrocarbon Titan astrobiology." } },
+    { word: "die Europa-Ozean", phonetic: "oy-ro-pa-oh-tse-ahn", meaning: "Europa ocean", example: { de: "Subglazialer Europa-Ozean.", en: "Subglacial Europa ocean." } },
+    { word: "die Enceladus-Geysire", phonetic: "en-tse-la-dus-gy-zee-ruh", meaning: "Enceladus geysers", example: { de: "Kryovulkanische Enceladus-Geysire.", en: "Cryovolcanic Enceladus geysers." } },
+    { word: "die Technosignatur", phonetic: "tekh-no-zig-na-toor", meaning: "technosignature", gender: "die", example: { de: "Dyson-Sphäre-Technosignatur.", en: "Dyson sphere technosignature." } },
+    { word: "die Drake-Gleichung", phonetic: "drayk-glykh-ung", meaning: "Drake equation", gender: "die", example: { de: "Probabilistische Drake-Gleichung.", en: "Probabilistic Drake equation." } },
+    { word: "die Fermi-Paradoxon", phonetic: "fer-mee-pa-ra-dok-son", meaning: "Fermi paradox", gender: "das", example: { de: "Erklärungen für das Fermi-Paradoxon.", en: "Explanations for the Fermi paradox." } },
+    { word: "die SETI-Forschung", phonetic: "se-ti-for-shung", meaning: "SETI research", gender: "die", example: { de: "Radioteleskop-SETI-Forschung.", en: "Radio telescope SETI research." } },
+  ]}] },
+};

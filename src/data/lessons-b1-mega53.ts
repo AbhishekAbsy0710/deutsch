@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega53: Record<string, Lesson> = {
+  "lb1_m104": { id: "lb1_m104", title: "Migration & Integration B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Migration", phonetic: "mi-gra-tsee-ohn", meaning: "migration", gender: "die", example: { de: "Globale Migration.", en: "Global migration." } },
+    { word: "die Integration", phonetic: "in-te-gra-tsee-ohn", meaning: "integration", gender: "die", example: { de: "Gesellschaftliche Integration.", en: "Social integration." } },
+    { word: "der Flüchtling", phonetic: "flükht-ling", meaning: "refugee", gender: "der", example: { de: "Einen Flüchtling aufnehmen.", en: "Take in a refugee." } },
+    { word: "das Asyl", phonetic: "a-zühl", meaning: "asylum", gender: "das", example: { de: "Asyl beantragen.", en: "Apply for asylum." } },
+    { word: "die Einwanderung", phonetic: "ayn-van-de-rung", meaning: "immigration", gender: "die", example: { de: "Legale Einwanderung.", en: "Legal immigration." } },
+    { word: "die Auswanderung", phonetic: "ows-van-de-rung", meaning: "emigration", gender: "die", example: { de: "Auswanderung nach Kanada.", en: "Emigration to Canada." } },
+    { word: "die Staatsbürgerschaft", phonetic: "shtahts-bür-ger-shaft", meaning: "citizenship", gender: "die", example: { de: "Staatsbürgerschaft erwerben.", en: "Acquire citizenship." } },
+    { word: "die Aufenthaltserlaubnis", phonetic: "owf-ent-halts-er-lowp-nis", meaning: "residence permit", gender: "die", example: { de: "Eine Aufenthaltserlaubnis beantragen.", en: "Apply for a residence permit." } },
+    { word: "der Integrationskurs", phonetic: "in-te-gra-tsee-ohns-koors", meaning: "integration course", gender: "der", example: { de: "Einen Integrationskurs besuchen.", en: "Attend an integration course." } },
+    { word: "die Abschiebung", phonetic: "ap-shee-bung", meaning: "deportation", gender: "die", example: { de: "Drohende Abschiebung.", en: "Threatened deportation." } },
+    { word: "die Vielfalt", phonetic: "feel-falt", meaning: "diversity", gender: "die", example: { de: "Kulturelle Vielfalt.", en: "Cultural diversity." } },
+    { word: "die Diskriminierung", phonetic: "dis-kri-mi-nee-rung", meaning: "discrimination", gender: "die", example: { de: "Diskriminierung bekämpfen.", en: "Fight discrimination." } },
+    { word: "der Rassismus", phonetic: "ra-sis-mus", meaning: "racism", gender: "der", example: { de: "Gegen Rassismus.", en: "Against racism." } },
+    { word: "die Toleranz", phonetic: "to-le-rants", meaning: "tolerance", gender: "die", example: { de: "Toleranz zeigen.", en: "Show tolerance." } },
+    { word: "die Heimat", phonetic: "hy-maht", meaning: "homeland", gender: "die", example: { de: "Die alte Heimat.", en: "The old homeland." } },
+    { word: "die Muttersprache", phonetic: "moo-ter-shprah-khuh", meaning: "mother tongue", gender: "die", example: { de: "Die Muttersprache bewahren.", en: "Preserve the mother tongue." } },
+    { word: "die Mehrsprachigkeit", phonetic: "mayr-shprah-khikh-kyte", meaning: "multilingualism", gender: "die", example: { de: "Mehrsprachigkeit fördern.", en: "Promote multilingualism." } },
+    { word: "die Gleichberechtigung", phonetic: "glykh-beh-rekh-ti-gung", meaning: "equal rights / equality", gender: "die", example: { de: "Gleichberechtigung fordern.", en: "Demand equal rights." } },
+    { word: "der Migrationshintergrund", phonetic: "mi-gra-tsee-ohns-hin-ter-groont", meaning: "migration background", gender: "der", example: { de: "Mit Migrationshintergrund.", en: "With a migration background." } },
+    { word: "die Willkommenskultur", phonetic: "vil-ko-mens-kool-toor", meaning: "welcome culture", gender: "die", example: { de: "Deutsche Willkommenskultur.", en: "German welcome culture." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega51: Record<string, Lesson> = {
+  "lc1_m97": { id: "lc1_m97", title: "Advanced Cryptography C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Kryptographie", phonetic: "krüp-to-gra-fee", meaning: "cryptography", gender: "die", example: { de: "Asymmetrische Kryptographie.", en: "Asymmetric cryptography." } },
+    { word: "die Verschlüsselungsalgorithmus", phonetic: "fer-shlü-se-lungs-al-go-rit-mus", meaning: "encryption algorithm", gender: "der", example: { de: "AES-Verschlüsselungsalgorithmus.", en: "AES encryption algorithm." } },
+    { word: "die Hashfunktion", phonetic: "hash-funk-tsee-ohn", meaning: "hash function", gender: "die", example: { de: "Kryptographische Hashfunktion.", en: "Cryptographic hash function." } },
+    { word: "die Digitale Signatur", phonetic: "di-gi-tah-luh zig-na-toor", meaning: "digital signature", example: { de: "RSA-digitale Signatur.", en: "RSA digital signature." } },
+    { word: "die Schlüsselverteilung", phonetic: "shlü-sel-fer-ty-lung", meaning: "key distribution", gender: "die", example: { de: "Quantenschlüsselverteilung.", en: "Quantum key distribution." } },
+    { word: "die Post-Quanten-Kryptographie", phonetic: "post-kvan-ten-krüp-to-gra-fee", meaning: "post-quantum cryptography", gender: "die", example: { de: "Gitterbasierte Post-Quanten-Kryptographie.", en: "Lattice-based post-quantum cryptography." } },
+    { word: "die Homomorphe Verschlüsselung", phonetic: "ho-mo-mor-fuh fer-shlü-se-lung", meaning: "homomorphic encryption", example: { de: "Vollständig homomorphe Verschlüsselung.", en: "Fully homomorphic encryption." } },
+    { word: "die Nullwissensbeweis", phonetic: "nool-vi-sens-beh-vys", meaning: "zero-knowledge proof", gender: "der", example: { de: "Interaktiver Nullwissensbeweis.", en: "Interactive zero-knowledge proof." } },
+    { word: "die Elliptische-Kurven-Kryptographie", phonetic: "e-lip-ti-shuh-koor-ven-krüp-to-gra-fee", meaning: "elliptic curve cryptography", gender: "die", example: { de: "ECDSA-Kryptographie.", en: "ECDSA cryptography." } },
+    { word: "die Kryptoanalyse", phonetic: "krüp-to-a-na-lü-zuh", meaning: "cryptanalysis", gender: "die", example: { de: "Differentielle Kryptoanalyse.", en: "Differential cryptanalysis." } },
+    { word: "die Steganographie", phonetic: "shteh-ga-no-gra-fee", meaning: "steganography", gender: "die", example: { de: "Digitale Steganographie.", en: "Digital steganography." } },
+    { word: "der Chiffretext", phonetic: "shi-fruh-tekst", meaning: "ciphertext", gender: "der", example: { de: "Entschlüsselter Chiffretext.", en: "Decrypted ciphertext." } },
+    { word: "der Klartext", phonetic: "klahr-tekst", meaning: "plaintext", gender: "der", example: { de: "Klartext verschlüsseln.", en: "Encrypt plaintext." } },
+    { word: "die Zertifizierungsstelle", phonetic: "tser-ti-fi-tsee-rungs-shte-luh", meaning: "certificate authority", gender: "die", example: { de: "Vertrauenswürdige Zertifizierungsstelle.", en: "Trusted certificate authority." } },
+    { word: "die Blockchiffre", phonetic: "blok-shi-fruh", meaning: "block cipher", gender: "die", example: { de: "AES-Blockchiffre.", en: "AES block cipher." } },
+    { word: "die Stromchiffre", phonetic: "shtrohm-shi-fruh", meaning: "stream cipher", gender: "die", example: { de: "ChaCha20-Stromchiffre.", en: "ChaCha20 stream cipher." } },
+    { word: "die Entropie", phonetic: "en-tro-pee", meaning: "entropy (cryptographic)", gender: "die", example: { de: "Kryptographische Entropie.", en: "Cryptographic entropy." } },
+    { word: "die Multi-Party-Berechnung", phonetic: "mul-ti-par-tee-beh-rekh-nung", meaning: "multi-party computation", gender: "die", example: { de: "Sichere Multi-Party-Berechnung.", en: "Secure multi-party computation." } },
+    { word: "die Schlüssellänge", phonetic: "shlü-sel-len-guh", meaning: "key length", gender: "die", example: { de: "256-Bit-Schlüssellänge.", en: "256-bit key length." } },
+    { word: "die Authentifizierung", phonetic: "ow-ten-ti-fi-tsee-rung", meaning: "authentication", gender: "die", example: { de: "Zwei-Faktor-Authentifizierung.", en: "Two-factor authentication." } },
+  ]}] },
+};
