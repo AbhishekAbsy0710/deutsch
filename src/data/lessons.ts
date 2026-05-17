@@ -74,6 +74,7 @@ import { lessonsB1Mega5 } from "./lessons-b1-mega5";
 import { lessonsB1Mega6 } from "./lessons-b1-mega6";
 import { lessonsB1Mega7 } from "./lessons-b1-mega7";
 import { lessonsB1Mega8 } from "./lessons-b1-mega8";
+import { lessonsB1Mega9 } from "./lessons-b1-mega9";
 import { lessonsB2 } from "./lessons-b2";
 import { lessonsB2Grammar1 } from "./lessons-b2-grammar1";
 import { lessonsB2Grammar2 } from "./lessons-b2-grammar2";
@@ -135,11 +136,13 @@ import { lessonsC1Mega3 } from "./lessons-c1-mega3";
 import { lessonsC1Mega4 } from "./lessons-c1-mega4";
 import { lessonsC1Mega5 } from "./lessons-c1-mega5";
 import { lessonsC1Mega6 } from "./lessons-c1-mega6";
+import { lessonsC1Mega7 } from "./lessons-c1-mega7";
 import { lessonsC2Mega1 } from "./lessons-c2-mega1";
 import { lessonsC2Mega2 } from "./lessons-c2-mega2";
 import { lessonsC2Mega3 } from "./lessons-c2-mega3";
 import { lessonsC2Mega4 } from "./lessons-c2-mega4";
 import { lessonsC2Mega5 } from "./lessons-c2-mega5";
+import { lessonsC2Mega6 } from "./lessons-c2-mega6";
 
 export type LessonBlock = 
   | { type: "vocabulary", word: string, translation: string, example: string, audioUrl?: string, phonetic: string }
@@ -240,6 +243,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsB1Mega6,
   ...lessonsB1Mega7,
   ...lessonsB1Mega8,
+  ...lessonsB1Mega9,
   ...lessonsB2,
   ...lessonsB2Grammar1,
   ...lessonsB2Grammar2,
@@ -302,9 +306,11 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC1Mega4,
   ...lessonsC1Mega5,
   ...lessonsC1Mega6,
+  ...lessonsC1Mega7,
   ...lessonsC2Mega1,
   ...lessonsC2Mega2,
   ...lessonsC2Mega3,
   ...lessonsC2Mega4,
   ...lessonsC2Mega5,
+  ...lessonsC2Mega6,
 };
