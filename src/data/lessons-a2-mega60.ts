@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega60: Record<string, Lesson> = {
+  "la2_m105": { id: "la2_m105", title: "Accommodation & Renting A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Wohnung", phonetic: "voh-nung", meaning: "apartment", gender: "die", example: { de: "Eine Wohnung suchen.", en: "Look for an apartment." } },
+    { word: "die Miete", phonetic: "mee-tuh", meaning: "rent", gender: "die", example: { de: "Die Miete bezahlen.", en: "Pay the rent." } },
+    { word: "der Vermieter", phonetic: "fer-mee-ter", meaning: "landlord", gender: "der", example: { de: "Den Vermieter kontaktieren.", en: "Contact the landlord." } },
+    { word: "der Mieter", phonetic: "mee-ter", meaning: "tenant", gender: "der", example: { de: "Ein neuer Mieter.", en: "A new tenant." } },
+    { word: "der Mietvertrag", phonetic: "meet-fer-trahg", meaning: "lease / rental agreement", gender: "der", example: { de: "Den Mietvertrag unterschreiben.", en: "Sign the lease." } },
+    { word: "die Kaution", phonetic: "kow-tsee-ohn", meaning: "deposit", gender: "die", example: { de: "Drei Monatsmieten Kaution.", en: "Three months' deposit." } },
+    { word: "die Nebenkosten", phonetic: "nay-ben-kos-ten", meaning: "utility costs", example: { de: "Nebenkosten eingeschlossen.", en: "Utilities included." } },
+    { word: "die Warmmiete", phonetic: "varm-mee-tuh", meaning: "warm rent (incl. utilities)", gender: "die", example: { de: "800 Euro Warmmiete.", en: "800 euros warm rent." } },
+    { word: "die Kaltmiete", phonetic: "kalt-mee-tuh", meaning: "cold rent (excl. utilities)", gender: "die", example: { de: "600 Euro Kaltmiete.", en: "600 euros cold rent." } },
+    { word: "einziehen", phonetic: "ayn-tsee-en", meaning: "to move in", example: { de: "Nächsten Monat einziehen.", en: "Move in next month." } },
+    { word: "ausziehen", phonetic: "ows-tsee-en", meaning: "to move out", example: { de: "Im Juni ausziehen.", en: "Move out in June." } },
+    { word: "umziehen", phonetic: "oom-tsee-en", meaning: "to relocate", example: { de: "Nach Berlin umziehen.", en: "Relocate to Berlin." } },
+    { word: "der Umzug", phonetic: "oom-tsoog", meaning: "move (relocation)", gender: "der", example: { de: "Den Umzug planen.", en: "Plan the move." } },
+    { word: "möbliert", phonetic: "mö-bleert", meaning: "furnished", example: { de: "Eine möblierte Wohnung.", en: "A furnished apartment." } },
+    { word: "unmöbliert", phonetic: "oon-mö-bleert", meaning: "unfurnished", example: { de: "Eine unmöblierte Wohnung.", en: "An unfurnished apartment." } },
+    { word: "die Wohngemeinschaft", phonetic: "vohn-geh-myne-shaft", meaning: "shared apartment (WG)", gender: "die", example: { de: "In einer WG wohnen.", en: "Live in a shared apartment." } },
+    { word: "die Quadratmeter", phonetic: "kva-draht-may-ter", meaning: "square meters", example: { de: "60 Quadratmeter.", en: "60 square meters." } },
+    { word: "die Besichtigung", phonetic: "beh-zikh-ti-gung", meaning: "viewing (property)", gender: "die", example: { de: "Eine Besichtigung vereinbaren.", en: "Arrange a viewing." } },
+    { word: "kündigen", phonetic: "kün-di-gen", meaning: "to terminate / give notice", example: { de: "Den Mietvertrag kündigen.", en: "Terminate the lease." } },
+    { word: "die Kündigungsfrist", phonetic: "kün-di-gungs-frist", meaning: "notice period", gender: "die", example: { de: "Drei Monate Kündigungsfrist.", en: "Three months' notice." } },
+  ]}] },
+};

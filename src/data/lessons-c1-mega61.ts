@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega61: Record<string, Lesson> = {
+  "lc1_m107": { id: "lc1_m107", title: "Advanced Game Theory C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Spieltheorie", phonetic: "shpeel-tay-oh-ree", meaning: "game theory", gender: "die", example: { de: "Evolutionäre Spieltheorie.", en: "Evolutionary game theory." } },
+    { word: "das Nash-Gleichgewicht", phonetic: "nesh-glykh-geh-vikht", meaning: "Nash equilibrium", gender: "das", example: { de: "Gemischtes Nash-Gleichgewicht.", en: "Mixed Nash equilibrium." } },
+    { word: "die Dominante Strategie", phonetic: "do-mi-nan-tuh shtra-te-gee", meaning: "dominant strategy", example: { de: "Strikt dominante Strategie.", en: "Strictly dominant strategy." } },
+    { word: "das Gefangenendilemma", phonetic: "geh-fan-ge-nen-di-le-ma", meaning: "prisoner's dilemma", gender: "das", example: { de: "Iteriertes Gefangenendilemma.", en: "Iterated prisoner's dilemma." } },
+    { word: "die Kooperative Spieltheorie", phonetic: "ko-oh-pe-ra-tee-vuh shpeel-tay-oh-ree", meaning: "cooperative game theory", example: { de: "Koalitionsbasierte kooperative Spieltheorie.", en: "Coalition-based cooperative game theory." } },
+    { word: "die Auktionstheorie", phonetic: "owk-tsee-ohns-tay-oh-ree", meaning: "auction theory", gender: "die", example: { de: "Vickrey-Auktionstheorie.", en: "Vickrey auction theory." } },
+    { word: "die Mechanismusdesign", phonetic: "me-kha-nis-mus-de-zine", meaning: "mechanism design", gender: "das", example: { de: "Anreizkompatibles Mechanismusdesign.", en: "Incentive-compatible mechanism design." } },
+    { word: "die Minimax-Strategie", phonetic: "mi-ni-maks-shtra-te-gee", meaning: "minimax strategy", gender: "die", example: { de: "Optimale Minimax-Strategie.", en: "Optimal minimax strategy." } },
+    { word: "die Pareto-Optimalität", phonetic: "pa-ray-to-op-ti-ma-li-tayt", meaning: "Pareto optimality", gender: "die", example: { de: "Strenge Pareto-Optimalität.", en: "Strict Pareto optimality." } },
+    { word: "die Bayesianisches Spiel", phonetic: "bay-zee-ah-ni-shes shpeel", meaning: "Bayesian game", gender: "das", example: { de: "Statisches bayesianisches Spiel.", en: "Static Bayesian game." } },
+    { word: "die Verhandlungstheorie", phonetic: "fer-hand-lungs-tay-oh-ree", meaning: "bargaining theory", gender: "die", example: { de: "Nash-Verhandlungstheorie.", en: "Nash bargaining theory." } },
+    { word: "die Signaling-Spiel", phonetic: "sig-na-ling-shpeel", meaning: "signaling game", gender: "das", example: { de: "Spence-Signaling-Spiel.", en: "Spence signaling game." } },
+    { word: "die Shapley-Wert", phonetic: "shap-lee-vert", meaning: "Shapley value", gender: "der", example: { de: "Koalitionärer Shapley-Wert.", en: "Coalitional Shapley value." } },
+    { word: "die Extensive Form", phonetic: "eks-ten-zee-vuh form", meaning: "extensive form", example: { de: "Sequentielle extensive Form.", en: "Sequential extensive form." } },
+    { word: "die Strategische Interaktion", phonetic: "shtra-tay-gi-shuh in-ter-ak-tsee-ohn", meaning: "strategic interaction", example: { de: "Rationale strategische Interaktion.", en: "Rational strategic interaction." } },
+    { word: "die Rückwärtsinduktion", phonetic: "rük-verts-in-dook-tsee-ohn", meaning: "backward induction", gender: "die", example: { de: "Perfekte Rückwärtsinduktion.", en: "Perfect backward induction." } },
+    { word: "die Wiederholtes Spiel", phonetic: "vee-der-hohl-tes shpeel", meaning: "repeated game", gender: "das", example: { de: "Unendlich wiederholtes Spiel.", en: "Infinitely repeated game." } },
+    { word: "die Soziale-Wahl-Theorie", phonetic: "zo-tsee-ah-luh-vahl-tay-oh-ree", meaning: "social choice theory", gender: "die", example: { de: "Arrowsche Soziale-Wahl-Theorie.", en: "Arrovian social choice theory." } },
+    { word: "die Informationsasymmetrie", phonetic: "in-for-ma-tsee-ohns-a-zü-me-tree", meaning: "information asymmetry", gender: "die", example: { de: "Akerlof-Informationsasymmetrie.", en: "Akerlof information asymmetry." } },
+    { word: "die Rationalitätsannahme", phonetic: "ra-tsee-oh-na-li-tayts-an-nah-muh", meaning: "rationality assumption", gender: "die", example: { de: "Begrenzte Rationalitätsannahme.", en: "Bounded rationality assumption." } },
+  ]}] },
+};

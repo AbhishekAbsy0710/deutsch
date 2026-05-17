@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega62: Record<string, Lesson> = {
+  "lb1_m113": { id: "lb1_m113", title: "Philosophy & Ethics B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Philosophie", phonetic: "fi-lo-zo-fee", meaning: "philosophy", gender: "die", example: { de: "Antike Philosophie.", en: "Ancient philosophy." } },
+    { word: "die Ethik", phonetic: "ay-tik", meaning: "ethics", gender: "die", example: { de: "Angewandte Ethik.", en: "Applied ethics." } },
+    { word: "die Moral", phonetic: "mo-rahl", meaning: "morality", gender: "die", example: { de: "Fragen der Moral.", en: "Questions of morality." } },
+    { word: "die Gerechtigkeit", phonetic: "geh-rekh-tikh-kyte", meaning: "justice", gender: "die", example: { de: "Soziale Gerechtigkeit.", en: "Social justice." } },
+    { word: "die Freiheit", phonetic: "fry-hyte", meaning: "freedom", gender: "die", example: { de: "Individuelle Freiheit.", en: "Individual freedom." } },
+    { word: "die Wahrheit", phonetic: "vahr-hyte", meaning: "truth", gender: "die", example: { de: "Die Wahrheit sagen.", en: "Tell the truth." } },
+    { word: "die Verantwortung", phonetic: "fer-ant-vor-tung", meaning: "responsibility", gender: "die", example: { de: "Verantwortung übernehmen.", en: "Take responsibility." } },
+    { word: "die Würde", phonetic: "vür-duh", meaning: "dignity", gender: "die", example: { de: "Die Würde des Menschen.", en: "Human dignity." } },
+    { word: "das Gewissen", phonetic: "geh-vi-sen", meaning: "conscience", gender: "das", example: { de: "Ein gutes Gewissen.", en: "A clear conscience." } },
+    { word: "die Tugend", phonetic: "too-gent", meaning: "virtue", gender: "die", example: { de: "Klassische Tugenden.", en: "Classical virtues." } },
+    { word: "das Dilemma", phonetic: "di-le-ma", meaning: "dilemma", gender: "das", example: { de: "Ein ethisches Dilemma.", en: "An ethical dilemma." } },
+    { word: "der Wert", phonetic: "vert", meaning: "value", gender: "der", example: { de: "Gemeinsame Werte.", en: "Shared values." } },
+    { word: "die Vernunft", phonetic: "fer-noonft", meaning: "reason", gender: "die", example: { de: "Die reine Vernunft.", en: "Pure reason." } },
+    { word: "die Überzeugung", phonetic: "ü-ber-tsoy-gung", meaning: "conviction / belief", gender: "die", example: { de: "Tiefe Überzeugung.", en: "Deep conviction." } },
+    { word: "die Toleranz", phonetic: "to-le-rants", meaning: "tolerance", gender: "die", example: { de: "Religiöse Toleranz.", en: "Religious tolerance." } },
+    { word: "die Gleichheit", phonetic: "glykh-hyte", meaning: "equality", gender: "die", example: { de: "Gleichheit vor dem Gesetz.", en: "Equality before the law." } },
+    { word: "das Vorurteil", phonetic: "for-oor-tyle", meaning: "prejudice", gender: "das", example: { de: "Ohne Vorurteil.", en: "Without prejudice." } },
+    { word: "die Menschenrechte", phonetic: "men-shen-rekh-tuh", meaning: "human rights", example: { de: "Allgemeine Menschenrechte.", en: "Universal human rights." } },
+    { word: "die Pflicht", phonetic: "pflikht", meaning: "duty / obligation", gender: "die", example: { de: "Die moralische Pflicht.", en: "The moral duty." } },
+    { word: "die Existenz", phonetic: "ek-sis-tents", meaning: "existence", gender: "die", example: { de: "Die menschliche Existenz.", en: "Human existence." } },
+  ]}] },
+};

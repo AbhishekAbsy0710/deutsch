@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega62: Record<string, Lesson> = {
+  "la1_m112": { id: "la1_m112", title: "Daily Routine A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "aufwachen", phonetic: "owf-va-khen", meaning: "to wake up", example: { de: "Früh aufwachen.", en: "Wake up early." } },
+    { word: "aufstehen", phonetic: "owf-shtay-en", meaning: "to get up", example: { de: "Um sieben aufstehen.", en: "Get up at seven." } },
+    { word: "sich duschen", phonetic: "zikh doo-shen", meaning: "to shower", example: { de: "Morgens duschen.", en: "Shower in the morning." } },
+    { word: "sich anziehen", phonetic: "zikh an-tsee-en", meaning: "to get dressed", example: { de: "Sich schnell anziehen.", en: "Get dressed quickly." } },
+    { word: "frühstücken", phonetic: "frü-shtü-ken", meaning: "to have breakfast", example: { de: "Zusammen frühstücken.", en: "Have breakfast together." } },
+    { word: "die Zahnbürste", phonetic: "tsahn-bürs-tuh", meaning: "toothbrush", gender: "die", example: { de: "Elektrische Zahnbürste.", en: "Electric toothbrush." } },
+    { word: "die Zahnpasta", phonetic: "tsahn-pas-ta", meaning: "toothpaste", gender: "die", example: { de: "Zahnpasta kaufen.", en: "Buy toothpaste." } },
+    { word: "sich kämmen", phonetic: "zikh ke-men", meaning: "to comb (hair)", example: { de: "Die Haare kämmen.", en: "Comb the hair." } },
+    { word: "sich rasieren", phonetic: "zikh ra-zee-ren", meaning: "to shave", example: { de: "Sich morgens rasieren.", en: "Shave in the morning." } },
+    { word: "sich schminken", phonetic: "zikh shmin-ken", meaning: "to put on makeup", example: { de: "Sich leicht schminken.", en: "Put on light makeup." } },
+    { word: "losfahren", phonetic: "lohs-fah-ren", meaning: "to set off / depart", example: { de: "Um acht losfahren.", en: "Set off at eight." } },
+    { word: "ankommen", phonetic: "an-ko-men", meaning: "to arrive", example: { de: "Bei der Arbeit ankommen.", en: "Arrive at work." } },
+    { word: "die Mittagspause", phonetic: "mi-tahgs-pow-zuh", meaning: "lunch break", gender: "die", example: { de: "In der Mittagspause.", en: "During the lunch break." } },
+    { word: "Feierabend", phonetic: "fy-er-ah-bent", meaning: "end of workday", gender: "der", example: { de: "Endlich Feierabend!", en: "Finally done for the day!" } },
+    { word: "einkaufen gehen", phonetic: "ayn-kow-fen gay-en", meaning: "to go shopping", example: { de: "Lebensmittel einkaufen.", en: "Go grocery shopping." } },
+    { word: "zu Abend essen", phonetic: "tsoo ah-bent e-sen", meaning: "to have dinner", example: { de: "Zusammen zu Abend essen.", en: "Have dinner together." } },
+    { word: "fernsehen", phonetic: "fern-zay-en", meaning: "to watch TV", example: { de: "Abends fernsehen.", en: "Watch TV in the evening." } },
+    { word: "ins Bett gehen", phonetic: "ins bet gay-en", meaning: "to go to bed", example: { de: "Früh ins Bett gehen.", en: "Go to bed early." } },
+    { word: "einschlafen", phonetic: "ayn-shlah-fen", meaning: "to fall asleep", example: { de: "Schnell einschlafen.", en: "Fall asleep quickly." } },
+    { word: "der Wecker", phonetic: "ve-ker", meaning: "alarm clock", gender: "der", example: { de: "Den Wecker stellen.", en: "Set the alarm clock." } },
+  ]}] },
+};

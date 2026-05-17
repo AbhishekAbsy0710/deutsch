@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega61: Record<string, Lesson> = {
+  "la1_m111": { id: "la1_m111", title: "Directions & Locations A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "links", phonetic: "links", meaning: "left", example: { de: "Nach links gehen.", en: "Go left." } },
+    { word: "rechts", phonetic: "rekhts", meaning: "right", example: { de: "Nach rechts abbiegen.", en: "Turn right." } },
+    { word: "geradeaus", phonetic: "geh-rah-deh-ows", meaning: "straight ahead", example: { de: "Geradeaus gehen.", en: "Go straight ahead." } },
+    { word: "zurück", phonetic: "tsoo-rük", meaning: "back", example: { de: "Geh zurück!", en: "Go back!" } },
+    { word: "die Ecke", phonetic: "e-kuh", meaning: "corner", gender: "die", example: { de: "An der Ecke.", en: "At the corner." } },
+    { word: "gegenüber", phonetic: "gay-gen-ü-ber", meaning: "opposite / across", example: { de: "Gegenüber vom Park.", en: "Opposite the park." } },
+    { word: "neben", phonetic: "nay-ben", meaning: "next to", example: { de: "Neben dem Supermarkt.", en: "Next to the supermarket." } },
+    { word: "zwischen", phonetic: "tsvi-shen", meaning: "between", example: { de: "Zwischen Post und Bank.", en: "Between the post office and bank." } },
+    { word: "oben", phonetic: "oh-ben", meaning: "above / upstairs", example: { de: "Da oben.", en: "Up there." } },
+    { word: "unten", phonetic: "oon-ten", meaning: "below / downstairs", example: { de: "Da unten.", en: "Down there." } },
+    { word: "vorne", phonetic: "for-nuh", meaning: "in front", example: { de: "Da vorne.", en: "Up front." } },
+    { word: "hinten", phonetic: "hin-ten", meaning: "in the back", example: { de: "Da hinten.", en: "Back there." } },
+    { word: "drinnen", phonetic: "dri-nen", meaning: "inside", example: { de: "Wir sind drinnen.", en: "We are inside." } },
+    { word: "draußen", phonetic: "drow-sen", meaning: "outside", example: { de: "Draußen spielen.", en: "Play outside." } },
+    { word: "der Weg", phonetic: "vayg", meaning: "way / path", gender: "der", example: { de: "Den Weg finden.", en: "Find the way." } },
+    { word: "abbiegen", phonetic: "ap-bee-gen", meaning: "to turn (direction)", example: { de: "Links abbiegen.", en: "Turn left." } },
+    { word: "überqueren", phonetic: "ü-ber-kvay-ren", meaning: "to cross", example: { de: "Die Straße überqueren.", en: "Cross the street." } },
+    { word: "entlang", phonetic: "ent-lang", meaning: "along", example: { de: "Die Straße entlang.", en: "Along the street." } },
+    { word: "die Richtung", phonetic: "rikh-tung", meaning: "direction", gender: "die", example: { de: "In welche Richtung?", en: "In which direction?" } },
+    { word: "der Stadtplan", phonetic: "shtat-plahn", meaning: "city map", gender: "der", example: { de: "Einen Stadtplan kaufen.", en: "Buy a city map." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega58: Record<string, Lesson> = {
+  "lc2_m101": { id: "lc2_m101", title: "Advanced String Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Stringtheorie", phonetic: "string-tay-oh-ree", meaning: "string theory", gender: "die", example: { de: "Supersymmetrische Stringtheorie.", en: "Supersymmetric string theory." } },
+    { word: "die Extradimensionen", phonetic: "eks-tra-di-men-zee-oh-nen", meaning: "extra dimensions", example: { de: "Kompaktifizierte Extradimensionen.", en: "Compactified extra dimensions." } },
+    { word: "die Calabi-Yau-Mannigfaltigkeit", phonetic: "ka-la-bi-yow-ma-nikh-fal-tikh-kyte", meaning: "Calabi-Yau manifold", gender: "die", example: { de: "Sechsdimensionale Calabi-Yau-Mannigfaltigkeit.", en: "Six-dimensional Calabi-Yau manifold." } },
+    { word: "die Supergravitation", phonetic: "zoo-per-gra-vi-ta-tsee-ohn", meaning: "supergravity", gender: "die", example: { de: "Elfdimensionale Supergravitation.", en: "Eleven-dimensional supergravity." } },
+    { word: "die D-Brane", phonetic: "day-brayn", meaning: "D-brane", gender: "die", example: { de: "Flache D-Brane.", en: "Flat D-brane." } },
+    { word: "die M-Theorie", phonetic: "em-tay-oh-ree", meaning: "M-theory", gender: "die", example: { de: "Vereinheitlichende M-Theorie.", en: "Unifying M-theory." } },
+    { word: "die Konforme Feldtheorie", phonetic: "kon-for-muh felt-tay-oh-ree", meaning: "conformal field theory", example: { de: "Zweidimensionale konforme Feldtheorie.", en: "Two-dimensional conformal field theory." } },
+    { word: "die AdS/CFT-Korrespondenz", phonetic: "ah-day-es-tsay-ef-tay-ko-res-pon-dents", meaning: "AdS/CFT correspondence", gender: "die", example: { de: "Maldacena-AdS/CFT-Korrespondenz.", en: "Maldacena AdS/CFT correspondence." } },
+    { word: "die Holographische Prinzip", phonetic: "ho-lo-gra-fi-shuh prin-tseep", meaning: "holographic principle", gender: "das", example: { de: "Thermodynamisches holographisches Prinzip.", en: "Thermodynamic holographic principle." } },
+    { word: "die Dualität", phonetic: "doo-a-li-tayt", meaning: "duality (string)", gender: "die", example: { de: "T-Dualität.", en: "T-duality." } },
+    { word: "die Supersymmetrie", phonetic: "zoo-per-zü-me-tree", meaning: "supersymmetry", gender: "die", example: { de: "N=2 Supersymmetrie.", en: "N=2 supersymmetry." } },
+    { word: "die Stringlandschaft", phonetic: "string-lant-shaft", meaning: "string landscape", gender: "die", example: { de: "Anthropische Stringlandschaft.", en: "Anthropic string landscape." } },
+    { word: "die Moduli-Stabilisierung", phonetic: "mo-doo-li-shta-bi-li-zee-rung", meaning: "moduli stabilization", gender: "die", example: { de: "Flux-Moduli-Stabilisierung.", en: "Flux moduli stabilization." } },
+    { word: "die Bosonischer String", phonetic: "bo-zo-ni-sher string", meaning: "bosonic string", example: { de: "26-dimensionaler bosonischer String.", en: "26-dimensional bosonic string." } },
+    { word: "die Typ-IIB-Theorie", phonetic: "tüp-tsvay-bay-tay-oh-ree", meaning: "Type IIB theory", gender: "die", example: { de: "Orientifold-Typ-IIB-Theorie.", en: "Orientifold Type IIB theory." } },
+    { word: "die Heterotischer String", phonetic: "he-te-ro-ti-sher string", meaning: "heterotic string", example: { de: "E8×E8-heterotischer String.", en: "E8×E8 heterotic string." } },
+    { word: "die Compactification", phonetic: "kom-pak-ti-fi-ka-tsee-ohn", meaning: "compactification", gender: "die", example: { de: "Toroidale Compactification.", en: "Toroidal compactification." } },
+    { word: "die Weltblattaktion", phonetic: "velt-blat-ak-tsee-ohn", meaning: "worldsheet action", gender: "die", example: { de: "Polyakov-Weltblattaktion.", en: "Polyakov worldsheet action." } },
+    { word: "die Anomalieaufhebung", phonetic: "a-no-ma-lee-owf-hay-bung", meaning: "anomaly cancellation", gender: "die", example: { de: "Green-Schwarz-Anomalieaufhebung.", en: "Green-Schwarz anomaly cancellation." } },
+    { word: "die Swampland-Vermutung", phonetic: "svomp-lent-fer-moo-tung", meaning: "swampland conjecture", gender: "die", example: { de: "Vafa-Swampland-Vermutung.", en: "Vafa swampland conjecture." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega59: Record<string, Lesson> = {
+  "lc2_m102": { id: "lc2_m102", title: "Advanced Metamaterials C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Metamaterialien", phonetic: "me-ta-ma-te-ree-ah-lee-en", meaning: "metamaterials", example: { de: "Elektromagnetische Metamaterialien.", en: "Electromagnetic metamaterials." } },
+    { word: "die Negative Brechung", phonetic: "ne-ga-tee-vuh bre-khung", meaning: "negative refraction", example: { de: "Linkshändige negative Brechung.", en: "Left-handed negative refraction." } },
+    { word: "die Tarnkappe", phonetic: "tarn-ka-puh", meaning: "cloaking device", gender: "die", example: { de: "Optische Tarnkappe.", en: "Optical cloaking device." } },
+    { word: "die Transformationsoptik", phonetic: "trans-for-ma-tsee-ohns-op-tik", meaning: "transformation optics", gender: "die", example: { de: "Pendry-Transformationsoptik.", en: "Pendry transformation optics." } },
+    { word: "die Split-Ring-Resonator", phonetic: "split-ring-re-zo-nah-tor", meaning: "split-ring resonator", gender: "der", example: { de: "Kupferner Split-Ring-Resonator.", en: "Copper split-ring resonator." } },
+    { word: "die Effektive Permeabilität", phonetic: "e-fek-tee-vuh per-me-a-bi-li-tayt", meaning: "effective permeability", example: { de: "Negative effektive Permeabilität.", en: "Negative effective permeability." } },
+    { word: "die Effektive Permittivität", phonetic: "e-fek-tee-vuh per-mi-ti-vi-tayt", meaning: "effective permittivity", example: { de: "Negative effektive Permittivität.", en: "Negative effective permittivity." } },
+    { word: "die Photonischer Kristall", phonetic: "fo-toh-ni-sher kris-tal", meaning: "photonic crystal", example: { de: "Dreidimensionaler photonischer Kristall.", en: "Three-dimensional photonic crystal." } },
+    { word: "die Phononischer Kristall", phonetic: "fo-no-ni-sher kris-tal", meaning: "phononic crystal", example: { de: "Akustischer phononischer Kristall.", en: "Acoustic phononic crystal." } },
+    { word: "die Plasmonik", phonetic: "plas-moh-nik", meaning: "plasmonics", gender: "die", example: { de: "Nanopartikel-Plasmonik.", en: "Nanoparticle plasmonics." } },
+    { word: "die Chirale Metamaterialien", phonetic: "ki-rah-luh me-ta-ma-te-ree-ah-lee-en", meaning: "chiral metamaterials", example: { de: "Optisch aktive chirale Metamaterialien.", en: "Optically active chiral metamaterials." } },
+    { word: "die Hyperbolische Metamaterialien", phonetic: "hü-per-boh-li-shuh me-ta-ma-te-ree-ah-lee-en", meaning: "hyperbolic metamaterials", example: { de: "Anisotrope hyperbolische Metamaterialien.", en: "Anisotropic hyperbolic metamaterials." } },
+    { word: "die Akustische Metamaterialien", phonetic: "a-koos-ti-shuh me-ta-ma-te-ree-ah-lee-en", meaning: "acoustic metamaterials", example: { de: "Schalldämpfende akustische Metamaterialien.", en: "Sound-dampening acoustic metamaterials." } },
+    { word: "die Seismische Metamaterialien", phonetic: "zys-mi-shuh me-ta-ma-te-ree-ah-lee-en", meaning: "seismic metamaterials", example: { de: "Erdbebenschützende seismische Metamaterialien.", en: "Earthquake-protecting seismic metamaterials." } },
+    { word: "die Metaoberfläche", phonetic: "me-ta-oh-ber-fley-khuh", meaning: "metasurface", gender: "die", example: { de: "Planare Metaoberfläche.", en: "Planar metasurface." } },
+    { word: "die Fano-Resonanz", phonetic: "fa-no-re-zo-nants", meaning: "Fano resonance", gender: "die", example: { de: "Asymmetrische Fano-Resonanz.", en: "Asymmetric Fano resonance." } },
+    { word: "die Superlens", phonetic: "zoo-per-lens", meaning: "superlens", gender: "die", example: { de: "Beugungsgrenzüberschreitende Superlens.", en: "Diffraction-limit-breaking superlens." } },
+    { word: "die Mechano-Metamaterialien", phonetic: "me-kha-no-me-ta-ma-te-ree-ah-lee-en", meaning: "mechanical metamaterials", example: { de: "Auxetische Mechano-Metamaterialien.", en: "Auxetic mechanical metamaterials." } },
+    { word: "die Programmierbare Materie", phonetic: "pro-gra-meer-bah-ruh ma-te-ree-uh", meaning: "programmable matter", example: { de: "Selbstrekonfigurierende programmierbare Materie.", en: "Self-reconfiguring programmable matter." } },
+    { word: "die Elektromagnetische Bandlücke", phonetic: "e-lek-tro-mag-nay-ti-shuh bant-lü-kuh", meaning: "electromagnetic bandgap", example: { de: "Vollständige elektromagnetische Bandlücke.", en: "Complete electromagnetic bandgap." } },
+  ]}] },
+};

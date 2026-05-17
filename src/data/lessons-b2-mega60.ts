@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega60: Record<string, Lesson> = {
+  "lb2_m105": { id: "lb2_m105", title: "Renewable Energy B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Erneuerbare Energie", phonetic: "er-noy-er-bah-ruh e-ner-gee", meaning: "renewable energy", example: { de: "Anteil erneuerbarer Energie.", en: "Share of renewable energy." } },
+    { word: "die Photovoltaik", phonetic: "fo-to-vol-tah-ik", meaning: "photovoltaics", gender: "die", example: { de: "Dachgebundene Photovoltaik.", en: "Rooftop photovoltaics." } },
+    { word: "die Solarzelle", phonetic: "zo-lahr-tse-luh", meaning: "solar cell", gender: "die", example: { de: "Monokristalline Solarzelle.", en: "Monocrystalline solar cell." } },
+    { word: "die Windkraftanlage", phonetic: "vint-kraft-an-lah-guh", meaning: "wind turbine", gender: "die", example: { de: "Offshore-Windkraftanlage.", en: "Offshore wind turbine." } },
+    { word: "die Geothermie", phonetic: "ge-oh-ter-mee", meaning: "geothermal energy", gender: "die", example: { de: "Tiefe Geothermie.", en: "Deep geothermal energy." } },
+    { word: "die Biomasse", phonetic: "bee-oh-ma-suh", meaning: "biomass", gender: "die", example: { de: "Energetische Biomasse.", en: "Energy biomass." } },
+    { word: "die Wasserkraft", phonetic: "va-ser-kraft", meaning: "hydropower", gender: "die", example: { de: "Laufwasserkraft.", en: "Run-of-river hydropower." } },
+    { word: "die Energiespeicherung", phonetic: "e-ner-gee-shpy-khe-rung", meaning: "energy storage", gender: "die", example: { de: "Batteriebasierte Energiespeicherung.", en: "Battery-based energy storage." } },
+    { word: "die Wärmepumpe", phonetic: "ver-muh-poom-puh", meaning: "heat pump", gender: "die", example: { de: "Luft-Wasser-Wärmepumpe.", en: "Air-to-water heat pump." } },
+    { word: "die Energiewende", phonetic: "e-ner-gee-ven-duh", meaning: "energy transition", gender: "die", example: { de: "Die deutsche Energiewende.", en: "The German energy transition." } },
+    { word: "die Einspeisevergütung", phonetic: "ayn-shpy-zuh-fer-gü-tung", meaning: "feed-in tariff", gender: "die", example: { de: "Gesetzliche Einspeisevergütung.", en: "Statutory feed-in tariff." } },
+    { word: "die Netzstabilität", phonetic: "nets-shta-bi-li-tayt", meaning: "grid stability", gender: "die", example: { de: "Garantierte Netzstabilität.", en: "Guaranteed grid stability." } },
+    { word: "die CO2-Bilanz", phonetic: "tsay-oh-tsvay-bi-lants", meaning: "carbon footprint", gender: "die", example: { de: "Negative CO2-Bilanz.", en: "Negative carbon footprint." } },
+    { word: "die Dekarbonisierung", phonetic: "de-kar-bo-ni-zee-rung", meaning: "decarbonization", gender: "die", example: { de: "Industrielle Dekarbonisierung.", en: "Industrial decarbonization." } },
+    { word: "die Wasserstofftechnologie", phonetic: "va-ser-shtof-tekh-no-lo-gee", meaning: "hydrogen technology", gender: "die", example: { de: "Grüne Wasserstofftechnologie.", en: "Green hydrogen technology." } },
+    { word: "die Brennstoffzelle", phonetic: "bren-shtof-tse-luh", meaning: "fuel cell", gender: "die", example: { de: "PEM-Brennstoffzelle.", en: "PEM fuel cell." } },
+    { word: "die Elektrolyse", phonetic: "e-lek-tro-lü-zuh", meaning: "electrolysis", gender: "die", example: { de: "Alkalische Elektrolyse.", en: "Alkaline electrolysis." } },
+    { word: "die Stromnetz", phonetic: "shtrom-nets", meaning: "power grid", gender: "das", example: { de: "Intelligentes Stromnetz.", en: "Smart power grid." } },
+    { word: "die Lastmanagement", phonetic: "last-ma-nazh-ment", meaning: "demand management", gender: "das", example: { de: "Dynamisches Lastmanagement.", en: "Dynamic demand management." } },
+    { word: "die Sektorenkopplung", phonetic: "zek-toh-ren-ko-plung", meaning: "sector coupling", gender: "die", example: { de: "Integrierte Sektorenkopplung.", en: "Integrated sector coupling." } },
+  ]}] },
+};

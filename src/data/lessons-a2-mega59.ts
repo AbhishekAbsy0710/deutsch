@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega59: Record<string, Lesson> = {
+  "la2_m104": { id: "la2_m104", title: "German Culture & Traditions A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Oktoberfest", phonetic: "ok-toh-ber-fest", meaning: "Oktoberfest", gender: "das", example: { de: "Zum Oktoberfest gehen.", en: "Go to Oktoberfest." } },
+    { word: "das Dirndl", phonetic: "dirn-del", meaning: "dirndl (dress)", gender: "das", example: { de: "Ein traditionelles Dirndl.", en: "A traditional dirndl." } },
+    { word: "die Lederhose", phonetic: "lay-der-ho-zuh", meaning: "lederhosen", gender: "die", example: { de: "Kurze Lederhose.", en: "Short lederhosen." } },
+    { word: "die Bratwurst", phonetic: "braht-voorst", meaning: "bratwurst", gender: "die", example: { de: "Eine Bratwurst essen.", en: "Eat a bratwurst." } },
+    { word: "das Sauerkraut", phonetic: "zow-er-krowt", meaning: "sauerkraut", gender: "das", example: { de: "Sauerkraut mit Würstchen.", en: "Sauerkraut with sausages." } },
+    { word: "die Brezel", phonetic: "bray-tsel", meaning: "pretzel", gender: "die", example: { de: "Eine frische Brezel.", en: "A fresh pretzel." } },
+    { word: "der Weihnachtsmarkt", phonetic: "vy-nakhts-markt", meaning: "Christmas market", gender: "der", example: { de: "Zum Weihnachtsmarkt gehen.", en: "Go to the Christmas market." } },
+    { word: "der Glühwein", phonetic: "glü-vyne", meaning: "mulled wine", gender: "der", example: { de: "Einen Glühwein trinken.", en: "Drink a mulled wine." } },
+    { word: "der Nikolaustag", phonetic: "ni-ko-lows-tahg", meaning: "St. Nicholas Day", gender: "der", example: { de: "Am Nikolaustag.", en: "On St. Nicholas Day." } },
+    { word: "der Adventskranz", phonetic: "ad-vents-krants", meaning: "Advent wreath", gender: "der", example: { de: "Den Adventskranz anzünden.", en: "Light the Advent wreath." } },
+    { word: "das Volksfest", phonetic: "folks-fest", meaning: "folk festival", gender: "das", example: { de: "Ein bayerisches Volksfest.", en: "A Bavarian folk festival." } },
+    { word: "der Fasching", phonetic: "fa-shing", meaning: "carnival (South German)", gender: "der", example: { de: "Fasching feiern.", en: "Celebrate carnival." } },
+    { word: "das Schützenfest", phonetic: "shüt-sen-fest", meaning: "shooting festival", gender: "das", example: { de: "Das jährliche Schützenfest.", en: "The annual shooting festival." } },
+    { word: "die Gemütlichkeit", phonetic: "geh-müt-likh-kyte", meaning: "coziness / warmth", gender: "die", example: { de: "Deutsche Gemütlichkeit.", en: "German coziness." } },
+    { word: "das Bier", phonetic: "beer", meaning: "beer", gender: "das", example: { de: "Ein Bier bestellen.", en: "Order a beer." } },
+    { word: "der Biergarten", phonetic: "beer-gar-ten", meaning: "beer garden", gender: "der", example: { de: "Im Biergarten sitzen.", en: "Sit in the beer garden." } },
+    { word: "die Schwarzwälder Kirschtorte", phonetic: "shvarts-vel-der kirsh-tor-tuh", meaning: "Black Forest cake", example: { de: "Ein Stück Schwarzwälder Kirschtorte.", en: "A piece of Black Forest cake." } },
+    { word: "der Stollen", phonetic: "shto-len", meaning: "stollen (Christmas cake)", gender: "der", example: { de: "Dresdner Stollen.", en: "Dresden stollen." } },
+    { word: "die Pünktlichkeit", phonetic: "pünkt-likh-kyte", meaning: "punctuality", gender: "die", example: { de: "Deutsche Pünktlichkeit.", en: "German punctuality." } },
+    { word: "die Mülltrennung", phonetic: "mül-tre-nung", meaning: "waste sorting", gender: "die", example: { de: "Deutsche Mülltrennung.", en: "German waste sorting." } },
+  ]}] },
+};

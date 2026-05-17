@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega60: Record<string, Lesson> = {
+  "lc1_m106": { id: "lc1_m106", title: "Advanced Cryptography C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Kryptographie", phonetic: "krüp-to-gra-fee", meaning: "cryptography", gender: "die", example: { de: "Post-Quanten-Kryptographie.", en: "Post-quantum cryptography." } },
+    { word: "die Verschlüsselungsalgorithmus", phonetic: "fer-shlü-se-lungs-al-go-rit-mus", meaning: "encryption algorithm", gender: "der", example: { de: "Symmetrischer Verschlüsselungsalgorithmus.", en: "Symmetric encryption algorithm." } },
+    { word: "die Asymmetrische Kryptographie", phonetic: "a-zü-me-tri-shuh krüp-to-gra-fee", meaning: "asymmetric cryptography", example: { de: "RSA-asymmetrische Kryptographie.", en: "RSA asymmetric cryptography." } },
+    { word: "die Hashfunktion", phonetic: "hesh-funk-tsee-ohn", meaning: "hash function", gender: "die", example: { de: "Kryptographische Hashfunktion.", en: "Cryptographic hash function." } },
+    { word: "die Digitale Signatur", phonetic: "di-gi-tah-luh zig-na-toor", meaning: "digital signature", example: { de: "Verifizierbare digitale Signatur.", en: "Verifiable digital signature." } },
+    { word: "die Blockchiffre", phonetic: "blok-shi-fruh", meaning: "block cipher", gender: "die", example: { de: "AES-Blockchiffre.", en: "AES block cipher." } },
+    { word: "die Stromchiffre", phonetic: "shtrom-shi-fruh", meaning: "stream cipher", gender: "die", example: { de: "ChaCha20-Stromchiffre.", en: "ChaCha20 stream cipher." } },
+    { word: "die Schlüsselaustausch", phonetic: "shlü-sel-ows-towsh", meaning: "key exchange", gender: "der", example: { de: "Diffie-Hellman-Schlüsselaustausch.", en: "Diffie-Hellman key exchange." } },
+    { word: "die Zertifikatsautorität", phonetic: "tser-ti-fi-kahts-ow-to-ri-tayt", meaning: "certificate authority", gender: "die", example: { de: "Vertrauenswürdige Zertifikatsautorität.", en: "Trusted certificate authority." } },
+    { word: "die Public-Key-Infrastruktur", phonetic: "pab-lik-kee-in-fra-shtrook-toor", meaning: "public key infrastructure", gender: "die", example: { de: "X.509-Public-Key-Infrastruktur.", en: "X.509 public key infrastructure." } },
+    { word: "die Homomorphe Verschlüsselung", phonetic: "ho-mo-mor-fuh fer-shlü-se-lung", meaning: "homomorphic encryption", example: { de: "Vollständig homomorphe Verschlüsselung.", en: "Fully homomorphic encryption." } },
+    { word: "die Zero-Knowledge-Beweis", phonetic: "tsee-ro-no-ledzh-beh-vys", meaning: "zero-knowledge proof", gender: "der", example: { de: "Interaktiver Zero-Knowledge-Beweis.", en: "Interactive zero-knowledge proof." } },
+    { word: "die Elliptische-Kurven-Kryptographie", phonetic: "e-lip-ti-shuh-koor-ven-krüp-to-gra-fee", meaning: "elliptic curve cryptography", gender: "die", example: { de: "NIST-elliptische-Kurven-Kryptographie.", en: "NIST elliptic curve cryptography." } },
+    { word: "die Quantenschlüsselverteilung", phonetic: "kvan-ten-shlü-sel-fer-ty-lung", meaning: "quantum key distribution", gender: "die", example: { de: "BB84-Quantenschlüsselverteilung.", en: "BB84 quantum key distribution." } },
+    { word: "die Seitenkanal-Angriff", phonetic: "zy-ten-ka-nahl-an-grif", meaning: "side-channel attack", gender: "der", example: { de: "Timing-Seitenkanal-Angriff.", en: "Timing side-channel attack." } },
+    { word: "die Kryptoanalyse", phonetic: "krüp-to-a-na-lü-zuh", meaning: "cryptanalysis", gender: "die", example: { de: "Differentielle Kryptoanalyse.", en: "Differential cryptanalysis." } },
+    { word: "die Gitterbasierte Kryptographie", phonetic: "gi-ter-ba-zeer-tuh krüp-to-gra-fee", meaning: "lattice-based cryptography", example: { de: "CRYSTALS-gitterbasierte Kryptographie.", en: "CRYSTALS lattice-based cryptography." } },
+    { word: "die Geheimtext", phonetic: "geh-hyme-tekst", meaning: "ciphertext", gender: "der", example: { de: "Nicht unterscheidbarer Geheimtext.", en: "Indistinguishable ciphertext." } },
+    { word: "die Klartext", phonetic: "klahr-tekst", meaning: "plaintext", gender: "der", example: { de: "Wiederhergestellter Klartext.", en: "Recovered plaintext." } },
+    { word: "die Sichere Mehrparteienberechnung", phonetic: "zi-khe-ruh mayr-par-ty-en-beh-rekh-nung", meaning: "secure multi-party computation", example: { de: "Praktische sichere Mehrparteienberechnung.", en: "Practical secure multi-party computation." } },
+  ]}] },
+};

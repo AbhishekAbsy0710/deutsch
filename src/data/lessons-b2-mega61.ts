@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega61: Record<string, Lesson> = {
+  "lb2_m106": { id: "lb2_m106", title: "Pharmacology B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Pharmakologie", phonetic: "far-ma-ko-lo-gee", meaning: "pharmacology", gender: "die", example: { de: "Klinische Pharmakologie.", en: "Clinical pharmacology." } },
+    { word: "der Wirkstoff", phonetic: "virk-shtof", meaning: "active ingredient", gender: "der", example: { de: "Pharmazeutischer Wirkstoff.", en: "Pharmaceutical active ingredient." } },
+    { word: "die Dosierung", phonetic: "do-zee-rung", meaning: "dosage", gender: "die", example: { de: "Korrekte Dosierung.", en: "Correct dosage." } },
+    { word: "die Darreichungsform", phonetic: "dar-ry-khungs-form", meaning: "dosage form", gender: "die", example: { de: "Orale Darreichungsform.", en: "Oral dosage form." } },
+    { word: "die Tablette", phonetic: "ta-ble-tuh", meaning: "tablet", gender: "die", example: { de: "Retardierte Tablette.", en: "Sustained-release tablet." } },
+    { word: "die Kapsel", phonetic: "kap-sel", meaning: "capsule", gender: "die", example: { de: "Hartgelatine-Kapsel.", en: "Hard gelatin capsule." } },
+    { word: "die Infusion", phonetic: "in-foo-zee-ohn", meaning: "infusion", gender: "die", example: { de: "Intravenöse Infusion.", en: "Intravenous infusion." } },
+    { word: "die Indikation", phonetic: "in-di-ka-tsee-ohn", meaning: "indication", gender: "die", example: { de: "Therapeutische Indikation.", en: "Therapeutic indication." } },
+    { word: "die Kontraindikation", phonetic: "kon-tra-in-di-ka-tsee-ohn", meaning: "contraindication", gender: "die", example: { de: "Absolute Kontraindikation.", en: "Absolute contraindication." } },
+    { word: "die Rezeptpflicht", phonetic: "re-tsept-pflikht", meaning: "prescription requirement", gender: "die", example: { de: "Rezeptpflichtiges Medikament.", en: "Prescription medication." } },
+    { word: "die Wirkmechanismus", phonetic: "virk-me-kha-nis-mus", meaning: "mechanism of action", gender: "der", example: { de: "Molekularer Wirkmechanismus.", en: "Molecular mechanism of action." } },
+    { word: "die Pharmazeutische Industrie", phonetic: "far-ma-tsoy-ti-shuh in-doos-tree", meaning: "pharmaceutical industry", example: { de: "Globale pharmazeutische Industrie.", en: "Global pharmaceutical industry." } },
+    { word: "die Generikum", phonetic: "ge-nay-ri-koom", meaning: "generic drug", gender: "das", example: { de: "Bioäquivalentes Generikum.", en: "Bioequivalent generic drug." } },
+    { word: "die Klinische Studie", phonetic: "klee-ni-shuh shtoo-dee-uh", meaning: "clinical trial", example: { de: "Randomisierte klinische Studie.", en: "Randomized clinical trial." } },
+    { word: "die Placebo", phonetic: "pla-tsay-bo", meaning: "placebo", gender: "das", example: { de: "Placebokontrollierte Studie.", en: "Placebo-controlled trial." } },
+    { word: "die Arzneimittelzulassung", phonetic: "arts-ny-mi-tel-tsoo-la-sung", meaning: "drug approval", gender: "die", example: { de: "FDA-Arzneimittelzulassung.", en: "FDA drug approval." } },
+    { word: "die Pharmakogenomik", phonetic: "far-ma-ko-ge-noh-mik", meaning: "pharmacogenomics", gender: "die", example: { de: "Personalisierte Pharmakogenomik.", en: "Personalized pharmacogenomics." } },
+    { word: "die Absorption", phonetic: "ap-zorp-tsee-ohn", meaning: "absorption", gender: "die", example: { de: "Gastrointestinale Absorption.", en: "Gastrointestinal absorption." } },
+    { word: "die Metabolisierung", phonetic: "me-ta-bo-li-zee-rung", meaning: "metabolization", gender: "die", example: { de: "Hepatische Metabolisierung.", en: "Hepatic metabolization." } },
+    { word: "die Arzneimittelresistenz", phonetic: "arts-ny-mi-tel-re-zis-tents", meaning: "drug resistance", gender: "die", example: { de: "Antimikrobielle Arzneimittelresistenz.", en: "Antimicrobial drug resistance." } },
+  ]}] },
+};

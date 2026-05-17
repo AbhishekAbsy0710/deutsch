@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega63: Record<string, Lesson> = {
+  "lb1_m114": { id: "lb1_m114", title: "History & Politics B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Geschichte", phonetic: "geh-shikh-tuh", meaning: "history", gender: "die", example: { de: "Deutsche Geschichte.", en: "German history." } },
+    { word: "die Demokratie", phonetic: "de-mo-kra-tee", meaning: "democracy", gender: "die", example: { de: "Parlamentarische Demokratie.", en: "Parliamentary democracy." } },
+    { word: "die Regierung", phonetic: "re-gee-rung", meaning: "government", gender: "die", example: { de: "Die Bundesregierung.", en: "The federal government." } },
+    { word: "der Bundeskanzler", phonetic: "boon-des-kants-ler", meaning: "federal chancellor", gender: "der", example: { de: "Der deutsche Bundeskanzler.", en: "The German federal chancellor." } },
+    { word: "der Bundestag", phonetic: "boon-des-tahg", meaning: "Bundestag (parliament)", gender: "der", example: { de: "Im Bundestag abstimmen.", en: "Vote in the Bundestag." } },
+    { word: "die Partei", phonetic: "par-ty", meaning: "political party", gender: "die", example: { de: "Einer Partei beitreten.", en: "Join a party." } },
+    { word: "die Wahl", phonetic: "vahl", meaning: "election", gender: "die", example: { de: "Die Bundestagswahl.", en: "The federal election." } },
+    { word: "wählen", phonetic: "vay-len", meaning: "to vote / elect", example: { de: "Seinen Kandidaten wählen.", en: "Vote for one's candidate." } },
+    { word: "die Revolution", phonetic: "re-vo-loo-tsee-ohn", meaning: "revolution", gender: "die", example: { de: "Friedliche Revolution.", en: "Peaceful revolution." } },
+    { word: "der Krieg", phonetic: "kreeg", meaning: "war", gender: "der", example: { de: "Der Zweite Weltkrieg.", en: "The Second World War." } },
+    { word: "der Frieden", phonetic: "free-den", meaning: "peace", gender: "der", example: { de: "Frieden schließen.", en: "Make peace." } },
+    { word: "die Wiedervereinigung", phonetic: "vee-der-fer-ay-ni-gung", meaning: "reunification", gender: "die", example: { de: "Die deutsche Wiedervereinigung.", en: "German reunification." } },
+    { word: "die Mauer", phonetic: "mow-er", meaning: "wall", gender: "die", example: { de: "Die Berliner Mauer.", en: "The Berlin Wall." } },
+    { word: "die Diktatur", phonetic: "dik-ta-toor", meaning: "dictatorship", gender: "die", example: { de: "Unter der Diktatur.", en: "Under the dictatorship." } },
+    { word: "die Monarchie", phonetic: "mo-nar-khee", meaning: "monarchy", gender: "die", example: { de: "Konstitutionelle Monarchie.", en: "Constitutional monarchy." } },
+    { word: "der Präsident", phonetic: "pray-zi-dent", meaning: "president", gender: "der", example: { de: "Der Bundespräsident.", en: "The federal president." } },
+    { word: "das Grundgesetz", phonetic: "groont-geh-zets", meaning: "Basic Law (constitution)", gender: "das", example: { de: "Das deutsche Grundgesetz.", en: "The German Basic Law." } },
+    { word: "die Opposition", phonetic: "o-po-zi-tsee-ohn", meaning: "opposition", gender: "die", example: { de: "Die parlamentarische Opposition.", en: "The parliamentary opposition." } },
+    { word: "die Koalition", phonetic: "ko-a-li-tsee-ohn", meaning: "coalition", gender: "die", example: { de: "Eine große Koalition.", en: "A grand coalition." } },
+    { word: "die Abstimmung", phonetic: "ap-shti-mung", meaning: "vote / ballot", gender: "die", example: { de: "Geheime Abstimmung.", en: "Secret ballot." } },
+  ]}] },
+};
