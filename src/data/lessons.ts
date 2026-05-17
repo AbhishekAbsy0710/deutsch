@@ -25,6 +25,7 @@ import { lessonsA1Mega6 } from "./lessons-a1-mega6";
 import { lessonsA1Mega7 } from "./lessons-a1-mega7";
 import { lessonsA1Mega8 } from "./lessons-a1-mega8";
 import { lessonsA1Mega9 } from "./lessons-a1-mega9";
+import { lessonsA1Mega10 } from "./lessons-a1-mega10";
 import { lessonsA1New5, lessonsA2New9 } from "./lessons-final-gaps";
 import { lessonsA1Final, lessonsA2Final } from "./lessons-final-gaps2";
 import { lessonsA2ExamSkills } from "./lessons-a2-exam";
@@ -52,6 +53,7 @@ import { lessonsA2Mega6 } from "./lessons-a2-mega6";
 import { lessonsA2Mega7 } from "./lessons-a2-mega7";
 import { lessonsA2Mega8 } from "./lessons-a2-mega8";
 import { lessonsA2Mega9 } from "./lessons-a2-mega9";
+import { lessonsA2Mega10 } from "./lessons-a2-mega10";
 import { lessonsB1 } from "./lessons-b1";
 import { lessonsB1Grammar1 } from "./lessons-b1-grammar1";
 import { lessonsB1Grammar2 } from "./lessons-b1-grammar2";
@@ -78,6 +80,7 @@ import { lessonsB1Mega7 } from "./lessons-b1-mega7";
 import { lessonsB1Mega8 } from "./lessons-b1-mega8";
 import { lessonsB1Mega9 } from "./lessons-b1-mega9";
 import { lessonsB1Mega10 } from "./lessons-b1-mega10";
+import { lessonsB1Mega11 } from "./lessons-b1-mega11";
 import { lessonsB2 } from "./lessons-b2";
 import { lessonsB2Grammar1 } from "./lessons-b2-grammar1";
 import { lessonsB2Grammar2 } from "./lessons-b2-grammar2";
@@ -101,6 +104,7 @@ import { lessonsB2Mega5 } from "./lessons-b2-mega5";
 import { lessonsB2Mega6 } from "./lessons-b2-mega6";
 import { lessonsB2Mega7 } from "./lessons-b2-mega7";
 import { lessonsB2Mega8 } from "./lessons-b2-mega8";
+import { lessonsB2Mega9 } from "./lessons-b2-mega9";
 import { lessonsC1Partikeln } from "./lessons-c1-partikeln";
 import { lessonsC1Grammar } from "./lessons-c1-grammar";
 import { lessonsC1Grammar2 } from "./lessons-c1-grammar2";
@@ -142,6 +146,7 @@ import { lessonsC1Mega5 } from "./lessons-c1-mega5";
 import { lessonsC1Mega6 } from "./lessons-c1-mega6";
 import { lessonsC1Mega7 } from "./lessons-c1-mega7";
 import { lessonsC1Mega8 } from "./lessons-c1-mega8";
+import { lessonsC1Mega9 } from "./lessons-c1-mega9";
 import { lessonsC2Mega1 } from "./lessons-c2-mega1";
 import { lessonsC2Mega2 } from "./lessons-c2-mega2";
 import { lessonsC2Mega3 } from "./lessons-c2-mega3";
@@ -149,6 +154,7 @@ import { lessonsC2Mega4 } from "./lessons-c2-mega4";
 import { lessonsC2Mega5 } from "./lessons-c2-mega5";
 import { lessonsC2Mega6 } from "./lessons-c2-mega6";
 import { lessonsC2Mega7 } from "./lessons-c2-mega7";
+import { lessonsC2Mega8 } from "./lessons-c2-mega8";
 
 export type LessonBlock = 
   | { type: "vocabulary", word: string, translation: string, example: string, audioUrl?: string, phonetic: string }
@@ -200,6 +206,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsA1Mega7,
   ...lessonsA1Mega8,
   ...lessonsA1Mega9,
+  ...lessonsA1Mega10,
   ...lessonsA2,
   ...lessonsA2New,
   ...lessonsA2New2,
@@ -227,6 +234,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsA2Mega7,
   ...lessonsA2Mega8,
   ...lessonsA2Mega9,
+  ...lessonsA2Mega10,
   ...lessonsB1,
   ...lessonsB1Grammar1,
   ...lessonsB1Grammar2,
@@ -253,6 +261,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsB1Mega8,
   ...lessonsB1Mega9,
   ...lessonsB1Mega10,
+  ...lessonsB1Mega11,
   ...lessonsB2,
   ...lessonsB2Grammar1,
   ...lessonsB2Grammar2,
@@ -277,6 +286,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsB2Mega6,
   ...lessonsB2Mega7,
   ...lessonsB2Mega8,
+  ...lessonsB2Mega9,
   ...lessonsC1Partikeln,
   ...lessonsC1Grammar,
   ...lessonsC1Grammar2,
@@ -318,6 +328,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC1Mega6,
   ...lessonsC1Mega7,
   ...lessonsC1Mega8,
+  ...lessonsC1Mega9,
   ...lessonsC2Mega1,
   ...lessonsC2Mega2,
   ...lessonsC2Mega3,
@@ -325,4 +336,5 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC2Mega5,
   ...lessonsC2Mega6,
   ...lessonsC2Mega7,
+  ...lessonsC2Mega8,
 };
