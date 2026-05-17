@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega48: Record<string, Lesson> = {
+  "lb1_m99": { id: "lb1_m99", title: "Technology & Innovation B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Technologie", phonetic: "tekh-no-lo-gee", meaning: "technology", gender: "die", example: { de: "Moderne Technologie.", en: "Modern technology." } },
+    { word: "die Innovation", phonetic: "i-no-va-tsee-ohn", meaning: "innovation", gender: "die", example: { de: "Technologische Innovation.", en: "Technological innovation." } },
+    { word: "die Digitalisierung", phonetic: "di-gi-ta-li-zee-rung", meaning: "digitalization", gender: "die", example: { de: "Digitalisierung vorantreiben.", en: "Drive digitalization." } },
+    { word: "die Software", phonetic: "zoft-vayr", meaning: "software", gender: "die", example: { de: "Software entwickeln.", en: "Develop software." } },
+    { word: "die Hardware", phonetic: "hart-vayr", meaning: "hardware", gender: "die", example: { de: "Neue Hardware kaufen.", en: "Buy new hardware." } },
+    { word: "die Cloud", phonetic: "klowd", meaning: "cloud (computing)", gender: "die", example: { de: "In der Cloud speichern.", en: "Store in the cloud." } },
+    { word: "die Datenbank", phonetic: "dah-ten-bank", meaning: "database", gender: "die", example: { de: "Eine Datenbank erstellen.", en: "Create a database." } },
+    { word: "das Netzwerk", phonetic: "nets-verk", meaning: "network", gender: "das", example: { de: "Ein sicheres Netzwerk.", en: "A secure network." } },
+    { word: "die Programmierung", phonetic: "pro-gra-mee-rung", meaning: "programming", gender: "die", example: { de: "Programmierung lernen.", en: "Learn programming." } },
+    { word: "der Entwickler", phonetic: "ent-vik-ler", meaning: "developer", gender: "der", example: { de: "Ein Softwareentwickler.", en: "A software developer." } },
+    { word: "das Start-up", phonetic: "start-up", meaning: "start-up", gender: "das", example: { de: "Ein Start-up gründen.", en: "Found a start-up." } },
+    { word: "die Cybersicherheit", phonetic: "sy-ber-zi-kher-hyte", meaning: "cybersecurity", gender: "die", example: { de: "Cybersicherheit verbessern.", en: "Improve cybersecurity." } },
+    { word: "der Datenschutz", phonetic: "dah-ten-shoots", meaning: "data protection", gender: "der", example: { de: "Datenschutz beachten.", en: "Observe data protection." } },
+    { word: "die Verschlüsselung", phonetic: "fer-shlü-se-lung", meaning: "encryption", gender: "die", example: { de: "Ende-zu-Ende-Verschlüsselung.", en: "End-to-end encryption." } },
+    { word: "die Blockchain", phonetic: "blok-tschayn", meaning: "blockchain", gender: "die", example: { de: "Blockchain-Technologie.", en: "Blockchain technology." } },
+    { word: "das Internet der Dinge", phonetic: "in-ter-net dayr din-guh", meaning: "Internet of Things", example: { de: "Das Internet der Dinge wächst.", en: "The IoT is growing." } },
+    { word: "der Roboter", phonetic: "ro-boh-ter", meaning: "robot", gender: "der", example: { de: "Industrieroboter.", en: "Industrial robot." } },
+    { word: "der 3D-Druck", phonetic: "dry-day-drook", meaning: "3D printing", gender: "der", example: { de: "3D-Druck in der Medizin.", en: "3D printing in medicine." } },
+    { word: "die Drohne", phonetic: "droh-nuh", meaning: "drone", gender: "die", example: { de: "Eine Drohne steuern.", en: "Control a drone." } },
+    { word: "die Quantencomputer", phonetic: "kvan-ten-kom-pyoo-ter", meaning: "quantum computer", gender: "der", example: { de: "Quantencomputer erforschen.", en: "Research quantum computers." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega46: Record<string, Lesson> = {
+  "lb2_m91": { id: "lb2_m91", title: "Marine Biology B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Meeresbiologie", phonetic: "may-res-bee-oh-lo-gee", meaning: "marine biology", gender: "die", example: { de: "Tropische Meeresbiologie.", en: "Tropical marine biology." } },
+    { word: "das Korallenriff", phonetic: "ko-ra-len-rif", meaning: "coral reef", gender: "das", example: { de: "Bedrohtes Korallenriff.", en: "Endangered coral reef." } },
+    { word: "das Phytoplankton", phonetic: "fü-to-plank-ton", meaning: "phytoplankton", gender: "das", example: { de: "Photosynthetisches Phytoplankton.", en: "Photosynthetic phytoplankton." } },
+    { word: "das Zooplankton", phonetic: "tso-oh-plank-ton", meaning: "zooplankton", gender: "das", example: { de: "Pelagisches Zooplankton.", en: "Pelagic zooplankton." } },
+    { word: "die Meeresströmung", phonetic: "may-res-shtrö-mung", meaning: "ocean current", gender: "die", example: { de: "Warme Meeresströmung.", en: "Warm ocean current." } },
+    { word: "die Tiefsee", phonetic: "teef-zay", meaning: "deep sea", gender: "die", example: { de: "Tiefseeforschung.", en: "Deep-sea research." } },
+    { word: "die Algenblüte", phonetic: "al-gen-blü-tuh", meaning: "algal bloom", gender: "die", example: { de: "Schädliche Algenblüte.", en: "Harmful algal bloom." } },
+    { word: "die Mangrove", phonetic: "man-gro-vuh", meaning: "mangrove", gender: "die", example: { de: "Küstenmangroven.", en: "Coastal mangroves." } },
+    { word: "die Meeresschildkröte", phonetic: "may-res-shilt-krö-tuh", meaning: "sea turtle", gender: "die", example: { de: "Bedrohte Meeresschildkröte.", en: "Endangered sea turtle." } },
+    { word: "der Wal", phonetic: "vahl", meaning: "whale", gender: "der", example: { de: "Blauwal-Migration.", en: "Blue whale migration." } },
+    { word: "die Ozeanversauerung", phonetic: "oh-tse-ahn-fer-zoy-e-rung", meaning: "ocean acidification", gender: "die", example: { de: "CO2-induzierte Ozeanversauerung.", en: "CO2-induced ocean acidification." } },
+    { word: "die Überfischung", phonetic: "ü-ber-fi-shung", meaning: "overfishing", gender: "die", example: { de: "Globale Überfischung.", en: "Global overfishing." } },
+    { word: "die Meeresschutzgebiet", phonetic: "may-res-shoots-geh-beet", meaning: "marine protected area", gender: "das", example: { de: "Internationales Meeresschutzgebiet.", en: "International MPA." } },
+    { word: "die Benthos", phonetic: "ben-tos", meaning: "benthos", gender: "das", example: { de: "Marine Benthosgemeinschaft.", en: "Marine benthic community." } },
+    { word: "die Gezeitenzone", phonetic: "geh-tsy-ten-tso-nuh", meaning: "intertidal zone", gender: "die", example: { de: "Felsige Gezeitenzone.", en: "Rocky intertidal zone." } },
+    { word: "die Hydrothermale Quelle", phonetic: "hü-dro-ter-mah-luh kve-luh", meaning: "hydrothermal vent", example: { de: "Tiefsee-hydrothermale Quelle.", en: "Deep-sea hydrothermal vent." } },
+    { word: "die Biolumineszenz", phonetic: "bee-oh-loo-mi-nes-tsents", meaning: "bioluminescence (marine)", gender: "die", example: { de: "Tiefsee-Biolumineszenz.", en: "Deep-sea bioluminescence." } },
+    { word: "die Aquakultur", phonetic: "ak-va-kool-toor", meaning: "aquaculture", gender: "die", example: { de: "Nachhaltige Aquakultur.", en: "Sustainable aquaculture." } },
+    { word: "die Meeresökologie", phonetic: "may-res-ö-ko-lo-gee", meaning: "marine ecology", gender: "die", example: { de: "Pelagische Meeresökologie.", en: "Pelagic marine ecology." } },
+    { word: "der Mikroplastik", phonetic: "mi-kro-plas-tik", meaning: "microplastic", gender: "das", example: { de: "Mikroplastik im Ozean.", en: "Microplastic in the ocean." } },
+  ]}] },
+};

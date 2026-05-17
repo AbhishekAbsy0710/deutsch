@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega47: Record<string, Lesson> = {
+  "la1_m97": { id: "la1_m97", title: "Adjectives & Descriptions A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "hübsch", phonetic: "hüpsh", meaning: "pretty", example: { de: "Ein hübsches Kleid.", en: "A pretty dress." } },
+    { word: "hässlich", phonetic: "hes-likh", meaning: "ugly", example: { de: "Ein hässliches Gebäude.", en: "An ugly building." } },
+    { word: "breit", phonetic: "bryte", meaning: "wide", example: { de: "Eine breite Straße.", en: "A wide street." } },
+    { word: "eng", phonetic: "eng", meaning: "narrow / tight", example: { de: "Eine enge Gasse.", en: "A narrow alley." } },
+    { word: "leer", phonetic: "layr", meaning: "empty", example: { de: "Die Flasche ist leer.", en: "The bottle is empty." } },
+    { word: "voll", phonetic: "fol", meaning: "full", example: { de: "Das Glas ist voll.", en: "The glass is full." } },
+    { word: "dunkel", phonetic: "doon-kel", meaning: "dark", example: { de: "Es ist dunkel.", en: "It is dark." } },
+    { word: "hell", phonetic: "hel", meaning: "bright / light", example: { de: "Ein helles Zimmer.", en: "A bright room." } },
+    { word: "schmutzig", phonetic: "shmoo-tsikh", meaning: "dirty", example: { de: "Schmutzige Schuhe.", en: "Dirty shoes." } },
+    { word: "sauber", phonetic: "zow-ber", meaning: "clean", example: { de: "Ein sauberes Haus.", en: "A clean house." } },
+    { word: "rund", phonetic: "roont", meaning: "round", example: { de: "Ein runder Tisch.", en: "A round table." } },
+    { word: "eckig", phonetic: "e-kikh", meaning: "square / angular", example: { de: "Ein eckiger Kasten.", en: "A square box." } },
+    { word: "spitz", phonetic: "shpits", meaning: "pointed / sharp", example: { de: "Ein spitzer Bleistift.", en: "A sharp pencil." } },
+    { word: "flach", phonetic: "flakh", meaning: "flat", example: { de: "Ein flacher Teller.", en: "A flat plate." } },
+    { word: "tief", phonetic: "teef", meaning: "deep", example: { de: "Ein tiefer See.", en: "A deep lake." } },
+    { word: "hoch", phonetic: "hokh", meaning: "high / tall", example: { de: "Ein hoher Berg.", en: "A high mountain." } },
+    { word: "niedrig", phonetic: "nee-drikh", meaning: "low", example: { de: "Ein niedriger Preis.", en: "A low price." } },
+    { word: "stark", phonetic: "shtark", meaning: "strong", example: { de: "Ein starker Mann.", en: "A strong man." } },
+    { word: "schwach", phonetic: "shvakh", meaning: "weak", example: { de: "Ein schwaches Signal.", en: "A weak signal." } },
+    { word: "müde", phonetic: "mü-duh", meaning: "tired", example: { de: "Ich bin müde.", en: "I am tired." } },
+  ]}] },
+};

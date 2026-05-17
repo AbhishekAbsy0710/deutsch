@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega45: Record<string, Lesson> = {
+  "la2_m90": { id: "la2_m90", title: "Environment & Recycling A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Umwelt", phonetic: "oom-velt", meaning: "environment", gender: "die", example: { de: "Die Umwelt schützen.", en: "Protect the environment." } },
+    { word: "der Müll", phonetic: "mül", meaning: "garbage / waste", gender: "der", example: { de: "Müll trennen.", en: "Separate waste." } },
+    { word: "die Mülltrennung", phonetic: "mül-tre-nung", meaning: "waste separation", gender: "die", example: { de: "Mülltrennung ist wichtig.", en: "Waste separation is important." } },
+    { word: "recyceln", phonetic: "ree-sy-keln", meaning: "to recycle", example: { de: "Papier recyceln.", en: "Recycle paper." } },
+    { word: "der Restmüll", phonetic: "rest-mül", meaning: "residual waste", gender: "der", example: { de: "Restmüll in die schwarze Tonne.", en: "Residual waste in the black bin." } },
+    { word: "der Biomüll", phonetic: "bee-oh-mül", meaning: "organic waste", gender: "der", example: { de: "Biomüll kompostieren.", en: "Compost organic waste." } },
+    { word: "das Altpapier", phonetic: "alt-pa-peer", meaning: "waste paper", gender: "das", example: { de: "Altpapier sammeln.", en: "Collect waste paper." } },
+    { word: "das Altglas", phonetic: "alt-glahs", meaning: "waste glass", gender: "das", example: { de: "Altglas nach Farbe sortieren.", en: "Sort glass by color." } },
+    { word: "die Plastikflasche", phonetic: "plas-tik-fla-shuh", meaning: "plastic bottle", gender: "die", example: { de: "Plastikflaschen zurückgeben.", en: "Return plastic bottles." } },
+    { word: "das Pfand", phonetic: "pfant", meaning: "deposit (bottle)", gender: "das", example: { de: "25 Cent Pfand.", en: "25 cent deposit." } },
+    { word: "der Umweltschutz", phonetic: "oom-velt-shoots", meaning: "environmental protection", gender: "der", example: { de: "Umweltschutz betreiben.", en: "Practice environmental protection." } },
+    { word: "die Verschmutzung", phonetic: "fer-shmoo-tsung", meaning: "pollution", gender: "die", example: { de: "Luftverschmutzung.", en: "Air pollution." } },
+    { word: "die Energie", phonetic: "e-ner-gee", meaning: "energy", gender: "die", example: { de: "Energie sparen.", en: "Save energy." } },
+    { word: "der Strom", phonetic: "shtrohm", meaning: "electricity", gender: "der", example: { de: "Strom sparen.", en: "Save electricity." } },
+    { word: "die Solarenergie", phonetic: "zo-lahr-e-ner-gee", meaning: "solar energy", gender: "die", example: { de: "Solarenergie nutzen.", en: "Use solar energy." } },
+    { word: "die Windenergie", phonetic: "vint-e-ner-gee", meaning: "wind energy", gender: "die", example: { de: "Windenergie erzeugen.", en: "Generate wind energy." } },
+    { word: "der Klimawandel", phonetic: "klee-ma-van-del", meaning: "climate change", gender: "der", example: { de: "Gegen den Klimawandel kämpfen.", en: "Fight climate change." } },
+    { word: "die Nachhaltigkeit", phonetic: "nakh-hal-tikh-kyte", meaning: "sustainability", gender: "die", example: { de: "Nachhaltigkeit fördern.", en: "Promote sustainability." } },
+    { word: "der Abfall", phonetic: "ap-fal", meaning: "waste / rubbish", gender: "der", example: { de: "Abfall vermeiden.", en: "Avoid waste." } },
+    { word: "die Wertstoffe", phonetic: "vayrt-shto-fuh", meaning: "recyclables", example: { de: "Wertstoffe sammeln.", en: "Collect recyclables." } },
+  ]}] },
+};

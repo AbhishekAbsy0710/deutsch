@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega44: Record<string, Lesson> = {
+  "lc2_m87": { id: "lc2_m87", title: "Advanced Proteomics C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Proteomik", phonetic: "pro-te-oh-mik", meaning: "proteomics", gender: "die", example: { de: "Quantitative Proteomik.", en: "Quantitative proteomics." } },
+    { word: "die Proteinexpression", phonetic: "pro-tayn-eks-pre-see-ohn", meaning: "protein expression", gender: "die", example: { de: "Differentielle Proteinexpression.", en: "Differential protein expression." } },
+    { word: "die Massenspektrometrie", phonetic: "ma-sen-shpek-tro-me-tree", meaning: "mass spectrometry (proteomics)", gender: "die", example: { de: "Tandem-Massenspektrometrie.", en: "Tandem mass spectrometry." } },
+    { word: "die Gelelektrophorese", phonetic: "gel-e-lek-tro-fo-ray-zuh", meaning: "gel electrophoresis", gender: "die", example: { de: "Zweidimensionale Gelelektrophorese.", en: "Two-dimensional gel electrophoresis." } },
+    { word: "die Proteinidentifizierung", phonetic: "pro-tayn-i-den-ti-fi-tsee-rung", meaning: "protein identification", gender: "die", example: { de: "Datenbankbasierte Proteinidentifizierung.", en: "Database-based protein identification." } },
+    { word: "die Phosphoproteomik", phonetic: "fos-fo-pro-te-oh-mik", meaning: "phosphoproteomics", gender: "die", example: { de: "Quantitative Phosphoproteomik.", en: "Quantitative phosphoproteomics." } },
+    { word: "die Interaktomik", phonetic: "in-ter-ak-toh-mik", meaning: "interactomics", gender: "die", example: { de: "Protein-Protein-Interaktomik.", en: "Protein-protein interactomics." } },
+    { word: "die Metabolomik", phonetic: "me-ta-bo-loh-mik", meaning: "metabolomics", gender: "die", example: { de: "Klinische Metabolomik.", en: "Clinical metabolomics." } },
+    { word: "die Glykoproteomik", phonetic: "glü-ko-pro-te-oh-mik", meaning: "glycoproteomics", gender: "die", example: { de: "N-Glykan-Glykoproteomik.", en: "N-glycan glycoproteomics." } },
+    { word: "die Strukturproteomik", phonetic: "shtrook-toor-pro-te-oh-mik", meaning: "structural proteomics", gender: "die", example: { de: "Cryo-EM-Strukturproteomik.", en: "Cryo-EM structural proteomics." } },
+    { word: "die Peptidomik", phonetic: "pep-ti-doh-mik", meaning: "peptidomics", gender: "die", example: { de: "Neuropeptidomik.", en: "Neuropeptidomics." } },
+    { word: "die Biomarkerforschung", phonetic: "bee-oh-mar-ker-for-shung", meaning: "biomarker research", gender: "die", example: { de: "Proteomische Biomarkerforschung.", en: "Proteomic biomarker research." } },
+    { word: "die Proteinfaltung", phonetic: "pro-tayn-fal-tung", meaning: "protein folding", gender: "die", example: { de: "Fehlerhafte Proteinfaltung.", en: "Protein misfolding." } },
+    { word: "die Chromatographie", phonetic: "kro-ma-to-gra-fee", meaning: "chromatography", gender: "die", example: { de: "Flüssigkeitschromatographie.", en: "Liquid chromatography." } },
+    { word: "die Einzelzellproteomik", phonetic: "ayn-tsel-tsel-pro-te-oh-mik", meaning: "single-cell proteomics", gender: "die", example: { de: "Hochsensitive Einzelzellproteomik.", en: "High-sensitivity single-cell proteomics." } },
+    { word: "die Immunopräzipitation", phonetic: "i-moo-no-pray-tsi-pi-ta-tsee-ohn", meaning: "immunoprecipitation", gender: "die", example: { de: "Co-Immunopräzipitation.", en: "Co-immunoprecipitation." } },
+    { word: "die Degradomik", phonetic: "de-gra-doh-mik", meaning: "degradomics", gender: "die", example: { de: "Protease-Degradomik.", en: "Protease degradomics." } },
+    { word: "die Ubiquitomik", phonetic: "oo-bi-kwi-toh-mik", meaning: "ubiquitomics", gender: "die", example: { de: "Systematische Ubiquitomik.", en: "Systematic ubiquitomics." } },
+    { word: "die Redoxproteomik", phonetic: "re-doks-pro-te-oh-mik", meaning: "redox proteomics", gender: "die", example: { de: "Oxidative Redoxproteomik.", en: "Oxidative redox proteomics." } },
+    { word: "die Multiomik", phonetic: "mul-ti-oh-mik", meaning: "multi-omics", gender: "die", example: { de: "Integrative Multiomik.", en: "Integrative multi-omics." } },
+  ]}] },
+};

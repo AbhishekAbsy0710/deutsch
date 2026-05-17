@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega46: Record<string, Lesson> = {
+  "lc1_m92": { id: "lc1_m92", title: "Advanced Phenomenology C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Phänomenologie", phonetic: "fe-no-me-no-lo-gee", meaning: "phenomenology", gender: "die", example: { de: "Husserlsche Phänomenologie.", en: "Husserlian phenomenology." } },
+    { word: "die Intentionalität", phonetic: "in-ten-tsee-oh-na-li-tayt", meaning: "intentionality", gender: "die", example: { de: "Bewusstseinsintentionalität.", en: "Consciousness intentionality." } },
+    { word: "die Epoché", phonetic: "e-po-khay", meaning: "epoché (suspension)", gender: "die", example: { de: "Phänomenologische Epoché.", en: "Phenomenological epoché." } },
+    { word: "die Lebenswelt", phonetic: "lay-bens-velt", meaning: "lifeworld", gender: "die", example: { de: "Vortheoretische Lebenswelt.", en: "Pre-theoretical lifeworld." } },
+    { word: "die Reduktion", phonetic: "re-dook-tsee-ohn", meaning: "reduction (phenomenological)", gender: "die", example: { de: "Eidetische Reduktion.", en: "Eidetic reduction." } },
+    { word: "die Wesensschau", phonetic: "vay-zens-show", meaning: "eidetic intuition", gender: "die", example: { de: "Kategoriale Wesensschau.", en: "Categorial eidetic intuition." } },
+    { word: "die Intersubjektivität", phonetic: "in-ter-zub-yek-ti-vi-tayt", meaning: "intersubjectivity", gender: "die", example: { de: "Transzendentale Intersubjektivität.", en: "Transcendental intersubjectivity." } },
+    { word: "die Leiblichkeit", phonetic: "lyp-likh-kyte", meaning: "embodiment / corporeality", gender: "die", example: { de: "Merleau-Pontys Leiblichkeit.", en: "Merleau-Ponty's embodiment." } },
+    { word: "die Hermeneutik", phonetic: "her-me-noy-tik", meaning: "hermeneutics", gender: "die", example: { de: "Philosophische Hermeneutik.", en: "Philosophical hermeneutics." } },
+    { word: "die Existenzphilosophie", phonetic: "ek-sis-tents-fi-lo-zo-fee", meaning: "existential philosophy", gender: "die", example: { de: "Heideggers Existenzphilosophie.", en: "Heidegger's existential philosophy." } },
+    { word: "die Wahrnehmung", phonetic: "vahr-nay-mung", meaning: "perception (philosophical)", gender: "die", example: { de: "Phänomenologie der Wahrnehmung.", en: "Phenomenology of perception." } },
+    { word: "die Zeitbewusstsein", phonetic: "tsyte-beh-voost-zyne", meaning: "time consciousness", gender: "das", example: { de: "Inneres Zeitbewusstsein.", en: "Inner time consciousness." } },
+    { word: "die Noesis", phonetic: "no-ay-zis", meaning: "noesis", gender: "die", example: { de: "Noetischer Akt.", en: "Noetic act." } },
+    { word: "die Noema", phonetic: "no-ay-ma", meaning: "noema", gender: "das", example: { de: "Noematischer Gehalt.", en: "Noematic content." } },
+    { word: "die Evidenz", phonetic: "e-vi-dents", meaning: "evidence (phenomenological)", gender: "die", example: { de: "Apodiktische Evidenz.", en: "Apodictic evidence." } },
+    { word: "die Konstitution", phonetic: "kon-sti-too-tsee-ohn", meaning: "constitution (phenomenological)", gender: "die", example: { de: "Transzendentale Konstitution.", en: "Transcendental constitution." } },
+    { word: "die Horizontstruktur", phonetic: "ho-ri-tsont-shtrook-toor", meaning: "horizon structure", gender: "die", example: { de: "Erfahrungshorizontstruktur.", en: "Experiential horizon structure." } },
+    { word: "die Apperzeption", phonetic: "a-per-tsep-tsee-ohn", meaning: "apperception", gender: "die", example: { de: "Transzendentale Apperzeption.", en: "Transcendental apperception." } },
+    { word: "die Einfühlung", phonetic: "ayn-fü-lung", meaning: "empathy (philosophical)", gender: "die", example: { de: "Steins Einfühlung.", en: "Stein's empathy." } },
+    { word: "die Daseinanalytik", phonetic: "dah-zyns-a-na-lü-tik", meaning: "existential analytic", gender: "die", example: { de: "Heideggers Daseinanalytik.", en: "Heidegger's existential analytic." } },
+  ]}] },
+};
