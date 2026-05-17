@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega56: Record<string, Lesson> = {
+  "lc2_m99": { id: "lc2_m99", title: "Advanced Gravitational Waves C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Gravitationswellen", phonetic: "gra-vi-ta-tsee-ohns-ve-len", meaning: "gravitational waves", example: { de: "LIGO-Gravitationswellen.", en: "LIGO gravitational waves." } },
+    { word: "die Raumzeitkrümmung", phonetic: "rowm-tsyte-krü-mung", meaning: "spacetime curvature", gender: "die", example: { de: "Dynamische Raumzeitkrümmung.", en: "Dynamic spacetime curvature." } },
+    { word: "die Interferometrie", phonetic: "in-ter-fe-ro-me-tree", meaning: "interferometry", gender: "die", example: { de: "Laserinterferometrie.", en: "Laser interferometry." } },
+    { word: "die Neutronensternverschmelzung", phonetic: "noy-tro-nen-shtern-fer-shmel-tsung", meaning: "neutron star merger", gender: "die", example: { de: "Binäre Neutronensternverschmelzung.", en: "Binary neutron star merger." } },
+    { word: "die Schwarze-Loch-Verschmelzung", phonetic: "shvar-tsuh-lokh-fer-shmel-tsung", meaning: "black hole merger", gender: "die", example: { de: "Stellare Schwarze-Loch-Verschmelzung.", en: "Stellar black hole merger." } },
+    { word: "die Chirp-Masse", phonetic: "tchirp-ma-suh", meaning: "chirp mass", gender: "die", example: { de: "Inspiral-Chirp-Masse.", en: "Inspiral chirp mass." } },
+    { word: "die Ringdown", phonetic: "ring-down", meaning: "ringdown", gender: "das", example: { de: "Quasinormaler Ringdown.", en: "Quasi-normal ringdown." } },
+    { word: "die Strain-Sensitivität", phonetic: "strayn-zen-zi-ti-vi-tayt", meaning: "strain sensitivity", gender: "die", example: { de: "Gravitationswellen-Strain-Sensitivität.", en: "Gravitational wave strain sensitivity." } },
+    { word: "die Multimessenger-Astronomie", phonetic: "mul-ti-me-sen-jer-as-tro-no-mee", meaning: "multi-messenger astronomy", gender: "die", example: { de: "Gravitationswellen-Multimessenger-Astronomie.", en: "Gravitational wave multi-messenger astronomy." } },
+    { word: "die Post-Newtonsche Näherung", phonetic: "post-nyu-ton-shuh ney-e-rung", meaning: "post-Newtonian approximation", example: { de: "Dritte post-Newtonsche Näherung.", en: "Third post-Newtonian approximation." } },
+    { word: "die Numerische Relativitätstheorie", phonetic: "noo-may-ri-shuh re-la-ti-vi-tayts-tay-oh-ree", meaning: "numerical relativity", example: { de: "Volle numerische Relativitätstheorie.", en: "Full numerical relativity." } },
+    { word: "die Pulsar-Timing-Array", phonetic: "pool-sar-ty-ming-a-ray", meaning: "pulsar timing array", gender: "das", example: { de: "NANOGrav Pulsar-Timing-Array.", en: "NANOGrav pulsar timing array." } },
+    { word: "die LISA-Mission", phonetic: "lee-za-mi-see-ohn", meaning: "LISA mission", gender: "die", example: { de: "ESA-LISA-Mission.", en: "ESA LISA mission." } },
+    { word: "die Gravitonhypothese", phonetic: "gra-vi-ton-hü-po-tay-zuh", meaning: "graviton hypothesis", gender: "die", example: { de: "Masselose Gravitonhypothese.", en: "Massless graviton hypothesis." } },
+    { word: "die Kompaktbinärsystem", phonetic: "kom-pakt-bi-nayr-züs-taym", meaning: "compact binary system", gender: "das", example: { de: "Inspirierendes Kompaktbinärsystem.", en: "Inspiraling compact binary system." } },
+    { word: "die Stochastischer Hintergrund", phonetic: "shto-khas-ti-sher hin-ter-groont", meaning: "stochastic background", example: { de: "Kosmologischer stochastischer Hintergrund.", en: "Cosmological stochastic background." } },
+    { word: "die Fabry-Pérot-Kavität", phonetic: "fa-bree-pay-ro-ka-vi-tayt", meaning: "Fabry-Pérot cavity", gender: "die", example: { de: "Resonante Fabry-Pérot-Kavität.", en: "Resonant Fabry-Pérot cavity." } },
+    { word: "die Matched-Filter-Technik", phonetic: "metsht-fil-ter-tekh-nik", meaning: "matched filter technique", gender: "die", example: { de: "Template-Matched-Filter-Technik.", en: "Template matched filter technique." } },
+    { word: "die Testmassenspiegelaufhängung", phonetic: "test-ma-sen-shpee-gel-owf-hen-gung", meaning: "test mass mirror suspension", gender: "die", example: { de: "Seismisch isolierte Testmassenspiegelaufhängung.", en: "Seismically isolated test mass mirror suspension." } },
+    { word: "die Wellenformmodellierung", phonetic: "ve-len-form-mo-de-lee-rung", meaning: "waveform modeling", gender: "die", example: { de: "Analytische Wellenformmodellierung.", en: "Analytical waveform modeling." } },
+  ]}] },
+};

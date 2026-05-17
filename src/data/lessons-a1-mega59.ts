@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega59: Record<string, Lesson> = {
+  "la1_m109": { id: "la1_m109", title: "Describing People A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "groß", phonetic: "grohs", meaning: "tall / big", example: { de: "Er ist groß.", en: "He is tall." } },
+    { word: "klein", phonetic: "klyne", meaning: "short / small", example: { de: "Sie ist klein.", en: "She is short." } },
+    { word: "schlank", phonetic: "shlank", meaning: "slim", example: { de: "Sie ist schlank.", en: "She is slim." } },
+    { word: "dick", phonetic: "dik", meaning: "fat / thick", example: { de: "Ein dicker Pullover.", en: "A thick sweater." } },
+    { word: "dünn", phonetic: "dün", meaning: "thin", example: { de: "Sehr dünn.", en: "Very thin." } },
+    { word: "hübsch", phonetic: "hüpsh", meaning: "pretty", example: { de: "Ein hübsches Mädchen.", en: "A pretty girl." } },
+    { word: "hässlich", phonetic: "hes-likh", meaning: "ugly", example: { de: "Ein hässliches Gebäude.", en: "An ugly building." } },
+    { word: "stark", phonetic: "shtark", meaning: "strong", example: { de: "Er ist stark.", en: "He is strong." } },
+    { word: "schwach", phonetic: "shvakh", meaning: "weak", example: { de: "Sich schwach fühlen.", en: "Feel weak." } },
+    { word: "die Brille", phonetic: "bri-luh", meaning: "glasses", gender: "die", example: { de: "Eine Brille tragen.", en: "Wear glasses." } },
+    { word: "der Bart", phonetic: "bart", meaning: "beard", gender: "der", example: { de: "Einen Bart haben.", en: "Have a beard." } },
+    { word: "lockig", phonetic: "lo-kikh", meaning: "curly", example: { de: "Lockiges Haar.", en: "Curly hair." } },
+    { word: "glatt", phonetic: "glat", meaning: "straight (hair)", example: { de: "Glattes Haar.", en: "Straight hair." } },
+    { word: "blond", phonetic: "blont", meaning: "blond", example: { de: "Blonde Haare.", en: "Blond hair." } },
+    { word: "brünett", phonetic: "brü-net", meaning: "brunette", example: { de: "Brünettes Haar.", en: "Brunette hair." } },
+    { word: "rothaarig", phonetic: "roht-hah-rikh", meaning: "red-haired", example: { de: "Ein rothaariges Kind.", en: "A red-haired child." } },
+    { word: "die Sommersprossen", phonetic: "zo-mer-shpro-sen", meaning: "freckles", example: { de: "Süße Sommersprossen.", en: "Cute freckles." } },
+    { word: "die Narbe", phonetic: "nar-buh", meaning: "scar", gender: "die", example: { de: "Eine kleine Narbe.", en: "A small scar." } },
+    { word: "muskulös", phonetic: "mus-koo-lös", meaning: "muscular", example: { de: "Muskulöse Arme.", en: "Muscular arms." } },
+    { word: "die Falte", phonetic: "fal-tuh", meaning: "wrinkle", gender: "die", example: { de: "Falten im Gesicht.", en: "Wrinkles on the face." } },
+  ]}] },
+};

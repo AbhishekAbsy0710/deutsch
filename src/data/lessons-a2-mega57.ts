@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega57: Record<string, Lesson> = {
+  "la2_m102": { id: "la2_m102", title: "City & Urban Life A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Großstadt", phonetic: "grohs-shtat", meaning: "city / metropolis", gender: "die", example: { de: "In einer Großstadt leben.", en: "Live in a city." } },
+    { word: "die Kleinstadt", phonetic: "klyne-shtat", meaning: "small town", gender: "die", example: { de: "In einer Kleinstadt aufwachsen.", en: "Grow up in a small town." } },
+    { word: "das Viertel", phonetic: "feer-tel", meaning: "district / quarter", gender: "das", example: { de: "Ein ruhiges Viertel.", en: "A quiet district." } },
+    { word: "der Stadtrand", phonetic: "shtat-rant", meaning: "outskirts", gender: "der", example: { de: "Am Stadtrand wohnen.", en: "Live on the outskirts." } },
+    { word: "die Innenstadt", phonetic: "i-nen-shtat", meaning: "city center", gender: "die", example: { de: "In die Innenstadt fahren.", en: "Go to the city center." } },
+    { word: "der Bürgersteig", phonetic: "bür-ger-shtykh", meaning: "sidewalk", gender: "der", example: { de: "Auf dem Bürgersteig gehen.", en: "Walk on the sidewalk." } },
+    { word: "die Kreuzung", phonetic: "kroy-tsung", meaning: "intersection", gender: "die", example: { de: "An der Kreuzung warten.", en: "Wait at the intersection." } },
+    { word: "die Ampel", phonetic: "am-pel", meaning: "traffic light", gender: "die", example: { de: "Die Ampel ist rot.", en: "The traffic light is red." } },
+    { word: "der Zebrastreifen", phonetic: "tsay-bra-shtry-fen", meaning: "crosswalk", gender: "der", example: { de: "Am Zebrastreifen überqueren.", en: "Cross at the crosswalk." } },
+    { word: "die Brücke", phonetic: "brü-kuh", meaning: "bridge", gender: "die", example: { de: "Über die Brücke gehen.", en: "Walk over the bridge." } },
+    { word: "der Brunnen", phonetic: "broo-nen", meaning: "fountain / well", gender: "der", example: { de: "Am Brunnen sitzen.", en: "Sit by the fountain." } },
+    { word: "die Statue", phonetic: "shta-too-uh", meaning: "statue", gender: "die", example: { de: "Eine berühmte Statue.", en: "A famous statue." } },
+    { word: "das Denkmal", phonetic: "denk-mahl", meaning: "monument / memorial", gender: "das", example: { de: "Ein historisches Denkmal.", en: "A historical monument." } },
+    { word: "der Spielplatz", phonetic: "shpeel-plats", meaning: "playground", gender: "der", example: { de: "Auf dem Spielplatz spielen.", en: "Play on the playground." } },
+    { word: "die Bücherei", phonetic: "bü-khe-ry", meaning: "library (public)", gender: "die", example: { de: "In die Bücherei gehen.", en: "Go to the library." } },
+    { word: "das Rathaus", phonetic: "raht-hows", meaning: "town hall", gender: "das", example: { de: "Vor dem Rathaus.", en: "In front of the town hall." } },
+    { word: "der Wolkenkratzer", phonetic: "vol-ken-kra-tser", meaning: "skyscraper", gender: "der", example: { de: "Ein moderner Wolkenkratzer.", en: "A modern skyscraper." } },
+    { word: "die Fußgängerzone", phonetic: "foos-gen-ger-tso-nuh", meaning: "pedestrian zone", gender: "die", example: { de: "In der Fußgängerzone.", en: "In the pedestrian zone." } },
+    { word: "der Stau", phonetic: "shtow", meaning: "traffic jam", gender: "der", example: { de: "Im Stau stehen.", en: "Be stuck in traffic." } },
+    { word: "die Vorstadt", phonetic: "for-shtat", meaning: "suburb", gender: "die", example: { de: "In der Vorstadt wohnen.", en: "Live in the suburb." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega58: Record<string, Lesson> = {
+  "lb2_m103": { id: "lb2_m103", title: "Robotics Engineering B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Robotik", phonetic: "ro-boh-tik", meaning: "robotics", gender: "die", example: { de: "Industrielle Robotik.", en: "Industrial robotics." } },
+    { word: "der Industrieroboter", phonetic: "in-doos-tree-ro-boh-ter", meaning: "industrial robot", gender: "der", example: { de: "Sechsachsiger Industrieroboter.", en: "Six-axis industrial robot." } },
+    { word: "die Kinematik", phonetic: "ki-ne-mah-tik", meaning: "kinematics", gender: "die", example: { de: "Inverse Kinematik.", en: "Inverse kinematics." } },
+    { word: "der Aktuator", phonetic: "ak-too-ah-tor", meaning: "actuator", gender: "der", example: { de: "Hydraulischer Aktuator.", en: "Hydraulic actuator." } },
+    { word: "der Sensor", phonetic: "zen-zor", meaning: "sensor", gender: "der", example: { de: "LIDAR-Sensor.", en: "LIDAR sensor." } },
+    { word: "die Bildverarbeitung", phonetic: "bilt-fer-ar-by-tung", meaning: "image processing", gender: "die", example: { de: "Maschinelle Bildverarbeitung.", en: "Machine vision." } },
+    { word: "der Greifer", phonetic: "gry-fer", meaning: "gripper", gender: "der", example: { de: "Pneumatischer Greifer.", en: "Pneumatic gripper." } },
+    { word: "die Regelungstechnik", phonetic: "ray-ge-lungs-tekh-nik", meaning: "control engineering", gender: "die", example: { de: "PID-Regelungstechnik.", en: "PID control engineering." } },
+    { word: "die Pfadplanung", phonetic: "pfabt-plah-nung", meaning: "path planning", gender: "die", example: { de: "Kollisionsfreie Pfadplanung.", en: "Collision-free path planning." } },
+    { word: "die Mensch-Roboter-Interaktion", phonetic: "mensh-ro-boh-ter-in-ter-ak-tsee-ohn", meaning: "human-robot interaction", gender: "die", example: { de: "Sichere Mensch-Roboter-Interaktion.", en: "Safe human-robot interaction." } },
+    { word: "der Freiheitsgrad", phonetic: "fry-hyts-graht", meaning: "degree of freedom", gender: "der", example: { de: "Sechs Freiheitsgrade.", en: "Six degrees of freedom." } },
+    { word: "die Lokalisierung", phonetic: "lo-ka-li-zee-rung", meaning: "localization", gender: "die", example: { de: "Simultane Lokalisierung.", en: "Simultaneous localization." } },
+    { word: "die SLAM-Technologie", phonetic: "slam-tekh-no-lo-gee", meaning: "SLAM technology", gender: "die", example: { de: "Visual-SLAM-Technologie.", en: "Visual SLAM technology." } },
+    { word: "der Humanoider Roboter", phonetic: "hoo-ma-no-ee-der ro-boh-ter", meaning: "humanoid robot", example: { de: "Zweibeiniger humanoider Roboter.", en: "Bipedal humanoid robot." } },
+    { word: "die Schwarmroboter", phonetic: "shvarm-ro-boh-ter", meaning: "swarm robots", example: { de: "Dezentrale Schwarmroboter.", en: "Decentralized swarm robots." } },
+    { word: "die Kollisionserkennung", phonetic: "ko-li-zee-ohns-er-ke-nung", meaning: "collision detection", gender: "die", example: { de: "Echtzeit-Kollisionserkennung.", en: "Real-time collision detection." } },
+    { word: "die Servomotor", phonetic: "zer-vo-mo-tor", meaning: "servo motor", gender: "der", example: { de: "Hochpräziser Servomotor.", en: "High-precision servo motor." } },
+    { word: "die Odometrie", phonetic: "oh-do-me-tree", meaning: "odometry", gender: "die", example: { de: "Visuelle Odometrie.", en: "Visual odometry." } },
+    { word: "die Reinforcement-Lernen", phonetic: "re-in-fors-ment-ler-nen", meaning: "reinforcement learning (robotics)", gender: "das", example: { de: "Simulationsbasiertes Reinforcement-Lernen.", en: "Simulation-based reinforcement learning." } },
+    { word: "die Softroboter", phonetic: "soft-ro-boh-ter", meaning: "soft robots", example: { de: "Biologisch inspirierte Softroboter.", en: "Biologically inspired soft robots." } },
+  ]}] },
+};

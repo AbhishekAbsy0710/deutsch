@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega58: Record<string, Lesson> = {
+  "lc1_m104": { id: "lc1_m104", title: "Advanced Sociolinguistics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Soziolinguistik", phonetic: "zo-tsee-oh-lin-gvis-tik", meaning: "sociolinguistics", gender: "die", example: { de: "Variationistische Soziolinguistik.", en: "Variationist sociolinguistics." } },
+    { word: "die Sprachvariation", phonetic: "shprahk-va-ree-a-tsee-ohn", meaning: "language variation", gender: "die", example: { de: "Diatopische Sprachvariation.", en: "Diatopic language variation." } },
+    { word: "der Soziolekt", phonetic: "zo-tsee-oh-lekt", meaning: "sociolect", gender: "der", example: { de: "Jugendlicher Soziolekt.", en: "Youth sociolect." } },
+    { word: "der Idiolekt", phonetic: "ee-dee-oh-lekt", meaning: "idiolect", gender: "der", example: { de: "Individueller Idiolekt.", en: "Individual idiolect." } },
+    { word: "die Diglossie", phonetic: "di-glo-see", meaning: "diglossia", gender: "die", example: { de: "Arabische Diglossie.", en: "Arabic diglossia." } },
+    { word: "die Codeswitching", phonetic: "kohd-svit-shing", meaning: "code-switching", gender: "das", example: { de: "Situatives Codeswitching.", en: "Situational code-switching." } },
+    { word: "die Sprachprestige", phonetic: "shprahk-pres-tee-zhuh", meaning: "language prestige", gender: "das", example: { de: "Verdecktes Sprachprestige.", en: "Covert language prestige." } },
+    { word: "die Pidginsprache", phonetic: "pid-jin-shprah-khuh", meaning: "pidgin language", gender: "die", example: { de: "Handels-Pidginsprache.", en: "Trade pidgin language." } },
+    { word: "die Kreolsprache", phonetic: "kre-ohl-shprah-khuh", meaning: "creole language", gender: "die", example: { de: "Karibische Kreolsprache.", en: "Caribbean creole language." } },
+    { word: "die Sprachpolitik", phonetic: "shprahk-po-li-tik", meaning: "language policy", gender: "die", example: { de: "Europäische Sprachpolitik.", en: "European language policy." } },
+    { word: "die Sprachplanung", phonetic: "shprahk-plah-nung", meaning: "language planning", gender: "die", example: { de: "Korpussprachplanung.", en: "Corpus language planning." } },
+    { word: "der Sprachwandel", phonetic: "shprahk-van-del", meaning: "language change", gender: "der", example: { de: "Semantischer Sprachwandel.", en: "Semantic language change." } },
+    { word: "die Sprachideologie", phonetic: "shprahk-ee-de-oh-lo-gee", meaning: "language ideology", gender: "die", example: { de: "Normative Sprachideologie.", en: "Normative language ideology." } },
+    { word: "die Ethnolinguistik", phonetic: "et-no-lin-gvis-tik", meaning: "ethnolinguistics", gender: "die", example: { de: "Kognitive Ethnolinguistik.", en: "Cognitive ethnolinguistics." } },
+    { word: "die Sprachkontakt", phonetic: "shprahk-kon-takt", meaning: "language contact", gender: "der", example: { de: "Intensiver Sprachkontakt.", en: "Intensive language contact." } },
+    { word: "die Varietätenlinguistik", phonetic: "va-ree-ay-tay-ten-lin-gvis-tik", meaning: "variety linguistics", gender: "die", example: { de: "Plurizentrische Varietätenlinguistik.", en: "Pluricentric variety linguistics." } },
+    { word: "die Sprachdiskriminierung", phonetic: "shprahk-dis-kri-mi-nee-rung", meaning: "linguistic discrimination", gender: "die", example: { de: "Institutionelle Sprachdiskriminierung.", en: "Institutional linguistic discrimination." } },
+    { word: "die Labov-Variable", phonetic: "la-bof-va-ree-ah-bluh", meaning: "Labov variable", gender: "die", example: { de: "Phonologische Labov-Variable.", en: "Phonological Labov variable." } },
+    { word: "die Höflichkeitsforschung", phonetic: "höf-likh-kyts-for-shung", meaning: "politeness research", gender: "die", example: { de: "Brown-Levinson Höflichkeitsforschung.", en: "Brown-Levinson politeness research." } },
+    { word: "die Sprachgemeinschaft", phonetic: "shprahk-geh-myne-shaft", meaning: "speech community", gender: "die", example: { de: "Urbane Sprachgemeinschaft.", en: "Urban speech community." } },
+  ]}] },
+};
