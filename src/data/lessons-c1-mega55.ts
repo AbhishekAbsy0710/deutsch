@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega55: Record<string, Lesson> = {
+  "lc1_m101": { id: "lc1_m101", title: "Advanced Neurolinguistics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Neurolinguistik", phonetic: "noy-ro-lin-gvis-tik", meaning: "neurolinguistics", gender: "die", example: { de: "Kognitive Neurolinguistik.", en: "Cognitive neurolinguistics." } },
+    { word: "die Broca-Areal", phonetic: "bro-ka-a-re-ahl", meaning: "Broca's area", gender: "das", example: { de: "Motorisches Broca-Areal.", en: "Motor Broca's area." } },
+    { word: "die Wernicke-Areal", phonetic: "ver-ni-kuh-a-re-ahl", meaning: "Wernicke's area", gender: "das", example: { de: "Sensorisches Wernicke-Areal.", en: "Sensory Wernicke's area." } },
+    { word: "die Aphasie", phonetic: "a-fa-zee", meaning: "aphasia", gender: "die", example: { de: "Globale Aphasie.", en: "Global aphasia." } },
+    { word: "die Lateralisierung", phonetic: "la-te-ra-li-zee-rung", meaning: "lateralization", gender: "die", example: { de: "Hemisphärische Lateralisierung.", en: "Hemispheric lateralization." } },
+    { word: "die Sprachverarbeitung", phonetic: "shprahk-fer-ar-by-tung", meaning: "language processing", gender: "die", example: { de: "Neuronale Sprachverarbeitung.", en: "Neural language processing." } },
+    { word: "die Lexikalische Entscheidung", phonetic: "lek-si-kah-li-shuh ent-shy-dung", meaning: "lexical decision", example: { de: "Visuelle lexikalische Entscheidung.", en: "Visual lexical decision." } },
+    { word: "die Priming-Effekt", phonetic: "pry-ming-e-fekt", meaning: "priming effect", gender: "der", example: { de: "Semantischer Priming-Effekt.", en: "Semantic priming effect." } },
+    { word: "die Elektrophysiologische Messung", phonetic: "e-lek-tro-fü-zee-oh-lo-gi-shuh me-sung", meaning: "electrophysiological measurement", example: { de: "ERP-elektrophysiologische Messung.", en: "ERP electrophysiological measurement." } },
+    { word: "die Funktionelle Magnetresonanz", phonetic: "funk-tsee-oh-ne-luh mag-nayt-re-zo-nants", meaning: "functional MRI", example: { de: "Sprachbezogene funktionelle Magnetresonanz.", en: "Language-related fMRI." } },
+    { word: "die Dyslexie", phonetic: "düs-lek-see", meaning: "dyslexia", gender: "die", example: { de: "Entwicklungsbedingte Dyslexie.", en: "Developmental dyslexia." } },
+    { word: "die Prosodie", phonetic: "pro-zo-dee", meaning: "prosody", gender: "die", example: { de: "Emotionale Prosodie.", en: "Emotional prosody." } },
+    { word: "die Zweisprachigkeit", phonetic: "tsvy-shprah-khikh-kyte", meaning: "bilingualism", gender: "die", example: { de: "Simultan Zweisprachigkeit.", en: "Simultaneous bilingualism." } },
+    { word: "die Spracherwerbsforschung", phonetic: "shprahk-er-verps-for-shung", meaning: "language acquisition research", gender: "die", example: { de: "Erstspracherwerbsforschung.", en: "First language acquisition research." } },
+    { word: "die Ereigniskorrelierte Potenziale", phonetic: "er-ayg-nis-ko-re-leer-tuh po-ten-tsee-ah-luh", meaning: "event-related potentials", example: { de: "N400 ereigniskorrelierte Potenziale.", en: "N400 event-related potentials." } },
+    { word: "die Syntaktische Verarbeitung", phonetic: "zün-tak-ti-shuh fer-ar-by-tung", meaning: "syntactic processing", example: { de: "Inkrementelle syntaktische Verarbeitung.", en: "Incremental syntactic processing." } },
+    { word: "die Semantische Demenz", phonetic: "ze-man-ti-shuh de-ments", meaning: "semantic dementia", example: { de: "Progressive semantische Demenz.", en: "Progressive semantic dementia." } },
+    { word: "die Gehirnplastizität", phonetic: "ge-hirn-plas-ti-tsi-tayt", meaning: "brain plasticity", gender: "die", example: { de: "Sprachbezogene Gehirnplastizität.", en: "Language-related brain plasticity." } },
+    { word: "die Phonologische Schleife", phonetic: "fo-no-lo-gi-shuh shly-fuh", meaning: "phonological loop", example: { de: "Baddeleys phonologische Schleife.", en: "Baddeley's phonological loop." } },
+    { word: "die Sprachdominanz", phonetic: "shprahk-do-mi-nants", meaning: "language dominance", gender: "die", example: { de: "Hemisphärische Sprachdominanz.", en: "Hemispheric language dominance." } },
+  ]}] },
+};

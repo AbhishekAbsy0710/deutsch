@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega53: Record<string, Lesson> = {
+  "lc2_m96": { id: "lc2_m96", title: "Advanced Algebraic Geometry C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Algebraische Geometrie", phonetic: "al-ge-bra-i-shuh ge-oh-me-tree", meaning: "algebraic geometry", example: { de: "Moderne algebraische Geometrie.", en: "Modern algebraic geometry." } },
+    { word: "die Varietät", phonetic: "va-ree-ay-tayt", meaning: "algebraic variety", gender: "die", example: { de: "Affine Varietät.", en: "Affine variety." } },
+    { word: "das Schema", phonetic: "shay-ma", meaning: "scheme (algebraic)", gender: "das", example: { de: "Noethersches Schema.", en: "Noetherian scheme." } },
+    { word: "die Garbentheorie", phonetic: "gar-ben-tay-oh-ree", meaning: "sheaf theory", gender: "die", example: { de: "Kohärente Garbentheorie.", en: "Coherent sheaf theory." } },
+    { word: "die Projektive Geometrie", phonetic: "pro-yek-tee-vuh ge-oh-me-tree", meaning: "projective geometry", example: { de: "Komplexe projektive Geometrie.", en: "Complex projective geometry." } },
+    { word: "die Elliptische Kurve", phonetic: "e-lip-ti-shuh koor-vuh", meaning: "elliptic curve", example: { de: "Rationale elliptische Kurve.", en: "Rational elliptic curve." } },
+    { word: "die Divisortheorie", phonetic: "di-vi-zor-tay-oh-ree", meaning: "divisor theory", gender: "die", example: { de: "Cartier-Divisortheorie.", en: "Cartier divisor theory." } },
+    { word: "die Modulraum", phonetic: "mo-dool-rowm", meaning: "moduli space", gender: "der", example: { de: "Modulraum algebraischer Kurven.", en: "Moduli space of algebraic curves." } },
+    { word: "die Étale-Kohomologie", phonetic: "ay-tahl-ko-ho-mo-lo-gee", meaning: "étale cohomology", gender: "die", example: { de: "Grothendieck-Étale-Kohomologie.", en: "Grothendieck étale cohomology." } },
+    { word: "die Riemannsche Fläche", phonetic: "ree-man-shuh fley-khuh", meaning: "Riemann surface", example: { de: "Kompakte Riemannsche Fläche.", en: "Compact Riemann surface." } },
+    { word: "die Birational Geometrie", phonetic: "bi-ra-tsee-oh-nahl ge-oh-me-tree", meaning: "birational geometry", example: { de: "Minimale birational Geometrie.", en: "Minimal birational geometry." } },
+    { word: "die Hodge-Theorie", phonetic: "hodj-tay-oh-ree", meaning: "Hodge theory", gender: "die", example: { de: "Gemischte Hodge-Theorie.", en: "Mixed Hodge theory." } },
+    { word: "die Intersection-Theorie", phonetic: "in-ter-sek-shun-tay-oh-ree", meaning: "intersection theory", gender: "die", example: { de: "Algebraische Intersection-Theorie.", en: "Algebraic intersection theory." } },
+    { word: "die Abelsche Varietät", phonetic: "ah-bel-shuh va-ree-ay-tayt", meaning: "abelian variety", example: { de: "Polarisierte abelsche Varietät.", en: "Polarized abelian variety." } },
+    { word: "die Torsion", phonetic: "tor-zee-ohn", meaning: "torsion (algebra)", gender: "die", example: { de: "Algebraische Torsion.", en: "Algebraic torsion." } },
+    { word: "die Zariski-Topologie", phonetic: "tsa-ris-ki-to-po-lo-gee", meaning: "Zariski topology", gender: "die", example: { de: "Irreduzible Zariski-Topologie.", en: "Irreducible Zariski topology." } },
+    { word: "die Hilbert-Schema", phonetic: "hil-bert-shay-ma", meaning: "Hilbert scheme", gender: "das", example: { de: "Punktuelles Hilbert-Schema.", en: "Punctual Hilbert scheme." } },
+    { word: "die Blowing-up", phonetic: "blo-ving-ap", meaning: "blowing up (geometry)", gender: "das", example: { de: "Aufblasung eines Punktes.", en: "Blowing up a point." } },
+    { word: "die Motiv-Theorie", phonetic: "mo-teef-tay-oh-ree", meaning: "motive theory", gender: "die", example: { de: "Grothendieck-Motiv-Theorie.", en: "Grothendieck motive theory." } },
+    { word: "die Derivierte Kategorie", phonetic: "de-ri-veer-tuh ka-te-go-ree", meaning: "derived category", example: { de: "Beschränkte derivierte Kategorie.", en: "Bounded derived category." } },
+  ]}] },
+};

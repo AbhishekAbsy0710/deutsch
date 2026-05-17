@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega56: Record<string, Lesson> = {
+  "la1_m106": { id: "la1_m106", title: "Senses & Perception A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "sehen", phonetic: "zay-en", meaning: "to see", example: { de: "Ich kann gut sehen.", en: "I can see well." } },
+    { word: "hören", phonetic: "hö-ren", meaning: "to hear", example: { de: "Musik hören.", en: "Listen to music." } },
+    { word: "riechen", phonetic: "ree-khen", meaning: "to smell", example: { de: "Es riecht gut.", en: "It smells good." } },
+    { word: "schmecken", phonetic: "shme-ken", meaning: "to taste", example: { de: "Es schmeckt lecker.", en: "It tastes delicious." } },
+    { word: "fühlen", phonetic: "fü-len", meaning: "to feel / touch", example: { de: "Den Stoff fühlen.", en: "Feel the fabric." } },
+    { word: "berühren", phonetic: "beh-rü-ren", meaning: "to touch", example: { de: "Bitte nicht berühren.", en: "Please don't touch." } },
+    { word: "laut", phonetic: "lowt", meaning: "loud", example: { de: "Die Musik ist laut.", en: "The music is loud." } },
+    { word: "leise", phonetic: "ly-zuh", meaning: "quiet / soft", example: { de: "Bitte leise sprechen.", en: "Please speak quietly." } },
+    { word: "hell", phonetic: "hel", meaning: "bright", example: { de: "Das Zimmer ist hell.", en: "The room is bright." } },
+    { word: "dunkel", phonetic: "doon-kel", meaning: "dark", example: { de: "Es wird dunkel.", en: "It's getting dark." } },
+    { word: "weich", phonetic: "vykh", meaning: "soft", example: { de: "Ein weiches Kissen.", en: "A soft pillow." } },
+    { word: "hart", phonetic: "hart", meaning: "hard", example: { de: "Der Boden ist hart.", en: "The floor is hard." } },
+    { word: "glatt", phonetic: "glat", meaning: "smooth / slippery", example: { de: "Die Straße ist glatt.", en: "The road is slippery." } },
+    { word: "rau", phonetic: "row", meaning: "rough", example: { de: "Eine raue Oberfläche.", en: "A rough surface." } },
+    { word: "scharf", phonetic: "sharf", meaning: "sharp / spicy", example: { de: "Das Essen ist scharf.", en: "The food is spicy." } },
+    { word: "bitter", phonetic: "bi-ter", meaning: "bitter", example: { de: "Bitterer Kaffee.", en: "Bitter coffee." } },
+    { word: "sauer", phonetic: "zow-er", meaning: "sour", example: { de: "Saure Zitronen.", en: "Sour lemons." } },
+    { word: "der Geschmack", phonetic: "geh-shmak", meaning: "taste / flavor", gender: "der", example: { de: "Ein guter Geschmack.", en: "A good taste." } },
+    { word: "der Geruch", phonetic: "geh-rookh", meaning: "smell / scent", gender: "der", example: { de: "Ein angenehmer Geruch.", en: "A pleasant smell." } },
+    { word: "das Geräusch", phonetic: "geh-roysh", meaning: "sound / noise", gender: "das", example: { de: "Ein seltsames Geräusch.", en: "A strange noise." } },
+  ]}] },
+};

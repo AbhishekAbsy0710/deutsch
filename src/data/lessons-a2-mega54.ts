@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega54: Record<string, Lesson> = {
+  "la2_m99": { id: "la2_m99", title: "Legal & Bureaucracy A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Formular", phonetic: "for-moo-lahr", meaning: "form (document)", gender: "das", example: { de: "Ein Formular ausfüllen.", en: "Fill out a form." } },
+    { word: "der Antrag", phonetic: "an-trahg", meaning: "application / request", gender: "der", example: { de: "Einen Antrag stellen.", en: "File an application." } },
+    { word: "die Bescheinigung", phonetic: "beh-shy-ni-gung", meaning: "certificate / attestation", gender: "die", example: { de: "Eine Bescheinigung vorlegen.", en: "Present a certificate." } },
+    { word: "die Urkunde", phonetic: "oor-koon-duh", meaning: "certificate / deed", gender: "die", example: { de: "Die Geburtsurkunde.", en: "The birth certificate." } },
+    { word: "die Vollmacht", phonetic: "fol-makht", meaning: "power of attorney", gender: "die", example: { de: "Eine Vollmacht erteilen.", en: "Grant power of attorney." } },
+    { word: "die Beglaubigung", phonetic: "beh-glow-bi-gung", meaning: "notarization", gender: "die", example: { de: "Beglaubigung der Dokumente.", en: "Notarization of documents." } },
+    { word: "das Standesamt", phonetic: "shtan-des-amt", meaning: "registry office", gender: "das", example: { de: "Im Standesamt heiraten.", en: "Marry at the registry office." } },
+    { word: "die Meldebescheinigung", phonetic: "mel-duh-beh-shy-ni-gung", meaning: "registration certificate", gender: "die", example: { de: "Eine Meldebescheinigung holen.", en: "Get a registration certificate." } },
+    { word: "das Einwohnermeldeamt", phonetic: "ayn-voh-ner-mel-duh-amt", meaning: "residents' registration office", gender: "das", example: { de: "Zum Einwohnermeldeamt gehen.", en: "Go to the registration office." } },
+    { word: "sich anmelden", phonetic: "zikh an-mel-den", meaning: "to register (residence)", example: { de: "Sich bei der Stadt anmelden.", en: "Register with the city." } },
+    { word: "sich abmelden", phonetic: "zikh ap-mel-den", meaning: "to deregister", example: { de: "Sich bei der Stadt abmelden.", en: "Deregister from the city." } },
+    { word: "die Genehmigung", phonetic: "geh-nay-mi-gung", meaning: "permit / approval", gender: "die", example: { de: "Eine Genehmigung beantragen.", en: "Apply for a permit." } },
+    { word: "die Frist", phonetic: "frist", meaning: "deadline / time limit", gender: "die", example: { de: "Die Frist beachten.", en: "Observe the deadline." } },
+    { word: "die Unterschrift", phonetic: "oon-ter-shrift", meaning: "signature", gender: "die", example: { de: "Ihre Unterschrift bitte.", en: "Your signature please." } },
+    { word: "der Stempel", phonetic: "shtem-pel", meaning: "stamp (official)", gender: "der", example: { de: "Einen Stempel bekommen.", en: "Get a stamp." } },
+    { word: "der Notar", phonetic: "no-tahr", meaning: "notary", gender: "der", example: { de: "Zum Notar gehen.", en: "Go to the notary." } },
+    { word: "die Gebühr", phonetic: "geh-bühr", meaning: "fee (official)", gender: "die", example: { de: "Verwaltungsgebühr bezahlen.", en: "Pay the administrative fee." } },
+    { word: "die Behörde", phonetic: "beh-hör-duh", meaning: "authority / office", gender: "die", example: { de: "Bei der Behörde vorsprechen.", en: "Visit the authority." } },
+    { word: "das Bußgeld", phonetic: "boos-gelt", meaning: "fine (penalty)", gender: "das", example: { de: "Ein Bußgeld zahlen.", en: "Pay a fine." } },
+    { word: "die Steuerklärung", phonetic: "shtoy-er-er-klay-rung", meaning: "tax return", gender: "die", example: { de: "Die Steuererklärung abgeben.", en: "Submit the tax return." } },
+  ]}] },
+};

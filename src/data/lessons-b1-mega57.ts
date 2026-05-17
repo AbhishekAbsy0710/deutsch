@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega57: Record<string, Lesson> = {
+  "lb1_m108": { id: "lb1_m108", title: "Economy & Business B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Wirtschaft", phonetic: "virt-shaft", meaning: "economy", gender: "die", example: { de: "Die deutsche Wirtschaft.", en: "The German economy." } },
+    { word: "das Unternehmen", phonetic: "oon-ter-nay-men", meaning: "company / enterprise", gender: "das", example: { de: "Ein großes Unternehmen.", en: "A large company." } },
+    { word: "der Umsatz", phonetic: "oom-zats", meaning: "revenue / turnover", gender: "der", example: { de: "Steigender Umsatz.", en: "Increasing revenue." } },
+    { word: "der Gewinn", phonetic: "geh-vin", meaning: "profit", gender: "der", example: { de: "Einen Gewinn erzielen.", en: "Generate a profit." } },
+    { word: "der Verlust", phonetic: "fer-loost", meaning: "loss", gender: "der", example: { de: "Einen Verlust machen.", en: "Incur a loss." } },
+    { word: "die Aktie", phonetic: "ak-tsee-uh", meaning: "stock / share", gender: "die", example: { de: "Aktien kaufen.", en: "Buy stocks." } },
+    { word: "die Börse", phonetic: "bör-zuh", meaning: "stock exchange", gender: "die", example: { de: "An der Börse handeln.", en: "Trade on the stock exchange." } },
+    { word: "die Investition", phonetic: "in-ves-ti-tsee-ohn", meaning: "investment", gender: "die", example: { de: "Eine gute Investition.", en: "A good investment." } },
+    { word: "die Inflation", phonetic: "in-fla-tsee-ohn", meaning: "inflation", gender: "die", example: { de: "Hohe Inflation.", en: "High inflation." } },
+    { word: "die Rezession", phonetic: "re-tse-see-ohn", meaning: "recession", gender: "die", example: { de: "Eine wirtschaftliche Rezession.", en: "An economic recession." } },
+    { word: "das Bruttoinlandsprodukt", phonetic: "broo-to-in-lants-pro-dookt", meaning: "GDP", gender: "das", example: { de: "Das Bruttoinlandsprodukt wächst.", en: "GDP is growing." } },
+    { word: "die Steuer", phonetic: "shtoy-er", meaning: "tax", gender: "die", example: { de: "Steuern zahlen.", en: "Pay taxes." } },
+    { word: "die Mehrwertsteuer", phonetic: "mayr-vert-shtoy-er", meaning: "value-added tax (VAT)", gender: "die", example: { de: "19% Mehrwertsteuer.", en: "19% VAT." } },
+    { word: "der Markt", phonetic: "markt", meaning: "market", gender: "der", example: { de: "Auf dem Markt.", en: "On the market." } },
+    { word: "der Wettbewerb", phonetic: "vet-beh-verp", meaning: "competition", gender: "der", example: { de: "Freier Wettbewerb.", en: "Free competition." } },
+    { word: "die Nachfrage", phonetic: "nakh-frah-guh", meaning: "demand", gender: "die", example: { de: "Steigende Nachfrage.", en: "Rising demand." } },
+    { word: "das Angebot", phonetic: "an-geh-boht", meaning: "supply / offer", gender: "das", example: { de: "Angebot und Nachfrage.", en: "Supply and demand." } },
+    { word: "der Export", phonetic: "eks-port", meaning: "export", gender: "der", example: { de: "Deutsche Exporte.", en: "German exports." } },
+    { word: "der Import", phonetic: "im-port", meaning: "import", gender: "der", example: { de: "Steigende Importe.", en: "Rising imports." } },
+    { word: "die Globalisierung", phonetic: "glo-ba-li-zee-rung", meaning: "globalization", gender: "die", example: { de: "Auswirkungen der Globalisierung.", en: "Effects of globalization." } },
+  ]}] },
+};

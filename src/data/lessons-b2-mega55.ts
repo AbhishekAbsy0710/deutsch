@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega55: Record<string, Lesson> = {
+  "lb2_m100": { id: "lb2_m100", title: "Materials Science B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Materialwissenschaft", phonetic: "ma-te-ree-ahl-vi-sen-shaft", meaning: "materials science", gender: "die", example: { de: "Interdisziplinäre Materialwissenschaft.", en: "Interdisciplinary materials science." } },
+    { word: "die Kristallographie", phonetic: "kris-ta-lo-gra-fee", meaning: "crystallography", gender: "die", example: { de: "Röntgenkristallographie.", en: "X-ray crystallography." } },
+    { word: "die Legierung", phonetic: "le-gee-rung", meaning: "alloy", gender: "die", example: { de: "Hochfeste Legierung.", en: "High-strength alloy." } },
+    { word: "die Keramik", phonetic: "ke-rah-mik", meaning: "ceramics", gender: "die", example: { de: "Technische Keramik.", en: "Technical ceramics." } },
+    { word: "das Polymer", phonetic: "po-lü-mer", meaning: "polymer", gender: "das", example: { de: "Leitfähiges Polymer.", en: "Conductive polymer." } },
+    { word: "die Materialermüdung", phonetic: "ma-te-ree-ahl-er-mü-dung", meaning: "material fatigue", gender: "die", example: { de: "Zyklische Materialermüdung.", en: "Cyclic material fatigue." } },
+    { word: "die Härteprüfung", phonetic: "her-tuh-prü-fung", meaning: "hardness testing", gender: "die", example: { de: "Vickers-Härteprüfung.", en: "Vickers hardness testing." } },
+    { word: "die Korrosionsbeständigkeit", phonetic: "ko-ro-zee-ohns-beh-shten-dikh-kyte", meaning: "corrosion resistance", gender: "die", example: { de: "Hohe Korrosionsbeständigkeit.", en: "High corrosion resistance." } },
+    { word: "die Mikrostruktur", phonetic: "mee-kro-shtrook-toor", meaning: "microstructure", gender: "die", example: { de: "Metallographische Mikrostruktur.", en: "Metallographic microstructure." } },
+    { word: "die Phasenumwandlung", phonetic: "fah-zen-oom-vand-lung", meaning: "phase transformation", gender: "die", example: { de: "Martensitische Phasenumwandlung.", en: "Martensitic phase transformation." } },
+    { word: "die Zugfestigkeit", phonetic: "tsoog-fes-tikh-kyte", meaning: "tensile strength", gender: "die", example: { de: "Maximale Zugfestigkeit.", en: "Maximum tensile strength." } },
+    { word: "die Duktilität", phonetic: "dook-ti-li-tayt", meaning: "ductility", gender: "die", example: { de: "Hohe Duktilität.", en: "High ductility." } },
+    { word: "die Sprödigkeit", phonetic: "shrö-dikh-kyte", meaning: "brittleness", gender: "die", example: { de: "Temperaturabhängige Sprödigkeit.", en: "Temperature-dependent brittleness." } },
+    { word: "die Halbleitertechnik", phonetic: "halp-ly-ter-tekh-nik", meaning: "semiconductor technology", gender: "die", example: { de: "Silizium-Halbleitertechnik.", en: "Silicon semiconductor technology." } },
+    { word: "die Nanotechnologie", phonetic: "na-no-tekh-no-lo-gee", meaning: "nanotechnology", gender: "die", example: { de: "Medizinische Nanotechnologie.", en: "Medical nanotechnology." } },
+    { word: "der Kohlenstoffnanoröhre", phonetic: "ko-len-shtof-na-no-rö-ruh", meaning: "carbon nanotube", gender: "die", example: { de: "Einwandige Kohlenstoffnanoröhre.", en: "Single-walled carbon nanotube." } },
+    { word: "das Graphen", phonetic: "gra-fayn", meaning: "graphene", gender: "das", example: { de: "Einlagiges Graphen.", en: "Single-layer graphene." } },
+    { word: "die Formgedächtnislegierung", phonetic: "form-geh-dekht-nis-le-gee-rung", meaning: "shape memory alloy", gender: "die", example: { de: "Nickel-Titan-Formgedächtnislegierung.", en: "Nickel-titanium shape memory alloy." } },
+    { word: "die Piezoelektrizität", phonetic: "pee-ay-tso-e-lek-tri-tsi-tayt", meaning: "piezoelectricity", gender: "die", example: { de: "Bleizirkonattitanat-Piezoelektrizität.", en: "Lead zirconate titanate piezoelectricity." } },
+    { word: "die Dünnschichttechnik", phonetic: "dün-shikht-tekh-nik", meaning: "thin-film technology", gender: "die", example: { de: "Vakuum-Dünnschichttechnik.", en: "Vacuum thin-film technology." } },
+  ]}] },
+};
