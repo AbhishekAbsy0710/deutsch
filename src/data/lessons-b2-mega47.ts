@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega47: Record<string, Lesson> = {
+  "lb2_m92": { id: "lb2_m92", title: "Immunology B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Immunologie", phonetic: "i-moo-no-lo-gee", meaning: "immunology", gender: "die", example: { de: "Klinische Immunologie.", en: "Clinical immunology." } },
+    { word: "das Immunsystem", phonetic: "i-moon-züs-taym", meaning: "immune system", gender: "das", example: { de: "Das Immunsystem stärken.", en: "Strengthen the immune system." } },
+    { word: "der Antikörper", phonetic: "an-ti-kör-per", meaning: "antibody", gender: "der", example: { de: "Monoklonale Antikörper.", en: "Monoclonal antibodies." } },
+    { word: "das Antigen", phonetic: "an-ti-gayn", meaning: "antigen", gender: "das", example: { de: "Virales Antigen.", en: "Viral antigen." } },
+    { word: "die T-Zelle", phonetic: "tay-tse-luh", meaning: "T cell", gender: "die", example: { de: "Zytotoxische T-Zelle.", en: "Cytotoxic T cell." } },
+    { word: "die B-Zelle", phonetic: "bay-tse-luh", meaning: "B cell", gender: "die", example: { de: "Aktivierte B-Zelle.", en: "Activated B cell." } },
+    { word: "die Entzündung", phonetic: "ent-tsün-dung", meaning: "inflammation", gender: "die", example: { de: "Chronische Entzündung.", en: "Chronic inflammation." } },
+    { word: "die Autoimmunerkrankung", phonetic: "ow-to-i-moon-er-kran-kung", meaning: "autoimmune disease", gender: "die", example: { de: "Systemische Autoimmunerkrankung.", en: "Systemic autoimmune disease." } },
+    { word: "die Immunreaktion", phonetic: "i-moon-re-ak-tsee-ohn", meaning: "immune response", gender: "die", example: { de: "Angeborene Immunreaktion.", en: "Innate immune response." } },
+    { word: "die Immuntherapie", phonetic: "i-moon-te-ra-pee", meaning: "immunotherapy", gender: "die", example: { de: "Krebs-Immuntherapie.", en: "Cancer immunotherapy." } },
+    { word: "die Impfung", phonetic: "imp-fung", meaning: "vaccination", gender: "die", example: { de: "Schutzimpfung.", en: "Protective vaccination." } },
+    { word: "der Impfstoff", phonetic: "impf-shtof", meaning: "vaccine", gender: "der", example: { de: "mRNA-Impfstoff.", en: "mRNA vaccine." } },
+    { word: "die Allergie", phonetic: "a-ler-gee", meaning: "allergy", gender: "die", example: { de: "Pollenallergie.", en: "Pollen allergy." } },
+    { word: "die Immunsuppression", phonetic: "i-moon-zoo-pre-see-ohn", meaning: "immunosuppression", gender: "die", example: { de: "Medikamentöse Immunsuppression.", en: "Drug immunosuppression." } },
+    { word: "die Zytokinausschüttung", phonetic: "tsü-to-keen-ows-shü-tung", meaning: "cytokine release", gender: "die", example: { de: "Übermäßige Zytokinausschüttung.", en: "Excessive cytokine release." } },
+    { word: "die Immuntoleranz", phonetic: "i-moon-to-le-rants", meaning: "immune tolerance", gender: "die", example: { de: "Periphere Immuntoleranz.", en: "Peripheral immune tolerance." } },
+    { word: "die Lymphknoten", phonetic: "lümf-kno-ten", meaning: "lymph nodes", example: { de: "Geschwollene Lymphknoten.", en: "Swollen lymph nodes." } },
+    { word: "die Phagozytose", phonetic: "fa-go-tsü-toh-zuh", meaning: "phagocytosis", gender: "die", example: { de: "Makrophagen-Phagozytose.", en: "Macrophage phagocytosis." } },
+    { word: "die Komplementaktivierung", phonetic: "kom-ple-ment-ak-ti-vee-rung", meaning: "complement activation", gender: "die", example: { de: "Klassische Komplementaktivierung.", en: "Classical complement activation." } },
+    { word: "die Immundefizenz", phonetic: "i-moon-de-fi-tsents", meaning: "immunodeficiency", gender: "die", example: { de: "Primäre Immundefizenz.", en: "Primary immunodeficiency." } },
+  ]}] },
+};

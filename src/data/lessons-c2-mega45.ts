@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega45: Record<string, Lesson> = {
+  "lc2_m88": { id: "lc2_m88", title: "Advanced Cryogenics C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Kryotechnik", phonetic: "krü-oh-tekh-nik", meaning: "cryogenics", gender: "die", example: { de: "Industrielle Kryotechnik.", en: "Industrial cryogenics." } },
+    { word: "die Tieftemperaturphysik", phonetic: "teef-tem-pe-ra-toor-fü-zik", meaning: "low-temperature physics", gender: "die", example: { de: "Experimentelle Tieftemperaturphysik.", en: "Experimental low-temperature physics." } },
+    { word: "die Suprafluidität", phonetic: "zoo-pra-floo-i-di-tayt", meaning: "superfluidity", gender: "die", example: { de: "Helium-Suprafluidität.", en: "Helium superfluidity." } },
+    { word: "die Supraleitung", phonetic: "zoo-pra-ly-tung", meaning: "superconductivity", gender: "die", example: { de: "Hochtemperatur-Supraleitung.", en: "High-temperature superconductivity." } },
+    { word: "die Verflüssigung", phonetic: "fer-flü-si-gung", meaning: "liquefaction", gender: "die", example: { de: "Gasverflüssigung.", en: "Gas liquefaction." } },
+    { word: "die Kryokonservierung", phonetic: "krü-oh-kon-zer-vee-rung", meaning: "cryopreservation", gender: "die", example: { de: "Zellkryokonservierung.", en: "Cell cryopreservation." } },
+    { word: "die Kryochirurgie", phonetic: "krü-oh-khi-roor-gee", meaning: "cryosurgery", gender: "die", example: { de: "Tumorablative Kryochirurgie.", en: "Tumor-ablative cryosurgery." } },
+    { word: "die Kryoelektronenmikroskopie", phonetic: "krü-oh-e-lek-tro-nen-mi-kro-sko-pee", meaning: "cryo-electron microscopy", gender: "die", example: { de: "Einzelpartikel-Kryoelektronenmikroskopie.", en: "Single-particle cryo-EM." } },
+    { word: "die Dewar-Gefäß", phonetic: "deh-var-ge-feys", meaning: "Dewar flask", gender: "das", example: { de: "Flüssigstickstoff-Dewar-Gefäß.", en: "Liquid nitrogen Dewar flask." } },
+    { word: "die Kryostatik", phonetic: "krü-oh-shtah-tik", meaning: "cryostatics", gender: "die", example: { de: "Magnetkryostatik.", en: "Magnet cryostatics." } },
+    { word: "die Kältemittel", phonetic: "kel-tuh-mi-tel", meaning: "refrigerant / cryogen", gender: "das", example: { de: "Natürliche Kältemittel.", en: "Natural refrigerants." } },
+    { word: "die Kryopumpe", phonetic: "krü-oh-poom-puh", meaning: "cryopump", gender: "die", example: { de: "Ultrahochvakuum-Kryopumpe.", en: "Ultra-high vacuum cryopump." } },
+    { word: "die Bose-Einstein-Kondensation", phonetic: "boh-zuh-ayn-shtyne-kon-den-za-tsee-ohn", meaning: "Bose-Einstein condensation", gender: "die", example: { de: "Atomare Bose-Einstein-Kondensation.", en: "Atomic Bose-Einstein condensation." } },
+    { word: "die Kryobiologie", phonetic: "krü-oh-bee-oh-lo-gee", meaning: "cryobiology", gender: "die", example: { de: "Medizinische Kryobiologie.", en: "Medical cryobiology." } },
+    { word: "die Tiefkühlung", phonetic: "teef-kü-lung", meaning: "deep freezing", gender: "die", example: { de: "Industrielle Tiefkühlung.", en: "Industrial deep freezing." } },
+    { word: "die Joule-Thomson-Effekt", phonetic: "dzhool-tom-son-e-fekt", meaning: "Joule-Thomson effect", gender: "der", example: { de: "Isenthalpischer Joule-Thomson-Effekt.", en: "Isenthalpic Joule-Thomson effect." } },
+    { word: "die Kryonik", phonetic: "krü-oh-nik", meaning: "cryonics", gender: "die", example: { de: "Humane Kryonik.", en: "Human cryonics." } },
+    { word: "die Vitrifikation", phonetic: "vi-tri-fi-ka-tsee-ohn", meaning: "vitrification", gender: "die", example: { de: "Eizell-Vitrifikation.", en: "Oocyte vitrification." } },
+    { word: "die Kryoprotektion", phonetic: "krü-oh-pro-tek-tsee-ohn", meaning: "cryoprotection", gender: "die", example: { de: "Glycerol-Kryoprotektion.", en: "Glycerol cryoprotection." } },
+    { word: "die Mössbauer-Kryospektroskopie", phonetic: "mös-bow-er-krü-oh-shpek-tro-sko-pee", meaning: "Mössbauer cryospectroscopy", gender: "die", example: { de: "Eisenhaltige Mössbauer-Kryospektroskopie.", en: "Iron Mössbauer cryospectroscopy." } },
+  ]}] },
+};

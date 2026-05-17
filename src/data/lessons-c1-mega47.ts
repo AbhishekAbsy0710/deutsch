@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega47: Record<string, Lesson> = {
+  "lc1_m93": { id: "lc1_m93", title: "Advanced Semiotics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Semiotik", phonetic: "ze-mee-oh-tik", meaning: "semiotics", gender: "die", example: { de: "Kulturelle Semiotik.", en: "Cultural semiotics." } },
+    { word: "das Zeichen", phonetic: "tsy-khen", meaning: "sign (semiotic)", gender: "das", example: { de: "Sprachliches Zeichen.", en: "Linguistic sign." } },
+    { word: "der Signifikant", phonetic: "zig-ni-fi-kant", meaning: "signifier", gender: "der", example: { de: "Akustischer Signifikant.", en: "Acoustic signifier." } },
+    { word: "das Signifikat", phonetic: "zig-ni-fi-kaht", meaning: "signified", gender: "das", example: { de: "Mentales Signifikat.", en: "Mental signified." } },
+    { word: "die Ikonizität", phonetic: "i-ko-ni-tsi-tayt", meaning: "iconicity", gender: "die", example: { de: "Sprachliche Ikonizität.", en: "Linguistic iconicity." } },
+    { word: "die Indexikalität", phonetic: "in-dek-si-ka-li-tayt", meaning: "indexicality", gender: "die", example: { de: "Deiktische Indexikalität.", en: "Deictic indexicality." } },
+    { word: "die Arbitrarität", phonetic: "ar-bi-tra-ri-tayt", meaning: "arbitrariness", gender: "die", example: { de: "Saussuresche Arbitrarität.", en: "Saussurean arbitrariness." } },
+    { word: "die Konnotation", phonetic: "ko-no-ta-tsee-ohn", meaning: "connotation", gender: "die", example: { de: "Kulturelle Konnotation.", en: "Cultural connotation." } },
+    { word: "die Denotation", phonetic: "de-no-ta-tsee-ohn", meaning: "denotation", gender: "die", example: { de: "Wörtliche Denotation.", en: "Literal denotation." } },
+    { word: "die Semiosphäre", phonetic: "ze-mee-oh-sfay-ruh", meaning: "semiosphere", gender: "die", example: { de: "Lotmans Semiosphäre.", en: "Lotman's semiosphere." } },
+    { word: "die Zeichentheorie", phonetic: "tsy-khen-tay-oh-ree", meaning: "sign theory", gender: "die", example: { de: "Peircsche Zeichentheorie.", en: "Peircean sign theory." } },
+    { word: "die Pragmatik", phonetic: "prag-mah-tik", meaning: "pragmatics", gender: "die", example: { de: "Linguistische Pragmatik.", en: "Linguistic pragmatics." } },
+    { word: "die Semantik", phonetic: "ze-man-tik", meaning: "semantics", gender: "die", example: { de: "Lexikalische Semantik.", en: "Lexical semantics." } },
+    { word: "die Syntaktik", phonetic: "zün-tak-tik", meaning: "syntactics (semiotic)", gender: "die", example: { de: "Formale Syntaktik.", en: "Formal syntactics." } },
+    { word: "die Bildersemiotik", phonetic: "bil-der-ze-mee-oh-tik", meaning: "visual semiotics", gender: "die", example: { de: "Werbliche Bildersemiotik.", en: "Advertising visual semiotics." } },
+    { word: "die Narratologie", phonetic: "na-ra-to-lo-gee", meaning: "narratology", gender: "die", example: { de: "Strukturalistische Narratologie.", en: "Structuralist narratology." } },
+    { word: "die Intertextualität", phonetic: "in-ter-teks-too-a-li-tayt", meaning: "intertextuality", gender: "die", example: { de: "Kristevas Intertextualität.", en: "Kristeva's intertextuality." } },
+    { word: "die Diskursanalyse", phonetic: "dis-koors-a-na-lü-zuh", meaning: "discourse analysis", gender: "die", example: { de: "Kritische Diskursanalyse.", en: "Critical discourse analysis." } },
+    { word: "die Mythenanalyse", phonetic: "mü-ten-a-na-lü-zuh", meaning: "myth analysis", gender: "die", example: { de: "Barthessche Mythenanalyse.", en: "Barthesian myth analysis." } },
+    { word: "die Multimodalität", phonetic: "mul-ti-mo-da-li-tayt", meaning: "multimodality", gender: "die", example: { de: "Kommunikative Multimodalität.", en: "Communicative multimodality." } },
+  ]}] },
+};

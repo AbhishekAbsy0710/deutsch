@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega49: Record<string, Lesson> = {
+  "lb1_m100": { id: "lb1_m100", title: "Media & Communication B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Nachrichten", phonetic: "nakh-rikh-ten", meaning: "news", example: { de: "Nachrichten schauen.", en: "Watch the news." } },
+    { word: "die Zeitung", phonetic: "tsy-tung", meaning: "newspaper", gender: "die", example: { de: "Die Zeitung lesen.", en: "Read the newspaper." } },
+    { word: "die Zeitschrift", phonetic: "tsyte-shrift", meaning: "magazine", gender: "die", example: { de: "Eine Modezeitschrift.", en: "A fashion magazine." } },
+    { word: "der Bericht", phonetic: "beh-rikht", meaning: "report", gender: "der", example: { de: "Einen Bericht schreiben.", en: "Write a report." } },
+    { word: "die Schlagzeile", phonetic: "shlahg-tsy-luh", meaning: "headline", gender: "die", example: { de: "Die Schlagzeile lesen.", en: "Read the headline." } },
+    { word: "die Sendung", phonetic: "zen-dung", meaning: "broadcast / show", gender: "die", example: { de: "Eine TV-Sendung.", en: "A TV show." } },
+    { word: "der Sender", phonetic: "zen-der", meaning: "channel / broadcaster", gender: "der", example: { de: "Ein öffentlicher Sender.", en: "A public broadcaster." } },
+    { word: "die Werbung", phonetic: "ver-bung", meaning: "advertising / commercial", gender: "die", example: { de: "Werbung im Fernsehen.", en: "Ads on TV." } },
+    { word: "die Meinungsfreiheit", phonetic: "my-nungs-fry-hyte", meaning: "freedom of opinion", gender: "die", example: { de: "Meinungsfreiheit schützen.", en: "Protect freedom of opinion." } },
+    { word: "die Pressefreiheit", phonetic: "pre-suh-fry-hyte", meaning: "press freedom", gender: "die", example: { de: "Pressefreiheit verteidigen.", en: "Defend press freedom." } },
+    { word: "der Podcast", phonetic: "pod-kast", meaning: "podcast", gender: "der", example: { de: "Einen Podcast hören.", en: "Listen to a podcast." } },
+    { word: "der Livestream", phonetic: "lyf-streem", meaning: "livestream", gender: "der", example: { de: "Einen Livestream starten.", en: "Start a livestream." } },
+    { word: "die Recherche", phonetic: "re-sher-shuh", meaning: "research (journalistic)", gender: "die", example: { de: "Investigative Recherche.", en: "Investigative research." } },
+    { word: "die Quelle", phonetic: "kve-luh", meaning: "source", gender: "die", example: { de: "Eine zuverlässige Quelle.", en: "A reliable source." } },
+    { word: "die Meldung", phonetic: "mel-dung", meaning: "news item / report", gender: "die", example: { de: "Eine Eilmeldung.", en: "Breaking news." } },
+    { word: "die Desinformation", phonetic: "des-in-for-ma-tsee-ohn", meaning: "disinformation", gender: "die", example: { de: "Desinformation bekämpfen.", en: "Combat disinformation." } },
+    { word: "die Medienlandschaft", phonetic: "may-dee-en-lant-shaft", meaning: "media landscape", gender: "die", example: { de: "Deutsche Medienlandschaft.", en: "German media landscape." } },
+    { word: "der Kommentar", phonetic: "ko-men-tar", meaning: "commentary", gender: "der", example: { de: "Einen Kommentar schreiben.", en: "Write a commentary." } },
+    { word: "die Redaktion", phonetic: "re-dak-tsee-ohn", meaning: "editorial department", gender: "die", example: { de: "In der Redaktion arbeiten.", en: "Work in the editorial department." } },
+    { word: "die Auflage", phonetic: "owf-lah-guh", meaning: "circulation / edition", gender: "die", example: { de: "Hohe Auflage.", en: "High circulation." } },
+  ]}] },
+};

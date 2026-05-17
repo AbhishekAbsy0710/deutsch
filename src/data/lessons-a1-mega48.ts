@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega48: Record<string, Lesson> = {
+  "la1_m98": { id: "la1_m98", title: "Professions & Jobs A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "der Ingenieur", phonetic: "in-zhe-nyör", meaning: "engineer", gender: "der", example: { de: "Er ist Ingenieur.", en: "He is an engineer." } },
+    { word: "der Mechaniker", phonetic: "me-kha-ni-ker", meaning: "mechanic", gender: "der", example: { de: "Der Mechaniker repariert Autos.", en: "The mechanic repairs cars." } },
+    { word: "der Elektriker", phonetic: "e-lek-tri-ker", meaning: "electrician", gender: "der", example: { de: "Den Elektriker rufen.", en: "Call the electrician." } },
+    { word: "der Friseur", phonetic: "fri-zör", meaning: "hairdresser (m)", gender: "der", example: { de: "Zum Friseur gehen.", en: "Go to the hairdresser." } },
+    { word: "die Friseurin", phonetic: "fri-zö-rin", meaning: "hairdresser (f)", gender: "die", example: { de: "Die Friseurin schneidet Haare.", en: "The hairdresser cuts hair." } },
+    { word: "der Maler", phonetic: "mah-ler", meaning: "painter", gender: "der", example: { de: "Der Maler streicht die Wand.", en: "The painter paints the wall." } },
+    { word: "der Gärtner", phonetic: "gert-ner", meaning: "gardener", gender: "der", example: { de: "Der Gärtner pflegt den Garten.", en: "The gardener tends the garden." } },
+    { word: "der Pilot", phonetic: "pi-loht", meaning: "pilot", gender: "der", example: { de: "Der Pilot fliegt das Flugzeug.", en: "The pilot flies the plane." } },
+    { word: "der Journalist", phonetic: "zhoor-na-list", meaning: "journalist", gender: "der", example: { de: "Der Journalist schreibt Artikel.", en: "The journalist writes articles." } },
+    { word: "der Fotograf", phonetic: "fo-to-graf", meaning: "photographer", gender: "der", example: { de: "Ein professioneller Fotograf.", en: "A professional photographer." } },
+    { word: "der Architekt", phonetic: "ar-khi-tekt", meaning: "architect", gender: "der", example: { de: "Der Architekt plant Häuser.", en: "The architect plans houses." } },
+    { word: "der Anwalt", phonetic: "an-valt", meaning: "lawyer", gender: "der", example: { de: "Einen Anwalt brauchen.", en: "Need a lawyer." } },
+    { word: "der Wissenschaftler", phonetic: "vi-sen-shaft-ler", meaning: "scientist", gender: "der", example: { de: "Ein Wissenschaftler forscht.", en: "A scientist does research." } },
+    { word: "der Bäcker", phonetic: "be-ker", meaning: "baker", gender: "der", example: { de: "Der Bäcker backt Brot.", en: "The baker bakes bread." } },
+    { word: "der Koch", phonetic: "kokh", meaning: "chef / cook", gender: "der", example: { de: "Der Koch kocht gut.", en: "The chef cooks well." } },
+    { word: "der Fahrer", phonetic: "fah-rer", meaning: "driver", gender: "der", example: { de: "Ein Busfahrer.", en: "A bus driver." } },
+    { word: "der Verkäufer", phonetic: "fer-koy-fer", meaning: "salesperson (m)", gender: "der", example: { de: "Der Verkäufer hilft.", en: "The salesperson helps." } },
+    { word: "die Verkäuferin", phonetic: "fer-koy-fe-rin", meaning: "salesperson (f)", gender: "die", example: { de: "Die Verkäuferin berät.", en: "The salesperson advises." } },
+    { word: "der Beamte", phonetic: "beh-am-tuh", meaning: "civil servant", gender: "der", example: { de: "Ein Beamter beim Amt.", en: "A civil servant at the office." } },
+    { word: "der Rentner", phonetic: "rent-ner", meaning: "retiree / pensioner", gender: "der", example: { de: "Mein Opa ist Rentner.", en: "My grandpa is retired." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega46: Record<string, Lesson> = {
+  "la2_m91": { id: "la2_m91", title: "Culture & Traditions A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Tradition", phonetic: "tra-di-tsee-ohn", meaning: "tradition", gender: "die", example: { de: "Eine alte Tradition.", en: "An old tradition." } },
+    { word: "der Brauch", phonetic: "browkh", meaning: "custom", gender: "der", example: { de: "Ein alter Brauch.", en: "An old custom." } },
+    { word: "das Fest", phonetic: "fest", meaning: "festival / celebration", gender: "das", example: { de: "Ein großes Fest.", en: "A big celebration." } },
+    { word: "der Karneval", phonetic: "kar-ne-vahl", meaning: "carnival", gender: "der", example: { de: "Karneval in Köln.", en: "Carnival in Cologne." } },
+    { word: "das Oktoberfest", phonetic: "ok-toh-ber-fest", meaning: "Oktoberfest", gender: "das", example: { de: "Das Münchner Oktoberfest.", en: "The Munich Oktoberfest." } },
+    { word: "der Weihnachtsmarkt", phonetic: "vy-nakhts-markt", meaning: "Christmas market", gender: "der", example: { de: "Auf den Weihnachtsmarkt gehen.", en: "Go to the Christmas market." } },
+    { word: "der Adventskranz", phonetic: "at-vents-krants", meaning: "Advent wreath", gender: "der", example: { de: "Einen Adventskranz basteln.", en: "Make an Advent wreath." } },
+    { word: "der Nikolaustag", phonetic: "ni-ko-lows-tahg", meaning: "St. Nicholas Day", gender: "der", example: { de: "Am 6. Dezember ist Nikolaustag.", en: "December 6th is St. Nicholas Day." } },
+    { word: "die Tracht", phonetic: "trakht", meaning: "traditional costume", gender: "die", example: { de: "Bayerische Tracht.", en: "Bavarian traditional costume." } },
+    { word: "das Dirndl", phonetic: "dirn-dl", meaning: "dirndl (dress)", gender: "das", example: { de: "Ein Dirndl tragen.", en: "Wear a dirndl." } },
+    { word: "die Lederhose", phonetic: "lay-der-hoh-zuh", meaning: "lederhosen", gender: "die", example: { de: "Lederhosen anziehen.", en: "Put on lederhosen." } },
+    { word: "der Fasching", phonetic: "fa-shing", meaning: "carnival (south German)", gender: "der", example: { de: "Fasching feiern.", en: "Celebrate carnival." } },
+    { word: "die Fastenzeit", phonetic: "fas-ten-tsyte", meaning: "Lent", gender: "die", example: { de: "In der Fastenzeit.", en: "During Lent." } },
+    { word: "der Maibaum", phonetic: "my-bowm", meaning: "maypole", gender: "der", example: { de: "Den Maibaum aufstellen.", en: "Set up the maypole." } },
+    { word: "das Erntedankfest", phonetic: "ern-tuh-dank-fest", meaning: "harvest festival", gender: "das", example: { de: "Erntedankfest feiern.", en: "Celebrate harvest festival." } },
+    { word: "der Rosenmontag", phonetic: "roh-zen-mohn-tahg", meaning: "Rose Monday", gender: "der", example: { de: "Umzug am Rosenmontag.", en: "Parade on Rose Monday." } },
+    { word: "die Kostüm", phonetic: "kos-tüm", meaning: "costume (carnival)", gender: "das", example: { de: "Ein Kostüm tragen.", en: "Wear a costume." } },
+    { word: "die Volksmusik", phonetic: "folks-moo-zik", meaning: "folk music", gender: "die", example: { de: "Bayerische Volksmusik.", en: "Bavarian folk music." } },
+    { word: "die Gemütlichkeit", phonetic: "geh-müt-likh-kyte", meaning: "coziness / conviviality", gender: "die", example: { de: "Deutsche Gemütlichkeit.", en: "German coziness." } },
+    { word: "der Stammtisch", phonetic: "shtam-tish", meaning: "regulars' table", gender: "der", example: { de: "Am Stammtisch sitzen.", en: "Sit at the regulars' table." } },
+  ]}] },
+};
