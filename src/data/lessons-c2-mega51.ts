@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega51: Record<string, Lesson> = {
+  "lc2_m94": { id: "lc2_m94", title: "Advanced Superconductivity C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Supraleitung", phonetic: "zoo-pra-ly-tung", meaning: "superconductivity", gender: "die", example: { de: "Hochtemperatur-Supraleitung.", en: "High-temperature superconductivity." } },
+    { word: "die Cooper-Paare", phonetic: "koo-per-pah-ruh", meaning: "Cooper pairs", example: { de: "Phononenvermittelte Cooper-Paare.", en: "Phonon-mediated Cooper pairs." } },
+    { word: "die BCS-Theorie", phonetic: "bay-tsay-es-tay-oh-ree", meaning: "BCS theory", gender: "die", example: { de: "Bardeen-Cooper-Schrieffer-Theorie.", en: "Bardeen-Cooper-Schrieffer theory." } },
+    { word: "der Meissner-Effekt", phonetic: "mys-ner-e-fekt", meaning: "Meissner effect", gender: "der", example: { de: "Magnetischer Meissner-Effekt.", en: "Magnetic Meissner effect." } },
+    { word: "die Sprungtemperatur", phonetic: "shprung-tem-pe-ra-toor", meaning: "critical temperature", gender: "die", example: { de: "Hohe Sprungtemperatur.", en: "High critical temperature." } },
+    { word: "die Fluxschlauch", phonetic: "fluks-shlowkh", meaning: "flux tube / vortex", gender: "der", example: { de: "Abrikosov-Fluxschlauch.", en: "Abrikosov flux tube." } },
+    { word: "die Josephson-Kontakt", phonetic: "yo-sef-son-kon-takt", meaning: "Josephson junction", gender: "der", example: { de: "Tunnelnder Josephson-Kontakt.", en: "Tunneling Josephson junction." } },
+    { word: "die Magnetische Levitation", phonetic: "mag-nay-ti-shuh le-vi-ta-tsee-ohn", meaning: "magnetic levitation", example: { de: "Supraleitende magnetische Levitation.", en: "Superconducting magnetic levitation." } },
+    { word: "die Ginzburg-Landau-Theorie", phonetic: "gins-burg-lan-dow-tay-oh-ree", meaning: "Ginzburg-Landau theory", gender: "die", example: { de: "Phänomenologische Ginzburg-Landau-Theorie.", en: "Phenomenological Ginzburg-Landau theory." } },
+    { word: "die Cuprat-Supraleiter", phonetic: "koo-praht-zoo-pra-ly-ter", meaning: "cuprate superconductors", example: { de: "Perowskit-Cuprat-Supraleiter.", en: "Perovskite cuprate superconductors." } },
+    { word: "die Typ-II-Supraleiter", phonetic: "tüp-tsvay-zoo-pra-ly-ter", meaning: "type-II superconductors", example: { de: "Gemischter Zustand Typ-II-Supraleiter.", en: "Mixed state type-II superconductors." } },
+    { word: "die Energielücke", phonetic: "e-ner-gee-lü-kuh", meaning: "energy gap (superconductor)", gender: "die", example: { de: "Supraleitende Energielücke.", en: "Superconducting energy gap." } },
+    { word: "die Quanteninterferenz", phonetic: "kvan-ten-in-ter-fe-rents", meaning: "quantum interference", gender: "die", example: { de: "Makroskopische Quanteninterferenz.", en: "Macroscopic quantum interference." } },
+    { word: "das SQUID", phonetic: "skwid", meaning: "SQUID (detector)", gender: "das", example: { de: "Supraleitendes SQUID.", en: "Superconducting SQUID." } },
+    { word: "die Raumtemperatur-Supraleitung", phonetic: "rowm-tem-pe-ra-toor-zoo-pra-ly-tung", meaning: "room-temperature superconductivity", gender: "die", example: { de: "Hypothetische Raumtemperatur-Supraleitung.", en: "Hypothetical room-temperature superconductivity." } },
+    { word: "die Eisenpniktid-Supraleiter", phonetic: "ay-zen-pnik-teet-zoo-pra-ly-ter", meaning: "iron pnictide superconductors", example: { de: "LaFeAsO-Eisenpniktid-Supraleiter.", en: "LaFeAsO iron pnictide superconductors." } },
+    { word: "die Paarungssymmetrie", phonetic: "pah-rungs-zü-me-tree", meaning: "pairing symmetry", gender: "die", example: { de: "D-Wellen-Paarungssymmetrie.", en: "D-wave pairing symmetry." } },
+    { word: "die Tunnelspektroskopie", phonetic: "too-nel-spek-tro-sko-pee", meaning: "tunnel spectroscopy", gender: "die", example: { de: "Supraleitende Tunnelspektroskopie.", en: "Superconducting tunnel spectroscopy." } },
+    { word: "die Kritische Stromdichte", phonetic: "kri-ti-shuh shtrohm-dikh-tuh", meaning: "critical current density", example: { de: "Maximale kritische Stromdichte.", en: "Maximum critical current density." } },
+    { word: "die Fluxpinning", phonetic: "fluks-pi-ning", meaning: "flux pinning", gender: "das", example: { de: "Starkes Fluxpinning.", en: "Strong flux pinning." } },
+  ]}] },
+};

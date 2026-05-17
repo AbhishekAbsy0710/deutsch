@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega53: Record<string, Lesson> = {
+  "lc1_m99": { id: "lc1_m99", title: "Advanced Behavioral Economics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Verhaltensökonomik", phonetic: "fer-hal-tens-ö-ko-noh-mik", meaning: "behavioral economics", gender: "die", example: { de: "Experimentelle Verhaltensökonomik.", en: "Experimental behavioral economics." } },
+    { word: "die Prospect-Theorie", phonetic: "pros-pekt-tay-oh-ree", meaning: "prospect theory", gender: "die", example: { de: "Kahneman-Tversky Prospect-Theorie.", en: "Kahneman-Tversky prospect theory." } },
+    { word: "die Verlustaversion", phonetic: "fer-loost-a-ver-zee-ohn", meaning: "loss aversion", gender: "die", example: { de: "Asymmetrische Verlustaversion.", en: "Asymmetric loss aversion." } },
+    { word: "die Ankerheuristik", phonetic: "an-ker-hoy-ris-tik", meaning: "anchoring heuristic", gender: "die", example: { de: "Preisbasierte Ankerheuristik.", en: "Price-based anchoring heuristic." } },
+    { word: "die Verfügbarkeitsheuristik", phonetic: "fer-füg-bar-kyts-hoy-ris-tik", meaning: "availability heuristic", gender: "die", example: { de: "Mediengetriebene Verfügbarkeitsheuristik.", en: "Media-driven availability heuristic." } },
+    { word: "der Bestätigungsfehler", phonetic: "beh-shtay-ti-gungs-fay-ler", meaning: "confirmation bias", gender: "der", example: { de: "Kognitiver Bestätigungsfehler.", en: "Cognitive confirmation bias." } },
+    { word: "der Nudge", phonetic: "noodj", meaning: "nudge", gender: "der", example: { de: "Libertärer Paternalismus-Nudge.", en: "Libertarian paternalism nudge." } },
+    { word: "die Entscheidungsarchitektur", phonetic: "ent-shy-dungs-ar-khi-tek-toor", meaning: "choice architecture", gender: "die", example: { de: "Optimale Entscheidungsarchitektur.", en: "Optimal choice architecture." } },
+    { word: "die Begrenzte Rationalität", phonetic: "beh-grents-tuh ra-tsee-oh-na-li-tayt", meaning: "bounded rationality", example: { de: "Simons begrenzte Rationalität.", en: "Simon's bounded rationality." } },
+    { word: "die Zeitpräferenz", phonetic: "tsyte-pray-fe-rents", meaning: "time preference", gender: "die", example: { de: "Hyperbolische Zeitpräferenz.", en: "Hyperbolic time preference." } },
+    { word: "der Endowment-Effekt", phonetic: "en-dow-ment-e-fekt", meaning: "endowment effect", gender: "der", example: { de: "Besitztumseffekt.", en: "Endowment effect." } },
+    { word: "die Framing-Effekt", phonetic: "fray-ming-e-fekt", meaning: "framing effect", gender: "der", example: { de: "Positiver Framing-Effekt.", en: "Positive framing effect." } },
+    { word: "die Mentale Buchhaltung", phonetic: "men-tah-luh bookh-hal-tung", meaning: "mental accounting", example: { de: "Thalers mentale Buchhaltung.", en: "Thaler's mental accounting." } },
+    { word: "die Überkonfidenz", phonetic: "ü-ber-kon-fi-dents", meaning: "overconfidence", gender: "die", example: { de: "Unternehmerische Überkonfidenz.", en: "Entrepreneurial overconfidence." } },
+    { word: "der Herdeneffekt", phonetic: "her-den-e-fekt", meaning: "herd effect", gender: "der", example: { de: "Finanzmarkt-Herdeneffekt.", en: "Financial market herd effect." } },
+    { word: "die Spielerfehlschluss", phonetic: "shpee-ler-fayl-shloos", meaning: "gambler's fallacy", gender: "der", example: { de: "Monte-Carlo-Spielerfehlschluss.", en: "Monte Carlo gambler's fallacy." } },
+    { word: "die Kognitive Verzerrung", phonetic: "kog-ni-tee-vuh fer-tse-rung", meaning: "cognitive bias", example: { de: "Systematische kognitive Verzerrung.", en: "Systematic cognitive bias." } },
+    { word: "der Sunk-Cost-Effekt", phonetic: "sank-kost-e-fekt", meaning: "sunk cost fallacy", gender: "der", example: { de: "Concorde-Sunk-Cost-Effekt.", en: "Concorde sunk cost effect." } },
+    { word: "die Wahlparadox", phonetic: "vahl-pa-ra-doks", meaning: "choice paradox", gender: "das", example: { de: "Schwartz-Wahlparadox.", en: "Schwartz choice paradox." } },
+    { word: "die Satisfizierung", phonetic: "za-tis-fi-tsee-rung", meaning: "satisficing", gender: "die", example: { de: "Adaptive Satisfizierung.", en: "Adaptive satisficing." } },
+  ]}] },
+};

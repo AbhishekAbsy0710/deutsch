@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega53: Record<string, Lesson> = {
+  "lb2_m98": { id: "lb2_m98", title: "Forensic Science B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Forensik", phonetic: "fo-ren-zik", meaning: "forensic science", gender: "die", example: { de: "Digitale Forensik.", en: "Digital forensics." } },
+    { word: "die Spurensicherung", phonetic: "shpoo-ren-zi-khe-rung", meaning: "crime scene investigation", gender: "die", example: { de: "Die Spurensicherung am Tatort.", en: "CSI at the crime scene." } },
+    { word: "die DNA-Analyse", phonetic: "day-en-ah-a-na-lü-zuh", meaning: "DNA analysis", gender: "die", example: { de: "Forensische DNA-Analyse.", en: "Forensic DNA analysis." } },
+    { word: "der Fingerabdruck", phonetic: "fin-ger-ap-drook", meaning: "fingerprint", gender: "der", example: { de: "Einen Fingerabdruck sichern.", en: "Secure a fingerprint." } },
+    { word: "die Ballistik", phonetic: "ba-lis-tik", meaning: "ballistics", gender: "die", example: { de: "Forensische Ballistik.", en: "Forensic ballistics." } },
+    { word: "die Rechtsmedizin", phonetic: "rekhts-me-di-tseen", meaning: "forensic medicine", gender: "die", example: { de: "Institut für Rechtsmedizin.", en: "Institute for forensic medicine." } },
+    { word: "die Obduktion", phonetic: "op-dook-tsee-ohn", meaning: "autopsy", gender: "die", example: { de: "Eine Obduktion durchführen.", en: "Perform an autopsy." } },
+    { word: "die Toxikologische Untersuchung", phonetic: "tok-si-ko-lo-gi-shuh oon-ter-zoo-khung", meaning: "toxicological examination", example: { de: "Postmortale toxikologische Untersuchung.", en: "Postmortem toxicological examination." } },
+    { word: "die Blutspritzeranalyse", phonetic: "bloot-shpri-tser-a-na-lü-zuh", meaning: "blood spatter analysis", gender: "die", example: { de: "Forensische Blutspritzeranalyse.", en: "Forensic blood spatter analysis." } },
+    { word: "die Dokumentenprüfung", phonetic: "do-koo-men-ten-prü-fung", meaning: "document examination", gender: "die", example: { de: "Forensische Dokumentenprüfung.", en: "Forensic document examination." } },
+    { word: "die Gerichtsmedizin", phonetic: "geh-rikhts-me-di-tseen", meaning: "legal medicine", gender: "die", example: { de: "Abteilung Gerichtsmedizin.", en: "Department of legal medicine." } },
+    { word: "die Beweismittel", phonetic: "beh-vys-mi-tel", meaning: "evidence", example: { de: "Beweismittel sammeln.", en: "Collect evidence." } },
+    { word: "die Tatortrekonstruktion", phonetic: "taht-ort-re-kon-shtrook-tsee-ohn", meaning: "crime scene reconstruction", gender: "die", example: { de: "3D-Tatortrekonstruktion.", en: "3D crime scene reconstruction." } },
+    { word: "die Daktyloskopie", phonetic: "dak-tü-lo-sko-pee", meaning: "dactyloscopy", gender: "die", example: { de: "Automatisierte Daktyloskopie.", en: "Automated dactyloscopy." } },
+    { word: "die Faseranalyse", phonetic: "fah-zer-a-na-lü-zuh", meaning: "fiber analysis", gender: "die", example: { de: "Mikroskopische Faseranalyse.", en: "Microscopic fiber analysis." } },
+    { word: "die Gesichtsrekonstruktion", phonetic: "geh-zikhts-re-kon-shtrook-tsee-ohn", meaning: "facial reconstruction", gender: "die", example: { de: "Forensische Gesichtsrekonstruktion.", en: "Forensic facial reconstruction." } },
+    { word: "die Entomologie", phonetic: "en-to-mo-lo-gee", meaning: "entomology (forensic)", gender: "die", example: { de: "Forensische Entomologie.", en: "Forensic entomology." } },
+    { word: "die Odontologie", phonetic: "o-don-to-lo-gee", meaning: "odontology", gender: "die", example: { de: "Forensische Odontologie.", en: "Forensic odontology." } },
+    { word: "die Mikrospur", phonetic: "mee-kro-shpoor", meaning: "trace evidence", gender: "die", example: { de: "Lokard-Mikrospur.", en: "Locard trace evidence." } },
+    { word: "die Profilierung", phonetic: "pro-fi-lee-rung", meaning: "profiling", gender: "die", example: { de: "Kriminologische Profilierung.", en: "Criminal profiling." } },
+  ]}] },
+};

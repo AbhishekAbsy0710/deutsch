@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega54: Record<string, Lesson> = {
+  "la1_m104": { id: "la1_m104", title: "Garden & Plants A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "der Garten", phonetic: "gar-ten", meaning: "garden", gender: "der", example: { de: "Im Garten spielen.", en: "Play in the garden." } },
+    { word: "die Blume", phonetic: "bloo-muh", meaning: "flower", gender: "die", example: { de: "Eine schöne Blume.", en: "A beautiful flower." } },
+    { word: "die Rose", phonetic: "roh-zuh", meaning: "rose", gender: "die", example: { de: "Eine rote Rose.", en: "A red rose." } },
+    { word: "die Tulpe", phonetic: "tool-puh", meaning: "tulip", gender: "die", example: { de: "Holländische Tulpen.", en: "Dutch tulips." } },
+    { word: "die Sonnenblume", phonetic: "zo-nen-bloo-muh", meaning: "sunflower", gender: "die", example: { de: "Eine große Sonnenblume.", en: "A big sunflower." } },
+    { word: "der Baum", phonetic: "bowm", meaning: "tree", gender: "der", example: { de: "Einen Baum pflanzen.", en: "Plant a tree." } },
+    { word: "der Strauch", phonetic: "shtrowkh", meaning: "bush / shrub", gender: "der", example: { de: "Ein blühender Strauch.", en: "A blooming bush." } },
+    { word: "das Gras", phonetic: "grahs", meaning: "grass", gender: "das", example: { de: "Auf dem Gras liegen.", en: "Lie on the grass." } },
+    { word: "der Rasen", phonetic: "rah-zen", meaning: "lawn", gender: "der", example: { de: "Den Rasen mähen.", en: "Mow the lawn." } },
+    { word: "das Blatt", phonetic: "blat", meaning: "leaf", gender: "das", example: { de: "Ein grünes Blatt.", en: "A green leaf." } },
+    { word: "die Wurzel", phonetic: "voor-tsel", meaning: "root", gender: "die", example: { de: "Tiefe Wurzeln.", en: "Deep roots." } },
+    { word: "der Samen", phonetic: "zah-men", meaning: "seed", gender: "der", example: { de: "Samen säen.", en: "Sow seeds." } },
+    { word: "gießen", phonetic: "gee-sen", meaning: "to water (plants)", example: { de: "Die Blumen gießen.", en: "Water the flowers." } },
+    { word: "pflanzen", phonetic: "pflan-tsen", meaning: "to plant", example: { de: "Tomaten pflanzen.", en: "Plant tomatoes." } },
+    { word: "wachsen", phonetic: "vak-sen", meaning: "to grow", example: { de: "Schnell wachsen.", en: "Grow quickly." } },
+    { word: "blühen", phonetic: "blü-en", meaning: "to bloom", example: { de: "Die Rosen blühen.", en: "The roses are blooming." } },
+    { word: "der Topf", phonetic: "topf", meaning: "pot (flower)", gender: "der", example: { de: "Ein Blumentopf.", en: "A flower pot." } },
+    { word: "die Erde", phonetic: "er-duh", meaning: "soil / earth", gender: "die", example: { de: "Frische Erde.", en: "Fresh soil." } },
+    { word: "der Dünger", phonetic: "dün-ger", meaning: "fertilizer", gender: "der", example: { de: "Organischer Dünger.", en: "Organic fertilizer." } },
+    { word: "die Gießkanne", phonetic: "gees-ka-nuh", meaning: "watering can", gender: "die", example: { de: "Mit der Gießkanne gießen.", en: "Water with the watering can." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega55: Record<string, Lesson> = {
+  "lb1_m106": { id: "lb1_m106", title: "Arts & Creative B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Ausstellung", phonetic: "ows-shte-lung", meaning: "exhibition", gender: "die", example: { de: "Eine Kunstausstellung.", en: "An art exhibition." } },
+    { word: "das Gemälde", phonetic: "geh-mel-duh", meaning: "painting", gender: "das", example: { de: "Ein berühmtes Gemälde.", en: "A famous painting." } },
+    { word: "die Skulptur", phonetic: "skoolp-toor", meaning: "sculpture", gender: "die", example: { de: "Eine Marmorskulptur.", en: "A marble sculpture." } },
+    { word: "die Zeichnung", phonetic: "tsykh-nung", meaning: "drawing", gender: "die", example: { de: "Eine Bleistiftzeichnung.", en: "A pencil drawing." } },
+    { word: "der Künstler", phonetic: "künst-ler", meaning: "artist (m)", gender: "der", example: { de: "Ein bekannter Künstler.", en: "A well-known artist." } },
+    { word: "die Galerie", phonetic: "ga-le-ree", meaning: "gallery", gender: "die", example: { de: "In eine Galerie gehen.", en: "Go to a gallery." } },
+    { word: "der Pinsel", phonetic: "pin-zel", meaning: "paintbrush", gender: "der", example: { de: "Mit dem Pinsel malen.", en: "Paint with a brush." } },
+    { word: "die Leinwand", phonetic: "lyne-vant", meaning: "canvas", gender: "die", example: { de: "Auf Leinwand malen.", en: "Paint on canvas." } },
+    { word: "die Fotografie", phonetic: "fo-to-gra-fee", meaning: "photography", gender: "die", example: { de: "Digitale Fotografie.", en: "Digital photography." } },
+    { word: "die Literatur", phonetic: "li-te-ra-toor", meaning: "literature", gender: "die", example: { de: "Deutsche Literatur.", en: "German literature." } },
+    { word: "der Dichter", phonetic: "dikh-ter", meaning: "poet", gender: "der", example: { de: "Ein berühmter Dichter.", en: "A famous poet." } },
+    { word: "das Gedicht", phonetic: "geh-dikht", meaning: "poem", gender: "das", example: { de: "Ein romantisches Gedicht.", en: "A romantic poem." } },
+    { word: "der Roman", phonetic: "ro-mahn", meaning: "novel", gender: "der", example: { de: "Einen Roman schreiben.", en: "Write a novel." } },
+    { word: "das Theaterstück", phonetic: "tay-ah-ter-shtük", meaning: "play (theater)", gender: "das", example: { de: "Ein Theaterstück aufführen.", en: "Perform a play." } },
+    { word: "der Regisseur", phonetic: "re-ji-sör", meaning: "director", gender: "der", example: { de: "Ein talentierter Regisseur.", en: "A talented director." } },
+    { word: "der Schauspieler", phonetic: "show-shpee-ler", meaning: "actor", gender: "der", example: { de: "Ein guter Schauspieler.", en: "A good actor." } },
+    { word: "die Premiere", phonetic: "pre-mee-ay-ruh", meaning: "premiere", gender: "die", example: { de: "Die Premiere besuchen.", en: "Attend the premiere." } },
+    { word: "die Komposition", phonetic: "kom-po-zi-tsee-ohn", meaning: "composition", gender: "die", example: { de: "Eine musikalische Komposition.", en: "A musical composition." } },
+    { word: "die Kreativität", phonetic: "kre-a-ti-vi-tayt", meaning: "creativity", gender: "die", example: { de: "Kreativität fördern.", en: "Foster creativity." } },
+    { word: "die Inspiration", phonetic: "in-spi-ra-tsee-ohn", meaning: "inspiration", gender: "die", example: { de: "Inspiration finden.", en: "Find inspiration." } },
+  ]}] },
+};
