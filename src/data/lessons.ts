@@ -20,6 +20,7 @@ import { lessonsA1Mega1 } from "./lessons-a1-mega1";
 import { lessonsA1Mega2 } from "./lessons-a1-mega2";
 import { lessonsA1Mega3 } from "./lessons-a1-mega3";
 import { lessonsA1Mega4 } from "./lessons-a1-mega4";
+import { lessonsA1Mega5 } from "./lessons-a1-mega5";
 import { lessonsA1New5, lessonsA2New9 } from "./lessons-final-gaps";
 import { lessonsA1Final, lessonsA2Final } from "./lessons-final-gaps2";
 import { lessonsA2ExamSkills } from "./lessons-a2-exam";
@@ -42,6 +43,7 @@ import { lessonsA2Mega1 } from "./lessons-a2-mega1";
 import { lessonsA2Mega2 } from "./lessons-a2-mega2";
 import { lessonsA2Mega3 } from "./lessons-a2-mega3";
 import { lessonsA2Mega4 } from "./lessons-a2-mega4";
+import { lessonsA2Mega5 } from "./lessons-a2-mega5";
 import { lessonsB1 } from "./lessons-b1";
 import { lessonsB1Grammar1 } from "./lessons-b1-grammar1";
 import { lessonsB1Grammar2 } from "./lessons-b1-grammar2";
@@ -118,8 +120,10 @@ import { lessonsC2Expand4 } from "./lessons-c2-expand4";
 import { lessonsC1Mega1 } from "./lessons-c1-mega1";
 import { lessonsC1Mega2 } from "./lessons-c1-mega2";
 import { lessonsC1Mega3 } from "./lessons-c1-mega3";
+import { lessonsC1Mega4 } from "./lessons-c1-mega4";
 import { lessonsC2Mega1 } from "./lessons-c2-mega1";
 import { lessonsC2Mega2 } from "./lessons-c2-mega2";
+import { lessonsC2Mega3 } from "./lessons-c2-mega3";
 
 export type LessonBlock = 
   | { type: "vocabulary", word: string, translation: string, example: string, audioUrl?: string, phonetic: string }
@@ -166,6 +170,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsA1Mega2,
   ...lessonsA1Mega3,
   ...lessonsA1Mega4,
+  ...lessonsA1Mega5,
   ...lessonsA2,
   ...lessonsA2New,
   ...lessonsA2New2,
@@ -188,6 +193,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsA2Mega2,
   ...lessonsA2Mega3,
   ...lessonsA2Mega4,
+  ...lessonsA2Mega5,
   ...lessonsB1,
   ...lessonsB1Grammar1,
   ...lessonsB1Grammar2,
@@ -265,6 +271,8 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC1Mega1,
   ...lessonsC1Mega2,
   ...lessonsC1Mega3,
+  ...lessonsC1Mega4,
   ...lessonsC2Mega1,
   ...lessonsC2Mega2,
+  ...lessonsC2Mega3,
 };
