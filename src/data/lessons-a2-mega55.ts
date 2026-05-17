@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega55: Record<string, Lesson> = {
+  "la2_m100": { id: "la2_m100", title: "Environment & Nature A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Umwelt", phonetic: "oom-velt", meaning: "environment", gender: "die", example: { de: "Die Umwelt schützen.", en: "Protect the environment." } },
+    { word: "der Müll", phonetic: "mül", meaning: "trash / garbage", gender: "der", example: { de: "Den Müll trennen.", en: "Separate the trash." } },
+    { word: "die Mülltrennung", phonetic: "mül-tre-nung", meaning: "waste separation", gender: "die", example: { de: "Mülltrennung ist wichtig.", en: "Waste separation is important." } },
+    { word: "recyceln", phonetic: "ree-sy-keln", meaning: "to recycle", example: { de: "Papier recyceln.", en: "Recycle paper." } },
+    { word: "die Plastiktüte", phonetic: "plas-tik-tü-tuh", meaning: "plastic bag", gender: "die", example: { de: "Keine Plastiktüten.", en: "No plastic bags." } },
+    { word: "der Klimawandel", phonetic: "klee-ma-van-del", meaning: "climate change", gender: "der", example: { de: "Gegen den Klimawandel.", en: "Against climate change." } },
+    { word: "die Solarenergie", phonetic: "zo-lahr-e-ner-gee", meaning: "solar energy", gender: "die", example: { de: "Solarenergie nutzen.", en: "Use solar energy." } },
+    { word: "die Windenergie", phonetic: "vint-e-ner-gee", meaning: "wind energy", gender: "die", example: { de: "Windenergie erzeugen.", en: "Generate wind energy." } },
+    { word: "die Verschmutzung", phonetic: "fer-shmoo-tsung", meaning: "pollution", gender: "die", example: { de: "Luftverschmutzung.", en: "Air pollution." } },
+    { word: "der Naturschutz", phonetic: "na-toor-shoots", meaning: "nature conservation", gender: "der", example: { de: "Naturschutzgebiet.", en: "Nature reserve." } },
+    { word: "das Trinkwasser", phonetic: "trink-va-ser", meaning: "drinking water", gender: "das", example: { de: "Sauberes Trinkwasser.", en: "Clean drinking water." } },
+    { word: "der Wald", phonetic: "valt", meaning: "forest", gender: "der", example: { de: "Im Wald spazieren.", en: "Walk in the forest." } },
+    { word: "die Wiese", phonetic: "vee-zuh", meaning: "meadow", gender: "die", example: { de: "Auf der Wiese liegen.", en: "Lie on the meadow." } },
+    { word: "der Bach", phonetic: "bakh", meaning: "brook / stream", gender: "der", example: { de: "Ein kleiner Bach.", en: "A small stream." } },
+    { word: "der Fluss", phonetic: "floos", meaning: "river", gender: "der", example: { de: "Am Fluss entlang.", en: "Along the river." } },
+    { word: "der Teich", phonetic: "tykh", meaning: "pond", gender: "der", example: { de: "Frösche im Teich.", en: "Frogs in the pond." } },
+    { word: "die Insel", phonetic: "in-zel", meaning: "island", gender: "die", example: { de: "Eine kleine Insel.", en: "A small island." } },
+    { word: "der Hügel", phonetic: "hü-gel", meaning: "hill", gender: "der", example: { de: "Einen Hügel hinauf.", en: "Up a hill." } },
+    { word: "das Tal", phonetic: "tahl", meaning: "valley", gender: "das", example: { de: "Ein grünes Tal.", en: "A green valley." } },
+    { word: "die Quelle", phonetic: "kve-luh", meaning: "spring / source", gender: "die", example: { de: "Eine natürliche Quelle.", en: "A natural spring." } },
+  ]}] },
+};

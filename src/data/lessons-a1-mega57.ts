@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega57: Record<string, Lesson> = {
+  "la1_m107": { id: "la1_m107", title: "Hobbies & Leisure A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Hobby", phonetic: "ho-bee", meaning: "hobby", gender: "das", example: { de: "Mein Hobby ist Lesen.", en: "My hobby is reading." } },
+    { word: "basteln", phonetic: "bas-teln", meaning: "to do crafts", example: { de: "Mit Papier basteln.", en: "Do paper crafts." } },
+    { word: "stricken", phonetic: "shtri-ken", meaning: "to knit", example: { de: "Einen Schal stricken.", en: "Knit a scarf." } },
+    { word: "nähen", phonetic: "nay-en", meaning: "to sew", example: { de: "Ein Kleid nähen.", en: "Sew a dress." } },
+    { word: "angeln", phonetic: "an-geln", meaning: "to fish", example: { de: "Am See angeln.", en: "Fish at the lake." } },
+    { word: "wandern", phonetic: "van-dern", meaning: "to hike", example: { de: "In den Bergen wandern.", en: "Hike in the mountains." } },
+    { word: "klettern", phonetic: "kle-tern", meaning: "to climb", example: { de: "Felsen klettern.", en: "Climb rocks." } },
+    { word: "zelten", phonetic: "tsel-ten", meaning: "to camp", example: { de: "Im Wald zelten.", en: "Camp in the forest." } },
+    { word: "das Zelt", phonetic: "tselt", meaning: "tent", gender: "das", example: { de: "Ein Zelt aufbauen.", en: "Set up a tent." } },
+    { word: "der Schlafsack", phonetic: "shlahf-zak", meaning: "sleeping bag", gender: "der", example: { de: "Im Schlafsack schlafen.", en: "Sleep in a sleeping bag." } },
+    { word: "sammeln", phonetic: "za-meln", meaning: "to collect", example: { de: "Briefmarken sammeln.", en: "Collect stamps." } },
+    { word: "die Briefmarke", phonetic: "breef-mar-kuh", meaning: "stamp (postage)", gender: "die", example: { de: "Seltene Briefmarken.", en: "Rare stamps." } },
+    { word: "das Puzzle", phonetic: "pa-zel", meaning: "puzzle", gender: "das", example: { de: "Ein Puzzle machen.", en: "Do a puzzle." } },
+    { word: "das Brettspiel", phonetic: "bret-shpeel", meaning: "board game", gender: "das", example: { de: "Ein Brettspiel spielen.", en: "Play a board game." } },
+    { word: "die Karte", phonetic: "kar-tuh", meaning: "card (playing)", gender: "die", example: { de: "Karten spielen.", en: "Play cards." } },
+    { word: "der Würfel", phonetic: "vür-fel", meaning: "dice", gender: "der", example: { de: "Einen Würfel werfen.", en: "Roll a die." } },
+    { word: "das Schach", phonetic: "shakh", meaning: "chess", gender: "das", example: { de: "Schach spielen.", en: "Play chess." } },
+    { word: "zeichnen", phonetic: "tsykh-nen", meaning: "to draw", example: { de: "Ein Bild zeichnen.", en: "Draw a picture." } },
+    { word: "fotografieren", phonetic: "fo-to-gra-fee-ren", meaning: "to photograph", example: { de: "Landschaften fotografieren.", en: "Photograph landscapes." } },
+    { word: "die Freizeit", phonetic: "fry-tsyte", meaning: "free time / leisure", gender: "die", example: { de: "In der Freizeit lesen.", en: "Read in free time." } },
+  ]}] },
+};

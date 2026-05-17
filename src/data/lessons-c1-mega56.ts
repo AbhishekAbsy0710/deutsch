@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega56: Record<string, Lesson> = {
+  "lc1_m102": { id: "lc1_m102", title: "Advanced Philosophy of Science C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Wissenschaftsphilosophie", phonetic: "vi-sen-shafts-fi-lo-zo-fee", meaning: "philosophy of science", gender: "die", example: { de: "Analytische Wissenschaftsphilosophie.", en: "Analytic philosophy of science." } },
+    { word: "die Falsifizierbarkeit", phonetic: "fal-zi-fi-tseer-bar-kyte", meaning: "falsifiability", gender: "die", example: { de: "Poppersche Falsifizierbarkeit.", en: "Popperian falsifiability." } },
+    { word: "der Paradigmenwechsel", phonetic: "pa-ra-dig-men-vek-sel", meaning: "paradigm shift", gender: "der", example: { de: "Kuhnscher Paradigmenwechsel.", en: "Kuhnian paradigm shift." } },
+    { word: "die Induktionsproblem", phonetic: "in-dook-tsee-ohns-pro-blaym", meaning: "problem of induction", gender: "das", example: { de: "Humes Induktionsproblem.", en: "Hume's problem of induction." } },
+    { word: "die Unterbestimmtheit", phonetic: "oon-ter-beh-shtimt-hyte", meaning: "underdetermination", gender: "die", example: { de: "Quinesche Unterbestimmtheit.", en: "Quinean underdetermination." } },
+    { word: "die Theoriealadung", phonetic: "tay-oh-ree-beh-lah-dung", meaning: "theory-ladenness", gender: "die", example: { de: "Hansons Theoriebeladung.", en: "Hanson's theory-ladenness." } },
+    { word: "der Positivismus", phonetic: "po-zi-ti-vis-mus", meaning: "positivism", gender: "der", example: { de: "Logischer Positivismus.", en: "Logical positivism." } },
+    { word: "der Instrumentalismus", phonetic: "in-stroo-men-ta-lis-mus", meaning: "instrumentalism", gender: "der", example: { de: "Wissenschaftlicher Instrumentalismus.", en: "Scientific instrumentalism." } },
+    { word: "der Realismus", phonetic: "re-a-lis-mus", meaning: "realism (scientific)", gender: "der", example: { de: "Wissenschaftlicher Realismus.", en: "Scientific realism." } },
+    { word: "die Abduktion", phonetic: "ap-dook-tsee-ohn", meaning: "abduction (inference)", gender: "die", example: { de: "Peircesche Abduktion.", en: "Peircean abduction." } },
+    { word: "die Reduktionismus", phonetic: "re-dook-tsee-oh-nis-mus", meaning: "reductionism", gender: "der", example: { de: "Ontologischer Reduktionismus.", en: "Ontological reductionism." } },
+    { word: "die Emergenz", phonetic: "e-mer-gents", meaning: "emergence", gender: "die", example: { de: "Starke Emergenz.", en: "Strong emergence." } },
+    { word: "die Kausalerklärung", phonetic: "kow-zahl-er-klay-rung", meaning: "causal explanation", gender: "die", example: { de: "Mechanistische Kausalerklärung.", en: "Mechanistic causal explanation." } },
+    { word: "die Inkommensurabilität", phonetic: "in-ko-men-zoo-ra-bi-li-tayt", meaning: "incommensurability", gender: "die", example: { de: "Kuhnsche Inkommensurabilität.", en: "Kuhnian incommensurability." } },
+    { word: "die Naturgesetze", phonetic: "na-toor-ge-ze-tsuh", meaning: "laws of nature", example: { de: "Universelle Naturgesetze.", en: "Universal laws of nature." } },
+    { word: "die Demarcation", phonetic: "de-mar-ka-tsee-ohn", meaning: "demarcation (science)", gender: "die", example: { de: "Wissenschaftliche Demarcation.", en: "Scientific demarcation." } },
+    { word: "die Bayesianismus", phonetic: "bay-zee-ah-nis-mus", meaning: "Bayesianism", gender: "der", example: { de: "Subjektiver Bayesianismus.", en: "Subjective Bayesianism." } },
+    { word: "die Konstruktivismus", phonetic: "kon-shtrook-ti-vis-mus", meaning: "constructivism", gender: "der", example: { de: "Sozialer Konstruktivismus.", en: "Social constructivism." } },
+    { word: "die Wertfreiheit", phonetic: "vert-fry-hyte", meaning: "value-freedom", gender: "die", example: { de: "Webersche Wertfreiheit.", en: "Weberian value-freedom." } },
+    { word: "die Reproduzierbarkeitskrise", phonetic: "re-pro-doo-tseer-bar-kyts-kree-zuh", meaning: "replication crisis", gender: "die", example: { de: "Psychologische Reproduzierbarkeitskrise.", en: "Psychology's replication crisis." } },
+  ]}] },
+};

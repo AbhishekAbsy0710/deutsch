@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega54: Record<string, Lesson> = {
+  "lc2_m97": { id: "lc2_m97", title: "Advanced Topological Insulators C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Topologische Isolatoren", phonetic: "to-po-lo-gi-shuh i-zo-la-toh-ren", meaning: "topological insulators", example: { de: "Dreidimensionale topologische Isolatoren.", en: "Three-dimensional topological insulators." } },
+    { word: "die Bandstruktur", phonetic: "bant-shtrook-toor", meaning: "band structure", gender: "die", example: { de: "Elektronische Bandstruktur.", en: "Electronic band structure." } },
+    { word: "die Oberflächenzustände", phonetic: "oh-ber-fley-khen-tsoo-shten-duh", meaning: "surface states", example: { de: "Topologisch geschützte Oberflächenzustände.", en: "Topologically protected surface states." } },
+    { word: "die Spin-Bahn-Kopplung", phonetic: "shpin-bahn-ko-plung", meaning: "spin-orbit coupling", gender: "die", example: { de: "Starke Spin-Bahn-Kopplung.", en: "Strong spin-orbit coupling." } },
+    { word: "die Zeitumkehrsymmetrie", phonetic: "tsyte-oom-kayr-zü-me-tree", meaning: "time-reversal symmetry", gender: "die", example: { de: "Geschützte Zeitumkehrsymmetrie.", en: "Protected time-reversal symmetry." } },
+    { word: "die Dirac-Kegel", phonetic: "dee-rak-kay-gel", meaning: "Dirac cone", gender: "der", example: { de: "Linearer Dirac-Kegel.", en: "Linear Dirac cone." } },
+    { word: "die Majorana-Fermion", phonetic: "ma-yo-ra-na-fer-mee-ohn", meaning: "Majorana fermion", gender: "das", example: { de: "Chirales Majorana-Fermion.", en: "Chiral Majorana fermion." } },
+    { word: "die Quantenspin-Hall-Effekt", phonetic: "kvan-ten-shpin-hal-e-fekt", meaning: "quantum spin Hall effect", gender: "der", example: { de: "Zweidimensionaler Quantenspin-Hall-Effekt.", en: "Two-dimensional quantum spin Hall effect." } },
+    { word: "die Chern-Zahl", phonetic: "tchern-tsahl", meaning: "Chern number", gender: "die", example: { de: "Topologische Chern-Zahl.", en: "Topological Chern number." } },
+    { word: "die Z2-Invariante", phonetic: "tset-tsvay-in-va-ree-an-tuh", meaning: "Z2 invariant", gender: "die", example: { de: "Kane-Mele Z2-Invariante.", en: "Kane-Mele Z2 invariant." } },
+    { word: "die Topologische Supraleitung", phonetic: "to-po-lo-gi-shuh zoo-pra-ly-tung", meaning: "topological superconductivity", example: { de: "Chirale topologische Supraleitung.", en: "Chiral topological superconductivity." } },
+    { word: "die Weyl-Semimetall", phonetic: "vayl-ze-mi-me-tal", meaning: "Weyl semimetal", gender: "das", example: { de: "Typ-II-Weyl-Semimetall.", en: "Type-II Weyl semimetal." } },
+    { word: "die Fermi-Bogen", phonetic: "fer-mi-boh-gen", meaning: "Fermi arc", gender: "der", example: { de: "Topologischer Fermi-Bogen.", en: "Topological Fermi arc." } },
+    { word: "die Randkanäle", phonetic: "rant-ka-ney-luh", meaning: "edge channels", example: { de: "Chirale Randkanäle.", en: "Chiral edge channels." } },
+    { word: "die Axionfeld", phonetic: "ak-see-ohn-felt", meaning: "axion field", gender: "das", example: { de: "Topologisches Axionfeld.", en: "Topological axion field." } },
+    { word: "die Spintronik", phonetic: "shpin-tro-nik", meaning: "spintronics", gender: "die", example: { de: "Topologische Spintronik.", en: "Topological spintronics." } },
+    { word: "die Berry-Phase", phonetic: "be-ree-fah-zuh", meaning: "Berry phase", gender: "die", example: { de: "Geometrische Berry-Phase.", en: "Geometric Berry phase." } },
+    { word: "die Topologische Feldtheorie", phonetic: "to-po-lo-gi-shuh felt-tay-oh-ree", meaning: "topological field theory", example: { de: "Chern-Simons topologische Feldtheorie.", en: "Chern-Simons topological field theory." } },
+    { word: "die Symmetriegeschützte Phase", phonetic: "zü-me-tree-geh-shüts-tuh fah-zuh", meaning: "symmetry-protected phase", example: { de: "Topologisch symmetriegeschützte Phase.", en: "Topologically symmetry-protected phase." } },
+    { word: "die Magnetoelektrische Kopplung", phonetic: "mag-nay-to-e-lek-tri-shuh ko-plung", meaning: "magnetoelectric coupling", example: { de: "Topologische magnetoelektrische Kopplung.", en: "Topological magnetoelectric coupling." } },
+  ]}] },
+};

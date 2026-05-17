@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega58: Record<string, Lesson> = {
+  "lb1_m109": { id: "lb1_m109", title: "Technology & Gadgets B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Technologie", phonetic: "tekh-no-lo-gee", meaning: "technology", gender: "die", example: { de: "Moderne Technologie.", en: "Modern technology." } },
+    { word: "die Künstliche Intelligenz", phonetic: "künst-li-khuh in-te-li-gents", meaning: "artificial intelligence", example: { de: "Künstliche Intelligenz nutzen.", en: "Use artificial intelligence." } },
+    { word: "der Algorithmus", phonetic: "al-go-rit-mus", meaning: "algorithm", gender: "der", example: { de: "Ein komplexer Algorithmus.", en: "A complex algorithm." } },
+    { word: "die Datenbank", phonetic: "dah-ten-bank", meaning: "database", gender: "die", example: { de: "Eine relationale Datenbank.", en: "A relational database." } },
+    { word: "die Cloud", phonetic: "klowd", meaning: "cloud (computing)", gender: "die", example: { de: "In der Cloud speichern.", en: "Store in the cloud." } },
+    { word: "die Verschlüsselung", phonetic: "fer-shlü-se-lung", meaning: "encryption", gender: "die", example: { de: "Ende-zu-Ende-Verschlüsselung.", en: "End-to-end encryption." } },
+    { word: "der Bildschirm", phonetic: "bilt-shirm", meaning: "screen / monitor", gender: "der", example: { de: "Auf dem Bildschirm.", en: "On the screen." } },
+    { word: "die Tastatur", phonetic: "tas-ta-toor", meaning: "keyboard", gender: "die", example: { de: "Auf der Tastatur tippen.", en: "Type on the keyboard." } },
+    { word: "die Festplatte", phonetic: "fest-pla-tuh", meaning: "hard drive", gender: "die", example: { de: "Externe Festplatte.", en: "External hard drive." } },
+    { word: "der Prozessor", phonetic: "pro-tse-sor", meaning: "processor", gender: "der", example: { de: "Ein schneller Prozessor.", en: "A fast processor." } },
+    { word: "der Speicher", phonetic: "shpy-kher", meaning: "memory / storage", gender: "der", example: { de: "Mehr Speicher brauchen.", en: "Need more storage." } },
+    { word: "das Betriebssystem", phonetic: "beh-treeps-züs-taym", meaning: "operating system", gender: "das", example: { de: "Das Betriebssystem aktualisieren.", en: "Update the operating system." } },
+    { word: "die Schnittstelle", phonetic: "shnit-shte-luh", meaning: "interface", gender: "die", example: { de: "Eine benutzerfreundliche Schnittstelle.", en: "A user-friendly interface." } },
+    { word: "der Drucker", phonetic: "droo-ker", meaning: "printer", gender: "der", example: { de: "Einen Drucker anschließen.", en: "Connect a printer." } },
+    { word: "der Scanner", phonetic: "ske-ner", meaning: "scanner", gender: "der", example: { de: "Dokumente scannen.", en: "Scan documents." } },
+    { word: "das Ladegerät", phonetic: "lah-duh-ge-rayt", meaning: "charger", gender: "das", example: { de: "Das Ladegerät anschließen.", en: "Connect the charger." } },
+    { word: "die Bluetooth-Verbindung", phonetic: "bloo-toos-fer-bin-dung", meaning: "Bluetooth connection", gender: "die", example: { de: "Per Bluetooth verbinden.", en: "Connect via Bluetooth." } },
+    { word: "die Benachrichtigung", phonetic: "beh-nakh-rikh-ti-gung", meaning: "notification", gender: "die", example: { de: "Push-Benachrichtigung.", en: "Push notification." } },
+    { word: "herunterladen", phonetic: "he-roon-ter-lah-den", meaning: "to download", example: { de: "Eine App herunterladen.", en: "Download an app." } },
+    { word: "hochladen", phonetic: "hokh-lah-den", meaning: "to upload", example: { de: "Ein Foto hochladen.", en: "Upload a photo." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega56: Record<string, Lesson> = {
+  "lb2_m101": { id: "lb2_m101", title: "Oceanography B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Ozeanographie", phonetic: "oh-tse-ah-no-gra-fee", meaning: "oceanography", gender: "die", example: { de: "Physikalische Ozeanographie.", en: "Physical oceanography." } },
+    { word: "die Meeresströmung", phonetic: "may-res-shtrö-mung", meaning: "ocean current", gender: "die", example: { de: "Thermohaline Meeresströmung.", en: "Thermohaline ocean current." } },
+    { word: "die Gezeiten", phonetic: "geh-tsy-ten", meaning: "tides", example: { de: "Ebbe und Flut.", en: "Low and high tide." } },
+    { word: "die Tiefsee", phonetic: "teef-zay", meaning: "deep sea", gender: "die", example: { de: "Tiefseeforschung.", en: "Deep sea research." } },
+    { word: "das Korallenriff", phonetic: "ko-ra-len-rif", meaning: "coral reef", gender: "das", example: { de: "Tropisches Korallenriff.", en: "Tropical coral reef." } },
+    { word: "der Kontinentalschelf", phonetic: "kon-ti-nen-tahl-shelf", meaning: "continental shelf", gender: "der", example: { de: "Biologisch produktiver Kontinentalschelf.", en: "Biologically productive continental shelf." } },
+    { word: "die Meeresbiologie", phonetic: "may-res-bee-oh-lo-gee", meaning: "marine biology", gender: "die", example: { de: "Tropische Meeresbiologie.", en: "Tropical marine biology." } },
+    { word: "die Sedimentologie", phonetic: "ze-di-men-to-lo-gee", meaning: "sedimentology", gender: "die", example: { de: "Marine Sedimentologie.", en: "Marine sedimentology." } },
+    { word: "der Meeresspiegel", phonetic: "may-res-shpee-gel", meaning: "sea level", gender: "der", example: { de: "Steigender Meeresspiegel.", en: "Rising sea level." } },
+    { word: "die Versauerung", phonetic: "fer-zoy-e-rung", meaning: "acidification", gender: "die", example: { de: "Ozeanversauerung.", en: "Ocean acidification." } },
+    { word: "die Hydrothermalquelle", phonetic: "hü-dro-ter-mahl-kve-luh", meaning: "hydrothermal vent", gender: "die", example: { de: "Mittelozeanische Hydrothermalquelle.", en: "Mid-ocean hydrothermal vent." } },
+    { word: "die Bathymetrie", phonetic: "ba-tü-me-tree", meaning: "bathymetry", gender: "die", example: { de: "Sonar-Bathymetrie.", en: "Sonar bathymetry." } },
+    { word: "die Planktonblüte", phonetic: "plank-ton-blü-tuh", meaning: "plankton bloom", gender: "die", example: { de: "Algenplanktonblüte.", en: "Algal plankton bloom." } },
+    { word: "die Upwelling", phonetic: "ap-ve-ling", meaning: "upwelling", gender: "das", example: { de: "Küstennahes Upwelling.", en: "Coastal upwelling." } },
+    { word: "die Thermohaline Zirkulation", phonetic: "ter-mo-ha-lee-nuh tsir-koo-la-tsee-ohn", meaning: "thermohaline circulation", example: { de: "Atlantische thermohaline Zirkulation.", en: "Atlantic thermohaline circulation." } },
+    { word: "die Abyssale Ebene", phonetic: "a-bü-sah-luh ay-be-nuh", meaning: "abyssal plain", example: { de: "Pazifische abyssale Ebene.", en: "Pacific abyssal plain." } },
+    { word: "die Tsunamigenese", phonetic: "tsoo-nah-mi-ge-nay-zuh", meaning: "tsunamigenesis", gender: "die", example: { de: "Seismische Tsunamigenese.", en: "Seismic tsunamigenesis." } },
+    { word: "die Ozeanische Kruste", phonetic: "oh-tse-ah-ni-shuh kroos-tuh", meaning: "oceanic crust", example: { de: "Basaltische ozeanische Kruste.", en: "Basaltic oceanic crust." } },
+    { word: "die Subduktionszone", phonetic: "zoop-dook-tsee-ohns-tso-nuh", meaning: "subduction zone", gender: "die", example: { de: "Pazifische Subduktionszone.", en: "Pacific subduction zone." } },
+    { word: "die Mariannengraben", phonetic: "ma-ree-a-nen-grah-ben", meaning: "Mariana Trench", gender: "der", example: { de: "Tiefster Punkt: Mariannengraben.", en: "Deepest point: Mariana Trench." } },
+  ]}] },
+};
