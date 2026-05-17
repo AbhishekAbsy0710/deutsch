@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega57: Record<string, Lesson> = {
+  "lc1_m103": { id: "lc1_m103", title: "Advanced Information Theory C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Informationstheorie", phonetic: "in-for-ma-tsee-ohns-tay-oh-ree", meaning: "information theory", gender: "die", example: { de: "Shannonsche Informationstheorie.", en: "Shannon information theory." } },
+    { word: "die Entropie", phonetic: "en-tro-pee", meaning: "entropy (information)", gender: "die", example: { de: "Shannon-Entropie.", en: "Shannon entropy." } },
+    { word: "die Redundanz", phonetic: "re-doon-dants", meaning: "redundancy", gender: "die", example: { de: "Linguistische Redundanz.", en: "Linguistic redundancy." } },
+    { word: "die Kanalkapazität", phonetic: "ka-nahl-ka-pa-tsi-tayt", meaning: "channel capacity", gender: "die", example: { de: "Maximale Kanalkapazität.", en: "Maximum channel capacity." } },
+    { word: "die Quellencodierung", phonetic: "kve-len-ko-dee-rung", meaning: "source coding", gender: "die", example: { de: "Verlustfreie Quellencodierung.", en: "Lossless source coding." } },
+    { word: "die Kanalcodierung", phonetic: "ka-nahl-ko-dee-rung", meaning: "channel coding", gender: "die", example: { de: "Turbo-Kanalcodierung.", en: "Turbo channel coding." } },
+    { word: "die Kompression", phonetic: "kom-pre-see-ohn", meaning: "compression", gender: "die", example: { de: "Verlustfreie Datenkompression.", en: "Lossless data compression." } },
+    { word: "die Transinformation", phonetic: "trans-in-for-ma-tsee-ohn", meaning: "mutual information", gender: "die", example: { de: "Bedingte Transinformation.", en: "Conditional mutual information." } },
+    { word: "die Huffman-Codierung", phonetic: "huf-man-ko-dee-rung", meaning: "Huffman coding", gender: "die", example: { de: "Optimale Huffman-Codierung.", en: "Optimal Huffman coding." } },
+    { word: "die Kreuzentropie", phonetic: "kroyts-en-tro-pee", meaning: "cross-entropy", gender: "die", example: { de: "Binäre Kreuzentropie.", en: "Binary cross-entropy." } },
+    { word: "die Kullback-Leibler-Divergenz", phonetic: "kool-bak-lyb-ler-di-ver-gents", meaning: "KL divergence", gender: "die", example: { de: "Asymmetrische Kullback-Leibler-Divergenz.", en: "Asymmetric KL divergence." } },
+    { word: "die Kolmogorov-Komplexität", phonetic: "kol-mo-go-rof-kom-plek-si-tayt", meaning: "Kolmogorov complexity", gender: "die", example: { de: "Algorithmische Kolmogorov-Komplexität.", en: "Algorithmic Kolmogorov complexity." } },
+    { word: "die Ratendistorsionstheorie", phonetic: "rah-ten-dis-tor-tsee-ohns-tay-oh-ree", meaning: "rate-distortion theory", gender: "die", example: { de: "Shannonsche Ratendistorsionstheorie.", en: "Shannon rate-distortion theory." } },
+    { word: "die Fehlerkorrektur", phonetic: "fay-ler-ko-rek-toor", meaning: "error correction", gender: "die", example: { de: "Reed-Solomon-Fehlerkorrektur.", en: "Reed-Solomon error correction." } },
+    { word: "die LDPC-Codes", phonetic: "el-day-pay-tsay-kohds", meaning: "LDPC codes", example: { de: "Irreguläre LDPC-Codes.", en: "Irregular LDPC codes." } },
+    { word: "die Differentialentropie", phonetic: "di-fe-ren-tsee-ahl-en-tro-pee", meaning: "differential entropy", gender: "die", example: { de: "Gaußsche Differentialentropie.", en: "Gaussian differential entropy." } },
+    { word: "die Typizität", phonetic: "tü-pi-tsi-tayt", meaning: "typicality", gender: "die", example: { de: "Asymptotische Typizität.", en: "Asymptotic typicality." } },
+    { word: "die Rauschkodierung", phonetic: "rowsh-ko-dee-rung", meaning: "noise coding", gender: "die", example: { de: "Additive Rauschkodierung.", en: "Additive noise coding." } },
+    { word: "die Bit", phonetic: "bit", meaning: "bit (unit)", gender: "das", example: { de: "Informationsgehalt in Bit.", en: "Information content in bits." } },
+    { word: "die Netzwerkcodierung", phonetic: "nets-verk-ko-dee-rung", meaning: "network coding", gender: "die", example: { de: "Lineare Netzwerkcodierung.", en: "Linear network coding." } },
+  ]}] },
+};

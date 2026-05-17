@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega56: Record<string, Lesson> = {
+  "la2_m101": { id: "la2_m101", title: "Household Chores A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "aufräumen", phonetic: "owf-roy-men", meaning: "to tidy up", example: { de: "Das Zimmer aufräumen.", en: "Tidy up the room." } },
+    { word: "staubsaugen", phonetic: "shtowp-zow-gen", meaning: "to vacuum", example: { de: "Den Teppich staubsaugen.", en: "Vacuum the carpet." } },
+    { word: "wischen", phonetic: "vi-shen", meaning: "to mop / wipe", example: { de: "Den Boden wischen.", en: "Mop the floor." } },
+    { word: "abwaschen", phonetic: "ap-va-shen", meaning: "to wash dishes", example: { de: "Das Geschirr abwaschen.", en: "Wash the dishes." } },
+    { word: "die Spülmaschine", phonetic: "shpül-ma-shee-nuh", meaning: "dishwasher", gender: "die", example: { de: "Die Spülmaschine einräumen.", en: "Load the dishwasher." } },
+    { word: "die Waschmaschine", phonetic: "vash-ma-shee-nuh", meaning: "washing machine", gender: "die", example: { de: "Die Waschmaschine anstellen.", en: "Start the washing machine." } },
+    { word: "bügeln", phonetic: "bü-geln", meaning: "to iron", example: { de: "Hemden bügeln.", en: "Iron shirts." } },
+    { word: "das Bügeleisen", phonetic: "bü-gel-ay-zen", meaning: "iron (appliance)", gender: "das", example: { de: "Das Bügeleisen heizen.", en: "Heat the iron." } },
+    { word: "kehren", phonetic: "kay-ren", meaning: "to sweep", example: { de: "Die Treppe kehren.", en: "Sweep the stairs." } },
+    { word: "der Besen", phonetic: "bay-zen", meaning: "broom", gender: "der", example: { de: "Mit dem Besen kehren.", en: "Sweep with the broom." } },
+    { word: "der Eimer", phonetic: "ay-mer", meaning: "bucket", gender: "der", example: { de: "Ein Eimer Wasser.", en: "A bucket of water." } },
+    { word: "der Lappen", phonetic: "la-pen", meaning: "cloth / rag", gender: "der", example: { de: "Mit einem Lappen putzen.", en: "Clean with a rag." } },
+    { word: "das Waschmittel", phonetic: "vash-mi-tel", meaning: "detergent", gender: "das", example: { de: "Flüssiges Waschmittel.", en: "Liquid detergent." } },
+    { word: "trocknen", phonetic: "trok-nen", meaning: "to dry", example: { de: "Die Wäsche trocknen.", en: "Dry the laundry." } },
+    { word: "die Wäscheleine", phonetic: "ve-shuh-ly-nuh", meaning: "clothesline", gender: "die", example: { de: "An die Wäscheleine hängen.", en: "Hang on the clothesline." } },
+    { word: "der Mülleimer", phonetic: "mül-ay-mer", meaning: "trash can", gender: "der", example: { de: "Den Mülleimer leeren.", en: "Empty the trash can." } },
+    { word: "die Spüle", phonetic: "shpü-luh", meaning: "kitchen sink", gender: "die", example: { de: "Die Spüle reinigen.", en: "Clean the kitchen sink." } },
+    { word: "schrubben", phonetic: "shroo-ben", meaning: "to scrub", example: { de: "Die Badewanne schrubben.", en: "Scrub the bathtub." } },
+    { word: "lüften", phonetic: "lüf-ten", meaning: "to ventilate / air out", example: { de: "Das Zimmer lüften.", en: "Air out the room." } },
+    { word: "der Staubwedel", phonetic: "shtowp-vay-del", meaning: "feather duster", gender: "der", example: { de: "Mit dem Staubwedel abstauben.", en: "Dust with the feather duster." } },
+  ]}] },
+};

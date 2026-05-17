@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega59: Record<string, Lesson> = {
+  "lb1_m110": { id: "lb1_m110", title: "Media & Journalism B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Nachricht", phonetic: "nakh-rikht", meaning: "news / message", gender: "die", example: { de: "Die Nachrichten lesen.", en: "Read the news." } },
+    { word: "der Bericht", phonetic: "beh-rikht", meaning: "report", gender: "der", example: { de: "Einen Bericht schreiben.", en: "Write a report." } },
+    { word: "die Schlagzeile", phonetic: "shlahg-tsy-luh", meaning: "headline", gender: "die", example: { de: "Eine große Schlagzeile.", en: "A big headline." } },
+    { word: "der Artikel", phonetic: "ar-ti-kel", meaning: "article", gender: "der", example: { de: "Einen Artikel veröffentlichen.", en: "Publish an article." } },
+    { word: "der Journalist", phonetic: "zhoor-na-list", meaning: "journalist", gender: "der", example: { de: "Ein investigativer Journalist.", en: "An investigative journalist." } },
+    { word: "die Redaktion", phonetic: "re-dak-tsee-ohn", meaning: "editorial department", gender: "die", example: { de: "In der Redaktion arbeiten.", en: "Work in the editorial dept." } },
+    { word: "die Pressefreiheit", phonetic: "pre-suh-fry-hyte", meaning: "freedom of the press", gender: "die", example: { de: "Pressefreiheit schützen.", en: "Protect press freedom." } },
+    { word: "die Meinungsfreiheit", phonetic: "my-nungs-fry-hyte", meaning: "freedom of expression", gender: "die", example: { de: "Das Recht auf Meinungsfreiheit.", en: "The right to free expression." } },
+    { word: "die Sendung", phonetic: "zen-dung", meaning: "broadcast / show", gender: "die", example: { de: "Eine Fernsehsendung.", en: "A TV show." } },
+    { word: "die Talkshow", phonetic: "tok-sho", meaning: "talk show", gender: "die", example: { de: "Eine politische Talkshow.", en: "A political talk show." } },
+    { word: "der Podcast", phonetic: "pot-kahst", meaning: "podcast", gender: "der", example: { de: "Einen Podcast hören.", en: "Listen to a podcast." } },
+    { word: "der Influencer", phonetic: "in-floo-en-ser", meaning: "influencer", gender: "der", example: { de: "Ein bekannter Influencer.", en: "A well-known influencer." } },
+    { word: "die Quelle", phonetic: "kve-luh", meaning: "source (news)", gender: "die", example: { de: "Zuverlässige Quellen.", en: "Reliable sources." } },
+    { word: "die Fake News", phonetic: "fayk-nyoos", meaning: "fake news", example: { de: "Fake News erkennen.", en: "Recognize fake news." } },
+    { word: "die Überschrift", phonetic: "ü-ber-shrift", meaning: "heading / title", gender: "die", example: { de: "Eine passende Überschrift.", en: "An appropriate heading." } },
+    { word: "der Kommentar", phonetic: "ko-men-tahr", meaning: "comment / commentary", gender: "der", example: { de: "Einen Kommentar abgeben.", en: "Leave a comment." } },
+    { word: "die Werbung", phonetic: "ver-bung", meaning: "advertising", gender: "die", example: { de: "Online-Werbung.", en: "Online advertising." } },
+    { word: "die Zensur", phonetic: "tsen-zoor", meaning: "censorship", gender: "die", example: { de: "Gegen Zensur.", en: "Against censorship." } },
+    { word: "live", phonetic: "lyf", meaning: "live (broadcast)", example: { de: "Live übertragen.", en: "Broadcast live." } },
+    { word: "die Auflage", phonetic: "owf-lah-guh", meaning: "circulation / edition", gender: "die", example: { de: "Hohe Auflage.", en: "High circulation." } },
+  ]}] },
+};

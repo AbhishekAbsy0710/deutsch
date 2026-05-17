@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega55: Record<string, Lesson> = {
+  "lc2_m98": { id: "lc2_m98", title: "Advanced Epigenetics C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Epigenetik", phonetic: "e-pi-ge-nay-tik", meaning: "epigenetics", gender: "die", example: { de: "Transgenerationale Epigenetik.", en: "Transgenerational epigenetics." } },
+    { word: "die DNA-Methylierung", phonetic: "day-en-ah-me-tü-lee-rung", meaning: "DNA methylation", gender: "die", example: { de: "CpG-DNA-Methylierung.", en: "CpG DNA methylation." } },
+    { word: "die Histonmodifikation", phonetic: "his-ton-mo-di-fi-ka-tsee-ohn", meaning: "histone modification", gender: "die", example: { de: "Posttranslationale Histonmodifikation.", en: "Post-translational histone modification." } },
+    { word: "die Chromatinremodellierung", phonetic: "kro-ma-teen-re-mo-de-lee-rung", meaning: "chromatin remodeling", gender: "die", example: { de: "ATP-abhängige Chromatinremodellierung.", en: "ATP-dependent chromatin remodeling." } },
+    { word: "die Genexpression", phonetic: "gayn-eks-pre-see-ohn", meaning: "gene expression", gender: "die", example: { de: "Epigenetische Genexpression.", en: "Epigenetic gene expression." } },
+    { word: "die Genomprägung", phonetic: "ge-nohm-pray-gung", meaning: "genomic imprinting", gender: "die", example: { de: "Elternspezifische Genomprägung.", en: "Parent-specific genomic imprinting." } },
+    { word: "die X-Inaktivierung", phonetic: "iks-in-ak-ti-vee-rung", meaning: "X-inactivation", gender: "die", example: { de: "Zufällige X-Inaktivierung.", en: "Random X-inactivation." } },
+    { word: "die nichtkodierende RNA", phonetic: "nikht-ko-dee-ren-duh er-en-ah", meaning: "non-coding RNA", example: { de: "Regulatorische nichtkodierende RNA.", en: "Regulatory non-coding RNA." } },
+    { word: "die MicroRNA", phonetic: "my-kro-er-en-ah", meaning: "microRNA", gender: "die", example: { de: "Zirkulierende MicroRNA.", en: "Circulating microRNA." } },
+    { word: "die Histonacetylierung", phonetic: "his-ton-a-tse-tü-lee-rung", meaning: "histone acetylation", gender: "die", example: { de: "Lysin-Histonacetylierung.", en: "Lysine histone acetylation." } },
+    { word: "die Polycomb-Komplex", phonetic: "po-lü-kohm-kom-pleks", meaning: "polycomb complex", gender: "der", example: { de: "Polycomb-repressiver Komplex.", en: "Polycomb repressive complex." } },
+    { word: "die Bisulfitsequenzierung", phonetic: "bi-zool-fit-ze-kven-tsee-rung", meaning: "bisulfite sequencing", gender: "die", example: { de: "Whole-genome Bisulfitsequenzierung.", en: "Whole-genome bisulfite sequencing." } },
+    { word: "die Epigenom", phonetic: "e-pi-ge-nohm", meaning: "epigenome", gender: "das", example: { de: "Zelltypspezifisches Epigenom.", en: "Cell type-specific epigenome." } },
+    { word: "die Enhancer-Aktivität", phonetic: "en-hayn-ser-ak-ti-vi-tayt", meaning: "enhancer activity", gender: "die", example: { de: "Distale Enhancer-Aktivität.", en: "Distal enhancer activity." } },
+    { word: "die Heterochromatin", phonetic: "he-te-ro-kro-ma-teen", meaning: "heterochromatin", gender: "das", example: { de: "Konstitutives Heterochromatin.", en: "Constitutive heterochromatin." } },
+    { word: "die Euchromatin", phonetic: "oy-kro-ma-teen", meaning: "euchromatin", gender: "das", example: { de: "Transkriptionsaktives Euchromatin.", en: "Transcriptionally active euchromatin." } },
+    { word: "die Umweltepigenetik", phonetic: "oom-velt-e-pi-ge-nay-tik", meaning: "environmental epigenetics", gender: "die", example: { de: "Toxikologische Umweltepigenetik.", en: "Toxicological environmental epigenetics." } },
+    { word: "die Histon-Demethylase", phonetic: "his-ton-de-me-tü-lah-zuh", meaning: "histone demethylase", gender: "die", example: { de: "Jumonji-Histon-Demethylase.", en: "Jumonji histone demethylase." } },
+    { word: "die Nukleosom-Positionierung", phonetic: "noo-kle-oh-zohm-po-zi-tsee-oh-nee-rung", meaning: "nucleosome positioning", gender: "die", example: { de: "Sequenzabhängige Nukleosom-Positionierung.", en: "Sequence-dependent nucleosome positioning." } },
+    { word: "die Epigenetische Uhr", phonetic: "e-pi-ge-nay-ti-shuh oor", meaning: "epigenetic clock", example: { de: "Horvath-epigenetische Uhr.", en: "Horvath epigenetic clock." } },
+  ]}] },
+};

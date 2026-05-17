@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega57: Record<string, Lesson> = {
+  "lb2_m102": { id: "lb2_m102", title: "Volcanology B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Vulkanologie", phonetic: "vool-ka-no-lo-gee", meaning: "volcanology", gender: "die", example: { de: "Experimentelle Vulkanologie.", en: "Experimental volcanology." } },
+    { word: "die Eruption", phonetic: "e-roop-tsee-ohn", meaning: "eruption", gender: "die", example: { de: "Explosive Eruption.", en: "Explosive eruption." } },
+    { word: "die Magmakammer", phonetic: "mag-ma-ka-mer", meaning: "magma chamber", gender: "die", example: { de: "Tiefe Magmakammer.", en: "Deep magma chamber." } },
+    { word: "die Lava", phonetic: "lah-va", meaning: "lava", gender: "die", example: { de: "Fließende Lava.", en: "Flowing lava." } },
+    { word: "der Vulkankegel", phonetic: "vool-kahn-kay-gel", meaning: "volcanic cone", gender: "der", example: { de: "Symmetrischer Vulkankegel.", en: "Symmetrical volcanic cone." } },
+    { word: "die Caldera", phonetic: "kal-day-ra", meaning: "caldera", gender: "die", example: { de: "Eingestürzte Caldera.", en: "Collapsed caldera." } },
+    { word: "die Pyroklastische Strömung", phonetic: "pü-ro-klas-ti-shuh shtrö-mung", meaning: "pyroclastic flow", example: { de: "Tödliche pyroklastische Strömung.", en: "Deadly pyroclastic flow." } },
+    { word: "die Tephra", phonetic: "tay-fra", meaning: "tephra", gender: "die", example: { de: "Vulkanische Tephra.", en: "Volcanic tephra." } },
+    { word: "der Lahar", phonetic: "la-har", meaning: "lahar", gender: "der", example: { de: "Vulkanischer Lahar.", en: "Volcanic lahar." } },
+    { word: "die Fumarole", phonetic: "foo-ma-ro-luh", meaning: "fumarole", gender: "die", example: { de: "Schwefelhaltige Fumarole.", en: "Sulfurous fumarole." } },
+    { word: "die Seismizität", phonetic: "zys-mi-tsi-tayt", meaning: "seismicity", gender: "die", example: { de: "Vulkanische Seismizität.", en: "Volcanic seismicity." } },
+    { word: "die Deformation", phonetic: "de-for-ma-tsee-ohn", meaning: "deformation", gender: "die", example: { de: "Bodenhebung und Deformation.", en: "Ground uplift and deformation." } },
+    { word: "die Vulkanische Asche", phonetic: "vool-kah-ni-shuh a-shuh", meaning: "volcanic ash", example: { de: "Feine vulkanische Asche.", en: "Fine volcanic ash." } },
+    { word: "die Hotspot-Vulkanismus", phonetic: "hot-spot-vool-ka-nis-mus", meaning: "hotspot volcanism", gender: "der", example: { de: "Hawaiianischer Hotspot-Vulkanismus.", en: "Hawaiian hotspot volcanism." } },
+    { word: "die Subglaziale Eruption", phonetic: "zoop-gla-tsee-ah-luh e-roop-tsee-ohn", meaning: "subglacial eruption", example: { de: "Isländische subglaziale Eruption.", en: "Icelandic subglacial eruption." } },
+    { word: "die Effusiv", phonetic: "e-foo-zeef", meaning: "effusive (eruption)", example: { de: "Effusive Eruption.", en: "Effusive eruption." } },
+    { word: "die Explosiv", phonetic: "eks-plo-zeef", meaning: "explosive (eruption)", example: { de: "Plinianische explosive Eruption.", en: "Plinian explosive eruption." } },
+    { word: "die Vulkanüberwachung", phonetic: "vool-kahn-ü-ber-va-khung", meaning: "volcano monitoring", gender: "die", example: { de: "Satelliten-Vulkanüberwachung.", en: "Satellite volcano monitoring." } },
+    { word: "die Supervulkan", phonetic: "zoo-per-vool-kahn", meaning: "supervolcano", gender: "der", example: { de: "Yellowstone-Supervulkan.", en: "Yellowstone supervolcano." } },
+    { word: "die Obsidian", phonetic: "op-zi-dee-ahn", meaning: "obsidian", gender: "der", example: { de: "Vulkanisches Obsidian.", en: "Volcanic obsidian." } },
+  ]}] },
+};

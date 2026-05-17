@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega58: Record<string, Lesson> = {
+  "la1_m108": { id: "la1_m108", title: "Materials & Textures A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Holz", phonetic: "holts", meaning: "wood", gender: "das", example: { de: "Ein Tisch aus Holz.", en: "A table made of wood." } },
+    { word: "das Metall", phonetic: "me-tal", meaning: "metal", gender: "das", example: { de: "Aus Metall gemacht.", en: "Made of metal." } },
+    { word: "das Glas", phonetic: "glahs", meaning: "glass", gender: "das", example: { de: "Eine Tür aus Glas.", en: "A glass door." } },
+    { word: "der Stoff", phonetic: "shtof", meaning: "fabric / material", gender: "der", example: { de: "Weicher Stoff.", en: "Soft fabric." } },
+    { word: "das Leder", phonetic: "lay-der", meaning: "leather", gender: "das", example: { de: "Eine Ledertasche.", en: "A leather bag." } },
+    { word: "die Wolle", phonetic: "vo-luh", meaning: "wool", gender: "die", example: { de: "Ein Pullover aus Wolle.", en: "A wool sweater." } },
+    { word: "die Baumwolle", phonetic: "bowm-vo-luh", meaning: "cotton", gender: "die", example: { de: "Aus reiner Baumwolle.", en: "Made of pure cotton." } },
+    { word: "die Seide", phonetic: "zy-duh", meaning: "silk", gender: "die", example: { de: "Ein Kleid aus Seide.", en: "A silk dress." } },
+    { word: "der Stein", phonetic: "shtyne", meaning: "stone", gender: "der", example: { de: "Ein schwerer Stein.", en: "A heavy stone." } },
+    { word: "der Kunststoff", phonetic: "koonst-shtof", meaning: "plastic", gender: "der", example: { de: "Aus Kunststoff.", en: "Made of plastic." } },
+    { word: "das Papier", phonetic: "pa-peer", meaning: "paper", gender: "das", example: { de: "Ein Blatt Papier.", en: "A sheet of paper." } },
+    { word: "die Pappe", phonetic: "pa-puh", meaning: "cardboard", gender: "die", example: { de: "Eine Box aus Pappe.", en: "A cardboard box." } },
+    { word: "der Gummi", phonetic: "goo-mee", meaning: "rubber", gender: "der", example: { de: "Schuhe aus Gummi.", en: "Rubber shoes." } },
+    { word: "das Gold", phonetic: "golt", meaning: "gold", gender: "das", example: { de: "Ein Ring aus Gold.", en: "A gold ring." } },
+    { word: "das Silber", phonetic: "zil-ber", meaning: "silver", gender: "das", example: { de: "Silberner Schmuck.", en: "Silver jewelry." } },
+    { word: "das Eisen", phonetic: "ay-zen", meaning: "iron", gender: "das", example: { de: "Hart wie Eisen.", en: "Hard as iron." } },
+    { word: "das Kupfer", phonetic: "koo-pfer", meaning: "copper", gender: "das", example: { de: "Kupferne Leitungen.", en: "Copper wires." } },
+    { word: "der Beton", phonetic: "beh-ton", meaning: "concrete", gender: "der", example: { de: "Wände aus Beton.", en: "Concrete walls." } },
+    { word: "der Ziegel", phonetic: "tsee-gel", meaning: "brick", gender: "der", example: { de: "Rote Ziegel.", en: "Red bricks." } },
+    { word: "das Porzellan", phonetic: "por-tse-lahn", meaning: "porcelain", gender: "das", example: { de: "Feines Porzellan.", en: "Fine porcelain." } },
+  ]}] },
+};
