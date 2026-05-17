@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega48: Record<string, Lesson> = {
+  "lc1_m94": { id: "lc1_m94", title: "Advanced Epistemology C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Erkenntnistheorie", phonetic: "er-kent-nis-tay-oh-ree", meaning: "epistemology", gender: "die", example: { de: "Analytische Erkenntnistheorie.", en: "Analytic epistemology." } },
+    { word: "die Wahrheitstheorie", phonetic: "vahr-hyts-tay-oh-ree", meaning: "theory of truth", gender: "die", example: { de: "Korrespondenzwahrheitstheorie.", en: "Correspondence theory of truth." } },
+    { word: "die Rechtfertigung", phonetic: "rekht-fer-ti-gung", meaning: "justification (epistemic)", gender: "die", example: { de: "Epistemische Rechtfertigung.", en: "Epistemic justification." } },
+    { word: "der Skeptizismus", phonetic: "skep-ti-tsis-mus", meaning: "skepticism", gender: "der", example: { de: "Cartesischer Skeptizismus.", en: "Cartesian skepticism." } },
+    { word: "der Empirismus", phonetic: "em-pi-ris-mus", meaning: "empiricism", gender: "der", example: { de: "Britischer Empirismus.", en: "British empiricism." } },
+    { word: "der Rationalismus", phonetic: "ra-tsee-oh-na-lis-mus", meaning: "rationalism", gender: "der", example: { de: "Kontinentaler Rationalismus.", en: "Continental rationalism." } },
+    { word: "der Konstruktivismus", phonetic: "kon-strook-ti-vis-mus", meaning: "constructivism", gender: "der", example: { de: "Sozialer Konstruktivismus.", en: "Social constructivism." } },
+    { word: "der Fallibilismus", phonetic: "fa-li-bi-lis-mus", meaning: "fallibilism", gender: "der", example: { de: "Poppers Fallibilismus.", en: "Popper's fallibilism." } },
+    { word: "die Induktion", phonetic: "in-dook-tsee-ohn", meaning: "induction (logic)", gender: "die", example: { de: "Vollständige Induktion.", en: "Complete induction." } },
+    { word: "die Deduktion", phonetic: "de-dook-tsee-ohn", meaning: "deduction", gender: "die", example: { de: "Logische Deduktion.", en: "Logical deduction." } },
+    { word: "die Abduktion", phonetic: "ap-dook-tsee-ohn", meaning: "abduction (logic)", gender: "die", example: { de: "Peircsche Abduktion.", en: "Peircean abduction." } },
+    { word: "der Reliabilismus", phonetic: "re-lee-a-bi-lis-mus", meaning: "reliabilism", gender: "der", example: { de: "Prozessreliabilismus.", en: "Process reliabilism." } },
+    { word: "der Kohärentismus", phonetic: "ko-hay-ren-tis-mus", meaning: "coherentism", gender: "der", example: { de: "Epistemischer Kohärentismus.", en: "Epistemic coherentism." } },
+    { word: "der Fundamentalismus", phonetic: "foon-da-men-ta-lis-mus", meaning: "foundationalism", gender: "der", example: { de: "Epistemischer Fundamentalismus.", en: "Epistemic foundationalism." } },
+    { word: "die Bayessche Erkenntnistheorie", phonetic: "bay-es-shuh er-kent-nis-tay-oh-ree", meaning: "Bayesian epistemology", example: { de: "Subjektive Bayessche Erkenntnistheorie.", en: "Subjective Bayesian epistemology." } },
+    { word: "die Wissenschaftsphilosophie", phonetic: "vi-sen-shafts-fi-lo-zo-fee", meaning: "philosophy of science", gender: "die", example: { de: "Analytische Wissenschaftsphilosophie.", en: "Analytic philosophy of science." } },
+    { word: "die Paradigmentheorie", phonetic: "pa-ra-dig-men-tay-oh-ree", meaning: "paradigm theory", gender: "die", example: { de: "Kuhns Paradigmentheorie.", en: "Kuhn's paradigm theory." } },
+    { word: "die Falsifikation", phonetic: "fal-zi-fi-ka-tsee-ohn", meaning: "falsification", gender: "die", example: { de: "Poppersche Falsifikation.", en: "Popperian falsification." } },
+    { word: "die Verifikation", phonetic: "ve-ri-fi-ka-tsee-ohn", meaning: "verification", gender: "die", example: { de: "Empirische Verifikation.", en: "Empirical verification." } },
+    { word: "die Objektivität", phonetic: "ob-yek-ti-vi-tayt", meaning: "objectivity", gender: "die", example: { de: "Wissenschaftliche Objektivität.", en: "Scientific objectivity." } },
+  ]}] },
+};

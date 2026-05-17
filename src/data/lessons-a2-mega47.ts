@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega47: Record<string, Lesson> = {
+  "la2_m92": { id: "la2_m92", title: "Accommodation & Housing A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Wohnung", phonetic: "voh-nung", meaning: "apartment", gender: "die", example: { de: "Eine Wohnung mieten.", en: "Rent an apartment." } },
+    { word: "der Vermieter", phonetic: "fer-mee-ter", meaning: "landlord", gender: "der", example: { de: "Der Vermieter klingelt.", en: "The landlord rings." } },
+    { word: "der Mieter", phonetic: "mee-ter", meaning: "tenant", gender: "der", example: { de: "Ein neuer Mieter.", en: "A new tenant." } },
+    { word: "der Mietvertrag", phonetic: "meet-fer-trahg", meaning: "rental contract", gender: "der", example: { de: "Den Mietvertrag unterschreiben.", en: "Sign the rental contract." } },
+    { word: "die Kaution", phonetic: "kow-tsee-ohn", meaning: "security deposit", gender: "die", example: { de: "Drei Monatsmieten Kaution.", en: "Three months' deposit." } },
+    { word: "die Nebenkosten", phonetic: "nay-ben-kos-ten", meaning: "utility costs", example: { de: "Nebenkosten inklusive.", en: "Utilities included." } },
+    { word: "die Heizung", phonetic: "hy-tsung", meaning: "heating", gender: "die", example: { de: "Die Heizung einschalten.", en: "Turn on the heating." } },
+    { word: "der Aufzug", phonetic: "owf-tsoog", meaning: "elevator", gender: "der", example: { de: "Mit dem Aufzug fahren.", en: "Take the elevator." } },
+    { word: "der Keller", phonetic: "ke-ler", meaning: "basement / cellar", gender: "der", example: { de: "Im Keller lagern.", en: "Store in the basement." } },
+    { word: "der Dachboden", phonetic: "dakh-boh-den", meaning: "attic", gender: "der", example: { de: "Auf dem Dachboden.", en: "In the attic." } },
+    { word: "der Balkon", phonetic: "bal-kohn", meaning: "balcony", gender: "der", example: { de: "Auf dem Balkon sitzen.", en: "Sit on the balcony." } },
+    { word: "die Terrasse", phonetic: "te-ra-suh", meaning: "terrace / patio", gender: "die", example: { de: "Auf der Terrasse essen.", en: "Eat on the terrace." } },
+    { word: "der Innenhof", phonetic: "i-nen-hohf", meaning: "courtyard", gender: "der", example: { de: "Im Innenhof spielen.", en: "Play in the courtyard." } },
+    { word: "die Einzimmerwohnung", phonetic: "ayn-tsi-mer-voh-nung", meaning: "studio apartment", gender: "die", example: { de: "Eine kleine Einzimmerwohnung.", en: "A small studio." } },
+    { word: "die WG", phonetic: "vay-gay", meaning: "shared apartment", gender: "die", example: { de: "In einer WG wohnen.", en: "Live in a shared apartment." } },
+    { word: "die Kündigung", phonetic: "kün-di-gung", meaning: "termination / notice", gender: "die", example: { de: "Die Kündigung einreichen.", en: "Submit notice." } },
+    { word: "umziehen", phonetic: "oom-tsee-en", meaning: "to move (house)", example: { de: "Nächsten Monat umziehen.", en: "Move next month." } },
+    { word: "renovieren", phonetic: "re-no-vee-ren", meaning: "to renovate", example: { de: "Die Wohnung renovieren.", en: "Renovate the apartment." } },
+    { word: "streichen", phonetic: "shtry-khen", meaning: "to paint (walls)", example: { de: "Die Wände streichen.", en: "Paint the walls." } },
+    { word: "die Quadratmeter", phonetic: "kva-draht-may-ter", meaning: "square meters", example: { de: "80 Quadratmeter.", en: "80 square meters." } },
+  ]}] },
+};

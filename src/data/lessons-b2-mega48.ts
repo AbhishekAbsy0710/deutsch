@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega48: Record<string, Lesson> = {
+  "lb2_m93": { id: "lb2_m93", title: "Genetics & Genomics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Genetik", phonetic: "ge-nay-tik", meaning: "genetics", gender: "die", example: { de: "Molekulare Genetik.", en: "Molecular genetics." } },
+    { word: "die DNA", phonetic: "day-en-ah", meaning: "DNA", gender: "die", example: { de: "DNA-Sequenzierung.", en: "DNA sequencing." } },
+    { word: "das Gen", phonetic: "gayn", meaning: "gene", gender: "das", example: { de: "Ein defektes Gen.", en: "A defective gene." } },
+    { word: "das Genom", phonetic: "ge-nohm", meaning: "genome", gender: "das", example: { de: "Das menschliche Genom.", en: "The human genome." } },
+    { word: "die Mutation", phonetic: "moo-ta-tsee-ohn", meaning: "mutation", gender: "die", example: { de: "Somatische Mutation.", en: "Somatic mutation." } },
+    { word: "die Vererbung", phonetic: "fer-er-bung", meaning: "inheritance / heredity", gender: "die", example: { de: "Mendelsche Vererbung.", en: "Mendelian inheritance." } },
+    { word: "die Genexpression", phonetic: "gayn-eks-pre-see-ohn", meaning: "gene expression", gender: "die", example: { de: "Regulierte Genexpression.", en: "Regulated gene expression." } },
+    { word: "die Epigenetik", phonetic: "e-pi-ge-nay-tik", meaning: "epigenetics", gender: "die", example: { de: "Transgenerationelle Epigenetik.", en: "Transgenerational epigenetics." } },
+    { word: "die Gentherapie", phonetic: "gayn-te-ra-pee", meaning: "gene therapy", gender: "die", example: { de: "Somatische Gentherapie.", en: "Somatic gene therapy." } },
+    { word: "die Genomik", phonetic: "ge-noh-mik", meaning: "genomics", gender: "die", example: { de: "Vergleichende Genomik.", en: "Comparative genomics." } },
+    { word: "die CRISPR-Technologie", phonetic: "kris-per-tekh-no-lo-gee", meaning: "CRISPR technology", gender: "die", example: { de: "CRISPR-Cas9-Technologie.", en: "CRISPR-Cas9 technology." } },
+    { word: "der Phänotyp", phonetic: "fay-no-tüp", meaning: "phenotype", gender: "der", example: { de: "Sichtbarer Phänotyp.", en: "Visible phenotype." } },
+    { word: "der Genotyp", phonetic: "ge-no-tüp", meaning: "genotype", gender: "der", example: { de: "Heterozygoter Genotyp.", en: "Heterozygous genotype." } },
+    { word: "die Chromosomenaberration", phonetic: "kro-mo-zo-men-a-be-ra-tsee-ohn", meaning: "chromosomal aberration", gender: "die", example: { de: "Numerische Chromosomenaberration.", en: "Numerical chromosomal aberration." } },
+    { word: "die Stammzellenforschung", phonetic: "shtam-tse-len-for-shung", meaning: "stem cell research", gender: "die", example: { de: "Embryonale Stammzellenforschung.", en: "Embryonic stem cell research." } },
+    { word: "die Transkription", phonetic: "trans-krip-tsee-ohn", meaning: "transcription (genetic)", gender: "die", example: { de: "RNA-Transkription.", en: "RNA transcription." } },
+    { word: "die Translation", phonetic: "trans-la-tsee-ohn", meaning: "translation (genetic)", gender: "die", example: { de: "Ribosomale Translation.", en: "Ribosomal translation." } },
+    { word: "die Pharmakogenomik", phonetic: "far-ma-ko-ge-noh-mik", meaning: "pharmacogenomics", gender: "die", example: { de: "Personalisierte Pharmakogenomik.", en: "Personalized pharmacogenomics." } },
+    { word: "die Populationsgenetik", phonetic: "po-poo-la-tsee-ohns-ge-nay-tik", meaning: "population genetics", gender: "die", example: { de: "Statistische Populationsgenetik.", en: "Statistical population genetics." } },
+    { word: "die Bioinformatik", phonetic: "bee-oh-in-for-ma-tik", meaning: "bioinformatics", gender: "die", example: { de: "Genomische Bioinformatik.", en: "Genomic bioinformatics." } },
+  ]}] },
+};

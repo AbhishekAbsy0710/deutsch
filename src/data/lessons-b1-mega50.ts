@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega50: Record<string, Lesson> = {
+  "lb1_m101": { id: "lb1_m101", title: "History & Politics B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Demokratie", phonetic: "de-mo-kra-tee", meaning: "democracy", gender: "die", example: { de: "Eine parlamentarische Demokratie.", en: "A parliamentary democracy." } },
+    { word: "die Diktatur", phonetic: "dik-ta-toor", meaning: "dictatorship", gender: "die", example: { de: "Unter einer Diktatur.", en: "Under a dictatorship." } },
+    { word: "die Revolution", phonetic: "re-vo-loo-tsee-ohn", meaning: "revolution", gender: "die", example: { de: "Die Französische Revolution.", en: "The French Revolution." } },
+    { word: "die Wiedervereinigung", phonetic: "vee-der-fer-ay-ni-gung", meaning: "reunification", gender: "die", example: { de: "Die deutsche Wiedervereinigung.", en: "German reunification." } },
+    { word: "die Mauer", phonetic: "mow-er", meaning: "wall (Berlin)", gender: "die", example: { de: "Der Fall der Mauer.", en: "The fall of the wall." } },
+    { word: "der Bundestag", phonetic: "boon-des-tahg", meaning: "Bundestag (parliament)", gender: "der", example: { de: "Im Bundestag abstimmen.", en: "Vote in parliament." } },
+    { word: "der Bundeskanzler", phonetic: "boon-des-kants-ler", meaning: "federal chancellor", gender: "der", example: { de: "Der Bundeskanzler regiert.", en: "The chancellor governs." } },
+    { word: "der Bundesrat", phonetic: "boon-des-raht", meaning: "Federal Council", gender: "der", example: { de: "Der Bundesrat berät.", en: "The Federal Council advises." } },
+    { word: "das Grundgesetz", phonetic: "groont-geh-zets", meaning: "Basic Law (constitution)", gender: "das", example: { de: "Das Grundgesetz schützt.", en: "The Basic Law protects." } },
+    { word: "die Verfassung", phonetic: "fer-fa-sung", meaning: "constitution", gender: "die", example: { de: "Die Verfassung ändern.", en: "Amend the constitution." } },
+    { word: "die Koalition", phonetic: "ko-a-li-tsee-ohn", meaning: "coalition", gender: "die", example: { de: "Eine Koalition bilden.", en: "Form a coalition." } },
+    { word: "die Opposition", phonetic: "o-po-zi-tsee-ohn", meaning: "opposition", gender: "die", example: { de: "Die Opposition kritisiert.", en: "The opposition criticizes." } },
+    { word: "das Wahlrecht", phonetic: "vahl-rekht", meaning: "right to vote", gender: "das", example: { de: "Allgemeines Wahlrecht.", en: "Universal suffrage." } },
+    { word: "der Abgeordnete", phonetic: "ap-geh-ord-ne-tuh", meaning: "member of parliament", gender: "der", example: { de: "Ein Abgeordneter spricht.", en: "An MP speaks." } },
+    { word: "die Partei", phonetic: "par-ty", meaning: "political party", gender: "die", example: { de: "Eine neue Partei.", en: "A new party." } },
+    { word: "der Krieg", phonetic: "kreeg", meaning: "war", gender: "der", example: { de: "Krieg und Frieden.", en: "War and peace." } },
+    { word: "der Frieden", phonetic: "free-den", meaning: "peace", gender: "der", example: { de: "Frieden schließen.", en: "Make peace." } },
+    { word: "die Menschenrechte", phonetic: "men-shen-rekh-tuh", meaning: "human rights", example: { de: "Menschenrechte schützen.", en: "Protect human rights." } },
+    { word: "die Europäische Union", phonetic: "oy-ro-pay-i-shuh oo-nee-ohn", meaning: "European Union", example: { de: "Die Europäische Union.", en: "The European Union." } },
+    { word: "die Außenpolitik", phonetic: "ow-sen-po-li-tik", meaning: "foreign policy", gender: "die", example: { de: "Deutsche Außenpolitik.", en: "German foreign policy." } },
+  ]}] },
+};

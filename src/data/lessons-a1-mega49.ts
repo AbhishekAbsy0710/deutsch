@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega49: Record<string, Lesson> = {
+  "la1_m99": { id: "la1_m99", title: "Prepositions & Directions A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "gegenüber", phonetic: "gay-gen-ü-ber", meaning: "opposite / across from", example: { de: "Gegenüber dem Park.", en: "Opposite the park." } },
+    { word: "entlang", phonetic: "ent-lang", meaning: "along", example: { de: "Die Straße entlang.", en: "Along the street." } },
+    { word: "außerhalb", phonetic: "ow-ser-halp", meaning: "outside of", example: { de: "Außerhalb der Stadt.", en: "Outside the city." } },
+    { word: "innerhalb", phonetic: "i-ner-halp", meaning: "inside / within", example: { de: "Innerhalb des Gebäudes.", en: "Inside the building." } },
+    { word: "oberhalb", phonetic: "oh-ber-halp", meaning: "above", example: { de: "Oberhalb des Dorfes.", en: "Above the village." } },
+    { word: "unterhalb", phonetic: "oon-ter-halp", meaning: "below", example: { de: "Unterhalb der Brücke.", en: "Below the bridge." } },
+    { word: "abbiegen", phonetic: "ap-bee-gen", meaning: "to turn (direction)", example: { de: "Links abbiegen.", en: "Turn left." } },
+    { word: "geradeaus", phonetic: "ge-rah-duh-ows", meaning: "straight ahead", example: { de: "Immer geradeaus.", en: "Always straight ahead." } },
+    { word: "die Kreuzung", phonetic: "kroy-tsung", meaning: "intersection", gender: "die", example: { de: "An der Kreuzung.", en: "At the intersection." } },
+    { word: "die Ampel", phonetic: "am-pel", meaning: "traffic light", gender: "die", example: { de: "Bei der Ampel.", en: "At the traffic light." } },
+    { word: "der Bürgersteig", phonetic: "bür-ger-shtyg", meaning: "sidewalk", gender: "der", example: { de: "Auf dem Bürgersteig.", en: "On the sidewalk." } },
+    { word: "die Einbahnstraße", phonetic: "ayn-bahn-shtrah-suh", meaning: "one-way street", gender: "die", example: { de: "Eine Einbahnstraße.", en: "A one-way street." } },
+    { word: "der Zebrastreifen", phonetic: "tsay-bra-shtry-fen", meaning: "crosswalk", gender: "der", example: { de: "Am Zebrastreifen.", en: "At the crosswalk." } },
+    { word: "die Sackgasse", phonetic: "zak-ga-suh", meaning: "dead end", gender: "die", example: { de: "Eine Sackgasse.", en: "A dead end." } },
+    { word: "der Kreisel", phonetic: "kry-zel", meaning: "roundabout", gender: "der", example: { de: "Im Kreisel fahren.", en: "Drive in the roundabout." } },
+    { word: "die Unterführung", phonetic: "oon-ter-fü-rung", meaning: "underpass", gender: "die", example: { de: "Durch die Unterführung.", en: "Through the underpass." } },
+    { word: "die Überführung", phonetic: "ü-ber-fü-rung", meaning: "overpass", gender: "die", example: { de: "Über die Überführung.", en: "Over the overpass." } },
+    { word: "der Parkplatz", phonetic: "park-plats", meaning: "parking lot", gender: "der", example: { de: "Einen Parkplatz suchen.", en: "Look for a parking spot." } },
+    { word: "die Haltestelle", phonetic: "hal-tuh-shte-luh", meaning: "bus/tram stop", gender: "die", example: { de: "An der Haltestelle warten.", en: "Wait at the stop." } },
+    { word: "die Umleitung", phonetic: "oom-ly-tung", meaning: "detour", gender: "die", example: { de: "Eine Umleitung fahren.", en: "Take a detour." } },
+  ]}] },
+};

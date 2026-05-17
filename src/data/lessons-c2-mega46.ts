@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega46: Record<string, Lesson> = {
+  "lc2_m89": { id: "lc2_m89", title: "Advanced Spintronics C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Spintronik", phonetic: "shpin-tro-nik", meaning: "spintronics", gender: "die", example: { de: "Halbleiter-Spintronik.", en: "Semiconductor spintronics." } },
+    { word: "der Elektronenspin", phonetic: "e-lek-tro-nen-shpin", meaning: "electron spin", gender: "der", example: { de: "Quantisierter Elektronenspin.", en: "Quantized electron spin." } },
+    { word: "die Spintronikmaterialien", phonetic: "shpin-tro-nik-ma-te-ree-ah-lee-en", meaning: "spintronics materials", example: { de: "Topologische Spintronikmaterialien.", en: "Topological spintronics materials." } },
+    { word: "der Riesenmagnetowiderstand", phonetic: "ree-zen-mag-nay-to-vi-der-shtant", meaning: "giant magnetoresistance", gender: "der", example: { de: "GMR-Riesenmagnetowiderstand.", en: "GMR giant magnetoresistance." } },
+    { word: "der Tunnelmagnetowiderstand", phonetic: "too-nel-mag-nay-to-vi-der-shtant", meaning: "tunnel magnetoresistance", gender: "der", example: { de: "TMR-Tunnelmagnetowiderstand.", en: "TMR tunnel magnetoresistance." } },
+    { word: "die Spininjektion", phonetic: "shpin-in-yek-tsee-ohn", meaning: "spin injection", gender: "die", example: { de: "Elektrische Spininjektion.", en: "Electrical spin injection." } },
+    { word: "die Spinrelaxation", phonetic: "shpin-re-lak-sa-tsee-ohn", meaning: "spin relaxation", gender: "die", example: { de: "Spin-Bahn-Spinrelaxation.", en: "Spin-orbit spin relaxation." } },
+    { word: "der Spin-Hall-Effekt", phonetic: "shpin-hal-e-fekt", meaning: "spin Hall effect", gender: "der", example: { de: "Inverser Spin-Hall-Effekt.", en: "Inverse spin Hall effect." } },
+    { word: "die Spin-Bahn-Kopplung", phonetic: "shpin-bahn-kop-lung", meaning: "spin-orbit coupling", gender: "die", example: { de: "Starke Spin-Bahn-Kopplung.", en: "Strong spin-orbit coupling." } },
+    { word: "die Spinwelle", phonetic: "shpin-ve-luh", meaning: "spin wave", gender: "die", example: { de: "Ferromagnetische Spinwelle.", en: "Ferromagnetic spin wave." } },
+    { word: "die Magnonik", phonetic: "mag-noh-nik", meaning: "magnonics", gender: "die", example: { de: "Quantenmagnonik.", en: "Quantum magnonics." } },
+    { word: "die Spinventil", phonetic: "shpin-ven-teel", meaning: "spin valve", gender: "das", example: { de: "Magnetisches Spinventil.", en: "Magnetic spin valve." } },
+    { word: "die Spintransfer-Drehmoment", phonetic: "shpin-trans-fer-dray-mo-ment", meaning: "spin-transfer torque", gender: "das", example: { de: "STT-Spintransfer-Drehmoment.", en: "STT spin-transfer torque." } },
+    { word: "die Skyrmionik", phonetic: "skür-mee-oh-nik", meaning: "skyrmionics", gender: "die", example: { de: "Magnetische Skyrmionik.", en: "Magnetic skyrmionics." } },
+    { word: "die Spinkaloritronik", phonetic: "shpin-ka-lo-ri-tro-nik", meaning: "spin caloritronics", gender: "die", example: { de: "Seebeck-Spinkaloritronik.", en: "Seebeck spin caloritronics." } },
+    { word: "die Antiferromagnet-Spintronik", phonetic: "an-ti-fe-ro-mag-nayt-shpin-tro-nik", meaning: "antiferromagnet spintronics", gender: "die", example: { de: "THz-Antiferromagnet-Spintronik.", en: "THz antiferromagnet spintronics." } },
+    { word: "die Rastertunnelmikroskopie", phonetic: "ras-ter-too-nel-mi-kro-sko-pee", meaning: "scanning tunneling microscopy", gender: "die", example: { de: "Spinpolarisierte Rastertunnelmikroskopie.", en: "Spin-polarized STM." } },
+    { word: "die Spinqubits", phonetic: "shpin-kyoo-bits", meaning: "spin qubits", example: { de: "Silizium-Spinqubits.", en: "Silicon spin qubits." } },
+    { word: "die Orbitronik", phonetic: "or-bi-tro-nik", meaning: "orbitronics", gender: "die", example: { de: "Orbitale Orbitronik.", en: "Orbital orbitronics." } },
+    { word: "die Spintronische Logik", phonetic: "shpin-tro-ni-shuh lo-gik", meaning: "spintronic logic", example: { de: "Nichtflüchtige spintronische Logik.", en: "Non-volatile spintronic logic." } },
+  ]}] },
+};
