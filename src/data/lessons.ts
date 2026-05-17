@@ -160,6 +160,7 @@ import { lessonsC1Mega8 } from "./lessons-c1-mega8";
 import { lessonsC1Mega9 } from "./lessons-c1-mega9";
 import { lessonsC1Mega10 } from "./lessons-c1-mega10";
 import { lessonsC1Mega11 } from "./lessons-c1-mega11";
+import { lessonsC1Mega12 } from "./lessons-c1-mega12";
 import { lessonsC2Mega1 } from "./lessons-c2-mega1";
 import { lessonsC2Mega2 } from "./lessons-c2-mega2";
 import { lessonsC2Mega3 } from "./lessons-c2-mega3";
@@ -169,6 +170,7 @@ import { lessonsC2Mega6 } from "./lessons-c2-mega6";
 import { lessonsC2Mega7 } from "./lessons-c2-mega7";
 import { lessonsC2Mega8 } from "./lessons-c2-mega8";
 import { lessonsC2Mega9 } from "./lessons-c2-mega9";
+import { lessonsC2Mega10 } from "./lessons-c2-mega10";
 
 export type LessonBlock = 
   | { type: "vocabulary", word: string, translation: string, example: string, audioUrl?: string, phonetic: string }
@@ -356,6 +358,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC1Mega9,
   ...lessonsC1Mega10,
   ...lessonsC1Mega11,
+  ...lessonsC1Mega12,
   ...lessonsC2Mega1,
   ...lessonsC2Mega2,
   ...lessonsC2Mega3,
@@ -365,4 +368,5 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC2Mega7,
   ...lessonsC2Mega8,
   ...lessonsC2Mega9,
+  ...lessonsC2Mega10,
 };
