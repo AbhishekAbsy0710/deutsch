@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega54: Record<string, Lesson> = {
+  "lb2_m99": { id: "lb2_m99", title: "Bioethics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Bioethik", phonetic: "bee-oh-ay-tik", meaning: "bioethics", gender: "die", example: { de: "Angewandte Bioethik.", en: "Applied bioethics." } },
+    { word: "die Stammzellenforschung", phonetic: "shtam-tse-len-for-shung", meaning: "stem cell research", gender: "die", example: { de: "Embryonale Stammzellenforschung.", en: "Embryonic stem cell research." } },
+    { word: "das Klonen", phonetic: "kloh-nen", meaning: "cloning", gender: "das", example: { de: "Therapeutisches Klonen.", en: "Therapeutic cloning." } },
+    { word: "die Gentherapie", phonetic: "gayn-te-ra-pee", meaning: "gene therapy", gender: "die", example: { de: "Somatische Gentherapie.", en: "Somatic gene therapy." } },
+    { word: "die Sterbehilfe", phonetic: "shter-buh-hil-fuh", meaning: "euthanasia", gender: "die", example: { de: "Aktive Sterbehilfe.", en: "Active euthanasia." } },
+    { word: "die Patientenverfügung", phonetic: "pa-tsee-en-ten-fer-fü-gung", meaning: "living will", gender: "die", example: { de: "Eine Patientenverfügung erstellen.", en: "Create a living will." } },
+    { word: "die Organspende", phonetic: "or-gahn-shpen-duh", meaning: "organ donation", gender: "die", example: { de: "Organspende befürworten.", en: "Advocate organ donation." } },
+    { word: "die Einwilligungserklärung", phonetic: "ayn-vi-li-gungs-er-klay-rung", meaning: "informed consent", gender: "die", example: { de: "Informierte Einwilligungserklärung.", en: "Informed consent form." } },
+    { word: "die Reproduktionsmedizin", phonetic: "re-pro-dook-tsee-ohns-me-di-tseen", meaning: "reproductive medicine", gender: "die", example: { de: "Assistierte Reproduktionsmedizin.", en: "Assisted reproductive medicine." } },
+    { word: "die Präimplantationsdiagnostik", phonetic: "pray-im-plan-ta-tsee-ohns-dee-ag-nos-tik", meaning: "preimplantation diagnostics", gender: "die", example: { de: "Genetische Präimplantationsdiagnostik.", en: "Genetic preimplantation diagnostics." } },
+    { word: "die Tierversuch", phonetic: "teer-fer-zookh", meaning: "animal experimentation", gender: "der", example: { de: "Tierversuche reduzieren.", en: "Reduce animal experiments." } },
+    { word: "die Menschenwürde", phonetic: "men-shen-vür-duh", meaning: "human dignity", gender: "die", example: { de: "Unantastbare Menschenwürde.", en: "Inviolable human dignity." } },
+    { word: "die Pränataldiagnostik", phonetic: "pray-na-tahl-dee-ag-nos-tik", meaning: "prenatal diagnostics", gender: "die", example: { de: "Nichtinvasive Pränataldiagnostik.", en: "Noninvasive prenatal diagnostics." } },
+    { word: "die Palliativmedizin", phonetic: "pa-lee-a-teef-me-di-tseen", meaning: "palliative medicine", gender: "die", example: { de: "Ambulante Palliativmedizin.", en: "Outpatient palliative medicine." } },
+    { word: "die Neuroethik", phonetic: "noy-ro-ay-tik", meaning: "neuroethics", gender: "die", example: { de: "Kognitive Neuroethik.", en: "Cognitive neuroethics." } },
+    { word: "die Doppelblindversuch", phonetic: "do-pel-blint-fer-zookh", meaning: "double-blind trial", gender: "der", example: { de: "Randomisierter Doppelblindversuch.", en: "Randomized double-blind trial." } },
+    { word: "die Ethikkommission", phonetic: "ay-tik-ko-mi-see-ohn", meaning: "ethics committee", gender: "die", example: { de: "Klinische Ethikkommission.", en: "Clinical ethics committee." } },
+    { word: "die Forschungsfreiheit", phonetic: "for-shungs-fry-hyte", meaning: "research freedom", gender: "die", example: { de: "Akademische Forschungsfreiheit.", en: "Academic research freedom." } },
+    { word: "die Genomeditierung", phonetic: "ge-nohm-e-di-tee-rung", meaning: "genome editing", gender: "die", example: { de: "CRISPR-Genomeditierung.", en: "CRISPR genome editing." } },
+    { word: "die Xenotransplantation", phonetic: "kse-no-trans-plan-ta-tsee-ohn", meaning: "xenotransplantation", gender: "die", example: { de: "Schwein-zu-Mensch-Xenotransplantation.", en: "Pig-to-human xenotransplantation." } },
+  ]}] },
+};

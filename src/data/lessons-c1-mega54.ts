@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega54: Record<string, Lesson> = {
+  "lc1_m100": { id: "lc1_m100", title: "Advanced Geopolitics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Geopolitik", phonetic: "ge-oh-po-li-tik", meaning: "geopolitics", gender: "die", example: { de: "Eurasische Geopolitik.", en: "Eurasian geopolitics." } },
+    { word: "die Hegemonie", phonetic: "he-ge-mo-nee", meaning: "hegemony", gender: "die", example: { de: "Amerikanische Hegemonie.", en: "American hegemony." } },
+    { word: "die Multipolarität", phonetic: "mul-ti-po-la-ri-tayt", meaning: "multipolarity", gender: "die", example: { de: "Geopolitische Multipolarität.", en: "Geopolitical multipolarity." } },
+    { word: "die Souveränität", phonetic: "zoo-ve-ray-ni-tayt", meaning: "sovereignty", gender: "die", example: { de: "Nationale Souveränität.", en: "National sovereignty." } },
+    { word: "die Einflusssphäre", phonetic: "ayn-floos-sfay-ruh", meaning: "sphere of influence", gender: "die", example: { de: "Russische Einflusssphäre.", en: "Russian sphere of influence." } },
+    { word: "die Machtprojektion", phonetic: "makht-pro-yek-tsee-ohn", meaning: "power projection", gender: "die", example: { de: "Militärische Machtprojektion.", en: "Military power projection." } },
+    { word: "die Abschreckung", phonetic: "ap-shre-kung", meaning: "deterrence", gender: "die", example: { de: "Nukleare Abschreckung.", en: "Nuclear deterrence." } },
+    { word: "die Handelskrieg", phonetic: "han-dels-kreeg", meaning: "trade war", gender: "der", example: { de: "Sino-amerikanischer Handelskrieg.", en: "Sino-American trade war." } },
+    { word: "die Sanktion", phonetic: "zank-tsee-ohn", meaning: "sanction", gender: "die", example: { de: "Wirtschaftliche Sanktionen.", en: "Economic sanctions." } },
+    { word: "die Allianzbildung", phonetic: "a-lee-ants-bil-dung", meaning: "alliance formation", gender: "die", example: { de: "Strategische Allianzbildung.", en: "Strategic alliance formation." } },
+    { word: "die Ressourcenknappheit", phonetic: "re-soor-sen-knap-hyte", meaning: "resource scarcity", gender: "die", example: { de: "Geopolitische Ressourcenknappheit.", en: "Geopolitical resource scarcity." } },
+    { word: "die Transitroute", phonetic: "tran-zit-roo-tuh", meaning: "transit route", gender: "die", example: { de: "Strategische Transitroute.", en: "Strategic transit route." } },
+    { word: "die Cyberkriegsführung", phonetic: "sy-ber-kreegs-fü-rung", meaning: "cyber warfare", gender: "die", example: { de: "Staatliche Cyberkriegsführung.", en: "State cyber warfare." } },
+    { word: "die Hybride Kriegsführung", phonetic: "hü-bree-duh kreegs-fü-rung", meaning: "hybrid warfare", example: { de: "Russische hybride Kriegsführung.", en: "Russian hybrid warfare." } },
+    { word: "die Nichtverbreitung", phonetic: "nikht-fer-bry-tung", meaning: "non-proliferation", gender: "die", example: { de: "Nukleare Nichtverbreitung.", en: "Nuclear non-proliferation." } },
+    { word: "die Seerechtsübereinkommen", phonetic: "zay-rekhts-ü-ber-ayn-ko-men", meaning: "law of the sea convention", gender: "das", example: { de: "UN-Seerechtsübereinkommen.", en: "UN Convention on the Law of the Sea." } },
+    { word: "die Energiesicherheit", phonetic: "e-ner-gee-zi-kher-hyte", meaning: "energy security", gender: "die", example: { de: "Europäische Energiesicherheit.", en: "European energy security." } },
+    { word: "die Pufferstaat", phonetic: "poo-fer-shtaht", meaning: "buffer state", gender: "der", example: { de: "Geopolitischer Pufferstaat.", en: "Geopolitical buffer state." } },
+    { word: "die Thukydides-Falle", phonetic: "too-kü-di-des-fa-luh", meaning: "Thucydides trap", gender: "die", example: { de: "Die Thukydides-Falle vermeiden.", en: "Avoid the Thucydides trap." } },
+    { word: "die Revisionismus", phonetic: "re-vi-zee-oh-nis-mus", meaning: "revisionism (geopolitical)", gender: "der", example: { de: "Territoriale Revisionismus.", en: "Territorial revisionism." } },
+  ]}] },
+};

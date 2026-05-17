@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega52: Record<string, Lesson> = {
+  "lc2_m95": { id: "lc2_m95", title: "Advanced Synthetic Biology C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Synthetische Biologie", phonetic: "zün-tay-ti-shuh bee-oh-lo-gee", meaning: "synthetic biology", example: { de: "Industrielle synthetische Biologie.", en: "Industrial synthetic biology." } },
+    { word: "die Genkreislauf", phonetic: "gayn-krys-lowf", meaning: "genetic circuit", gender: "der", example: { de: "Boolescher Genkreislauf.", en: "Boolean genetic circuit." } },
+    { word: "die BioBricks", phonetic: "bee-oh-briks", meaning: "BioBricks", example: { de: "Standardisierte BioBricks.", en: "Standardized BioBricks." } },
+    { word: "die Chassis-Organismus", phonetic: "sha-see-or-ga-nis-mus", meaning: "chassis organism", gender: "der", example: { de: "Minimaler Chassis-Organismus.", en: "Minimal chassis organism." } },
+    { word: "die Codon-Optimierung", phonetic: "ko-don-op-ti-mee-rung", meaning: "codon optimization", gender: "die", example: { de: "Heterologe Codon-Optimierung.", en: "Heterologous codon optimization." } },
+    { word: "die Metabolische Ingenieurwesen", phonetic: "me-ta-bo-li-shuh in-je-nyör-vay-zen", meaning: "metabolic engineering", example: { de: "Rationales metabolisches Ingenieurwesen.", en: "Rational metabolic engineering." } },
+    { word: "die Gerichtete Evolution", phonetic: "geh-rikh-te-tuh e-vo-loo-tsee-ohn", meaning: "directed evolution", example: { de: "Iterative gerichtete Evolution.", en: "Iterative directed evolution." } },
+    { word: "die Zellfabrik", phonetic: "tsel-fa-breek", meaning: "cell factory", gender: "die", example: { de: "Mikrobielle Zellfabrik.", en: "Microbial cell factory." } },
+    { word: "die Biosensorik", phonetic: "bee-oh-zen-zo-rik", meaning: "biosensing", gender: "die", example: { de: "Zellbasierte Biosensorik.", en: "Cell-based biosensing." } },
+    { word: "die Xenobiologie", phonetic: "kse-no-bee-oh-lo-gee", meaning: "xenobiology", gender: "die", example: { de: "XNA-basierte Xenobiologie.", en: "XNA-based xenobiology." } },
+    { word: "die Programmierbare Zellen", phonetic: "pro-gra-meer-bah-ruh tse-len", meaning: "programmable cells", example: { de: "Therapeutische programmierbare Zellen.", en: "Therapeutic programmable cells." } },
+    { word: "die Protocell", phonetic: "pro-to-tsel", meaning: "protocell", gender: "die", example: { de: "Selbstreplizierende Protocell.", en: "Self-replicating protocell." } },
+    { word: "die Genoszillator", phonetic: "gayn-os-tsi-la-tor", meaning: "genetic oscillator", gender: "der", example: { de: "Repressilator-Genoszillator.", en: "Repressilator genetic oscillator." } },
+    { word: "die Optogenetik", phonetic: "op-to-ge-nay-tik", meaning: "optogenetics", gender: "die", example: { de: "Neuronale Optogenetik.", en: "Neural optogenetics." } },
+    { word: "die CRISPR-Interferenz", phonetic: "kris-per-in-ter-fe-rents", meaning: "CRISPRi", gender: "die", example: { de: "Programmierbare CRISPR-Interferenz.", en: "Programmable CRISPRi." } },
+    { word: "die Rekombinase", phonetic: "re-kom-bi-nah-zuh", meaning: "recombinase", gender: "die", example: { de: "Ortsspezifische Rekombinase.", en: "Site-specific recombinase." } },
+    { word: "die Genschalter", phonetic: "gayn-shal-ter", meaning: "gene switch", gender: "der", example: { de: "Induzierbarer Genschalter.", en: "Inducible gene switch." } },
+    { word: "die Biokonfinement", phonetic: "bee-oh-kon-fayn-ment", meaning: "bioconfinement", gender: "das", example: { de: "Genetisches Biokonfinement.", en: "Genetic bioconfinement." } },
+    { word: "die Riboschalter", phonetic: "ree-bo-shal-ter", meaning: "riboswitch", gender: "der", example: { de: "Adenin-responsiver Riboschalter.", en: "Adenine-responsive riboswitch." } },
+    { word: "die Biologische Abschirmung", phonetic: "bee-oh-lo-gi-shuh ap-shir-mung", meaning: "biological containment", example: { de: "Redundante biologische Abschirmung.", en: "Redundant biological containment." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega56: Record<string, Lesson> = {
+  "lb1_m107": { id: "lb1_m107", title: "Psychology & Emotions B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Psychologie", phonetic: "psü-kho-lo-gee", meaning: "psychology", gender: "die", example: { de: "Klinische Psychologie.", en: "Clinical psychology." } },
+    { word: "die Angst", phonetic: "angst", meaning: "anxiety / fear", gender: "die", example: { de: "Unter Angst leiden.", en: "Suffer from anxiety." } },
+    { word: "die Depression", phonetic: "de-pre-see-ohn", meaning: "depression", gender: "die", example: { de: "An Depression leiden.", en: "Suffer from depression." } },
+    { word: "der Stress", phonetic: "shtres", meaning: "stress", gender: "der", example: { de: "Unter Stress stehen.", en: "Be under stress." } },
+    { word: "die Therapie", phonetic: "te-ra-pee", meaning: "therapy", gender: "die", example: { de: "Eine Therapie machen.", en: "Undergo therapy." } },
+    { word: "der Therapeut", phonetic: "te-ra-poyt", meaning: "therapist", gender: "der", example: { de: "Zum Therapeuten gehen.", en: "Go to the therapist." } },
+    { word: "das Selbstbewusstsein", phonetic: "zelpst-beh-voost-zyne", meaning: "self-esteem / confidence", gender: "das", example: { de: "Selbstbewusstsein stärken.", en: "Strengthen self-esteem." } },
+    { word: "die Eifersucht", phonetic: "ay-fer-zookht", meaning: "jealousy", gender: "die", example: { de: "Krankhaftes Eifersucht.", en: "Pathological jealousy." } },
+    { word: "die Einsamkeit", phonetic: "ayn-zahm-kyte", meaning: "loneliness", gender: "die", example: { de: "Unter Einsamkeit leiden.", en: "Suffer from loneliness." } },
+    { word: "die Enttäuschung", phonetic: "ent-toy-shung", meaning: "disappointment", gender: "die", example: { de: "Eine große Enttäuschung.", en: "A big disappointment." } },
+    { word: "die Zufriedenheit", phonetic: "tsoo-free-den-hyte", meaning: "satisfaction / contentment", gender: "die", example: { de: "Innere Zufriedenheit.", en: "Inner contentment." } },
+    { word: "die Dankbarkeit", phonetic: "dank-bar-kyte", meaning: "gratitude", gender: "die", example: { de: "Dankbarkeit zeigen.", en: "Show gratitude." } },
+    { word: "die Trauer", phonetic: "trow-er", meaning: "grief / mourning", gender: "die", example: { de: "In Trauer sein.", en: "Be in mourning." } },
+    { word: "die Wut", phonetic: "voot", meaning: "anger / rage", gender: "die", example: { de: "Vor Wut kochen.", en: "Seethe with rage." } },
+    { word: "die Scham", phonetic: "shahm", meaning: "shame", gender: "die", example: { de: "Scham empfinden.", en: "Feel shame." } },
+    { word: "die Schuld", phonetic: "shoolt", meaning: "guilt", gender: "die", example: { de: "Schuld fühlen.", en: "Feel guilt." } },
+    { word: "die Achtsamkeit", phonetic: "akht-zahm-kyte", meaning: "mindfulness", gender: "die", example: { de: "Achtsamkeit üben.", en: "Practice mindfulness." } },
+    { word: "die Burnout", phonetic: "burn-owt", meaning: "burnout", gender: "der", example: { de: "An Burnout leiden.", en: "Suffer from burnout." } },
+    { word: "die Resilienz", phonetic: "re-zi-lee-ents", meaning: "resilience", gender: "die", example: { de: "Psychische Resilienz.", en: "Psychological resilience." } },
+    { word: "die Selbsthilfe", phonetic: "zelpst-hil-fuh", meaning: "self-help", gender: "die", example: { de: "Eine Selbsthilfegruppe.", en: "A self-help group." } },
+  ]}] },
+};

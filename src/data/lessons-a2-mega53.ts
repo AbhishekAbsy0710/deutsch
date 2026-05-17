@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega53: Record<string, Lesson> = {
+  "la2_m98": { id: "la2_m98", title: "Sports & Fitness A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Mannschaft", phonetic: "man-shaft", meaning: "team", gender: "die", example: { de: "Die deutsche Mannschaft.", en: "The German team." } },
+    { word: "der Schiedsrichter", phonetic: "sheets-rikh-ter", meaning: "referee", gender: "der", example: { de: "Der Schiedsrichter pfeift.", en: "The referee blows the whistle." } },
+    { word: "das Tor", phonetic: "tohr", meaning: "goal", gender: "das", example: { de: "Ein Tor schießen.", en: "Score a goal." } },
+    { word: "die Halbzeit", phonetic: "halp-tsyte", meaning: "half-time (sports)", gender: "die", example: { de: "In der Halbzeit.", en: "At half-time." } },
+    { word: "das Ergebnis", phonetic: "er-gayp-nis", meaning: "result / score", gender: "das", example: { de: "Das Ergebnis ist 2:1.", en: "The score is 2:1." } },
+    { word: "der Wettkampf", phonetic: "vet-kampf", meaning: "competition", gender: "der", example: { de: "Ein sportlicher Wettkampf.", en: "A sports competition." } },
+    { word: "die Meisterschaft", phonetic: "mys-ter-shaft", meaning: "championship", gender: "die", example: { de: "Die Meisterschaft gewinnen.", en: "Win the championship." } },
+    { word: "der Pokal", phonetic: "po-kahl", meaning: "cup / trophy", gender: "der", example: { de: "Den Pokal holen.", en: "Win the cup." } },
+    { word: "die Medaille", phonetic: "me-da-yuh", meaning: "medal", gender: "die", example: { de: "Eine Goldmedaille.", en: "A gold medal." } },
+    { word: "das Training", phonetic: "tray-ning", meaning: "training / practice", gender: "das", example: { de: "Zum Training gehen.", en: "Go to practice." } },
+    { word: "das Fitnessstudio", phonetic: "fit-nes-shtoo-dee-oh", meaning: "gym", gender: "das", example: { de: "Im Fitnessstudio trainieren.", en: "Work out at the gym." } },
+    { word: "der Muskel", phonetic: "moos-kel", meaning: "muscle", gender: "der", example: { de: "Muskeln aufbauen.", en: "Build muscles." } },
+    { word: "die Ausdauer", phonetic: "ows-dow-er", meaning: "endurance / stamina", gender: "die", example: { de: "Ausdauer trainieren.", en: "Train endurance." } },
+    { word: "dehnen", phonetic: "day-nen", meaning: "to stretch", example: { de: "Sich vor dem Sport dehnen.", en: "Stretch before sports." } },
+    { word: "die Aufwärmübung", phonetic: "owf-verm-ü-bung", meaning: "warm-up exercise", gender: "die", example: { de: "Aufwärmübungen machen.", en: "Do warm-up exercises." } },
+    { word: "der Verein", phonetic: "fer-ayn", meaning: "club / association", gender: "der", example: { de: "In einem Sportverein.", en: "In a sports club." } },
+    { word: "der Gegner", phonetic: "gayg-ner", meaning: "opponent", gender: "der", example: { de: "Ein starker Gegner.", en: "A strong opponent." } },
+    { word: "unentschieden", phonetic: "oon-ent-shee-den", meaning: "draw / tie", example: { de: "Es steht unentschieden.", en: "It's a draw." } },
+    { word: "die Tabelle", phonetic: "ta-be-luh", meaning: "league table", gender: "die", example: { de: "An der Tabellenspitze.", en: "At the top of the table." } },
+    { word: "der Rekord", phonetic: "re-kort", meaning: "record", gender: "der", example: { de: "Einen Rekord brechen.", en: "Break a record." } },
+  ]}] },
+};

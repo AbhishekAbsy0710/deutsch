@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega55: Record<string, Lesson> = {
+  "la1_m105": { id: "la1_m105", title: "Appointments & Time A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "der Termin", phonetic: "ter-meen", meaning: "appointment", gender: "der", example: { de: "Einen Termin machen.", en: "Make an appointment." } },
+    { word: "der Kalender", phonetic: "ka-len-der", meaning: "calendar", gender: "der", example: { de: "Im Kalender eintragen.", en: "Enter in the calendar." } },
+    { word: "pünktlich", phonetic: "pünkt-likh", meaning: "punctual / on time", example: { de: "Bitte sei pünktlich.", en: "Please be on time." } },
+    { word: "sich verspäten", phonetic: "zikh fer-shpay-ten", meaning: "to be late", example: { de: "Ich verspäte mich.", en: "I'm running late." } },
+    { word: "absagen", phonetic: "ap-zah-gen", meaning: "to cancel", example: { de: "Den Termin absagen.", en: "Cancel the appointment." } },
+    { word: "verschieben", phonetic: "fer-shee-ben", meaning: "to postpone", example: { de: "Den Termin verschieben.", en: "Postpone the appointment." } },
+    { word: "vereinbaren", phonetic: "fer-ayn-bah-ren", meaning: "to arrange / agree on", example: { de: "Einen Termin vereinbaren.", en: "Arrange an appointment." } },
+    { word: "die Viertelstunde", phonetic: "feer-tel-shtoon-duh", meaning: "quarter hour", gender: "die", example: { de: "In einer Viertelstunde.", en: "In a quarter hour." } },
+    { word: "die Halbzeit", phonetic: "halp-tsyte", meaning: "half-time", gender: "die", example: { de: "In der Halbzeit.", en: "At half-time." } },
+    { word: "vorgestern", phonetic: "for-ges-tern", meaning: "day before yesterday", example: { de: "Vorgestern war es.", en: "It was the day before yesterday." } },
+    { word: "übermorgen", phonetic: "ü-ber-mor-gen", meaning: "day after tomorrow", example: { de: "Übermorgen fahren wir.", en: "We're going the day after tomorrow." } },
+    { word: "wöchentlich", phonetic: "vö-khent-likh", meaning: "weekly", example: { de: "Wöchentlich treffen.", en: "Meet weekly." } },
+    { word: "monatlich", phonetic: "mo-naht-likh", meaning: "monthly", example: { de: "Monatlich bezahlen.", en: "Pay monthly." } },
+    { word: "jährlich", phonetic: "yehr-likh", meaning: "yearly / annually", example: { de: "Jährlich reisen.", en: "Travel annually." } },
+    { word: "täglich", phonetic: "tayg-likh", meaning: "daily", example: { de: "Täglich üben.", en: "Practice daily." } },
+    { word: "der Zeitplan", phonetic: "tsyte-plahn", meaning: "schedule / timetable", gender: "der", example: { de: "Den Zeitplan einhalten.", en: "Stick to the schedule." } },
+    { word: "die Frist", phonetic: "frist", meaning: "deadline", gender: "die", example: { de: "Die Frist einhalten.", en: "Meet the deadline." } },
+    { word: "rechtzeitig", phonetic: "rekht-tsy-tikh", meaning: "in time / timely", example: { de: "Rechtzeitig ankommen.", en: "Arrive in time." } },
+    { word: "dauern", phonetic: "dow-ern", meaning: "to last / take (time)", example: { de: "Es dauert eine Stunde.", en: "It takes an hour." } },
+    { word: "die Erinnerung", phonetic: "er-in-e-rung", meaning: "reminder / memory", gender: "die", example: { de: "Eine Erinnerung setzen.", en: "Set a reminder." } },
+  ]}] },
+};
