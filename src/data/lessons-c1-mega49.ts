@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega49: Record<string, Lesson> = {
+  "lc1_m95": { id: "lc1_m95", title: "Advanced Topology C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Topologie", phonetic: "to-po-lo-gee", meaning: "topology", gender: "die", example: { de: "Algebraische Topologie.", en: "Algebraic topology." } },
+    { word: "der Topologische Raum", phonetic: "to-po-lo-gi-shuh rowm", meaning: "topological space", example: { de: "Hausdorffscher topologischer Raum.", en: "Hausdorff topological space." } },
+    { word: "die Homöomorphie", phonetic: "ho-mö-oh-mor-fee", meaning: "homeomorphism", gender: "die", example: { de: "Topologische Homöomorphie.", en: "Topological homeomorphism." } },
+    { word: "die Homotopie", phonetic: "ho-mo-to-pee", meaning: "homotopy", gender: "die", example: { de: "Stabile Homotopie.", en: "Stable homotopy." } },
+    { word: "die Fundamentalgruppe", phonetic: "foon-da-men-tahl-groo-puh", meaning: "fundamental group", gender: "die", example: { de: "Fundamentalgruppe des Torus.", en: "Fundamental group of the torus." } },
+    { word: "die Mannigfaltigkeit", phonetic: "ma-nikh-fal-tikh-kyte", meaning: "manifold", gender: "die", example: { de: "Differenzierbare Mannigfaltigkeit.", en: "Differentiable manifold." } },
+    { word: "die Kompaktheit", phonetic: "kom-pakt-hyte", meaning: "compactness", gender: "die", example: { de: "Sequenzielle Kompaktheit.", en: "Sequential compactness." } },
+    { word: "die Zusammenhängendheit", phonetic: "tsoo-za-men-hen-gent-hyte", meaning: "connectedness", gender: "die", example: { de: "Wegzusammenhängendheit.", en: "Path-connectedness." } },
+    { word: "die Metrik", phonetic: "may-trik", meaning: "metric (topology)", gender: "die", example: { de: "Euklidische Metrik.", en: "Euclidean metric." } },
+    { word: "die Knothentheorie", phonetic: "kno-ten-tay-oh-ree", meaning: "knot theory", gender: "die", example: { de: "Kombinatorische Knotentheorie.", en: "Combinatorial knot theory." } },
+    { word: "die Kohomologie", phonetic: "ko-ho-mo-lo-gee", meaning: "cohomology", gender: "die", example: { de: "De-Rham-Kohomologie.", en: "De Rham cohomology." } },
+    { word: "die Homologie", phonetic: "ho-mo-lo-gee", meaning: "homology", gender: "die", example: { de: "Singuläre Homologie.", en: "Singular homology." } },
+    { word: "die Simpliziale Komplexe", phonetic: "sim-pli-tsee-ah-luh kom-ple-ksuh", meaning: "simplicial complexes", example: { de: "Abstrakte simpliziale Komplexe.", en: "Abstract simplicial complexes." } },
+    { word: "die Euler-Charakteristik", phonetic: "oy-ler-kha-rak-te-ris-tik", meaning: "Euler characteristic", gender: "die", example: { de: "Euler-Charakteristik des Torus.", en: "Euler characteristic of the torus." } },
+    { word: "die Faserbündel", phonetic: "fah-zer-bün-del", meaning: "fiber bundle", gender: "das", example: { de: "Triviales Faserbündel.", en: "Trivial fiber bundle." } },
+    { word: "die Überdeckung", phonetic: "ü-ber-de-kung", meaning: "covering (topology)", gender: "die", example: { de: "Offene Überdeckung.", en: "Open covering." } },
+    { word: "die Stetigkeit", phonetic: "shtay-tikh-kyte", meaning: "continuity (math)", gender: "die", example: { de: "Gleichmäßige Stetigkeit.", en: "Uniform continuity." } },
+    { word: "die Fixpunktsatz", phonetic: "fiks-punkt-zats", meaning: "fixed point theorem", gender: "der", example: { de: "Brouwerscher Fixpunktsatz.", en: "Brouwer fixed point theorem." } },
+    { word: "die Dimensionstheorie", phonetic: "di-men-zee-ohns-tay-oh-ree", meaning: "dimension theory", gender: "die", example: { de: "Topologische Dimensionstheorie.", en: "Topological dimension theory." } },
+    { word: "die Persistente Homologie", phonetic: "per-sis-ten-tuh ho-mo-lo-gee", meaning: "persistent homology", example: { de: "Topologische Datenanalyse.", en: "Topological data analysis." } },
+  ]}] },
+};

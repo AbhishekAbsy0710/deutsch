@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega49: Record<string, Lesson> = {
+  "lb2_m94": { id: "lb2_m94", title: "Renewable Energy B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die erneuerbare Energie", phonetic: "er-noy-er-bah-ruh e-ner-gee", meaning: "renewable energy", example: { de: "Ausbau erneuerbarer Energien.", en: "Expansion of renewable energy." } },
+    { word: "die Photovoltaik", phonetic: "fo-to-vol-tah-ik", meaning: "photovoltaics", gender: "die", example: { de: "Photovoltaikanlage.", en: "Photovoltaic system." } },
+    { word: "die Solarzelle", phonetic: "zo-lar-tse-luh", meaning: "solar cell", gender: "die", example: { de: "Silizium-Solarzelle.", en: "Silicon solar cell." } },
+    { word: "die Windkraftanlage", phonetic: "vint-kraft-an-lah-guh", meaning: "wind turbine", gender: "die", example: { de: "Offshore-Windkraftanlage.", en: "Offshore wind turbine." } },
+    { word: "die Wasserkraft", phonetic: "va-ser-kraft", meaning: "hydropower", gender: "die", example: { de: "Nachhaltige Wasserkraft.", en: "Sustainable hydropower." } },
+    { word: "die Geothermie", phonetic: "ge-oh-ter-mee", meaning: "geothermal energy", gender: "die", example: { de: "Tiefe Geothermie.", en: "Deep geothermal energy." } },
+    { word: "die Biomasse", phonetic: "bee-oh-ma-suh", meaning: "biomass", gender: "die", example: { de: "Biomasseverbrennung.", en: "Biomass combustion." } },
+    { word: "der Energiespeicher", phonetic: "e-ner-gee-shpy-kher", meaning: "energy storage", gender: "der", example: { de: "Batterie-Energiespeicher.", en: "Battery energy storage." } },
+    { word: "die Energiewende", phonetic: "e-ner-gee-ven-duh", meaning: "energy transition", gender: "die", example: { de: "Deutsche Energiewende.", en: "German energy transition." } },
+    { word: "der Wirkungsgrad", phonetic: "vir-kungs-graht", meaning: "efficiency (energy)", gender: "der", example: { de: "Hoher Wirkungsgrad.", en: "High efficiency." } },
+    { word: "die Netzeinspeisung", phonetic: "nets-ayn-shpy-zung", meaning: "grid feed-in", gender: "die", example: { de: "Erneuerbare Netzeinspeisung.", en: "Renewable grid feed-in." } },
+    { word: "die Einspeisevergütung", phonetic: "ayn-shpy-zuh-fer-gü-tung", meaning: "feed-in tariff", gender: "die", example: { de: "Garantierte Einspeisevergütung.", en: "Guaranteed feed-in tariff." } },
+    { word: "die Brennstoffzelle", phonetic: "bren-shtof-tse-luh", meaning: "fuel cell", gender: "die", example: { de: "Wasserstoff-Brennstoffzelle.", en: "Hydrogen fuel cell." } },
+    { word: "der Wasserstoff", phonetic: "va-ser-shtof", meaning: "hydrogen", gender: "der", example: { de: "Grüner Wasserstoff.", en: "Green hydrogen." } },
+    { word: "die Elektromobilität", phonetic: "e-lek-tro-mo-bi-li-tayt", meaning: "electromobility", gender: "die", example: { de: "Förderung der Elektromobilität.", en: "Promotion of electromobility." } },
+    { word: "die Dekarbonisierung", phonetic: "de-kar-bo-ni-zee-rung", meaning: "decarbonization", gender: "die", example: { de: "Industrielle Dekarbonisierung.", en: "Industrial decarbonization." } },
+    { word: "die Emissionsreduktion", phonetic: "e-mi-see-ohns-re-dook-tsee-ohn", meaning: "emission reduction", gender: "die", example: { de: "CO2-Emissionsreduktion.", en: "CO2 emission reduction." } },
+    { word: "der Emissionshandel", phonetic: "e-mi-see-ohns-han-del", meaning: "emissions trading", gender: "der", example: { de: "Europäischer Emissionshandel.", en: "European emissions trading." } },
+    { word: "die Klimaneutralität", phonetic: "klee-ma-noy-tra-li-tayt", meaning: "climate neutrality", gender: "die", example: { de: "Klimaneutralität bis 2045.", en: "Climate neutrality by 2045." } },
+    { word: "das Stromnetz", phonetic: "shtrohm-nets", meaning: "power grid", gender: "das", example: { de: "Intelligentes Stromnetz.", en: "Smart power grid." } },
+  ]}] },
+};

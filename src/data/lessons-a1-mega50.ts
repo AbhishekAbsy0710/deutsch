@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega50: Record<string, Lesson> = {
+  "la1_m100": { id: "la1_m100", title: "Connectors & Conjunctions A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "deshalb", phonetic: "des-halp", meaning: "therefore", example: { de: "Deshalb bin ich hier.", en: "Therefore I am here." } },
+    { word: "trotzdem", phonetic: "trots-daym", meaning: "nevertheless", example: { de: "Es regnet, trotzdem gehe ich.", en: "It's raining, nevertheless I go." } },
+    { word: "außerdem", phonetic: "ow-ser-daym", meaning: "besides / furthermore", example: { de: "Außerdem ist es kalt.", en: "Besides, it is cold." } },
+    { word: "deswegen", phonetic: "des-vay-gen", meaning: "because of that", example: { de: "Deswegen bleibe ich.", en: "Because of that I stay." } },
+    { word: "obwohl", phonetic: "op-vohl", meaning: "although", example: { de: "Obwohl es spät ist.", en: "Although it is late." } },
+    { word: "bevor", phonetic: "beh-for", meaning: "before (conj.)", example: { de: "Bevor ich gehe.", en: "Before I go." } },
+    { word: "nachdem", phonetic: "nakh-daym", meaning: "after (conj.)", example: { de: "Nachdem ich gegessen habe.", en: "After I have eaten." } },
+    { word: "während", phonetic: "vay-rent", meaning: "while / during", example: { de: "Während ich arbeite.", en: "While I work." } },
+    { word: "seitdem", phonetic: "zyte-daym", meaning: "since (time)", example: { de: "Seitdem wohne ich hier.", en: "Since then I live here." } },
+    { word: "falls", phonetic: "fals", meaning: "in case / if", example: { de: "Falls es regnet.", en: "In case it rains." } },
+    { word: "damit", phonetic: "da-mit", meaning: "so that", example: { de: "Damit du es verstehst.", en: "So that you understand." } },
+    { word: "sowohl...als auch", phonetic: "zo-vohl...als owkh", meaning: "both...and", example: { de: "Sowohl Deutsch als auch Englisch.", en: "Both German and English." } },
+    { word: "weder...noch", phonetic: "vay-der...nokh", meaning: "neither...nor", example: { de: "Weder kalt noch warm.", en: "Neither cold nor warm." } },
+    { word: "entweder...oder", phonetic: "ent-vay-der...oh-der", meaning: "either...or", example: { de: "Entweder heute oder morgen.", en: "Either today or tomorrow." } },
+    { word: "nämlich", phonetic: "naym-likh", meaning: "namely / that is", example: { de: "Ich bin müde, nämlich krank.", en: "I'm tired, namely sick." } },
+    { word: "zwar", phonetic: "tsvahr", meaning: "indeed / admittedly", example: { de: "Zwar schwer, aber machbar.", en: "Admittedly hard, but doable." } },
+    { word: "jedoch", phonetic: "ye-dokh", meaning: "however", example: { de: "Schön, jedoch teuer.", en: "Nice, however expensive." } },
+    { word: "einerseits", phonetic: "ay-ner-zyts", meaning: "on one hand", example: { de: "Einerseits gut.", en: "On one hand good." } },
+    { word: "andererseits", phonetic: "an-de-rer-zyts", meaning: "on the other hand", example: { de: "Andererseits schlecht.", en: "On the other hand bad." } },
+    { word: "stattdessen", phonetic: "shtat-de-sen", meaning: "instead", example: { de: "Stattdessen lese ich.", en: "Instead I read." } },
+  ]}] },
+};

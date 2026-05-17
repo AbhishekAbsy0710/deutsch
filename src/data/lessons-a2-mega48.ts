@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega48: Record<string, Lesson> = {
+  "la2_m93": { id: "la2_m93", title: "Vehicles & Transport A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "der Führerschein", phonetic: "fü-rer-shyne", meaning: "driver's license", gender: "der", example: { de: "Den Führerschein machen.", en: "Get a driver's license." } },
+    { word: "die Tankstelle", phonetic: "tank-shte-luh", meaning: "gas station", gender: "die", example: { de: "An der Tankstelle tanken.", en: "Refuel at the gas station." } },
+    { word: "das Benzin", phonetic: "ben-tseen", meaning: "gasoline", gender: "das", example: { de: "Benzin ist teuer.", en: "Gas is expensive." } },
+    { word: "der Diesel", phonetic: "dee-zel", meaning: "diesel", gender: "der", example: { de: "Diesel tanken.", en: "Fill up with diesel." } },
+    { word: "der Strafzettel", phonetic: "shtrahf-tse-tel", meaning: "parking ticket", gender: "der", example: { de: "Einen Strafzettel bekommen.", en: "Get a parking ticket." } },
+    { word: "die Versicherung", phonetic: "fer-zi-khe-rung", meaning: "insurance", gender: "die", example: { de: "Autoversicherung.", en: "Car insurance." } },
+    { word: "der Stau", phonetic: "shtow", meaning: "traffic jam", gender: "der", example: { de: "Im Stau stehen.", en: "Be stuck in traffic." } },
+    { word: "die Autobahn", phonetic: "ow-to-bahn", meaning: "highway / motorway", gender: "die", example: { de: "Auf der Autobahn fahren.", en: "Drive on the highway." } },
+    { word: "die Ausfahrt", phonetic: "ows-fahrt", meaning: "exit (highway)", gender: "die", example: { de: "Die nächste Ausfahrt.", en: "The next exit." } },
+    { word: "die Einfahrt", phonetic: "ayn-fahrt", meaning: "entrance / driveway", gender: "die", example: { de: "Die Einfahrt freihalten.", en: "Keep the entrance clear." } },
+    { word: "der Lastwagen", phonetic: "last-vah-gen", meaning: "truck", gender: "der", example: { de: "Ein großer Lastwagen.", en: "A big truck." } },
+    { word: "der Lieferwagen", phonetic: "lee-fer-vah-gen", meaning: "delivery van", gender: "der", example: { de: "Der Lieferwagen kommt.", en: "The delivery van is coming." } },
+    { word: "das Motorrad", phonetic: "mo-tor-raht", meaning: "motorcycle", gender: "das", example: { de: "Motorrad fahren.", en: "Ride a motorcycle." } },
+    { word: "der Roller", phonetic: "ro-ler", meaning: "scooter", gender: "der", example: { de: "Einen Roller mieten.", en: "Rent a scooter." } },
+    { word: "die Straßenbahn", phonetic: "shtrah-sen-bahn", meaning: "tram / streetcar", gender: "die", example: { de: "Mit der Straßenbahn fahren.", en: "Take the tram." } },
+    { word: "die Fähre", phonetic: "fay-ruh", meaning: "ferry", gender: "die", example: { de: "Die Fähre nehmen.", en: "Take the ferry." } },
+    { word: "der Hubschrauber", phonetic: "hoop-shrow-ber", meaning: "helicopter", gender: "der", example: { de: "Ein Rettungshubschrauber.", en: "A rescue helicopter." } },
+    { word: "der Krankenwagen", phonetic: "kran-ken-vah-gen", meaning: "ambulance", gender: "der", example: { de: "Den Krankenwagen rufen.", en: "Call the ambulance." } },
+    { word: "die Werkstatt", phonetic: "verk-shtat", meaning: "garage / workshop", gender: "die", example: { de: "Auto in die Werkstatt bringen.", en: "Bring the car to the garage." } },
+    { word: "der Reifen", phonetic: "ry-fen", meaning: "tire", gender: "der", example: { de: "Einen platten Reifen.", en: "A flat tire." } },
+  ]}] },
+};

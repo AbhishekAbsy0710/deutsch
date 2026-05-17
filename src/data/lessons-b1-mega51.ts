@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega51: Record<string, Lesson> = {
+  "lb1_m102": { id: "lb1_m102", title: "Crime & Justice B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Verbrechen", phonetic: "fer-bre-khen", meaning: "crime", gender: "das", example: { de: "Ein schweres Verbrechen.", en: "A serious crime." } },
+    { word: "der Verbrecher", phonetic: "fer-bre-kher", meaning: "criminal", gender: "der", example: { de: "Ein gefährlicher Verbrecher.", en: "A dangerous criminal." } },
+    { word: "der Diebstahl", phonetic: "deep-shtahl", meaning: "theft", gender: "der", example: { de: "Ein Diebstahl melden.", en: "Report a theft." } },
+    { word: "der Einbruch", phonetic: "ayn-brookh", meaning: "burglary / break-in", gender: "der", example: { de: "Ein Einbruch in der Nacht.", en: "A break-in at night." } },
+    { word: "der Betrug", phonetic: "beh-troog", meaning: "fraud", gender: "der", example: { de: "Online-Betrug.", en: "Online fraud." } },
+    { word: "die Straftat", phonetic: "shtrahf-taht", meaning: "criminal offense", gender: "die", example: { de: "Eine Straftat begehen.", en: "Commit an offense." } },
+    { word: "der Zeuge", phonetic: "tsoy-guh", meaning: "witness", gender: "der", example: { de: "Als Zeuge aussagen.", en: "Testify as a witness." } },
+    { word: "das Opfer", phonetic: "op-fer", meaning: "victim", gender: "das", example: { de: "Das Opfer schützen.", en: "Protect the victim." } },
+    { word: "der Täter", phonetic: "tay-ter", meaning: "perpetrator", gender: "der", example: { de: "Den Täter fassen.", en: "Catch the perpetrator." } },
+    { word: "die Ermittlung", phonetic: "er-mit-lung", meaning: "investigation", gender: "die", example: { de: "Polizeiliche Ermittlung.", en: "Police investigation." } },
+    { word: "verhaften", phonetic: "fer-haf-ten", meaning: "to arrest", example: { de: "Den Verdächtigen verhaften.", en: "Arrest the suspect." } },
+    { word: "der Verdächtige", phonetic: "fer-dekh-ti-guh", meaning: "suspect", gender: "der", example: { de: "Den Verdächtigen befragen.", en: "Question the suspect." } },
+    { word: "die Anzeige", phonetic: "an-tsy-guh", meaning: "report (police)", gender: "die", example: { de: "Anzeige erstatten.", en: "File a report." } },
+    { word: "das Urteil", phonetic: "oor-tyl", meaning: "verdict / sentence", gender: "das", example: { de: "Ein hartes Urteil.", en: "A harsh sentence." } },
+    { word: "die Strafe", phonetic: "shtrah-fuh", meaning: "punishment / penalty", gender: "die", example: { de: "Eine hohe Strafe.", en: "A severe penalty." } },
+    { word: "das Gefängnis", phonetic: "geh-feng-nis", meaning: "prison", gender: "das", example: { de: "Ins Gefängnis kommen.", en: "Go to prison." } },
+    { word: "die Bewährung", phonetic: "beh-vay-rung", meaning: "probation", gender: "die", example: { de: "Auf Bewährung.", en: "On probation." } },
+    { word: "der Richter", phonetic: "rikh-ter", meaning: "judge", gender: "der", example: { de: "Der Richter entscheidet.", en: "The judge decides." } },
+    { word: "der Staatsanwalt", phonetic: "shtahts-an-valt", meaning: "prosecutor", gender: "der", example: { de: "Der Staatsanwalt klagt an.", en: "The prosecutor charges." } },
+    { word: "die Verteidigung", phonetic: "fer-ty-di-gung", meaning: "defense (legal)", gender: "die", example: { de: "Die Verteidigung plädiert.", en: "The defense pleads." } },
+  ]}] },
+};

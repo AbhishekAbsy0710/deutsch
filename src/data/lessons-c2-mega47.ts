@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega47: Record<string, Lesson> = {
+  "lc2_m90": { id: "lc2_m90", title: "Advanced Metamaterials C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Metamaterialien", phonetic: "me-ta-ma-te-ree-ah-lee-en", meaning: "metamaterials", example: { de: "Elektromagnetische Metamaterialien.", en: "Electromagnetic metamaterials." } },
+    { word: "die Negative Brechung", phonetic: "ne-ga-tee-vuh bre-khung", meaning: "negative refraction", example: { de: "Doppelt negative Brechung.", en: "Double-negative refraction." } },
+    { word: "die Tarnkappe", phonetic: "tarn-ka-puh", meaning: "cloaking device", gender: "die", example: { de: "Elektromagnetische Tarnkappe.", en: "Electromagnetic cloak." } },
+    { word: "die Akustische Metamaterialien", phonetic: "a-koos-ti-shuh me-ta-ma-te-ree-ah-lee-en", meaning: "acoustic metamaterials", example: { de: "Phonische akustische Metamaterialien.", en: "Phonic acoustic metamaterials." } },
+    { word: "die Photonik", phonetic: "fo-toh-nik", meaning: "photonics", gender: "die", example: { de: "Siliziumphotonik.", en: "Silicon photonics." } },
+    { word: "die Photonische Kristalle", phonetic: "fo-toh-ni-shuh kris-ta-luh", meaning: "photonic crystals", example: { de: "Dreidimensionale photonische Kristalle.", en: "3D photonic crystals." } },
+    { word: "die Plasmonik", phonetic: "plas-moh-nik", meaning: "plasmonics", gender: "die", example: { de: "Nanopartikel-Plasmonik.", en: "Nanoparticle plasmonics." } },
+    { word: "die Oberflächenplasmonenresonanz", phonetic: "oh-ber-fley-khen-plas-mo-nen-re-zo-nants", meaning: "surface plasmon resonance", gender: "die", example: { de: "Lokalisierte Oberflächenplasmonenresonanz.", en: "Localized surface plasmon resonance." } },
+    { word: "die Hyperlinse", phonetic: "hü-per-lin-zuh", meaning: "hyperlens", gender: "die", example: { de: "Metamaterial-Hyperlinse.", en: "Metamaterial hyperlens." } },
+    { word: "die Superlinse", phonetic: "zoo-per-lin-zuh", meaning: "superlens", gender: "die", example: { de: "Pendry-Superlinse.", en: "Pendry superlens." } },
+    { word: "die Transformationsoptik", phonetic: "trans-for-ma-tsee-ohns-op-tik", meaning: "transformation optics", gender: "die", example: { de: "Konforme Transformationsoptik.", en: "Conformal transformation optics." } },
+    { word: "die Terahertz-Metamaterialien", phonetic: "te-ra-herts-me-ta-ma-te-ree-ah-lee-en", meaning: "terahertz metamaterials", example: { de: "Aktive Terahertz-Metamaterialien.", en: "Active terahertz metamaterials." } },
+    { word: "die Chiralität", phonetic: "khi-ra-li-tayt", meaning: "chirality (metamaterials)", gender: "die", example: { de: "Elektromagnetische Chiralität.", en: "Electromagnetic chirality." } },
+    { word: "die Split-Ring-Resonatoren", phonetic: "split-ring-re-zo-na-toh-ren", meaning: "split-ring resonators", example: { de: "Komplementäre Split-Ring-Resonatoren.", en: "Complementary split-ring resonators." } },
+    { word: "die Metaoberfläche", phonetic: "me-ta-oh-ber-fley-khuh", meaning: "metasurface", gender: "die", example: { de: "Abstimmbare Metaoberfläche.", en: "Tunable metasurface." } },
+    { word: "die Auxetische Materialien", phonetic: "owk-se-ti-shuh ma-te-ree-ah-lee-en", meaning: "auxetic materials", example: { de: "Makroskopische auxetische Materialien.", en: "Macroscopic auxetic materials." } },
+    { word: "die Mechanische Metamaterialien", phonetic: "me-kha-ni-shuh me-ta-ma-te-ree-ah-lee-en", meaning: "mechanical metamaterials", example: { de: "3D-gedruckte mechanische Metamaterialien.", en: "3D-printed mechanical metamaterials." } },
+    { word: "die Bandlücke", phonetic: "bant-lü-kuh", meaning: "bandgap", gender: "die", example: { de: "Vollständige Bandlücke.", en: "Complete bandgap." } },
+    { word: "die Effektive-Medium-Theorie", phonetic: "e-fek-tee-vuh-may-dee-um-tay-oh-ree", meaning: "effective medium theory", example: { de: "Clausius-Mossotti-effektive-Medium-Theorie.", en: "Clausius-Mossotti effective medium theory." } },
+    { word: "die Wellenleitertechnik", phonetic: "ve-len-ly-ter-tekh-nik", meaning: "waveguide technology", gender: "die", example: { de: "Metamaterial-Wellenleitertechnik.", en: "Metamaterial waveguide technology." } },
+  ]}] },
+};
