@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega61: Record<string, Lesson> = {
+  "lb1_m112": { id: "lb1_m112", title: "Architecture & Design B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Architektur", phonetic: "ar-khi-tek-toor", meaning: "architecture", gender: "die", example: { de: "Moderne Architektur.", en: "Modern architecture." } },
+    { word: "der Entwurf", phonetic: "ent-voorf", meaning: "design / draft", gender: "der", example: { de: "Ein architektonischer Entwurf.", en: "An architectural design." } },
+    { word: "der Grundriss", phonetic: "groont-ris", meaning: "floor plan", gender: "der", example: { de: "Den Grundriss zeichnen.", en: "Draw the floor plan." } },
+    { word: "die Fassade", phonetic: "fa-sah-duh", meaning: "facade", gender: "die", example: { de: "Eine moderne Fassade.", en: "A modern facade." } },
+    { word: "der Balkon", phonetic: "bal-kon", meaning: "balcony", gender: "der", example: { de: "Auf dem Balkon sitzen.", en: "Sit on the balcony." } },
+    { word: "die Terrasse", phonetic: "te-ra-suh", meaning: "terrace / patio", gender: "die", example: { de: "Auf der Terrasse essen.", en: "Eat on the terrace." } },
+    { word: "der Dachboden", phonetic: "dakh-boh-den", meaning: "attic", gender: "der", example: { de: "Im Dachboden aufräumen.", en: "Tidy up the attic." } },
+    { word: "der Keller", phonetic: "ke-ler", meaning: "basement / cellar", gender: "der", example: { de: "Im Keller lagern.", en: "Store in the basement." } },
+    { word: "die Treppe", phonetic: "tre-puh", meaning: "stairs / staircase", gender: "die", example: { de: "Die Treppe hinaufgehen.", en: "Go up the stairs." } },
+    { word: "der Aufzug", phonetic: "owf-tsoog", meaning: "elevator", gender: "der", example: { de: "Den Aufzug nehmen.", en: "Take the elevator." } },
+    { word: "die Säule", phonetic: "zoy-luh", meaning: "column / pillar", gender: "die", example: { de: "Marmorsäulen.", en: "Marble columns." } },
+    { word: "das Gewölbe", phonetic: "geh-völ-buh", meaning: "vault / arch", gender: "das", example: { de: "Ein gotisches Gewölbe.", en: "A Gothic vault." } },
+    { word: "der Erker", phonetic: "er-ker", meaning: "bay window", gender: "der", example: { de: "Ein schöner Erker.", en: "A beautiful bay window." } },
+    { word: "das Dach", phonetic: "dakh", meaning: "roof", gender: "das", example: { de: "Ein rotes Dach.", en: "A red roof." } },
+    { word: "die Renovierung", phonetic: "re-no-vee-rung", meaning: "renovation", gender: "die", example: { de: "Eine komplette Renovierung.", en: "A complete renovation." } },
+    { word: "der Bauplan", phonetic: "bow-plahn", meaning: "blueprint", gender: "der", example: { de: "Den Bauplan studieren.", en: "Study the blueprint." } },
+    { word: "nachhaltig", phonetic: "nakh-hal-tikh", meaning: "sustainable", example: { de: "Nachhaltiges Bauen.", en: "Sustainable building." } },
+    { word: "der Denkmalschutz", phonetic: "denk-mahl-shoots", meaning: "monument protection", gender: "der", example: { de: "Unter Denkmalschutz stehen.", en: "Be under monument protection." } },
+    { word: "die Innenarchitektur", phonetic: "i-nen-ar-khi-tek-toor", meaning: "interior design", gender: "die", example: { de: "Moderne Innenarchitektur.", en: "Modern interior design." } },
+    { word: "der Baustil", phonetic: "bow-shteel", meaning: "architectural style", gender: "der", example: { de: "Verschiedene Baustile.", en: "Different architectural styles." } },
+  ]}] },
+};

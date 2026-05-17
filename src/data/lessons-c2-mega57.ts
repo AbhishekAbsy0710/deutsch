@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega57: Record<string, Lesson> = {
+  "lc2_m100": { id: "lc2_m100", title: "Advanced Category Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Kategorientheorie", phonetic: "ka-te-go-ree-en-tay-oh-ree", meaning: "category theory", gender: "die", example: { de: "Angewandte Kategorientheorie.", en: "Applied category theory." } },
+    { word: "der Funktor", phonetic: "funk-tor", meaning: "functor", gender: "der", example: { de: "Kovarianter Funktor.", en: "Covariant functor." } },
+    { word: "die Natürliche Transformation", phonetic: "na-tür-li-khuh trans-for-ma-tsee-ohn", meaning: "natural transformation", example: { de: "Natürliche Isomorphismus-Transformation.", en: "Natural isomorphism transformation." } },
+    { word: "der Morphismus", phonetic: "mor-fis-mus", meaning: "morphism", gender: "der", example: { de: "Bijektiver Morphismus.", en: "Bijective morphism." } },
+    { word: "die Adjunktion", phonetic: "at-yunk-tsee-ohn", meaning: "adjunction", gender: "die", example: { de: "Freie-vergessliche Adjunktion.", en: "Free-forgetful adjunction." } },
+    { word: "der Limes", phonetic: "lee-mes", meaning: "limit (category)", gender: "der", example: { de: "Projektiver Limes.", en: "Projective limit." } },
+    { word: "der Kolimes", phonetic: "ko-lee-mes", meaning: "colimit", gender: "der", example: { de: "Gefilterter Kolimes.", en: "Filtered colimit." } },
+    { word: "die Monade", phonetic: "mo-nah-duh", meaning: "monad", gender: "die", example: { de: "Algebraische Monade.", en: "Algebraic monad." } },
+    { word: "die Topostheorie", phonetic: "to-pos-tay-oh-ree", meaning: "topos theory", gender: "die", example: { de: "Grothendiecks Topostheorie.", en: "Grothendieck's topos theory." } },
+    { word: "die Abelsche Kategorie", phonetic: "ah-bel-shuh ka-te-go-ree", meaning: "abelian category", example: { de: "Halbexakte abelsche Kategorie.", en: "Semi-exact abelian category." } },
+    { word: "die Homotopietheorie", phonetic: "ho-mo-to-pee-tay-oh-ree", meaning: "homotopy theory", gender: "die", example: { de: "Abstrakte Homotopietheorie.", en: "Abstract homotopy theory." } },
+    { word: "die Yoneda-Lemma", phonetic: "yo-nay-da-le-ma", meaning: "Yoneda lemma", gender: "das", example: { de: "Fundamentales Yoneda-Lemma.", en: "Fundamental Yoneda lemma." } },
+    { word: "die Kan-Erweiterung", phonetic: "kan-er-vy-te-rung", meaning: "Kan extension", gender: "die", example: { de: "Punktweise Kan-Erweiterung.", en: "Pointwise Kan extension." } },
+    { word: "die Angereicherte Kategorie", phonetic: "an-geh-ry-kher-tuh ka-te-go-ree", meaning: "enriched category", example: { de: "V-angereicherte Kategorie.", en: "V-enriched category." } },
+    { word: "die Höhere Kategorie", phonetic: "hö-he-ruh ka-te-go-ree", meaning: "higher category", example: { de: "Schwache höhere Kategorie.", en: "Weak higher category." } },
+    { word: "die Operaden", phonetic: "oh-pe-rah-den", meaning: "operads", example: { de: "Farbige Operaden.", en: "Colored operads." } },
+    { word: "die Komposition", phonetic: "kom-po-zi-tsee-ohn", meaning: "composition (category)", gender: "die", example: { de: "Assoziative Komposition.", en: "Associative composition." } },
+    { word: "die Äquivalenz der Kategorien", phonetic: "ey-kvi-va-lents der ka-te-go-ree-en", meaning: "equivalence of categories", example: { de: "Natürliche Äquivalenz der Kategorien.", en: "Natural equivalence of categories." } },
+    { word: "die Faserung", phonetic: "fah-ze-rung", meaning: "fibration", gender: "die", example: { de: "Kartesische Faserung.", en: "Cartesian fibration." } },
+    { word: "die ∞-Kategorie", phonetic: "un-ent-likh-ka-te-go-ree", meaning: "infinity-category", gender: "die", example: { de: "Quasikategorische ∞-Kategorie.", en: "Quasicategorical infinity-category." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega59: Record<string, Lesson> = {
+  "lc1_m105": { id: "lc1_m105", title: "Advanced Psychopharmacology C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Psychopharmakologie", phonetic: "psü-kho-far-ma-ko-lo-gee", meaning: "psychopharmacology", gender: "die", example: { de: "Klinische Psychopharmakologie.", en: "Clinical psychopharmacology." } },
+    { word: "die Neurotransmitter", phonetic: "noy-ro-trans-mi-ter", meaning: "neurotransmitters", example: { de: "Monoaminerge Neurotransmitter.", en: "Monoaminergic neurotransmitters." } },
+    { word: "die Serotonin", phonetic: "ze-ro-to-neen", meaning: "serotonin", gender: "das", example: { de: "Serotonerge Signalübertragung.", en: "Serotonergic signaling." } },
+    { word: "die Dopamin", phonetic: "do-pa-meen", meaning: "dopamine", gender: "das", example: { de: "Dopaminerge Bahnen.", en: "Dopaminergic pathways." } },
+    { word: "die Antidepressivum", phonetic: "an-ti-de-pre-see-voom", meaning: "antidepressant", gender: "das", example: { de: "Selektives Antidepressivum.", en: "Selective antidepressant." } },
+    { word: "die SSRI", phonetic: "es-es-er-ee", meaning: "SSRI (selective serotonin reuptake inhibitor)", example: { de: "Häufig verschriebener SSRI.", en: "Commonly prescribed SSRI." } },
+    { word: "die Anxiolytikum", phonetic: "ank-see-oh-lü-ti-koom", meaning: "anxiolytic", gender: "das", example: { de: "Kurzwirkendes Anxiolytikum.", en: "Short-acting anxiolytic." } },
+    { word: "die Neuroleptikum", phonetic: "noy-ro-lep-ti-koom", meaning: "neuroleptic / antipsychotic", gender: "das", example: { de: "Atypisches Neuroleptikum.", en: "Atypical neuroleptic." } },
+    { word: "die Rezeptorbindung", phonetic: "re-tsep-tor-bin-dung", meaning: "receptor binding", gender: "die", example: { de: "Selektive Rezeptorbindung.", en: "Selective receptor binding." } },
+    { word: "die Halbwertszeit", phonetic: "halp-verts-tsyte", meaning: "half-life", gender: "die", example: { de: "Pharmakologische Halbwertszeit.", en: "Pharmacological half-life." } },
+    { word: "die Bioverfügbarkeit", phonetic: "bee-oh-fer-füg-bar-kyte", meaning: "bioavailability", gender: "die", example: { de: "Orale Bioverfügbarkeit.", en: "Oral bioavailability." } },
+    { word: "die Stimmungsstabilisator", phonetic: "shti-mungs-shta-bi-li-zah-tor", meaning: "mood stabilizer", gender: "der", example: { de: "Lithium als Stimmungsstabilisator.", en: "Lithium as mood stabilizer." } },
+    { word: "die Pharmakokinetik", phonetic: "far-ma-ko-ki-nay-tik", meaning: "pharmacokinetics", gender: "die", example: { de: "Populationsbasierte Pharmakokinetik.", en: "Population-based pharmacokinetics." } },
+    { word: "die Pharmakodynamik", phonetic: "far-ma-ko-dü-nah-mik", meaning: "pharmacodynamics", gender: "die", example: { de: "Rezeptorbezogene Pharmakodynamik.", en: "Receptor-related pharmacodynamics." } },
+    { word: "die Nebenwirkung", phonetic: "nay-ben-vir-kung", meaning: "side effect", gender: "die", example: { de: "Unerwünschte Nebenwirkung.", en: "Unwanted side effect." } },
+    { word: "die Wechselwirkung", phonetic: "vek-sel-vir-kung", meaning: "drug interaction", gender: "die", example: { de: "Medikamentöse Wechselwirkung.", en: "Drug interaction." } },
+    { word: "die Toleranzentwicklung", phonetic: "to-le-rants-ent-vik-lung", meaning: "tolerance development", gender: "die", example: { de: "Pharmakologische Toleranzentwicklung.", en: "Pharmacological tolerance development." } },
+    { word: "die Entzugssyndrom", phonetic: "ent-tsooks-zün-drohm", meaning: "withdrawal syndrome", gender: "das", example: { de: "Schweres Entzugssyndrom.", en: "Severe withdrawal syndrome." } },
+    { word: "die Psychedelikum", phonetic: "psü-khe-day-li-koom", meaning: "psychedelic", gender: "das", example: { de: "Klassisches Psychedelikum.", en: "Classical psychedelic." } },
+    { word: "die Neuroplastizitätsmodulation", phonetic: "noy-ro-plas-ti-tsi-tayts-mo-doo-la-tsee-ohn", meaning: "neuroplasticity modulation", gender: "die", example: { de: "Ketamininduzierte Neuroplastizitätsmodulation.", en: "Ketamine-induced neuroplasticity modulation." } },
+  ]}] },
+};

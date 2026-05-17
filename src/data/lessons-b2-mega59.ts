@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega59: Record<string, Lesson> = {
+  "lb2_m104": { id: "lb2_m104", title: "Paleontology B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Paläontologie", phonetic: "pa-lay-on-to-lo-gee", meaning: "paleontology", gender: "die", example: { de: "Wirbellose Paläontologie.", en: "Invertebrate paleontology." } },
+    { word: "das Fossil", phonetic: "fo-seel", meaning: "fossil", gender: "das", example: { de: "Gut erhaltenes Fossil.", en: "Well-preserved fossil." } },
+    { word: "die Ausgrabung", phonetic: "ows-grah-bung", meaning: "excavation", gender: "die", example: { de: "Paläontologische Ausgrabung.", en: "Paleontological excavation." } },
+    { word: "das Skelett", phonetic: "ske-let", meaning: "skeleton", gender: "das", example: { de: "Vollständiges Skelett.", en: "Complete skeleton." } },
+    { word: "die Versteinerung", phonetic: "fer-shtyne-rung", meaning: "petrification", gender: "die", example: { de: "Permineralisierte Versteinerung.", en: "Permineralized petrification." } },
+    { word: "das Dinosaurieraussterben", phonetic: "dee-no-zow-ree-er-ows-shter-ben", meaning: "dinosaur extinction", gender: "das", example: { de: "Kreide-Paläogen Dinosaurieraussterben.", en: "Cretaceous-Paleogene dinosaur extinction." } },
+    { word: "die Stratigraphie", phonetic: "shtra-ti-gra-fee", meaning: "stratigraphy", gender: "die", example: { de: "Biostratigraphie.", en: "Biostratigraphy." } },
+    { word: "die Radiokarbondatierung", phonetic: "ra-dee-oh-kar-bon-da-tee-rung", meaning: "radiocarbon dating", gender: "die", example: { de: "AMS-Radiokarbondatierung.", en: "AMS radiocarbon dating." } },
+    { word: "die Kambrische Explosion", phonetic: "kam-bri-shuh eks-plo-zee-ohn", meaning: "Cambrian explosion", example: { de: "Ediacara-kambrische Explosion.", en: "Ediacaran-Cambrian explosion." } },
+    { word: "die Massenaussterben", phonetic: "ma-sen-ows-shter-ben", meaning: "mass extinction", gender: "das", example: { de: "Permisches Massenaussterben.", en: "Permian mass extinction." } },
+    { word: "die Taphonomie", phonetic: "ta-fo-no-mee", meaning: "taphonomy", gender: "die", example: { de: "Forensische Taphonomie.", en: "Forensic taphonomy." } },
+    { word: "die Spurenfossilien", phonetic: "shpoo-ren-fo-see-lee-en", meaning: "trace fossils", example: { de: "Wirbeltierspurenfossilien.", en: "Vertebrate trace fossils." } },
+    { word: "die Bernstein", phonetic: "bern-shtyne", meaning: "amber", gender: "der", example: { de: "Einschluss in Bernstein.", en: "Inclusion in amber." } },
+    { word: "die Phylogenetik", phonetic: "fü-lo-ge-nay-tik", meaning: "phylogenetics", gender: "die", example: { de: "Molekulare Phylogenetik.", en: "Molecular phylogenetics." } },
+    { word: "die Paläobotanik", phonetic: "pa-lay-oh-bo-tah-nik", meaning: "paleobotany", gender: "die", example: { de: "Mesozoische Paläobotanik.", en: "Mesozoic paleobotany." } },
+    { word: "die Paläoklima", phonetic: "pa-lay-oh-klee-ma", meaning: "paleoclimate", gender: "das", example: { de: "Eiszeitliches Paläoklima.", en: "Ice age paleoclimate." } },
+    { word: "die Mikrofossilien", phonetic: "mee-kro-fo-see-lee-en", meaning: "microfossils", example: { de: "Foraminifere Mikrofossilien.", en: "Foraminifera microfossils." } },
+    { word: "die Koprolith", phonetic: "ko-pro-lit", meaning: "coprolite", gender: "der", example: { de: "Herbivorer Koprolith.", en: "Herbivore coprolite." } },
+    { word: "die CT-Tomographie", phonetic: "tsay-tay-to-mo-gra-fee", meaning: "CT scanning (paleontology)", gender: "die", example: { de: "Mikro-CT-Tomographie.", en: "Micro-CT scanning." } },
+    { word: "die Gondwana", phonetic: "gont-va-na", meaning: "Gondwana", gender: "das", example: { de: "Südlicher Gondwana-Kontinent.", en: "Southern Gondwana continent." } },
+  ]}] },
+};

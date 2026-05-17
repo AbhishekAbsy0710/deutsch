@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega58: Record<string, Lesson> = {
+  "la2_m103": { id: "la2_m103", title: "Social Interactions A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "sich vorstellen", phonetic: "zikh for-shte-len", meaning: "to introduce oneself", example: { de: "Darf ich mich vorstellen?", en: "May I introduce myself?" } },
+    { word: "sich verabreden", phonetic: "zikh fer-ap-ray-den", meaning: "to make an appointment", example: { de: "Sich zum Kaffee verabreden.", en: "Make a date for coffee." } },
+    { word: "die Verabredung", phonetic: "fer-ap-ray-dung", meaning: "appointment / date", gender: "die", example: { de: "Eine Verabredung haben.", en: "Have an appointment." } },
+    { word: "sich bedanken", phonetic: "zikh beh-dan-ken", meaning: "to thank", example: { de: "Sich herzlich bedanken.", en: "Thank warmly." } },
+    { word: "sich entschuldigen", phonetic: "zikh ent-shool-di-gen", meaning: "to apologize", example: { de: "Sich für den Fehler entschuldigen.", en: "Apologize for the mistake." } },
+    { word: "sich beschweren", phonetic: "zikh beh-shvay-ren", meaning: "to complain", example: { de: "Sich beim Chef beschweren.", en: "Complain to the boss." } },
+    { word: "gratulieren", phonetic: "gra-too-lee-ren", meaning: "to congratulate", example: { de: "Zum Geburtstag gratulieren.", en: "Congratulate on birthday." } },
+    { word: "sich verabschieden", phonetic: "zikh fer-ap-shee-den", meaning: "to say goodbye", example: { de: "Sich herzlich verabschieden.", en: "Say a warm goodbye." } },
+    { word: "der Nachbar", phonetic: "nakh-bar", meaning: "neighbor", gender: "der", example: { de: "Der nette Nachbar.", en: "The nice neighbor." } },
+    { word: "die Nachbarin", phonetic: "nakh-ba-rin", meaning: "female neighbor", gender: "die", example: { de: "Die freundliche Nachbarin.", en: "The friendly neighbor." } },
+    { word: "der Verein", phonetic: "fer-ayn", meaning: "club / association", gender: "der", example: { de: "Einem Verein beitreten.", en: "Join a club." } },
+    { word: "die Gesellschaft", phonetic: "geh-zel-shaft", meaning: "society / company", gender: "die", example: { de: "In guter Gesellschaft.", en: "In good company." } },
+    { word: "die Gemeinschaft", phonetic: "geh-myne-shaft", meaning: "community", gender: "die", example: { de: "Die lokale Gemeinschaft.", en: "The local community." } },
+    { word: "der Streit", phonetic: "shtryte", meaning: "argument / quarrel", gender: "der", example: { de: "Einen Streit schlichten.", en: "Settle an argument." } },
+    { word: "sich streiten", phonetic: "zikh shtry-ten", meaning: "to argue / quarrel", example: { de: "Sich um Kleinigkeiten streiten.", en: "Argue about small things." } },
+    { word: "sich vertragen", phonetic: "zikh fer-trah-gen", meaning: "to make up / reconcile", example: { de: "Sich wieder vertragen.", en: "Make up again." } },
+    { word: "die Veranstaltung", phonetic: "fer-an-shtal-tung", meaning: "event", gender: "die", example: { de: "Eine kulturelle Veranstaltung.", en: "A cultural event." } },
+    { word: "der Stammtisch", phonetic: "shtam-tish", meaning: "regulars' table", gender: "der", example: { de: "Am Stammtisch sitzen.", en: "Sit at the regulars' table." } },
+    { word: "das Treffen", phonetic: "tre-fen", meaning: "meeting / gathering", gender: "das", example: { de: "Ein nettes Treffen.", en: "A nice gathering." } },
+    { word: "die Feier", phonetic: "fy-er", meaning: "celebration", gender: "die", example: { de: "Eine kleine Feier.", en: "A small celebration." } },
+  ]}] },
+};

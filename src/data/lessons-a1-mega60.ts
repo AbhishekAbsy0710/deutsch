@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega60: Record<string, Lesson> = {
+  "la1_m110": { id: "la1_m110", title: "Celebrations & Holidays A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Party", phonetic: "par-tee", meaning: "party", gender: "die", example: { de: "Eine Party feiern.", en: "Have a party." } },
+    { word: "die Einladung", phonetic: "ayn-lah-dung", meaning: "invitation", gender: "die", example: { de: "Eine Einladung bekommen.", en: "Receive an invitation." } },
+    { word: "einladen", phonetic: "ayn-lah-den", meaning: "to invite", example: { de: "Freunde einladen.", en: "Invite friends." } },
+    { word: "der Kuchen", phonetic: "koo-khen", meaning: "cake", gender: "der", example: { de: "Einen Kuchen backen.", en: "Bake a cake." } },
+    { word: "die Kerze", phonetic: "ker-tsuh", meaning: "candle", gender: "die", example: { de: "Kerzen anzünden.", en: "Light candles." } },
+    { word: "die Überraschung", phonetic: "ü-ber-ra-shung", meaning: "surprise", gender: "die", example: { de: "Eine große Überraschung.", en: "A big surprise." } },
+    { word: "feiern", phonetic: "fy-ern", meaning: "to celebrate", example: { de: "Silvester feiern.", en: "Celebrate New Year's Eve." } },
+    { word: "der Feiertag", phonetic: "fy-er-tahg", meaning: "holiday / public holiday", gender: "der", example: { de: "Ein gesetzlicher Feiertag.", en: "A public holiday." } },
+    { word: "das Weihnachten", phonetic: "vy-nakh-ten", meaning: "Christmas", gender: "das", example: { de: "Frohe Weihnachten!", en: "Merry Christmas!" } },
+    { word: "der Weihnachtsbaum", phonetic: "vy-nakhts-bowm", meaning: "Christmas tree", gender: "der", example: { de: "Den Weihnachtsbaum schmücken.", en: "Decorate the Christmas tree." } },
+    { word: "das Ostern", phonetic: "ohs-tern", meaning: "Easter", gender: "das", example: { de: "Frohe Ostern!", en: "Happy Easter!" } },
+    { word: "das Osterei", phonetic: "ohs-ter-ay", meaning: "Easter egg", gender: "das", example: { de: "Ostereier suchen.", en: "Search for Easter eggs." } },
+    { word: "der Karneval", phonetic: "kar-ne-val", meaning: "carnival", gender: "der", example: { de: "Karneval feiern.", en: "Celebrate carnival." } },
+    { word: "das Kostüm", phonetic: "kos-tüm", meaning: "costume", gender: "das", example: { de: "Ein lustiges Kostüm.", en: "A funny costume." } },
+    { word: "das Silvester", phonetic: "zil-ves-ter", meaning: "New Year's Eve", gender: "das", example: { de: "Silvester feiern.", en: "Celebrate New Year's Eve." } },
+    { word: "das Feuerwerk", phonetic: "foy-er-verk", meaning: "fireworks", gender: "das", example: { de: "Feuerwerk anschauen.", en: "Watch fireworks." } },
+    { word: "die Hochzeit", phonetic: "hokh-tsyte", meaning: "wedding", gender: "die", example: { de: "Zur Hochzeit einladen.", en: "Invite to the wedding." } },
+    { word: "die Taufe", phonetic: "tow-fuh", meaning: "baptism", gender: "die", example: { de: "Die Taufe des Babys.", en: "The baby's baptism." } },
+    { word: "der Valentinstag", phonetic: "va-len-teens-tahg", meaning: "Valentine's Day", gender: "der", example: { de: "Am Valentinstag.", en: "On Valentine's Day." } },
+    { word: "das Erntedankfest", phonetic: "ern-tuh-dank-fest", meaning: "Thanksgiving", gender: "das", example: { de: "Das Erntedankfest feiern.", en: "Celebrate Thanksgiving." } },
+  ]}] },
+};
