@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega51: Record<string, Lesson> = {
+  "la2_m96": { id: "la2_m96", title: "Communication Verbs A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "erklären", phonetic: "er-klay-ren", meaning: "to explain", example: { de: "Kannst du das erklären?", en: "Can you explain that?" } },
+    { word: "vorschlagen", phonetic: "for-shlah-gen", meaning: "to suggest", example: { de: "Ich schlage vor.", en: "I suggest." } },
+    { word: "versprechen", phonetic: "fer-shpre-khen", meaning: "to promise", example: { de: "Ich verspreche es.", en: "I promise." } },
+    { word: "sich beschweren", phonetic: "zikh beh-shvay-ren", meaning: "to complain", example: { de: "Sich beim Chef beschweren.", en: "Complain to the boss." } },
+    { word: "sich entschuldigen", phonetic: "zikh ent-shool-di-gen", meaning: "to apologize", example: { de: "Ich entschuldige mich.", en: "I apologize." } },
+    { word: "warnen", phonetic: "var-nen", meaning: "to warn", example: { de: "Ich warne dich.", en: "I warn you." } },
+    { word: "überreden", phonetic: "ü-ber-ray-den", meaning: "to persuade", example: { de: "Jemanden überreden.", en: "Persuade someone." } },
+    { word: "überzeugen", phonetic: "ü-ber-tsoy-gen", meaning: "to convince", example: { de: "Davon überzeugen.", en: "Convince of that." } },
+    { word: "verhandeln", phonetic: "fer-han-deln", meaning: "to negotiate", example: { de: "Einen Preis verhandeln.", en: "Negotiate a price." } },
+    { word: "sich streiten", phonetic: "zikh shtry-ten", meaning: "to argue / quarrel", example: { de: "Sich mit jemandem streiten.", en: "Argue with someone." } },
+    { word: "flüstern", phonetic: "flüs-tern", meaning: "to whisper", example: { de: "Leise flüstern.", en: "Whisper quietly." } },
+    { word: "schreien", phonetic: "shry-en", meaning: "to shout / scream", example: { de: "Laut schreien.", en: "Shout loudly." } },
+    { word: "murmeln", phonetic: "moor-meln", meaning: "to mumble", example: { de: "Vor sich hin murmeln.", en: "Mumble to oneself." } },
+    { word: "loben", phonetic: "loh-ben", meaning: "to praise", example: { de: "Jemanden loben.", en: "Praise someone." } },
+    { word: "kritisieren", phonetic: "kri-ti-zee-ren", meaning: "to criticize", example: { de: "Konstruktiv kritisieren.", en: "Criticize constructively." } },
+    { word: "zugeben", phonetic: "tsoo-gay-ben", meaning: "to admit", example: { de: "Einen Fehler zugeben.", en: "Admit a mistake." } },
+    { word: "leugnen", phonetic: "loyg-nen", meaning: "to deny", example: { de: "Die Schuld leugnen.", en: "Deny the guilt." } },
+    { word: "behaupten", phonetic: "beh-howp-ten", meaning: "to claim / assert", example: { de: "Das Gegenteil behaupten.", en: "Claim the opposite." } },
+    { word: "bestätigen", phonetic: "beh-shtay-ti-gen", meaning: "to confirm", example: { de: "Den Termin bestätigen.", en: "Confirm the appointment." } },
+    { word: "widersprechen", phonetic: "vee-der-shpre-khen", meaning: "to contradict", example: { de: "Jemandem widersprechen.", en: "Contradict someone." } },
+  ]}] },
+};

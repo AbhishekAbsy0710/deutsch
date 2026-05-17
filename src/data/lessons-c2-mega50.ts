@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega50: Record<string, Lesson> = {
+  "lc2_m93": { id: "lc2_m93", title: "Advanced Quantum Field Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Quantenfeldtheorie", phonetic: "kvan-ten-felt-tay-oh-ree", meaning: "quantum field theory", gender: "die", example: { de: "Perturbative Quantenfeldtheorie.", en: "Perturbative quantum field theory." } },
+    { word: "die Renormierung", phonetic: "re-nor-mee-rung", meaning: "renormalization", gender: "die", example: { de: "Ultraviolette Renormierung.", en: "Ultraviolet renormalization." } },
+    { word: "die Feynman-Diagramme", phonetic: "fayn-man-dee-a-gra-muh", meaning: "Feynman diagrams", example: { de: "Schleifenkorrektur-Feynman-Diagramme.", en: "Loop-correction Feynman diagrams." } },
+    { word: "die Eichtheorie", phonetic: "aykh-tay-oh-ree", meaning: "gauge theory", gender: "die", example: { de: "Nicht-abelsche Eichtheorie.", en: "Non-abelian gauge theory." } },
+    { word: "die Quantenchromodynamik", phonetic: "kvan-ten-kro-mo-dü-nah-mik", meaning: "quantum chromodynamics", gender: "die", example: { de: "Perturbative Quantenchromodynamik.", en: "Perturbative QCD." } },
+    { word: "die Quantenelektrodynamik", phonetic: "kvan-ten-e-lek-tro-dü-nah-mik", meaning: "quantum electrodynamics", gender: "die", example: { de: "Präzisions-Quantenelektrodynamik.", en: "Precision QED." } },
+    { word: "die Symmetriebrechung", phonetic: "zü-me-tree-bre-khung", meaning: "symmetry breaking", gender: "die", example: { de: "Spontane Symmetriebrechung.", en: "Spontaneous symmetry breaking." } },
+    { word: "das Higgs-Mechanismus", phonetic: "hiks-me-kha-nis-mus", meaning: "Higgs mechanism", gender: "der", example: { de: "Elektroschwacher Higgs-Mechanismus.", en: "Electroweak Higgs mechanism." } },
+    { word: "die Pfadintegralformulierung", phonetic: "pfaht-in-te-grahl-for-moo-lee-rung", meaning: "path integral formulation", gender: "die", example: { de: "Feynmansche Pfadintegralformulierung.", en: "Feynman's path integral formulation." } },
+    { word: "die Quantisierung", phonetic: "kvan-ti-zee-rung", meaning: "quantization", gender: "die", example: { de: "Kanonische Quantisierung.", en: "Canonical quantization." } },
+    { word: "die Supersymmetrie", phonetic: "zoo-per-zü-me-tree", meaning: "supersymmetry", gender: "die", example: { de: "N=1 Supersymmetrie.", en: "N=1 supersymmetry." } },
+    { word: "die Stringtheorie", phonetic: "string-tay-oh-ree", meaning: "string theory", gender: "die", example: { de: "Typ-IIB-Stringtheorie.", en: "Type IIB string theory." } },
+    { word: "die Anomalie", phonetic: "a-no-ma-lee", meaning: "anomaly (quantum)", gender: "die", example: { de: "Chirale Anomalie.", en: "Chiral anomaly." } },
+    { word: "die Effektive Feldtheorie", phonetic: "e-fek-tee-vuh felt-tay-oh-ree", meaning: "effective field theory", example: { de: "Niederenergie-effektive Feldtheorie.", en: "Low-energy effective field theory." } },
+    { word: "die Vakuumfluktuation", phonetic: "va-koo-um-flook-too-a-tsee-ohn", meaning: "vacuum fluctuation", gender: "die", example: { de: "Quantenvakuumfluktuation.", en: "Quantum vacuum fluctuation." } },
+    { word: "die Propagatorfunktion", phonetic: "pro-pa-gah-tor-funk-tsee-ohn", meaning: "propagator function", gender: "die", example: { de: "Freie Propagatorfunktion.", en: "Free propagator function." } },
+    { word: "die Vertexfunktion", phonetic: "ver-teks-funk-tsee-ohn", meaning: "vertex function", gender: "die", example: { de: "Dreilinien-Vertexfunktion.", en: "Three-line vertex function." } },
+    { word: "die Confinement", phonetic: "kon-fayn-ment", meaning: "confinement (quarks)", gender: "das", example: { de: "Quark-Confinement.", en: "Quark confinement." } },
+    { word: "die Asymptotische Freiheit", phonetic: "a-zümp-toh-ti-shuh fry-hyte", meaning: "asymptotic freedom", example: { de: "QCD-asymptotische Freiheit.", en: "QCD asymptotic freedom." } },
+    { word: "die Instantonlösung", phonetic: "in-stan-ton-lö-zung", meaning: "instanton solution", gender: "die", example: { de: "BPST-Instantonlösung.", en: "BPST instanton solution." } },
+  ]}] },
+};

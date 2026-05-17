@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega52: Record<string, Lesson> = {
+  "lc1_m98": { id: "lc1_m98", title: "Advanced Computational Linguistics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Computerlinguistik", phonetic: "kom-pyoo-ter-lin-gvis-tik", meaning: "computational linguistics", gender: "die", example: { de: "Statistische Computerlinguistik.", en: "Statistical computational linguistics." } },
+    { word: "die Tokenisierung", phonetic: "to-ke-ni-zee-rung", meaning: "tokenization", gender: "die", example: { de: "Subwort-Tokenisierung.", en: "Subword tokenization." } },
+    { word: "die Dependenzgrammatik", phonetic: "de-pen-dents-gra-ma-tik", meaning: "dependency grammar", gender: "die", example: { de: "Universale Dependenzgrammatik.", en: "Universal dependency grammar." } },
+    { word: "die Morphologische Analyse", phonetic: "mor-fo-lo-gi-shuh a-na-lü-zuh", meaning: "morphological analysis", example: { de: "Automatische morphologische Analyse.", en: "Automatic morphological analysis." } },
+    { word: "die Named-Entity-Erkennung", phonetic: "naymd-en-ti-tee-er-ke-nung", meaning: "named entity recognition", gender: "die", example: { de: "Biomedizinische Named-Entity-Erkennung.", en: "Biomedical NER." } },
+    { word: "die Sentiment-Analyse", phonetic: "sen-ti-ment-a-na-lü-zuh", meaning: "sentiment analysis", gender: "die", example: { de: "Aspektbasierte Sentiment-Analyse.", en: "Aspect-based sentiment analysis." } },
+    { word: "die Maschinelle Übersetzung", phonetic: "ma-shi-ne-luh ü-ber-ze-tsung", meaning: "machine translation", example: { de: "Neuronale maschinelle Übersetzung.", en: "Neural machine translation." } },
+    { word: "die Spracherkennung", phonetic: "shprahk-er-ke-nung", meaning: "speech recognition", gender: "die", example: { de: "Automatische Spracherkennung.", en: "Automatic speech recognition." } },
+    { word: "die Sprachsynthese", phonetic: "shprahk-zün-tay-zuh", meaning: "speech synthesis", gender: "die", example: { de: "Neuronale Sprachsynthese.", en: "Neural speech synthesis." } },
+    { word: "die Koreferenzauflösung", phonetic: "ko-re-fe-rents-owf-lö-zung", meaning: "coreference resolution", gender: "die", example: { de: "Pronomen-Koreferenzauflösung.", en: "Pronoun coreference resolution." } },
+    { word: "die Textklassifikation", phonetic: "tekst-kla-si-fi-ka-tsee-ohn", meaning: "text classification", gender: "die", example: { de: "Multilinguale Textklassifikation.", en: "Multilingual text classification." } },
+    { word: "die Informationsextraktion", phonetic: "in-for-ma-tsee-ohns-eks-trak-tsee-ohn", meaning: "information extraction", gender: "die", example: { de: "Offene Informationsextraktion.", en: "Open information extraction." } },
+    { word: "die Wortvektoren", phonetic: "vort-vek-toh-ren", meaning: "word vectors", example: { de: "Kontextualisierte Wortvektoren.", en: "Contextualized word vectors." } },
+    { word: "die Transformerarchitektur", phonetic: "trans-for-mer-ar-khi-tek-toor", meaning: "transformer architecture", gender: "die", example: { de: "Attention-basierte Transformerarchitektur.", en: "Attention-based transformer architecture." } },
+    { word: "die Textzusammenfassung", phonetic: "tekst-tsoo-za-men-fa-sung", meaning: "text summarization", gender: "die", example: { de: "Abstraktive Textzusammenfassung.", en: "Abstractive text summarization." } },
+    { word: "die Ontologieextraktion", phonetic: "on-to-lo-gee-eks-trak-tsee-ohn", meaning: "ontology extraction", gender: "die", example: { de: "Automatische Ontologieextraktion.", en: "Automatic ontology extraction." } },
+    { word: "die Dialogsysteme", phonetic: "dee-a-lohg-züs-tay-muh", meaning: "dialogue systems", example: { de: "Aufgabenorientierte Dialogsysteme.", en: "Task-oriented dialogue systems." } },
+    { word: "die Wissensrepräsentation", phonetic: "vi-sens-re-pray-zen-ta-tsee-ohn", meaning: "knowledge representation", gender: "die", example: { de: "Symbolische Wissensrepräsentation.", en: "Symbolic knowledge representation." } },
+    { word: "die Pragmatische Analyse", phonetic: "prag-mah-ti-shuh a-na-lü-zuh", meaning: "pragmatic analysis", example: { de: "Kontextuelle pragmatische Analyse.", en: "Contextual pragmatic analysis." } },
+    { word: "die Sprachmodellierung", phonetic: "shprahk-mo-de-lee-rung", meaning: "language modeling", gender: "die", example: { de: "Autoregressive Sprachmodellierung.", en: "Autoregressive language modeling." } },
+  ]}] },
+};

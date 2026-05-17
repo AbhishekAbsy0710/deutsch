@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega53: Record<string, Lesson> = {
+  "la1_m103": { id: "la1_m103", title: "Emergencies & Safety A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "der Notfall", phonetic: "noht-fal", meaning: "emergency", gender: "der", example: { de: "Ein medizinischer Notfall.", en: "A medical emergency." } },
+    { word: "die Feuerwehr", phonetic: "foy-er-vayr", meaning: "fire department", gender: "die", example: { de: "Die Feuerwehr rufen.", en: "Call the fire department." } },
+    { word: "der Rettungsdienst", phonetic: "re-tungs-deenst", meaning: "emergency service", gender: "der", example: { de: "Den Rettungsdienst anrufen.", en: "Call emergency services." } },
+    { word: "der Notruf", phonetic: "noht-roof", meaning: "emergency call", gender: "der", example: { de: "Den Notruf wählen.", en: "Dial the emergency number." } },
+    { word: "der Unfall", phonetic: "oon-fal", meaning: "accident", gender: "der", example: { de: "Ein Autounfall.", en: "A car accident." } },
+    { word: "die Erste Hilfe", phonetic: "ers-tuh hil-fuh", meaning: "first aid", example: { de: "Erste Hilfe leisten.", en: "Give first aid." } },
+    { word: "der Verband", phonetic: "fer-bant", meaning: "bandage", gender: "der", example: { de: "Einen Verband anlegen.", en: "Apply a bandage." } },
+    { word: "das Pflaster", phonetic: "pflas-ter", meaning: "band-aid / plaster", gender: "das", example: { de: "Ein Pflaster kleben.", en: "Put on a band-aid." } },
+    { word: "bluten", phonetic: "bloo-ten", meaning: "to bleed", example: { de: "Die Wunde blutet.", en: "The wound is bleeding." } },
+    { word: "die Wunde", phonetic: "voon-duh", meaning: "wound", gender: "die", example: { de: "Eine tiefe Wunde.", en: "A deep wound." } },
+    { word: "der Brand", phonetic: "brant", meaning: "fire (blaze)", gender: "der", example: { de: "Ein Brand im Haus.", en: "A fire in the house." } },
+    { word: "der Feuerlöscher", phonetic: "foy-er-lö-sher", meaning: "fire extinguisher", gender: "der", example: { de: "Den Feuerlöscher benutzen.", en: "Use the fire extinguisher." } },
+    { word: "der Rauchmelder", phonetic: "rowkh-mel-der", meaning: "smoke detector", gender: "der", example: { de: "Der Rauchmelder piept.", en: "The smoke detector beeps." } },
+    { word: "der Notausgang", phonetic: "noht-ows-gang", meaning: "emergency exit", gender: "der", example: { de: "Zum Notausgang gehen.", en: "Go to the emergency exit." } },
+    { word: "evakuieren", phonetic: "e-va-koo-ee-ren", meaning: "to evacuate", example: { de: "Das Gebäude evakuieren.", en: "Evacuate the building." } },
+    { word: "die Warnung", phonetic: "var-nung", meaning: "warning", gender: "die", example: { de: "Eine Warnung aussprechen.", en: "Issue a warning." } },
+    { word: "der Helm", phonetic: "helm", meaning: "helmet", gender: "der", example: { de: "Einen Helm tragen.", en: "Wear a helmet." } },
+    { word: "die Schutzbrille", phonetic: "shoots-bri-luh", meaning: "safety goggles", gender: "die", example: { de: "Eine Schutzbrille aufsetzen.", en: "Put on safety goggles." } },
+    { word: "der Sicherheitsgurt", phonetic: "zi-kher-hyts-goort", meaning: "seat belt", gender: "der", example: { de: "Den Sicherheitsgurt anlegen.", en: "Fasten the seat belt." } },
+    { word: "die Gefahr", phonetic: "geh-fahr", meaning: "danger", gender: "die", example: { de: "Vorsicht, Gefahr!", en: "Caution, danger!" } },
+  ]}] },
+};

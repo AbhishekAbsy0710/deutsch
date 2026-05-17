@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega54: Record<string, Lesson> = {
+  "lb1_m105": { id: "lb1_m105", title: "Social Issues B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Armut", phonetic: "ar-moot", meaning: "poverty", gender: "die", example: { de: "Kinderarmut bekämpfen.", en: "Fight child poverty." } },
+    { word: "die Obdachlosigkeit", phonetic: "op-dakh-loh-zikh-kyte", meaning: "homelessness", gender: "die", example: { de: "Obdachlosigkeit reduzieren.", en: "Reduce homelessness." } },
+    { word: "die Arbeitslosigkeit", phonetic: "ar-byts-loh-zikh-kyte", meaning: "unemployment", gender: "die", example: { de: "Hohe Arbeitslosigkeit.", en: "High unemployment." } },
+    { word: "die Sozialleistung", phonetic: "zo-tsee-ahl-lys-tung", meaning: "social benefit", gender: "die", example: { de: "Sozialleistungen beantragen.", en: "Apply for social benefits." } },
+    { word: "das Bürgergeld", phonetic: "bür-ger-gelt", meaning: "citizen's income", gender: "das", example: { de: "Bürgergeld erhalten.", en: "Receive citizen's income." } },
+    { word: "die Rentenversicherung", phonetic: "ren-ten-fer-zi-khe-rung", meaning: "pension insurance", gender: "die", example: { de: "Gesetzliche Rentenversicherung.", en: "Statutory pension insurance." } },
+    { word: "die Krankenversicherung", phonetic: "kran-ken-fer-zi-khe-rung", meaning: "health insurance", gender: "die", example: { de: "Gesetzliche Krankenversicherung.", en: "Statutory health insurance." } },
+    { word: "die Chancengleichheit", phonetic: "shan-sen-glykh-hyte", meaning: "equal opportunities", gender: "die", example: { de: "Chancengleichheit fördern.", en: "Promote equal opportunities." } },
+    { word: "die Drogensucht", phonetic: "droh-gen-zookht", meaning: "drug addiction", gender: "die", example: { de: "Drogensucht behandeln.", en: "Treat drug addiction." } },
+    { word: "die Jugendkriminalität", phonetic: "yoo-gent-kri-mi-na-li-tayt", meaning: "juvenile delinquency", gender: "die", example: { de: "Prävention der Jugendkriminalität.", en: "Prevention of juvenile delinquency." } },
+    { word: "die Pflegeversicherung", phonetic: "pflay-guh-fer-zi-khe-rung", meaning: "long-term care insurance", gender: "die", example: { de: "Beiträge zur Pflegeversicherung.", en: "Long-term care insurance contributions." } },
+    { word: "die Gentrifizierung", phonetic: "gen-tri-fi-tsee-rung", meaning: "gentrification", gender: "die", example: { de: "Gentrifizierung in Großstädten.", en: "Gentrification in major cities." } },
+    { word: "die Wohnungsnot", phonetic: "voh-nungs-noht", meaning: "housing shortage", gender: "die", example: { de: "Akute Wohnungsnot.", en: "Acute housing shortage." } },
+    { word: "die Altersarmut", phonetic: "al-ters-ar-moot", meaning: "old-age poverty", gender: "die", example: { de: "Steigende Altersarmut.", en: "Rising old-age poverty." } },
+    { word: "die Ehrenamtlich", phonetic: "ay-ren-amt-likh", meaning: "voluntary / honorary", example: { de: "Ehrenamtlich arbeiten.", en: "Work voluntarily." } },
+    { word: "die Sozialhilfe", phonetic: "zo-tsee-ahl-hil-fuh", meaning: "social welfare", gender: "die", example: { de: "Sozialhilfe beziehen.", en: "Receive social welfare." } },
+    { word: "die Inklusion", phonetic: "in-kloo-zee-ohn", meaning: "inclusion", gender: "die", example: { de: "Inklusion in Schulen.", en: "Inclusion in schools." } },
+    { word: "die Barrierefreiheit", phonetic: "ba-ree-ay-ruh-fry-hyte", meaning: "accessibility", gender: "die", example: { de: "Barrierefreiheit gewährleisten.", en: "Ensure accessibility." } },
+    { word: "der Mindestlohn", phonetic: "min-dest-lohn", meaning: "minimum wage", gender: "der", example: { de: "Der gesetzliche Mindestlohn.", en: "The statutory minimum wage." } },
+    { word: "die Gewerkschaft", phonetic: "geh-verk-shaft", meaning: "labor union", gender: "die", example: { de: "In der Gewerkschaft.", en: "In the labor union." } },
+  ]}] },
+};

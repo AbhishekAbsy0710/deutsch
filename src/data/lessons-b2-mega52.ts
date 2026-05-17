@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega52: Record<string, Lesson> = {
+  "lb2_m97": { id: "lb2_m97", title: "Aerospace Engineering B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Luft- und Raumfahrt", phonetic: "looft-oont-rowm-fahrt", meaning: "aerospace", example: { de: "Die deutsche Luft- und Raumfahrt.", en: "German aerospace." } },
+    { word: "die Aerodynamik", phonetic: "a-e-ro-dü-nah-mik", meaning: "aerodynamics", gender: "die", example: { de: "Transsonische Aerodynamik.", en: "Transonic aerodynamics." } },
+    { word: "der Triebwerk", phonetic: "treep-verk", meaning: "engine / propulsion", gender: "das", example: { de: "Ein Triebwerk starten.", en: "Start an engine." } },
+    { word: "die Nutzlast", phonetic: "noots-last", meaning: "payload", gender: "die", example: { de: "Maximale Nutzlast.", en: "Maximum payload." } },
+    { word: "der Rumpf", phonetic: "roompf", meaning: "fuselage", gender: "der", example: { de: "Druckbeaufschlagter Rumpf.", en: "Pressurized fuselage." } },
+    { word: "die Tragfläche", phonetic: "trahg-fley-khuh", meaning: "wing (aircraft)", gender: "die", example: { de: "Gepfeilte Tragfläche.", en: "Swept wing." } },
+    { word: "das Fahrwerk", phonetic: "fahr-verk", meaning: "landing gear", gender: "das", example: { de: "Einziehbares Fahrwerk.", en: "Retractable landing gear." } },
+    { word: "der Schub", phonetic: "shoop", meaning: "thrust", gender: "der", example: { de: "Maximaler Schub.", en: "Maximum thrust." } },
+    { word: "der Auftrieb", phonetic: "owf-treep", meaning: "lift (aerodynamic)", gender: "der", example: { de: "Aerodynamischer Auftrieb.", en: "Aerodynamic lift." } },
+    { word: "der Widerstand", phonetic: "vee-der-shtant", meaning: "drag (aerodynamic)", gender: "der", example: { de: "Induzierter Widerstand.", en: "Induced drag." } },
+    { word: "die Flugsteuerung", phonetic: "floog-shtoy-e-rung", meaning: "flight control", gender: "die", example: { de: "Fly-by-Wire-Flugsteuerung.", en: "Fly-by-wire flight control." } },
+    { word: "die Raketentechnik", phonetic: "ra-kay-ten-tekh-nik", meaning: "rocketry", gender: "die", example: { de: "Moderne Raketentechnik.", en: "Modern rocketry." } },
+    { word: "der Satellit", phonetic: "za-te-leet", meaning: "satellite", gender: "der", example: { de: "Ein Kommunikationssatellit.", en: "A communication satellite." } },
+    { word: "die Umlaufbahn", phonetic: "oom-lowf-bahn", meaning: "orbit", gender: "die", example: { de: "Geostationäre Umlaufbahn.", en: "Geostationary orbit." } },
+    { word: "die Raumstation", phonetic: "rowm-shta-tsee-ohn", meaning: "space station", gender: "die", example: { de: "Internationale Raumstation.", en: "International Space Station." } },
+    { word: "die Schwerelosigkeit", phonetic: "shvay-ruh-loh-zikh-kyte", meaning: "weightlessness", gender: "die", example: { de: "In der Schwerelosigkeit.", en: "In weightlessness." } },
+    { word: "der Wiedereintritt", phonetic: "vee-der-ayn-trit", meaning: "reentry", gender: "der", example: { de: "Atmosphärischer Wiedereintritt.", en: "Atmospheric reentry." } },
+    { word: "die Avionik", phonetic: "a-vee-oh-nik", meaning: "avionics", gender: "die", example: { de: "Moderne Avionik.", en: "Modern avionics." } },
+    { word: "die Verbundwerkstoff", phonetic: "fer-boont-verk-shtof", meaning: "composite material", gender: "der", example: { de: "Kohlefaser-Verbundwerkstoff.", en: "Carbon fiber composite." } },
+    { word: "die Überschallgeschwindigkeit", phonetic: "ü-ber-shal-geh-shvin-dikh-kyte", meaning: "supersonic speed", gender: "die", example: { de: "Überschallgeschwindigkeit erreichen.", en: "Reach supersonic speed." } },
+  ]}] },
+};
