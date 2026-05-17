@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega43: Record<string, Lesson> = {
+  "lc2_m86": { id: "lc2_m86", title: "Advanced Optogenetics C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Optogenetik", phonetic: "op-to-ge-nay-tik", meaning: "optogenetics", gender: "die", example: { de: "Neurowissenschaftliche Optogenetik.", en: "Neuroscientific optogenetics." } },
+    { word: "die Kanalrhodopsine", phonetic: "ka-nahl-ro-dop-zee-nuh", meaning: "channelrhodopsins", example: { de: "ChR2-Kanalrhodopsine.", en: "ChR2 channelrhodopsins." } },
+    { word: "die Halorhodopsine", phonetic: "ha-lo-ro-dop-zee-nuh", meaning: "halorhodopsins", example: { de: "Inhibitorische Halorhodopsine.", en: "Inhibitory halorhodopsins." } },
+    { word: "die Lichtaktivierung", phonetic: "likht-ak-ti-vee-rung", meaning: "light activation", gender: "die", example: { de: "Millisekunden-Lichtaktivierung.", en: "Millisecond light activation." } },
+    { word: "die Virale Transduktion", phonetic: "vi-rah-luh trans-dook-tsee-ohn", meaning: "viral transduction", example: { de: "AAV-virale Transduktion.", en: "AAV viral transduction." } },
+    { word: "die Faseroptik", phonetic: "fah-zer-op-tik", meaning: "fiber optics (neuro)", gender: "die", example: { de: "Implantierte Faseroptik.", en: "Implanted fiber optics." } },
+    { word: "die Zelltypspezifität", phonetic: "tsel-tüp-shpe-tsi-fi-tayt", meaning: "cell-type specificity", gender: "die", example: { de: "Cre-abhängige Zelltypspezifität.", en: "Cre-dependent cell-type specificity." } },
+    { word: "die Optogenetische Manipulation", phonetic: "op-to-ge-nay-ti-shuh ma-ni-poo-la-tsee-ohn", meaning: "optogenetic manipulation", example: { de: "Bidirektionale optogenetische Manipulation.", en: "Bidirectional optogenetic manipulation." } },
+    { word: "die Opsinfamilie", phonetic: "op-sin-fa-mee-lee-uh", meaning: "opsin family", gender: "die", example: { de: "Mikrobielle Opsinfamilie.", en: "Microbial opsin family." } },
+    { word: "die Photostimulation", phonetic: "fo-to-shti-moo-la-tsee-ohn", meaning: "photostimulation", gender: "die", example: { de: "Zweifarben-Photostimulation.", en: "Two-color photostimulation." } },
+    { word: "die Schaltkreiskartierung", phonetic: "shalt-krys-kar-tee-rung", meaning: "circuit mapping", gender: "die", example: { de: "Funktionelle Schaltkreiskartierung.", en: "Functional circuit mapping." } },
+    { word: "die Biolumineszenz-Optogenetik", phonetic: "bee-oh-loo-mi-nes-tsents-op-to-ge-nay-tik", meaning: "bioluminescence optogenetics", gender: "die", example: { de: "Drahtlose Biolumineszenz-Optogenetik.", en: "Wireless bioluminescence optogenetics." } },
+    { word: "die Chemogenetik", phonetic: "khe-mo-ge-nay-tik", meaning: "chemogenetics", gender: "die", example: { de: "DREADD-Chemogenetik.", en: "DREADD chemogenetics." } },
+    { word: "die Verhaltensoptogenetik", phonetic: "fer-hal-tens-op-to-ge-nay-tik", meaning: "behavioral optogenetics", gender: "die", example: { de: "Frei-bewegliche Verhaltensoptogenetik.", en: "Freely-moving behavioral optogenetics." } },
+    { word: "die Multielektrodenableitung", phonetic: "mul-ti-e-lek-tro-den-ap-ly-tung", meaning: "multi-electrode recording", gender: "die", example: { de: "Simultane Multielektrodenableitung.", en: "Simultaneous multi-electrode recording." } },
+    { word: "die Calciumbildgebung", phonetic: "kal-tsee-um-bilt-gay-bung", meaning: "calcium imaging", gender: "die", example: { de: "GCaMP-Calciumbildgebung.", en: "GCaMP calcium imaging." } },
+    { word: "die Sonogenetik", phonetic: "zo-no-ge-nay-tik", meaning: "sonogenetics", gender: "die", example: { de: "Ultraschall-Sonogenetik.", en: "Ultrasound sonogenetics." } },
+    { word: "die Magnetogenetik", phonetic: "mag-nay-to-ge-nay-tik", meaning: "magnetogenetics", gender: "die", example: { de: "Ferritin-Magnetogenetik.", en: "Ferritin magnetogenetics." } },
+    { word: "die Holographische Stimulation", phonetic: "ho-lo-gra-fi-shuh shti-moo-la-tsee-ohn", meaning: "holographic stimulation", example: { de: "Dreidimensionale holographische Stimulation.", en: "Three-dimensional holographic stimulation." } },
+    { word: "die Neuroprothetik", phonetic: "noy-ro-pro-tay-tik", meaning: "neuroprosthetics", gender: "die", example: { de: "Optogenetische Neuroprothetik.", en: "Optogenetic neuroprosthetics." } },
+  ]}] },
+};

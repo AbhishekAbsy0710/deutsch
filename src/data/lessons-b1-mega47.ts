@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega47: Record<string, Lesson> = {
+  "lb1_m98": { id: "lb1_m98", title: "Psychology & Emotions B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Psychologie", phonetic: "psü-kho-lo-gee", meaning: "psychology", gender: "die", example: { de: "Klinische Psychologie.", en: "Clinical psychology." } },
+    { word: "das Verhalten", phonetic: "fer-hal-ten", meaning: "behavior", gender: "das", example: { de: "Menschliches Verhalten.", en: "Human behavior." } },
+    { word: "die Angst", phonetic: "angst", meaning: "fear / anxiety", gender: "die", example: { de: "Angst überwinden.", en: "Overcome fear." } },
+    { word: "die Depression", phonetic: "de-pre-see-ohn", meaning: "depression", gender: "die", example: { de: "An Depression leiden.", en: "Suffer from depression." } },
+    { word: "der Stress", phonetic: "shtres", meaning: "stress", gender: "der", example: { de: "Stress abbauen.", en: "Reduce stress." } },
+    { word: "die Therapie", phonetic: "te-ra-pee", meaning: "therapy", gender: "die", example: { de: "Eine Therapie beginnen.", en: "Start therapy." } },
+    { word: "das Selbstbewusstsein", phonetic: "zelpst-beh-voost-zyne", meaning: "self-confidence", gender: "das", example: { de: "Selbstbewusstsein stärken.", en: "Strengthen self-confidence." } },
+    { word: "die Eifersucht", phonetic: "y-fer-zookht", meaning: "jealousy", gender: "die", example: { de: "Eifersucht überwinden.", en: "Overcome jealousy." } },
+    { word: "die Einsamkeit", phonetic: "ayn-zahm-kyte", meaning: "loneliness", gender: "die", example: { de: "Einsamkeit bekämpfen.", en: "Combat loneliness." } },
+    { word: "die Trauer", phonetic: "trow-er", meaning: "grief / mourning", gender: "die", example: { de: "In Trauer sein.", en: "Be in mourning." } },
+    { word: "die Wut", phonetic: "voot", meaning: "rage / anger", gender: "die", example: { de: "Wut kontrollieren.", en: "Control anger." } },
+    { word: "die Freude", phonetic: "froy-duh", meaning: "joy", gender: "die", example: { de: "Große Freude.", en: "Great joy." } },
+    { word: "die Hoffnung", phonetic: "hof-nung", meaning: "hope", gender: "die", example: { de: "Die Hoffnung nicht aufgeben.", en: "Don't give up hope." } },
+    { word: "die Enttäuschung", phonetic: "ent-toy-shung", meaning: "disappointment", gender: "die", example: { de: "Eine große Enttäuschung.", en: "A big disappointment." } },
+    { word: "die Zufriedenheit", phonetic: "tsoo-free-den-hyte", meaning: "satisfaction / contentment", gender: "die", example: { de: "Innere Zufriedenheit.", en: "Inner contentment." } },
+    { word: "die Motivation", phonetic: "mo-ti-va-tsee-ohn", meaning: "motivation", gender: "die", example: { de: "Motivation finden.", en: "Find motivation." } },
+    { word: "das Trauma", phonetic: "trow-ma", meaning: "trauma", gender: "das", example: { de: "Ein Trauma verarbeiten.", en: "Process a trauma." } },
+    { word: "die Persönlichkeit", phonetic: "per-zön-likh-kyte", meaning: "personality", gender: "die", example: { de: "Eine starke Persönlichkeit.", en: "A strong personality." } },
+    { word: "das Bewusstsein", phonetic: "beh-voost-zyne", meaning: "consciousness / awareness", gender: "das", example: { de: "Das Bewusstsein schärfen.", en: "Sharpen awareness." } },
+    { word: "die Achtsamkeit", phonetic: "akht-zahm-kyte", meaning: "mindfulness", gender: "die", example: { de: "Achtsamkeit üben.", en: "Practice mindfulness." } },
+  ]}] },
+};

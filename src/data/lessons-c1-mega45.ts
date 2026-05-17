@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega45: Record<string, Lesson> = {
+  "lc1_m91": { id: "lc1_m91", title: "Advanced Sociolinguistics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Soziolinguistik", phonetic: "zo-tsee-oh-ling-vis-tik", meaning: "sociolinguistics", gender: "die", example: { de: "Variationelle Soziolinguistik.", en: "Variational sociolinguistics." } },
+    { word: "die Sprachvariation", phonetic: "shprakh-va-ree-a-tsee-ohn", meaning: "language variation", gender: "die", example: { de: "Sozial bedingte Sprachvariation.", en: "Socially conditioned language variation." } },
+    { word: "der Dialekt", phonetic: "dee-a-lekt", meaning: "dialect", gender: "der", example: { de: "Bairischer Dialekt.", en: "Bavarian dialect." } },
+    { word: "der Soziolekt", phonetic: "zo-tsee-oh-lekt", meaning: "sociolect", gender: "der", example: { de: "Jugendsprachlicher Soziolekt.", en: "Youth sociolect." } },
+    { word: "der Idiolekt", phonetic: "i-dee-oh-lekt", meaning: "idiolect", gender: "der", example: { de: "Individueller Idiolekt.", en: "Individual idiolect." } },
+    { word: "die Diglossie", phonetic: "di-glo-see", meaning: "diglossia", gender: "die", example: { de: "Schweizerische Diglossie.", en: "Swiss diglossia." } },
+    { word: "der Sprachwandel", phonetic: "shprakh-van-del", meaning: "language change", gender: "der", example: { de: "Lautlicher Sprachwandel.", en: "Phonetic language change." } },
+    { word: "die Sprachpolitik", phonetic: "shprakh-po-li-tik", meaning: "language policy", gender: "die", example: { de: "Europäische Sprachpolitik.", en: "European language policy." } },
+    { word: "die Mehrsprachigkeit", phonetic: "mayr-shprah-khikh-kyte", meaning: "multilingualism", gender: "die", example: { de: "Individuelle Mehrsprachigkeit.", en: "Individual multilingualism." } },
+    { word: "der Bilingualismus", phonetic: "bi-ling-gwa-lis-mus", meaning: "bilingualism", gender: "der", example: { de: "Simultaner Bilingualismus.", en: "Simultaneous bilingualism." } },
+    { word: "die Kreolsprache", phonetic: "kre-ohl-shprah-khuh", meaning: "creole language", gender: "die", example: { de: "Karibische Kreolsprache.", en: "Caribbean creole language." } },
+    { word: "die Pidginsprache", phonetic: "pid-gin-shprah-khuh", meaning: "pidgin language", gender: "die", example: { de: "Pazifische Pidginsprache.", en: "Pacific pidgin language." } },
+    { word: "die Sprachplanung", phonetic: "shprakh-plah-nung", meaning: "language planning", gender: "die", example: { de: "Korpusplanung.", en: "Corpus planning." } },
+    { word: "die Standardisierung", phonetic: "shtan-dar-di-zee-rung", meaning: "standardization (language)", gender: "die", example: { de: "Sprachliche Standardisierung.", en: "Linguistic standardization." } },
+    { word: "die Spracheinstellung", phonetic: "shprakh-ayn-shte-lung", meaning: "language attitude", gender: "die", example: { de: "Negative Spracheinstellung.", en: "Negative language attitude." } },
+    { word: "die Sprachideologie", phonetic: "shprakh-i-de-oh-lo-gee", meaning: "language ideology", gender: "die", example: { de: "Hegemoniale Sprachideologie.", en: "Hegemonic language ideology." } },
+    { word: "die Sprachgemeinschaft", phonetic: "shprakh-geh-myne-shaft", meaning: "speech community", gender: "die", example: { de: "Urbane Sprachgemeinschaft.", en: "Urban speech community." } },
+    { word: "das Register", phonetic: "re-gis-ter", meaning: "register (linguistic)", gender: "das", example: { de: "Formelles Register.", en: "Formal register." } },
+    { word: "die Code-Switching", phonetic: "kohd-svi-tshing", meaning: "code-switching", gender: "das", example: { de: "Intersententielles Code-Switching.", en: "Intersentential code-switching." } },
+    { word: "die Sprachkontakt", phonetic: "shprakh-kon-takt", meaning: "language contact", gender: "der", example: { de: "Intensiver Sprachkontakt.", en: "Intensive language contact." } },
+  ]}] },
+};

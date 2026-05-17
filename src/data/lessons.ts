@@ -61,6 +61,7 @@ import { lessonsA1Mega42 } from "./lessons-a1-mega42";
 import { lessonsA1Mega43 } from "./lessons-a1-mega43";
 import { lessonsA1Mega44 } from "./lessons-a1-mega44";
 import { lessonsA1Mega45 } from "./lessons-a1-mega45";
+import { lessonsA1Mega46 } from "./lessons-a1-mega46";
 import { lessonsA1New5, lessonsA2New9 } from "./lessons-final-gaps";
 import { lessonsA1Final, lessonsA2Final } from "./lessons-final-gaps2";
 import { lessonsA2ExamSkills } from "./lessons-a2-exam";
@@ -122,6 +123,7 @@ import { lessonsA2Mega40 } from "./lessons-a2-mega40";
 import { lessonsA2Mega41 } from "./lessons-a2-mega41";
 import { lessonsA2Mega42 } from "./lessons-a2-mega42";
 import { lessonsA2Mega43 } from "./lessons-a2-mega43";
+import { lessonsA2Mega44 } from "./lessons-a2-mega44";
 import { lessonsB1 } from "./lessons-b1";
 import { lessonsB1Grammar1 } from "./lessons-b1-grammar1";
 import { lessonsB1Grammar2 } from "./lessons-b1-grammar2";
@@ -184,6 +186,7 @@ import { lessonsB1Mega43 } from "./lessons-b1-mega43";
 import { lessonsB1Mega44 } from "./lessons-b1-mega44";
 import { lessonsB1Mega45 } from "./lessons-b1-mega45";
 import { lessonsB1Mega46 } from "./lessons-b1-mega46";
+import { lessonsB1Mega47 } from "./lessons-b1-mega47";
 import { lessonsB2 } from "./lessons-b2";
 import { lessonsB2Grammar1 } from "./lessons-b2-grammar1";
 import { lessonsB2Grammar2 } from "./lessons-b2-grammar2";
@@ -243,6 +246,7 @@ import { lessonsB2Mega41 } from "./lessons-b2-mega41";
 import { lessonsB2Mega42 } from "./lessons-b2-mega42";
 import { lessonsB2Mega43 } from "./lessons-b2-mega43";
 import { lessonsB2Mega44 } from "./lessons-b2-mega44";
+import { lessonsB2Mega45 } from "./lessons-b2-mega45";
 import { lessonsC1Partikeln } from "./lessons-c1-partikeln";
 import { lessonsC1Grammar } from "./lessons-c1-grammar";
 import { lessonsC1Grammar2 } from "./lessons-c1-grammar2";
@@ -320,6 +324,7 @@ import { lessonsC1Mega41 } from "./lessons-c1-mega41";
 import { lessonsC1Mega42 } from "./lessons-c1-mega42";
 import { lessonsC1Mega43 } from "./lessons-c1-mega43";
 import { lessonsC1Mega44 } from "./lessons-c1-mega44";
+import { lessonsC1Mega45 } from "./lessons-c1-mega45";
 import { lessonsC2Mega1 } from "./lessons-c2-mega1";
 import { lessonsC2Mega2 } from "./lessons-c2-mega2";
 import { lessonsC2Mega3 } from "./lessons-c2-mega3";
@@ -362,6 +367,7 @@ import { lessonsC2Mega39 } from "./lessons-c2-mega39";
 import { lessonsC2Mega40 } from "./lessons-c2-mega40";
 import { lessonsC2Mega41 } from "./lessons-c2-mega41";
 import { lessonsC2Mega42 } from "./lessons-c2-mega42";
+import { lessonsC2Mega43 } from "./lessons-c2-mega43";
 
 export type LessonBlock = 
   | { type: "vocabulary", word: string, translation: string, example: string, audioUrl?: string, phonetic: string }
@@ -449,6 +455,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsA1Mega43,
   ...lessonsA1Mega44,
   ...lessonsA1Mega45,
+  ...lessonsA1Mega46,
   ...lessonsA2,
   ...lessonsA2New,
   ...lessonsA2New2,
@@ -510,6 +517,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsA2Mega41,
   ...lessonsA2Mega42,
   ...lessonsA2Mega43,
+  ...lessonsA2Mega44,
   ...lessonsB1,
   ...lessonsB1Grammar1,
   ...lessonsB1Grammar2,
@@ -572,6 +580,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsB1Mega44,
   ...lessonsB1Mega45,
   ...lessonsB1Mega46,
+  ...lessonsB1Mega47,
   ...lessonsB2,
   ...lessonsB2Grammar1,
   ...lessonsB2Grammar2,
@@ -632,6 +641,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsB2Mega42,
   ...lessonsB2Mega43,
   ...lessonsB2Mega44,
+  ...lessonsB2Mega45,
   ...lessonsC1Partikeln,
   ...lessonsC1Grammar,
   ...lessonsC1Grammar2,
@@ -709,6 +719,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC1Mega42,
   ...lessonsC1Mega43,
   ...lessonsC1Mega44,
+  ...lessonsC1Mega45,
   ...lessonsC2Mega1,
   ...lessonsC2Mega2,
   ...lessonsC2Mega3,
@@ -751,4 +762,5 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC2Mega40,
   ...lessonsC2Mega41,
   ...lessonsC2Mega42,
+  ...lessonsC2Mega43,
 };

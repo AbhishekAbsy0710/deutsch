@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega46: Record<string, Lesson> = {
+  "la1_m96": { id: "la1_m96", title: "Time Expressions A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "vorgestern", phonetic: "for-ges-tern", meaning: "day before yesterday", example: { de: "Vorgestern war Montag.", en: "Day before yesterday was Monday." } },
+    { word: "übermorgen", phonetic: "ü-ber-mor-gen", meaning: "day after tomorrow", example: { de: "Übermorgen ist Freitag.", en: "Day after tomorrow is Friday." } },
+    { word: "der Feierabend", phonetic: "fy-er-ah-bent", meaning: "end of work day", gender: "der", example: { de: "Nach Feierabend.", en: "After work." } },
+    { word: "die Mittagspause", phonetic: "mi-tahgs-pow-zuh", meaning: "lunch break", gender: "die", example: { de: "In der Mittagspause.", en: "During lunch break." } },
+    { word: "pünktlich", phonetic: "pünkt-likh", meaning: "on time / punctual", example: { de: "Pünktlich kommen.", en: "Come on time." } },
+    { word: "verspätet", phonetic: "fer-shpay-tet", meaning: "delayed / late", example: { de: "Der Zug ist verspätet.", en: "The train is delayed." } },
+    { word: "gleichzeitig", phonetic: "glykh-tsy-tikh", meaning: "at the same time", example: { de: "Gleichzeitig essen und lesen.", en: "Eat and read at the same time." } },
+    { word: "inzwischen", phonetic: "in-tsvi-shen", meaning: "meanwhile", example: { de: "Inzwischen warte ich.", en: "Meanwhile I wait." } },
+    { word: "sofort", phonetic: "zo-fort", meaning: "immediately", example: { de: "Komm sofort!", en: "Come immediately!" } },
+    { word: "bald", phonetic: "balt", meaning: "soon", example: { de: "Bis bald!", en: "See you soon!" } },
+    { word: "neulich", phonetic: "noy-likh", meaning: "recently", example: { de: "Neulich war ich dort.", en: "I was there recently." } },
+    { word: "damals", phonetic: "dah-mahls", meaning: "back then", example: { de: "Damals war alles anders.", en: "Back then everything was different." } },
+    { word: "der Wochentag", phonetic: "vo-khen-tahg", meaning: "weekday", gender: "der", example: { de: "An Wochentagen.", en: "On weekdays." } },
+    { word: "das Wochenende", phonetic: "vo-khen-en-duh", meaning: "weekend", gender: "das", example: { de: "Am Wochenende.", en: "On the weekend." } },
+    { word: "täglich", phonetic: "tayg-likh", meaning: "daily", example: { de: "Täglich Sport machen.", en: "Exercise daily." } },
+    { word: "wöchentlich", phonetic: "vö-khent-likh", meaning: "weekly", example: { de: "Wöchentlich einkaufen.", en: "Shop weekly." } },
+    { word: "monatlich", phonetic: "mo-naht-likh", meaning: "monthly", example: { de: "Monatlich zahlen.", en: "Pay monthly." } },
+    { word: "jährlich", phonetic: "yayr-likh", meaning: "yearly / annually", example: { de: "Jährlich reisen.", en: "Travel yearly." } },
+    { word: "der Feiertag", phonetic: "fy-er-tahg", meaning: "holiday / public holiday", gender: "der", example: { de: "Ein gesetzlicher Feiertag.", en: "A public holiday." } },
+    { word: "der Urlaub", phonetic: "oor-lowp", meaning: "vacation / holiday", gender: "der", example: { de: "In den Urlaub fahren.", en: "Go on vacation." } },
+  ]}] },
+};
