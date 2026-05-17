@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega64: Record<string, Lesson> = {
+  "lb1_m115": { id: "lb1_m115", title: "Psychology & Emotions B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Psychologie", phonetic: "psü-kho-lo-gee", meaning: "psychology", gender: "die", example: { de: "Klinische Psychologie.", en: "Clinical psychology." } },
+    { word: "das Gefühl", phonetic: "geh-fül", meaning: "feeling / emotion", gender: "das", example: { de: "Ein starkes Gefühl.", en: "A strong feeling." } },
+    { word: "die Angst", phonetic: "angst", meaning: "anxiety / fear", gender: "die", example: { de: "Angst haben.", en: "Be afraid." } },
+    { word: "die Trauer", phonetic: "trow-er", meaning: "grief / sadness", gender: "die", example: { de: "Tiefe Trauer.", en: "Deep grief." } },
+    { word: "die Freude", phonetic: "froy-duh", meaning: "joy", gender: "die", example: { de: "Große Freude empfinden.", en: "Feel great joy." } },
+    { word: "die Wut", phonetic: "voot", meaning: "anger / rage", gender: "die", example: { de: "Vor Wut kochen.", en: "Boil with rage." } },
+    { word: "die Eifersucht", phonetic: "y-fer-zookht", meaning: "jealousy", gender: "die", example: { de: "Eifersucht empfinden.", en: "Feel jealousy." } },
+    { word: "die Scham", phonetic: "shahm", meaning: "shame", gender: "die", example: { de: "Sich schämen.", en: "Feel shame." } },
+    { word: "der Stress", phonetic: "shtres", meaning: "stress", gender: "der", example: { de: "Unter Stress stehen.", en: "Be under stress." } },
+    { word: "die Entspannung", phonetic: "ent-shpa-nung", meaning: "relaxation", gender: "die", example: { de: "Tiefe Entspannung.", en: "Deep relaxation." } },
+    { word: "die Motivation", phonetic: "mo-ti-va-tsee-ohn", meaning: "motivation", gender: "die", example: { de: "Intrinsische Motivation.", en: "Intrinsic motivation." } },
+    { word: "das Selbstbewusstsein", phonetic: "zelpst-beh-voost-zyne", meaning: "self-confidence", gender: "das", example: { de: "Das Selbstbewusstsein stärken.", en: "Strengthen self-confidence." } },
+    { word: "die Depression", phonetic: "de-pre-see-ohn", meaning: "depression", gender: "die", example: { de: "An einer Depression leiden.", en: "Suffer from depression." } },
+    { word: "die Therapie", phonetic: "te-ra-pee", meaning: "therapy", gender: "die", example: { de: "Eine Therapie machen.", en: "Undergo therapy." } },
+    { word: "der Therapeut", phonetic: "te-ra-poyt", meaning: "therapist", gender: "der", example: { de: "Zum Therapeuten gehen.", en: "Go to the therapist." } },
+    { word: "das Unterbewusstsein", phonetic: "oon-ter-beh-voost-zyne", meaning: "subconscious", gender: "das", example: { de: "Im Unterbewusstsein.", en: "In the subconscious." } },
+    { word: "die Persönlichkeit", phonetic: "per-zön-likh-kyte", meaning: "personality", gender: "die", example: { de: "Eine starke Persönlichkeit.", en: "A strong personality." } },
+    { word: "die Empathie", phonetic: "em-pa-tee", meaning: "empathy", gender: "die", example: { de: "Empathie zeigen.", en: "Show empathy." } },
+    { word: "die Resilienz", phonetic: "re-zi-lee-ents", meaning: "resilience", gender: "die", example: { de: "Psychische Resilienz.", en: "Psychological resilience." } },
+    { word: "die Achtsamkeit", phonetic: "akht-zahm-kyte", meaning: "mindfulness", gender: "die", example: { de: "Achtsamkeit üben.", en: "Practice mindfulness." } },
+  ]}] },
+};

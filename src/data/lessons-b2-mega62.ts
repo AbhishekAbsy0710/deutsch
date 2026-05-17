@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega62: Record<string, Lesson> = {
+  "lb2_m107": { id: "lb2_m107", title: "Aerospace Engineering B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Luft- und Raumfahrt", phonetic: "looft-oont-rowm-fahrt", meaning: "aerospace", gender: "die", example: { de: "Deutsche Luft- und Raumfahrt.", en: "German aerospace." } },
+    { word: "die Aerodynamik", phonetic: "a-e-ro-dü-na-mik", meaning: "aerodynamics", gender: "die", example: { de: "Transsonische Aerodynamik.", en: "Transonic aerodynamics." } },
+    { word: "der Triebwerk", phonetic: "treeb-verk", meaning: "engine / turbine", gender: "das", example: { de: "Strahltriebwerk.", en: "Jet engine." } },
+    { word: "der Schub", phonetic: "shoob", meaning: "thrust", gender: "der", example: { de: "Maximaler Schub.", en: "Maximum thrust." } },
+    { word: "der Auftrieb", phonetic: "owf-treeb", meaning: "lift (aerodynamic)", gender: "der", example: { de: "Aerodynamischer Auftrieb.", en: "Aerodynamic lift." } },
+    { word: "der Widerstand", phonetic: "vee-der-shtant", meaning: "drag", gender: "der", example: { de: "Luftwiderstand reduzieren.", en: "Reduce air resistance." } },
+    { word: "die Tragfläche", phonetic: "trahg-fley-khuh", meaning: "wing", gender: "die", example: { de: "Pfeilförmige Tragfläche.", en: "Swept wing." } },
+    { word: "der Rumpf", phonetic: "roompf", meaning: "fuselage", gender: "der", example: { de: "Druckbeaufschlagter Rumpf.", en: "Pressurized fuselage." } },
+    { word: "das Fahrwerk", phonetic: "fahr-verk", meaning: "landing gear", gender: "das", example: { de: "Einziehbares Fahrwerk.", en: "Retractable landing gear." } },
+    { word: "die Avionik", phonetic: "a-vee-oh-nik", meaning: "avionics", gender: "die", example: { de: "Moderne Avionik.", en: "Modern avionics." } },
+    { word: "die Orbitmechanik", phonetic: "or-bit-me-kha-nik", meaning: "orbital mechanics", gender: "die", example: { de: "Keplersche Orbitmechanik.", en: "Keplerian orbital mechanics." } },
+    { word: "die Nutzlast", phonetic: "noots-last", meaning: "payload", gender: "die", example: { de: "Maximale Nutzlast.", en: "Maximum payload." } },
+    { word: "die Raumstation", phonetic: "rowm-shta-tsee-ohn", meaning: "space station", gender: "die", example: { de: "Internationale Raumstation.", en: "International Space Station." } },
+    { word: "der Wiedereintritt", phonetic: "vee-der-ayn-trit", meaning: "reentry", gender: "der", example: { de: "Atmosphärischer Wiedereintritt.", en: "Atmospheric reentry." } },
+    { word: "die Verbundwerkstoff", phonetic: "fer-boont-verk-shtof", meaning: "composite material", gender: "der", example: { de: "Kohlefaser-Verbundwerkstoff.", en: "Carbon fiber composite." } },
+    { word: "die Fluglageregelung", phonetic: "floog-lah-guh-ray-ge-lung", meaning: "attitude control", gender: "die", example: { de: "Dreiachsige Fluglageregelung.", en: "Three-axis attitude control." } },
+    { word: "die Startrampe", phonetic: "shtart-ram-puh", meaning: "launch pad", gender: "die", example: { de: "Auf der Startrampe.", en: "On the launch pad." } },
+    { word: "die Satellitenbahn", phonetic: "za-te-lee-ten-bahn", meaning: "satellite orbit", gender: "die", example: { de: "Geostationäre Satellitenbahn.", en: "Geostationary satellite orbit." } },
+    { word: "die Druckkabine", phonetic: "drook-ka-bee-nuh", meaning: "pressurized cabin", gender: "die", example: { de: "Hermetisch dichte Druckkabine.", en: "Hermetically sealed pressurized cabin." } },
+    { word: "die Flugsimulation", phonetic: "floog-zi-moo-la-tsee-ohn", meaning: "flight simulation", gender: "die", example: { de: "Realistische Flugsimulation.", en: "Realistic flight simulation." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega62: Record<string, Lesson> = {
+  "lc1_m108": { id: "lc1_m108", title: "Advanced Computational Linguistics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Computerlinguistik", phonetic: "kom-pyoo-ter-lin-gvis-tik", meaning: "computational linguistics", gender: "die", example: { de: "Statistische Computerlinguistik.", en: "Statistical computational linguistics." } },
+    { word: "die Syntaxanalyse", phonetic: "zün-taks-a-na-lü-zuh", meaning: "parsing / syntactic analysis", gender: "die", example: { de: "Dependenz-Syntaxanalyse.", en: "Dependency parsing." } },
+    { word: "die Morphologische Analyse", phonetic: "mor-fo-lo-gi-shuh a-na-lü-zuh", meaning: "morphological analysis", example: { de: "Computationelle morphologische Analyse.", en: "Computational morphological analysis." } },
+    { word: "die Named-Entity-Erkennung", phonetic: "naymd-en-ti-ti-er-ke-nung", meaning: "named entity recognition", gender: "die", example: { de: "Neuronale Named-Entity-Erkennung.", en: "Neural named entity recognition." } },
+    { word: "die Sentimentanalyse", phonetic: "zen-ti-ment-a-na-lü-zuh", meaning: "sentiment analysis", gender: "die", example: { de: "Aspektbasierte Sentimentanalyse.", en: "Aspect-based sentiment analysis." } },
+    { word: "die Maschinelle Übersetzung", phonetic: "ma-shee-ne-luh ü-ber-ze-tsung", meaning: "machine translation", example: { de: "Neuronale maschinelle Übersetzung.", en: "Neural machine translation." } },
+    { word: "die Spracherkennung", phonetic: "shprahk-er-ke-nung", meaning: "speech recognition", gender: "die", example: { de: "Automatische Spracherkennung.", en: "Automatic speech recognition." } },
+    { word: "die Sprachsynthese", phonetic: "shprahk-zün-te-zuh", meaning: "speech synthesis", gender: "die", example: { de: "TTS-Sprachsynthese.", en: "TTS speech synthesis." } },
+    { word: "die Tokenisierung", phonetic: "toh-ke-ni-zee-rung", meaning: "tokenization", gender: "die", example: { de: "Subwort-Tokenisierung.", en: "Subword tokenization." } },
+    { word: "die Worteinbettung", phonetic: "vort-ayn-be-tung", meaning: "word embedding", gender: "die", example: { de: "Kontextualisierte Worteinbettung.", en: "Contextualized word embedding." } },
+    { word: "die Koreferenzauflösung", phonetic: "ko-re-fe-rents-owf-lö-zung", meaning: "coreference resolution", gender: "die", example: { de: "Neuronale Koreferenzauflösung.", en: "Neural coreference resolution." } },
+    { word: "die Textklassifikation", phonetic: "tekst-kla-si-fi-ka-tsee-ohn", meaning: "text classification", gender: "die", example: { de: "Mehrklassen-Textklassifikation.", en: "Multi-class text classification." } },
+    { word: "die Informationsextraktion", phonetic: "in-for-ma-tsee-ohns-eks-trak-tsee-ohn", meaning: "information extraction", gender: "die", example: { de: "Offene Informationsextraktion.", en: "Open information extraction." } },
+    { word: "die Semantische Rolle", phonetic: "ze-man-ti-shuh ro-luh", meaning: "semantic role", example: { de: "Semantische Rollenetikettierung.", en: "Semantic role labeling." } },
+    { word: "die Pragmatikverarbeitung", phonetic: "prag-ma-tik-fer-ar-by-tung", meaning: "pragmatic processing", gender: "die", example: { de: "Diskursbezogene Pragmatikverarbeitung.", en: "Discourse-related pragmatic processing." } },
+    { word: "die Korpuslinguistik", phonetic: "kor-poos-lin-gvis-tik", meaning: "corpus linguistics", gender: "die", example: { de: "Annotierte Korpuslinguistik.", en: "Annotated corpus linguistics." } },
+    { word: "die Textgenerierung", phonetic: "tekst-ge-ne-ree-rung", meaning: "text generation", gender: "die", example: { de: "Kontrollierte Textgenerierung.", en: "Controlled text generation." } },
+    { word: "die Fragebeantwortung", phonetic: "frah-guh-beh-ant-vor-tung", meaning: "question answering", gender: "die", example: { de: "Offene Fragebeantwortung.", en: "Open-domain question answering." } },
+    { word: "die Dialogsystem", phonetic: "dee-a-log-züs-taym", meaning: "dialogue system", gender: "das", example: { de: "Aufgabenorientiertes Dialogsystem.", en: "Task-oriented dialogue system." } },
+    { word: "die Textzusammenfassung", phonetic: "tekst-tsoo-za-men-fa-sung", meaning: "text summarization", gender: "die", example: { de: "Abstraktive Textzusammenfassung.", en: "Abstractive text summarization." } },
+  ]}] },
+};

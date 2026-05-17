@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega61: Record<string, Lesson> = {
+  "la2_m106": { id: "la2_m106", title: "Banking & Finance A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Konto", phonetic: "kon-to", meaning: "account", gender: "das", example: { de: "Ein Konto eröffnen.", en: "Open an account." } },
+    { word: "das Girokonto", phonetic: "zhee-ro-kon-to", meaning: "checking account", gender: "das", example: { de: "Ein Girokonto haben.", en: "Have a checking account." } },
+    { word: "das Sparkonto", phonetic: "shpar-kon-to", meaning: "savings account", gender: "das", example: { de: "Geld auf dem Sparkonto.", en: "Money in the savings account." } },
+    { word: "überweisen", phonetic: "ü-ber-vy-zen", meaning: "to transfer (money)", example: { de: "Geld überweisen.", en: "Transfer money." } },
+    { word: "die Überweisung", phonetic: "ü-ber-vy-zung", meaning: "bank transfer", gender: "die", example: { de: "Eine Überweisung machen.", en: "Make a transfer." } },
+    { word: "abheben", phonetic: "ap-hay-ben", meaning: "to withdraw", example: { de: "Geld abheben.", en: "Withdraw money." } },
+    { word: "einzahlen", phonetic: "ayn-tsah-len", meaning: "to deposit", example: { de: "Geld einzahlen.", en: "Deposit money." } },
+    { word: "der Geldautomat", phonetic: "gelt-ow-to-maht", meaning: "ATM", gender: "der", example: { de: "Am Geldautomat abheben.", en: "Withdraw at the ATM." } },
+    { word: "die Bankleitzahl", phonetic: "bank-lyte-tsahl", meaning: "bank routing number", gender: "die", example: { de: "Die Bankleitzahl angeben.", en: "Provide the routing number." } },
+    { word: "die IBAN", phonetic: "ee-bahn", meaning: "IBAN", gender: "die", example: { de: "Die IBAN eingeben.", en: "Enter the IBAN." } },
+    { word: "der Kontoauszug", phonetic: "kon-to-ows-tsoog", meaning: "bank statement", gender: "der", example: { de: "Den Kontoauszug prüfen.", en: "Check the bank statement." } },
+    { word: "die Zinsen", phonetic: "tsin-zen", meaning: "interest", example: { de: "Niedrige Zinsen.", en: "Low interest." } },
+    { word: "der Kredit", phonetic: "kre-dit", meaning: "loan / credit", gender: "der", example: { de: "Einen Kredit aufnehmen.", en: "Take out a loan." } },
+    { word: "die Schulden", phonetic: "shool-den", meaning: "debts", example: { de: "Schulden bezahlen.", en: "Pay debts." } },
+    { word: "sparen", phonetic: "shpah-ren", meaning: "to save (money)", example: { de: "Für den Urlaub sparen.", en: "Save for vacation." } },
+    { word: "die Rechnung", phonetic: "rekh-nung", meaning: "bill / invoice", gender: "die", example: { de: "Die Rechnung bezahlen.", en: "Pay the bill." } },
+    { word: "die Quittung", phonetic: "kvi-tung", meaning: "receipt", gender: "die", example: { de: "Eine Quittung bekommen.", en: "Get a receipt." } },
+    { word: "die EC-Karte", phonetic: "ay-tsay-kar-tuh", meaning: "debit card", gender: "die", example: { de: "Mit EC-Karte zahlen.", en: "Pay with debit card." } },
+    { word: "die Kreditkarte", phonetic: "kre-dit-kar-tuh", meaning: "credit card", gender: "die", example: { de: "Die Kreditkarte benutzen.", en: "Use the credit card." } },
+    { word: "die Gebühr", phonetic: "geh-bühr", meaning: "fee / charge", gender: "die", example: { de: "Kontoführungsgebühr.", en: "Account management fee." } },
+  ]}] },
+};

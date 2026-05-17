@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega63: Record<string, Lesson> = {
+  "la1_m113": { id: "la1_m113", title: "School Supplies A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "der Bleistift", phonetic: "bly-shtift", meaning: "pencil", gender: "der", example: { de: "Einen Bleistift spitzen.", en: "Sharpen a pencil." } },
+    { word: "der Kugelschreiber", phonetic: "koo-gel-shry-ber", meaning: "ballpoint pen", gender: "der", example: { de: "Ein blauer Kugelschreiber.", en: "A blue ballpoint pen." } },
+    { word: "der Radiergummi", phonetic: "ra-deer-goo-mee", meaning: "eraser", gender: "der", example: { de: "Einen Radiergummi benutzen.", en: "Use an eraser." } },
+    { word: "das Lineal", phonetic: "li-ne-ahl", meaning: "ruler", gender: "das", example: { de: "Mit dem Lineal messen.", en: "Measure with the ruler." } },
+    { word: "die Schere", phonetic: "shay-ruh", meaning: "scissors", gender: "die", example: { de: "Mit der Schere schneiden.", en: "Cut with scissors." } },
+    { word: "der Kleber", phonetic: "klay-ber", meaning: "glue", gender: "der", example: { de: "Kleber auftragen.", en: "Apply glue." } },
+    { word: "der Spitzer", phonetic: "shpi-tser", meaning: "pencil sharpener", gender: "der", example: { de: "Einen Spitzer mitbringen.", en: "Bring a sharpener." } },
+    { word: "das Mäppchen", phonetic: "mep-khen", meaning: "pencil case", gender: "das", example: { de: "Das Mäppchen öffnen.", en: "Open the pencil case." } },
+    { word: "der Marker", phonetic: "mar-ker", meaning: "marker / highlighter", gender: "der", example: { de: "Gelber Marker.", en: "Yellow marker." } },
+    { word: "die Kreide", phonetic: "kry-duh", meaning: "chalk", gender: "die", example: { de: "Mit Kreide schreiben.", en: "Write with chalk." } },
+    { word: "die Tafel", phonetic: "tah-fel", meaning: "blackboard", gender: "die", example: { de: "An die Tafel schreiben.", en: "Write on the blackboard." } },
+    { word: "der Rucksack", phonetic: "rook-zak", meaning: "backpack", gender: "der", example: { de: "Den Rucksack packen.", en: "Pack the backpack." } },
+    { word: "das Papier", phonetic: "pa-peer", meaning: "paper", gender: "das", example: { de: "Ein Blatt Papier.", en: "A sheet of paper." } },
+    { word: "der Block", phonetic: "blok", meaning: "notepad", gender: "der", example: { de: "Einen Block kaufen.", en: "Buy a notepad." } },
+    { word: "der Ordner", phonetic: "ord-ner", meaning: "binder / folder", gender: "der", example: { de: "Einen Ordner anlegen.", en: "Set up a binder." } },
+    { word: "die Mappe", phonetic: "ma-puh", meaning: "folder / portfolio", gender: "die", example: { de: "Eine Mappe für Dokumente.", en: "A folder for documents." } },
+    { word: "der Taschenrechner", phonetic: "ta-shen-rekh-ner", meaning: "calculator", gender: "der", example: { de: "Den Taschenrechner benutzen.", en: "Use the calculator." } },
+    { word: "der Zirkel", phonetic: "tsir-kel", meaning: "compass (drawing)", gender: "der", example: { de: "Einen Kreis mit dem Zirkel.", en: "A circle with the compass." } },
+    { word: "das Wörterbuch", phonetic: "vör-ter-bookh", meaning: "dictionary", gender: "das", example: { de: "Im Wörterbuch nachschlagen.", en: "Look up in the dictionary." } },
+    { word: "der Stundenplan", phonetic: "shtoon-den-plahn", meaning: "timetable / schedule", gender: "der", example: { de: "Den Stundenplan anschauen.", en: "Look at the timetable." } },
+  ]}] },
+};

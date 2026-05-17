@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega60: Record<string, Lesson> = {
+  "lc2_m103": { id: "lc2_m103", title: "Advanced Algebraic Geometry C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Algebraische Geometrie", phonetic: "al-ge-brah-i-shuh ge-oh-me-tree", meaning: "algebraic geometry", example: { de: "Arithmetische algebraische Geometrie.", en: "Arithmetic algebraic geometry." } },
+    { word: "die Varietät", phonetic: "va-ree-ay-tayt", meaning: "variety (algebraic)", gender: "die", example: { de: "Projektive Varietät.", en: "Projective variety." } },
+    { word: "das Schema", phonetic: "shay-ma", meaning: "scheme (algebraic)", gender: "das", example: { de: "Noethersches Schema.", en: "Noetherian scheme." } },
+    { word: "die Garbe", phonetic: "gar-buh", meaning: "sheaf", gender: "die", example: { de: "Kohärente Garbe.", en: "Coherent sheaf." } },
+    { word: "die Kohomologie", phonetic: "ko-ho-mo-lo-gee", meaning: "cohomology", gender: "die", example: { de: "Étale-Kohomologie.", en: "Étale cohomology." } },
+    { word: "die Divisorentheorie", phonetic: "di-vi-zoh-ren-tay-oh-ree", meaning: "divisor theory", gender: "die", example: { de: "Weil-Divisorentheorie.", en: "Weil divisor theory." } },
+    { word: "die Kurventheorie", phonetic: "koor-ven-tay-oh-ree", meaning: "curve theory", gender: "die", example: { de: "Elliptische Kurventheorie.", en: "Elliptic curve theory." } },
+    { word: "die Modulraumtheorie", phonetic: "mo-dool-rowm-tay-oh-ree", meaning: "moduli space theory", gender: "die", example: { de: "Algebraische Modulraumtheorie.", en: "Algebraic moduli space theory." } },
+    { word: "die Schnitttheorie", phonetic: "shnit-tay-oh-ree", meaning: "intersection theory", gender: "die", example: { de: "Exzessive Schnitttheorie.", en: "Excess intersection theory." } },
+    { word: "die Birationalgeometrie", phonetic: "bi-ra-tsee-oh-nahl-ge-oh-me-tree", meaning: "birational geometry", gender: "die", example: { de: "Minimale Modellprogramm-Birationalgeometrie.", en: "Minimal model program birational geometry." } },
+    { word: "die Derivierte Kategorie", phonetic: "de-ri-veer-tuh ka-te-go-ree", meaning: "derived category", example: { de: "Beschränkte derivierte Kategorie.", en: "Bounded derived category." } },
+    { word: "die Grothendieck-Gruppe", phonetic: "gro-ten-deek-groo-puh", meaning: "Grothendieck group", gender: "die", example: { de: "K-theoretische Grothendieck-Gruppe.", en: "K-theoretic Grothendieck group." } },
+    { word: "die Deformationstheorie", phonetic: "de-for-ma-tsee-ohns-tay-oh-ree", meaning: "deformation theory", gender: "die", example: { de: "Formale Deformationstheorie.", en: "Formal deformation theory." } },
+    { word: "die Algebraische Zykel", phonetic: "al-ge-brah-i-shuh tsü-kel", meaning: "algebraic cycles", example: { de: "Chow-algebraische Zykel.", en: "Chow algebraic cycles." } },
+    { word: "die Motivische Kohomologie", phonetic: "mo-tee-vi-shuh ko-ho-mo-lo-gee", meaning: "motivic cohomology", example: { de: "Voevodsky-motivische Kohomologie.", en: "Voevodsky motivic cohomology." } },
+    { word: "die Zariski-Topologie", phonetic: "tsa-ris-ki-to-po-lo-gee", meaning: "Zariski topology", gender: "die", example: { de: "Abgeschlossene Zariski-Topologie.", en: "Closed Zariski topology." } },
+    { word: "die Hilbert-Funktion", phonetic: "hil-bert-funk-tsee-ohn", meaning: "Hilbert function", gender: "die", example: { de: "Graduierte Hilbert-Funktion.", en: "Graded Hilbert function." } },
+    { word: "die Gröbner-Basis", phonetic: "gröb-ner-bah-zis", meaning: "Gröbner basis", gender: "die", example: { de: "Reduzierte Gröbner-Basis.", en: "Reduced Gröbner basis." } },
+    { word: "die Serre-Dualität", phonetic: "sehr-doo-a-li-tayt", meaning: "Serre duality", gender: "die", example: { de: "Grothendieck-Serre-Dualität.", en: "Grothendieck-Serre duality." } },
+    { word: "die Hodge-Theorie", phonetic: "hodzh-tay-oh-ree", meaning: "Hodge theory", gender: "die", example: { de: "Gemischte Hodge-Theorie.", en: "Mixed Hodge theory." } },
+  ]}] },
+};
