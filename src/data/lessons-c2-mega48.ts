@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega48: Record<string, Lesson> = {
+  "lc2_m91": { id: "lc2_m91", title: "Advanced Neuromorphic Computing C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Neuromorphe Informatik", phonetic: "noy-ro-mor-fuh in-for-ma-tik", meaning: "neuromorphic computing", example: { de: "Energieeffiziente neuromorphe Informatik.", en: "Energy-efficient neuromorphic computing." } },
+    { word: "die Memristive Schaltung", phonetic: "mem-ris-tee-vuh shal-tung", meaning: "memristive circuit", example: { de: "Analoge memristive Schaltung.", en: "Analog memristive circuit." } },
+    { word: "die Spiking-Neuronale-Netze", phonetic: "spy-king-noy-ro-nah-luh ne-tsuh", meaning: "spiking neural networks", example: { de: "Biologisch plausible Spiking-Neuronale-Netze.", en: "Biologically plausible spiking neural networks." } },
+    { word: "der Neuromorphe Chip", phonetic: "noy-ro-mor-fer tship", meaning: "neuromorphic chip", example: { de: "Intels Loihi neuromorpher Chip.", en: "Intel's Loihi neuromorphic chip." } },
+    { word: "die Synapsenplastizität", phonetic: "zü-nap-sen-plas-ti-tsi-tayt", meaning: "synaptic plasticity", gender: "die", example: { de: "Hebbsche Synapsenplastizität.", en: "Hebbian synaptic plasticity." } },
+    { word: "die Reservoirberechnung", phonetic: "re-zer-vo-ahr-beh-rekh-nung", meaning: "reservoir computing", gender: "die", example: { de: "Physikalische Reservoirberechnung.", en: "Physical reservoir computing." } },
+    { word: "die Spike-Timing-Abhängige Plastizität", phonetic: "spyk-ty-ming-ap-hen-gi-guh plas-ti-tsi-tayt", meaning: "STDP", example: { de: "Langzeitpotenzierung-STDP.", en: "Long-term potentiation STDP." } },
+    { word: "die In-Memory-Berechnung", phonetic: "in-me-mo-ree-beh-rekh-nung", meaning: "in-memory computing", example: { de: "Analoge In-Memory-Berechnung.", en: "Analog in-memory computing." } },
+    { word: "die Neuronale Architektur", phonetic: "noy-ro-nah-luh ar-khi-tek-toor", meaning: "neural architecture", example: { de: "Biologisch inspirierte neuronale Architektur.", en: "Biologically inspired neural architecture." } },
+    { word: "die Phasenänderungsspeicher", phonetic: "fah-zen-en-de-rungs-shpy-kher", meaning: "phase-change memory", example: { de: "Schnelle Phasenänderungsspeicher.", en: "Fast phase-change memory." } },
+    { word: "die Ereignisgesteuerte Verarbeitung", phonetic: "er-ayg-nis-geh-shtoy-er-tuh fer-ar-by-tung", meaning: "event-driven processing", example: { de: "Asynchrone ereignisgesteuerte Verarbeitung.", en: "Asynchronous event-driven processing." } },
+    { word: "die Bioelektronische Schnittstelle", phonetic: "bee-oh-e-lek-tro-ni-shuh shnit-shte-luh", meaning: "bioelectronic interface", example: { de: "Neurale bioelektronische Schnittstelle.", en: "Neural bioelectronic interface." } },
+    { word: "die Stochastische Berechnung", phonetic: "shto-khas-ti-shuh beh-rekh-nung", meaning: "stochastic computing", example: { de: "Bitstream-stochastische Berechnung.", en: "Bitstream stochastic computing." } },
+    { word: "die Dendriteberechnung", phonetic: "den-dree-tuh-beh-rekh-nung", meaning: "dendritic computing", gender: "die", example: { de: "Nichtlineare Dendriteberechnung.", en: "Nonlinear dendritic computing." } },
+    { word: "die Oszillatorische Netzwerke", phonetic: "os-tsi-la-toh-ri-shuh nets-ver-kuh", meaning: "oscillatory networks", example: { de: "Gekoppelte oszillatorische Netzwerke.", en: "Coupled oscillatory networks." } },
+    { word: "die Spintronic-Synapse", phonetic: "shpin-tro-nik-zü-nap-suh", meaning: "spintronic synapse", gender: "die", example: { de: "Magnetische Spintronic-Synapse.", en: "Magnetic spintronic synapse." } },
+    { word: "die Analogberechnung", phonetic: "a-na-lohg-beh-rekh-nung", meaning: "analog computing", gender: "die", example: { de: "Subthreshold-Analogberechnung.", en: "Subthreshold analog computing." } },
+    { word: "die Neuroevolution", phonetic: "noy-ro-e-vo-loo-tsee-ohn", meaning: "neuroevolution", gender: "die", example: { de: "NEAT-Neuroevolution.", en: "NEAT neuroevolution." } },
+    { word: "die Asynchrone Logik", phonetic: "a-zün-kro-nuh lo-gik", meaning: "asynchronous logic", example: { de: "Clockless asynchrone Logik.", en: "Clockless asynchronous logic." } },
+    { word: "die Gehirninspirier Rechnen", phonetic: "ge-hirn-in-shpi-reert rekh-nen", meaning: "brain-inspired computing", example: { de: "Cortikales gehirninspiriertes Rechnen.", en: "Cortical brain-inspired computing." } },
+  ]}] },
+};

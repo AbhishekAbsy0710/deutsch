@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega51: Record<string, Lesson> = {
+  "la1_m101": { id: "la1_m101", title: "Personality & Character A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "freundlich", phonetic: "froynt-likh", meaning: "friendly", example: { de: "Sie ist sehr freundlich.", en: "She is very friendly." } },
+    { word: "höflich", phonetic: "höf-likh", meaning: "polite", example: { de: "Sei höflich.", en: "Be polite." } },
+    { word: "ehrlich", phonetic: "ehr-likh", meaning: "honest", example: { de: "Er ist ehrlich.", en: "He is honest." } },
+    { word: "geduldig", phonetic: "geh-dul-dikh", meaning: "patient", example: { de: "Sei geduldig.", en: "Be patient." } },
+    { word: "ungeduldig", phonetic: "oon-geh-dul-dikh", meaning: "impatient", example: { de: "Er ist ungeduldig.", en: "He is impatient." } },
+    { word: "neugierig", phonetic: "noy-gee-rikh", meaning: "curious", example: { de: "Ein neugieriges Kind.", en: "A curious child." } },
+    { word: "mutig", phonetic: "moo-tikh", meaning: "brave / courageous", example: { de: "Ein mutiger Mensch.", en: "A courageous person." } },
+    { word: "schüchtern", phonetic: "shükh-tern", meaning: "shy", example: { de: "Er ist schüchtern.", en: "He is shy." } },
+    { word: "fleißig", phonetic: "fly-sikh", meaning: "hardworking / diligent", example: { de: "Ein fleißiger Schüler.", en: "A diligent student." } },
+    { word: "faul", phonetic: "fowl", meaning: "lazy", example: { de: "Er ist etwas faul.", en: "He is a bit lazy." } },
+    { word: "großzügig", phonetic: "grohs-tsü-gikh", meaning: "generous", example: { de: "Sehr großzügig.", en: "Very generous." } },
+    { word: "geizig", phonetic: "gy-tsikh", meaning: "stingy", example: { de: "Er ist geizig.", en: "He is stingy." } },
+    { word: "selbstbewusst", phonetic: "zelpst-beh-voost", meaning: "self-confident", example: { de: "Sie ist selbstbewusst.", en: "She is self-confident." } },
+    { word: "empfindlich", phonetic: "emp-fint-likh", meaning: "sensitive", example: { de: "Sie ist empfindlich.", en: "She is sensitive." } },
+    { word: "zuverlässig", phonetic: "tsoo-fer-le-sikh", meaning: "reliable", example: { de: "Ein zuverlässiger Freund.", en: "A reliable friend." } },
+    { word: "verantwortungsvoll", phonetic: "fer-ant-vor-tungs-fol", meaning: "responsible", example: { de: "Ein verantwortungsvoller Mensch.", en: "A responsible person." } },
+    { word: "stur", phonetic: "shtoor", meaning: "stubborn", example: { de: "Er ist sehr stur.", en: "He is very stubborn." } },
+    { word: "eifersüchtig", phonetic: "ay-fer-zükh-tikh", meaning: "jealous", example: { de: "Sie ist eifersüchtig.", en: "She is jealous." } },
+    { word: "bescheiden", phonetic: "beh-shy-den", meaning: "modest", example: { de: "Er ist bescheiden.", en: "He is modest." } },
+    { word: "humorvoll", phonetic: "hoo-mor-fol", meaning: "humorous", example: { de: "Ein humorvoller Mensch.", en: "A humorous person." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega49: Record<string, Lesson> = {
+  "la2_m94": { id: "la2_m94", title: "Office & Workplace A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Büro", phonetic: "bü-roh", meaning: "office", gender: "das", example: { de: "Im Büro arbeiten.", en: "Work in the office." } },
+    { word: "der Schreibtisch", phonetic: "shryp-tish", meaning: "desk", gender: "der", example: { de: "Am Schreibtisch sitzen.", en: "Sit at the desk." } },
+    { word: "der Drucker", phonetic: "droo-ker", meaning: "printer", gender: "der", example: { de: "Den Drucker benutzen.", en: "Use the printer." } },
+    { word: "der Kopierer", phonetic: "ko-pee-rer", meaning: "copier", gender: "der", example: { de: "Am Kopierer stehen.", en: "Stand at the copier." } },
+    { word: "die Besprechung", phonetic: "beh-shpre-khung", meaning: "meeting", gender: "die", example: { de: "Eine Besprechung haben.", en: "Have a meeting." } },
+    { word: "der Besprechungsraum", phonetic: "beh-shpre-khungs-rowm", meaning: "meeting room", gender: "der", example: { de: "Im Besprechungsraum.", en: "In the meeting room." } },
+    { word: "die Präsentation", phonetic: "pray-zen-ta-tsee-ohn", meaning: "presentation", gender: "die", example: { de: "Eine Präsentation halten.", en: "Give a presentation." } },
+    { word: "die Überstunde", phonetic: "ü-ber-shtoon-duh", meaning: "overtime", gender: "die", example: { de: "Überstunden machen.", en: "Work overtime." } },
+    { word: "der Feierabend", phonetic: "fy-er-ah-bent", meaning: "end of workday", gender: "der", example: { de: "Feierabend machen.", en: "Call it a day." } },
+    { word: "die Kantine", phonetic: "kan-tee-nuh", meaning: "canteen / cafeteria", gender: "die", example: { de: "In der Kantine essen.", en: "Eat in the canteen." } },
+    { word: "der Kollege", phonetic: "ko-lay-guh", meaning: "colleague (m)", gender: "der", example: { de: "Ein netter Kollege.", en: "A nice colleague." } },
+    { word: "die Kollegin", phonetic: "ko-lay-gin", meaning: "colleague (f)", gender: "die", example: { de: "Meine Kollegin hilft.", en: "My colleague helps." } },
+    { word: "der Vorgesetzte", phonetic: "for-geh-zets-tuh", meaning: "supervisor", gender: "der", example: { de: "Der Vorgesetzte entscheidet.", en: "The supervisor decides." } },
+    { word: "die Gehaltsabrechnung", phonetic: "geh-halts-ap-rekh-nung", meaning: "payslip", gender: "die", example: { de: "Die Gehaltsabrechnung prüfen.", en: "Check the payslip." } },
+    { word: "der Arbeitsvertrag", phonetic: "ar-byts-fer-trahg", meaning: "employment contract", gender: "der", example: { de: "Den Arbeitsvertrag lesen.", en: "Read the employment contract." } },
+    { word: "der Urlaub", phonetic: "oor-lowp", meaning: "vacation / leave", gender: "der", example: { de: "Urlaub beantragen.", en: "Request vacation." } },
+    { word: "die Krankmeldung", phonetic: "krank-mel-dung", meaning: "sick note", gender: "die", example: { de: "Eine Krankmeldung einreichen.", en: "Submit a sick note." } },
+    { word: "die Fortbildung", phonetic: "fort-bil-dung", meaning: "continuing education", gender: "die", example: { de: "Eine Fortbildung besuchen.", en: "Attend continuing education." } },
+    { word: "die Geschäftsreise", phonetic: "geh-shefts-ry-zuh", meaning: "business trip", gender: "die", example: { de: "Auf Geschäftsreise.", en: "On a business trip." } },
+    { word: "die Gleitzeit", phonetic: "glyte-tsyte", meaning: "flextime", gender: "die", example: { de: "Gleitzeit haben.", en: "Have flextime." } },
+  ]}] },
+};

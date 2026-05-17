@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega50: Record<string, Lesson> = {
+  "lb2_m95": { id: "lb2_m95", title: "Endocrinology B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Endokrinologie", phonetic: "en-do-kri-no-lo-gee", meaning: "endocrinology", gender: "die", example: { de: "Klinische Endokrinologie.", en: "Clinical endocrinology." } },
+    { word: "das Hormon", phonetic: "hor-mohn", meaning: "hormone", gender: "das", example: { de: "Ein Steroidhormon.", en: "A steroid hormone." } },
+    { word: "die Schilddrüse", phonetic: "shilt-drü-zuh", meaning: "thyroid gland", gender: "die", example: { de: "Überfunktion der Schilddrüse.", en: "Thyroid hyperfunction." } },
+    { word: "die Nebenniere", phonetic: "nay-ben-nee-ruh", meaning: "adrenal gland", gender: "die", example: { de: "Nebenniereninsuffizienz.", en: "Adrenal insufficiency." } },
+    { word: "die Hypophyse", phonetic: "hü-po-fü-zuh", meaning: "pituitary gland", gender: "die", example: { de: "Hypophysenadenom.", en: "Pituitary adenoma." } },
+    { word: "die Bauchspeicheldrüse", phonetic: "bowkh-shpy-khel-drü-zuh", meaning: "pancreas", gender: "die", example: { de: "Erkrankung der Bauchspeicheldrüse.", en: "Pancreatic disease." } },
+    { word: "das Insulin", phonetic: "in-zoo-leen", meaning: "insulin", gender: "das", example: { de: "Insulinresistenz.", en: "Insulin resistance." } },
+    { word: "der Diabetes", phonetic: "dee-a-bay-tes", meaning: "diabetes", gender: "der", example: { de: "Diabetes Typ 2.", en: "Type 2 diabetes." } },
+    { word: "das Cortisol", phonetic: "kor-ti-zohl", meaning: "cortisol", gender: "das", example: { de: "Erhöhter Cortisolspiegel.", en: "Elevated cortisol level." } },
+    { word: "das Östrogen", phonetic: "ös-tro-gayn", meaning: "estrogen", gender: "das", example: { de: "Östrogenmangel.", en: "Estrogen deficiency." } },
+    { word: "das Testosteron", phonetic: "tes-tos-te-rohn", meaning: "testosterone", gender: "das", example: { de: "Testosteronspiegel.", en: "Testosterone level." } },
+    { word: "das Adrenalin", phonetic: "a-dre-na-leen", meaning: "adrenaline", gender: "das", example: { de: "Adrenalinausschüttung.", en: "Adrenaline release." } },
+    { word: "die Hormontherapie", phonetic: "hor-mohn-te-ra-pee", meaning: "hormone therapy", gender: "die", example: { de: "Postmenopausale Hormontherapie.", en: "Postmenopausal hormone therapy." } },
+    { word: "die Stoffwechselstörung", phonetic: "shtof-vek-sel-shtö-rung", meaning: "metabolic disorder", gender: "die", example: { de: "Angeborene Stoffwechselstörung.", en: "Congenital metabolic disorder." } },
+    { word: "die Schilddrüsenunterfunktion", phonetic: "shilt-drü-zen-oon-ter-funk-tsee-ohn", meaning: "hypothyroidism", gender: "die", example: { de: "Autoimmune Schilddrüsenunterfunktion.", en: "Autoimmune hypothyroidism." } },
+    { word: "die Schilddrüsenüberfunktion", phonetic: "shilt-drü-zen-ü-ber-funk-tsee-ohn", meaning: "hyperthyroidism", gender: "die", example: { de: "Basedowsche Schilddrüsenüberfunktion.", en: "Graves' hyperthyroidism." } },
+    { word: "der Blutzuckerspiegel", phonetic: "bloot-tsoo-ker-shpee-gel", meaning: "blood sugar level", gender: "der", example: { de: "Nüchterner Blutzuckerspiegel.", en: "Fasting blood sugar level." } },
+    { word: "die Neuroendokrinologie", phonetic: "noy-ro-en-do-kri-no-lo-gee", meaning: "neuroendocrinology", gender: "die", example: { de: "Hypothalamische Neuroendokrinologie.", en: "Hypothalamic neuroendocrinology." } },
+    { word: "die Osteoporose", phonetic: "os-te-oh-po-roh-zuh", meaning: "osteoporosis", gender: "die", example: { de: "Hormonbedingte Osteoporose.", en: "Hormone-related osteoporosis." } },
+    { word: "die Wachstumshormonmangel", phonetic: "vakhs-tooms-hor-mohn-man-gel", meaning: "growth hormone deficiency", gender: "der", example: { de: "Kindlicher Wachstumshormonmangel.", en: "Childhood growth hormone deficiency." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega52: Record<string, Lesson> = {
+  "lb1_m103": { id: "lb1_m103", title: "Science & Research B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Forschung", phonetic: "for-shung", meaning: "research", gender: "die", example: { de: "Wissenschaftliche Forschung.", en: "Scientific research." } },
+    { word: "das Experiment", phonetic: "eks-pe-ri-ment", meaning: "experiment", gender: "das", example: { de: "Ein Experiment durchführen.", en: "Conduct an experiment." } },
+    { word: "die Hypothese", phonetic: "hü-po-tay-zuh", meaning: "hypothesis", gender: "die", example: { de: "Eine Hypothese aufstellen.", en: "Formulate a hypothesis." } },
+    { word: "die Theorie", phonetic: "tay-oh-ree", meaning: "theory", gender: "die", example: { de: "Eine neue Theorie.", en: "A new theory." } },
+    { word: "der Beweis", phonetic: "beh-vys", meaning: "proof / evidence", gender: "der", example: { de: "Wissenschaftlicher Beweis.", en: "Scientific evidence." } },
+    { word: "die Studie", phonetic: "shtoo-dee-uh", meaning: "study", gender: "die", example: { de: "Eine klinische Studie.", en: "A clinical study." } },
+    { word: "das Labor", phonetic: "la-bor", meaning: "laboratory", gender: "das", example: { de: "Im Labor arbeiten.", en: "Work in the laboratory." } },
+    { word: "die Analyse", phonetic: "a-na-lü-zuh", meaning: "analysis", gender: "die", example: { de: "Eine gründliche Analyse.", en: "A thorough analysis." } },
+    { word: "die Methode", phonetic: "me-toh-duh", meaning: "method", gender: "die", example: { de: "Wissenschaftliche Methode.", en: "Scientific method." } },
+    { word: "das Ergebnis", phonetic: "er-gayp-nis", meaning: "result / finding", gender: "das", example: { de: "Das Ergebnis zeigt.", en: "The result shows." } },
+    { word: "die Entdeckung", phonetic: "ent-de-kung", meaning: "discovery", gender: "die", example: { de: "Eine wichtige Entdeckung.", en: "An important discovery." } },
+    { word: "die Erfindung", phonetic: "er-fin-dung", meaning: "invention", gender: "die", example: { de: "Eine geniale Erfindung.", en: "A brilliant invention." } },
+    { word: "die Veröffentlichung", phonetic: "fer-öf-ent-li-khung", meaning: "publication", gender: "die", example: { de: "Eine wissenschaftliche Veröffentlichung.", en: "A scientific publication." } },
+    { word: "die Statistik", phonetic: "shta-tis-tik", meaning: "statistics", gender: "die", example: { de: "Laut Statistik.", en: "According to statistics." } },
+    { word: "der Durchschnitt", phonetic: "doorkh-shnit", meaning: "average", gender: "der", example: { de: "Im Durchschnitt.", en: "On average." } },
+    { word: "die Wahrscheinlichkeit", phonetic: "vahr-shyne-likh-kyte", meaning: "probability", gender: "die", example: { de: "Hohe Wahrscheinlichkeit.", en: "High probability." } },
+    { word: "die Messung", phonetic: "me-sung", meaning: "measurement", gender: "die", example: { de: "Genaue Messung.", en: "Precise measurement." } },
+    { word: "die Probe", phonetic: "pro-buh", meaning: "sample", gender: "die", example: { de: "Eine Blutprobe.", en: "A blood sample." } },
+    { word: "die Daten", phonetic: "dah-ten", meaning: "data", example: { de: "Daten sammeln.", en: "Collect data." } },
+    { word: "die Schlussfolgerung", phonetic: "shloos-fol-ge-rung", meaning: "conclusion", gender: "die", example: { de: "Eine logische Schlussfolgerung.", en: "A logical conclusion." } },
+  ]}] },
+};

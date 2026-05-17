@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega50: Record<string, Lesson> = {
+  "lc1_m96": { id: "lc1_m96", title: "Advanced Game Theory C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Spieltheorie", phonetic: "shpeel-tay-oh-ree", meaning: "game theory", gender: "die", example: { de: "Kooperative Spieltheorie.", en: "Cooperative game theory." } },
+    { word: "das Nash-Gleichgewicht", phonetic: "nash-glykh-geh-vikht", meaning: "Nash equilibrium", gender: "das", example: { de: "Gemischtes Nash-Gleichgewicht.", en: "Mixed Nash equilibrium." } },
+    { word: "das Gefangenendilemma", phonetic: "geh-fan-ge-nen-di-le-ma", meaning: "prisoner's dilemma", gender: "das", example: { de: "Iteriertes Gefangenendilemma.", en: "Iterated prisoner's dilemma." } },
+    { word: "die Auszahlungsmatrix", phonetic: "ows-tsah-lungs-ma-triks", meaning: "payoff matrix", gender: "die", example: { de: "Symmetrische Auszahlungsmatrix.", en: "Symmetric payoff matrix." } },
+    { word: "die Dominanzstrategie", phonetic: "do-mi-nants-shtra-te-gee", meaning: "dominant strategy", gender: "die", example: { de: "Strikt dominante Strategie.", en: "Strictly dominant strategy." } },
+    { word: "die Pareto-Effizienz", phonetic: "pa-ray-to-e-fi-tsee-ents", meaning: "Pareto efficiency", gender: "die", example: { de: "Pareto-optimale Allokation.", en: "Pareto-optimal allocation." } },
+    { word: "die Auktionstheorie", phonetic: "owk-tsee-ohns-tay-oh-ree", meaning: "auction theory", gender: "die", example: { de: "Vickrey-Auktionstheorie.", en: "Vickrey auction theory." } },
+    { word: "die Verhandlungstheorie", phonetic: "fer-hand-lungs-tay-oh-ree", meaning: "bargaining theory", gender: "die", example: { de: "Nash-Verhandlungstheorie.", en: "Nash bargaining theory." } },
+    { word: "die Evolutionäre Spieltheorie", phonetic: "e-vo-loo-tsee-oh-nay-ruh shpeel-tay-oh-ree", meaning: "evolutionary game theory", example: { de: "Maynard-Smith evolutionäre Spieltheorie.", en: "Maynard Smith evolutionary game theory." } },
+    { word: "die Koalitionsbildung", phonetic: "ko-a-li-tsee-ohns-bil-dung", meaning: "coalition formation", gender: "die", example: { de: "Strategische Koalitionsbildung.", en: "Strategic coalition formation." } },
+    { word: "die Bayessche Spiele", phonetic: "bay-es-shuh shpee-luh", meaning: "Bayesian games", example: { de: "Unvollständige Bayessche Spiele.", en: "Incomplete Bayesian games." } },
+    { word: "die Wiederholte Spiele", phonetic: "vee-der-hohl-tuh shpee-luh", meaning: "repeated games", example: { de: "Unendlich wiederholte Spiele.", en: "Infinitely repeated games." } },
+    { word: "die Mechanismusdesign", phonetic: "me-kha-nis-mus-de-zyne", meaning: "mechanism design", gender: "das", example: { de: "Optimales Mechanismusdesign.", en: "Optimal mechanism design." } },
+    { word: "die Informationsasymmetrie", phonetic: "in-for-ma-tsee-ohns-a-zü-me-tree", meaning: "information asymmetry", gender: "die", example: { de: "Akerlofs Informationsasymmetrie.", en: "Akerlof's information asymmetry." } },
+    { word: "die Signalspiel", phonetic: "zig-nahl-shpeel", meaning: "signaling game", gender: "das", example: { de: "Spences Signalspiel.", en: "Spence's signaling game." } },
+    { word: "die Minimax-Theorem", phonetic: "mi-ni-maks-tay-oh-raym", meaning: "minimax theorem", gender: "das", example: { de: "Von-Neumanns Minimax-Theorem.", en: "Von Neumann's minimax theorem." } },
+    { word: "die Stackelberg-Führerschaft", phonetic: "shta-kel-berg-fü-rer-shaft", meaning: "Stackelberg leadership", gender: "die", example: { de: "Stackelberg-Duopol.", en: "Stackelberg duopoly." } },
+    { word: "die Cournot-Wettbewerb", phonetic: "koor-noh-vet-beh-verp", meaning: "Cournot competition", gender: "der", example: { de: "Cournot-Nash-Gleichgewicht.", en: "Cournot-Nash equilibrium." } },
+    { word: "die Rückwärtsinduktion", phonetic: "rük-verts-in-dook-tsee-ohn", meaning: "backward induction", gender: "die", example: { de: "Perfekte Rückwärtsinduktion.", en: "Perfect backward induction." } },
+    { word: "die Spielbaumanalyse", phonetic: "shpeel-bowm-a-na-lü-zuh", meaning: "game tree analysis", gender: "die", example: { de: "Extensive Spielbaumanalyse.", en: "Extensive game tree analysis." } },
+  ]}] },
+};
