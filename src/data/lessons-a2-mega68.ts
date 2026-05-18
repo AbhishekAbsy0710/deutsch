@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega68: Record<string, Lesson> = {
+  "la2_m113": { id: "la2_m113", title: "Home & Apartment A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Wohnung", phonetic: "voh-nung", meaning: "apartment / flat", gender: "die", example: { de: "Eine Wohnung mieten.", en: "Rent an apartment." } },
+    { word: "das Haus", phonetic: "hows", meaning: "house", gender: "das", example: { de: "Ein Haus kaufen.", en: "Buy a house." } },
+    { word: "der Vermieter", phonetic: "fer-mee-ter", meaning: "landlord", gender: "der", example: { de: "Den Vermieter anrufen.", en: "Call the landlord." } },
+    { word: "die Miete", phonetic: "mee-tuh", meaning: "rent", gender: "die", example: { de: "Die Miete zahlen.", en: "Pay the rent." } },
+    { word: "der Mietvertrag", phonetic: "meet-fer-trahg", meaning: "rental contract", gender: "der", example: { de: "Den Mietvertrag unterschreiben.", en: "Sign the rental contract." } },
+    { word: "das Wohnzimmer", phonetic: "vohn-tsi-mer", meaning: "living room", gender: "das", example: { de: "Im Wohnzimmer entspannen.", en: "Relax in the living room." } },
+    { word: "das Schlafzimmer", phonetic: "shlahf-tsi-mer", meaning: "bedroom", gender: "das", example: { de: "Im Schlafzimmer schlafen.", en: "Sleep in the bedroom." } },
+    { word: "das Badezimmer", phonetic: "bah-duh-tsi-mer", meaning: "bathroom", gender: "das", example: { de: "Das Badezimmer renovieren.", en: "Renovate the bathroom." } },
+    { word: "die Küche", phonetic: "kü-khuh", meaning: "kitchen", gender: "die", example: { de: "Eine moderne Küche.", en: "A modern kitchen." } },
+    { word: "der Balkon", phonetic: "bal-kon", meaning: "balcony", gender: "der", example: { de: "Auf dem Balkon sitzen.", en: "Sit on the balcony." } },
+    { word: "der Keller", phonetic: "ke-ler", meaning: "basement / cellar", gender: "der", example: { de: "Im Keller lagern.", en: "Store in the basement." } },
+    { word: "die Treppe", phonetic: "tre-puh", meaning: "stairs / staircase", gender: "die", example: { de: "Die Treppe hinaufgehen.", en: "Go up the stairs." } },
+    { word: "der Aufzug", phonetic: "owf-tsoog", meaning: "lift / elevator", gender: "der", example: { de: "Den Aufzug nehmen.", en: "Take the elevator." } },
+    { word: "das Stockwerk", phonetic: "shtok-verk", meaning: "floor / storey", gender: "das", example: { de: "Im dritten Stockwerk.", en: "On the third floor." } },
+    { word: "die Nebenkosten", phonetic: "nay-ben-kos-ten", meaning: "additional costs (utilities)", example: { de: "Nebenkosten zahlen.", en: "Pay additional costs." } },
+    { word: "umziehen", phonetic: "oom-tsee-en", meaning: "to move (house)", example: { de: "In eine neue Stadt umziehen.", en: "Move to a new city." } },
+    { word: "renovieren", phonetic: "re-no-vee-ren", meaning: "to renovate", example: { de: "Die Wohnung renovieren.", en: "Renovate the apartment." } },
+    { word: "die Kaution", phonetic: "kow-tsee-ohn", meaning: "deposit (rental)", gender: "die", example: { de: "Drei Monatsmieten Kaution.", en: "Three months' rent deposit." } },
+    { word: "die Klingel", phonetic: "kling-el", meaning: "doorbell", gender: "die", example: { de: "An die Klingel drücken.", en: "Press the doorbell." } },
+    { word: "der Briefkasten", phonetic: "breef-kas-ten", meaning: "letterbox / mailbox", gender: "der", example: { de: "Den Briefkasten leeren.", en: "Empty the letterbox." } },
+  ]}] },
+};

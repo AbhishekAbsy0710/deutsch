@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega69: Record<string, Lesson> = {
+  "lc1_m115": { id: "lc1_m115", title: "Advanced Artificial Intelligence C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Künstliche Intelligenz", phonetic: "künst-li-khuh in-te-li-gents", meaning: "artificial intelligence", gender: "die", example: { de: "Generative Künstliche Intelligenz.", en: "Generative artificial intelligence." } },
+    { word: "das Maschinelle Lernen", phonetic: "ma-shee-ne-luh ler-nen", meaning: "machine learning", gender: "das", example: { de: "Überwachtes maschinelles Lernen.", en: "Supervised machine learning." } },
+    { word: "das Tiefe Lernen", phonetic: "tee-fuh ler-nen", meaning: "deep learning", gender: "das", example: { de: "Faltungsbasiertes tiefes Lernen.", en: "Convolution-based deep learning." } },
+    { word: "das Neuronale Netz", phonetic: "noy-ro-nah-luh netz", meaning: "neural network", gender: "das", example: { de: "Rekurrentes neuronales Netz.", en: "Recurrent neural network." } },
+    { word: "der Transformer", phonetic: "trans-for-mer", meaning: "transformer (AI architecture)", gender: "der", example: { de: "Selbstaufmerksamer Transformer.", en: "Self-attentive transformer." } },
+    { word: "das Große Sprachmodell", phonetic: "groh-suh shprahkh-mo-del", meaning: "large language model", gender: "das", example: { de: "Multimodales großes Sprachmodell.", en: "Multimodal large language model." } },
+    { word: "die Aufmerksamkeitsmechanismus", phonetic: "owf-merk-zahm-kyts-me-kha-nis-mus", meaning: "attention mechanism", gender: "der", example: { de: "Multi-Kopf-Aufmerksamkeitsmechanismus.", en: "Multi-head attention mechanism." } },
+    { word: "die Reinforcement-Lernen", phonetic: "ree-in-fors-ment-ler-nen", meaning: "reinforcement learning", gender: "das", example: { de: "Proximales Reinforcement-Lernen.", en: "Proximal reinforcement learning." } },
+    { word: "das Generative Adversarielle Netz", phonetic: "ge-ne-ra-tee-vuh ad-ver-za-ree-e-luh netz", meaning: "generative adversarial network", gender: "das", example: { de: "Konditioniertes generatives adversarielles Netz.", en: "Conditional generative adversarial network." } },
+    { word: "die Überanpassung", phonetic: "ü-ber-an-pa-sung", meaning: "overfitting", gender: "die", example: { de: "Regularisierung gegen Überanpassung.", en: "Regularisation against overfitting." } },
+    { word: "die Datenaugmentation", phonetic: "dah-ten-owg-men-ta-tsee-ohn", meaning: "data augmentation", gender: "die", example: { de: "Synthetische Datenaugmentation.", en: "Synthetic data augmentation." } },
+    { word: "der Gradientenabstieg", phonetic: "gra-dee-en-ten-ap-shteegh", meaning: "gradient descent", gender: "der", example: { de: "Stochastischer Gradientenabstieg.", en: "Stochastic gradient descent." } },
+    { word: "die Verlustfunktion", phonetic: "fer-loost-funk-tsee-ohn", meaning: "loss function", gender: "die", example: { de: "Kreuzentropie-Verlustfunktion.", en: "Cross-entropy loss function." } },
+    { word: "die Embeddings", phonetic: "em-be-dings", meaning: "embeddings", example: { de: "Kontextuelle Embeddings.", en: "Contextual embeddings." } },
+    { word: "die Tokenisierung", phonetic: "to-ke-ni-zee-rung", meaning: "tokenisation", gender: "die", example: { de: "Subwort-Tokenisierung.", en: "Subword tokenisation." } },
+    { word: "das Feintuning", phonetic: "fayn-tyoo-ning", meaning: "fine-tuning", gender: "das", example: { de: "Aufgabenspezifisches Feintuning.", en: "Task-specific fine-tuning." } },
+    { word: "die Halluzination", phonetic: "ha-loo-tsi-na-tsee-ohn", meaning: "hallucination (AI)", gender: "die", example: { de: "KI-Halluzination vermeiden.", en: "Avoid AI hallucination." } },
+    { word: "das Prompt-Engineering", phonetic: "prompt-en-gi-nee-ring", meaning: "prompt engineering", gender: "das", example: { de: "Effektives Prompt-Engineering.", en: "Effective prompt engineering." } },
+    { word: "die KI-Sicherheit", phonetic: "kah-ee-zi-kher-hyte", meaning: "AI safety", gender: "die", example: { de: "Ausrichtungs-KI-Sicherheit.", en: "Alignment AI safety." } },
+    { word: "die Explainierbarkeit", phonetic: "eks-playn-eer-bar-kyte", meaning: "explainability / interpretability", gender: "die", example: { de: "Modellbasierte Explainierbarkeit.", en: "Model-based explainability." } },
+  ]}] },
+};

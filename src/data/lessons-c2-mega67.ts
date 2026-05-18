@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega67: Record<string, Lesson> = {
+  "lc2_m110": { id: "lc2_m110", title: "Advanced Number Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Zahlentheorie", phonetic: "tsah-len-tay-oh-ree", meaning: "number theory", gender: "die", example: { de: "Analytische Zahlentheorie.", en: "Analytic number theory." } },
+    { word: "die Primzahl", phonetic: "preem-tsahl", meaning: "prime number", gender: "die", example: { de: "Mersenne-Primzahl.", en: "Mersenne prime." } },
+    { word: "die Riemannsche Vermutung", phonetic: "ree-man-i-shuh fer-moo-tung", meaning: "Riemann hypothesis", gender: "die", example: { de: "Ungelöste Riemannsche Vermutung.", en: "Unsolved Riemann hypothesis." } },
+    { word: "die Zetafunktion", phonetic: "tsay-ta-funk-tsee-ohn", meaning: "zeta function", gender: "die", example: { de: "Riemannsche Zetafunktion.", en: "Riemann zeta function." } },
+    { word: "die Dirichlet-L-Funktion", phonetic: "di-ri-klay-el-funk-tsee-ohn", meaning: "Dirichlet L-function", gender: "die", example: { de: "Primitiver Charakter Dirichlet-L-Funktion.", en: "Primitive character Dirichlet L-function." } },
+    { word: "der Chinesische Restsatz", phonetic: "khee-nay-zi-shuh rest-zats", meaning: "Chinese remainder theorem", gender: "der", example: { de: "Modulares Chinesischer Restsatz.", en: "Modular Chinese remainder theorem." } },
+    { word: "die Quadratische Gegenseitigkeit", phonetic: "kva-dra-ti-shuh gay-gen-zy-tikh-kyte", meaning: "quadratic reciprocity", gender: "die", example: { de: "Gaußsches quadratisches Gegenseitigkeitsgesetz.", en: "Gauss quadratic reciprocity law." } },
+    { word: "die Elliptische Kurve", phonetic: "e-lip-ti-shuh koor-vuh", meaning: "elliptic curve", gender: "die", example: { de: "Rationale Punkte elliptischer Kurve.", en: "Rational points of elliptic curve." } },
+    { word: "die Modulform", phonetic: "mo-dool-form", meaning: "modular form", gender: "die", example: { de: "Hecke-Modulform.", en: "Hecke modular form." } },
+    { word: "der Galois-Darstellung", phonetic: "ga-loa-dar-shte-lung", meaning: "Galois representation", gender: "die", example: { de: "p-adische Galois-Darstellung.", en: "p-adic Galois representation." } },
+    { word: "die Automorphe Form", phonetic: "ow-to-mor-fuh form", meaning: "automorphic form", gender: "die", example: { de: "Sphärische automorphe Form.", en: "Spherical automorphic form." } },
+    { word: "die Siebling-Methode", phonetic: "zeeb-ling-me-toh-duh", meaning: "sieve method", gender: "die", example: { de: "Große Siebling-Methode.", en: "Large sieve method." } },
+    { word: "die Primzahlverteilung", phonetic: "preem-tsahl-fer-ty-lung", meaning: "prime number distribution", gender: "die", example: { de: "Chebyshev-Primzahlverteilung.", en: "Chebyshev prime number distribution." } },
+    { word: "die Diophantische Gleichung", phonetic: "dee-oh-fan-ti-shuh gly-khung", meaning: "Diophantine equation", gender: "die", example: { de: "Positive diophantische Gleichung.", en: "Positive Diophantine equation." } },
+    { word: "das abc-Vermutung", phonetic: "ah-bay-tsay-fer-moo-tung", meaning: "abc conjecture", gender: "die", example: { de: "Mochizuki abc-Vermutung.", en: "Mochizuki abc conjecture." } },
+    { word: "die Birch-Swinnerton-Dyer-Vermutung", phonetic: "bürsh-shvin-er-ton-dy-er-fer-moo-tung", meaning: "Birch-Swinnerton-Dyer conjecture", gender: "die", example: { de: "Millennial Birch-Swinnerton-Dyer-Vermutung.", en: "Millennium Birch-Swinnerton-Dyer conjecture." } },
+    { word: "die p-adische Zahl", phonetic: "pay-ah-di-shuh tsahl", meaning: "p-adic number", gender: "die", example: { de: "p-adische Analysis.", en: "p-adic analysis." } },
+    { word: "die Adele-Ring", phonetic: "a-day-luh-ring", meaning: "adele ring", gender: "der", example: { de: "Globaler Adele-Ring.", en: "Global adele ring." } },
+    { word: "die Iwasawa-Theorie", phonetic: "ee-va-za-va-tay-oh-ree", meaning: "Iwasawa theory", gender: "die", example: { de: "Hauptvermutung Iwasawa-Theorie.", en: "Main conjecture Iwasawa theory." } },
+    { word: "das Langlands-Funktorialität", phonetic: "lang-lands-funk-tsee-oh-na-li-tayt", meaning: "Langlands functoriality", gender: "die", example: { de: "Automorphe Langlands-Funktorialität.", en: "Automorphic Langlands functoriality." } },
+  ]}] },
+};

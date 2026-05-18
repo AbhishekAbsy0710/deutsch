@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega69: Record<string, Lesson> = {
+  "lb2_m114": { id: "lb2_m114", title: "Electromagnetism B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "der Elektromagnetismus", phonetic: "e-lek-tro-mag-ne-tis-mus", meaning: "electromagnetism", gender: "der", example: { de: "Klassischer Elektromagnetismus.", en: "Classical electromagnetism." } },
+    { word: "das elektrische Feld", phonetic: "e-lek-tri-shuh felt", meaning: "electric field", gender: "das", example: { de: "Homogenes elektrisches Feld.", en: "Homogeneous electric field." } },
+    { word: "das magnetische Feld", phonetic: "mag-nay-ti-shuh felt", meaning: "magnetic field", gender: "das", example: { de: "Zeitvariantes magnetisches Feld.", en: "Time-varying magnetic field." } },
+    { word: "die Maxwell-Gleichungen", phonetic: "mak-svel-gly-khun-gen", meaning: "Maxwell's equations", example: { de: "Differentielle Maxwell-Gleichungen.", en: "Differential Maxwell's equations." } },
+    { word: "die Lorentz-Kraft", phonetic: "lo-rents-kraft", meaning: "Lorentz force", gender: "die", example: { de: "Magnetische Lorentz-Kraft.", en: "Magnetic Lorentz force." } },
+    { word: "der elektrische Fluss", phonetic: "e-lek-tri-shuh floos", meaning: "electric flux", gender: "der", example: { de: "Gaußscher elektrischer Fluss.", en: "Gaussian electric flux." } },
+    { word: "die Kapazität", phonetic: "ka-pa-tsi-tayt", meaning: "capacitance", gender: "die", example: { de: "Elektrische Kapazität.", en: "Electric capacitance." } },
+    { word: "die Induktivität", phonetic: "in-dook-ti-vi-tayt", meaning: "inductance", gender: "die", example: { de: "Gegenseitige Induktivität.", en: "Mutual inductance." } },
+    { word: "der elektrische Widerstand", phonetic: "e-lek-tri-shuh vi-der-shtant", meaning: "electrical resistance", gender: "der", example: { de: "Ohmscher Widerstand.", en: "Ohmic resistance." } },
+    { word: "die elektromagnetische Welle", phonetic: "e-lek-tro-mag-nay-ti-shuh ve-luh", meaning: "electromagnetic wave", gender: "die", example: { de: "Transversale elektromagnetische Welle.", en: "Transverse electromagnetic wave." } },
+    { word: "die Permittivität", phonetic: "per-mi-ti-vi-tayt", meaning: "permittivity", gender: "die", example: { de: "Relative Permittivität.", en: "Relative permittivity." } },
+    { word: "die Permeabilität", phonetic: "per-me-a-bi-li-tayt", meaning: "permeability (magnetic)", gender: "die", example: { de: "Magnetische Permeabilität.", en: "Magnetic permeability." } },
+    { word: "der Brechungsindex", phonetic: "bre-khungs-in-deks", meaning: "refractive index", gender: "der", example: { de: "Komplexer Brechungsindex.", en: "Complex refractive index." } },
+    { word: "die Polarisation", phonetic: "po-la-ri-za-tsee-ohn", meaning: "polarisation", gender: "die", example: { de: "Lineare Polarisation.", en: "Linear polarisation." } },
+    { word: "das Poynting-Vektor", phonetic: "poynt-ing-vek-tor", meaning: "Poynting vector", gender: "der", example: { de: "Zeitgemittelter Poynting-Vektor.", en: "Time-averaged Poynting vector." } },
+    { word: "der Dipol", phonetic: "di-pohl", meaning: "dipole", gender: "der", example: { de: "Elektrischer Dipol.", en: "Electric dipole." } },
+    { word: "die Leitfähigkeit", phonetic: "lyte-fay-ikh-kyte", meaning: "conductivity (electrical)", gender: "die", example: { de: "Ionische Leitfähigkeit.", en: "Ionic conductivity." } },
+    { word: "die Strahlung", phonetic: "shtrah-lung", meaning: "radiation", gender: "die", example: { de: "Elektromagnetische Strahlung.", en: "Electromagnetic radiation." } },
+    { word: "das Skin-Effekt", phonetic: "skin-e-fekt", meaning: "skin effect", gender: "der", example: { de: "Hochfrequenz-Skin-Effekt.", en: "High-frequency skin effect." } },
+    { word: "der Wirbelstrom", phonetic: "vir-bel-shtrohm", meaning: "eddy current", gender: "der", example: { de: "Verlustbehafteter Wirbelstrom.", en: "Lossy eddy current." } },
+  ]}] },
+};

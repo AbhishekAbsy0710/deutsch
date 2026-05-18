@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega71: Record<string, Lesson> = {
+  "lb1_m122": { id: "lb1_m122", title: "Travel & Tourism B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "der Urlaub", phonetic: "oor-lowp", meaning: "holiday / vacation", gender: "der", example: { de: "In den Urlaub fahren.", en: "Go on holiday." } },
+    { word: "die Reise", phonetic: "ry-zuh", meaning: "journey / trip", gender: "die", example: { de: "Eine lange Reise.", en: "A long journey." } },
+    { word: "der Reiseführer", phonetic: "ry-zuh-fü-rer", meaning: "travel guide (book/person)", gender: "der", example: { de: "Einen Reiseführer mitnehmen.", en: "Take a travel guide." } },
+    { word: "das Hotel", phonetic: "ho-tel", meaning: "hotel", gender: "das", example: { de: "Ein Hotel buchen.", en: "Book a hotel." } },
+    { word: "die Unterkunft", phonetic: "oon-ter-kunft", meaning: "accommodation", gender: "die", example: { de: "Günstige Unterkunft finden.", en: "Find cheap accommodation." } },
+    { word: "die Sehenswürdigkeit", phonetic: "zay-ens-vür-dikh-kyte", meaning: "sight / attraction", gender: "die", example: { de: "Sehenswürdigkeiten besichtigen.", en: "Visit sights." } },
+    { word: "die Stadtführung", phonetic: "shtat-fü-rung", meaning: "city tour", gender: "die", example: { de: "An einer Stadtführung teilnehmen.", en: "Join a city tour." } },
+    { word: "der Reisepass", phonetic: "ry-zuh-pas", meaning: "passport", gender: "der", example: { de: "Den Reisepass verlängern.", en: "Renew the passport." } },
+    { word: "die Krankenversicherung", phonetic: "kran-ken-fer-zi-khe-rung", meaning: "travel health insurance", gender: "die", example: { de: "Auslandsreisekrankenversicherung.", en: "Travel health insurance." } },
+    { word: "die Buchung", phonetic: "boo-khung", meaning: "booking / reservation", gender: "die", example: { de: "Eine Buchung bestätigen.", en: "Confirm a booking." } },
+    { word: "der Reiseveranstalter", phonetic: "ry-zuh-fer-an-shtal-ter", meaning: "tour operator", gender: "der", example: { de: "Beim Reiseveranstalter buchen.", en: "Book with the tour operator." } },
+    { word: "der Reisekosten", phonetic: "ry-zuh-kos-ten", meaning: "travel costs", example: { de: "Reisekosten erstatten.", en: "Reimburse travel costs." } },
+    { word: "der Rucksack", phonetic: "rook-zak", meaning: "backpack / rucksack", gender: "der", example: { de: "Mit dem Rucksack reisen.", en: "Travel with a backpack." } },
+    { word: "die Autovermietung", phonetic: "ow-to-fer-mee-tung", meaning: "car rental", gender: "die", example: { de: "Bei der Autovermietung buchen.", en: "Book at the car rental." } },
+    { word: "der Campingplatz", phonetic: "kem-ping-plats", meaning: "campsite", gender: "der", example: { de: "Auf dem Campingplatz übernachten.", en: "Stay overnight at the campsite." } },
+    { word: "übernachten", phonetic: "ü-ber-nakh-ten", meaning: "to stay overnight", example: { de: "Im Hostel übernachten.", en: "Stay overnight in a hostel." } },
+    { word: "die Reisekrankheit", phonetic: "ry-zuh-krank-hyte", meaning: "travel sickness", gender: "die", example: { de: "An Reisekrankheit leiden.", en: "Suffer from travel sickness." } },
+    { word: "die Zeitverschiebung", phonetic: "tsyte-fer-shee-bung", meaning: "time difference / jet lag", gender: "die", example: { de: "Mit Zeitverschiebung kämpfen.", en: "Fight with time difference." } },
+    { word: "die Souvenirs", phonetic: "zoo-ve-neer", meaning: "souvenirs", example: { de: "Souvenirs kaufen.", en: "Buy souvenirs." } },
+    { word: "die Reisebeschränkung", phonetic: "ry-zuh-beh-shrenk-ung", meaning: "travel restriction", gender: "die", example: { de: "Aktuelle Reisebeschränkungen.", en: "Current travel restrictions." } },
+  ]}] },
+};
