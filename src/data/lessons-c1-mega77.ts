@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega77: Record<string, Lesson> = {
+  "lc1_m123": { id: "lc1_m123", title: "Advanced Macroeconomics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Makroökonomie", phonetic: "ma-kro-ö-ko-no-mee", meaning: "macroeconomics", gender: "die", example: { de: "Offene Makroökonomie.", en: "Open macroeconomics." } },
+    { word: "das BIP", phonetic: "bay-ee-pay", meaning: "GDP (Bruttoinlandsprodukt)", gender: "das", example: { de: "Reales BIP-Wachstum.", en: "Real GDP growth." } },
+    { word: "die Fiskalpolitik", phonetic: "fis-kahl-po-li-tik", meaning: "fiscal policy", gender: "die", example: { de: "Expansive Fiskalpolitik.", en: "Expansionary fiscal policy." } },
+    { word: "die Geldpolitik", phonetic: "gelt-po-li-tik", meaning: "monetary policy", gender: "die", example: { de: "Restriktive Geldpolitik.", en: "Restrictive monetary policy." } },
+    { word: "die Zentralbank", phonetic: "tsen-trahl-bank", meaning: "central bank", gender: "die", example: { de: "Unabhängige Zentralbank.", en: "Independent central bank." } },
+    { word: "der Leitzins", phonetic: "lyte-tsins", meaning: "key interest rate / policy rate", gender: "der", example: { de: "EZB-Leitzins.", en: "ECB key interest rate." } },
+    { word: "die Quantitative Lockerung", phonetic: "kvan-ti-ta-tee-vuh lo-ke-rung", meaning: "quantitative easing (QE)", gender: "die", example: { de: "Unkonventionelle quantitative Lockerung.", en: "Unconventional quantitative easing." } },
+    { word: "das Konjunkturprogramm", phonetic: "kon-yoonk-toor-pro-gram", meaning: "stimulus package", gender: "das", example: { de: "Staatliches Konjunkturprogramm.", en: "Government stimulus package." } },
+    { word: "die Phillips-Kurve", phonetic: "fi-lips-koor-vuh", meaning: "Phillips curve", gender: "die", example: { de: "Kurzfristige Phillips-Kurve.", en: "Short-run Phillips curve." } },
+    { word: "die Ricardianische Äquivalenz", phonetic: "ri-kar-dee-ah-ni-shuh ey-kvi-va-lents", meaning: "Ricardian equivalence", gender: "die", example: { de: "Barro-Ricardianische Äquivalenz.", en: "Barro Ricardian equivalence." } },
+    { word: "das DSGE-Modell", phonetic: "day-es-gay-ay-mo-del", meaning: "DSGE model", gender: "das", example: { de: "Stochastisches DSGE-Modell.", en: "Stochastic DSGE model." } },
+    { word: "der Multiplikator", phonetic: "mool-ti-pli-ka-tor", meaning: "fiscal multiplier", gender: "der", example: { de: "Staatlicher Multiplikatoreffekt.", en: "Government multiplier effect." } },
+    { word: "die Zahlungsbilanz", phonetic: "tsah-lungs-bi-lants", meaning: "balance of payments", gender: "die", example: { de: "Leistungsbilanzdefizit.", en: "Current account deficit." } },
+    { word: "das Mundell-Fleming-Modell", phonetic: "moon-del-fle-ming-mo-del", meaning: "Mundell-Fleming model", gender: "das", example: { de: "Offenes Mundell-Fleming-Modell.", en: "Open Mundell-Fleming model." } },
+    { word: "die Kaufkraftparität", phonetic: "kowf-kraft-pa-ri-tayt", meaning: "purchasing power parity (PPP)", gender: "die", example: { de: "Absolute Kaufkraftparität.", en: "Absolute purchasing power parity." } },
+    { word: "die Liquiditätsfalle", phonetic: "li-kvi-di-tayts-fa-luh", meaning: "liquidity trap", gender: "die", example: { de: "Keynesianische Liquiditätsfalle.", en: "Keynesian liquidity trap." } },
+    { word: "die endogene Wachstumstheorie", phonetic: "en-do-gay-nuh vaks-tums-tay-oh-ree", meaning: "endogenous growth theory", gender: "die", example: { de: "Romer-endogene Wachstumstheorie.", en: "Romer endogenous growth theory." } },
+    { word: "der Hysteresis", phonetic: "hüs-te-ray-sis", meaning: "hysteresis (economics)", gender: "die", example: { de: "Arbeitsmarkthysteresis.", en: "Labour market hysteresis." } },
+    { word: "die Schuldenobergrenze", phonetic: "shool-den-oh-ber-grent-suh", meaning: "debt ceiling", gender: "die", example: { de: "Staatliche Schuldenobergrenze.", en: "Government debt ceiling." } },
+    { word: "das Vollbeschäftigung", phonetic: "fol-beh-shef-ti-gung", meaning: "full employment", gender: "die", example: { de: "NAIRU-Vollbeschäftigung.", en: "NAIRU full employment." } },
+  ]}] },
+};

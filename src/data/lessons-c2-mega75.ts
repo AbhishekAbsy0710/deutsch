@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega75: Record<string, Lesson> = {
+  "lc2_m118": { id: "lc2_m118", title: "Advanced Measure Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Maßtheorie", phonetic: "mahs-tay-oh-ree", meaning: "measure theory", gender: "die", example: { de: "Abstrakte Maßtheorie.", en: "Abstract measure theory." } },
+    { word: "die σ-Algebra", phonetic: "zig-ma-al-ge-bra", meaning: "σ-algebra", gender: "die", example: { de: "Borelsche σ-Algebra.", en: "Borel σ-algebra." } },
+    { word: "das Maß", phonetic: "mahs", meaning: "measure", gender: "das", example: { de: "Endliches Maß.", en: "Finite measure." } },
+    { word: "das Lebesgue-Maß", phonetic: "le-beg-mahs", meaning: "Lebesgue measure", gender: "das", example: { de: "Translationsinvariantes Lebesgue-Maß.", en: "Translation-invariant Lebesgue measure." } },
+    { word: "das Wahrscheinlichkeitsmaß", phonetic: "var-shyn-likh-kyts-mahs", meaning: "probability measure", gender: "das", example: { de: "Normiertes Wahrscheinlichkeitsmaß.", en: "Normalized probability measure." } },
+    { word: "die Messbarkeit", phonetic: "mes-bar-kyte", meaning: "measurability", gender: "die", example: { de: "Borel-Messbarkeit.", en: "Borel measurability." } },
+    { word: "das Lebesgue-Integral", phonetic: "le-beg-in-te-grahl", meaning: "Lebesgue integral", gender: "das", example: { de: "Verallgemeinertes Lebesgue-Integral.", en: "Generalized Lebesgue integral." } },
+    { word: "der Satz von Lebesgue", phonetic: "zats-fon-le-beg", meaning: "Lebesgue dominated convergence theorem", gender: "der", example: { de: "Dominierter Satz von Lebesgue.", en: "Dominated convergence theorem of Lebesgue." } },
+    { word: "die absolute Stetigkeit", phonetic: "ap-so-loo-tuh shtay-tikh-kyte", meaning: "absolute continuity (measure)", gender: "die", example: { de: "Absolute Stetigkeit von Maßen.", en: "Absolute continuity of measures." } },
+    { word: "der Radon-Nikodym-Satz", phonetic: "ra-don-ni-ko-düm-zats", meaning: "Radon-Nikodym theorem", gender: "der", example: { de: "Sigma-endlicher Radon-Nikodym-Satz.", en: "σ-finite Radon-Nikodym theorem." } },
+    { word: "das Produktmaß", phonetic: "pro-dookt-mahs", meaning: "product measure", gender: "das", example: { de: "Fubini-Produktmaß.", en: "Fubini product measure." } },
+    { word: "der Satz von Fubini", phonetic: "zats-fon-foo-bee-ni", meaning: "Fubini's theorem", gender: "der", example: { de: "Allgemeiner Satz von Fubini.", en: "General Fubini's theorem." } },
+    { word: "die Ergodizität", phonetic: "er-goh-di-tsi-tayt", meaning: "ergodicity", gender: "die", example: { de: "Maßerhaltende Ergodizität.", en: "Measure-preserving ergodicity." } },
+    { word: "das Birkoff-Ergodensatz", phonetic: "bir-khof-er-goh-den-zats", meaning: "Birkhoff ergodic theorem", gender: "der", example: { de: "Punktweiser Birkhoff-Ergodensatz.", en: "Pointwise Birkhoff ergodic theorem." } },
+    { word: "die Hausdorff-Dimension", phonetic: "hows-dorf-di-men-zee-ohn", meaning: "Hausdorff dimension", gender: "die", example: { de: "Fraktale Hausdorff-Dimension.", en: "Fractal Hausdorff dimension." } },
+    { word: "das Fraktal", phonetic: "frak-tahl", meaning: "fractal", gender: "das", example: { de: "Selbstähnliches Fraktal.", en: "Self-similar fractal." } },
+    { word: "der geometrische Maß", phonetic: "ge-oh-me-tri-shuh mahs", meaning: "geometric measure theory", gender: "die", example: { de: "Almgren geometrische Maßtheorie.", en: "Almgren geometric measure theory." } },
+    { word: "die Strömungsmaß", phonetic: "shtröh-mungs-mahs", meaning: "current (geometric measure theory)", gender: "der", example: { de: "Ganzzahliger rektifizierbarer Strömungsmaß.", en: "Integral rectifiable current." } },
+    { word: "das Haar-Maß", phonetic: "hahr-mahs", meaning: "Haar measure", gender: "das", example: { de: "Links-invariantes Haar-Maß.", en: "Left-invariant Haar measure." } },
+    { word: "die Martingale", phonetic: "mar-tin-gah-luh", meaning: "martingale (measure theory)", example: { de: "Lokales Martingale.", en: "Local martingale." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega76: Record<string, Lesson> = {
+  "la2_m121": { id: "la2_m121", title: "Transport & Travel A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Verkehrsmittel", phonetic: "fer-kayrs-mi-tel", meaning: "means of transport", gender: "das", example: { de: "Öffentliche Verkehrsmittel.", en: "Public transport." } },
+    { word: "der Bus", phonetic: "boos", meaning: "bus", gender: "der", example: { de: "Den Bus nehmen.", en: "Take the bus." } },
+    { word: "die U-Bahn", phonetic: "oo-bahn", meaning: "underground / subway", gender: "die", example: { de: "Mit der U-Bahn fahren.", en: "Travel by underground." } },
+    { word: "der Zug", phonetic: "tsoog", meaning: "train", gender: "der", example: { de: "Den Zug verpassen.", en: "Miss the train." } },
+    { word: "das Flugzeug", phonetic: "floog-tsoyk", meaning: "aeroplane", gender: "das", example: { de: "Mit dem Flugzeug reisen.", en: "Travel by aeroplane." } },
+    { word: "das Auto", phonetic: "ow-to", meaning: "car", gender: "das", example: { de: "Auto fahren.", en: "Drive a car." } },
+    { word: "das Fahrrad", phonetic: "far-raht", meaning: "bicycle", gender: "das", example: { de: "Fahrrad fahren.", en: "Ride a bicycle." } },
+    { word: "der Bahnhof", phonetic: "bahn-hohf", meaning: "train station", gender: "der", example: { de: "Am Bahnhof warten.", en: "Wait at the train station." } },
+    { word: "der Flughafen", phonetic: "floog-hah-fen", meaning: "airport", gender: "der", example: { de: "Zum Flughafen fahren.", en: "Go to the airport." } },
+    { word: "die Haltestelle", phonetic: "hal-tuh-shte-luh", meaning: "bus / tram stop", gender: "die", example: { de: "An der Haltestelle warten.", en: "Wait at the stop." } },
+    { word: "das Ticket", phonetic: "ti-ket", meaning: "ticket", gender: "das", example: { de: "Ein Ticket kaufen.", en: "Buy a ticket." } },
+    { word: "die Fahrkarte", phonetic: "far-kar-tuh", meaning: "train/bus ticket", gender: "die", example: { de: "Eine Fahrkarte lösen.", en: "Get a ticket." } },
+    { word: "der Fahrplan", phonetic: "far-plahn", meaning: "timetable / schedule", gender: "der", example: { de: "Den Fahrplan checken.", en: "Check the timetable." } },
+    { word: "die Verspätung", phonetic: "fer-shpay-tung", meaning: "delay", gender: "die", example: { de: "Der Zug hat Verspätung.", en: "The train has a delay." } },
+    { word: "der Stau", phonetic: "shtow", meaning: "traffic jam", gender: "der", example: { de: "Im Stau stehen.", en: "Be stuck in a traffic jam." } },
+    { word: "tanken", phonetic: "tan-ken", meaning: "to fill up (fuel)", example: { de: "Das Auto tanken.", en: "Fill up the car." } },
+    { word: "parken", phonetic: "par-ken", meaning: "to park", example: { de: "Das Auto parken.", en: "Park the car." } },
+    { word: "der Parkplatz", phonetic: "park-plats", meaning: "car park / parking space", gender: "der", example: { de: "Einen Parkplatz suchen.", en: "Look for a parking space." } },
+    { word: "die Schiffsfahrt", phonetic: "shifs-fart", meaning: "boat trip / cruise", gender: "die", example: { de: "Eine Schiffsfahrt machen.", en: "Take a boat trip." } },
+    { word: "der Führerschein", phonetic: "fü-rer-shayn", meaning: "driving licence", gender: "der", example: { de: "Den Führerschein machen.", en: "Get a driving licence." } },
+  ]}] },
+};

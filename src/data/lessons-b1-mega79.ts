@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega79: Record<string, Lesson> = {
+  "lb1_m130": { id: "lb1_m130", title: "Education System & University B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Schule", phonetic: "shoo-luh", meaning: "school", gender: "die", example: { de: "In die Schule gehen.", en: "Go to school." } },
+    { word: "die Universität", phonetic: "oo-ni-ver-zi-tayt", meaning: "university", gender: "die", example: { de: "An der Universität studieren.", en: "Study at university." } },
+    { word: "das Studium", phonetic: "shtoo-dee-oom", meaning: "studies / degree programme", gender: "das", example: { de: "Das Studium beginnen.", en: "Begin studies." } },
+    { word: "der Abschluss", phonetic: "ap-shloos", meaning: "degree / qualification", gender: "der", example: { de: "Den Abschluss machen.", en: "Complete the degree." } },
+    { word: "der Bachelor", phonetic: "ba-tsha-lor", meaning: "bachelor's degree", gender: "der", example: { de: "Einen Bachelor machen.", en: "Do a bachelor's degree." } },
+    { word: "der Master", phonetic: "mas-ter", meaning: "master's degree", gender: "der", example: { de: "Einen Master anschließen.", en: "Follow up with a master's degree." } },
+    { word: "die Promotion", phonetic: "pro-mo-tsee-ohn", meaning: "doctorate / PhD", gender: "die", example: { de: "Eine Promotion anstreben.", en: "Aim for a doctorate." } },
+    { word: "der Professor", phonetic: "pro-fe-sor", meaning: "professor", gender: "der", example: { de: "Der Professor hält Vorlesung.", en: "The professor gives a lecture." } },
+    { word: "die Vorlesung", phonetic: "for-lay-zung", meaning: "lecture", gender: "die", example: { de: "Die Vorlesung besuchen.", en: "Attend the lecture." } },
+    { word: "das Seminar", phonetic: "ze-mi-nar", meaning: "seminar", gender: "das", example: { de: "Am Seminar teilnehmen.", en: "Take part in the seminar." } },
+    { word: "die Hausarbeit", phonetic: "hows-ar-byt", meaning: "essay / term paper", gender: "die", example: { de: "Eine Hausarbeit schreiben.", en: "Write an essay." } },
+    { word: "die Klausur", phonetic: "klow-zoor", meaning: "written exam", gender: "die", example: { de: "Die Klausur bestehen.", en: "Pass the written exam." } },
+    { word: "das Semester", phonetic: "ze-mes-ter", meaning: "semester", gender: "das", example: { de: "Im Wintersemester.", en: "In the winter semester." } },
+    { word: "der Stundenplan", phonetic: "shtoon-den-plahn", meaning: "timetable (school)", gender: "der", example: { de: "Den Stundenplan anschauen.", en: "Look at the timetable." } },
+    { word: "das Fach", phonetic: "fakh", meaning: "subject / discipline", gender: "das", example: { de: "Ein Lieblingsfach.", en: "A favourite subject." } },
+    { word: "die Note", phonetic: "noh-tuh", meaning: "grade / mark", gender: "die", example: { de: "Eine gute Note bekommen.", en: "Get a good grade." } },
+    { word: "das Stipendium", phonetic: "shti-pen-dee-oom", meaning: "scholarship / grant", gender: "das", example: { de: "Ein Stipendium beantragen.", en: "Apply for a scholarship." } },
+    { word: "der Campus", phonetic: "kam-poos", meaning: "campus", gender: "der", example: { de: "Auf dem Campus leben.", en: "Live on campus." } },
+    { word: "die Bibliothek", phonetic: "bi-bli-oh-tayk", meaning: "library", gender: "die", example: { de: "In der Bibliothek lernen.", en: "Study in the library." } },
+    { word: "das Hochschulzeugnis", phonetic: "hohkh-shool-tsoyg-nis", meaning: "university transcript", gender: "das", example: { de: "Hochschulzeugnis vorlegen.", en: "Present university transcript." } },
+  ]}] },
+};

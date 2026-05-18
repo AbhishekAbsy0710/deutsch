@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega77: Record<string, Lesson> = {
+  "lb2_m122": { id: "lb2_m122", title: "Statistical Mechanics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Statistische Mechanik", phonetic: "shta-tis-ti-shuh me-kha-nik", meaning: "statistical mechanics", gender: "die", example: { de: "Klassische statistische Mechanik.", en: "Classical statistical mechanics." } },
+    { word: "die Zustandssumme", phonetic: "tsoo-shtants-zoo-muh", meaning: "partition function", gender: "die", example: { de: "Kanonische Zustandssumme.", en: "Canonical partition function." } },
+    { word: "das Ensemble", phonetic: "ahn-sahm-bluh", meaning: "ensemble (statistical)", gender: "das", example: { de: "Mikrokanonisches Ensemble.", en: "Microcanonical ensemble." } },
+    { word: "die Entropie", phonetic: "en-tro-pee", meaning: "entropy", gender: "die", example: { de: "Boltzmann-Entropie.", en: "Boltzmann entropy." } },
+    { word: "die Freie Energie", phonetic: "fry-uh e-ner-gee", meaning: "free energy", gender: "die", example: { de: "Helmholtz freie Energie.", en: "Helmholtz free energy." } },
+    { word: "der Phasenübergang", phonetic: "fah-zen-ü-ber-gang", meaning: "phase transition", gender: "der", example: { de: "Kontinuierlicher Phasenübergang.", en: "Continuous phase transition." } },
+    { word: "der Ordnungsparameter", phonetic: "ord-nungs-pa-ra-may-ter", meaning: "order parameter", gender: "der", example: { de: "Landau-Ordnungsparameter.", en: "Landau order parameter." } },
+    { word: "die kritische Exponenten", phonetic: "kri-ti-shuh ek-spo-nen-ten", meaning: "critical exponents", example: { de: "Universalklasse kritische Exponenten.", en: "Universality class critical exponents." } },
+    { word: "die Renormierungsgruppe", phonetic: "re-nor-mee-rungs-groo-puh", meaning: "renormalization group", gender: "die", example: { de: "Wilson-Renormierungsgruppe.", en: "Wilson renormalization group." } },
+    { word: "das Ising-Modell", phonetic: "ee-zing-mo-del", meaning: "Ising model", gender: "das", example: { de: "Zweidimensionales Ising-Modell.", en: "Two-dimensional Ising model." } },
+    { word: "die Monte-Carlo-Methode", phonetic: "mon-te-kar-lo-me-toh-duh", meaning: "Monte Carlo method (physics)", gender: "die", example: { de: "Metropolis-Monte-Carlo-Methode.", en: "Metropolis Monte Carlo method." } },
+    { word: "die Boltzmann-Gleichung", phonetic: "bolts-man-gly-khung", meaning: "Boltzmann equation", gender: "die", example: { de: "Relativistische Boltzmann-Gleichung.", en: "Relativistic Boltzmann equation." } },
+    { word: "das Fluktuations-Dissipations-Theorem", phonetic: "flook-too-a-tsee-ohns-di-si-pa-tsee-ohns-tay-oh-rem", meaning: "fluctuation-dissipation theorem", gender: "das", example: { de: "Kubo-Fluktuations-Dissipations-Theorem.", en: "Kubo fluctuation-dissipation theorem." } },
+    { word: "die Nicht-Gleichgewichtsthermodynamik", phonetic: "nikht-glykh-geh-vikhts-ter-mo-dü-na-mik", meaning: "non-equilibrium thermodynamics", gender: "die", example: { de: "Lineare Nicht-Gleichgewichtsthermodynamik.", en: "Linear non-equilibrium thermodynamics." } },
+    { word: "der Langevin-Gleichung", phonetic: "lang-vang-gly-khung", meaning: "Langevin equation", gender: "die", example: { de: "Stochastische Langevin-Gleichung.", en: "Stochastic Langevin equation." } },
+    { word: "die Fokker-Planck-Gleichung", phonetic: "fo-ker-plank-gly-khung", meaning: "Fokker-Planck equation", gender: "die", example: { de: "Ornstein-Uhlenbeck-Fokker-Planck-Gleichung.", en: "Ornstein-Uhlenbeck Fokker-Planck equation." } },
+    { word: "die Bose-Einstein-Kondensation", phonetic: "boh-zuh-ayn-shty-n-kon-den-za-tsee-ohn", meaning: "Bose-Einstein condensation", gender: "die", example: { de: "Ultrakalte Bose-Einstein-Kondensation.", en: "Ultracold Bose-Einstein condensation." } },
+    { word: "die Supraleitung", phonetic: "zoo-pra-ly-tung", meaning: "superconductivity (thermodynamic)", gender: "die", example: { de: "BCS-Supraleitung.", en: "BCS superconductivity." } },
+    { word: "das Glasmodell", phonetic: "glahs-mo-del", meaning: "spin glass / glass model", gender: "das", example: { de: "Edwards-Anderson-Glasmodell.", en: "Edwards-Anderson spin glass model." } },
+    { word: "die Informationsthermodynamik", phonetic: "in-for-ma-tsee-ohns-ter-mo-dü-na-mik", meaning: "information thermodynamics", gender: "die", example: { de: "Landauer-Informationsthermodynamik.", en: "Landauer information thermodynamics." } },
+  ]}] },
+};
