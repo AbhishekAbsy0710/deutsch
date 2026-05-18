@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega78: Record<string, Lesson> = {
+  "lb2_m123": { id: "lb2_m123", title: "Thermodynamics & Heat Engines B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Thermodynamik", phonetic: "ter-mo-dü-na-mik", meaning: "thermodynamics", gender: "die", example: { de: "Klassische Thermodynamik.", en: "Classical thermodynamics." } },
+    { word: "der erste Hauptsatz", phonetic: "ers-tuh howpt-zats", meaning: "first law of thermodynamics", gender: "der", example: { de: "Erster Hauptsatz der Thermodynamik.", en: "First law of thermodynamics." } },
+    { word: "der zweite Hauptsatz", phonetic: "tsvy-tuh howpt-zats", meaning: "second law of thermodynamics", gender: "der", example: { de: "Zweiter Hauptsatz der Thermodynamik.", en: "Second law of thermodynamics." } },
+    { word: "der dritte Hauptsatz", phonetic: "dri-tuh howpt-zats", meaning: "third law of thermodynamics", gender: "der", example: { de: "Nernst dritter Hauptsatz.", en: "Nernst third law." } },
+    { word: "die innere Energie", phonetic: "i-ne-ruh e-ner-gee", meaning: "internal energy", gender: "die", example: { de: "Änderung innere Energie.", en: "Change in internal energy." } },
+    { word: "die Enthalpie", phonetic: "en-tal-pee", meaning: "enthalpy", gender: "die", example: { de: "Bildungsenthalpie.", en: "Enthalpy of formation." } },
+    { word: "die Gibbs-Energie", phonetic: "gibs-e-ner-gee", meaning: "Gibbs free energy", gender: "die", example: { de: "Spontane Gibbs-Energie.", en: "Spontaneous Gibbs free energy." } },
+    { word: "der Carnot-Wirkungsgrad", phonetic: "kar-noh-vir-kungs-graht", meaning: "Carnot efficiency", gender: "der", example: { de: "Maximaler Carnot-Wirkungsgrad.", en: "Maximum Carnot efficiency." } },
+    { word: "der Kreisprozess", phonetic: "kryce-pro-tses", meaning: "thermodynamic cycle", gender: "der", example: { de: "Rankine-Kreisprozess.", en: "Rankine cycle." } },
+    { word: "der Otto-Motor", phonetic: "o-to-mo-tor", meaning: "Otto engine / cycle", gender: "der", example: { de: "Viertakt-Otto-Motor.", en: "Four-stroke Otto engine." } },
+    { word: "der Dieselmotor", phonetic: "dee-zel-mo-tor", meaning: "diesel engine / cycle", gender: "der", example: { de: "Direkteinspritzungs-Dieselmotor.", en: "Direct injection diesel engine." } },
+    { word: "die Wärmepumpe", phonetic: "ver-muh-poom-puh", meaning: "heat pump", gender: "die", example: { de: "Geothermische Wärmepumpe.", en: "Geothermal heat pump." } },
+    { word: "der Kühlkreislauf", phonetic: "kül-kryce-lowf", meaning: "refrigeration cycle", gender: "der", example: { de: "Dampfkompression-Kühlkreislauf.", en: "Vapour compression refrigeration cycle." } },
+    { word: "der Wärmeübertrager", phonetic: "ver-muh-ü-ber-trah-ger", meaning: "heat exchanger", gender: "der", example: { de: "Gegenstrom-Wärmeübertrager.", en: "Counter-flow heat exchanger." } },
+    { word: "die Wärmeleitung", phonetic: "ver-muh-ly-tung", meaning: "thermal conduction", gender: "die", example: { de: "Fourier-Wärmeleitung.", en: "Fourier heat conduction." } },
+    { word: "die Wärmestrahlung", phonetic: "ver-muh-shtrah-lung", meaning: "thermal radiation", gender: "die", example: { de: "Stefan-Boltzmann-Wärmestrahlung.", en: "Stefan-Boltzmann thermal radiation." } },
+    { word: "die Konvektion", phonetic: "kon-vek-tsee-ohn", meaning: "convection", gender: "die", example: { de: "Erzwungene Konvektion.", en: "Forced convection." } },
+    { word: "der Exergie", phonetic: "ek-ser-gee", meaning: "exergy", gender: "die", example: { de: "Exergie-Analyse.", en: "Exergy analysis." } },
+    { word: "die Verbrennung", phonetic: "fer-bre-nung", meaning: "combustion", gender: "die", example: { de: "Stöchiometrische Verbrennung.", en: "Stoichiometric combustion." } },
+    { word: "der Wirkungsgrad", phonetic: "vir-kungs-graht", meaning: "efficiency (thermal)", gender: "der", example: { de: "Thermischer Wirkungsgrad.", en: "Thermal efficiency." } },
+  ]}] },
+};

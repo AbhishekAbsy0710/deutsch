@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega77: Record<string, Lesson> = {
+  "lc2_m120": { id: "lc2_m120", title: "Advanced Homological Algebra C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Homologische Algebra", phonetic: "ho-mo-lo-gi-shuh al-ge-bra", meaning: "homological algebra", gender: "die", example: { de: "Abelsche homologische Algebra.", en: "Abelian homological algebra." } },
+    { word: "der Komplex (Kette)", phonetic: "kom-pleks", meaning: "chain complex", gender: "der", example: { de: "Azyklischer Kettenkomplex.", en: "Acyclic chain complex." } },
+    { word: "der Homologiegruppe", phonetic: "ho-mo-lo-gee-groo-puh", meaning: "homology group", gender: "die", example: { de: "Singuläre Homologiegruppe.", en: "Singular homology group." } },
+    { word: "die Kohomologie", phonetic: "ko-ho-mo-lo-gee", meaning: "cohomology", gender: "die", example: { de: "De-Rham-Kohomologie.", en: "De Rham cohomology." } },
+    { word: "das Exakte Sequenz", phonetic: "ek-sak-tuh-ze-kvents", meaning: "exact sequence", gender: "die", example: { de: "Kurze exakte Sequenz.", en: "Short exact sequence." } },
+    { word: "der abgeleitete Funktor", phonetic: "ap-geh-ly-te-tuh-foonk-tor", meaning: "derived functor", gender: "der", example: { de: "Links-abgeleiteter Funktor.", en: "Left-derived functor." } },
+    { word: "das Ext-Funktor", phonetic: "ekst-foonk-tor", meaning: "Ext functor", gender: "der", example: { de: "Projektive Auflösung Ext-Funktor.", en: "Projective resolution Ext functor." } },
+    { word: "das Tor-Funktor", phonetic: "tor-foonk-tor", meaning: "Tor functor", gender: "der", example: { de: "Flache Auflösung Tor-Funktor.", en: "Flat resolution Tor functor." } },
+    { word: "die spektrale Sequenz", phonetic: "shpek-trahl-ze-kvents", meaning: "spectral sequence", gender: "die", example: { de: "Leray-Serre spektrale Sequenz.", en: "Leray-Serre spectral sequence." } },
+    { word: "die Abelsche Kategorie", phonetic: "a-bel-shuh ka-te-go-ree", meaning: "abelian category", gender: "die", example: { de: "Vollständige abelsche Kategorie.", en: "Complete abelian category." } },
+    { word: "der Triangulierte Kategorie", phonetic: "tri-an-goo-leer-tuh ka-te-go-ree", meaning: "triangulated category", gender: "die", example: { de: "Derivierte triangulierte Kategorie.", en: "Derived triangulated category." } },
+    { word: "die abgeleitete Kategorie", phonetic: "ap-geh-ly-te-tuh ka-te-go-ree", meaning: "derived category", gender: "die", example: { de: "Beschränkte abgeleitete Kategorie.", en: "Bounded derived category." } },
+    { word: "das Sheaf (Garbe)", phonetic: "gar-buh", meaning: "sheaf", gender: "die", example: { de: "Kohärente Garbe.", en: "Coherent sheaf." } },
+    { word: "die Garbenkohomologie", phonetic: "gar-ben-ko-ho-mo-lo-gee", meaning: "sheaf cohomology", gender: "die", example: { de: "Čech-Garbenkohomologie.", en: "Čech sheaf cohomology." } },
+    { word: "der projektive Auflösung", phonetic: "pro-yek-tee-vuh-owf-lö-zung", meaning: "projective resolution", gender: "die", example: { de: "Minimale projektive Auflösung.", en: "Minimal projective resolution." } },
+    { word: "der injektive Auflösung", phonetic: "in-yek-tee-vuh-owf-lö-zung", meaning: "injective resolution", gender: "die", example: { de: "Eindeutige injektive Auflösung.", en: "Unique injective resolution." } },
+    { word: "die globale Dimension", phonetic: "glo-bah-luh di-men-zee-ohn", meaning: "global dimension", gender: "die", example: { de: "Endliche globale Dimension.", en: "Finite global dimension." } },
+    { word: "der Auflösungsgrad", phonetic: "owf-lö-zungs-graht", meaning: "projective/injective dimension", gender: "der", example: { de: "Projektiver Auflösungsgrad.", en: "Projective dimension." } },
+    { word: "das Koszul-Komplex", phonetic: "kos-tool-kom-pleks", meaning: "Koszul complex", gender: "der", example: { de: "Reguläre Sequenz Koszul-Komplex.", en: "Regular sequence Koszul complex." } },
+    { word: "das Hochschild-Komplex", phonetic: "hokh-shilt-kom-pleks", meaning: "Hochschild complex", gender: "der", example: { de: "Deformationstheoretischer Hochschild-Komplex.", en: "Deformation-theoretic Hochschild complex." } },
+  ]}] },
+};

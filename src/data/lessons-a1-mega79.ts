@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega79: Record<string, Lesson> = {
+  "la1_m129": { id: "la1_m129", title: "Body & Health A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "der Körper", phonetic: "kör-per", meaning: "body", gender: "der", example: { de: "Der menschliche Körper.", en: "The human body." } },
+    { word: "der Kopf", phonetic: "kopf", meaning: "head", gender: "der", example: { de: "Kopfschmerzen haben.", en: "Have a headache." } },
+    { word: "das Auge", phonetic: "ow-guh", meaning: "eye", gender: "das", example: { de: "Blaue Augen.", en: "Blue eyes." } },
+    { word: "das Ohr", phonetic: "ohr", meaning: "ear", gender: "das", example: { de: "Die Ohren waschen.", en: "Wash the ears." } },
+    { word: "die Nase", phonetic: "nah-zuh", meaning: "nose", gender: "die", example: { de: "Eine rote Nase.", en: "A red nose." } },
+    { word: "der Mund", phonetic: "moont", meaning: "mouth", gender: "der", example: { de: "Den Mund öffnen.", en: "Open the mouth." } },
+    { word: "der Zahn", phonetic: "tsahn", meaning: "tooth", gender: "der", example: { de: "Zähne putzen.", en: "Brush teeth." } },
+    { word: "der Arm", phonetic: "arm", meaning: "arm", gender: "der", example: { de: "Den Arm ausstrecken.", en: "Stretch out the arm." } },
+    { word: "die Hand", phonetic: "hant", meaning: "hand", gender: "die", example: { de: "Hände waschen.", en: "Wash hands." } },
+    { word: "das Bein", phonetic: "bayn", meaning: "leg", gender: "das", example: { de: "Das Bein brechen.", en: "Break the leg." } },
+    { word: "der Fuß", phonetic: "foos", meaning: "foot", gender: "der", example: { de: "Auf den Füßen stehen.", en: "Stand on feet." } },
+    { word: "der Bauch", phonetic: "bowkh", meaning: "stomach / belly", gender: "der", example: { de: "Bauchschmerzen haben.", en: "Have stomach ache." } },
+    { word: "der Rücken", phonetic: "rü-ken", meaning: "back", gender: "der", example: { de: "Rückenschmerzen.", en: "Back pain." } },
+    { word: "krank", phonetic: "krank", meaning: "ill / sick", example: { de: "Ich bin krank.", en: "I am ill." } },
+    { word: "gesund", phonetic: "geh-zoont", meaning: "healthy", example: { de: "Gesund leben.", en: "Live healthily." } },
+    { word: "das Fieber", phonetic: "fee-ber", meaning: "fever", gender: "das", example: { de: "Fieber haben.", en: "Have a fever." } },
+    { word: "der Husten", phonetic: "hoos-ten", meaning: "cough", gender: "der", example: { de: "Starker Husten.", en: "Strong cough." } },
+    { word: "der Arzt", phonetic: "artst", meaning: "doctor", gender: "der", example: { de: "Zum Arzt gehen.", en: "Go to the doctor." } },
+    { word: "die Apotheke", phonetic: "a-po-tay-kuh", meaning: "pharmacy", gender: "die", example: { de: "In die Apotheke gehen.", en: "Go to the pharmacy." } },
+    { word: "das Medikament", phonetic: "me-di-ka-ment", meaning: "medication / medicine", gender: "das", example: { de: "Medikament nehmen.", en: "Take medication." } },
+  ]}] },
+};

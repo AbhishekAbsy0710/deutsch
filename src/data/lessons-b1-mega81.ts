@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega81: Record<string, Lesson> = {
+  "lb1_m132": { id: "lb1_m132", title: "Environment & Sustainability B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Umwelt", phonetic: "oom-velt", meaning: "environment", gender: "die", example: { de: "Umwelt schützen.", en: "Protect the environment." } },
+    { word: "der Klimawandel", phonetic: "klee-ma-van-del", meaning: "climate change", gender: "der", example: { de: "Klimawandel bekämpfen.", en: "Combat climate change." } },
+    { word: "die Nachhaltigkeit", phonetic: "nakh-hal-tikh-kyte", meaning: "sustainability", gender: "die", example: { de: "Nachhaltige Entwicklung.", en: "Sustainable development." } },
+    { word: "die Emissionen", phonetic: "e-mi-zee-oh-nen", meaning: "emissions", example: { de: "CO₂-Emissionen reduzieren.", en: "Reduce CO₂ emissions." } },
+    { word: "erneuerbare Energien", phonetic: "er-noy-er-bah-ruh-e-ner-gee-en", meaning: "renewable energies", example: { de: "Erneuerbare Energien nutzen.", en: "Use renewable energies." } },
+    { word: "die Solarenergie", phonetic: "zo-lar-e-ner-gee", meaning: "solar energy", gender: "die", example: { de: "Solarenergie gewinnen.", en: "Generate solar energy." } },
+    { word: "die Windenergie", phonetic: "vint-e-ner-gee", meaning: "wind energy", gender: "die", example: { de: "Windenergie erzeugen.", en: "Generate wind energy." } },
+    { word: "recyceln", phonetic: "re-tsü-keln", meaning: "to recycle", example: { de: "Müll recyceln.", en: "Recycle waste." } },
+    { word: "die Mülltrennung", phonetic: "mül-tre-nung", meaning: "waste separation", gender: "die", example: { de: "Mülltrennung praktizieren.", en: "Practise waste separation." } },
+    { word: "der Kompost", phonetic: "kom-post", meaning: "compost", gender: "der", example: { de: "Kompost anlegen.", en: "Make compost." } },
+    { word: "der ökologische Fußabdruck", phonetic: "ö-ko-lo-gi-shuh-foos-ap-drook", meaning: "ecological footprint", gender: "der", example: { de: "Ökologischen Fußabdruck reduzieren.", en: "Reduce ecological footprint." } },
+    { word: "die Biodiversität", phonetic: "bee-oh-di-ver-zi-tayt", meaning: "biodiversity", gender: "die", example: { de: "Biodiversität erhalten.", en: "Preserve biodiversity." } },
+    { word: "das Artensterben", phonetic: "ar-ten-shter-ben", meaning: "species extinction", gender: "das", example: { de: "Artensterben verhindern.", en: "Prevent species extinction." } },
+    { word: "die Abholzung", phonetic: "ap-hol-tsung", meaning: "deforestation", gender: "die", example: { de: "Tropische Abholzung stoppen.", en: "Stop tropical deforestation." } },
+    { word: "die Wasserverschmutzung", phonetic: "va-ser-fer-shmu-tsung", meaning: "water pollution", gender: "die", example: { de: "Wasserverschmutzung bekämpfen.", en: "Combat water pollution." } },
+    { word: "der Treibhauseffekt", phonetic: "tryb-hows-e-fekt", meaning: "greenhouse effect", gender: "der", example: { de: "Verstärkter Treibhauseffekt.", en: "Enhanced greenhouse effect." } },
+    { word: "die Energiewende", phonetic: "e-ner-gee-ven-duh", meaning: "energy transition", gender: "die", example: { de: "Deutsche Energiewende.", en: "German energy transition." } },
+    { word: "der Elektromobilität", phonetic: "e-lek-tro-mo-bi-li-tayt", meaning: "electric mobility", gender: "die", example: { de: "Förderung der Elektromobilität.", en: "Promotion of electric mobility." } },
+    { word: "die Kreislaufwirtschaft", phonetic: "kryce-lowf-virt-shaft", meaning: "circular economy", gender: "die", example: { de: "Kreislaufwirtschaft implementieren.", en: "Implement circular economy." } },
+    { word: "das Pariser Abkommen", phonetic: "pa-ree-zer-ap-ko-men", meaning: "Paris Agreement", gender: "das", example: { de: "Pariser Abkommen einhalten.", en: "Comply with the Paris Agreement." } },
+  ]}] },
+};

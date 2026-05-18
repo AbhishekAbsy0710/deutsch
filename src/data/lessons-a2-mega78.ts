@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega78: Record<string, Lesson> = {
+  "la2_m123": { id: "la2_m123", title: "Food & Restaurant A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Restaurant", phonetic: "res-to-rang", meaning: "restaurant", gender: "das", example: { de: "Im Restaurant essen.", en: "Eat at the restaurant." } },
+    { word: "die Speisekarte", phonetic: "shpy-zuh-kar-tuh", meaning: "menu", gender: "die", example: { de: "Die Speisekarte anschauen.", en: "Look at the menu." } },
+    { word: "bestellen", phonetic: "beh-shte-len", meaning: "to order", example: { de: "Das Essen bestellen.", en: "Order the food." } },
+    { word: "der Kellner", phonetic: "kel-ner", meaning: "waiter", gender: "der", example: { de: "Den Kellner rufen.", en: "Call the waiter." } },
+    { word: "die Vorspeise", phonetic: "for-shpy-zuh", meaning: "starter / appetizer", gender: "die", example: { de: "Eine Vorspeise wählen.", en: "Choose a starter." } },
+    { word: "das Hauptgericht", phonetic: "howpt-geh-rikht", meaning: "main course", gender: "das", example: { de: "Das Hauptgericht servieren.", en: "Serve the main course." } },
+    { word: "der Nachtisch", phonetic: "nakht-ish", meaning: "dessert", gender: "der", example: { de: "Einen Nachtisch bestellen.", en: "Order a dessert." } },
+    { word: "das Getränk", phonetic: "geh-trenk", meaning: "drink / beverage", gender: "das", example: { de: "Ein Getränk wählen.", en: "Choose a drink." } },
+    { word: "das Wasser", phonetic: "va-ser", meaning: "water", gender: "das", example: { de: "Stilles Wasser bitte.", en: "Still water, please." } },
+    { word: "der Wein", phonetic: "vayn", meaning: "wine", gender: "der", example: { de: "Ein Glas Wein.", en: "A glass of wine." } },
+    { word: "das Bier", phonetic: "beer", meaning: "beer", gender: "das", example: { de: "Ein Bier bitte.", en: "A beer please." } },
+    { word: "der Kaffee", phonetic: "ka-fay", meaning: "coffee", gender: "der", example: { de: "Einen Kaffee trinken.", en: "Drink a coffee." } },
+    { word: "vegetarisch", phonetic: "ve-ge-tah-rish", meaning: "vegetarian", example: { de: "Vegetarisches Gericht.", en: "Vegetarian dish." } },
+    { word: "vegan", phonetic: "vay-gahn", meaning: "vegan", example: { de: "Vegane Option.", en: "Vegan option." } },
+    { word: "die Allergie", phonetic: "a-ler-gee", meaning: "allergy", gender: "die", example: { de: "Glutenallergie.", en: "Gluten allergy." } },
+    { word: "lecker", phonetic: "le-ker", meaning: "delicious / tasty", example: { de: "Das ist sehr lecker.", en: "That is very delicious." } },
+    { word: "die Rechnung", phonetic: "rekh-nung", meaning: "bill / invoice", gender: "die", example: { de: "Die Rechnung bitte.", en: "The bill, please." } },
+    { word: "das Trinkgeld", phonetic: "tringk-gelt", meaning: "tip / gratuity", gender: "das", example: { de: "Trinkgeld geben.", en: "Leave a tip." } },
+    { word: "reservieren", phonetic: "re-zer-vee-ren", meaning: "to reserve / book", example: { de: "Einen Tisch reservieren.", en: "Reserve a table." } },
+    { word: "die Portion", phonetic: "por-tsee-ohn", meaning: "portion / serving", gender: "die", example: { de: "Eine große Portion.", en: "A large portion." } },
+  ]}] },
+};

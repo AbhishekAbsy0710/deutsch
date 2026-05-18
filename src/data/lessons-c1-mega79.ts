@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega79: Record<string, Lesson> = {
+  "lc1_m125": { id: "lc1_m125", title: "Advanced Sociolinguistics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Soziolinguistik", phonetic: "zo-tsee-oh-lin-gwis-tik", meaning: "sociolinguistics", gender: "die", example: { de: "Interaktionale Soziolinguistik.", en: "Interactional sociolinguistics." } },
+    { word: "die Sprachvariation", phonetic: "shprahkh-va-ree-a-tsee-ohn", meaning: "language variation", gender: "die", example: { de: "Soziale Sprachvariation.", en: "Social language variation." } },
+    { word: "der Dialekt", phonetic: "dia-lekt", meaning: "dialect", gender: "der", example: { de: "Bairischer Dialekt.", en: "Bavarian dialect." } },
+    { word: "der Soziolekt", phonetic: "zo-tsee-oh-lekt", meaning: "sociolect", gender: "der", example: { de: "Jugendlicher Soziolekt.", en: "Youth sociolect." } },
+    { word: "das Register", phonetic: "re-gis-ter", meaning: "register (linguistic)", gender: "das", example: { de: "Formelles Register.", en: "Formal register." } },
+    { word: "die Diglossie", phonetic: "di-glo-see", meaning: "diglossia", gender: "die", example: { de: "Ferguson-Diglossie.", en: "Ferguson diglossia." } },
+    { word: "der Code-Switching", phonetic: "kohd-shvi-ching", meaning: "code-switching", gender: "das", example: { de: "Intrasententielles Code-Switching.", en: "Intrasentential code-switching." } },
+    { word: "die Sprachpolitik", phonetic: "shprahkh-po-li-tik", meaning: "language policy", gender: "die", example: { de: "Offizielle Sprachpolitik.", en: "Official language policy." } },
+    { word: "die Sprachplanung", phonetic: "shprahkh-plah-nung", meaning: "language planning", gender: "die", example: { de: "Statussprachplanung.", en: "Status language planning." } },
+    { word: "die Sprachgefahr", phonetic: "shprahkh-geh-far", meaning: "language endangerment", gender: "die", example: { de: "Ethnologische Sprachgefahr.", en: "Ethnological language endangerment." } },
+    { word: "die Sprachrevitalisierung", phonetic: "shprahkh-re-vi-ta-li-zee-rung", meaning: "language revitalisation", gender: "die", example: { de: "Walisische Sprachrevitalisierung.", en: "Welsh language revitalisation." } },
+    { word: "der Sprachwandel", phonetic: "shprahkh-van-del", meaning: "language change", gender: "der", example: { de: "Historischer Sprachwandel.", en: "Historical language change." } },
+    { word: "der Labov-Variationismus", phonetic: "la-bof-va-ree-a-tsee-oh-nis-mus", meaning: "Labovian variationism", gender: "der", example: { de: "Quantitativer Labov-Variationismus.", en: "Quantitative Labovian variationism." } },
+    { word: "die Konversationsanalyse", phonetic: "kon-ver-za-tsee-ohns-a-na-lü-zuh", meaning: "conversation analysis (CA)", gender: "die", example: { de: "Ethnomethodologische Konversationsanalyse.", en: "Ethnomethodological conversation analysis." } },
+    { word: "das Turn-Taking", phonetic: "tern-tay-king", meaning: "turn-taking", gender: "das", example: { de: "Sequenzielles Turn-Taking.", en: "Sequential turn-taking." } },
+    { word: "die Höflichkeitstheorie", phonetic: "höf-likh-kyts-tay-oh-ree", meaning: "politeness theory", gender: "die", example: { de: "Brown-Levinson Höflichkeitstheorie.", en: "Brown-Levinson politeness theory." } },
+    { word: "der Sprechakt", phonetic: "shprekh-akt", meaning: "speech act", gender: "der", example: { de: "Austin-Searle-Sprechakt.", en: "Austin-Searle speech act." } },
+    { word: "die Grice-Maxime", phonetic: "grys-mak-see-muh", meaning: "Gricean maxims", example: { de: "Kooperationsprinzip Grice-Maxime.", en: "Cooperative principle Gricean maxims." } },
+    { word: "die Indexikalität", phonetic: "in-dek-si-ka-li-tayt", meaning: "indexicality", gender: "die", example: { de: "Soziale Indexikalität.", en: "Social indexicality." } },
+    { word: "das sprachliche Kapital", phonetic: "shprahkh-li-khuh-ka-pi-tahl", meaning: "linguistic capital (Bourdieu)", gender: "das", example: { de: "Bourdieu sprachliches Kapital.", en: "Bourdieu linguistic capital." } },
+  ]}] },
+};

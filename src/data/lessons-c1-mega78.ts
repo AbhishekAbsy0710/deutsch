@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega78: Record<string, Lesson> = {
+  "lc1_m124": { id: "lc1_m124", title: "Advanced Bioethics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Bioethik", phonetic: "bee-oh-ay-tik", meaning: "bioethics", gender: "die", example: { de: "Klinische Bioethik.", en: "Clinical bioethics." } },
+    { word: "die Patientenautonomie", phonetic: "pa-tsee-en-ten-ow-to-no-mee", meaning: "patient autonomy", gender: "die", example: { de: "Respektierung der Patientenautonomie.", en: "Respect for patient autonomy." } },
+    { word: "die informierte Einwilligung", phonetic: "in-for-meer-tuh ayn-vi-li-gung", meaning: "informed consent", gender: "die", example: { de: "Freiwillige informierte Einwilligung.", en: "Voluntary informed consent." } },
+    { word: "der Prinzipialismus", phonetic: "prin-tsi-pee-a-lis-mus", meaning: "principlism (Beauchamp & Childress)", gender: "der", example: { de: "Georgetown-Prinzipialismus.", en: "Georgetown principlism." } },
+    { word: "die Nicht-Schädigung", phonetic: "nikht-shey-di-gung", meaning: "non-maleficence", gender: "die", example: { de: "Ärztliche Nicht-Schädigung.", en: "Medical non-maleficence." } },
+    { word: "die Fürsorge", phonetic: "für-zor-guh", meaning: "beneficence", gender: "die", example: { de: "Paternalistisch Fürsorge.", en: "Paternalistic beneficence." } },
+    { word: "die Sterbehilfe", phonetic: "shter-buh-hil-fuh", meaning: "euthanasia / assisted dying", gender: "die", example: { de: "Aktive Sterbehilfe.", en: "Active euthanasia." } },
+    { word: "das Tötungsverbot", phonetic: "tö-tungs-fer-boht", meaning: "prohibition on killing", gender: "das", example: { de: "Absolutes Tötungsverbot.", en: "Absolute prohibition on killing." } },
+    { word: "die Gentechnik", phonetic: "gen-tekh-nik", meaning: "genetic engineering", gender: "die", example: { de: "Humane Gentechnik.", en: "Human genetic engineering." } },
+    { word: "das Keimbahn-Editing", phonetic: "kaym-bahn-e-di-ting", meaning: "germline editing", gender: "das", example: { de: "CRISPR-Keimbahn-Editing.", en: "CRISPR germline editing." } },
+    { word: "die Reproduktionsmedizin", phonetic: "re-pro-dook-tsee-ohns-me-di-tseen", meaning: "reproductive medicine", gender: "die", example: { de: "Assistierte Reproduktionsmedizin.", en: "Assisted reproductive medicine." } },
+    { word: "der moralische Status", phonetic: "mo-rah-li-shuh shtah-tus", meaning: "moral status", gender: "der", example: { de: "Embryonaler moralischer Status.", en: "Embryonic moral status." } },
+    { word: "die Ressourcenallokation", phonetic: "re-soor-tsen-a-lo-ka-tsee-ohn", meaning: "resource allocation (healthcare)", gender: "die", example: { de: "Gerechte Ressourcenallokation.", en: "Fair resource allocation." } },
+    { word: "die Triage", phonetic: "tree-ah-shuh", meaning: "triage (medical ethics)", gender: "die", example: { de: "Ethische Triage.", en: "Ethical triage." } },
+    { word: "die Datenschutz-Genomik", phonetic: "dah-ten-shoots-ge-no-mik", meaning: "genomic privacy", gender: "die", example: { de: "Genetische Datenschutz-Genomik.", en: "Genetic genomic privacy." } },
+    { word: "der duale Effekt", phonetic: "doo-ah-luh e-fekt", meaning: "doctrine of double effect", gender: "der", example: { de: "Thomistischer dualer Effekt.", en: "Thomistic double effect." } },
+    { word: "die Forschungsethik", phonetic: "for-shungs-ay-tik", meaning: "research ethics", gender: "die", example: { de: "Klinische Forschungsethik.", en: "Clinical research ethics." } },
+    { word: "die Ethikkommission", phonetic: "ay-tik-ko-mi-see-ohn", meaning: "ethics committee / IRB", gender: "die", example: { de: "Unabhängige Ethikkommission.", en: "Independent ethics committee." } },
+    { word: "das Biosicherheit", phonetic: "bee-oh-zi-kher-hyte", meaning: "biosafety / biosecurity", gender: "die", example: { de: "Duale-Nutzung Biosicherheit.", en: "Dual-use biosecurity." } },
+    { word: "die Enhancement-Ethik", phonetic: "en-hans-ment-ay-tik", meaning: "enhancement ethics", gender: "die", example: { de: "Kognitive Enhancement-Ethik.", en: "Cognitive enhancement ethics." } },
+  ]}] },
+};

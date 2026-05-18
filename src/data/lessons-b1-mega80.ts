@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega80: Record<string, Lesson> = {
+  "lb1_m131": { id: "lb1_m131", title: "Media & Journalism B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Medien", phonetic: "may-dee-en", meaning: "media", example: { de: "Massenmedien.", en: "Mass media." } },
+    { word: "die Presse", phonetic: "pre-suh", meaning: "press / print media", gender: "die", example: { de: "Freie Presse.", en: "Free press." } },
+    { word: "der Bericht", phonetic: "beh-rikht", meaning: "report", gender: "der", example: { de: "Einen Bericht erstellen.", en: "Create a report." } },
+    { word: "die Schlagzeile", phonetic: "shlahg-tsy-luh", meaning: "headline", gender: "die", example: { de: "Große Schlagzeilen.", en: "Big headlines." } },
+    { word: "der Leitartikel", phonetic: "lyte-ar-ti-kel", meaning: "editorial / leading article", gender: "der", example: { de: "Einen Leitartikel schreiben.", en: "Write an editorial." } },
+    { word: "der Korrespondent", phonetic: "ko-re-spon-dent", meaning: "correspondent", gender: "der", example: { de: "Auslandskorrespondent.", en: "Foreign correspondent." } },
+    { word: "die Pressefreiheit", phonetic: "pre-suh-fry-hyte", meaning: "press freedom", gender: "die", example: { de: "Pressefreiheit schützen.", en: "Protect press freedom." } },
+    { word: "die Zensur", phonetic: "tsen-zoor", meaning: "censorship", gender: "die", example: { de: "Staatliche Zensur.", en: "State censorship." } },
+    { word: "die Desinformation", phonetic: "des-in-for-ma-tsee-ohn", meaning: "disinformation", gender: "die", example: { de: "Gezielte Desinformation.", en: "Targeted disinformation." } },
+    { word: "die Fake News", phonetic: "fayk-nyooz", meaning: "fake news", example: { de: "Fake News verbreiten.", en: "Spread fake news." } },
+    { word: "das Interview", phonetic: "in-ter-vyoo", meaning: "interview", gender: "das", example: { de: "Ein Interview führen.", en: "Conduct an interview." } },
+    { word: "der Podcast", phonetic: "pod-kast", meaning: "podcast", gender: "der", example: { de: "Einen Podcast hören.", en: "Listen to a podcast." } },
+    { word: "der Blogger", phonetic: "blo-ger", meaning: "blogger", gender: "der", example: { de: "Ein bekannter Blogger.", en: "A well-known blogger." } },
+    { word: "der Influencer", phonetic: "in-flu-en-ser", meaning: "influencer", gender: "der", example: { de: "Sozialer Influencer.", en: "Social influencer." } },
+    { word: "die Reichweite", phonetic: "rykh-vy-tuh", meaning: "reach / audience", gender: "die", example: { de: "Große Reichweite erzielen.", en: "Achieve wide reach." } },
+    { word: "der Algorithmus", phonetic: "al-go-rit-mus", meaning: "algorithm", gender: "der", example: { de: "Sozialmedia-Algorithmus.", en: "Social media algorithm." } },
+    { word: "die Echokammer", phonetic: "e-kho-ka-mer", meaning: "echo chamber", gender: "die", example: { de: "Politische Echokammer.", en: "Political echo chamber." } },
+    { word: "der Clickbait", phonetic: "klik-bayt", meaning: "clickbait", gender: "der", example: { de: "Clickbait-Überschriften.", en: "Clickbait headlines." } },
+    { word: "die Medienkompetenz", phonetic: "may-dee-en-kom-pe-tents", meaning: "media literacy", gender: "die", example: { de: "Digitale Medienkompetenz.", en: "Digital media literacy." } },
+    { word: "die Nachrichtenquelle", phonetic: "nakhh-rikk-ten-kve-luh", meaning: "news source", gender: "die", example: { de: "Zuverlässige Nachrichtenquelle.", en: "Reliable news source." } },
+  ]}] },
+};

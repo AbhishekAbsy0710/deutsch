@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega80: Record<string, Lesson> = {
+  "la1_m130": { id: "la1_m130", title: "Greetings & Introductions A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "Hallo", phonetic: "ha-lo", meaning: "hello", example: { de: "Hallo, wie geht's?", en: "Hello, how are you?" } },
+    { word: "Guten Morgen", phonetic: "goo-ten-mor-gen", meaning: "good morning", example: { de: "Guten Morgen!", en: "Good morning!" } },
+    { word: "Guten Tag", phonetic: "goo-ten-tahk", meaning: "good day / hello (formal)", example: { de: "Guten Tag, Herr Müller.", en: "Good day, Mr Müller." } },
+    { word: "Guten Abend", phonetic: "goo-ten-ah-bent", meaning: "good evening", example: { de: "Guten Abend!", en: "Good evening!" } },
+    { word: "Gute Nacht", phonetic: "goo-tuh-nakht", meaning: "good night", example: { de: "Gute Nacht!", en: "Good night!" } },
+    { word: "Auf Wiedersehen", phonetic: "owf-vee-der-zay-en", meaning: "goodbye (formal)", example: { de: "Auf Wiedersehen!", en: "Goodbye!" } },
+    { word: "Tschüss", phonetic: "chüs", meaning: "bye (informal)", example: { de: "Tschüss, bis bald!", en: "Bye, see you soon!" } },
+    { word: "Wie heißen Sie?", phonetic: "vee-hy-sen-zee", meaning: "What is your name? (formal)", example: { de: "Wie heißen Sie?", en: "What is your name?" } },
+    { word: "Ich heiße", phonetic: "ikh-hy-suh", meaning: "My name is", example: { de: "Ich heiße Anna.", en: "My name is Anna." } },
+    { word: "Woher kommen Sie?", phonetic: "voh-her-ko-men-zee", meaning: "Where are you from? (formal)", example: { de: "Woher kommen Sie?", en: "Where are you from?" } },
+    { word: "Ich komme aus", phonetic: "ikh-ko-muh-ows", meaning: "I come from", example: { de: "Ich komme aus Deutschland.", en: "I come from Germany." } },
+    { word: "Wie geht es Ihnen?", phonetic: "vee-gayt-es-ee-nen", meaning: "How are you? (formal)", example: { de: "Wie geht es Ihnen?", en: "How are you?" } },
+    { word: "Danke, gut.", phonetic: "dan-kuh-goot", meaning: "Thank you, well.", example: { de: "Danke, gut, und Ihnen?", en: "Thank you, well, and you?" } },
+    { word: "Bitte", phonetic: "bi-tuh", meaning: "please / you're welcome", example: { de: "Bitte sehr!", en: "You're welcome!" } },
+    { word: "Danke", phonetic: "dan-kuh", meaning: "thank you", example: { de: "Vielen Dank!", en: "Many thanks!" } },
+    { word: "Entschuldigung", phonetic: "ent-shool-di-gung", meaning: "excuse me / sorry", example: { de: "Entschuldigung, bitte!", en: "Excuse me, please!" } },
+    { word: "Ja", phonetic: "yah", meaning: "yes", example: { de: "Ja, natürlich.", en: "Yes, of course." } },
+    { word: "Nein", phonetic: "nayn", meaning: "no", example: { de: "Nein, danke.", en: "No, thank you." } },
+    { word: "Freut mich!", phonetic: "froyt-mikh", meaning: "Nice to meet you!", example: { de: "Freut mich, Sie kennenzulernen.", en: "Nice to meet you." } },
+    { word: "Bis bald", phonetic: "bis-balt", meaning: "see you soon", example: { de: "Tschüss, bis bald!", en: "Bye, see you soon!" } },
+  ]}] },
+};

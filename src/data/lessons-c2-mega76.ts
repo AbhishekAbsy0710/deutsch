@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega76: Record<string, Lesson> = {
+  "lc2_m119": { id: "lc2_m119", title: "Advanced K-Theory & Algebraic K-Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die K-Theorie", phonetic: "kah-tay-oh-ree", meaning: "K-theory", gender: "die", example: { de: "Topologische K-Theorie.", en: "Topological K-theory." } },
+    { word: "die algebraische K-Theorie", phonetic: "al-ge-bra-i-shuh kah-tay-oh-ree", meaning: "algebraic K-theory", gender: "die", example: { de: "Quillen algebraische K-Theorie.", en: "Quillen algebraic K-theory." } },
+    { word: "der Vektorbündel", phonetic: "vek-tor-bün-del", meaning: "vector bundle", gender: "das", example: { de: "Stables Vektorbündel.", en: "Stable vector bundle." } },
+    { word: "die Grothendieckgruppe", phonetic: "groh-ten-deek-groo-puh", meaning: "Grothendieck group (K₀)", gender: "die", example: { de: "K₀-Grothendieckgruppe.", en: "K₀ Grothendieck group." } },
+    { word: "die Whitehead-Gruppe", phonetic: "vyte-hed-groo-puh", meaning: "Whitehead group (K₁)", gender: "die", example: { de: "K₁-Whitehead-Gruppe.", en: "K₁ Whitehead group." } },
+    { word: "die Milnor-K-Theorie", phonetic: "mil-nor-kah-tay-oh-ree", meaning: "Milnor K-theory", gender: "die", example: { de: "Mod-p Milnor-K-Theorie.", en: "Mod p Milnor K-theory." } },
+    { word: "der Atiyah-Hirzebruch-Spektralfolge", phonetic: "a-tee-ah-hir-tse-brookh-shpek-trahl-fol-guh", meaning: "Atiyah-Hirzebruch spectral sequence", gender: "die", example: { de: "K-theoretische Atiyah-Hirzebruch-Spektralfolge.", en: "K-theoretic Atiyah-Hirzebruch spectral sequence." } },
+    { word: "der Periodizitätssatz von Bott", phonetic: "pe-ree-oh-di-tsi-tayts-zats-fon-bot", meaning: "Bott periodicity theorem", gender: "der", example: { de: "Komplexer Periodizitätssatz von Bott.", en: "Complex Bott periodicity theorem." } },
+    { word: "die Chern-Klassen", phonetic: "tshern-kla-sen", meaning: "Chern classes", example: { de: "Totale Chern-Klasse.", en: "Total Chern class." } },
+    { word: "der Chern-Charakter", phonetic: "tshern-kha-rak-ter", meaning: "Chern character", gender: "der", example: { de: "Rationaler Chern-Charakter.", en: "Rational Chern character." } },
+    { word: "der Atiyah-Singer-Index-Satz", phonetic: "a-tee-ah-zing-er-in-deks-zats", meaning: "Atiyah-Singer index theorem", gender: "der", example: { de: "Familien Atiyah-Singer-Index-Satz.", en: "Families Atiyah-Singer index theorem." } },
+    { word: "die Motivische Kohomologie", phonetic: "mo-ti-vi-shuh ko-ho-mo-lo-gee", meaning: "motivic cohomology", gender: "die", example: { de: "Voevodsky-Motivische Kohomologie.", en: "Voevodsky motivic cohomology." } },
+    { word: "das Milnor-Konjektor", phonetic: "mil-nor-kon-yek-tor", meaning: "Milnor conjecture", gender: "die", example: { de: "Bewiesene Milnor-Konjektor.", en: "Proved Milnor conjecture." } },
+    { word: "die Bloch-Kato-Vermutung", phonetic: "blokh-kah-to-fer-moo-tung", meaning: "Bloch-Kato conjecture", gender: "die", example: { de: "Voevodsky Bloch-Kato-Vermutung.", en: "Voevodsky Bloch-Kato conjecture." } },
+    { word: "die Hochschild-Kohomologie", phonetic: "hokh-shilt-ko-ho-mo-lo-gee", meaning: "Hochschild cohomology", gender: "die", example: { de: "Deformationstheoretische Hochschild-Kohomologie.", en: "Deformation-theoretic Hochschild cohomology." } },
+    { word: "die Zyklische Kohomologie", phonetic: "tsük-li-shuh ko-ho-mo-lo-gee", meaning: "cyclic cohomology", gender: "die", example: { de: "Connes-Zyklische Kohomologie.", en: "Connes cyclic cohomology." } },
+    { word: "das Waldhausen-K-Theorie", phonetic: "valt-how-zen-kah-tay-oh-ree", meaning: "Waldhausen K-theory", gender: "die", example: { de: "A-Funktor Waldhausen-K-Theorie.", en: "A-functor Waldhausen K-theory." } },
+    { word: "die stabile Homotopietheorie", phonetic: "shtah-bi-luh ho-mo-to-pee-tay-oh-ree", meaning: "stable homotopy theory", gender: "die", example: { de: "Chromatische stabile Homotopietheorie.", en: "Chromatic stable homotopy theory." } },
+    { word: "das Spektrum (Homotopie)", phonetic: "shpek-troom", meaning: "spectrum (homotopy theory)", gender: "das", example: { de: "Eilenberg-MacLane-Spektrum.", en: "Eilenberg-MacLane spectrum." } },
+    { word: "die Topologische Zyklische Homologie", phonetic: "to-po-lo-gi-shuh tsük-li-shuh ho-mo-lo-gee", meaning: "topological cyclic homology (TC)", gender: "die", example: { de: "Arithmetische TC.", en: "Arithmetic TC." } },
+  ]}] },
+};
