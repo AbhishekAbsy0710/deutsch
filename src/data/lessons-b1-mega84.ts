@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega84: Record<string, Lesson> = {
+  "lb1_m135": { id: "lb1_m135", title: "Politics & Society B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Politik", phonetic: "po-li-tik", meaning: "politics", gender: "die", example: { de: "Aktive Politik betreiben.", en: "Be active in politics." } },
+    { word: "die Regierung", phonetic: "re-gee-rung", meaning: "government", gender: "die", example: { de: "Die Regierung entscheidet.", en: "The government decides." } },
+    { word: "der Bundestag", phonetic: "boon-des-tahk", meaning: "Bundestag (German parliament)", gender: "der", example: { de: "Im Bundestag debattieren.", en: "Debate in the Bundestag." } },
+    { word: "die Wahl", phonetic: "vahl", meaning: "election", gender: "die", example: { de: "Die Wahl gewinnen.", en: "Win the election." } },
+    { word: "wählen", phonetic: "vay-len", meaning: "to vote / elect", example: { de: "Den Kandidaten wählen.", en: "Vote for the candidate." } },
+    { word: "die Partei", phonetic: "par-ty", meaning: "political party", gender: "die", example: { de: "Einer Partei beitreten.", en: "Join a political party." } },
+    { word: "das Grundgesetz", phonetic: "groont-geh-zets", meaning: "Basic Law (German constitution)", gender: "das", example: { de: "Das Grundgesetz schützen.", en: "Protect the Basic Law." } },
+    { word: "die Meinungsfreiheit", phonetic: "my-nungs-fry-hyte", meaning: "freedom of opinion / expression", gender: "die", example: { de: "Meinungsfreiheit verteidigen.", en: "Defend freedom of expression." } },
+    { word: "die Gleichberechtigung", phonetic: "glykh-beh-rekh-ti-gung", meaning: "equal rights", gender: "die", example: { de: "Gleichberechtigung fördern.", en: "Promote equal rights." } },
+    { word: "die Diskriminierung", phonetic: "dis-kri-mi-nee-rung", meaning: "discrimination", gender: "die", example: { de: "Diskriminierung bekämpfen.", en: "Fight discrimination." } },
+    { word: "der Protest", phonetic: "pro-test", meaning: "protest", gender: "der", example: { de: "An einem Protest teilnehmen.", en: "Take part in a protest." } },
+    { word: "die Demonstration", phonetic: "de-mon-stra-tsee-ohn", meaning: "demonstration / march", gender: "die", example: { de: "Eine Demonstration organisieren.", en: "Organise a demonstration." } },
+    { word: "die Steuern", phonetic: "shtoy-ern", meaning: "taxes", example: { de: "Steuern zahlen.", en: "Pay taxes." } },
+    { word: "die Sozialversicherung", phonetic: "zo-tsee-ahl-fer-zi-khe-rung", meaning: "social insurance", gender: "die", example: { de: "Sozialversicherungsbeiträge.", en: "Social insurance contributions." } },
+    { word: "die Bürgerrechte", phonetic: "bür-ger-rekh-tuh", meaning: "civil rights", example: { de: "Bürgerrechte wahren.", en: "Uphold civil rights." } },
+    { word: "die Integration", phonetic: "in-te-gra-tsee-ohn", meaning: "integration", gender: "die", example: { de: "Integration fördern.", en: "Promote integration." } },
+    { word: "der Flüchtling", phonetic: "flükht-ling", meaning: "refugee", gender: "der", example: { de: "Flüchtlinge unterstützen.", en: "Support refugees." } },
+    { word: "der Kompromiss", phonetic: "kom-pro-mis", meaning: "compromise", gender: "der", example: { de: "Einen Kompromiss finden.", en: "Find a compromise." } },
+    { word: "die Debatte", phonetic: "de-ba-tuh", meaning: "debate", gender: "die", example: { de: "Eine Debatte führen.", en: "Conduct a debate." } },
+    { word: "das Gesetz", phonetic: "geh-zets", meaning: "law / act", gender: "das", example: { de: "Ein Gesetz verabschieden.", en: "Pass a law." } },
+  ]}] },
+};

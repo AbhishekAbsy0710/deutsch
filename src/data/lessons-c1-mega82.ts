@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega82: Record<string, Lesson> = {
+  "lc1_m128": { id: "lc1_m128", title: "Advanced International Law C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Völkerrecht", phonetic: "völ-ker-rekht", meaning: "international law", gender: "das", example: { de: "Gewohnheitsrechtliches Völkerrecht.", en: "Customary international law." } },
+    { word: "die UN-Charta", phonetic: "oo-en-khar-ta", meaning: "UN Charter", gender: "die", example: { de: "Artikel 2(4) UN-Charta.", en: "Article 2(4) UN Charter." } },
+    { word: "die Souveränität", phonetic: "zoo-ve-rä-ni-tayt", meaning: "sovereignty", gender: "die", example: { de: "Staatliche Souveränität.", en: "State sovereignty." } },
+    { word: "das Gewaltverbot", phonetic: "ge-valt-fer-boht", meaning: "prohibition on the use of force", gender: "das", example: { de: "Absolutes Gewaltverbot.", en: "Absolute prohibition on the use of force." } },
+    { word: "das Selbstverteidigungsrecht", phonetic: "zelpst-fer-ty-di-gungs-rekht", meaning: "right of self-defence", gender: "das", example: { de: "Kollektives Selbstverteidigungsrecht.", en: "Collective right of self-defence." } },
+    { word: "der Sicherheitsrat", phonetic: "zi-kher-hyts-raht", meaning: "UN Security Council", gender: "der", example: { de: "Ständiges Mitglied Sicherheitsrat.", en: "Permanent member Security Council." } },
+    { word: "das humanitäre Völkerrecht", phonetic: "hoo-ma-ni-teh-ruh völ-ker-rekht", meaning: "international humanitarian law (IHL)", gender: "das", example: { de: "Genfer Konventionen humanitäres Völkerrecht.", en: "Geneva Conventions IHL." } },
+    { word: "die Schutzverantwortung", phonetic: "shoots-fer-ant-vor-tung", meaning: "Responsibility to Protect (R2P)", gender: "die", example: { de: "UN-Schutzverantwortung.", en: "UN Responsibility to Protect." } },
+    { word: "der Internationale Gerichtshof", phonetic: "in-ter-na-tsee-oh-nah-ler geh-rikhts-hohf", meaning: "International Court of Justice (ICJ)", gender: "der", example: { de: "Klageverfahren vor dem Internationalen Gerichtshof.", en: "Contentious proceedings before the ICJ." } },
+    { word: "der Internationale Strafgerichtshof", phonetic: "in-ter-na-tsee-oh-nah-ler shtraf-geh-rikhts-hohf", meaning: "International Criminal Court (ICC)", gender: "der", example: { de: "Zuständigkeit des Internationalen Strafgerichtshofs.", en: "Jurisdiction of the ICC." } },
+    { word: "das Römische Statut", phonetic: "rö-mi-shuh shta-toot", meaning: "Rome Statute", gender: "das", example: { de: "Verbrechen nach dem Römischen Statut.", en: "Crimes under the Rome Statute." } },
+    { word: "der Völkermord", phonetic: "völ-ker-mort", meaning: "genocide", gender: "der", example: { de: "Völkermordskonvention.", en: "Genocide Convention." } },
+    { word: "die Verbrechen gegen die Menschlichkeit", phonetic: "fer-bre-khen ge-gen dee mensh-likh-kyte", meaning: "crimes against humanity", example: { de: "Weitverbreitete Verbrechen gegen die Menschlichkeit.", en: "Widespread crimes against humanity." } },
+    { word: "das Seerecht", phonetic: "zay-rekht", meaning: "law of the sea (UNCLOS)", gender: "das", example: { de: "UNCLOS-Seerecht.", en: "UNCLOS law of the sea." } },
+    { word: "das Welthandelsrecht", phonetic: "velt-han-dels-rekht", meaning: "international trade law (WTO)", gender: "das", example: { de: "WTO-Welthandelsrecht.", en: "WTO international trade law." } },
+    { word: "das Investitionsschutzrecht", phonetic: "in-ves-ti-tsee-ohns-shoots-rekht", meaning: "investment protection law (BIT/ISDS)", gender: "das", example: { de: "ISDS-Investitionsschutzrecht.", en: "ISDS investment protection law." } },
+    { word: "das Diplomatische Recht", phonetic: "di-plo-mah-ti-shuh rekht", meaning: "diplomatic law (Vienna Convention)", gender: "das", example: { de: "Wiener Diplomatisches Recht.", en: "Vienna diplomatic law." } },
+    { word: "der Staatennachfolge", phonetic: "shtah-ten-nakh-fol-guh", meaning: "state succession", gender: "die", example: { de: "Staatennachfolge in Verträge.", en: "State succession to treaties." } },
+    { word: "das Jus Cogens", phonetic: "yoos-ko-gens", meaning: "jus cogens (peremptory norms)", gender: "das", example: { de: "Absolutes Jus Cogens.", en: "Absolute jus cogens." } },
+    { word: "die Staatenverantwortlichkeit", phonetic: "shtah-ten-fer-ant-vor-t-likh-kyte", meaning: "state responsibility", gender: "die", example: { de: "ILC-Staatenverantwortlichkeit.", en: "ILC state responsibility." } },
+  ]}] },
+};

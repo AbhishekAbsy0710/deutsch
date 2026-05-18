@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega81: Record<string, Lesson> = {
+  "lc2_m124": { id: "lc2_m124", title: "Advanced Recursion Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Rekursionstheorie", phonetic: "re-koor-zee-ohns-tay-oh-ree", meaning: "recursion theory / computability theory", gender: "die", example: { de: "Klassische Rekursionstheorie.", en: "Classical recursion theory." } },
+    { word: "die Turing-Maschine", phonetic: "tü-ring-ma-shee-nuh", meaning: "Turing machine", gender: "die", example: { de: "Universelle Turing-Maschine.", en: "Universal Turing machine." } },
+    { word: "die berechenbare Funktion", phonetic: "beh-rekh-en-bah-ruh foonk-tsee-ohn", meaning: "computable function", gender: "die", example: { de: "Partiell rekursive berechenbare Funktion.", en: "Partial recursive computable function." } },
+    { word: "das Halteproblem", phonetic: "hal-tuh-pro-blaym", meaning: "halting problem", gender: "das", example: { de: "Unentscheidbares Halteproblem.", en: "Undecidable halting problem." } },
+    { word: "die Churchsche These", phonetic: "tshörtsh-shuh tay-zuh", meaning: "Church-Turing thesis", gender: "die", example: { de: "Erweiterte Churchsche These.", en: "Extended Church-Turing thesis." } },
+    { word: "der Turing-Grad", phonetic: "tü-ring-graht", meaning: "Turing degree", gender: "der", example: { de: "Aufzählbarer Turing-Grad.", en: "Enumerable Turing degree." } },
+    { word: "die Orakel-Turing-Maschine", phonetic: "oh-ra-kel-tü-ring-ma-shee-nuh", meaning: "oracle Turing machine", gender: "die", example: { de: "Relativierte Orakel-Turing-Maschine.", en: "Relativised oracle Turing machine." } },
+    { word: "die arithmetische Hierarchie", phonetic: "a-rit-may-ti-shuh hee-er-ar-khee", meaning: "arithmetical hierarchy", gender: "die", example: { de: "Σ₁-arithmetische Hierarchie.", en: "Σ₁ arithmetical hierarchy." } },
+    { word: "die analytische Hierarchie", phonetic: "a-na-lü-ti-shuh hee-er-ar-khee", meaning: "analytical hierarchy", gender: "die", example: { de: "Hyperprojektive analytische Hierarchie.", en: "Hyperprojective analytical hierarchy." } },
+    { word: "die Reduzierbarkeit", phonetic: "re-doo-tseer-bar-kyte", meaning: "reducibility (many-one, Turing)", gender: "die", example: { de: "Many-one-Reduzierbarkeit.", en: "Many-one reducibility." } },
+    { word: "der vollständige Menge", phonetic: "fol-shten-di-guh men-guh", meaning: "complete set (recursion theory)", gender: "die", example: { de: "Σ₁-vollständige Menge.", en: "Σ₁-complete set." } },
+    { word: "die Kreativität (Mengenlehre)", phonetic: "kre-a-ti-vi-tayt", meaning: "creativity (Post)", gender: "die", example: { de: "Post-Kreativität.", en: "Post creativity." } },
+    { word: "die Produktivität (Mengenlehre)", phonetic: "pro-dook-ti-vi-tayt", meaning: "productivity (Post)", gender: "die", example: { de: "Produktive Menge.", en: "Productive set." } },
+    { word: "der Satz von Rice", phonetic: "zats-fon-ryts", meaning: "Rice's theorem", gender: "der", example: { de: "Nicht-triviales Satz von Rice.", en: "Non-trivial Rice's theorem." } },
+    { word: "die Prioritätsmethode", phonetic: "pri-oh-ri-tayts-me-toh-duh", meaning: "priority method", gender: "die", example: { de: "Friedberg-Muchnik Prioritätsmethode.", en: "Friedberg-Muchnik priority method." } },
+    { word: "die rekursive Aufzählung", phonetic: "re-koor-zee-vuh owf-tsey-lung", meaning: "recursive enumeration", gender: "die", example: { de: "Rekursiv aufzählbare Menge.", en: "Recursively enumerable set." } },
+    { word: "die hyperarithmetische Hierarchie", phonetic: "hü-per-a-rit-may-ti-shuh hee-er-ar-khee", meaning: "hyperarithmetical hierarchy", gender: "die", example: { de: "Kleenescher hyperarithmetische Hierarchie.", en: "Kleene hyperarithmetical hierarchy." } },
+    { word: "die α-Rekursionstheorie", phonetic: "al-fa-re-koor-zee-ohns-tay-oh-ree", meaning: "alpha recursion theory", gender: "die", example: { de: "Sacks-α-Rekursionstheorie.", en: "Sacks alpha recursion theory." } },
+    { word: "das Zufälligkeit (algorithmisch)", phonetic: "tsoo-fä-likh-kyte", meaning: "algorithmic randomness", gender: "die", example: { de: "Martin-Löf algorithmische Zufälligkeit.", en: "Martin-Löf algorithmic randomness." } },
+    { word: "die Kolmogorov-Komplexität", phonetic: "kol-mo-go-rof-kom-plek-si-tayt", meaning: "Kolmogorov complexity", gender: "die", example: { de: "Präfixfreie Kolmogorov-Komplexität.", en: "Prefix-free Kolmogorov complexity." } },
+  ]}] },
+};

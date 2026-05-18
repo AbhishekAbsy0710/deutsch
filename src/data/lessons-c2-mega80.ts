@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega80: Record<string, Lesson> = {
+  "lc2_m123": { id: "lc2_m123", title: "Advanced Proof Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Beweistheorie", phonetic: "beh-vys-tay-oh-ree", meaning: "proof theory", gender: "die", example: { de: "Strukturelle Beweistheorie.", en: "Structural proof theory." } },
+    { word: "das formale System", phonetic: "for-mah-luh zys-tem", meaning: "formal system", gender: "das", example: { de: "Axiomatisches formales System.", en: "Axiomatic formal system." } },
+    { word: "der Sequenzenkalkül", phonetic: "ze-kven-tsen-kal-kül", meaning: "sequent calculus", gender: "der", example: { de: "Gentzens Sequenzenkalkül.", en: "Gentzen's sequent calculus." } },
+    { word: "der natürliche Deduktion", phonetic: "na-tür-li-khuh de-dook-tsee-ohn", meaning: "natural deduction", gender: "die", example: { de: "Prawitz-natürliche Deduktion.", en: "Prawitz natural deduction." } },
+    { word: "das Schnitteliminations-Theorem", phonetic: "shnit-e-li-mi-na-tsee-ohns-tay-oh-rem", meaning: "cut elimination theorem", gender: "das", example: { de: "Gentzens Schnitteliminations-Theorem.", en: "Gentzen's cut elimination theorem." } },
+    { word: "die Beweiskomplexität", phonetic: "beh-vys-kom-plek-si-tayt", meaning: "proof complexity", gender: "die", example: { de: "Untere Schranken Beweiskomplexität.", en: "Lower bounds proof complexity." } },
+    { word: "die Ordinalzahlanalyse", phonetic: "or-di-nahl-tsahl-a-na-lü-zuh", meaning: "ordinal analysis", gender: "die", example: { de: "Pohlers-Ordinalzahlanalyse.", en: "Pohlers ordinal analysis." } },
+    { word: "die Beweiskraft", phonetic: "beh-vys-kraft", meaning: "proof-theoretic strength", gender: "die", example: { de: "Konsistenz-Beweiskraft.", en: "Consistency strength." } },
+    { word: "das Typsystem", phonetic: "tüp-zys-tem", meaning: "type system (proof theory)", gender: "das", example: { de: "Abhängiges Typsystem.", en: "Dependent type system." } },
+    { word: "der Curry-Howard-Isomorphismus", phonetic: "ku-ree-how-ert-i-zo-mor-fis-mus", meaning: "Curry-Howard correspondence", gender: "der", example: { de: "Logik-Programm Curry-Howard-Isomorphismus.", en: "Logic-program Curry-Howard correspondence." } },
+    { word: "die lineare Logik", phonetic: "li-ne-ah-ruh lo-gik", meaning: "linear logic (Girard)", gender: "die", example: { de: "Girard-lineare Logik.", en: "Girard linear logic." } },
+    { word: "die intuitionistische Logik", phonetic: "in-too-i-tsee-oh-nis-ti-shuh lo-gik", meaning: "intuitionistic logic", gender: "die", example: { de: "Brouwer-Heyting-intuitionistische Logik.", en: "Brouwer-Heyting intuitionistic logic." } },
+    { word: "das Hoare-Kalkül", phonetic: "ho-ar-kal-kül", meaning: "Hoare logic / calculus", gender: "das", example: { de: "Totale Korrektheit Hoare-Kalkül.", en: "Total correctness Hoare calculus." } },
+    { word: "die Modallogik", phonetic: "mo-dahl-lo-gik", meaning: "modal logic", gender: "die", example: { de: "S4-Modallogik.", en: "S4 modal logic." } },
+    { word: "die Berechenbarkeitstheorie", phonetic: "beh-rekh-en-bar-kyts-tay-oh-ree", meaning: "computability theory", gender: "die", example: { de: "Turing-Berechenbarkeitstheorie.", en: "Turing computability theory." } },
+    { word: "das Gödelsche Unvollständigkeitstheorem", phonetic: "gö-del-shuh oon-fol-shten-dikh-kyts-tay-oh-rem", meaning: "Gödel's incompleteness theorems", gender: "das", example: { de: "Erstes Gödelsches Unvollständigkeitstheorem.", en: "First Gödel incompleteness theorem." } },
+    { word: "der Fixed-Point-Satz", phonetic: "fikst-poynt-zats", meaning: "fixed-point theorem (Löb)", gender: "der", example: { de: "Löb-Fixed-Point-Satz.", en: "Löb fixed-point theorem." } },
+    { word: "die Reflexionsprinzip", phonetic: "re-flek-zee-ohns-prin-tsip", meaning: "reflection principle", gender: "das", example: { de: "Lokales Reflexionsprinzip.", en: "Local reflection principle." } },
+    { word: "die Beweissuche", phonetic: "beh-vys-zoo-khuh", meaning: "proof search", gender: "die", example: { de: "Automatische Beweissuche.", en: "Automated proof search." } },
+    { word: "der Theorembeweiser", phonetic: "tay-oh-rem-beh-vy-zer", meaning: "theorem prover / proof assistant", gender: "der", example: { de: "Isabelle-Theorembeweiser.", en: "Isabelle theorem prover." } },
+  ]}] },
+};

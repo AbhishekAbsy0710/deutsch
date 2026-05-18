@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega83: Record<string, Lesson> = {
+  "lc1_m129": { id: "lc1_m129", title: "Advanced Urban Studies C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Stadtplanung", phonetic: "shtat-plah-nung", meaning: "urban planning", gender: "die", example: { de: "Nachhaltige Stadtplanung.", en: "Sustainable urban planning." } },
+    { word: "die Verdichtung", phonetic: "fer-dikh-tung", meaning: "densification (urban)", gender: "die", example: { de: "Urbane Nachverdichtung.", en: "Urban densification." } },
+    { word: "die Gentrifizierung", phonetic: "gen-tri-fi-tsee-rung", meaning: "gentrification", gender: "die", example: { de: "Gentrifizierung innenstädtischer Quartiere.", en: "Gentrification of inner-city quarters." } },
+    { word: "die Suburbanisierung", phonetic: "zoop-er-ba-ni-zee-rung", meaning: "suburbanisation", gender: "die", example: { de: "Nachkriegs-Suburbanisierung.", en: "Post-war suburbanisation." } },
+    { word: "der Wohnungsleerstand", phonetic: "voh-nungs-layr-shtant", meaning: "housing vacancy", gender: "der", example: { de: "Spekulativer Wohnungsleerstand.", en: "Speculative housing vacancy." } },
+    { word: "die Mietpreisbremse", phonetic: "meet-pryce-brem-zuh", meaning: "rent brake / rent control", gender: "die", example: { de: "Bundesweite Mietpreisbremse.", en: "Nationwide rent brake." } },
+    { word: "die Bodenspekulation", phonetic: "boh-den-shpe-koo-la-tsee-ohn", meaning: "land speculation", gender: "die", example: { de: "Immobilienmarkt-Bodenspekulation.", en: "Real estate market land speculation." } },
+    { word: "die Infrastruktur", phonetic: "in-fra-shtrook-toor", meaning: "infrastructure", gender: "die", example: { de: "Digitale Infrastruktur.", en: "Digital infrastructure." } },
+    { word: "die Smart City", phonetic: "smart-si-ti", meaning: "smart city", gender: "die", example: { de: "Sensorbasierte Smart City.", en: "Sensor-based smart city." } },
+    { word: "das öffentliche Raum", phonetic: "öf-ent-li-khuh rowm", meaning: "public space", gender: "der", example: { de: "Gestaltung des öffentlichen Raums.", en: "Design of public space." } },
+    { word: "die soziale Segregation", phonetic: "zo-tsee-ah-luh ze-gre-ga-tsee-ohn", meaning: "social segregation (urban)", gender: "die", example: { de: "Residenzielle soziale Segregation.", en: "Residential social segregation." } },
+    { word: "die Megastadt", phonetic: "me-ga-shtat", meaning: "megacity", gender: "die", example: { de: "Globale Megastadt.", en: "Global megacity." } },
+    { word: "die Stadtschrumpfung", phonetic: "shtat-shroomf-ung", meaning: "urban shrinkage", gender: "die", example: { de: "Ostdeutsche Stadtschrumpfung.", en: "East German urban shrinkage." } },
+    { word: "das Leitbild (Stadtentwicklung)", phonetic: "lyte-bilt", meaning: "guiding vision (urban development)", gender: "das", example: { de: "Nachhaltiges Stadtentwicklungs-Leitbild.", en: "Sustainable urban development vision." } },
+    { word: "die Flächennutzung", phonetic: "flä-khen-noo-tsung", meaning: "land use", gender: "die", example: { de: "Gemischte Flächennutzung.", en: "Mixed land use." } },
+    { word: "die Verkehrswende", phonetic: "fer-kayrs-ven-duh", meaning: "mobility transition", gender: "die", example: { de: "Urbane Verkehrswende.", en: "Urban mobility transition." } },
+    { word: "die Nahmobilität", phonetic: "nah-mo-bi-li-tayt", meaning: "active mobility / local mobility", gender: "die", example: { de: "Förderung der Nahmobilität.", en: "Promotion of active mobility." } },
+    { word: "das Quartier", phonetic: "kvar-teer", meaning: "urban quarter / neighbourhood", gender: "das", example: { de: "Soziales Quartier.", en: "Social urban quarter." } },
+    { word: "die Raumgerechtigkeit", phonetic: "rowm-geh-rekh-tikh-kyte", meaning: "spatial justice", gender: "die", example: { de: "Soja Raumgerechtigkeit.", en: "Soja spatial justice." } },
+    { word: "das Stadtgrün", phonetic: "shtat-grün", meaning: "urban greenery", gender: "das", example: { de: "Biodiverses Stadtgrün.", en: "Biodiverse urban greenery." } },
+  ]}] },
+};

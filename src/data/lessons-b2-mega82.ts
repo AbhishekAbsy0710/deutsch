@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega82: Record<string, Lesson> = {
+  "lb2_m127": { id: "lb2_m127", title: "Particle Physics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Teilchenphysik", phonetic: "tyl-khen-fü-zik", meaning: "particle physics", gender: "die", example: { de: "Experimentelle Teilchenphysik.", en: "Experimental particle physics." } },
+    { word: "das Standardmodell", phonetic: "shtan-dart-mo-del", meaning: "Standard Model", gender: "das", example: { de: "Standardmodell der Teilchenphysik.", en: "Standard Model of particle physics." } },
+    { word: "das Quark", phonetic: "kvark", meaning: "quark", gender: "das", example: { de: "Up-Quark und Down-Quark.", en: "Up quark and down quark." } },
+    { word: "das Lepton", phonetic: "lep-ton", meaning: "lepton", gender: "das", example: { de: "Elektron ist ein Lepton.", en: "Electron is a lepton." } },
+    { word: "das Neutrino", phonetic: "noy-tree-no", meaning: "neutrino", gender: "das", example: { de: "Massives Neutrino.", en: "Massive neutrino." } },
+    { word: "das Boson", phonetic: "boh-zon", meaning: "boson", gender: "das", example: { de: "Higgs-Boson.", en: "Higgs boson." } },
+    { word: "das Higgs-Feld", phonetic: "higs-felt", meaning: "Higgs field", gender: "das", example: { de: "Spontane Symmetriebrechung Higgs-Feld.", en: "Spontaneous symmetry breaking Higgs field." } },
+    { word: "die starke Wechselwirkung", phonetic: "shtar-kuh vek-sel-vir-kung", meaning: "strong interaction (force)", gender: "die", example: { de: "Quantenchromodynamik starke Wechselwirkung.", en: "QCD strong interaction." } },
+    { word: "die schwache Wechselwirkung", phonetic: "shva-khuh vek-sel-vir-kung", meaning: "weak interaction (force)", gender: "die", example: { de: "Elektroschwache schwache Wechselwirkung.", en: "Electroweak weak interaction." } },
+    { word: "die Quantenchromodynamik", phonetic: "kvan-ten-kro-mo-dü-na-mik", meaning: "quantum chromodynamics (QCD)", gender: "die", example: { de: "Asymptotische Freiheit QCD.", en: "Asymptotic freedom QCD." } },
+    { word: "das Gluon", phonetic: "gloo-on", meaning: "gluon", gender: "das", example: { de: "Massenloses Gluon.", en: "Massless gluon." } },
+    { word: "der Beschleuniger", phonetic: "beh-shloy-ni-ger", meaning: "particle accelerator", gender: "der", example: { de: "LHC-Beschleuniger.", en: "LHC accelerator." } },
+    { word: "die Kollision", phonetic: "ko-li-zee-ohn", meaning: "collision", gender: "die", example: { de: "Hadronische Kollision.", en: "Hadronic collision." } },
+    { word: "der Detektor", phonetic: "de-tek-tor", meaning: "detector (physics)", gender: "der", example: { de: "ATLAS-Detektor.", en: "ATLAS detector." } },
+    { word: "die Zerfallsrate", phonetic: "tser-fals-rah-tuh", meaning: "decay rate", gender: "die", example: { de: "Radioaktive Zerfallsrate.", en: "Radioactive decay rate." } },
+    { word: "die Streuung", phonetic: "shtroy-ung", meaning: "scattering", gender: "die", example: { de: "Elastische Streuung.", en: "Elastic scattering." } },
+    { word: "der Wirkungsquerschnitt", phonetic: "vir-kungs-kver-shnit", meaning: "cross section (physics)", gender: "der", example: { de: "Totaler Wirkungsquerschnitt.", en: "Total cross section." } },
+    { word: "die Feynman-Diagramme", phonetic: "fayn-man-di-a-gram-muh", meaning: "Feynman diagrams", example: { de: "Perturbative Feynman-Diagramme.", en: "Perturbative Feynman diagrams." } },
+    { word: "die Supersymmetrie", phonetic: "zoo-per-zi-me-tree", meaning: "supersymmetry (SUSY)", gender: "die", example: { de: "Gebrochene Supersymmetrie.", en: "Broken supersymmetry." } },
+    { word: "die dunkle Materie", phonetic: "doon-kluh ma-tay-ree", meaning: "dark matter", gender: "die", example: { de: "WIMPs als dunkle Materie.", en: "WIMPs as dark matter." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega85: Record<string, Lesson> = {
+  "lb1_m136": { id: "lb1_m136", title: "Psychology & Mental Health B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Psychologie", phonetic: "psü-kho-lo-gee", meaning: "psychology", gender: "die", example: { de: "Klinische Psychologie.", en: "Clinical psychology." } },
+    { word: "die psychische Gesundheit", phonetic: "psü-khi-shuh geh-zoont-hyte", meaning: "mental health", gender: "die", example: { de: "Psychische Gesundheit stärken.", en: "Strengthen mental health." } },
+    { word: "die Depression", phonetic: "de-pre-see-ohn", meaning: "depression", gender: "die", example: { de: "Klinische Depression behandeln.", en: "Treat clinical depression." } },
+    { word: "die Angststörung", phonetic: "angst-shtö-rung", meaning: "anxiety disorder", gender: "die", example: { de: "Generalisierte Angststörung.", en: "Generalised anxiety disorder." } },
+    { word: "der Stress", phonetic: "shtres", meaning: "stress", gender: "der", example: { de: "Chronischer Stress.", en: "Chronic stress." } },
+    { word: "das Burnout", phonetic: "bern-owt", meaning: "burnout", gender: "das", example: { de: "Burnout-Syndrom.", en: "Burnout syndrome." } },
+    { word: "die Therapie", phonetic: "te-ra-pee", meaning: "therapy", gender: "die", example: { de: "Kognitive Verhaltenstherapie.", en: "Cognitive behavioural therapy." } },
+    { word: "der Psychologe", phonetic: "psü-kho-lo-guh", meaning: "psychologist", gender: "der", example: { de: "Zum Psychologen gehen.", en: "Go to the psychologist." } },
+    { word: "das Selbstbewusstsein", phonetic: "zelpst-beh-voost-zayn", meaning: "self-confidence / self-esteem", gender: "das", example: { de: "Selbstbewusstsein aufbauen.", en: "Build self-confidence." } },
+    { word: "die Resilienz", phonetic: "re-zi-lee-ents", meaning: "resilience", gender: "die", example: { de: "Psychische Resilienz.", en: "Psychological resilience." } },
+    { word: "die Selbstfürsorge", phonetic: "zelpst-für-zor-guh", meaning: "self-care", gender: "die", example: { de: "Selbstfürsorge betreiben.", en: "Practise self-care." } },
+    { word: "die Achtsamkeit", phonetic: "akht-zam-kyte", meaning: "mindfulness", gender: "die", example: { de: "Achtsamkeit üben.", en: "Practise mindfulness." } },
+    { word: "der Trauma", phonetic: "trow-ma", meaning: "trauma", gender: "das", example: { de: "Traumaverarbeitung.", en: "Trauma processing." } },
+    { word: "das Verhalten", phonetic: "fer-hal-ten", meaning: "behaviour", gender: "das", example: { de: "Problematisches Verhalten.", en: "Problematic behaviour." } },
+    { word: "die Emotion", phonetic: "e-mo-tsee-ohn", meaning: "emotion", gender: "die", example: { de: "Emotionen regulieren.", en: "Regulate emotions." } },
+    { word: "die Persönlichkeit", phonetic: "per-zön-likh-kyte", meaning: "personality", gender: "die", example: { de: "Persönlichkeitsentwicklung.", en: "Personality development." } },
+    { word: "die Motivation", phonetic: "mo-ti-va-tsee-ohn", meaning: "motivation", gender: "die", example: { de: "Intrinsische Motivation.", en: "Intrinsic motivation." } },
+    { word: "das Wohlbefinden", phonetic: "vohl-beh-fin-den", meaning: "well-being", gender: "das", example: { de: "Subjektives Wohlbefinden.", en: "Subjective well-being." } },
+    { word: "die Einsamkeit", phonetic: "ayn-zam-kyte", meaning: "loneliness (mental health)", gender: "die", example: { de: "Soziale Einsamkeit.", en: "Social loneliness." } },
+    { word: "die Sucht", phonetic: "zookht", meaning: "addiction", gender: "die", example: { de: "Suchtbehandlung.", en: "Addiction treatment." } },
+  ]}] },
+};

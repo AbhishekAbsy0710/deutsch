@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega83: Record<string, Lesson> = {
+  "lb2_m128": { id: "lb2_m128", title: "Nuclear Physics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Kernphysik", phonetic: "kern-fü-zik", meaning: "nuclear physics", gender: "die", example: { de: "Experimentelle Kernphysik.", en: "Experimental nuclear physics." } },
+    { word: "der Atomkern", phonetic: "ah-tom-kern", meaning: "atomic nucleus", gender: "der", example: { de: "Stabiler Atomkern.", en: "Stable atomic nucleus." } },
+    { word: "das Nukleon", phonetic: "noo-klay-on", meaning: "nucleon", gender: "das", example: { de: "Proton und Neutron als Nukleonen.", en: "Proton and neutron as nucleons." } },
+    { word: "die Bindungsenergie", phonetic: "bin-dungs-e-ner-gee", meaning: "binding energy (nuclear)", gender: "die", example: { de: "Kernbindungsenergie.", en: "Nuclear binding energy." } },
+    { word: "die radioaktive Strahlung", phonetic: "ra-dee-oh-ak-tee-vuh shtrah-lung", meaning: "radioactive radiation", gender: "die", example: { de: "Alpha-radioaktive Strahlung.", en: "Alpha radioactive radiation." } },
+    { word: "der Alpha-Zerfall", phonetic: "al-fa-tser-fal", meaning: "alpha decay", gender: "der", example: { de: "Schwerer Kern Alpha-Zerfall.", en: "Heavy nucleus alpha decay." } },
+    { word: "der Beta-Zerfall", phonetic: "bay-ta-tser-fal", meaning: "beta decay", gender: "der", example: { de: "Schwacher Wechselwirkung Beta-Zerfall.", en: "Weak interaction beta decay." } },
+    { word: "der Gamma-Zerfall", phonetic: "ga-ma-tser-fal", meaning: "gamma decay", gender: "der", example: { de: "Isomerer Gamma-Zerfall.", en: "Isomeric gamma decay." } },
+    { word: "die Halbwertszeit", phonetic: "halp-verts-tsyte", meaning: "half-life", gender: "die", example: { de: "Radioaktive Halbwertszeit.", en: "Radioactive half-life." } },
+    { word: "die Kernfusion", phonetic: "kern-foo-zee-ohn", meaning: "nuclear fusion", gender: "die", example: { de: "Tokamak-Kernfusion.", en: "Tokamak nuclear fusion." } },
+    { word: "die Kernspaltung", phonetic: "kern-shpal-tung", meaning: "nuclear fission", gender: "die", example: { de: "Uran-235-Kernspaltung.", en: "Uranium-235 nuclear fission." } },
+    { word: "der Kernreaktor", phonetic: "kern-re-ak-tor", meaning: "nuclear reactor", gender: "der", example: { de: "Druckwasser-Kernreaktor.", en: "Pressurised water reactor." } },
+    { word: "die kritische Masse", phonetic: "kri-ti-shuh ma-suh", meaning: "critical mass", gender: "die", example: { de: "Superkritische Masse.", en: "Supercritical mass." } },
+    { word: "der Moderator (Reaktor)", phonetic: "mo-de-ra-tor", meaning: "moderator (reactor)", gender: "der", example: { de: "Schwerwasser-Moderator.", en: "Heavy water moderator." } },
+    { word: "der Neutronenfluß", phonetic: "noy-tro-nen-floos", meaning: "neutron flux", gender: "der", example: { de: "Thermischer Neutronenfluß.", en: "Thermal neutron flux." } },
+    { word: "die nukleare Abschreckung", phonetic: "noo-klay-ah-ruh ap-shre-kung", meaning: "nuclear deterrence", gender: "die", example: { de: "Gegenseitige nukleare Abschreckung.", en: "Mutual nuclear deterrence." } },
+    { word: "der radioaktive Abfall", phonetic: "ra-dee-oh-ak-tee-ver ap-fal", meaning: "radioactive waste", gender: "der", example: { de: "Hochradioaktiver Abfall.", en: "High-level radioactive waste." } },
+    { word: "das Endlager", phonetic: "ent-lah-ger", meaning: "final repository (nuclear waste)", gender: "das", example: { de: "Geologisches Endlager.", en: "Geological repository." } },
+    { word: "die Strahlentherapie", phonetic: "shtrah-len-te-ra-pee", meaning: "radiation therapy", gender: "die", example: { de: "Gezielte Strahlentherapie.", en: "Targeted radiation therapy." } },
+    { word: "das Kernmagnetresonanz", phonetic: "kern-mag-net-re-zo-nants", meaning: "nuclear magnetic resonance (NMR)", gender: "die", example: { de: "NMR-Spektroskopie.", en: "NMR spectroscopy." } },
+  ]}] },
+};
