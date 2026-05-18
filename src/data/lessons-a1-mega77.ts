@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega77: Record<string, Lesson> = {
+  "la1_m127": { id: "la1_m127", title: "Weather & Seasons A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Wetter", phonetic: "ve-ter", meaning: "weather", gender: "das", example: { de: "Wie ist das Wetter?", en: "What is the weather like?" } },
+    { word: "die Sonne", phonetic: "zo-nuh", meaning: "sun", gender: "die", example: { de: "Die Sonne scheint.", en: "The sun is shining." } },
+    { word: "der Regen", phonetic: "ray-gen", meaning: "rain", gender: "der", example: { de: "Es regnet.", en: "It is raining." } },
+    { word: "der Schnee", phonetic: "shnay", meaning: "snow", gender: "der", example: { de: "Es schneit.", en: "It is snowing." } },
+    { word: "der Wind", phonetic: "vint", meaning: "wind", gender: "der", example: { de: "Starker Wind.", en: "Strong wind." } },
+    { word: "der Nebel", phonetic: "nay-bel", meaning: "fog", gender: "der", example: { de: "Dichter Nebel.", en: "Thick fog." } },
+    { word: "das Gewitter", phonetic: "geh-vi-ter", meaning: "thunderstorm", gender: "das", example: { de: "Ein starkes Gewitter.", en: "A strong thunderstorm." } },
+    { word: "warm", phonetic: "varm", meaning: "warm", example: { de: "Warmes Wetter.", en: "Warm weather." } },
+    { word: "kalt", phonetic: "kalt", meaning: "cold", example: { de: "Kalter Winter.", en: "Cold winter." } },
+    { word: "heiß", phonetic: "hyse", meaning: "hot", example: { de: "Heißer Sommer.", en: "Hot summer." } },
+    { word: "kühl", phonetic: "kül", meaning: "cool", example: { de: "Kühler Abend.", en: "Cool evening." } },
+    { word: "der Frühling", phonetic: "frü-ling", meaning: "spring", gender: "der", example: { de: "Im Frühling.", en: "In spring." } },
+    { word: "der Sommer", phonetic: "zo-mer", meaning: "summer", gender: "der", example: { de: "Im Sommer.", en: "In summer." } },
+    { word: "der Herbst", phonetic: "herbst", meaning: "autumn / fall", gender: "der", example: { de: "Im Herbst.", en: "In autumn." } },
+    { word: "der Winter", phonetic: "vin-ter", meaning: "winter", gender: "der", example: { de: "Im Winter.", en: "In winter." } },
+    { word: "die Temperatur", phonetic: "tem-pe-ra-toor", meaning: "temperature", gender: "die", example: { de: "Die Temperatur sinkt.", en: "The temperature drops." } },
+    { word: "das Grad", phonetic: "graht", meaning: "degree (temperature)", gender: "das", example: { de: "Zwanzig Grad Celsius.", en: "Twenty degrees Celsius." } },
+    { word: "der Blitz", phonetic: "blits", meaning: "lightning", gender: "der", example: { de: "Ein Blitz schlägt ein.", en: "Lightning strikes." } },
+    { word: "der Donner", phonetic: "do-ner", meaning: "thunder", gender: "der", example: { de: "Lauter Donner.", en: "Loud thunder." } },
+    { word: "der Regenbogen", phonetic: "ray-gen-boh-gen", meaning: "rainbow", gender: "der", example: { de: "Ein bunter Regenbogen.", en: "A colourful rainbow." } },
+  ]}] },
+};

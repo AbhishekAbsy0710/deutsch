@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega76: Record<string, Lesson> = {
+  "lc1_m122": { id: "lc1_m122", title: "Advanced Computational Linguistics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Computerlinguistik", phonetic: "kom-pyoo-ter-lin-gwis-tik", meaning: "computational linguistics", gender: "die", example: { de: "Statistische Computerlinguistik.", en: "Statistical computational linguistics." } },
+    { word: "die Verarbeitung natürlicher Sprache", phonetic: "fer-ar-by-tung-na-tür-li-kher-shpra-khuh", meaning: "natural language processing (NLP)", gender: "die", example: { de: "Neuronale Verarbeitung natürlicher Sprache.", en: "Neural natural language processing." } },
+    { word: "der Tokenisierung", phonetic: "to-ke-ni-zee-rung", meaning: "tokenization", gender: "die", example: { de: "Subwort-Tokenisierung.", en: "Subword tokenization." } },
+    { word: "das Sprachmodell", phonetic: "shprahkh-mo-del", meaning: "language model", gender: "das", example: { de: "Großes Sprachmodell.", en: "Large language model." } },
+    { word: "die Einbettung", phonetic: "ayn-be-tung", meaning: "embedding (word/sentence)", gender: "die", example: { de: "Kontextuelle Einbettung.", en: "Contextual embedding." } },
+    { word: "der Transformer", phonetic: "trans-for-mer", meaning: "transformer (architecture)", gender: "der", example: { de: "Mehrköpfiger Aufmerksamkeits-Transformer.", en: "Multi-head attention transformer." } },
+    { word: "die Aufmerksamkeit", phonetic: "owf-merk-zam-kyte", meaning: "attention (mechanism)", gender: "die", example: { de: "Selbst-Aufmerksamkeitsmechanismus.", en: "Self-attention mechanism." } },
+    { word: "das Maschinelle Übersetzen", phonetic: "ma-shi-ne-luh ü-ber-ze-tsen", meaning: "machine translation", gender: "das", example: { de: "Neuronales maschinelles Übersetzen.", en: "Neural machine translation." } },
+    { word: "die Named Entity Recognition", phonetic: "naympt-en-ti-tee-re-kog-ni-tsi-ohn", meaning: "named entity recognition (NER)", gender: "die", example: { de: "Biomedizinische Named Entity Recognition.", en: "Biomedical named entity recognition." } },
+    { word: "die Sentimentanalyse", phonetic: "zen-ti-ment-a-na-lü-zuh", meaning: "sentiment analysis", gender: "die", example: { de: "Aspektbasierte Sentimentanalyse.", en: "Aspect-based sentiment analysis." } },
+    { word: "die Coreference Resolution", phonetic: "ko-re-fe-rents-re-zo-loo-tsi-ohn", meaning: "coreference resolution", gender: "die", example: { de: "Neuronale Coreference Resolution.", en: "Neural coreference resolution." } },
+    { word: "das Dependency Parsing", phonetic: "de-pen-den-see-par-sing", meaning: "dependency parsing", gender: "das", example: { de: "Universelles Dependency Parsing.", en: "Universal dependency parsing." } },
+    { word: "das Constituency Parsing", phonetic: "kon-sti-twen-see-par-sing", meaning: "constituency parsing", gender: "das", example: { de: "Probabilistisches Constituency Parsing.", en: "Probabilistic constituency parsing." } },
+    { word: "die semantische Rolle", phonetic: "ze-man-ti-shuh ro-luh", meaning: "semantic role (labelling)", gender: "die", example: { de: "Semantische Rollenkennzeichnung.", en: "Semantic role labelling." } },
+    { word: "das Pretrained Model", phonetic: "pree-traynd-mo-del", meaning: "pretrained model", gender: "das", example: { de: "Domänenadaptiertes Pretrained Model.", en: "Domain-adapted pretrained model." } },
+    { word: "das Fine-Tuning", phonetic: "fayn-tü-ning", meaning: "fine-tuning", gender: "das", example: { de: "Aufgabenspezifisches Fine-Tuning.", en: "Task-specific fine-tuning." } },
+    { word: "die Fragebeantwortung", phonetic: "frah-guh-beh-ant-vor-tung", meaning: "question answering", gender: "die", example: { de: "Offene Fragebeantwortung.", en: "Open-domain question answering." } },
+    { word: "die Textklassifikation", phonetic: "tekst-kla-si-fi-ka-tsee-ohn", meaning: "text classification", gender: "die", example: { de: "Mehrklassen-Textklassifikation.", en: "Multi-class text classification." } },
+    { word: "das Spracherkennung", phonetic: "shprahkh-er-ke-nung", meaning: "speech recognition", gender: "die", example: { de: "Ende-zu-Ende-Spracherkennung.", en: "End-to-end speech recognition." } },
+    { word: "die Halluzination", phonetic: "ha-loo-tsi-na-tsee-ohn", meaning: "hallucination (LLM)", gender: "die", example: { de: "LLM-Faktenhalluzination.", en: "LLM factual hallucination." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega76: Record<string, Lesson> = {
+  "lb2_m121": { id: "lb2_m121", title: "Molecular Biology B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Molekularbiologie", phonetic: "mo-le-koo-lar-bee-oh-lo-gee", meaning: "molecular biology", gender: "die", example: { de: "Fortgeschrittene Molekularbiologie.", en: "Advanced molecular biology." } },
+    { word: "die DNA", phonetic: "day-en-ah", meaning: "DNA", gender: "die", example: { de: "Doppelsträngige DNA.", en: "Double-stranded DNA." } },
+    { word: "die RNA", phonetic: "er-en-ah", meaning: "RNA", gender: "die", example: { de: "Messenger-RNA.", en: "Messenger RNA." } },
+    { word: "die Replikation", phonetic: "re-pli-ka-tsee-ohn", meaning: "replication (DNA)", gender: "die", example: { de: "Semikonservative Replikation.", en: "Semi-conservative replication." } },
+    { word: "die Transkription", phonetic: "trans-skrip-tsee-ohn", meaning: "transcription (molecular)", gender: "die", example: { de: "Eukaryotische Transkription.", en: "Eukaryotic transcription." } },
+    { word: "die Translation", phonetic: "trans-la-tsee-ohn", meaning: "translation (protein synthesis)", gender: "die", example: { de: "Ribosomale Translation.", en: "Ribosomal translation." } },
+    { word: "das Ribosom", phonetic: "ree-bo-zohm", meaning: "ribosome", gender: "das", example: { de: "Eukaryotisches Ribosom.", en: "Eukaryotic ribosome." } },
+    { word: "der Promotor", phonetic: "pro-mo-tor", meaning: "promoter (gene)", gender: "der", example: { de: "Viraler Promotor.", en: "Viral promoter." } },
+    { word: "der Enhancer", phonetic: "en-han-ser", meaning: "enhancer (gene regulation)", gender: "der", example: { de: "Fernwirkender Enhancer.", en: "Distal enhancer." } },
+    { word: "das Spleißen", phonetic: "shply-sen", meaning: "splicing (RNA)", gender: "das", example: { de: "Alternatives Spleißen.", en: "Alternative splicing." } },
+    { word: "das Intron", phonetic: "in-trohn", meaning: "intron", gender: "das", example: { de: "Gespleißtes Intron.", en: "Spliced intron." } },
+    { word: "das Exon", phonetic: "ek-sohn", meaning: "exon", gender: "das", example: { de: "Codierendes Exon.", en: "Coding exon." } },
+    { word: "die Epigenetik", phonetic: "e-pi-ge-nay-tik", meaning: "epigenetics", gender: "die", example: { de: "DNA-Methylierungs-Epigenetik.", en: "DNA methylation epigenetics." } },
+    { word: "die Chromatinstruktur", phonetic: "kro-ma-tin-shtrook-toor", meaning: "chromatin structure", gender: "die", example: { de: "Offene Chromatinstruktur.", en: "Open chromatin structure." } },
+    { word: "das CRISPR-Cas9", phonetic: "kris-per-kas-noyn", meaning: "CRISPR-Cas9", gender: "das", example: { de: "Präzises CRISPR-Cas9-Editing.", en: "Precise CRISPR-Cas9 editing." } },
+    { word: "die Sequenzierung", phonetic: "ze-kven-tsee-rung", meaning: "sequencing (DNA)", gender: "die", example: { de: "Einzelzell-Sequenzierung.", en: "Single-cell sequencing." } },
+    { word: "die PCR", phonetic: "pay-tsay-er", meaning: "PCR (polymerase chain reaction)", gender: "die", example: { de: "Quantitative PCR.", en: "Quantitative PCR." } },
+    { word: "der Transkriptionsfaktor", phonetic: "trans-skrip-tsee-ohns-fak-tor", meaning: "transcription factor", gender: "der", example: { de: "Gewebsspezifischer Transkriptionsfaktor.", en: "Tissue-specific transcription factor." } },
+    { word: "der Signalweg", phonetic: "zig-nahl-vayk", meaning: "signalling pathway", gender: "der", example: { de: "MAPK-Signalweg.", en: "MAPK signalling pathway." } },
+    { word: "die Zellteilung", phonetic: "tsel-ty-lung", meaning: "cell division", gender: "die", example: { de: "Mitotische Zellteilung.", en: "Mitotic cell division." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega75: Record<string, Lesson> = {
+  "la2_m120": { id: "la2_m120", title: "Sports & Leisure A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "der Sport", phonetic: "shport", meaning: "sport", gender: "der", example: { de: "Sport treiben.", en: "Do sport." } },
+    { word: "das Training", phonetic: "tray-ning", meaning: "training", gender: "das", example: { de: "Regelmäßiges Training.", en: "Regular training." } },
+    { word: "der Fußball", phonetic: "foos-bal", meaning: "football / soccer", gender: "der", example: { de: "Fußball spielen.", en: "Play football." } },
+    { word: "das Tennis", phonetic: "te-nis", meaning: "tennis", gender: "das", example: { de: "Tennis spielen.", en: "Play tennis." } },
+    { word: "das Schwimmen", phonetic: "shvi-men", meaning: "swimming", gender: "das", example: { de: "Schwimmen gehen.", en: "Go swimming." } },
+    { word: "das Laufen", phonetic: "low-fen", meaning: "running", gender: "das", example: { de: "Laufen gehen.", en: "Go running." } },
+    { word: "das Radfahren", phonetic: "raht-fah-ren", meaning: "cycling", gender: "das", example: { de: "Radfahren macht Spaß.", en: "Cycling is fun." } },
+    { word: "das Yoga", phonetic: "yo-ga", meaning: "yoga", gender: "das", example: { de: "Yoga machen.", en: "Do yoga." } },
+    { word: "das Fitnessstudio", phonetic: "fit-nes-shtoo-dee-oh", meaning: "gym / fitness studio", gender: "das", example: { de: "Im Fitnessstudio trainieren.", en: "Train at the gym." } },
+    { word: "der Mannschaft", phonetic: "man-shaft", meaning: "team", gender: "die", example: { de: "Eine gute Mannschaft.", en: "A good team." } },
+    { word: "gewinnen", phonetic: "geh-vi-nen", meaning: "to win", example: { de: "Das Spiel gewinnen.", en: "Win the game." } },
+    { word: "verlieren", phonetic: "fer-lee-ren", meaning: "to lose", example: { de: "Das Spiel verlieren.", en: "Lose the game." } },
+    { word: "das Ergebnis", phonetic: "er-gayp-nis", meaning: "result / score", gender: "das", example: { de: "Das Ergebnis ist 2:1.", en: "The score is 2:1." } },
+    { word: "der Champion", phonetic: "sham-pee-on", meaning: "champion", gender: "der", example: { de: "Weltmeisterschaft Champion.", en: "World championship champion." } },
+    { word: "die Freizeit", phonetic: "fry-tsyte", meaning: "leisure time / free time", gender: "die", example: { de: "In der Freizeit lesen.", en: "Read in leisure time." } },
+    { word: "das Hobby", phonetic: "ho-bee", meaning: "hobby", gender: "das", example: { de: "Ein interessantes Hobby.", en: "An interesting hobby." } },
+    { word: "die Musik", phonetic: "moo-zeek", meaning: "music", gender: "die", example: { de: "Musik hören.", en: "Listen to music." } },
+    { word: "lesen", phonetic: "lay-zen", meaning: "to read", example: { de: "Bücher lesen.", en: "Read books." } },
+    { word: "reisen", phonetic: "ry-zen", meaning: "to travel", example: { de: "In Urlaub reisen.", en: "Travel on holiday." } },
+    { word: "der Verein", phonetic: "fer-ayn", meaning: "club / association", gender: "der", example: { de: "Einem Verein beitreten.", en: "Join a club." } },
+  ]}] },
+};

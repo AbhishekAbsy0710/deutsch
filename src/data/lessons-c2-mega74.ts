@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega74: Record<string, Lesson> = {
+  "lc2_m117": { id: "lc2_m117", title: "Advanced Operator Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Operatortheorie", phonetic: "oh-pe-ra-tor-tay-oh-ree", meaning: "operator theory", gender: "die", example: { de: "Abstrakte Operatortheorie.", en: "Abstract operator theory." } },
+    { word: "der Hilbertraum", phonetic: "hil-bert-rowm", meaning: "Hilbert space", gender: "der", example: { de: "Separabler Hilbertraum.", en: "Separable Hilbert space." } },
+    { word: "der Banachraum", phonetic: "ba-nakh-rowm", meaning: "Banach space", gender: "der", example: { de: "Reflexiver Banachraum.", en: "Reflexive Banach space." } },
+    { word: "der beschränkte Operator", phonetic: "beh-shrenk-tuh oh-pe-ra-tor", meaning: "bounded operator", gender: "der", example: { de: "Normierter beschränkter Operator.", en: "Normed bounded operator." } },
+    { word: "der kompakte Operator", phonetic: "kom-pak-tuh oh-pe-ra-tor", meaning: "compact operator", gender: "der", example: { de: "Vollständig stetiger kompakter Operator.", en: "Completely continuous compact operator." } },
+    { word: "das Spektrum", phonetic: "shpek-troom", meaning: "spectrum (operator)", gender: "das", example: { de: "Punktspektrum des Operators.", en: "Point spectrum of the operator." } },
+    { word: "der Eigenraum", phonetic: "eye-gen-rowm", meaning: "eigenspace", gender: "der", example: { de: "Invarianter Eigenraum.", en: "Invariant eigenspace." } },
+    { word: "der selbstadjungierte Operator", phonetic: "zelpst-at-yun-geer-tuh oh-pe-ra-tor", meaning: "self-adjoint operator", gender: "der", example: { de: "Unbeschränkter selbstadjungierter Operator.", en: "Unbounded self-adjoint operator." } },
+    { word: "der normale Operator", phonetic: "nor-mah-luh oh-pe-ra-tor", meaning: "normal operator", gender: "der", example: { de: "Diagonalisierbarer normaler Operator.", en: "Diagonalizable normal operator." } },
+    { word: "die von-Neumann-Algebra", phonetic: "fon-noy-man-al-ge-bra", meaning: "von Neumann algebra", gender: "die", example: { de: "Typ-II-von-Neumann-Algebra.", en: "Type II von Neumann algebra." } },
+    { word: "die C*-Algebra", phonetic: "tsay-shtern-al-ge-bra", meaning: "C*-algebra", gender: "die", example: { de: "Separable C*-Algebra.", en: "Separable C*-algebra." } },
+    { word: "das Spektralmaß", phonetic: "shpek-trahl-mahs", meaning: "spectral measure", gender: "das", example: { de: "Projektionswertiges Spektralmaß.", en: "Projection-valued spectral measure." } },
+    { word: "der Spektralsatz", phonetic: "shpek-trahl-zats", meaning: "spectral theorem", gender: "der", example: { de: "Kommutierenden-Spektralsatz.", en: "Commuting spectral theorem." } },
+    { word: "der Fredholm-Operator", phonetic: "fred-holm-oh-pe-ra-tor", meaning: "Fredholm operator", gender: "der", example: { de: "Index-Fredholm-Operator.", en: "Index Fredholm operator." } },
+    { word: "die Weylsche Asymptotik", phonetic: "vyle-shuh as-ümp-toh-tik", meaning: "Weyl asymptotics", gender: "die", example: { de: "Laplace-Weylsche Asymptotik.", en: "Laplace Weyl asymptotics." } },
+    { word: "der Semigruppe", phonetic: "ze-mi-groo-puh", meaning: "semigroup (of operators)", gender: "die", example: { de: "Stark stetige Semigruppe.", en: "Strongly continuous semigroup." } },
+    { word: "das Quantengruppe", phonetic: "kvan-ten-groo-puh", meaning: "quantum group", gender: "die", example: { de: "Kompakte Quantengruppe.", en: "Compact quantum group." } },
+    { word: "die freie Wahrscheinlichkeitstheorie", phonetic: "fry-uh var-shyn-likh-kyts-tay-oh-ree", meaning: "free probability theory", gender: "die", example: { de: "Voiculescu freie Wahrscheinlichkeitstheorie.", en: "Voiculescu free probability theory." } },
+    { word: "der Tensorprodukt", phonetic: "ten-sor-pro-dookt", meaning: "tensor product (of operators/spaces)", gender: "das", example: { de: "Projektiver Tensorprodukt.", en: "Projective tensor product." } },
+    { word: "die Nichtkommutative Geometrie", phonetic: "nikht-ko-moo-ta-tee-vuh ge-oh-me-tree", meaning: "noncommutative geometry", gender: "die", example: { de: "Connes-Nichtkommutative Geometrie.", en: "Connes noncommutative geometry." } },
+  ]}] },
+};

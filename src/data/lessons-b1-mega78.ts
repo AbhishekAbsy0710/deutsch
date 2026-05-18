@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega78: Record<string, Lesson> = {
+  "lb1_m129": { id: "lb1_m129", title: "Philosophy & Ethics B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Philosophie", phonetic: "fi-lo-zo-fee", meaning: "philosophy", gender: "die", example: { de: "Antike Philosophie.", en: "Ancient philosophy." } },
+    { word: "die Ethik", phonetic: "ay-tik", meaning: "ethics", gender: "die", example: { de: "Angewandte Ethik.", en: "Applied ethics." } },
+    { word: "die Moral", phonetic: "mo-rahl", meaning: "morality / moral", gender: "die", example: { de: "Moralische Grundsätze.", en: "Moral principles." } },
+    { word: "das Gewissen", phonetic: "geh-vi-sen", meaning: "conscience", gender: "das", example: { de: "Das Gewissen prüfen.", en: "Examine one's conscience." } },
+    { word: "der Wert", phonetic: "vert", meaning: "value", gender: "der", example: { de: "Grundlegende Werte.", en: "Fundamental values." } },
+    { word: "die Gerechtigkeit", phonetic: "geh-rekh-tikh-kyte", meaning: "justice", gender: "die", example: { de: "Soziale Gerechtigkeit.", en: "Social justice." } },
+    { word: "die Freiheit", phonetic: "fry-hyte", meaning: "freedom", gender: "die", example: { de: "Persönliche Freiheit.", en: "Personal freedom." } },
+    { word: "die Gleichheit", phonetic: "glykh-hyte", meaning: "equality", gender: "die", example: { de: "Chancengleichheit.", en: "Equality of opportunity." } },
+    { word: "die Verantwortung", phonetic: "fer-ant-vor-tung", meaning: "responsibility", gender: "die", example: { de: "Soziale Verantwortung.", en: "Social responsibility." } },
+    { word: "der Utilitarismus", phonetic: "oo-ti-li-ta-ris-mus", meaning: "utilitarianism", gender: "der", example: { de: "Bentham-Utilitarismus.", en: "Bentham utilitarianism." } },
+    { word: "der Kategorische Imperativ", phonetic: "ka-te-go-ri-shuh im-pe-ra-teev", meaning: "categorical imperative", gender: "der", example: { de: "Kants kategorischer Imperativ.", en: "Kant's categorical imperative." } },
+    { word: "der Relativismus", phonetic: "re-la-ti-vis-mus", meaning: "relativism", gender: "der", example: { de: "Moralischer Relativismus.", en: "Moral relativism." } },
+    { word: "der Humanismus", phonetic: "hoo-ma-nis-mus", meaning: "humanism", gender: "der", example: { de: "Europäischer Humanismus.", en: "European humanism." } },
+    { word: "das Naturrecht", phonetic: "na-toor-rekht", meaning: "natural law", gender: "das", example: { de: "Universelles Naturrecht.", en: "Universal natural law." } },
+    { word: "der Gesellschaftsvertrag", phonetic: "geh-zel-shafts-fer-trahg", meaning: "social contract", gender: "der", example: { de: "Rousseauscher Gesellschaftsvertrag.", en: "Rousseauian social contract." } },
+    { word: "das Dilemma", phonetic: "di-le-ma", meaning: "dilemma", gender: "das", example: { de: "Ein moralisches Dilemma.", en: "A moral dilemma." } },
+    { word: "der Pragmatismus", phonetic: "prag-ma-tis-mus", meaning: "pragmatism", gender: "der", example: { de: "Amerikanischer Pragmatismus.", en: "American pragmatism." } },
+    { word: "die Tugend", phonetic: "too-gent", meaning: "virtue", gender: "die", example: { de: "Aristotelische Tugend.", en: "Aristotelian virtue." } },
+    { word: "die Würde", phonetic: "vür-duh", meaning: "dignity", gender: "die", example: { de: "Menschliche Würde.", en: "Human dignity." } },
+    { word: "das Menschenrecht", phonetic: "men-shen-rekht", meaning: "human right", gender: "das", example: { de: "Unveräußerliche Menschenrechte.", en: "Inalienable human rights." } },
+  ]}] },
+};
