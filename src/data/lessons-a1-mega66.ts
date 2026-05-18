@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega66: Record<string, Lesson> = {
+  "la1_m116": { id: "la1_m116", title: "Kitchen & Cooking A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Küche", phonetic: "kü-khuh", meaning: "kitchen", gender: "die", example: { de: "In der Küche kochen.", en: "Cook in the kitchen." } },
+    { word: "kochen", phonetic: "ko-khen", meaning: "to cook", example: { de: "Abendessen kochen.", en: "Cook dinner." } },
+    { word: "der Herd", phonetic: "hairt", meaning: "stove / cooker", gender: "der", example: { de: "Den Herd einschalten.", en: "Turn on the stove." } },
+    { word: "der Ofen", phonetic: "oh-fen", meaning: "oven", gender: "der", example: { de: "Den Ofen vorheizen.", en: "Preheat the oven." } },
+    { word: "der Kühlschrank", phonetic: "kühl-shrank", meaning: "refrigerator", gender: "der", example: { de: "Im Kühlschrank lagern.", en: "Store in the refrigerator." } },
+    { word: "die Pfanne", phonetic: "pfa-nuh", meaning: "frying pan", gender: "die", example: { de: "In der Pfanne braten.", en: "Fry in the pan." } },
+    { word: "der Topf", phonetic: "topf", meaning: "pot / saucepan", gender: "der", example: { de: "Wasser im Topf kochen.", en: "Boil water in the pot." } },
+    { word: "das Messer", phonetic: "me-ser", meaning: "knife", gender: "das", example: { de: "Ein scharfes Messer.", en: "A sharp knife." } },
+    { word: "die Gabel", phonetic: "gah-bel", meaning: "fork", gender: "die", example: { de: "Eine Gabel nehmen.", en: "Take a fork." } },
+    { word: "der Löffel", phonetic: "lö-fel", meaning: "spoon", gender: "der", example: { de: "Einen Löffel rühren.", en: "Stir with a spoon." } },
+    { word: "schneiden", phonetic: "shny-den", meaning: "to cut", example: { de: "Gemüse schneiden.", en: "Cut vegetables." } },
+    { word: "braten", phonetic: "brah-ten", meaning: "to fry / roast", example: { de: "Fleisch braten.", en: "Fry meat." } },
+    { word: "kochen", phonetic: "ko-khen", meaning: "to boil", example: { de: "Kartoffeln kochen.", en: "Boil potatoes." } },
+    { word: "backen", phonetic: "ba-ken", meaning: "to bake", example: { de: "Brot backen.", en: "Bake bread." } },
+    { word: "das Rezept", phonetic: "re-tsept", meaning: "recipe", gender: "das", example: { de: "Nach Rezept kochen.", en: "Cook according to recipe." } },
+    { word: "die Zutat", phonetic: "tsoo-taht", meaning: "ingredient", gender: "die", example: { de: "Alle Zutaten vorbereiten.", en: "Prepare all ingredients." } },
+    { word: "das Salz", phonetic: "zalts", meaning: "salt", gender: "das", example: { de: "Salz hinzufügen.", en: "Add salt." } },
+    { word: "der Pfeffer", phonetic: "pfe-fer", meaning: "pepper", gender: "der", example: { de: "Frisch gemahlen Pfeffer.", en: "Freshly ground pepper." } },
+    { word: "das Öl", phonetic: "öhl", meaning: "oil", gender: "das", example: { de: "Olivenöl verwenden.", en: "Use olive oil." } },
+    { word: "der Zucker", phonetic: "tsoo-ker", meaning: "sugar", gender: "der", example: { de: "Einen Teelöffel Zucker.", en: "One teaspoon of sugar." } },
+  ]}] },
+};

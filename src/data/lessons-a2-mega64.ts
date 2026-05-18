@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega64: Record<string, Lesson> = {
+  "la2_m109": { id: "la2_m109", title: "Health & Doctor Visit A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "der Arzt", phonetic: "artst", meaning: "doctor", gender: "der", example: { de: "Zum Arzt gehen.", en: "Go to the doctor." } },
+    { word: "die Ärztin", phonetic: "erts-tin", meaning: "female doctor", gender: "die", example: { de: "Die Ärztin untersucht.", en: "The doctor examines." } },
+    { word: "die Praxis", phonetic: "prak-sis", meaning: "practice / clinic", gender: "die", example: { de: "In der Praxis warten.", en: "Wait in the practice." } },
+    { word: "der Termin", phonetic: "ter-meen", meaning: "appointment", gender: "der", example: { de: "Einen Termin vereinbaren.", en: "Make an appointment." } },
+    { word: "die Krankenversicherung", phonetic: "kran-ken-fer-zi-khe-rung", meaning: "health insurance", gender: "die", example: { de: "Gesetzliche Krankenversicherung.", en: "Statutory health insurance." } },
+    { word: "die Krankenkasse", phonetic: "kran-ken-ka-suh", meaning: "health insurance fund", gender: "die", example: { de: "Bei der Krankenkasse angemeldet.", en: "Registered with the health fund." } },
+    { word: "der Kranke", phonetic: "kran-kuh", meaning: "sick person / patient", gender: "der", example: { de: "Der Kranke liegt im Bett.", en: "The sick person lies in bed." } },
+    { word: "das Symptom", phonetic: "zümp-tohm", meaning: "symptom", gender: "das", example: { de: "Typisches Symptom.", en: "Typical symptom." } },
+    { word: "das Fieber", phonetic: "fee-ber", meaning: "fever", gender: "das", example: { de: "Hohes Fieber haben.", en: "Have a high fever." } },
+    { word: "der Husten", phonetic: "hoos-ten", meaning: "cough", gender: "der", example: { de: "Starker Husten.", en: "Strong cough." } },
+    { word: "der Schnupfen", phonetic: "shnoop-fen", meaning: "runny nose / cold", gender: "der", example: { de: "Schnupfen bekommen.", en: "Get a runny nose." } },
+    { word: "der Schmerz", phonetic: "shmerts", meaning: "pain", gender: "der", example: { de: "Starke Schmerzen.", en: "Strong pain." } },
+    { word: "das Rezept", phonetic: "re-tsept", meaning: "prescription", gender: "das", example: { de: "Ein Rezept ausstellen.", en: "Issue a prescription." } },
+    { word: "die Apotheke", phonetic: "a-po-tay-kuh", meaning: "pharmacy", gender: "die", example: { de: "In die Apotheke gehen.", en: "Go to the pharmacy." } },
+    { word: "das Medikament", phonetic: "me-di-ka-ment", meaning: "medication", gender: "das", example: { de: "Das Medikament nehmen.", en: "Take the medication." } },
+    { word: "untersuchen", phonetic: "oon-ter-zoo-khen", meaning: "to examine", example: { de: "Den Patienten untersuchen.", en: "Examine the patient." } },
+    { word: "überweisen", phonetic: "ü-ber-vy-zen", meaning: "to refer (medical)", example: { de: "Zum Spezialisten überweisen.", en: "Refer to a specialist." } },
+    { word: "der Blutdruck", phonetic: "bloot-drook", meaning: "blood pressure", gender: "der", example: { de: "Blutdruck messen.", en: "Measure blood pressure." } },
+    { word: "krank", phonetic: "krank", meaning: "sick / ill", example: { de: "Krank sein.", en: "Be sick." } },
+    { word: "gesund", phonetic: "geh-zoont", meaning: "healthy", example: { de: "Wieder gesund werden.", en: "Get well again." } },
+  ]}] },
+};

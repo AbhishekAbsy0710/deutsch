@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega67: Record<string, Lesson> = {
+  "lb1_m118": { id: "lb1_m118", title: "Media & Journalism B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Medien", phonetic: "may-dee-en", meaning: "media", example: { de: "Digitale Medien.", en: "Digital media." } },
+    { word: "die Zeitung", phonetic: "tsy-tung", meaning: "newspaper", gender: "die", example: { de: "Die Tageszeitung lesen.", en: "Read the daily newspaper." } },
+    { word: "der Journalist", phonetic: "zhoor-na-list", meaning: "journalist", gender: "der", example: { de: "Ein investigativer Journalist.", en: "An investigative journalist." } },
+    { word: "der Artikel", phonetic: "ar-tee-kel", meaning: "article", gender: "der", example: { de: "Einen Artikel schreiben.", en: "Write an article." } },
+    { word: "die Schlagzeile", phonetic: "shlahg-tsy-luh", meaning: "headline", gender: "die", example: { de: "Große Schlagzeilen.", en: "Big headlines." } },
+    { word: "die Nachricht", phonetic: "nakh-rikht", meaning: "news item / message", gender: "die", example: { de: "Wichtige Nachrichten.", en: "Important news." } },
+    { word: "die Berichterstattung", phonetic: "beh-rikht-er-shta-tung", meaning: "reporting / coverage", gender: "die", example: { de: "Objektive Berichterstattung.", en: "Objective reporting." } },
+    { word: "das Interview", phonetic: "in-ter-vyoo", meaning: "interview", gender: "das", example: { de: "Ein Interview geben.", en: "Give an interview." } },
+    { word: "die Pressefreiheit", phonetic: "pre-suh-fry-hyte", meaning: "freedom of the press", gender: "die", example: { de: "Pressefreiheit schützen.", en: "Protect press freedom." } },
+    { word: "die Zensur", phonetic: "tsen-zoor", meaning: "censorship", gender: "die", example: { de: "Staatliche Zensur.", en: "State censorship." } },
+    { word: "die Fake News", phonetic: "fayk nyooz", meaning: "fake news", example: { de: "Verbreitete Fake News.", en: "Spread fake news." } },
+    { word: "die Recherche", phonetic: "re-sher-shuh", meaning: "research / investigation", gender: "die", example: { de: "Gründliche Recherche.", en: "Thorough research." } },
+    { word: "der Redakteur", phonetic: "re-dak-tör", meaning: "editor", gender: "der", example: { de: "Der Chefredakteur.", en: "The editor-in-chief." } },
+    { word: "veröffentlichen", phonetic: "fer-öf-ent-li-khen", meaning: "to publish", example: { de: "Einen Artikel veröffentlichen.", en: "Publish an article." } },
+    { word: "berichten", phonetic: "beh-rikht-en", meaning: "to report", example: { de: "Live berichten.", en: "Report live." } },
+    { word: "der Rundfunk", phonetic: "roont-funk", meaning: "broadcasting", gender: "der", example: { de: "Öffentlich-rechtlicher Rundfunk.", en: "Public broadcasting." } },
+    { word: "die Sendung", phonetic: "zen-dung", meaning: "broadcast / programme", gender: "die", example: { de: "Eine Sendung moderieren.", en: "Host a programme." } },
+    { word: "die soziale Medien", phonetic: "zo-tsee-ah-luh may-dee-en", meaning: "social media", example: { de: "Über soziale Medien verbreiten.", en: "Spread via social media." } },
+    { word: "die Meinungsfreiheit", phonetic: "my-nungs-fry-hyte", meaning: "freedom of opinion", gender: "die", example: { de: "Meinungsfreiheit garantieren.", en: "Guarantee freedom of opinion." } },
+    { word: "der Korrespondent", phonetic: "ko-re-spon-dent", meaning: "correspondent", gender: "der", example: { de: "Auslandskorrespondent.", en: "Foreign correspondent." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega65: Record<string, Lesson> = {
+  "lc1_m111": { id: "lc1_m111", title: "Advanced Epidemiology C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Epidemiologie", phonetic: "e-pi-de-mee-oh-lo-gee", meaning: "epidemiology", gender: "die", example: { de: "Molekulare Epidemiologie.", en: "Molecular epidemiology." } },
+    { word: "die Inzidenz", phonetic: "in-tsi-dents", meaning: "incidence", gender: "die", example: { de: "Kumulative Inzidenz.", en: "Cumulative incidence." } },
+    { word: "die Prävalenz", phonetic: "pray-va-lents", meaning: "prevalence", gender: "die", example: { de: "Punktprävalenz.", en: "Point prevalence." } },
+    { word: "die Kohorte", phonetic: "ko-hor-tuh", meaning: "cohort", gender: "die", example: { de: "Prospektive Kohortenstudie.", en: "Prospective cohort study." } },
+    { word: "die Fall-Kontroll-Studie", phonetic: "fal-kon-trol-shtoo-dee-uh", meaning: "case-control study", gender: "die", example: { de: "Genestete Fall-Kontroll-Studie.", en: "Nested case-control study." } },
+    { word: "die Randomisierung", phonetic: "ran-do-mi-zee-rung", meaning: "randomization", gender: "die", example: { de: "Stratifizierte Randomisierung.", en: "Stratified randomization." } },
+    { word: "die Selektionsverzerrung", phonetic: "ze-lek-tsee-ohns-fer-tse-rung", meaning: "selection bias", gender: "die", example: { de: "Überlebenszeitabhängige Selektionsverzerrung.", en: "Survival-time selection bias." } },
+    { word: "die Konfundierung", phonetic: "kon-foon-dee-rung", meaning: "confounding", gender: "die", example: { de: "Residuale Konfundierung.", en: "Residual confounding." } },
+    { word: "der Relative Risiko", phonetic: "re-la-tee-vuh ree-zee-ko", meaning: "relative risk", gender: "das", example: { de: "Adjustiertes relatives Risiko.", en: "Adjusted relative risk." } },
+    { word: "das Odds Ratio", phonetic: "ods rah-tsee-oh", meaning: "odds ratio", gender: "das", example: { de: "Konditioniertes Odds Ratio.", en: "Conditional odds ratio." } },
+    { word: "die Kausalität", phonetic: "kow-za-li-tayt", meaning: "causality", gender: "die", example: { de: "Bradford-Hill-Kausalität.", en: "Bradford-Hill causality." } },
+    { word: "die Reproduktionszahl", phonetic: "re-pro-dook-tsee-ohns-tsahl", meaning: "reproduction number (R₀)", gender: "die", example: { de: "Basisreproduktionszahl R-Null.", en: "Basic reproduction number R0." } },
+    { word: "die Herdenimmunität", phonetic: "hayr-den-i-moo-ni-tayt", meaning: "herd immunity", gender: "die", example: { de: "Impfbasierte Herdenimmunität.", en: "Vaccine-based herd immunity." } },
+    { word: "die Exposition", phonetic: "eks-po-zi-tsee-ohn", meaning: "exposure", gender: "die", example: { de: "Kumulative Exposition.", en: "Cumulative exposure." } },
+    { word: "die Surveillance", phonetic: "zür-vey-lants", meaning: "surveillance (epidemiology)", gender: "die", example: { de: "Syndromische Surveillance.", en: "Syndromic surveillance." } },
+    { word: "die Meta-Analyse", phonetic: "me-ta-a-na-lü-zuh", meaning: "meta-analysis", gender: "die", example: { de: "Netzwerk-Meta-Analyse.", en: "Network meta-analysis." } },
+    { word: "der Attributable Risiko", phonetic: "a-tri-byoo-tahb-luh ree-zee-ko", meaning: "attributable risk", gender: "das", example: { de: "Populations-attributables Risiko.", en: "Population-attributable risk." } },
+    { word: "die Modellierung", phonetic: "mo-de-lee-rung", meaning: "modelling (epidemiology)", gender: "die", example: { de: "Stochastische epidemiologische Modellierung.", en: "Stochastic epidemiological modelling." } },
+    { word: "die Zoonose", phonetic: "tso-oh-noh-zuh", meaning: "zoonosis", gender: "die", example: { de: "Emerging Zoonose.", en: "Emerging zoonosis." } },
+    { word: "die Pandemiebereitschaft", phonetic: "pan-de-mee-beh-ryte-shaft", meaning: "pandemic preparedness", gender: "die", example: { de: "Globale Pandemiebereitschaft.", en: "Global pandemic preparedness." } },
+  ]}] },
+};

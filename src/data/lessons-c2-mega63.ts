@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega63: Record<string, Lesson> = {
+  "lc2_m106": { id: "lc2_m106", title: "Advanced Stochastic Processes C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "der Stochastische Prozess", phonetic: "shto-khas-ti-shuh pro-tses", meaning: "stochastic process", gender: "der", example: { de: "Stationärer stochastischer Prozess.", en: "Stationary stochastic process." } },
+    { word: "der Markov-Kette", phonetic: "mar-kof-ke-tuh", meaning: "Markov chain", gender: "die", example: { de: "Ergodische Markov-Kette.", en: "Ergodic Markov chain." } },
+    { word: "die Brownsche Bewegung", phonetic: "brow-ni-shuh beh-vay-gung", meaning: "Brownian motion", gender: "die", example: { de: "Geometrische brownsche Bewegung.", en: "Geometric Brownian motion." } },
+    { word: "der Wiener-Prozess", phonetic: "vee-ner-pro-tses", meaning: "Wiener process", gender: "der", example: { de: "Standardisierter Wiener-Prozess.", en: "Standardized Wiener process." } },
+    { word: "die Itô-Integral", phonetic: "ee-toh-in-te-grahl", meaning: "Itô integral", gender: "das", example: { de: "Stochastisches Itô-Integral.", en: "Stochastic Itô integral." } },
+    { word: "die Stochastische Differentialgleichung", phonetic: "shto-khas-ti-shuh di-fe-ren-tsee-ahl-gly-khung", meaning: "stochastic differential equation", example: { de: "Langevin stochastische Differentialgleichung.", en: "Langevin stochastic differential equation." } },
+    { word: "die Martingal", phonetic: "mar-tin-gahl", meaning: "martingale", gender: "das", example: { de: "Lokales Martingal.", en: "Local martingale." } },
+    { word: "die Stoppzeit", phonetic: "shtop-tsyte", meaning: "stopping time", gender: "die", example: { de: "Optimale Stoppzeit.", en: "Optimal stopping time." } },
+    { word: "der Poisson-Prozess", phonetic: "poa-son-pro-tses", meaning: "Poisson process", gender: "der", example: { de: "Inhomogener Poisson-Prozess.", en: "Inhomogeneous Poisson process." } },
+    { word: "die Erneuerungstheorie", phonetic: "er-noy-e-rungs-tay-oh-ree", meaning: "renewal theory", gender: "die", example: { de: "Alternierungstheorie.", en: "Alternating renewal theory." } },
+    { word: "die Ergodizität", phonetic: "er-go-di-tsi-tayt", meaning: "ergodicity", gender: "die", example: { de: "Zeitliche Ergodizität.", en: "Temporal ergodicity." } },
+    { word: "die Stationarität", phonetic: "shta-tsee-oh-na-ri-tayt", meaning: "stationarity", gender: "die", example: { de: "Schwache Stationarität.", en: "Weak stationarity." } },
+    { word: "das Diffusionsmodell", phonetic: "di-foo-zee-ohns-mo-del", meaning: "diffusion model", gender: "das", example: { de: "Stochastisches Diffusionsmodell.", en: "Stochastic diffusion model." } },
+    { word: "die Filtration", phonetic: "fil-tra-tsee-ohn", meaning: "filtration (stochastic)", gender: "die", example: { de: "Natürliche Filtration.", en: "Natural filtration." } },
+    { word: "die Übergangsmatrix", phonetic: "ü-ber-gangs-ma-triks", meaning: "transition matrix", gender: "die", example: { de: "Stochastische Übergangsmatrix.", en: "Stochastic transition matrix." } },
+    { word: "die Autokorrelationsfunktion", phonetic: "ow-to-ko-re-la-tsee-ohns-funk-tsee-ohn", meaning: "autocorrelation function", gender: "die", example: { de: "Exponentielle Autokorrelationsfunktion.", en: "Exponential autocorrelation function." } },
+    { word: "die Lévy-Prozess", phonetic: "le-vee-pro-tses", meaning: "Lévy process", gender: "der", example: { de: "Stabiler Lévy-Prozess.", en: "Stable Lévy process." } },
+    { word: "die Feynman-Kac-Formel", phonetic: "fayn-man-kak-for-mel", meaning: "Feynman-Kac formula", gender: "die", example: { de: "Stochastische Feynman-Kac-Formel.", en: "Stochastic Feynman-Kac formula." } },
+    { word: "die Girsanov-Theorem", phonetic: "geer-za-nof-tay-oh-rem", meaning: "Girsanov theorem", gender: "das", example: { de: "Maßwechsel-Girsanov-Theorem.", en: "Measure-change Girsanov theorem." } },
+    { word: "die Große Abweichung", phonetic: "groh-suh ap-vy-khung", meaning: "large deviation", gender: "die", example: { de: "Sanov-Prinzip großer Abweichungen.", en: "Sanov large deviation principle." } },
+  ]}] },
+};

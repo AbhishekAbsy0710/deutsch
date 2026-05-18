@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega65: Record<string, Lesson> = {
+  "lb2_m110": { id: "lb2_m110", title: "Materials Science B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Materialwissenschaft", phonetic: "ma-te-ree-ahl-vi-sen-shaft", meaning: "materials science", gender: "die", example: { de: "Angewandte Materialwissenschaft.", en: "Applied materials science." } },
+    { word: "die Kristallstruktur", phonetic: "kris-tal-shtrook-toor", meaning: "crystal structure", gender: "die", example: { de: "Kubische Kristallstruktur.", en: "Cubic crystal structure." } },
+    { word: "die Legierung", phonetic: "le-gee-rung", meaning: "alloy", gender: "die", example: { de: "Aluminiumlegierung.", en: "Aluminum alloy." } },
+    { word: "die Polymere", phonetic: "po-lü-may-ruh", meaning: "polymers", example: { de: "Synthetische Polymere.", en: "Synthetic polymers." } },
+    { word: "die Keramik", phonetic: "ke-rah-mik", meaning: "ceramics", gender: "die", example: { de: "Technische Keramik.", en: "Technical ceramics." } },
+    { word: "die Nanomaterialien", phonetic: "na-no-ma-te-ree-ah-lee-en", meaning: "nanomaterials", example: { de: "Kohlenstoff-Nanomaterialien.", en: "Carbon nanomaterials." } },
+    { word: "die Korrosionsbeständigkeit", phonetic: "ko-ro-zee-ohns-beh-shten-dikh-kyte", meaning: "corrosion resistance", gender: "die", example: { de: "Hohe Korrosionsbeständigkeit.", en: "High corrosion resistance." } },
+    { word: "die Zugfestigkeit", phonetic: "tsook-fes-tikh-kyte", meaning: "tensile strength", gender: "die", example: { de: "Hohe Zugfestigkeit.", en: "High tensile strength." } },
+    { word: "die Elastizität", phonetic: "e-las-ti-tsi-tayt", meaning: "elasticity", gender: "die", example: { de: "Gummielastizität.", en: "Rubber elasticity." } },
+    { word: "die Sprödigkeit", phonetic: "shrö-dikh-kyte", meaning: "brittleness", gender: "die", example: { de: "Materialsprödigkeit.", en: "Material brittleness." } },
+    { word: "die Wärmeleitfähigkeit", phonetic: "vayr-muh-lyte-fay-ikh-kyte", meaning: "thermal conductivity", gender: "die", example: { de: "Hohe Wärmeleitfähigkeit.", en: "High thermal conductivity." } },
+    { word: "der Supraleiter", phonetic: "zoo-pra-ly-ter", meaning: "superconductor", gender: "der", example: { de: "Keramischer Supraleiter.", en: "Ceramic superconductor." } },
+    { word: "die Phasenumwandlung", phonetic: "fah-zen-oom-vand-lung", meaning: "phase transition", gender: "die", example: { de: "Martensitische Phasenumwandlung.", en: "Martensitic phase transition." } },
+    { word: "der Verbundwerkstoff", phonetic: "fer-boont-verk-shtof", meaning: "composite material", gender: "der", example: { de: "Faserverstärkter Verbundwerkstoff.", en: "Fiber-reinforced composite." } },
+    { word: "die Diffusion", phonetic: "di-foo-zee-ohn", meaning: "diffusion", gender: "die", example: { de: "Atomare Diffusion.", en: "Atomic diffusion." } },
+    { word: "die Versetzung", phonetic: "fer-ze-tsung", meaning: "dislocation (crystal)", gender: "die", example: { de: "Stufenversetzung.", en: "Edge dislocation." } },
+    { word: "die Härtung", phonetic: "hayr-tung", meaning: "hardening", gender: "die", example: { de: "Ausscheidungshärtung.", en: "Precipitation hardening." } },
+    { word: "die Biokompatibilität", phonetic: "bee-oh-kom-pa-ti-bi-li-tayt", meaning: "biocompatibility", gender: "die", example: { de: "Hohe Biokompatibilität.", en: "High biocompatibility." } },
+    { word: "die Additive Fertigung", phonetic: "a-di-tee-vuh fer-tee-gung", meaning: "additive manufacturing", example: { de: "Metallische additive Fertigung.", en: "Metallic additive manufacturing." } },
+    { word: "die Röntgenbeugung", phonetic: "rönt-gen-boy-gung", meaning: "X-ray diffraction", gender: "die", example: { de: "Pulver-Röntgenbeugung.", en: "Powder X-ray diffraction." } },
+  ]}] },
+};
