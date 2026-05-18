@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega72: Record<string, Lesson> = {
+  "la1_m122": { id: "la1_m122", title: "Time & Daily Routine A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Uhr", phonetic: "oor", meaning: "clock / watch", gender: "die", example: { de: "Wie viel Uhr ist es?", en: "What time is it?" } },
+    { word: "die Stunde", phonetic: "shtoon-duh", meaning: "hour", gender: "die", example: { de: "Eine Stunde warten.", en: "Wait one hour." } },
+    { word: "die Minute", phonetic: "mi-noo-tuh", meaning: "minute", gender: "die", example: { de: "Fünf Minuten.", en: "Five minutes." } },
+    { word: "die Sekunde", phonetic: "ze-koon-duh", meaning: "second", gender: "die", example: { de: "Zehn Sekunden.", en: "Ten seconds." } },
+    { word: "der Morgen", phonetic: "mor-gen", meaning: "morning", gender: "der", example: { de: "Guten Morgen!", en: "Good morning!" } },
+    { word: "der Mittag", phonetic: "mi-tahg", meaning: "midday / noon", gender: "der", example: { de: "Um Mittag essen.", en: "Eat at midday." } },
+    { word: "der Nachmittag", phonetic: "nakh-mi-tahg", meaning: "afternoon", gender: "der", example: { de: "Am Nachmittag lernen.", en: "Study in the afternoon." } },
+    { word: "der Abend", phonetic: "ah-bent", meaning: "evening", gender: "der", example: { de: "Guten Abend!", en: "Good evening!" } },
+    { word: "die Nacht", phonetic: "nakht", meaning: "night", gender: "die", example: { de: "Gute Nacht!", en: "Good night!" } },
+    { word: "aufstehen", phonetic: "owf-shtay-en", meaning: "to get up", example: { de: "Um sieben Uhr aufstehen.", en: "Get up at seven o'clock." } },
+    { word: "frühstücken", phonetic: "frü-shtü-ken", meaning: "to have breakfast", example: { de: "Um acht Uhr frühstücken.", en: "Have breakfast at eight o'clock." } },
+    { word: "schlafen gehen", phonetic: "shlah-fen-gay-en", meaning: "to go to sleep", example: { de: "Um zehn Uhr schlafen gehen.", en: "Go to sleep at ten o'clock." } },
+    { word: "früh", phonetic: "frü", meaning: "early", example: { de: "Früh aufstehen.", en: "Get up early." } },
+    { word: "spät", phonetic: "shpayt", meaning: "late", example: { de: "Zu spät kommen.", en: "Come too late." } },
+    { word: "pünktlich", phonetic: "pünkt-likh", meaning: "on time", example: { de: "Pünktlich sein.", en: "Be on time." } },
+    { word: "täglich", phonetic: "tayg-likh", meaning: "daily", example: { de: "Täglich trainieren.", en: "Train daily." } },
+    { word: "jetzt", phonetic: "yetst", meaning: "now", example: { de: "Was machen wir jetzt?", en: "What do we do now?" } },
+    { word: "später", phonetic: "shpay-ter", meaning: "later", example: { de: "Bis später!", en: "See you later!" } },
+    { word: "vorher", phonetic: "for-hayr", meaning: "before / previously", example: { de: "Vorher frühstücken.", en: "Have breakfast before." } },
+    { word: "nachher", phonetic: "nakh-hayr", meaning: "afterwards", example: { de: "Nachher einkaufen.", en: "Go shopping afterwards." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega69: Record<string, Lesson> = {
+  "lc2_m112": { id: "lc2_m112", title: "Advanced Category Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Kategorientheorie", phonetic: "ka-te-go-ree-en-tay-oh-ree", meaning: "category theory", gender: "die", example: { de: "Abstrakte Kategorientheorie.", en: "Abstract category theory." } },
+    { word: "der Funktor", phonetic: "funk-tor", meaning: "functor", gender: "der", example: { de: "Kontravarianter Funktor.", en: "Contravariant functor." } },
+    { word: "die natürliche Transformation", phonetic: "na-tür-li-khuh trans-for-ma-tsee-ohn", meaning: "natural transformation", gender: "die", example: { de: "Natürliche Transformation von Funktoren.", en: "Natural transformation of functors." } },
+    { word: "die Adjunktion", phonetic: "a-dyunk-tsee-ohn", meaning: "adjunction", gender: "die", example: { de: "Linke Adjunktion.", en: "Left adjunction." } },
+    { word: "der Limes", phonetic: "lee-mes", meaning: "limit (category theory)", gender: "der", example: { de: "Projektiver Limes.", en: "Projective limit." } },
+    { word: "der Kolimes", phonetic: "ko-lee-mes", meaning: "colimit", gender: "der", example: { de: "Induktiver Kolimes.", en: "Inductive colimit." } },
+    { word: "die Monaden", phonetic: "mo-nah-den", meaning: "monads (category theory)", example: { de: "Kleisli-Monaden.", en: "Kleisli monads." } },
+    { word: "die Topos", phonetic: "to-pos", meaning: "topos", gender: "der", example: { de: "Grothendieck-Topos.", en: "Grothendieck topos." } },
+    { word: "die ∞-Kategorie", phonetic: "in-fi-ni-tüms-ka-te-go-ree", meaning: "∞-category", gender: "die", example: { de: "Lurie-∞-Kategorie.", en: "Lurie ∞-category." } },
+    { word: "das Yoneda-Lemma", phonetic: "yo-ne-da-le-ma", meaning: "Yoneda lemma", gender: "das", example: { de: "Verallgemeinertes Yoneda-Lemma.", en: "Generalized Yoneda lemma." } },
+    { word: "die abgeleitete Kategorie", phonetic: "ap-geh-ly-te-tuh ka-te-go-ree", meaning: "derived category", gender: "die", example: { de: "Abgeleitete Kategorie von Garben.", en: "Derived category of sheaves." } },
+    { word: "die Triangulierte Kategorie", phonetic: "tree-an-goo-leer-tuh ka-te-go-ree", meaning: "triangulated category", gender: "die", example: { de: "Verdiers triangulierte Kategorie.", en: "Verdier triangulated category." } },
+    { word: "die Stabile ∞-Kategorie", phonetic: "shtah-bi-luh in-fi-ni-tüms-ka-te-go-ree", meaning: "stable ∞-category", gender: "die", example: { de: "Spektren stabile ∞-Kategorie.", en: "Spectra stable ∞-category." } },
+    { word: "der dg-Kategorie", phonetic: "day-gay-ka-te-go-ree", meaning: "dg-category", gender: "die", example: { de: "Prätriangulierte dg-Kategorie.", en: "Pre-triangulated dg-category." } },
+    { word: "die Komonade", phonetic: "ko-mo-nah-duh", meaning: "comonad", gender: "die", example: { de: "Kofreie Komonade.", en: "Cofree comonad." } },
+    { word: "die Enriched Category", phonetic: "en-rikht-ka-te-go-ree", meaning: "enriched category", gender: "die", example: { de: "Ab-angereicherte Kategorie.", en: "Ab-enriched category." } },
+    { word: "der 2-Funktor", phonetic: "tsvey-funk-tor", meaning: "2-functor", gender: "der", example: { de: "Strenger 2-Funktor.", en: "Strict 2-functor." } },
+    { word: "die Kan-Erweiterung", phonetic: "kan-er-vy-te-rung", meaning: "Kan extension", gender: "die", example: { de: "Linke Kan-Erweiterung.", en: "Left Kan extension." } },
+    { word: "das Beck-Chevalley-Bedingung", phonetic: "bek-she-va-lee-beh-ding-ung", meaning: "Beck-Chevalley condition", gender: "die", example: { de: "Korrekte Beck-Chevalley-Bedingung.", en: "Proper Beck-Chevalley condition." } },
+    { word: "die Univalenz-Axiom", phonetic: "oo-ni-va-lents-ak-see-ohm", meaning: "univalence axiom", gender: "das", example: { de: "Homotopietypen-Univalenz-Axiom.", en: "Homotopy type theory univalence axiom." } },
+  ]}] },
+};

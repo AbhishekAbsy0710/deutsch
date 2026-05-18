@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega73: Record<string, Lesson> = {
+  "lb1_m124": { id: "lb1_m124", title: "Technology & Digitalization B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Digitalisierung", phonetic: "di-gi-ta-li-zee-rung", meaning: "digitalization", gender: "die", example: { de: "Digitalisierung der Wirtschaft.", en: "Digitalization of the economy." } },
+    { word: "das Internet", phonetic: "in-ter-net", meaning: "internet", gender: "das", example: { de: "Schnelles Internet.", en: "Fast internet." } },
+    { word: "die App", phonetic: "ep", meaning: "app", gender: "die", example: { de: "Eine nützliche App.", en: "A useful app." } },
+    { word: "das Smartphone", phonetic: "shmart-fohn", meaning: "smartphone", gender: "das", example: { de: "Das Smartphone nutzen.", en: "Use the smartphone." } },
+    { word: "die Cloud", phonetic: "klowt", meaning: "cloud (computing)", gender: "die", example: { de: "Daten in der Cloud speichern.", en: "Store data in the cloud." } },
+    { word: "der Datenschutz", phonetic: "dah-ten-shoots", meaning: "data protection", gender: "der", example: { de: "Strenger Datenschutz.", en: "Strict data protection." } },
+    { word: "die Cybersicherheit", phonetic: "sy-ber-zi-kher-hyte", meaning: "cybersecurity", gender: "die", example: { de: "Verbesserte Cybersicherheit.", en: "Improved cybersecurity." } },
+    { word: "der Algorithmus", phonetic: "al-go-rit-mus", meaning: "algorithm", gender: "der", example: { de: "Soziale-Medien-Algorithmus.", en: "Social media algorithm." } },
+    { word: "die Plattform", phonetic: "plat-form", meaning: "platform (digital)", gender: "die", example: { de: "Online-Plattform nutzen.", en: "Use an online platform." } },
+    { word: "das Start-up", phonetic: "start-up", meaning: "startup", gender: "das", example: { de: "Ein Tech-Start-up gründen.", en: "Found a tech startup." } },
+    { word: "die Innovation", phonetic: "i-no-va-tsee-ohn", meaning: "innovation", gender: "die", example: { de: "Technologische Innovation.", en: "Technological innovation." } },
+    { word: "die Automatisierung", phonetic: "ow-to-ma-ti-zee-rung", meaning: "automation", gender: "die", example: { de: "Industrielle Automatisierung.", en: "Industrial automation." } },
+    { word: "das Passwort", phonetic: "pas-vort", meaning: "password", gender: "das", example: { de: "Ein sicheres Passwort.", en: "A secure password." } },
+    { word: "der Download", phonetic: "down-lohd", meaning: "download", gender: "der", example: { de: "Schneller Download.", en: "Fast download." } },
+    { word: "das Update", phonetic: "up-dayt", meaning: "update", gender: "das", example: { de: "Software-Update installieren.", en: "Install a software update." } },
+    { word: "die Künstliche Intelligenz", phonetic: "künst-li-khuh in-te-li-gents", meaning: "artificial intelligence", gender: "die", example: { de: "Angewandte künstliche Intelligenz.", en: "Applied artificial intelligence." } },
+    { word: "das Soziale Netzwerk", phonetic: "zo-tsee-ah-luh netz-verk", meaning: "social network", gender: "das", example: { de: "Soziale Netzwerke nutzen.", en: "Use social networks." } },
+    { word: "der Virus", phonetic: "vee-rus", meaning: "virus (computer)", gender: "der", example: { de: "Computervirus erkennen.", en: "Detect a computer virus." } },
+    { word: "streamen", phonetic: "stree-men", meaning: "to stream", example: { de: "Musik und Videos streamen.", en: "Stream music and videos." } },
+    { word: "die Programmierung", phonetic: "pro-gra-mee-rung", meaning: "programming", gender: "die", example: { de: "Programmierung lernen.", en: "Learn programming." } },
+  ]}] },
+};

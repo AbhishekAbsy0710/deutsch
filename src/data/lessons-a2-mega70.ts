@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega70: Record<string, Lesson> = {
+  "la2_m115": { id: "la2_m115", title: "City & Neighbourhood A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Stadt", phonetic: "shtat", meaning: "city / town", gender: "die", example: { de: "In der Stadt wohnen.", en: "Live in the city." } },
+    { word: "das Stadtzentrum", phonetic: "shtat-tsen-troom", meaning: "city centre", gender: "das", example: { de: "Das Stadtzentrum erkunden.", en: "Explore the city centre." } },
+    { word: "der Platz", phonetic: "plats", meaning: "square / place", gender: "der", example: { de: "Auf dem Marktplatz.", en: "On the market square." } },
+    { word: "die Straße", phonetic: "shtrah-suh", meaning: "street / road", gender: "die", example: { de: "Die Hauptstraße.", en: "The main street." } },
+    { word: "die Kreuzung", phonetic: "kroy-tsung", meaning: "intersection / crossroads", gender: "die", example: { de: "An der Kreuzung abbiegen.", en: "Turn at the intersection." } },
+    { word: "der Bürgersteig", phonetic: "bür-ger-shtyg", meaning: "pavement / sidewalk", gender: "der", example: { de: "Auf dem Bürgersteig gehen.", en: "Walk on the pavement." } },
+    { word: "die Ampel", phonetic: "am-pel", meaning: "traffic light", gender: "die", example: { de: "Bei Rot anhalten.", en: "Stop at red." } },
+    { word: "der Park", phonetic: "park", meaning: "park", gender: "der", example: { de: "Im Park spazieren gehen.", en: "Go for a walk in the park." } },
+    { word: "das Rathaus", phonetic: "raht-hows", meaning: "town hall", gender: "das", example: { de: "Das historische Rathaus.", en: "The historic town hall." } },
+    { word: "die Bibliothek", phonetic: "bi-bli-oh-tayk", meaning: "library", gender: "die", example: { de: "Bücher aus der Bibliothek ausleihen.", en: "Borrow books from the library." } },
+    { word: "das Museum", phonetic: "moo-zay-oom", meaning: "museum", gender: "das", example: { de: "Das Kunstmuseum besuchen.", en: "Visit the art museum." } },
+    { word: "das Kino", phonetic: "kee-no", meaning: "cinema", gender: "das", example: { de: "Ins Kino gehen.", en: "Go to the cinema." } },
+    { word: "das Theater", phonetic: "tay-ah-ter", meaning: "theatre", gender: "das", example: { de: "Eine Aufführung im Theater.", en: "A performance at the theatre." } },
+    { word: "der Supermarkt", phonetic: "zoo-per-markt", meaning: "supermarket", gender: "der", example: { de: "Im Supermarkt einkaufen.", en: "Shop at the supermarket." } },
+    { word: "die Post", phonetic: "post", meaning: "post office", gender: "die", example: { de: "Zur Post gehen.", en: "Go to the post office." } },
+    { word: "die Bank", phonetic: "bank", meaning: "bank", gender: "die", example: { de: "Zur Bank gehen.", en: "Go to the bank." } },
+    { word: "das Krankenhaus", phonetic: "kran-ken-hows", meaning: "hospital", gender: "das", example: { de: "In das Krankenhaus eingeliefert.", en: "Admitted to hospital." } },
+    { word: "die Polizei", phonetic: "po-li-tsye", meaning: "police", gender: "die", example: { de: "Die Polizei rufen.", en: "Call the police." } },
+    { word: "die Feuerwehr", phonetic: "foy-er-vayr", meaning: "fire brigade", gender: "die", example: { de: "Die Feuerwehr kommt.", en: "The fire brigade is coming." } },
+    { word: "der Nachbar", phonetic: "nakh-bar", meaning: "neighbour", gender: "der", example: { de: "Ein guter Nachbar.", en: "A good neighbour." } },
+  ]}] },
+};

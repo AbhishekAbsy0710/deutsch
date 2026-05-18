@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega71: Record<string, Lesson> = {
+  "lb2_m116": { id: "lb2_m116", title: "Organic Chemistry B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Organische Chemie", phonetic: "or-ga-ni-shuh khe-mee", meaning: "organic chemistry", gender: "die", example: { de: "Synthetische organische Chemie.", en: "Synthetic organic chemistry." } },
+    { word: "der Kohlenwasserstoff", phonetic: "koh-len-va-ser-shtof", meaning: "hydrocarbon", gender: "der", example: { de: "Aromatischer Kohlenwasserstoff.", en: "Aromatic hydrocarbon." } },
+    { word: "die funktionelle Gruppe", phonetic: "funk-tsee-oh-ne-luh groo-puh", meaning: "functional group", gender: "die", example: { de: "Reaktive funktionelle Gruppe.", en: "Reactive functional group." } },
+    { word: "das Isomer", phonetic: "ee-zo-mayr", meaning: "isomer", gender: "das", example: { de: "Stereoselektives Isomer.", en: "Stereoselective isomer." } },
+    { word: "die Stereochemie", phonetic: "shte-ray-oh-khe-mee", meaning: "stereochemistry", gender: "die", example: { de: "Konformationelle Stereochemie.", en: "Conformational stereochemistry." } },
+    { word: "die Reaktionsmechanismus", phonetic: "re-ak-tsee-ohns-me-kha-nis-mus", meaning: "reaction mechanism", gender: "der", example: { de: "SN2-Reaktionsmechanismus.", en: "SN2 reaction mechanism." } },
+    { word: "das Nukleophil", phonetic: "noo-kle-oh-feel", meaning: "nucleophile", gender: "das", example: { de: "Starkes Nukleophil.", en: "Strong nucleophile." } },
+    { word: "das Elektrophil", phonetic: "e-lek-tro-feel", meaning: "electrophile", gender: "das", example: { de: "Aromatisches Elektrophil.", en: "Aromatic electrophile." } },
+    { word: "die Oxidation", phonetic: "ok-si-da-tsee-ohn", meaning: "oxidation", gender: "die", example: { de: "Katalytische Oxidation.", en: "Catalytic oxidation." } },
+    { word: "die Reduktion", phonetic: "re-dook-tsee-ohn", meaning: "reduction (chemistry)", gender: "die", example: { de: "Asymmetrische Reduktion.", en: "Asymmetric reduction." } },
+    { word: "die Kondensation", phonetic: "kon-den-za-tsee-ohn", meaning: "condensation (reaction)", gender: "die", example: { de: "Aldol-Kondensation.", en: "Aldol condensation." } },
+    { word: "die Polymerisation", phonetic: "po-li-me-ri-za-tsee-ohn", meaning: "polymerisation", gender: "die", example: { de: "Radikalische Polymerisation.", en: "Radical polymerisation." } },
+    { word: "die Schutzgruppe", phonetic: "shoots-groo-puh", meaning: "protecting group", gender: "die", example: { de: "Temporäre Schutzgruppe.", en: "Temporary protecting group." } },
+    { word: "die Totalsynthese", phonetic: "to-tahl-zün-tay-zuh", meaning: "total synthesis", gender: "die", example: { de: "Asymmetrische Totalsynthese.", en: "Asymmetric total synthesis." } },
+    { word: "der Katalysator", phonetic: "ka-ta-lü-za-tor", meaning: "catalyst", gender: "der", example: { de: "Übergangsmetall-Katalysator.", en: "Transition metal catalyst." } },
+    { word: "die Retrosynthese", phonetic: "re-tro-zün-tay-zuh", meaning: "retrosynthesis", gender: "die", example: { de: "Corey Retrosynthese-Analyse.", en: "Corey retrosynthesis analysis." } },
+    { word: "die Click-Chemie", phonetic: "klik-khe-mee", meaning: "click chemistry", gender: "die", example: { de: "Bioorthogonale Click-Chemie.", en: "Bioorthogonal click chemistry." } },
+    { word: "die Grüne Chemie", phonetic: "grü-nuh khe-mee", meaning: "green chemistry", gender: "die", example: { de: "Prinzipien grüner Chemie.", en: "Principles of green chemistry." } },
+    { word: "die Spektroskopie", phonetic: "shpek-tro-sko-pee", meaning: "spectroscopy", gender: "die", example: { de: "NMR-Spektroskopie.", en: "NMR spectroscopy." } },
+    { word: "die Chromatographie", phonetic: "kro-ma-to-gra-fee", meaning: "chromatography", gender: "die", example: { de: "Hochleistungs-Flüssigchromatographie.", en: "High-performance liquid chromatography." } },
+  ]}] },
+};

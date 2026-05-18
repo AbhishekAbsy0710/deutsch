@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega71: Record<string, Lesson> = {
+  "lc1_m117": { id: "lc1_m117", title: "Advanced Philosophy of Mind C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Philosophie des Geistes", phonetic: "fi-lo-zo-fee-des-gys-tes", meaning: "philosophy of mind", gender: "die", example: { de: "Analytische Philosophie des Geistes.", en: "Analytic philosophy of mind." } },
+    { word: "das Leib-Seele-Problem", phonetic: "lyp-zay-luh-pro-blaym", meaning: "mind-body problem", gender: "das", example: { de: "Klassisches Leib-Seele-Problem.", en: "Classical mind-body problem." } },
+    { word: "der Dualismus", phonetic: "doo-a-lis-mus", meaning: "dualism", gender: "der", example: { de: "Cartesianischer Substanzdualismus.", en: "Cartesian substance dualism." } },
+    { word: "der Physikalismus", phonetic: "fü-zi-ka-lis-mus", meaning: "physicalism", gender: "der", example: { de: "Nichtreduktiver Physikalismus.", en: "Non-reductive physicalism." } },
+    { word: "die Qualia", phonetic: "kva-lee-a", meaning: "qualia", example: { de: "Phänomenale Qualia.", en: "Phenomenal qualia." } },
+    { word: "das schwierige Problem des Bewusstseins", phonetic: "shvee-ri-guh pro-blaym-des-beh-voost-zyns", meaning: "hard problem of consciousness", gender: "das", example: { de: "Chalmers schwieriges Problem des Bewusstseins.", en: "Chalmers hard problem of consciousness." } },
+    { word: "der Funktionalismus", phonetic: "funk-tsee-oh-na-lis-mus", meaning: "functionalism", gender: "der", example: { de: "Komputationaler Funktionalismus.", en: "Computational functionalism." } },
+    { word: "die Intentionalität", phonetic: "in-ten-tsee-oh-na-li-tayt", meaning: "intentionality", gender: "die", example: { de: "Brentanos Intentionalität.", en: "Brentano's intentionality." } },
+    { word: "das Epiphänomenalismus", phonetic: "e-pi-fay-no-me-na-lis-mus", meaning: "epiphenomenalism", gender: "der", example: { de: "Kausales Epiphänomenalismus.", en: "Causal epiphenomenalism." } },
+    { word: "der Eliminativismus", phonetic: "e-li-mi-na-ti-vis-mus", meaning: "eliminativism", gender: "der", example: { de: "Churchlands Eliminativismus.", en: "Churchland's eliminativism." } },
+    { word: "das Zombie-Argument", phonetic: "tsomm-bee-ar-gu-ment", meaning: "zombie argument", gender: "das", example: { de: "Philosophisches Zombie-Argument.", en: "Philosophical zombie argument." } },
+    { word: "die Supervenienz", phonetic: "zoo-per-ve-nee-ents", meaning: "supervenience", gender: "die", example: { de: "Globale Supervenienz.", en: "Global supervenience." } },
+    { word: "die Emergenz", phonetic: "e-mer-gents", meaning: "emergence", gender: "die", example: { de: "Starke Emergenz.", en: "Strong emergence." } },
+    { word: "die Phänomenologie", phonetic: "fay-no-me-no-lo-gee", meaning: "phenomenology", gender: "die", example: { de: "Husserlsche Phänomenologie.", en: "Husserlian phenomenology." } },
+    { word: "die Intersubjektivität", phonetic: "in-ter-zoob-jek-ti-vi-tayt", meaning: "intersubjectivity", gender: "die", example: { de: "Transzendentale Intersubjektivität.", en: "Transcendental intersubjectivity." } },
+    { word: "das Freie Wille", phonetic: "fry-uh vi-luh", meaning: "free will", gender: "der", example: { de: "Kompatibilistischer freier Wille.", en: "Compatibilist free will." } },
+    { word: "der Determinismus", phonetic: "de-ter-mi-nis-mus", meaning: "determinism", gender: "der", example: { de: "Kausaler Determinismus.", en: "Causal determinism." } },
+    { word: "die Kognitive Wissenschaft", phonetic: "kog-ni-tee-vuh vi-sen-shaft", meaning: "cognitive science (of mind)", gender: "die", example: { de: "Interdisziplinäre kognitive Wissenschaft.", en: "Interdisciplinary cognitive science." } },
+    { word: "der mentale Inhalt", phonetic: "men-tah-luh in-halt", meaning: "mental content", gender: "der", example: { de: "Breiter mentaler Inhalt.", en: "Wide mental content." } },
+    { word: "die Selbstreferenz", phonetic: "zelpst-re-fe-rents", meaning: "self-reference", gender: "die", example: { de: "Gödelsche Selbstreferenz.", en: "Gödelian self-reference." } },
+  ]}] },
+};
