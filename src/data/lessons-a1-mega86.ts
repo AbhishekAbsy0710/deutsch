@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega86: Record<string, Lesson> = {
+  "la1_m136": { id: "la1_m136", title: "Daily Routine A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "aufstehen", phonetic: "owf-shtay-en", meaning: "to get up", example: { de: "Um sieben Uhr aufstehen.", en: "Get up at seven o'clock." } },
+    { word: "sich waschen", phonetic: "zikh-va-shen", meaning: "to wash oneself", example: { de: "Sich morgens waschen.", en: "Wash oneself in the morning." } },
+    { word: "sich anziehen", phonetic: "zikh-an-tsee-en", meaning: "to get dressed", example: { de: "Sich schnell anziehen.", en: "Get dressed quickly." } },
+    { word: "frühstücken", phonetic: "frü-shtü-ken", meaning: "to have breakfast", example: { de: "Um acht Uhr frühstücken.", en: "Have breakfast at eight o'clock." } },
+    { word: "die Schule gehen", phonetic: "dee shoo-luh gay-en", meaning: "go to school", example: { de: "In die Schule gehen.", en: "Go to school." } },
+    { word: "zur Arbeit fahren", phonetic: "tsoor ar-byt fah-ren", meaning: "commute to work", example: { de: "Mit dem Bus zur Arbeit fahren.", en: "Take the bus to work." } },
+    { word: "Mittagessen", phonetic: "mi-tahg-e-sen", meaning: "to have lunch / lunch", example: { de: "Um zwölf Uhr Mittagessen.", en: "Have lunch at twelve o'clock." } },
+    { word: "Pause machen", phonetic: "pow-zuh-ma-khen", meaning: "to take a break", example: { de: "Kurze Pause machen.", en: "Take a short break." } },
+    { word: "nachhause gehen", phonetic: "nakh-how-zuh-gay-en", meaning: "to go home", example: { de: "Abends nachhause gehen.", en: "Go home in the evening." } },
+    { word: "Abendessen", phonetic: "ah-bent-e-sen", meaning: "to have dinner / dinner", example: { de: "Um sechs Uhr Abendessen.", en: "Have dinner at six o'clock." } },
+    { word: "fernsehen", phonetic: "fern-zay-en", meaning: "to watch TV", example: { de: "Abends fernsehen.", en: "Watch TV in the evening." } },
+    { word: "lesen", phonetic: "lay-zen", meaning: "to read", example: { de: "Vor dem Schlafen lesen.", en: "Read before sleeping." } },
+    { word: "ins Bett gehen", phonetic: "ins-bet-gay-en", meaning: "to go to bed", example: { de: "Um zehn Uhr ins Bett gehen.", en: "Go to bed at ten o'clock." } },
+    { word: "schlafen", phonetic: "shlah-fen", meaning: "to sleep", example: { de: "Gut schlafen.", en: "Sleep well." } },
+    { word: "der Wecker", phonetic: "ve-ker", meaning: "alarm clock", gender: "der", example: { de: "Den Wecker stellen.", en: "Set the alarm clock." } },
+    { word: "morgens", phonetic: "mor-gens", meaning: "in the morning", example: { de: "Morgens früh aufstehen.", en: "Get up early in the morning." } },
+    { word: "mittags", phonetic: "mi-tahgs", meaning: "at midday / at noon", example: { de: "Mittags essen.", en: "Eat at midday." } },
+    { word: "abends", phonetic: "ah-bents", meaning: "in the evening", example: { de: "Abends entspannen.", en: "Relax in the evening." } },
+    { word: "nachts", phonetic: "nakhts", meaning: "at night", example: { de: "Nachts schlafen.", en: "Sleep at night." } },
+    { word: "täglich", phonetic: "tek-likh", meaning: "daily / every day", example: { de: "Täglich Sport treiben.", en: "Do sport every day." } },
+  ]}] },
+};

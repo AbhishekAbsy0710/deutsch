@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega82: Record<string, Lesson> = {
+  "lc2_m125": { id: "lc2_m125", title: "Advanced Algebraic Geometry C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die algebraische Geometrie", phonetic: "al-ge-bra-i-shuh ge-oh-me-tree", meaning: "algebraic geometry", gender: "die", example: { de: "Moderne algebraische Geometrie.", en: "Modern algebraic geometry." } },
+    { word: "das Schema (algebraisch)", phonetic: "shay-ma", meaning: "scheme (algebraic geometry)", gender: "das", example: { de: "Affines Schema.", en: "Affine scheme." } },
+    { word: "das Spektrum (Ring)", phonetic: "shpek-trum", meaning: "spectrum of a ring (Spec)", gender: "das", example: { de: "Primspektrum eines Rings.", en: "Prime spectrum of a ring." } },
+    { word: "die Varietät", phonetic: "va-ri-e-tayt", meaning: "variety (algebraic)", gender: "die", example: { de: "Algebraische Varietät.", en: "Algebraic variety." } },
+    { word: "der Morphismus (Schemata)", phonetic: "mor-fis-mus", meaning: "morphism (of schemes)", gender: "der", example: { de: "Flacher Morphismus.", en: "Flat morphism." } },
+    { word: "die Garbe", phonetic: "gar-buh", meaning: "sheaf", gender: "die", example: { de: "Kohärente Garbe.", en: "Coherent sheaf." } },
+    { word: "die Kohomologie (alg. Geom.)", phonetic: "ko-ho-mo-lo-gee", meaning: "cohomology (algebraic geometry)", gender: "die", example: { de: "Étale Kohomologie.", en: "Étale cohomology." } },
+    { word: "der l-adische Kohomologie", phonetic: "el-ah-di-shuh ko-ho-mo-lo-gee", meaning: "l-adic cohomology", gender: "die", example: { de: "Deligne l-adische Kohomologie.", en: "Deligne l-adic cohomology." } },
+    { word: "der Divisor (Geometrie)", phonetic: "di-vi-zor", meaning: "divisor (algebraic geometry)", gender: "der", example: { de: "Cartier-Divisor.", en: "Cartier divisor." } },
+    { word: "das Geradenbündel", phonetic: "ge-rah-den-bün-del", meaning: "line bundle", gender: "das", example: { de: "Tautologisches Geradenbündel.", en: "Tautological line bundle." } },
+    { word: "der Chern-Charakter", phonetic: "tshern-kha-rak-ter", meaning: "Chern character", gender: "der", example: { de: "Topologischer Chern-Charakter.", en: "Topological Chern character." } },
+    { word: "die Chern-Klasse", phonetic: "tshern-kla-suh", meaning: "Chern class", gender: "die", example: { de: "Erste Chern-Klasse.", en: "First Chern class." } },
+    { word: "die elliptische Kurve", phonetic: "e-lip-ti-shuh koor-vuh", meaning: "elliptic curve", gender: "die", example: { de: "Weierstraß-elliptische Kurve.", en: "Weierstrass elliptic curve." } },
+    { word: "die abelschen Varietät", phonetic: "ah-bel-shuh va-ri-e-tayt", meaning: "abelian variety", gender: "die", example: { de: "Prinzipalpolarisierte abelsche Varietät.", en: "Principally polarised abelian variety." } },
+    { word: "der Modulraum", phonetic: "mo-dool-rowm", meaning: "moduli space", gender: "der", example: { de: "Gromov-Witten-Modulraum.", en: "Gromov-Witten moduli space." } },
+    { word: "die étale Topologie", phonetic: "ay-tahl-toh-po-lo-gee", meaning: "étale topology", gender: "die", example: { de: "Grothendieck-étale Topologie.", en: "Grothendieck étale topology." } },
+    { word: "der Topos (Grothendieck)", phonetic: "toh-pos", meaning: "topos (Grothendieck)", gender: "der", example: { de: "Grothendieck-Topos.", en: "Grothendieck topos." } },
+    { word: "das motivische Kohomologie", phonetic: "mo-ti-vi-shuh ko-ho-mo-lo-gee", meaning: "motivic cohomology", gender: "die", example: { de: "Voevodsky motivische Kohomologie.", en: "Voevodsky motivic cohomology." } },
+    { word: "die Weil-Vermutungen", phonetic: "vayl-fer-moo-tun-gen", meaning: "Weil conjectures", example: { de: "Deligne Weil-Vermutungen.", en: "Deligne Weil conjectures." } },
+    { word: "das Langlands-Programm", phonetic: "lang-lands-pro-gram", meaning: "Langlands program", gender: "das", example: { de: "Geometrisches Langlands-Programm.", en: "Geometric Langlands program." } },
+  ]}] },
+};

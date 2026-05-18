@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega85: Record<string, Lesson> = {
+  "lc1_m131": { id: "lc1_m131", title: "Advanced Semiotics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Semiotik", phonetic: "ze-mi-oh-tik", meaning: "semiotics", gender: "die", example: { de: "Strukturale Semiotik.", en: "Structural semiotics." } },
+    { word: "das Zeichen", phonetic: "tsay-khen", meaning: "sign (semiotics)", gender: "das", example: { de: "Saussuresches Zeichen.", en: "Saussurean sign." } },
+    { word: "der Signifikant", phonetic: "zig-ni-fi-kant", meaning: "signifier", gender: "der", example: { de: "Lautlicher Signifikant.", en: "Acoustic signifier." } },
+    { word: "das Signifikat", phonetic: "zig-ni-fi-kaht", meaning: "signified", gender: "das", example: { de: "Mentales Signifikat.", en: "Mental signified." } },
+    { word: "das Referent", phonetic: "re-fe-rent", meaning: "referent (semiotics)", gender: "das", example: { de: "Außersprachliches Referent.", en: "Extralinguistic referent." } },
+    { word: "die Denotation", phonetic: "de-no-ta-tsee-ohn", meaning: "denotation", gender: "die", example: { de: "Wörtliche Denotation.", en: "Literal denotation." } },
+    { word: "die Konnotation", phonetic: "ko-no-ta-tsee-ohn", meaning: "connotation", gender: "die", example: { de: "Kulturelle Konnotation.", en: "Cultural connotation." } },
+    { word: "der Index (Peirce)", phonetic: "in-deks", meaning: "index (Peirce)", gender: "der", example: { de: "Kausaler Index.", en: "Causal index." } },
+    { word: "das Symbol (Semiotik)", phonetic: "zim-bol", meaning: "symbol (semiotics)", gender: "das", example: { de: "Konventionelles Symbol.", en: "Conventional symbol." } },
+    { word: "das Ikon (Semiotik)", phonetic: "i-kon", meaning: "icon (Peirce)", gender: "das", example: { de: "Ähnlichkeitbasiertes Ikon.", en: "Similarity-based icon." } },
+    { word: "der Code (Semiotik)", phonetic: "koht", meaning: "code (semiotics)", gender: "der", example: { de: "Kultureller semiotischer Code.", en: "Cultural semiotic code." } },
+    { word: "die Paradigma", phonetic: "pa-ra-dig-ma", meaning: "paradigm (semiotics)", gender: "das", example: { de: "Syntagma und Paradigma.", en: "Syntagm and paradigm." } },
+    { word: "das Syntagma", phonetic: "zün-tag-ma", meaning: "syntagm", gender: "das", example: { de: "Horizontales Syntagma.", en: "Horizontal syntagm." } },
+    { word: "die Intertextualität", phonetic: "in-ter-teks-too-a-li-tayt", meaning: "intertextuality", gender: "die", example: { de: "Kristeva-Intertextualität.", en: "Kristeva intertextuality." } },
+    { word: "das Mythos (Barthes)", phonetic: "mü-tos", meaning: "myth (Barthes)", gender: "der", example: { de: "Barthes'scher Mythos.", en: "Barthes' myth." } },
+    { word: "die Isotopie", phonetic: "i-zo-to-pee", meaning: "isotopy (semiotics)", gender: "die", example: { de: "Semantische Isotopie.", en: "Semantic isotopy." } },
+    { word: "die Deixis", phonetic: "dayk-sis", meaning: "deixis", gender: "die", example: { de: "Temporale Deixis.", en: "Temporal deixis." } },
+    { word: "der Diskurs (Semiotik)", phonetic: "dis-koors", meaning: "discourse (semiotics)", gender: "der", example: { de: "Foucault-Diskurs.", en: "Foucault discourse." } },
+    { word: "die Polysemie", phonetic: "po-li-ze-mee", meaning: "polysemy", gender: "die", example: { de: "Lexikalische Polysemie.", en: "Lexical polysemy." } },
+    { word: "die Bedeutungsverschiebung", phonetic: "beh-doy-tungs-fer-shee-bung", meaning: "semantic shift", gender: "die", example: { de: "Historische Bedeutungsverschiebung.", en: "Historical semantic shift." } },
+  ]}] },
+};

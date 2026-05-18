@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega85: Record<string, Lesson> = {
+  "lb2_m130": { id: "lb2_m130", title: "Optics & Photonics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Optik", phonetic: "op-tik", meaning: "optics", gender: "die", example: { de: "Wellenoptik.", en: "Wave optics." } },
+    { word: "die Photonik", phonetic: "fo-toh-nik", meaning: "photonics", gender: "die", example: { de: "Integrierte Photonik.", en: "Integrated photonics." } },
+    { word: "das Photon", phonetic: "fo-ton", meaning: "photon", gender: "das", example: { de: "Einzel-Photon-Detektion.", en: "Single-photon detection." } },
+    { word: "die Wellenlänge", phonetic: "ve-len-len-guh", meaning: "wavelength", gender: "die", example: { de: "Sichtbare Wellenlänge.", en: "Visible wavelength." } },
+    { word: "die Frequenz (Licht)", phonetic: "fre-kvents", meaning: "frequency (light)", gender: "die", example: { de: "Lichtfrequenz.", en: "Light frequency." } },
+    { word: "die Intensität (Licht)", phonetic: "in-ten-zi-tayt", meaning: "intensity (light)", gender: "die", example: { de: "Strahlungsintensität.", en: "Radiation intensity." } },
+    { word: "die Interferenz", phonetic: "in-ter-fe-rents", meaning: "interference", gender: "die", example: { de: "Konstruktive Interferenz.", en: "Constructive interference." } },
+    { word: "die Kohärenz", phonetic: "ko-hay-rents", meaning: "coherence (light)", gender: "die", example: { de: "Temporale Kohärenz.", en: "Temporal coherence." } },
+    { word: "der Laser", phonetic: "lay-zer", meaning: "laser", gender: "der", example: { de: "Ultrakurzer Laser.", en: "Ultrashort laser." } },
+    { word: "die Modenoptik", phonetic: "moh-den-op-tik", meaning: "mode optics (fiber)", gender: "die", example: { de: "Einkernige Modenoptik.", en: "Single-mode fiber optics." } },
+    { word: "das Hologramm", phonetic: "ho-lo-gram", meaning: "hologram", gender: "das", example: { de: "Digitales Hologramm.", en: "Digital hologram." } },
+    { word: "die Strahlungsoptik", phonetic: "shtrah-lungs-op-tik", meaning: "geometrical optics", gender: "die", example: { de: "Strahlenoptisches Modell.", en: "Geometrical optics model." } },
+    { word: "die Dispersion (Optik)", phonetic: "dis-per-zee-ohn", meaning: "dispersion (optics)", gender: "die", example: { de: "Chromatische Dispersion.", en: "Chromatic dispersion." } },
+    { word: "die Totalreflexion", phonetic: "to-tahl-re-flek-see-ohn", meaning: "total internal reflection", gender: "die", example: { de: "Kritischer Winkel Totalreflexion.", en: "Critical angle total internal reflection." } },
+    { word: "die Lichtwellenleiter", phonetic: "likht-ve-len-ly-ter", meaning: "optical fibre", example: { de: "Glasfaser-Lichtwellenleiter.", en: "Glass fibre optical fibre." } },
+    { word: "das nichtlineare optische Phänomen", phonetic: "nikht-li-ne-ah-ruh op-ti-shuh fä-no-men", meaning: "nonlinear optical phenomenon", gender: "das", example: { de: "Kerr-nichtlineares optisches Phänomen.", en: "Kerr nonlinear optical phenomenon." } },
+    { word: "die Quantenoptik", phonetic: "kvan-ten-op-tik", meaning: "quantum optics", gender: "die", example: { de: "Cavity-Quantenoptik.", en: "Cavity quantum optics." } },
+    { word: "die Verschränkung (Photon)", phonetic: "fer-shren-kung", meaning: "entanglement (photon)", gender: "die", example: { de: "Polarisationsverschränkung.", en: "Polarisation entanglement." } },
+    { word: "das Spektrometer", phonetic: "shpek-tro-may-ter", meaning: "spectrometer", gender: "das", example: { de: "Fourier-Spektrometer.", en: "Fourier spectrometer." } },
+    { word: "die Bildgebung (optisch)", phonetic: "bilt-gay-bung", meaning: "imaging (optical)", gender: "die", example: { de: "Superauflösende optische Bildgebung.", en: "Super-resolution optical imaging." } },
+  ]}] },
+};

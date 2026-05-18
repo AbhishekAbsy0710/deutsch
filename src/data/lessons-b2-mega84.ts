@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega84: Record<string, Lesson> = {
+  "lb2_m129": { id: "lb2_m129", title: "Relativity Theory B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Relativitätstheorie", phonetic: "re-la-ti-vi-tayts-tay-oh-ree", meaning: "theory of relativity", gender: "die", example: { de: "Allgemeine Relativitätstheorie.", en: "General theory of relativity." } },
+    { word: "die Raumzeit", phonetic: "rowm-tsyte", meaning: "spacetime", gender: "die", example: { de: "Vierdimensionale Raumzeit.", en: "Four-dimensional spacetime." } },
+    { word: "die Raumzeitkrümmung", phonetic: "rowm-tsyte-krü-mung", meaning: "spacetime curvature", gender: "die", example: { de: "Gravitationsbedingte Raumzeitkrümmung.", en: "Gravity-induced spacetime curvature." } },
+    { word: "die Lorentz-Transformation", phonetic: "lo-rents-trans-for-ma-tsee-ohn", meaning: "Lorentz transformation", gender: "die", example: { de: "Relativistische Lorentz-Transformation.", en: "Relativistic Lorentz transformation." } },
+    { word: "die Zeitdilatation", phonetic: "tsyte-di-la-ta-tsee-ohn", meaning: "time dilation", gender: "die", example: { de: "Relativistische Zeitdilatation.", en: "Relativistic time dilation." } },
+    { word: "die Längenkontraktion", phonetic: "len-gen-kon-trak-tsee-ohn", meaning: "length contraction", gender: "die", example: { de: "Lorentz-Längenkontraktion.", en: "Lorentz length contraction." } },
+    { word: "das Äquivalenzprinzip", phonetic: "ey-kvi-va-lents-prin-tsip", meaning: "equivalence principle", gender: "das", example: { de: "Einsteins Äquivalenzprinzip.", en: "Einstein's equivalence principle." } },
+    { word: "der Geodät", phonetic: "ge-oh-dayt", meaning: "geodesic", gender: "die", example: { de: "Lichtgeodesät in der Raumzeit.", en: "Light geodesic in spacetime." } },
+    { word: "die Einstein-Feldgleichungen", phonetic: "ayn-shtayn-felt-gly-khun-gen", meaning: "Einstein field equations", example: { de: "Nichtlineare Einstein-Feldgleichungen.", en: "Nonlinear Einstein field equations." } },
+    { word: "das schwarze Loch", phonetic: "shvar-tsuh lokh", meaning: "black hole", gender: "das", example: { de: "Supermassives schwarzes Loch.", en: "Supermassive black hole." } },
+    { word: "der Ereignishorizont", phonetic: "er-ayg-nis-hoh-ri-tsont", meaning: "event horizon", gender: "der", example: { de: "Schwarzschildscher Ereignishorizont.", en: "Schwarzschild event horizon." } },
+    { word: "die Hawking-Strahlung", phonetic: "ho-king-shtrah-lung", meaning: "Hawking radiation", gender: "die", example: { de: "Thermische Hawking-Strahlung.", en: "Thermal Hawking radiation." } },
+    { word: "die Gravitationswellen", phonetic: "gra-vi-ta-tsee-ohns-ve-len", meaning: "gravitational waves", example: { de: "LIGO-Gravitationswellen.", en: "LIGO gravitational waves." } },
+    { word: "die Gravitationslinse", phonetic: "gra-vi-ta-tsee-ohns-lin-zuh", meaning: "gravitational lensing", gender: "die", example: { de: "Schwache Gravitationslinse.", en: "Weak gravitational lensing." } },
+    { word: "die kosmologische Konstante", phonetic: "kos-mo-lo-gi-shuh kon-stan-tuh", meaning: "cosmological constant (Λ)", gender: "die", example: { de: "Dunkle Energie kosmologische Konstante.", en: "Dark energy cosmological constant." } },
+    { word: "der Minkowski-Raum", phonetic: "min-kov-ski-rowm", meaning: "Minkowski space", gender: "der", example: { de: "Flacher Minkowski-Raum.", en: "Flat Minkowski space." } },
+    { word: "der Tensor", phonetic: "ten-zor", meaning: "tensor (relativity)", gender: "der", example: { de: "Metrischer Tensor.", en: "Metric tensor." } },
+    { word: "der Christoffel-Symbol", phonetic: "kris-to-fel-zim-bol", meaning: "Christoffel symbol", gender: "das", example: { de: "Affine Christoffel-Symbole.", en: "Affine Christoffel symbols." } },
+    { word: "die Singularität", phonetic: "zin-goo-la-ri-tayt", meaning: "singularity (physics)", gender: "die", example: { de: "Raumzeitliche Singularität.", en: "Spacetime singularity." } },
+    { word: "das Urknall-Modell", phonetic: "oor-knal-mo-del", meaning: "Big Bang model", gender: "das", example: { de: "Standardkosmologisches Urknall-Modell.", en: "Standard cosmological Big Bang model." } },
+  ]}] },
+};

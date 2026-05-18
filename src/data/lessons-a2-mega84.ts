@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega84: Record<string, Lesson> = {
+  "la2_m129": { id: "la2_m129", title: "Nature & Environment A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Natur", phonetic: "na-toor", meaning: "nature", gender: "die", example: { de: "In der Natur spazieren.", en: "Walk in nature." } },
+    { word: "der Wald", phonetic: "valt", meaning: "forest / wood", gender: "der", example: { de: "Im Wald spazieren gehen.", en: "Walk in the forest." } },
+    { word: "der Fluss", phonetic: "floos", meaning: "river", gender: "der", example: { de: "Am Fluss sitzen.", en: "Sit by the river." } },
+    { word: "der See", phonetic: "zay", meaning: "lake", gender: "der", example: { de: "Am See schwimmen.", en: "Swim at the lake." } },
+    { word: "der Berg", phonetic: "berk", meaning: "mountain", gender: "der", example: { de: "Den Berg besteigen.", en: "Climb the mountain." } },
+    { word: "die Wiese", phonetic: "vee-zuh", meaning: "meadow", gender: "die", example: { de: "Auf der Wiese liegen.", en: "Lie on the meadow." } },
+    { word: "die Pflanze", phonetic: "pflan-tsuh", meaning: "plant", gender: "die", example: { de: "Pflanzen gießen.", en: "Water plants." } },
+    { word: "der Baum", phonetic: "bowm", meaning: "tree", gender: "der", example: { de: "Einen Baum pflanzen.", en: "Plant a tree." } },
+    { word: "die Blume", phonetic: "bloo-muh", meaning: "flower", gender: "die", example: { de: "Bunte Blumen.", en: "Colourful flowers." } },
+    { word: "das Tier", phonetic: "teer", meaning: "animal", gender: "das", example: { de: "Wilde Tiere.", en: "Wild animals." } },
+    { word: "der Vogel", phonetic: "foh-gel", meaning: "bird", gender: "der", example: { de: "Vögel singen.", en: "Birds sing." } },
+    { word: "der Umweltschutz", phonetic: "oom-velt-shoots", meaning: "environmental protection", gender: "der", example: { de: "Umweltschutz betreiben.", en: "Practise environmental protection." } },
+    { word: "recyceln", phonetic: "re-sü-keln", meaning: "to recycle", example: { de: "Müll recyceln.", en: "Recycle rubbish." } },
+    { word: "die Energie sparen", phonetic: "dee-e-ner-gee-shpah-ren", meaning: "save energy", example: { de: "Energie sparen.", en: "Save energy." } },
+    { word: "der Klimawandel", phonetic: "klee-ma-van-del", meaning: "climate change", gender: "der", example: { de: "Den Klimawandel bekämpfen.", en: "Fight climate change." } },
+    { word: "die Verschmutzung", phonetic: "fer-shmoo-tsung", meaning: "pollution", gender: "die", example: { de: "Luftverschmutzung.", en: "Air pollution." } },
+    { word: "erneuerbar", phonetic: "er-noy-er-bar", meaning: "renewable", example: { de: "Erneuerbare Energie.", en: "Renewable energy." } },
+    { word: "der Mülleimer", phonetic: "mül-eye-mer", meaning: "rubbish bin", gender: "der", example: { de: "In den Mülleimer werfen.", en: "Throw in the rubbish bin." } },
+    { word: "organisch", phonetic: "or-gah-nish", meaning: "organic", example: { de: "Organische Lebensmittel.", en: "Organic food." } },
+    { word: "nachhaltig", phonetic: "nakh-hal-tikh", meaning: "sustainable", example: { de: "Nachhaltig leben.", en: "Live sustainably." } },
+  ]}] },
+};

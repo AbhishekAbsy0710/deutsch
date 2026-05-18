@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega84: Record<string, Lesson> = {
+  "lc1_m130": { id: "lc1_m130", title: "Advanced Rhetoric & Argumentation C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Rhetorik", phonetic: "ray-toh-rik", meaning: "rhetoric", gender: "die", example: { de: "Klassische Rhetorik.", en: "Classical rhetoric." } },
+    { word: "die Argumentation", phonetic: "ar-goo-men-ta-tsee-ohn", meaning: "argumentation", gender: "die", example: { de: "Logische Argumentation.", en: "Logical argumentation." } },
+    { word: "das Argument", phonetic: "ar-goo-ment", meaning: "argument", gender: "das", example: { de: "Schlagendes Argument.", en: "Compelling argument." } },
+    { word: "die These", phonetic: "tay-zuh", meaning: "thesis / proposition", gender: "die", example: { de: "Kontroverse These.", en: "Controversial thesis." } },
+    { word: "das Gegenargument", phonetic: "gay-gen-ar-goo-ment", meaning: "counter-argument", gender: "das", example: { de: "Stichhaltige Gegenargument.", en: "Valid counter-argument." } },
+    { word: "die Prämisse", phonetic: "prä-mi-suh", meaning: "premise", gender: "die", example: { de: "Falsche Prämisse.", en: "False premise." } },
+    { word: "der Schluss (logisch)", phonetic: "shloos", meaning: "conclusion (logical)", gender: "der", example: { de: "Gültiger logischer Schluss.", en: "Valid logical conclusion." } },
+    { word: "der Trugschluss", phonetic: "trook-shloos", meaning: "fallacy", gender: "der", example: { de: "Ad-hominem-Trugschluss.", en: "Ad hominem fallacy." } },
+    { word: "die Überzeugungskraft", phonetic: "ü-ber-tsoy-gungs-kraft", meaning: "persuasive power", gender: "die", example: { de: "Rhetorische Überzeugungskraft.", en: "Rhetorical persuasive power." } },
+    { word: "das Ethos", phonetic: "ay-tos", meaning: "ethos (credibility)", gender: "das", example: { de: "Rednerisches Ethos.", en: "Speaker's ethos." } },
+    { word: "das Pathos", phonetic: "pah-tos", meaning: "pathos (emotion)", gender: "das", example: { de: "Emotionales Pathos.", en: "Emotional pathos." } },
+    { word: "der Logos", phonetic: "lo-gos", meaning: "logos (logic)", gender: "der", example: { de: "Logischer Logos.", en: "Logical logos." } },
+    { word: "die Dialektik", phonetic: "di-a-lek-tik", meaning: "dialectic", gender: "die", example: { de: "Hegelsche Dialektik.", en: "Hegelian dialectic." } },
+    { word: "die Syllogismus", phonetic: "zü-lo-gis-mus", meaning: "syllogism", gender: "der", example: { de: "Aristotelischer Syllogismus.", en: "Aristotelian syllogism." } },
+    { word: "die deduktive Argumentation", phonetic: "de-dook-tee-vuh ar-goo-men-ta-tsee-ohn", meaning: "deductive argumentation", gender: "die", example: { de: "Schlüssige deduktive Argumentation.", en: "Sound deductive argumentation." } },
+    { word: "die induktive Argumentation", phonetic: "in-dook-tee-vuh ar-goo-men-ta-tsee-ohn", meaning: "inductive argumentation", gender: "die", example: { de: "Starke induktive Argumentation.", en: "Strong inductive argumentation." } },
+    { word: "die Analogie (Argument)", phonetic: "a-na-lo-gee", meaning: "analogy (argument)", gender: "die", example: { de: "Argumentative Analogie.", en: "Argumentative analogy." } },
+    { word: "die Widerlegung", phonetic: "vi-der-lay-gung", meaning: "refutation", gender: "die", example: { de: "Schlüssige Widerlegung.", en: "Sound refutation." } },
+    { word: "der Konsens", phonetic: "kon-zens", meaning: "consensus", gender: "der", example: { de: "Wissenschaftlicher Konsens.", en: "Scientific consensus." } },
+    { word: "die Beweislast", phonetic: "beh-vys-last", meaning: "burden of proof", gender: "die", example: { de: "Beweislast tragen.", en: "Bear the burden of proof." } },
+  ]}] },
+};

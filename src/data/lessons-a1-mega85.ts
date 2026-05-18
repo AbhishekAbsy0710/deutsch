@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega85: Record<string, Lesson> = {
+  "la1_m135": { id: "la1_m135", title: "Food & Drink Basics A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Brot", phonetic: "broht", meaning: "bread", gender: "das", example: { de: "Frisches Brot essen.", en: "Eat fresh bread." } },
+    { word: "die Butter", phonetic: "boo-ter", meaning: "butter", gender: "die", example: { de: "Butter aufs Brot.", en: "Butter on the bread." } },
+    { word: "das Ei", phonetic: "eye", meaning: "egg", gender: "das", example: { de: "Ein gekochtes Ei.", en: "A boiled egg." } },
+    { word: "die Milch", phonetic: "milkh", meaning: "milk", gender: "die", example: { de: "Kalte Milch trinken.", en: "Drink cold milk." } },
+    { word: "der Käse", phonetic: "kay-zuh", meaning: "cheese", gender: "der", example: { de: "Käse aufs Brot legen.", en: "Put cheese on the bread." } },
+    { word: "das Fleisch", phonetic: "flyce", meaning: "meat", gender: "das", example: { de: "Frisches Fleisch.", en: "Fresh meat." } },
+    { word: "der Fisch", phonetic: "fish", meaning: "fish", gender: "der", example: { de: "Gebratener Fisch.", en: "Fried fish." } },
+    { word: "das Gemüse", phonetic: "geh-mü-zuh", meaning: "vegetables", gender: "das", example: { de: "Frisches Gemüse.", en: "Fresh vegetables." } },
+    { word: "das Obst", phonetic: "ohpst", meaning: "fruit", gender: "das", example: { de: "Obst essen.", en: "Eat fruit." } },
+    { word: "die Kartoffel", phonetic: "kar-to-fel", meaning: "potato", gender: "die", example: { de: "Kartoffeln kochen.", en: "Cook potatoes." } },
+    { word: "die Nudeln", phonetic: "noo-deln", meaning: "pasta / noodles", example: { de: "Nudeln mit Soße.", en: "Pasta with sauce." } },
+    { word: "der Reis", phonetic: "ryse", meaning: "rice", gender: "der", example: { de: "Gekochter Reis.", en: "Cooked rice." } },
+    { word: "die Suppe", phonetic: "zoo-puh", meaning: "soup", gender: "die", example: { de: "Heiße Suppe essen.", en: "Eat hot soup." } },
+    { word: "der Salat", phonetic: "za-laht", meaning: "salad", gender: "der", example: { de: "Grüner Salat.", en: "Green salad." } },
+    { word: "der Saft", phonetic: "zaft", meaning: "juice", gender: "der", example: { de: "Orangensaft trinken.", en: "Drink orange juice." } },
+    { word: "das Wasser", phonetic: "va-ser", meaning: "water", gender: "das", example: { de: "Wasser trinken.", en: "Drink water." } },
+    { word: "der Kaffee", phonetic: "ka-fay", meaning: "coffee", gender: "der", example: { de: "Kaffee trinken.", en: "Drink coffee." } },
+    { word: "der Tee", phonetic: "tay", meaning: "tea", gender: "der", example: { de: "Tee trinken.", en: "Drink tea." } },
+    { word: "der Kuchen", phonetic: "koo-khen", meaning: "cake", gender: "der", example: { de: "Kuchen backen.", en: "Bake cake." } },
+    { word: "die Schokolade", phonetic: "sho-ko-lah-duh", meaning: "chocolate", gender: "die", example: { de: "Schokolade essen.", en: "Eat chocolate." } },
+  ]}] },
+};

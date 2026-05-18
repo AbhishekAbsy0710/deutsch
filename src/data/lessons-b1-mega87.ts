@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega87: Record<string, Lesson> = {
+  "lb1_m138": { id: "lb1_m138", title: "Business & Economics B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Unternehmen", phonetic: "oon-ter-nay-men", meaning: "company / enterprise", gender: "das", example: { de: "Ein erfolgreiches Unternehmen.", en: "A successful company." } },
+    { word: "der Umsatz", phonetic: "oom-zats", meaning: "turnover / revenue", gender: "der", example: { de: "Umsatz steigern.", en: "Increase revenue." } },
+    { word: "der Gewinn", phonetic: "geh-vin", meaning: "profit", gender: "der", example: { de: "Hohen Gewinn erzielen.", en: "Achieve high profit." } },
+    { word: "der Verlust", phonetic: "fer-loost", meaning: "loss", gender: "der", example: { de: "Verluste verringern.", en: "Reduce losses." } },
+    { word: "die Investition", phonetic: "in-ves-ti-tsee-ohn", meaning: "investment", gender: "die", example: { de: "Strategische Investition.", en: "Strategic investment." } },
+    { word: "der Markt", phonetic: "markt", meaning: "market", gender: "der", example: { de: "Wettbewerbsfähiger Markt.", en: "Competitive market." } },
+    { word: "der Konkurrent", phonetic: "kon-koo-rent", meaning: "competitor", gender: "der", example: { de: "Starker Konkurrent.", en: "Strong competitor." } },
+    { word: "das Budget", phonetic: "bü-dshet", meaning: "budget", gender: "das", example: { de: "Budget einhalten.", en: "Stick to budget." } },
+    { word: "die Bilanz", phonetic: "bi-lants", meaning: "balance sheet", gender: "die", example: { de: "Jahresbilanz erstellen.", en: "Prepare annual balance sheet." } },
+    { word: "der Aktionär", phonetic: "ak-tsee-oh-nayr", meaning: "shareholder", gender: "der", example: { de: "Aktionärstreffen.", en: "Shareholder meeting." } },
+    { word: "die Aktie", phonetic: "ak-tsee-uh", meaning: "share / stock", gender: "die", example: { de: "Aktien kaufen.", en: "Buy shares." } },
+    { word: "der Kredit", phonetic: "kre-deet", meaning: "credit / loan", gender: "der", example: { de: "Kredit aufnehmen.", en: "Take out a loan." } },
+    { word: "die Inflation", phonetic: "in-fla-tsee-ohn", meaning: "inflation", gender: "die", example: { de: "Steigende Inflation.", en: "Rising inflation." } },
+    { word: "das Bruttoinlandsprodukt", phonetic: "broo-to-in-lants-pro-dookt", meaning: "gross domestic product (GDP)", gender: "das", example: { de: "Wachsendes BIP.", en: "Growing GDP." } },
+    { word: "der Aufschwung", phonetic: "owf-shvoong", meaning: "economic upturn / boom", gender: "der", example: { de: "Wirtschaftlicher Aufschwung.", en: "Economic upturn." } },
+    { word: "die Rezession", phonetic: "re-tse-see-ohn", meaning: "recession", gender: "die", example: { de: "Globale Rezession.", en: "Global recession." } },
+    { word: "der Import", phonetic: "im-port", meaning: "import", gender: "der", example: { de: "Import von Rohstoffen.", en: "Import of raw materials." } },
+    { word: "der Export", phonetic: "eks-port", meaning: "export", gender: "der", example: { de: "Export steigern.", en: "Increase exports." } },
+    { word: "die Lieferkette", phonetic: "lee-fer-ke-tuh", meaning: "supply chain", gender: "die", example: { de: "Globale Lieferkette.", en: "Global supply chain." } },
+    { word: "das Marketing", phonetic: "mar-ke-ting", meaning: "marketing", gender: "das", example: { de: "Digitales Marketing.", en: "Digital marketing." } },
+  ]}] },
+};

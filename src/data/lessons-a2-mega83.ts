@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega83: Record<string, Lesson> = {
+  "la2_m128": { id: "la2_m128", title: "Work & Professions A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "der Beruf", phonetic: "beh-roof", meaning: "profession / job", gender: "der", example: { de: "Was ist Ihr Beruf?", en: "What is your profession?" } },
+    { word: "der Ingenieur", phonetic: "in-zhe-nyör", meaning: "engineer", gender: "der", example: { de: "Ingenieur bei einer Firma.", en: "Engineer at a company." } },
+    { word: "der Arzt", phonetic: "artst", meaning: "doctor / physician", gender: "der", example: { de: "Als Arzt arbeiten.", en: "Work as a doctor." } },
+    { word: "der Lehrer", phonetic: "lay-rer", meaning: "teacher", gender: "der", example: { de: "Als Lehrer unterrichten.", en: "Teach as a teacher." } },
+    { word: "der Anwalt", phonetic: "an-valt", meaning: "lawyer", gender: "der", example: { de: "Als Anwalt tätig sein.", en: "Work as a lawyer." } },
+    { word: "der Koch", phonetic: "kokh", meaning: "cook / chef", gender: "der", example: { de: "Koch in einem Restaurant.", en: "Chef in a restaurant." } },
+    { word: "der Fahrer", phonetic: "fah-rer", meaning: "driver", gender: "der", example: { de: "LKW-Fahrer.", en: "Truck driver." } },
+    { word: "die Verkäuferin", phonetic: "fer-koy-fe-rin", meaning: "saleswoman / shop assistant", gender: "die", example: { de: "Als Verkäuferin arbeiten.", en: "Work as a shop assistant." } },
+    { word: "der Programmierer", phonetic: "pro-gram-mee-rer", meaning: "programmer", gender: "der", example: { de: "Software-Programmierer.", en: "Software programmer." } },
+    { word: "das Büro", phonetic: "bü-ro", meaning: "office", gender: "das", example: { de: "Im Büro arbeiten.", en: "Work in the office." } },
+    { word: "das Gehalt", phonetic: "geh-halt", meaning: "salary", gender: "das", example: { de: "Ein gutes Gehalt.", en: "A good salary." } },
+    { word: "die Arbeitszeit", phonetic: "ar-byts-tsyte", meaning: "working hours", gender: "die", example: { de: "Flexible Arbeitszeit.", en: "Flexible working hours." } },
+    { word: "der Kollege", phonetic: "ko-lay-guh", meaning: "colleague (male)", gender: "der", example: { de: "Netter Kollege.", en: "Nice colleague." } },
+    { word: "der Chef", phonetic: "shef", meaning: "boss / manager", gender: "der", example: { de: "Den Chef fragen.", en: "Ask the boss." } },
+    { word: "das Meeting", phonetic: "mee-ting", meaning: "meeting", gender: "das", example: { de: "Ein Meeting haben.", en: "Have a meeting." } },
+    { word: "kündigen", phonetic: "kün-di-gen", meaning: "to resign / give notice", example: { de: "Den Job kündigen.", en: "Resign from the job." } },
+    { word: "einstellen", phonetic: "ayn-shte-len", meaning: "to hire / employ", example: { de: "Neue Mitarbeiter einstellen.", en: "Hire new employees." } },
+    { word: "das Vorstellungsgespräch", phonetic: "for-shte-lungs-ge-shprekh", meaning: "job interview", gender: "das", example: { de: "Vorstellungsgespräch haben.", en: "Have a job interview." } },
+    { word: "der Lebenslauf", phonetic: "lay-bens-lowf", meaning: "CV / résumé", gender: "der", example: { de: "Den Lebenslauf schreiben.", en: "Write the CV." } },
+    { word: "die Überstunden", phonetic: "ü-ber-shtoon-den", meaning: "overtime", example: { de: "Überstunden machen.", en: "Do overtime." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega83: Record<string, Lesson> = {
+  "lc2_m126": { id: "lc2_m126", title: "Advanced Differential Topology C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Differentialtopologie", phonetic: "di-fe-ren-tsee-ahl-to-po-lo-gee", meaning: "differential topology", gender: "die", example: { de: "Exotische Differentialtopologie.", en: "Exotic differential topology." } },
+    { word: "die glatte Mannigfaltigkeit", phonetic: "gla-tuh man-ikh-fal-tikh-kyte", meaning: "smooth manifold", gender: "die", example: { de: "Kompakte glatte Mannigfaltigkeit.", en: "Compact smooth manifold." } },
+    { word: "der Diffeomorphismus", phonetic: "di-feh-oh-mor-fis-mus", meaning: "diffeomorphism", gender: "der", example: { de: "Lokaler Diffeomorphismus.", en: "Local diffeomorphism." } },
+    { word: "das Tangentialbündel", phonetic: "tan-gen-tsee-ahl-bün-del", meaning: "tangent bundle", gender: "das", example: { de: "Triviales Tangentialbündel.", en: "Trivial tangent bundle." } },
+    { word: "die Differentialform", phonetic: "di-fe-ren-tsee-ahl-form", meaning: "differential form", gender: "die", example: { de: "Geschlossene Differentialform.", en: "Closed differential form." } },
+    { word: "der Stokes-Satz", phonetic: "shtoh-kes-zats", meaning: "Stokes' theorem", gender: "der", example: { de: "Verallgemeinerter Stokes-Satz.", en: "Generalised Stokes' theorem." } },
+    { word: "der De-Rham-Kohomologie", phonetic: "de-rahm-ko-ho-mo-lo-gee", meaning: "de Rham cohomology", gender: "die", example: { de: "De-Rham-Kohomologie einer Mannigfaltigkeit.", en: "De Rham cohomology of a manifold." } },
+    { word: "das Vektorbündel", phonetic: "vek-tor-bün-del", meaning: "vector bundle", gender: "das", example: { de: "Stabiles Vektorbündel.", en: "Stable vector bundle." } },
+    { word: "die Charakteristische Klasse", phonetic: "kha-rak-te-ris-ti-shuh kla-suh", meaning: "characteristic class", gender: "die", example: { de: "Pontryagin-charakteristische Klasse.", en: "Pontryagin characteristic class." } },
+    { word: "der Satz von Sard", phonetic: "zats-fon-zart", meaning: "Sard's theorem", gender: "der", example: { de: "Kritische Werte Satz von Sard.", en: "Critical values Sard's theorem." } },
+    { word: "der Transversalitätssatz", phonetic: "trans-ver-za-li-tayts-zats", meaning: "transversality theorem", gender: "der", example: { de: "Thom-Transversalitätssatz.", en: "Thom transversality theorem." } },
+    { word: "der Satz von Whitney", phonetic: "zats-fon-vit-ni", meaning: "Whitney embedding theorem", gender: "der", example: { de: "Starker Satz von Whitney.", en: "Strong Whitney embedding theorem." } },
+    { word: "die Kobordismus", phonetic: "ko-bor-dis-mus", meaning: "cobordism", gender: "der", example: { de: "Thom-Kobordismus-Ring.", en: "Thom cobordism ring." } },
+    { word: "die exotische Sphäre", phonetic: "ek-zo-ti-shuh sfeh-ruh", meaning: "exotic sphere", gender: "die", example: { de: "Milnor exotische Sphäre.", en: "Milnor exotic sphere." } },
+    { word: "der Morse-Theorie", phonetic: "mors-tay-oh-ree", meaning: "Morse theory", gender: "die", example: { de: "Floer-Morse-Theorie.", en: "Floer Morse theory." } },
+    { word: "die Handkörper-Zerlegung", phonetic: "hant-kör-per-tser-lay-gung", meaning: "handlebody decomposition", gender: "die", example: { de: "Kirby-Handkörper-Zerlegung.", en: "Kirby handlebody decomposition." } },
+    { word: "die Chirurgie (Topologie)", phonetic: "shi-roor-gee", meaning: "surgery (topology)", gender: "die", example: { de: "Topologische Chirurgie-Theorie.", en: "Topological surgery theory." } },
+    { word: "die h-Kobordismus-Satz", phonetic: "hah-ko-bor-dis-mus-zats", meaning: "h-cobordism theorem", gender: "der", example: { de: "Smale h-Kobordismus-Satz.", en: "Smale h-cobordism theorem." } },
+    { word: "der Donaldson-Invariante", phonetic: "do-nalt-son-in-va-ri-an-tuh", meaning: "Donaldson invariant", gender: "die", example: { de: "Yang-Mills-Donaldson-Invariante.", en: "Yang-Mills Donaldson invariant." } },
+    { word: "die Seiberg-Witten-Theorie", phonetic: "zy-berg-vi-ten-tay-oh-ree", meaning: "Seiberg-Witten theory", gender: "die", example: { de: "Seiberg-Witten-Invariante.", en: "Seiberg-Witten invariant." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega86: Record<string, Lesson> = {
+  "lb1_m137": { id: "lb1_m137", title: "Science & Research B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Wissenschaft", phonetic: "vi-sen-shaft", meaning: "science", gender: "die", example: { de: "Moderne Wissenschaft.", en: "Modern science." } },
+    { word: "die Forschung", phonetic: "for-shung", meaning: "research", gender: "die", example: { de: "Grundlagenforschung.", en: "Basic research." } },
+    { word: "das Experiment", phonetic: "ek-spe-ri-ment", meaning: "experiment", gender: "das", example: { de: "Ein Experiment durchführen.", en: "Conduct an experiment." } },
+    { word: "die Hypothese", phonetic: "hü-po-tay-zuh", meaning: "hypothesis", gender: "die", example: { de: "Eine Hypothese aufstellen.", en: "Put forward a hypothesis." } },
+    { word: "die Theorie", phonetic: "tay-oh-ree", meaning: "theory", gender: "die", example: { de: "Eine Theorie entwickeln.", en: "Develop a theory." } },
+    { word: "die Methode", phonetic: "me-toh-duh", meaning: "method", gender: "die", example: { de: "Wissenschaftliche Methode.", en: "Scientific method." } },
+    { word: "das Labor", phonetic: "la-bor", meaning: "laboratory", gender: "das", example: { de: "Im Labor arbeiten.", en: "Work in the laboratory." } },
+    { word: "der Forscher", phonetic: "for-sher", meaning: "researcher", gender: "der", example: { de: "Erfahrener Forscher.", en: "Experienced researcher." } },
+    { word: "die Analyse", phonetic: "a-na-lü-zuh", meaning: "analysis", gender: "die", example: { de: "Statistische Analyse.", en: "Statistical analysis." } },
+    { word: "die Daten", phonetic: "dah-ten", meaning: "data", example: { de: "Daten auswerten.", en: "Evaluate data." } },
+    { word: "das Ergebnis", phonetic: "er-gehp-nis", meaning: "result / finding", gender: "das", example: { de: "Ergebnisse veröffentlichen.", en: "Publish results." } },
+    { word: "die Entdeckung", phonetic: "ent-de-kung", meaning: "discovery", gender: "die", example: { de: "Eine wichtige Entdeckung.", en: "An important discovery." } },
+    { word: "die Veröffentlichung", phonetic: "fer-öf-ent-li-khung", meaning: "publication", gender: "die", example: { de: "Wissenschaftliche Veröffentlichung.", en: "Scientific publication." } },
+    { word: "die Universität", phonetic: "oo-ni-ver-zi-tayt", meaning: "university", gender: "die", example: { de: "An der Universität forschen.", en: "Research at the university." } },
+    { word: "das Institut", phonetic: "in-sti-toot", meaning: "institute", gender: "das", example: { de: "Forschungsinstitut.", en: "Research institute." } },
+    { word: "die Peer Review", phonetic: "peer-re-vyoo", meaning: "peer review", gender: "die", example: { de: "Peer-Review-Verfahren.", en: "Peer review process." } },
+    { word: "das Stipendium", phonetic: "shti-pen-dee-um", meaning: "scholarship / grant", gender: "das", example: { de: "Forschungsstipendium erhalten.", en: "Receive a research grant." } },
+    { word: "die Dissertation", phonetic: "di-ser-ta-tsee-ohn", meaning: "dissertation / PhD thesis", gender: "die", example: { de: "Dissertation schreiben.", en: "Write a dissertation." } },
+    { word: "der Durchbruch", phonetic: "doorkhbrookh", meaning: "breakthrough", gender: "der", example: { de: "Wissenschaftlicher Durchbruch.", en: "Scientific breakthrough." } },
+    { word: "replizierbar", phonetic: "re-pli-tseer-bar", meaning: "replicable", example: { de: "Replizierbare Ergebnisse.", en: "Replicable results." } },
+  ]}] },
+};
