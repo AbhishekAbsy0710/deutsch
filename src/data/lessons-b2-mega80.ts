@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega80: Record<string, Lesson> = {
+  "lb2_m125": { id: "lb2_m125", title: "Electromagnetism B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "der Elektromagnetismus", phonetic: "e-lek-tro-mag-ne-tis-mus", meaning: "electromagnetism", gender: "der", example: { de: "Klassischer Elektromagnetismus.", en: "Classical electromagnetism." } },
+    { word: "die Maxwell-Gleichungen", phonetic: "mak-svel-gly-khun-gen", meaning: "Maxwell's equations", example: { de: "Differentielle Maxwell-Gleichungen.", en: "Differential Maxwell's equations." } },
+    { word: "das elektrische Feld", phonetic: "e-lek-tri-shuh felt", meaning: "electric field", gender: "das", example: { de: "Elektrisches Feld einer Ladung.", en: "Electric field of a charge." } },
+    { word: "das magnetische Feld", phonetic: "mag-nay-ti-shuh felt", meaning: "magnetic field", gender: "das", example: { de: "Homogenes magnetisches Feld.", en: "Homogeneous magnetic field." } },
+    { word: "der elektromagnetische Welle", phonetic: "e-lek-tro-mag-nay-ti-shuh ve-luh", meaning: "electromagnetic wave", gender: "die", example: { de: "Transversale elektromagnetische Welle.", en: "Transverse electromagnetic wave." } },
+    { word: "das Gaußsche Gesetz", phonetic: "gows-shuh geh-zets", meaning: "Gauss's law", gender: "das", example: { de: "Gaußsches Gesetz der Elektrostatik.", en: "Gauss's law of electrostatics." } },
+    { word: "das Faradaysche Gesetz", phonetic: "fa-ra-day-shuh geh-zets", meaning: "Faraday's law of induction", gender: "das", example: { de: "Faradaysches Induktionsgesetz.", en: "Faraday's law of induction." } },
+    { word: "das Ampèresche Gesetz", phonetic: "am-pay-ruh-shuh geh-zets", meaning: "Ampère's law", gender: "das", example: { de: "Erweitertes Ampèresches Gesetz.", en: "Extended Ampère's law." } },
+    { word: "der Verschiebungsstrom", phonetic: "fer-shee-bungs-shtrom", meaning: "displacement current", gender: "der", example: { de: "Maxwell-Verschiebungsstrom.", en: "Maxwell displacement current." } },
+    { word: "die Permittivität", phonetic: "per-mi-ti-vi-tayt", meaning: "permittivity", gender: "die", example: { de: "Relative Permittivität.", en: "Relative permittivity." } },
+    { word: "die Permeabilität", phonetic: "per-me-a-bi-li-tayt", meaning: "permeability (magnetic)", gender: "die", example: { de: "Magnetische Permeabilität.", en: "Magnetic permeability." } },
+    { word: "die Lichtgeschwindigkeit", phonetic: "likht-geh-shvin-dikh-kyte", meaning: "speed of light", gender: "die", example: { de: "Vakuumlichtgeschwindigkeit.", en: "Vacuum speed of light." } },
+    { word: "die Brechung", phonetic: "bre-khung", meaning: "refraction", gender: "die", example: { de: "Snellius-Brechungsgesetz.", en: "Snell's law of refraction." } },
+    { word: "die Beugung", phonetic: "boy-gung", meaning: "diffraction", gender: "die", example: { de: "Fraunhofer-Beugung.", en: "Fraunhofer diffraction." } },
+    { word: "die Polarisation", phonetic: "po-la-ri-za-tsee-ohn", meaning: "polarisation (light)", gender: "die", example: { de: "Lineare Polarisation.", en: "Linear polarisation." } },
+    { word: "der Poynting-Vektor", phonetic: "poyn-ting-vek-tor", meaning: "Poynting vector", gender: "der", example: { de: "Zeitgemittelter Poynting-Vektor.", en: "Time-averaged Poynting vector." } },
+    { word: "die Lorentzkraft", phonetic: "lo-rents-kraft", meaning: "Lorentz force", gender: "die", example: { de: "Auf geladene Teilchen wirkende Lorentzkraft.", en: "Lorentz force acting on charged particles." } },
+    { word: "der Skin-Effekt", phonetic: "skin-e-fekt", meaning: "skin effect", gender: "der", example: { de: "Hochfrequenz-Skin-Effekt.", en: "High-frequency skin effect." } },
+    { word: "die Elektrostatik", phonetic: "e-lek-tro-shtah-tik", meaning: "electrostatics", gender: "die", example: { de: "Coulomb-Elektrostatik.", en: "Coulomb electrostatics." } },
+    { word: "die Magnetostatik", phonetic: "mag-ne-to-shtah-tik", meaning: "magnetostatics", gender: "die", example: { de: "Biot-Savart-Magnetostatik.", en: "Biot-Savart magnetostatics." } },
+  ]}] },
+};

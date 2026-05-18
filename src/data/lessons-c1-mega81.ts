@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega81: Record<string, Lesson> = {
+  "lc1_m127": { id: "lc1_m127", title: "Advanced Cognitive Science C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Kognitionswissenschaft", phonetic: "kog-ni-tsee-ohns-vi-sen-shaft", meaning: "cognitive science", gender: "die", example: { de: "Interdisziplinäre Kognitionswissenschaft.", en: "Interdisciplinary cognitive science." } },
+    { word: "die kognitive Architektur", phonetic: "kog-ni-tee-vuh ar-khi-tek-toor", meaning: "cognitive architecture", gender: "die", example: { de: "ACT-R kognitive Architektur.", en: "ACT-R cognitive architecture." } },
+    { word: "die Arbeitsgedächtnis", phonetic: "ar-byts-geh-dekht-nis", meaning: "working memory", gender: "das", example: { de: "Baddeley-Arbeitsgedächtnis-Modell.", en: "Baddeley working memory model." } },
+    { word: "die Exekutivfunktionen", phonetic: "ek-se-koo-teef-foonk-tsee-oh-nen", meaning: "executive functions", example: { de: "Frontale Exekutivfunktionen.", en: "Frontal executive functions." } },
+    { word: "die Aufmerksamkeit", phonetic: "owf-merk-zam-kyte", meaning: "attention (cognitive)", gender: "die", example: { de: "Selektive Aufmerksamkeit.", en: "Selective attention." } },
+    { word: "das Bewusstsein", phonetic: "beh-voost-zayn", meaning: "consciousness", gender: "das", example: { de: "Phänomenales Bewusstsein.", en: "Phenomenal consciousness." } },
+    { word: "das schwierige Problem des Bewusstseins", phonetic: "shvee-ri-guh pro-blaym des beh-voost-zyns", meaning: "hard problem of consciousness", gender: "das", example: { de: "Chalmers schwieriges Problem.", en: "Chalmers hard problem." } },
+    { word: "die Qualia", phonetic: "kva-lee-ah", meaning: "qualia", example: { de: "Phänomenale Qualia.", en: "Phenomenal qualia." } },
+    { word: "das Embodied Cognition", phonetic: "em-bo-deed-kog-ni-tsee-ohn", meaning: "embodied cognition", gender: "die", example: { de: "Varela-Embodied Cognition.", en: "Varela embodied cognition." } },
+    { word: "die Prädiktive Kodierung", phonetic: "prä-dik-tee-vuh ko-dee-rung", meaning: "predictive coding", gender: "die", example: { de: "Bayesianische prädiktive Kodierung.", en: "Bayesian predictive coding." } },
+    { word: "der freie Energie-Prinzip", phonetic: "fry-uh e-ner-gee-prin-tsip", meaning: "free energy principle (Friston)", gender: "das", example: { de: "Friston freies Energie-Prinzip.", en: "Friston free energy principle." } },
+    { word: "die Repräsentation (kognitiv)", phonetic: "re-prä-zen-ta-tsee-ohn", meaning: "representation (cognitive)", gender: "die", example: { de: "Mentale Repräsentation.", en: "Mental representation." } },
+    { word: "das mentale Modell", phonetic: "men-tah-luh mo-del", meaning: "mental model", gender: "das", example: { de: "Handlungsrelevantes mentales Modell.", en: "Action-relevant mental model." } },
+    { word: "die kognitive Dissonanz", phonetic: "kog-ni-tee-vuh di-so-nants", meaning: "cognitive dissonance", gender: "die", example: { de: "Festinger kognitive Dissonanz.", en: "Festinger cognitive dissonance." } },
+    { word: "die Theory of Mind", phonetic: "tay-oh-ree-of-maynd", meaning: "theory of mind", gender: "die", example: { de: "Kindliche Theory of Mind.", en: "Childhood theory of mind." } },
+    { word: "der Heuristiken", phonetic: "hoy-ris-tee-ken", meaning: "heuristics (cognitive)", example: { de: "Kognitive Heuristiken.", en: "Cognitive heuristics." } },
+    { word: "der Kognitionsbias", phonetic: "kog-ni-tsee-ohns-by-as", meaning: "cognitive bias", gender: "der", example: { de: "Bestätigungsfehler Kognitionsbias.", en: "Confirmation bias." } },
+    { word: "das Lernen (kognitiv)", phonetic: "ler-nen", meaning: "learning (cognitive science)", gender: "das", example: { de: "Assoziatives kognitives Lernen.", en: "Associative cognitive learning." } },
+    { word: "die Neurokognition", phonetic: "noy-ro-kog-ni-tsee-ohn", meaning: "neurocognition", gender: "die", example: { de: "Soziale Neurokognition.", en: "Social neurocognition." } },
+    { word: "die Sprachverarbeitung (kognitiv)", phonetic: "shprahkh-fer-ar-by-tung", meaning: "language processing (cognitive)", gender: "die", example: { de: "Neuronale Sprachverarbeitung.", en: "Neural language processing." } },
+  ]}] },
+};

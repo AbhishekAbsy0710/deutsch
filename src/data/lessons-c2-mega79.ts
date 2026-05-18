@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega79: Record<string, Lesson> = {
+  "lc2_m122": { id: "lc2_m122", title: "Advanced Descriptive Set Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Deskriptive Mengenlehre", phonetic: "des-krip-tee-vuh men-gen-lay-ruh", meaning: "descriptive set theory", gender: "die", example: { de: "Klassische deskriptive Mengenlehre.", en: "Classical descriptive set theory." } },
+    { word: "der polnische Raum", phonetic: "pol-ni-shuh rowm", meaning: "Polish space", gender: "der", example: { de: "Vollständig metrisierbarer polnischer Raum.", en: "Completely metrizable Polish space." } },
+    { word: "die Borel-Menge", phonetic: "bo-rel-men-guh", meaning: "Borel set", gender: "die", example: { de: "Abzählbare Borel-Menge.", en: "Countable Borel set." } },
+    { word: "die Borel-Hierarchie", phonetic: "bo-rel-hee-er-ar-khee", meaning: "Borel hierarchy", gender: "die", example: { de: "Transfinite Borel-Hierarchie.", en: "Transfinite Borel hierarchy." } },
+    { word: "die analytische Menge", phonetic: "a-na-lü-ti-shuh men-guh", meaning: "analytic set (Σ₁¹)", gender: "die", example: { de: "Bild einer Borel-Abbildung analytische Menge.", en: "Image of Borel map analytic set." } },
+    { word: "die koanalytische Menge", phonetic: "ko-a-na-lü-ti-shuh men-guh", meaning: "coanalytic set (Π₁¹)", gender: "die", example: { de: "Komplement analytische koanalytische Menge.", en: "Complement of analytic coanalytic set." } },
+    { word: "die projektive Hierarchie", phonetic: "pro-yek-tee-vuh hee-er-ar-khee", meaning: "projective hierarchy", gender: "die", example: { de: "Luzin projektive Hierarchie.", en: "Luzin projective hierarchy." } },
+    { word: "das Determiniertheits-Axiom", phonetic: "de-ter-mi-neerth-hyts-ak-see-ohm", meaning: "axiom of determinacy (AD)", gender: "das", example: { de: "Projektivitäts-Determiniertheits-Axiom.", en: "Projective axiom of determinacy." } },
+    { word: "der Satz von Luzin", phonetic: "zats-fon-loo-zin", meaning: "Luzin's theorem", gender: "der", example: { de: "Separationssatz von Luzin.", en: "Luzin separation theorem." } },
+    { word: "die perfekte Menge", phonetic: "per-fek-tuh men-guh", meaning: "perfect set", gender: "die", example: { de: "Überabzählbare perfekte Menge.", en: "Uncountable perfect set." } },
+    { word: "das Cantor-Bendixson-Theorem", phonetic: "kan-tor-ben-dik-son-tay-oh-rem", meaning: "Cantor-Bendixson theorem", gender: "das", example: { de: "Abzählbares Cantor-Bendixson-Theorem.", en: "Countable Cantor-Bendixson theorem." } },
+    { word: "die Wadge-Hierarchie", phonetic: "wadsh-hee-er-ar-khee", meaning: "Wadge hierarchy", gender: "die", example: { de: "Reguläre Wadge-Hierarchie.", en: "Regular Wadge hierarchy." } },
+    { word: "der Baire-Raum", phonetic: "bayr-rowm", meaning: "Baire space (ωω)", gender: "der", example: { de: "Topologischer Baire-Raum.", en: "Topological Baire space." } },
+    { word: "das Banach-Mazur-Spiel", phonetic: "ba-nakh-ma-zoor-shpeel", meaning: "Banach-Mazur game", gender: "das", example: { de: "Kategorietheoretisches Banach-Mazur-Spiel.", en: "Category-theoretic Banach-Mazur game." } },
+    { word: "die Menger-Eigenschaft", phonetic: "men-ger-eye-gen-shaft", meaning: "Menger property", gender: "die", example: { de: "Produktiv Menger-Eigenschaft.", en: "Productively Menger property." } },
+    { word: "die Effektive Deskription", phonetic: "e-fek-tee-vuh des-krip-tsee-ohn", meaning: "effective descriptive set theory", gender: "die", example: { de: "Kleene effektive Deskription.", en: "Kleene effective descriptive set theory." } },
+    { word: "die hyperarithmetische Menge", phonetic: "hü-per-a-rit-may-ti-shuh men-guh", meaning: "hyperarithmetical set", gender: "die", example: { de: "Δ₁¹-hyperarithmetische Menge.", en: "Δ₁¹-hyperarithmetical set." } },
+    { word: "die Borel-Äquivalenzrelation", phonetic: "bo-rel-ey-kvi-va-lents-re-la-tsee-ohn", meaning: "Borel equivalence relation", gender: "die", example: { de: "Turbulente Borel-Äquivalenzrelation.", en: "Turbulent Borel equivalence relation." } },
+    { word: "die Kontinuumshypothese", phonetic: "kon-ti-noo-ums-hü-po-tay-zuh", meaning: "continuum hypothesis", gender: "die", example: { de: "Unabhängige Kontinuumshypothese.", en: "Independent continuum hypothesis." } },
+    { word: "der Souslin-Raum", phonetic: "zoo-slin-rowm", meaning: "Souslin space", gender: "der", example: { de: "Abtrennbarer Souslin-Raum.", en: "Separable Souslin space." } },
+  ]}] },
+};

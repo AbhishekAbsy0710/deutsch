@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega80: Record<string, Lesson> = {
+  "lc1_m126": { id: "lc1_m126", title: "Advanced Political Science C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Politikwissenschaft", phonetic: "po-li-tik-vi-sen-shaft", meaning: "political science", gender: "die", example: { de: "Vergleichende Politikwissenschaft.", en: "Comparative political science." } },
+    { word: "die Demokratie", phonetic: "de-mo-kra-tee", meaning: "democracy", gender: "die", example: { de: "Liberale Demokratie.", en: "Liberal democracy." } },
+    { word: "der Autoritarismus", phonetic: "ow-to-ri-ta-ris-mus", meaning: "authoritarianism", gender: "der", example: { de: "Kompetitiver Autoritarismus.", en: "Competitive authoritarianism." } },
+    { word: "die Gewaltenteilung", phonetic: "ge-val-ten-ty-lung", meaning: "separation of powers", gender: "die", example: { de: "Horizontale Gewaltenteilung.", en: "Horizontal separation of powers." } },
+    { word: "der Föderalismus", phonetic: "fö-de-ra-lis-mus", meaning: "federalism", gender: "der", example: { de: "Kooperativer Föderalismus.", en: "Cooperative federalism." } },
+    { word: "das Verhältniswahlrecht", phonetic: "fer-hält-nis-vahl-rekht", meaning: "proportional representation", gender: "das", example: { de: "Gemischtes Verhältniswahlrecht.", en: "Mixed proportional representation." } },
+    { word: "der Parteienstaat", phonetic: "par-ty-en-shtaht", meaning: "party state", gender: "der", example: { de: "Pluralistischer Parteienstaat.", en: "Pluralist party state." } },
+    { word: "die Zivilgesellschaft", phonetic: "tsi-vil-geh-zel-shaft", meaning: "civil society", gender: "die", example: { de: "Starke Zivilgesellschaft.", en: "Strong civil society." } },
+    { word: "der Populismus", phonetic: "po-poo-lis-mus", meaning: "populism", gender: "der", example: { de: "Rechtspopulismus.", en: "Right-wing populism." } },
+    { word: "der Nationalismus", phonetic: "na-tsee-oh-na-lis-mus", meaning: "nationalism", gender: "der", example: { de: "Ethnischer Nationalismus.", en: "Ethnic nationalism." } },
+    { word: "die politische Kultur", phonetic: "po-li-ti-shuh kool-toor", meaning: "political culture", gender: "die", example: { de: "Civic politische Kultur.", en: "Civic political culture." } },
+    { word: "das Wahlsystem", phonetic: "vahl-zys-tem", meaning: "electoral system", gender: "das", example: { de: "Mehrheitswahlsystem.", en: "Majority electoral system." } },
+    { word: "die Vetomacht", phonetic: "vay-to-makht", meaning: "veto power / veto player", gender: "die", example: { de: "Institutionelle Vetomacht.", en: "Institutional veto power." } },
+    { word: "die Staatlichkeit", phonetic: "shtaht-likh-kyte", meaning: "statehood / stateness", gender: "die", example: { de: "Konsolidierte Staatlichkeit.", en: "Consolidated statehood." } },
+    { word: "der Gesellschaftsvertrag", phonetic: "geh-zel-shafts-fer-trahg", meaning: "social contract", gender: "der", example: { de: "Locke-Rousseau-Gesellschaftsvertrag.", en: "Locke-Rousseau social contract." } },
+    { word: "die Machtkonzentration", phonetic: "makht-kon-tsen-tra-tsee-ohn", meaning: "concentration of power", gender: "die", example: { de: "Vertikale Machtkonzentration.", en: "Vertical concentration of power." } },
+    { word: "die Partisanenpolitik", phonetic: "par-ti-zah-nen-po-li-tik", meaning: "partisan politics", gender: "die", example: { de: "Polarisierte Partisanenpolitik.", en: "Polarised partisan politics." } },
+    { word: "die internationale Beziehungen", phonetic: "in-ter-na-tsee-oh-nah-luh beh-tsee-hun-gen", meaning: "international relations", example: { de: "Liberale internationale Beziehungen.", en: "Liberal international relations." } },
+    { word: "die Hegemonie", phonetic: "he-ge-mo-nee", meaning: "hegemony", gender: "die", example: { de: "US-amerikanische Hegemonie.", en: "US American hegemony." } },
+    { word: "der Multilateralismus", phonetic: "mool-ti-la-te-ra-lis-mus", meaning: "multilateralism", gender: "der", example: { de: "Regelbasierter Multilateralismus.", en: "Rules-based multilateralism." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega82: Record<string, Lesson> = {
+  "lb1_m133": { id: "lb1_m133", title: "Technology & Innovation B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Technologie", phonetic: "tekh-no-lo-gee", meaning: "technology", gender: "die", example: { de: "Moderne Technologie.", en: "Modern technology." } },
+    { word: "die Innovation", phonetic: "in-no-va-tsee-ohn", meaning: "innovation", gender: "die", example: { de: "Technologische Innovation.", en: "Technological innovation." } },
+    { word: "die Künstliche Intelligenz", phonetic: "künst-li-khuh in-te-li-gents", meaning: "artificial intelligence", gender: "die", example: { de: "Generative Künstliche Intelligenz.", en: "Generative artificial intelligence." } },
+    { word: "das Smartphone", phonetic: "smart-fohn", meaning: "smartphone", gender: "das", example: { de: "Das Smartphone benutzen.", en: "Use the smartphone." } },
+    { word: "die App", phonetic: "ap", meaning: "app", gender: "die", example: { de: "Eine App herunterladen.", en: "Download an app." } },
+    { word: "das Internet", phonetic: "in-ter-net", meaning: "internet", gender: "das", example: { de: "Im Internet surfen.", en: "Surf the internet." } },
+    { word: "die Cloud", phonetic: "klowt", meaning: "cloud (computing)", gender: "die", example: { de: "Daten in der Cloud speichern.", en: "Store data in the cloud." } },
+    { word: "der Roboter", phonetic: "ro-bo-ter", meaning: "robot", gender: "der", example: { de: "Industrieroboter einsetzen.", en: "Deploy industrial robots." } },
+    { word: "die Automatisierung", phonetic: "ow-to-ma-ti-zee-rung", meaning: "automation", gender: "die", example: { de: "Prozessautomatisierung.", en: "Process automation." } },
+    { word: "der 3D-Druck", phonetic: "dry-day-drook", meaning: "3D printing", gender: "der", example: { de: "Mit 3D-Druck produzieren.", en: "Produce with 3D printing." } },
+    { word: "die Blockchain", phonetic: "blok-chayn", meaning: "blockchain", gender: "die", example: { de: "Blockchain-Technologie.", en: "Blockchain technology." } },
+    { word: "das Startup", phonetic: "start-ap", meaning: "startup", gender: "das", example: { de: "Ein Startup gründen.", en: "Found a startup." } },
+    { word: "der Datenschutz", phonetic: "dah-ten-shoots", meaning: "data protection / privacy", gender: "der", example: { de: "Datenschutz einhalten.", en: "Comply with data protection." } },
+    { word: "die Cybersicherheit", phonetic: "sy-ber-zi-kher-hyte", meaning: "cybersecurity", gender: "die", example: { de: "Cybersicherheit stärken.", en: "Strengthen cybersecurity." } },
+    { word: "der Algorithmus", phonetic: "al-go-rit-mus", meaning: "algorithm", gender: "der", example: { de: "Lernenden Algorithmus.", en: "Learning algorithm." } },
+    { word: "die virtuelle Realität", phonetic: "vir-too-e-luh re-a-li-tayt", meaning: "virtual reality (VR)", gender: "die", example: { de: "Virtuelle Realität erleben.", en: "Experience virtual reality." } },
+    { word: "die Augmented Reality", phonetic: "owg-mented-re-a-li-tee", meaning: "augmented reality (AR)", gender: "die", example: { de: "Augmented-Reality-Anwendungen.", en: "Augmented reality applications." } },
+    { word: "das Internet der Dinge", phonetic: "in-ter-net-der-din-guh", meaning: "Internet of Things (IoT)", gender: "das", example: { de: "Vernetztes Internet der Dinge.", en: "Connected Internet of Things." } },
+    { word: "die Disruption", phonetic: "dis-roop-tsee-ohn", meaning: "disruption", gender: "die", example: { de: "Digitale Disruption.", en: "Digital disruption." } },
+    { word: "der digitale Wandel", phonetic: "di-gi-tah-luh van-del", meaning: "digital transformation", gender: "der", example: { de: "Unternehmerischer digitaler Wandel.", en: "Entrepreneurial digital transformation." } },
+  ]}] },
+};

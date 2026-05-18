@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega80: Record<string, Lesson> = {
+  "la2_m125": { id: "la2_m125", title: "Emotions & Feelings A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Freude", phonetic: "froy-duh", meaning: "joy / happiness", gender: "die", example: { de: "Vor Freude strahlen.", en: "Beam with joy." } },
+    { word: "die Trauer", phonetic: "trow-er", meaning: "sadness / grief", gender: "die", example: { de: "Tiefe Trauer empfinden.", en: "Feel deep sadness." } },
+    { word: "die Angst", phonetic: "angst", meaning: "fear / anxiety", gender: "die", example: { de: "Angst vor der Dunkelheit.", en: "Fear of the dark." } },
+    { word: "die Wut", phonetic: "voot", meaning: "anger / rage", gender: "die", example: { de: "Vor Wut kochen.", en: "Seethe with rage." } },
+    { word: "die Überraschung", phonetic: "ü-ber-ra-shung", meaning: "surprise", gender: "die", example: { de: "Eine Überraschung erleben.", en: "Experience a surprise." } },
+    { word: "der Stolz", phonetic: "shtolts", meaning: "pride", gender: "der", example: { de: "Großen Stolz empfinden.", en: "Feel great pride." } },
+    { word: "die Scham", phonetic: "shahm", meaning: "shame", gender: "die", example: { de: "Scham empfinden.", en: "Feel shame." } },
+    { word: "die Eifersucht", phonetic: "eye-fer-zookht", meaning: "jealousy", gender: "die", example: { de: "Eifersucht überwinden.", en: "Overcome jealousy." } },
+    { word: "der Neid", phonetic: "nayt", meaning: "envy", gender: "der", example: { de: "Neid auf jemanden.", en: "Envy of someone." } },
+    { word: "die Liebe", phonetic: "lee-buh", meaning: "love", gender: "die", example: { de: "Tiefe Liebe fühlen.", en: "Feel deep love." } },
+    { word: "der Hass", phonetic: "has", meaning: "hate", gender: "der", example: { de: "Hass überwinden.", en: "Overcome hate." } },
+    { word: "die Enttäuschung", phonetic: "ent-toy-shung", meaning: "disappointment", gender: "die", example: { de: "Tiefe Enttäuschung.", en: "Deep disappointment." } },
+    { word: "die Hoffnung", phonetic: "hof-nung", meaning: "hope", gender: "die", example: { de: "Hoffnung schöpfen.", en: "Find hope." } },
+    { word: "die Zufriedenheit", phonetic: "tsoo-free-den-hyte", meaning: "contentment / satisfaction", gender: "die", example: { de: "Tiefe Zufriedenheit.", en: "Deep contentment." } },
+    { word: "die Einsamkeit", phonetic: "ayn-zam-kyte", meaning: "loneliness", gender: "die", example: { de: "Einsamkeit überwinden.", en: "Overcome loneliness." } },
+    { word: "glücklich", phonetic: "glük-likh", meaning: "happy", example: { de: "Glücklich sein.", en: "To be happy." } },
+    { word: "traurig", phonetic: "trow-rikh", meaning: "sad", example: { de: "Traurig sein.", en: "To be sad." } },
+    { word: "aufgeregt", phonetic: "owf-ge-regt", meaning: "excited / nervous", example: { de: "Vor der Prüfung aufgeregt.", en: "Nervous before the exam." } },
+    { word: "entspannt", phonetic: "ent-shpant", meaning: "relaxed", example: { de: "Völlig entspannt sein.", en: "To be completely relaxed." } },
+    { word: "gestresst", phonetic: "ge-shtrест", meaning: "stressed", example: { de: "Im Alltag gestresst.", en: "Stressed in everyday life." } },
+  ]}] },
+};

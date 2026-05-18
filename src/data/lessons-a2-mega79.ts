@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega79: Record<string, Lesson> = {
+  "la2_m124": { id: "la2_m124", title: "Holidays & Tourism A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "der Urlaub", phonetic: "oor-lowp", meaning: "holiday / vacation", gender: "der", example: { de: "In den Urlaub fahren.", en: "Go on holiday." } },
+    { word: "die Reise", phonetic: "ry-zuh", meaning: "trip / journey", gender: "die", example: { de: "Eine lange Reise.", en: "A long trip." } },
+    { word: "das Hotel", phonetic: "ho-tel", meaning: "hotel", gender: "das", example: { de: "Im Hotel übernachten.", en: "Stay at the hotel." } },
+    { word: "die Unterkunft", phonetic: "oon-ter-koonft", meaning: "accommodation", gender: "die", example: { de: "Günstige Unterkunft.", en: "Affordable accommodation." } },
+    { word: "buchen", phonetic: "boo-khen", meaning: "to book / reserve", example: { de: "Ein Zimmer buchen.", en: "Book a room." } },
+    { word: "das Zimmer", phonetic: "tsi-mer", meaning: "room", gender: "das", example: { de: "Einzelzimmer buchen.", en: "Book a single room." } },
+    { word: "die Halbpension", phonetic: "halp-pen-zee-ohn", meaning: "half board", gender: "die", example: { de: "Mit Halbpension.", en: "With half board." } },
+    { word: "der Strand", phonetic: "shtrant", meaning: "beach", gender: "der", example: { de: "Am Strand liegen.", en: "Lie on the beach." } },
+    { word: "das Meer", phonetic: "mayr", meaning: "sea", gender: "das", example: { de: "Im Meer schwimmen.", en: "Swim in the sea." } },
+    { word: "die Berge", phonetic: "ber-guh", meaning: "mountains", example: { de: "In die Berge fahren.", en: "Go to the mountains." } },
+    { word: "der Stadtbummel", phonetic: "shtat-boo-mel", meaning: "city stroll / sightseeing walk", gender: "der", example: { de: "Einen Stadtbummel machen.", en: "Take a city stroll." } },
+    { word: "die Sehenswürdigkeit", phonetic: "zay-ens-vür-dikh-kyte", meaning: "tourist attraction / sight", gender: "die", example: { de: "Sehenswürdigkeiten besichtigen.", en: "Visit tourist attractions." } },
+    { word: "der Reiseführer", phonetic: "ry-zuh-fü-rer", meaning: "travel guide / guidebook", gender: "der", example: { de: "Einen Reiseführer kaufen.", en: "Buy a travel guide." } },
+    { word: "die Landkarte", phonetic: "lant-kar-tuh", meaning: "map", gender: "die", example: { de: "Die Landkarte lesen.", en: "Read the map." } },
+    { word: "der Koffer", phonetic: "ko-fer", meaning: "suitcase", gender: "der", example: { de: "Den Koffer packen.", en: "Pack the suitcase." } },
+    { word: "die Reisekrankenversicherung", phonetic: "ry-zuh-kran-ken-fer-zi-khe-rung", meaning: "travel insurance", gender: "die", example: { de: "Reisekrankenversicherung abschließen.", en: "Take out travel insurance." } },
+    { word: "der Reisepass", phonetic: "ry-zuh-pas", meaning: "passport", gender: "der", example: { de: "Den Reisepass kontrollieren.", en: "Check the passport." } },
+    { word: "das Visum", phonetic: "vee-zoom", meaning: "visa", gender: "das", example: { de: "Ein Visum beantragen.", en: "Apply for a visa." } },
+    { word: "der Tipp", phonetic: "tip", meaning: "tip / recommendation", gender: "der", example: { de: "Reise-Tipp geben.", en: "Give a travel tip." } },
+    { word: "das Souvenir", phonetic: "zoo-ve-neer", meaning: "souvenir", gender: "das", example: { de: "Souvenir kaufen.", en: "Buy a souvenir." } },
+  ]}] },
+};

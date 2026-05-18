@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega81: Record<string, Lesson> = {
+  "la1_m131": { id: "la1_m131", title: "School & Stationery A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Buch", phonetic: "bookh", meaning: "book", gender: "das", example: { de: "Ein interessantes Buch.", en: "An interesting book." } },
+    { word: "das Heft", phonetic: "heft", meaning: "exercise book / notebook", gender: "das", example: { de: "Ein neues Heft.", en: "A new exercise book." } },
+    { word: "der Stift", phonetic: "shtift", meaning: "pen / pencil", gender: "der", example: { de: "Mit dem Stift schreiben.", en: "Write with the pen." } },
+    { word: "der Bleistift", phonetic: "bly-shtift", meaning: "pencil", gender: "der", example: { de: "Mit dem Bleistift zeichnen.", en: "Draw with the pencil." } },
+    { word: "der Kugelschreiber", phonetic: "koo-gel-shry-ber", meaning: "ballpoint pen", gender: "der", example: { de: "Einen Kugelschreiber benutzen.", en: "Use a ballpoint pen." } },
+    { word: "das Lineal", phonetic: "li-ne-ahl", meaning: "ruler", gender: "das", example: { de: "Mit dem Lineal ziehen.", en: "Draw with the ruler." } },
+    { word: "der Radiergummi", phonetic: "ra-deer-goo-mi", meaning: "eraser / rubber", gender: "der", example: { de: "Mit dem Radiergummi löschen.", en: "Erase with the rubber." } },
+    { word: "die Schere", phonetic: "shay-ruh", meaning: "scissors", gender: "die", example: { de: "Mit der Schere schneiden.", en: "Cut with scissors." } },
+    { word: "der Kleber", phonetic: "klay-ber", meaning: "glue", gender: "der", example: { de: "Mit Kleber kleben.", en: "Stick with glue." } },
+    { word: "die Tasche", phonetic: "ta-shuh", meaning: "bag / school bag", gender: "die", example: { de: "Die Schultasche tragen.", en: "Carry the school bag." } },
+    { word: "der Lehrer", phonetic: "lay-rer", meaning: "teacher (male)", gender: "der", example: { de: "Der Lehrer erklärt.", en: "The teacher explains." } },
+    { word: "die Lehrerin", phonetic: "lay-re-rin", meaning: "teacher (female)", gender: "die", example: { de: "Die Lehrerin fragt.", en: "The teacher asks." } },
+    { word: "der Schüler", phonetic: "shü-ler", meaning: "pupil / student (male)", gender: "der", example: { de: "Der Schüler lernt.", en: "The pupil learns." } },
+    { word: "die Tafel", phonetic: "tah-fel", meaning: "blackboard / whiteboard", gender: "die", example: { de: "An der Tafel schreiben.", en: "Write on the board." } },
+    { word: "die Hausaufgabe", phonetic: "hows-owf-gah-buh", meaning: "homework", gender: "die", example: { de: "Hausaufgaben machen.", en: "Do homework." } },
+    { word: "lernen", phonetic: "ler-nen", meaning: "to learn / study", example: { de: "Deutsch lernen.", en: "Learn German." } },
+    { word: "schreiben", phonetic: "shry-ben", meaning: "to write", example: { de: "Einen Satz schreiben.", en: "Write a sentence." } },
+    { word: "lesen", phonetic: "lay-zen", meaning: "to read", example: { de: "Ein Buch lesen.", en: "Read a book." } },
+    { word: "fragen", phonetic: "frah-gen", meaning: "to ask", example: { de: "Eine Frage stellen.", en: "Ask a question." } },
+    { word: "antworten", phonetic: "ant-vor-ten", meaning: "to answer", example: { de: "Auf eine Frage antworten.", en: "Answer a question." } },
+  ]}] },
+};

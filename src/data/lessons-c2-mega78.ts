@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega78: Record<string, Lesson> = {
+  "lc2_m121": { id: "lc2_m121", title: "Advanced Model Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Modelltheorie", phonetic: "mo-del-tay-oh-ree", meaning: "model theory", gender: "die", example: { de: "Angewandte Modelltheorie.", en: "Applied model theory." } },
+    { word: "die Struktur (logisch)", phonetic: "shtrook-toor", meaning: "structure (logic)", gender: "die", example: { de: "Mathematische Struktur.", en: "Mathematical structure." } },
+    { word: "die Theorie (logisch)", phonetic: "tay-oh-ree", meaning: "theory (model theory)", gender: "die", example: { de: "Vollständige Theorie.", en: "Complete theory." } },
+    { word: "die Aussage", phonetic: "ows-zah-guh", meaning: "sentence / formula", gender: "die", example: { de: "Logische Aussage.", en: "Logical sentence." } },
+    { word: "die Erfüllbarkeit", phonetic: "er-fül-bar-kyte", meaning: "satisfiability", gender: "die", example: { de: "Erfüllbarkeit von Formeln.", en: "Satisfiability of formulas." } },
+    { word: "der Vollständigkeitssatz", phonetic: "fol-shten-dikh-kyts-zats", meaning: "completeness theorem (Gödel)", gender: "der", example: { de: "Gödel-Vollständigkeitssatz.", en: "Gödel completeness theorem." } },
+    { word: "der Kompaktheitssatz", phonetic: "kom-pakt-hyts-zats", meaning: "compactness theorem", gender: "der", example: { de: "Modelltheoretischer Kompaktheitssatz.", en: "Model-theoretic compactness theorem." } },
+    { word: "der Löwenheim-Skolem-Satz", phonetic: "lö-ven-haym-sko-lem-zats", meaning: "Löwenheim-Skolem theorem", gender: "der", example: { de: "Aufsteigender Löwenheim-Skolem-Satz.", en: "Upward Löwenheim-Skolem theorem." } },
+    { word: "die elementare Äquivalenz", phonetic: "e-le-men-tah-ruh ey-kvi-va-lents", meaning: "elementary equivalence", gender: "die", example: { de: "Elementare Äquivalenz von Strukturen.", en: "Elementary equivalence of structures." } },
+    { word: "die elementare Einbettung", phonetic: "e-le-men-tah-ruh ayn-be-tung", meaning: "elementary embedding", gender: "die", example: { de: "Ultrafilter-elementare Einbettung.", en: "Ultrafilter elementary embedding." } },
+    { word: "der Ultraprodukt", phonetic: "ool-tra-pro-dookt", meaning: "ultraproduct", gender: "das", example: { de: "Łoś-Ultraprodukt.", en: "Łoś ultraproduct." } },
+    { word: "die Typentheorie (Modell)", phonetic: "tü-pen-tay-oh-ree", meaning: "type theory (model theory)", gender: "die", example: { de: "Vollständige Typentheorie.", en: "Complete type theory." } },
+    { word: "die Stabilität", phonetic: "shtah-bi-li-tayt", meaning: "stability (model theory)", gender: "die", example: { de: "Superstabile Stabilität.", en: "Superstable stability." } },
+    { word: "die ω-Stabilität", phonetic: "oh-me-gah-shtah-bi-li-tayt", meaning: "ω-stability", gender: "die", example: { de: "Morley ω-Stabilität.", en: "Morley ω-stability." } },
+    { word: "der Morley-Satz", phonetic: "mor-lee-zats", meaning: "Morley's categoricity theorem", gender: "der", example: { de: "Kategorisitätssatz von Morley.", en: "Morley's categoricity theorem." } },
+    { word: "die einfache Theorie", phonetic: "ayn-fa-khuh tay-oh-ree", meaning: "simple theory (model theory)", gender: "die", example: { de: "Kim-Pillay einfache Theorie.", en: "Kim-Pillay simple theory." } },
+    { word: "die NIP-Theorie", phonetic: "en-ee-pay-tay-oh-ree", meaning: "NIP theory", gender: "die", example: { de: "Shelah-NIP-Theorie.", en: "Shelah NIP theory." } },
+    { word: "die o-Minimalität", phonetic: "oh-mi-ni-ma-li-tayt", meaning: "o-minimality", gender: "die", example: { de: "Reell geschlossene o-Minimalität.", en: "Real closed o-minimality." } },
+    { word: "die Modellkompanion", phonetic: "mo-del-kom-pa-nyohn", meaning: "model companion", gender: "der", example: { de: "Existenzgeschlossener Modellkompanion.", en: "Existentially closed model companion." } },
+    { word: "die Quantorenelimination", phonetic: "kvan-to-ren-e-li-mi-na-tsee-ohn", meaning: "quantifier elimination", gender: "die", example: { de: "Algebraisch geschlossene Quantorenelimination.", en: "Algebraically closed quantifier elimination." } },
+  ]}] },
+};

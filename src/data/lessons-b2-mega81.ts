@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega81: Record<string, Lesson> = {
+  "lb2_m126": { id: "lb2_m126", title: "Solid State Physics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Festkörperphysik", phonetic: "fest-kör-per-fü-zik", meaning: "solid state physics", gender: "die", example: { de: "Experimentelle Festkörperphysik.", en: "Experimental solid state physics." } },
+    { word: "das Kristallgitter", phonetic: "kris-tal-gi-ter", meaning: "crystal lattice", gender: "das", example: { de: "Kubisches Kristallgitter.", en: "Cubic crystal lattice." } },
+    { word: "die Einheitszelle", phonetic: "ayn-hyts-tse-luh", meaning: "unit cell", gender: "die", example: { de: "Primitive Einheitszelle.", en: "Primitive unit cell." } },
+    { word: "das Bravais-Gitter", phonetic: "bra-vay-gi-ter", meaning: "Bravais lattice", gender: "das", example: { de: "Vierzehn Bravais-Gitter.", en: "Fourteen Bravais lattices." } },
+    { word: "die Bandstruktur", phonetic: "bant-shtrook-toor", meaning: "band structure", gender: "die", example: { de: "Elektronische Bandstruktur.", en: "Electronic band structure." } },
+    { word: "das Valenzband", phonetic: "va-lents-bant", meaning: "valence band", gender: "das", example: { de: "Volles Valenzband.", en: "Full valence band." } },
+    { word: "das Leitungsband", phonetic: "ly-tungs-bant", meaning: "conduction band", gender: "das", example: { de: "Leeres Leitungsband.", en: "Empty conduction band." } },
+    { word: "die Bandlücke", phonetic: "bant-lü-kuh", meaning: "band gap", gender: "die", example: { de: "Direkte Bandlücke.", en: "Direct band gap." } },
+    { word: "das Phonon", phonetic: "fo-non", meaning: "phonon", gender: "das", example: { de: "Akustisches Phonon.", en: "Acoustic phonon." } },
+    { word: "der Halbleiter", phonetic: "halp-ly-ter", meaning: "semiconductor", gender: "der", example: { de: "Dotierter Halbleiter.", en: "Doped semiconductor." } },
+    { word: "das Dotieren", phonetic: "do-tee-ren", meaning: "doping (semiconductor)", gender: "das", example: { de: "n-Typ-Dotieren.", en: "n-type doping." } },
+    { word: "der p-n-Übergang", phonetic: "pay-en-ü-ber-gang", meaning: "p-n junction", gender: "der", example: { de: "Sperrender p-n-Übergang.", en: "Reverse-biased p-n junction." } },
+    { word: "der Fermi-Niveau", phonetic: "fer-mi-ni-voh", meaning: "Fermi level", gender: "das", example: { de: "Fermi-Niveau im Metall.", en: "Fermi level in metal." } },
+    { word: "die Supraleitung", phonetic: "zoo-pra-ly-tung", meaning: "superconductivity (solid state)", gender: "die", example: { de: "Hochtemperatur-Supraleitung.", en: "High-temperature superconductivity." } },
+    { word: "der Cooper-Paar", phonetic: "koo-per-pahr", meaning: "Cooper pair", gender: "das", example: { de: "BCS-Cooper-Paar.", en: "BCS Cooper pair." } },
+    { word: "der Quantenhall-Effekt", phonetic: "kvan-ten-hal-e-fekt", meaning: "quantum Hall effect", gender: "der", example: { de: "Ganzzahliger Quantenhall-Effekt.", en: "Integer quantum Hall effect." } },
+    { word: "der topologische Isolator", phonetic: "to-po-lo-gi-shuh i-zo-la-tor", meaning: "topological insulator", gender: "der", example: { de: "Dreidimensionaler topologischer Isolator.", en: "Three-dimensional topological insulator." } },
+    { word: "der Magnetismus", phonetic: "mag-ne-tis-mus", meaning: "magnetism (solid state)", gender: "der", example: { de: "Ferromagnetismus.", en: "Ferromagnetism." } },
+    { word: "die Spintronik", phonetic: "shpin-tro-nik", meaning: "spintronics", gender: "die", example: { de: "Spin-Transfer-Spintronik.", en: "Spin-transfer spintronics." } },
+    { word: "der Defekt (Kristall)", phonetic: "de-fekt", meaning: "crystal defect", gender: "der", example: { de: "Punktdefekt im Kristall.", en: "Point defect in crystal." } },
+  ]}] },
+};
