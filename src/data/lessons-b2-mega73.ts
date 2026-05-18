@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega73: Record<string, Lesson> = {
+  "lb2_m118": { id: "lb2_m118", title: "Materials Science B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Materialwissenschaft", phonetic: "ma-te-ree-ahl-vi-sen-shaft", meaning: "materials science", gender: "die", example: { de: "Fortgeschrittene Materialwissenschaft.", en: "Advanced materials science." } },
+    { word: "die Kristallstruktur", phonetic: "kris-tal-shtrook-toor", meaning: "crystal structure", gender: "die", example: { de: "Kubische Kristallstruktur.", en: "Cubic crystal structure." } },
+    { word: "die Gitterfehler", phonetic: "gi-ter-fay-ler", meaning: "lattice defects", example: { de: "Punktförmige Gitterfehler.", en: "Point lattice defects." } },
+    { word: "die Versetzung", phonetic: "fer-ze-tsung", meaning: "dislocation (materials)", gender: "die", example: { de: "Stufenversetzung.", en: "Edge dislocation." } },
+    { word: "die Legierung", phonetic: "le-gee-rung", meaning: "alloy", gender: "die", example: { de: "Binäre Legierung.", en: "Binary alloy." } },
+    { word: "die Rekristallisation", phonetic: "re-kris-ta-li-za-tsee-ohn", meaning: "recrystallization", gender: "die", example: { de: "Dynamische Rekristallisation.", en: "Dynamic recrystallization." } },
+    { word: "die Diffusion", phonetic: "di-foo-zee-ohn", meaning: "diffusion (materials)", gender: "die", example: { de: "Korngrenzendiffusion.", en: "Grain boundary diffusion." } },
+    { word: "die Härtung", phonetic: "hayr-tung", meaning: "hardening", gender: "die", example: { de: "Ausscheidungshärtung.", en: "Precipitation hardening." } },
+    { word: "die Sprödigkeit", phonetic: "shprö-dikh-kyte", meaning: "brittleness", gender: "die", example: { de: "Tieftemperatur-Sprödigkeit.", en: "Low-temperature brittleness." } },
+    { word: "die Duktilität", phonetic: "dook-ti-li-tayt", meaning: "ductility", gender: "die", example: { de: "Hohe Duktilität.", en: "High ductility." } },
+    { word: "das Röntgenbeugung", phonetic: "rönt-gen-boy-gung", meaning: "X-ray diffraction", gender: "die", example: { de: "Pulver-Röntgenbeugung.", en: "Powder X-ray diffraction." } },
+    { word: "das Rasterelektronenmikroskop", phonetic: "ras-ter-e-lek-tro-nen-mi-kro-skohp", meaning: "scanning electron microscope", gender: "das", example: { de: "Hochauflösendes Rasterelektronenmikroskop.", en: "High-resolution scanning electron microscope." } },
+    { word: "die Nanostruktur", phonetic: "na-no-shtrook-toor", meaning: "nanostructure", gender: "die", example: { de: "Selbstorganisierende Nanostruktur.", en: "Self-assembling nanostructure." } },
+    { word: "das Komposit", phonetic: "kom-po-zeet", meaning: "composite material", gender: "das", example: { de: "Faserverstärktes Komposit.", en: "Fibre-reinforced composite." } },
+    { word: "das Polymer", phonetic: "po-li-mayr", meaning: "polymer", gender: "das", example: { de: "Thermoplastisches Polymer.", en: "Thermoplastic polymer." } },
+    { word: "das Keramik", phonetic: "ke-rah-mik", meaning: "ceramic", gender: "die", example: { de: "Technische Keramik.", en: "Technical ceramic." } },
+    { word: "der Halbleiter", phonetic: "halp-ly-ter", meaning: "semiconductor", gender: "der", example: { de: "Organischer Halbleiter.", en: "Organic semiconductor." } },
+    { word: "die Supraleitfähigkeit", phonetic: "zoo-pra-lyt-fay-ikh-kyte", meaning: "superconductivity", gender: "die", example: { de: "Hochtemperatur-Supraleitfähigkeit.", en: "High-temperature superconductivity." } },
+    { word: "die Metamaterial", phonetic: "me-ta-ma-te-ree-ahl", meaning: "metamaterial", gender: "das", example: { de: "Elektromagnetisches Metamaterial.", en: "Electromagnetic metamaterial." } },
+    { word: "die Bruchmechanik", phonetic: "brookh-me-kha-nik", meaning: "fracture mechanics", gender: "die", example: { de: "Lineare Bruchmechanik.", en: "Linear fracture mechanics." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega71: Record<string, Lesson> = {
+  "lc2_m114": { id: "lc2_m114", title: "Advanced Set Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Mengenlehre", phonetic: "men-gen-lay-ruh", meaning: "set theory", gender: "die", example: { de: "Axiomatische Mengenlehre.", en: "Axiomatic set theory." } },
+    { word: "das Zermelo-Fraenkel-System", phonetic: "tser-may-lo-fren-kel-züs-taym", meaning: "Zermelo-Fraenkel system (ZFC)", gender: "das", example: { de: "ZFC-Zermelo-Fraenkel-System.", en: "ZFC Zermelo-Fraenkel system." } },
+    { word: "die Kardinalzahl", phonetic: "kar-di-nahl-tsahl", meaning: "cardinal number", gender: "die", example: { de: "Unendliche Kardinalzahl.", en: "Infinite cardinal number." } },
+    { word: "die Ordinalzahl", phonetic: "or-di-nahl-tsahl", meaning: "ordinal number", gender: "die", example: { de: "Transfinite Ordinalzahl.", en: "Transfinite ordinal number." } },
+    { word: "die Kontinuumshypothese", phonetic: "kon-ti-noo-ums-hü-po-tay-zuh", meaning: "continuum hypothesis", gender: "die", example: { de: "Unabhängige Kontinuumshypothese.", en: "Independent continuum hypothesis." } },
+    { word: "das Auswahlaxiom", phonetic: "ows-vahl-ak-see-ohm", meaning: "axiom of choice", gender: "das", example: { de: "Äquivalente Auswahlaxiom.", en: "Equivalent axiom of choice." } },
+    { word: "das Wohlordnungsprinzip", phonetic: "vohl-ord-nungs-prin-tsip", meaning: "well-ordering principle", gender: "das", example: { de: "Zermelo Wohlordnungsprinzip.", en: "Zermelo well-ordering principle." } },
+    { word: "die Ordinalzahlarithmetik", phonetic: "or-di-nahl-tsahl-a-rit-may-tik", meaning: "ordinal arithmetic", gender: "die", example: { de: "Natürliche Ordinalzahlarithmetik.", en: "Natural ordinal arithmetic." } },
+    { word: "die Inaccessible Kardinalzahl", phonetic: "in-a-tse-si-bluh kar-di-nahl-tsahl", meaning: "inaccessible cardinal", gender: "die", example: { de: "Schwach unzugängliche inaccessible Kardinalzahl.", en: "Weakly inaccessible cardinal." } },
+    { word: "das Kräftige Kardinalzahl", phonetic: "kref-ti-guh kar-di-nahl-tsahl", meaning: "large cardinal", gender: "die", example: { de: "Messbare kräftige Kardinalzahl.", en: "Measurable large cardinal." } },
+    { word: "die Erzwingung", phonetic: "er-tsving-ung", meaning: "forcing (set theory)", gender: "die", example: { de: "Cohen-Erzwingung.", en: "Cohen forcing." } },
+    { word: "das Innere Modell", phonetic: "i-ne-ruh mo-del", meaning: "inner model", gender: "das", example: { de: "Gödels inneres Modell.", en: "Gödel's inner model." } },
+    { word: "das konstruktible Universum", phonetic: "kon-strook-ti-bluh oo-ni-ver-zoom", meaning: "constructible universe (L)", gender: "das", example: { de: "Gödels konstruktibles Universum.", en: "Gödel's constructible universe." } },
+    { word: "der Ultrafilter", phonetic: "ool-tra-fil-ter", meaning: "ultrafilter", gender: "der", example: { de: "Nichtprinzipaler Ultrafilter.", en: "Non-principal ultrafilter." } },
+    { word: "die Determinatheit", phonetic: "de-ter-mi-naht-hyte", meaning: "determinacy (set theory)", gender: "die", example: { de: "Projektive Determinatheit.", en: "Projective determinacy." } },
+    { word: "die Descriptive Mengenlehre", phonetic: "des-krip-tee-vuh men-gen-lay-ruh", meaning: "descriptive set theory", gender: "die", example: { de: "Borel-Descriptive Mengenlehre.", en: "Borel descriptive set theory." } },
+    { word: "die Borelsche Menge", phonetic: "bo-rel-shuh men-guh", meaning: "Borel set", gender: "die", example: { de: "Analoge Borelsche Menge.", en: "Analytic Borel set." } },
+    { word: "die Suslinsche Menge", phonetic: "zoo-slin-shuh men-guh", meaning: "Suslin set / analytic set", gender: "die", example: { de: "Vollständige Suslinsche Menge.", en: "Complete Suslin set." } },
+    { word: "die Woodin-Kardinalzahl", phonetic: "voo-din-kar-di-nahl-tsahl", meaning: "Woodin cardinal", gender: "die", example: { de: "Überabzählbare Woodin-Kardinalzahl.", en: "Uncountable Woodin cardinal." } },
+    { word: "das Absolutheit", phonetic: "ap-so-loot-hyte", meaning: "absoluteness (set theory)", gender: "die", example: { de: "Downward Absolutheit.", en: "Downward absoluteness." } },
+  ]}] },
+};

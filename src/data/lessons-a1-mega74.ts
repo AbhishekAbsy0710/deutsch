@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega74: Record<string, Lesson> = {
+  "la1_m124": { id: "la1_m124", title: "Animals & Nature A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Tier", phonetic: "teer", meaning: "animal", gender: "das", example: { de: "Wilde Tiere.", en: "Wild animals." } },
+    { word: "der Hund", phonetic: "hoont", meaning: "dog", gender: "der", example: { de: "Der Hund bellt.", en: "The dog barks." } },
+    { word: "die Katze", phonetic: "kat-suh", meaning: "cat", gender: "die", example: { de: "Die Katze schläft.", en: "The cat sleeps." } },
+    { word: "das Pferd", phonetic: "pfert", meaning: "horse", gender: "das", example: { de: "Das Pferd galoppiert.", en: "The horse gallops." } },
+    { word: "die Kuh", phonetic: "koo", meaning: "cow", gender: "die", example: { de: "Die Kuh gibt Milch.", en: "The cow gives milk." } },
+    { word: "das Schwein", phonetic: "shvyne", meaning: "pig", gender: "das", example: { de: "Das Schwein grunzt.", en: "The pig grunts." } },
+    { word: "das Schaf", phonetic: "shahf", meaning: "sheep", gender: "das", example: { de: "Das Schaf blökt.", en: "The sheep bleats." } },
+    { word: "der Vogel", phonetic: "foh-gel", meaning: "bird", gender: "der", example: { de: "Der Vogel singt.", en: "The bird sings." } },
+    { word: "der Fisch", phonetic: "fish", meaning: "fish", gender: "der", example: { de: "Der Fisch schwimmt.", en: "The fish swims." } },
+    { word: "der Löwe", phonetic: "löh-vuh", meaning: "lion", gender: "der", example: { de: "Der König der Löwen.", en: "The king of the lions." } },
+    { word: "der Elefant", phonetic: "e-le-fant", meaning: "elephant", gender: "der", example: { de: "Der große Elefant.", en: "The large elephant." } },
+    { word: "der Affe", phonetic: "a-fuh", meaning: "monkey / ape", gender: "der", example: { de: "Der Affe klettert.", en: "The monkey climbs." } },
+    { word: "die Schlange", phonetic: "shlan-guh", meaning: "snake", gender: "die", example: { de: "Die giftige Schlange.", en: "The venomous snake." } },
+    { word: "der Baum", phonetic: "bowm", meaning: "tree", gender: "der", example: { de: "Ein alter Baum.", en: "An old tree." } },
+    { word: "die Blume", phonetic: "bloo-muh", meaning: "flower", gender: "die", example: { de: "Bunte Blumen.", en: "Colourful flowers." } },
+    { word: "der Wald", phonetic: "valt", meaning: "forest", gender: "der", example: { de: "Im Wald spazieren.", en: "Walk in the forest." } },
+    { word: "der Fluss", phonetic: "floos", meaning: "river", gender: "der", example: { de: "Am Fluss sitzen.", en: "Sit by the river." } },
+    { word: "der Berg", phonetic: "berg", meaning: "mountain", gender: "der", example: { de: "Den Berg besteigen.", en: "Climb the mountain." } },
+    { word: "das Meer", phonetic: "mayr", meaning: "sea / ocean", gender: "das", example: { de: "Am Meer schwimmen.", en: "Swim in the sea." } },
+    { word: "die Sonne", phonetic: "zo-nuh", meaning: "sun", gender: "die", example: { de: "Die Sonne scheint.", en: "The sun shines." } },
+  ]}] },
+};

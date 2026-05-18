@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega73: Record<string, Lesson> = {
+  "lc1_m119": { id: "lc1_m119", title: "Advanced Comparative Literature C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Komparatistik", phonetic: "kom-pa-ra-tis-tik", meaning: "comparative literature", gender: "die", example: { de: "Weltliteratur-Komparatistik.", en: "World literature comparative literature." } },
+    { word: "der Intertextualität", phonetic: "in-ter-teks-too-a-li-tayt", meaning: "intertextuality", gender: "die", example: { de: "Kristeva-Intertextualität.", en: "Kristeva intertextuality." } },
+    { word: "die Narratologie", phonetic: "na-ra-to-lo-gee", meaning: "narratology", gender: "die", example: { de: "Strukturalistische Narratologie.", en: "Structuralist narratology." } },
+    { word: "die Hermeneutik", phonetic: "her-me-noy-tik", meaning: "hermeneutics", gender: "die", example: { de: "Gadamersche Hermeneutik.", en: "Gadamerian hermeneutics." } },
+    { word: "die Rezeptionsästhetik", phonetic: "re-tsep-tsee-ohns-es-tay-tik", meaning: "reader-response theory", gender: "die", example: { de: "Jausssche Rezeptionsästhetik.", en: "Jaussian reader-response theory." } },
+    { word: "der Diskurs", phonetic: "dis-koors", meaning: "discourse", gender: "der", example: { de: "Foucaultscher Diskurs.", en: "Foucauldian discourse." } },
+    { word: "die Dekonstruktion", phonetic: "de-kon-strook-tsee-ohn", meaning: "deconstruction", gender: "die", example: { de: "Derridasche Dekonstruktion.", en: "Derridean deconstruction." } },
+    { word: "die Postkoloniale Theorie", phonetic: "post-ko-lo-nee-ah-luh tay-oh-ree", meaning: "postcolonial theory", gender: "die", example: { de: "Said postkoloniale Theorie.", en: "Said postcolonial theory." } },
+    { word: "der Kanon", phonetic: "ka-non", meaning: "literary canon", gender: "der", example: { de: "Westlicher literarischer Kanon.", en: "Western literary canon." } },
+    { word: "die Gattung", phonetic: "ga-tung", meaning: "genre / literary genre", gender: "die", example: { de: "Hybride Gattung.", en: "Hybrid genre." } },
+    { word: "die Weltliteratur", phonetic: "velt-li-te-ra-toor", meaning: "world literature", gender: "die", example: { de: "Goethes Weltliteratur.", en: "Goethe's world literature." } },
+    { word: "die Übersetzungswissenschaft", phonetic: "ü-ber-ze-tsungs-vi-sen-shaft", meaning: "translation studies", gender: "die", example: { de: "Kulturbezogene Übersetzungswissenschaft.", en: "Culture-oriented translation studies." } },
+    { word: "die Trope", phonetic: "troh-puh", meaning: "trope (literary)", gender: "die", example: { de: "Rhetorische Trope.", en: "Rhetorical trope." } },
+    { word: "die Allegorie", phonetic: "a-le-go-ree", meaning: "allegory", gender: "die", example: { de: "Politische Allegorie.", en: "Political allegory." } },
+    { word: "die Ironie", phonetic: "ee-ro-nee", meaning: "irony", gender: "die", example: { de: "Sokratische Ironie.", en: "Socratic irony." } },
+    { word: "der Topos", phonetic: "to-pos", meaning: "topos (literary motif)", gender: "der", example: { de: "Ubi-sunt-Topos.", en: "Ubi sunt topos." } },
+    { word: "die Diaspora-Literatur", phonetic: "dee-as-po-ra-li-te-ra-toor", meaning: "diaspora literature", gender: "die", example: { de: "Zeitgenössische Diaspora-Literatur.", en: "Contemporary diaspora literature." } },
+    { word: "das Close Reading", phonetic: "klohz-ree-ding", meaning: "close reading", gender: "das", example: { de: "New Criticism Close Reading.", en: "New Criticism close reading." } },
+    { word: "die Kanonisierung", phonetic: "ka-no-ni-zee-rung", meaning: "canonisation (literary)", gender: "die", example: { de: "Kulturelle Kanonisierung.", en: "Cultural canonisation." } },
+    { word: "die Intermedialität", phonetic: "in-ter-me-dee-a-li-tayt", meaning: "intermediality", gender: "die", example: { de: "Literarisch-filmische Intermedialität.", en: "Literary-filmic intermediality." } },
+  ]}] },
+};

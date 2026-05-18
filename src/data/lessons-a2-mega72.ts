@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega72: Record<string, Lesson> = {
+  "la2_m117": { id: "la2_m117", title: "Work & Career A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "der Beruf", phonetic: "beh-roof", meaning: "job / profession", gender: "der", example: { de: "Einen guten Beruf wählen.", en: "Choose a good profession." } },
+    { word: "die Stelle", phonetic: "shte-luh", meaning: "position / job vacancy", gender: "die", example: { de: "Eine Stelle suchen.", en: "Look for a position." } },
+    { word: "der Chef", phonetic: "shef", meaning: "boss / manager", gender: "der", example: { de: "Mein Chef ist nett.", en: "My boss is nice." } },
+    { word: "der Kollege", phonetic: "ko-lay-guh", meaning: "colleague (male)", gender: "der", example: { de: "Ein netter Kollege.", en: "A nice colleague." } },
+    { word: "das Büro", phonetic: "bü-roh", meaning: "office", gender: "das", example: { de: "Im Büro arbeiten.", en: "Work in the office." } },
+    { word: "die Arbeitszeit", phonetic: "ar-byts-tsyte", meaning: "working hours", gender: "die", example: { de: "Flexible Arbeitszeit.", en: "Flexible working hours." } },
+    { word: "der Urlaub", phonetic: "oor-lowp", meaning: "holiday / annual leave", gender: "der", example: { de: "Urlaub beantragen.", en: "Request annual leave." } },
+    { word: "das Gehalt", phonetic: "geh-halt", meaning: "salary", gender: "das", example: { de: "Ein gutes Gehalt.", en: "A good salary." } },
+    { word: "das Bewerbungsgespräch", phonetic: "beh-ver-bungs-geh-shpreysh", meaning: "job interview", gender: "das", example: { de: "Ein Bewerbungsgespräch führen.", en: "Have a job interview." } },
+    { word: "der Lebenslauf", phonetic: "lay-bens-lowf", meaning: "CV / curriculum vitae", gender: "der", example: { de: "Den Lebenslauf schicken.", en: "Send the CV." } },
+    { word: "sich bewerben", phonetic: "zikh beh-ver-ben", meaning: "to apply (for a job)", example: { de: "Sich um eine Stelle bewerben.", en: "Apply for a position." } },
+    { word: "kündigen", phonetic: "kün-di-gen", meaning: "to resign / give notice", example: { de: "Die Stelle kündigen.", en: "Resign from the position." } },
+    { word: "die Ausbildung", phonetic: "ows-bil-dung", meaning: "training / apprenticeship", gender: "die", example: { de: "Eine Ausbildung machen.", en: "Do an apprenticeship." } },
+    { word: "der Praktikum", phonetic: "prak-ti-koom", meaning: "internship", gender: "das", example: { de: "Ein Praktikum absolvieren.", en: "Complete an internship." } },
+    { word: "die Überstunden", phonetic: "ü-ber-shtoon-den", meaning: "overtime", example: { de: "Überstunden machen.", en: "Do overtime." } },
+    { word: "das Homeoffice", phonetic: "hohm-o-fis", meaning: "home office / working from home", gender: "das", example: { de: "Im Homeoffice arbeiten.", en: "Work from home." } },
+    { word: "die Besprechung", phonetic: "beh-shpre-khung", meaning: "meeting", gender: "die", example: { de: "Eine Besprechung leiten.", en: "Lead a meeting." } },
+    { word: "der Arbeitsvertrag", phonetic: "ar-byts-fer-trahg", meaning: "employment contract", gender: "der", example: { de: "Den Arbeitsvertrag unterschreiben.", en: "Sign the employment contract." } },
+    { word: "die Versetzung", phonetic: "fer-ze-tsung", meaning: "transfer / relocation", gender: "die", example: { de: "Eine Versetzung ablehnen.", en: "Decline a transfer." } },
+    { word: "die Gehaltserhöhung", phonetic: "geh-halts-er-höh-ung", meaning: "pay rise", gender: "die", example: { de: "Eine Gehaltserhöhung fordern.", en: "Demand a pay rise." } },
+  ]}] },
+};
