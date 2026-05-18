@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega68: Record<string, Lesson> = {
+  "lb2_m113": { id: "lb2_m113", title: "Fluid Mechanics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Strömungsmechanik", phonetic: "shtrö-mungs-me-kha-nik", meaning: "fluid mechanics", gender: "die", example: { de: "Numerische Strömungsmechanik.", en: "Numerical fluid mechanics." } },
+    { word: "die Viskosität", phonetic: "vis-ko-zi-tayt", meaning: "viscosity", gender: "die", example: { de: "Dynamische Viskosität.", en: "Dynamic viscosity." } },
+    { word: "die Turbulenz", phonetic: "toor-boo-lents", meaning: "turbulence", gender: "die", example: { de: "Atmosphärische Turbulenz.", en: "Atmospheric turbulence." } },
+    { word: "die Reynoldszahl", phonetic: "rey-nolds-tsahl", meaning: "Reynolds number", gender: "die", example: { de: "Kritische Reynoldszahl.", en: "Critical Reynolds number." } },
+    { word: "die Bernoulli-Gleichung", phonetic: "ber-noo-lee-gly-khung", meaning: "Bernoulli equation", gender: "die", example: { de: "Vereinfachte Bernoulli-Gleichung.", en: "Simplified Bernoulli equation." } },
+    { word: "die Navier-Stokes-Gleichung", phonetic: "na-vee-ay-stohks-gly-khung", meaning: "Navier-Stokes equation", gender: "die", example: { de: "Inkompressible Navier-Stokes-Gleichung.", en: "Incompressible Navier-Stokes equation." } },
+    { word: "die Grenzschicht", phonetic: "grents-shikht", meaning: "boundary layer", gender: "die", example: { de: "Laminare Grenzschicht.", en: "Laminar boundary layer." } },
+    { word: "der Druckgradient", phonetic: "drook-gra-dee-ent", meaning: "pressure gradient", gender: "der", example: { de: "Adverser Druckgradient.", en: "Adverse pressure gradient." } },
+    { word: "die Kavitation", phonetic: "ka-vi-ta-tsee-ohn", meaning: "cavitation", gender: "die", example: { de: "Hydrodynamische Kavitation.", en: "Hydrodynamic cavitation." } },
+    { word: "der Auftrieb", phonetic: "owf-treep", meaning: "buoyancy / lift", gender: "der", example: { de: "Archimedischer Auftrieb.", en: "Archimedean buoyancy." } },
+    { word: "der Widerstand", phonetic: "vi-der-shtant", meaning: "drag / resistance", gender: "der", example: { de: "Aerodynamischer Widerstand.", en: "Aerodynamic drag." } },
+    { word: "die Kontinuitätsgleichung", phonetic: "kon-ti-noo-i-tayts-gly-khung", meaning: "continuity equation", gender: "die", example: { de: "Massenerhaltende Kontinuitätsgleichung.", en: "Mass-conserving continuity equation." } },
+    { word: "die Stromlinien", phonetic: "shtrohm-lee-nee-en", meaning: "streamlines", example: { de: "Parallele Stromlinien.", en: "Parallel streamlines." } },
+    { word: "der Volumenstrom", phonetic: "vo-loo-men-shtrohm", meaning: "volumetric flow rate", gender: "der", example: { de: "Messung des Volumenstroms.", en: "Measurement of volumetric flow rate." } },
+    { word: "die Kompressibilität", phonetic: "kom-pre-si-bi-li-tayt", meaning: "compressibility (fluid)", gender: "die", example: { de: "Flüssigkeitskompressibilität.", en: "Fluid compressibility." } },
+    { word: "das CFD", phonetic: "tsay-ef-day", meaning: "computational fluid dynamics", gender: "das", example: { de: "CFD-Simulation.", en: "CFD simulation." } },
+    { word: "die Scherschicht", phonetic: "shayr-shikht", meaning: "shear layer", gender: "die", example: { de: "Freie Scherschicht.", en: "Free shear layer." } },
+    { word: "der Wirbel", phonetic: "vir-bel", meaning: "vortex", gender: "der", example: { de: "Stabiler Wirbel.", en: "Stable vortex." } },
+    { word: "die Machzahl", phonetic: "makh-tsahl", meaning: "Mach number", gender: "die", example: { de: "Überschallströmung Machzahl.", en: "Supersonic flow Mach number." } },
+    { word: "die Hydraulik", phonetic: "hü-draw-lik", meaning: "hydraulics", gender: "die", example: { de: "Industrielle Hydraulik.", en: "Industrial hydraulics." } },
+  ]}] },
+};

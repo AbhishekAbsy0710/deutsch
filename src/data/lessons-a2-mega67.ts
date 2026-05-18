@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega67: Record<string, Lesson> = {
+  "la2_m112": { id: "la2_m112", title: "Education & School A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Schule", phonetic: "shoo-luh", meaning: "school", gender: "die", example: { de: "In die Schule gehen.", en: "Go to school." } },
+    { word: "der Unterricht", phonetic: "oon-ter-rikht", meaning: "lesson / class", gender: "der", example: { de: "Der Unterricht beginnt.", en: "The class begins." } },
+    { word: "der Lehrer", phonetic: "lay-rer", meaning: "teacher (male)", gender: "der", example: { de: "Ein guter Lehrer.", en: "A good teacher." } },
+    { word: "die Lehrerin", phonetic: "lay-re-rin", meaning: "teacher (female)", gender: "die", example: { de: "Die Lehrerin erklärt.", en: "The teacher explains." } },
+    { word: "der Schüler", phonetic: "shü-ler", meaning: "pupil / student (male)", gender: "der", example: { de: "Fleißiger Schüler.", en: "Diligent pupil." } },
+    { word: "das Fach", phonetic: "fakh", meaning: "subject", gender: "das", example: { de: "Mein Lieblingsfach.", en: "My favourite subject." } },
+    { word: "die Hausaufgaben", phonetic: "hows-owf-gah-ben", meaning: "homework", example: { de: "Hausaufgaben machen.", en: "Do homework." } },
+    { word: "die Prüfung", phonetic: "prü-fung", meaning: "exam / test", gender: "die", example: { de: "Eine Prüfung ablegen.", en: "Take an exam." } },
+    { word: "die Note", phonetic: "noh-tuh", meaning: "grade / mark", gender: "die", example: { de: "Eine gute Note bekommen.", en: "Get a good grade." } },
+    { word: "das Zeugnis", phonetic: "tsoyg-nis", meaning: "report card", gender: "das", example: { de: "Das Zeugnis lesen.", en: "Read the report card." } },
+    { word: "das Klassenzimmer", phonetic: "kla-sen-tsi-mer", meaning: "classroom", gender: "das", example: { de: "Im Klassenzimmer sitzen.", en: "Sit in the classroom." } },
+    { word: "die Tafel", phonetic: "tah-fel", meaning: "blackboard / whiteboard", gender: "die", example: { de: "An die Tafel schreiben.", en: "Write on the board." } },
+    { word: "lernen", phonetic: "ler-nen", meaning: "to learn / study", example: { de: "Für die Prüfung lernen.", en: "Study for the exam." } },
+    { word: "unterrichten", phonetic: "oon-ter-rikht-en", meaning: "to teach", example: { de: "Mathematik unterrichten.", en: "Teach mathematics." } },
+    { word: "die Universität", phonetic: "oo-ni-ver-zi-tayt", meaning: "university", gender: "die", example: { de: "An der Universität studieren.", en: "Study at university." } },
+    { word: "studieren", phonetic: "shtoo-dee-ren", meaning: "to study (at university)", example: { de: "Medizin studieren.", en: "Study medicine." } },
+    { word: "das Gymnasium", phonetic: "güm-nah-zee-oom", meaning: "grammar school", gender: "das", example: { de: "Aufs Gymnasium gehen.", en: "Go to grammar school." } },
+    { word: "das Abitur", phonetic: "a-bi-toor", meaning: "A-levels / school leaving exam", gender: "das", example: { de: "Das Abitur bestehen.", en: "Pass the A-levels." } },
+    { word: "die Klasse", phonetic: "kla-suh", meaning: "class / year", gender: "die", example: { de: "In der dritten Klasse.", en: "In the third year." } },
+    { word: "der Stundenplan", phonetic: "shtoon-den-plahn", meaning: "timetable (school)", gender: "der", example: { de: "Den Stundenplan ansehen.", en: "Look at the timetable." } },
+  ]}] },
+};

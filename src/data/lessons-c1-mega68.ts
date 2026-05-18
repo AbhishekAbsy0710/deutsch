@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega68: Record<string, Lesson> = {
+  "lc1_m114": { id: "lc1_m114", title: "Advanced Sociolinguistics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Soziolinguistik", phonetic: "zo-tsee-oh-lin-gwis-tik", meaning: "sociolinguistics", gender: "die", example: { de: "Angewandte Soziolinguistik.", en: "Applied sociolinguistics." } },
+    { word: "die Sprachvariation", phonetic: "shprahkh-va-ree-a-tsee-ohn", meaning: "language variation", gender: "die", example: { de: "Regionale Sprachvariation.", en: "Regional language variation." } },
+    { word: "der Dialekt", phonetic: "dee-a-lekt", meaning: "dialect", gender: "der", example: { de: "Bairischer Dialekt.", en: "Bavarian dialect." } },
+    { word: "der Soziolekt", phonetic: "zo-tsee-oh-lekt", meaning: "sociolect", gender: "der", example: { de: "Jugendlicher Soziolekt.", en: "Youth sociolect." } },
+    { word: "der Idiolekt", phonetic: "i-dee-oh-lekt", meaning: "idiolect", gender: "der", example: { de: "Individueller Idiolekt.", en: "Individual idiolect." } },
+    { word: "der Spracherwerb", phonetic: "shprahkh-er-verp", meaning: "language acquisition", gender: "der", example: { de: "Natürlicher Spracherwerb.", en: "Natural language acquisition." } },
+    { word: "die Zweisprachigkeit", phonetic: "tsvy-shprahkh-ikh-kyte", meaning: "bilingualism", gender: "die", example: { de: "Simultane Zweisprachigkeit.", en: "Simultaneous bilingualism." } },
+    { word: "der Sprachwandel", phonetic: "shprahkh-van-del", meaning: "language change", gender: "der", example: { de: "Historischer Sprachwandel.", en: "Historical language change." } },
+    { word: "die Sprachkontakt", phonetic: "shprahkh-kon-takt", meaning: "language contact", gender: "der", example: { de: "Intensiver Sprachkontakt.", en: "Intense language contact." } },
+    { word: "die Interferenz", phonetic: "in-ter-fe-rents", meaning: "interference (linguistic)", gender: "die", example: { de: "Lexikalische Interferenz.", en: "Lexical interference." } },
+    { word: "der Kodewechsel", phonetic: "koh-duh-vek-sel", meaning: "code-switching", gender: "der", example: { de: "Situativer Kodewechsel.", en: "Situational code-switching." } },
+    { word: "die Diglossie", phonetic: "dig-lo-see", meaning: "diglossia", gender: "die", example: { de: "Arabische Diglossie.", en: "Arabic diglossia." } },
+    { word: "die Sprachpolitik", phonetic: "shprahkh-po-li-tik", meaning: "language policy", gender: "die", example: { de: "Europäische Sprachpolitik.", en: "European language policy." } },
+    { word: "die Sprachplanung", phonetic: "shprahkh-plah-nung", meaning: "language planning", gender: "die", example: { de: "Korpusbezogene Sprachplanung.", en: "Corpus-based language planning." } },
+    { word: "der Sprachprestige", phonetic: "shprahkh-pres-tee-zhuh", meaning: "language prestige", gender: "das", example: { de: "Hohes Sprachprestige.", en: "High language prestige." } },
+    { word: "die Lingua Franca", phonetic: "lin-gwa-fran-ka", meaning: "lingua franca", gender: "die", example: { de: "Englisch als Lingua Franca.", en: "English as a lingua franca." } },
+    { word: "die Sprachgemeinschaft", phonetic: "shprahkh-geh-myn-shaft", meaning: "speech community", gender: "die", example: { de: "Homogene Sprachgemeinschaft.", en: "Homogeneous speech community." } },
+    { word: "die Sprechereinstellung", phonetic: "shpre-kher-ayn-shte-lung", meaning: "speaker attitude", gender: "die", example: { de: "Sprechereinstellung gegenüber Dialekten.", en: "Speaker attitude towards dialects." } },
+    { word: "die Pragmatik", phonetic: "prag-mah-tik", meaning: "pragmatics", gender: "die", example: { de: "Interkulturelle Pragmatik.", en: "Intercultural pragmatics." } },
+    { word: "der Sprachrelativismus", phonetic: "shprahkh-re-la-ti-vis-mus", meaning: "linguistic relativity", gender: "der", example: { de: "Sapir-Whorf-Sprachrelativismus.", en: "Sapir-Whorf linguistic relativity." } },
+  ]}] },
+};

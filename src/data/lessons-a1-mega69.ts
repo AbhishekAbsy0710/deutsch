@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega69: Record<string, Lesson> = {
+  "la1_m119": { id: "la1_m119", title: "At the Airport A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "der Flughafen", phonetic: "floog-hah-fen", meaning: "airport", gender: "der", example: { de: "Am Flughafen ankommen.", en: "Arrive at the airport." } },
+    { word: "das Flugzeug", phonetic: "floog-tsoyg", meaning: "airplane", gender: "das", example: { de: "Das Flugzeug startet.", en: "The airplane takes off." } },
+    { word: "der Flug", phonetic: "floog", meaning: "flight", gender: "der", example: { de: "Der Flug dauert zwei Stunden.", en: "The flight takes two hours." } },
+    { word: "der Pilot", phonetic: "pi-loht", meaning: "pilot", gender: "der", example: { de: "Der Pilot landet.", en: "The pilot lands." } },
+    { word: "die Stewardess", phonetic: "stü-ar-des", meaning: "flight attendant (female)", gender: "die", example: { de: "Die Stewardess hilft.", en: "The flight attendant helps." } },
+    { word: "das Ticket", phonetic: "ti-ket", meaning: "ticket", gender: "das", example: { de: "Ein Flugticket buchen.", en: "Book a flight ticket." } },
+    { word: "einchecken", phonetic: "ayn-tshe-ken", meaning: "to check in", example: { de: "Online einchecken.", en: "Check in online." } },
+    { word: "die Bordkarte", phonetic: "bort-kar-tuh", meaning: "boarding pass", gender: "die", example: { de: "Die Bordkarte zeigen.", en: "Show the boarding pass." } },
+    { word: "das Gepäck", phonetic: "geh-pek", meaning: "luggage / baggage", gender: "das", example: { de: "Das Gepäck aufgeben.", en: "Check in the luggage." } },
+    { word: "der Koffer", phonetic: "ko-fer", meaning: "suitcase", gender: "der", example: { de: "Einen Koffer packen.", en: "Pack a suitcase." } },
+    { word: "das Handgepäck", phonetic: "hant-geh-pek", meaning: "hand luggage", gender: "das", example: { de: "Handgepäck mitnehmen.", en: "Take hand luggage." } },
+    { word: "die Passkontrolle", phonetic: "pas-kon-tro-luh", meaning: "passport control", gender: "die", example: { de: "Durch die Passkontrolle.", en: "Through passport control." } },
+    { word: "die Sicherheitskontrolle", phonetic: "zi-kher-hyts-kon-tro-luh", meaning: "security check", gender: "die", example: { de: "Sicherheitskontrolle passieren.", en: "Pass the security check." } },
+    { word: "das Gate", phonetic: "geyt", meaning: "gate", gender: "das", example: { de: "Gate sieben.", en: "Gate seven." } },
+    { word: "der Abflug", phonetic: "ap-floog", meaning: "departure", gender: "der", example: { de: "Der Abflug ist pünktlich.", en: "The departure is on time." } },
+    { word: "die Ankunft", phonetic: "an-kunft", meaning: "arrival", gender: "die", example: { de: "Die Ankunft verzögert sich.", en: "The arrival is delayed." } },
+    { word: "landen", phonetic: "lan-den", meaning: "to land", example: { de: "Das Flugzeug landet.", en: "The airplane lands." } },
+    { word: "starten", phonetic: "shtar-ten", meaning: "to take off", example: { de: "Planmäßig starten.", en: "Take off on schedule." } },
+    { word: "der Zoll", phonetic: "tsol", meaning: "customs", gender: "der", example: { de: "Durch den Zoll gehen.", en: "Go through customs." } },
+    { word: "der Ausgang", phonetic: "ows-gang", meaning: "exit / gate", gender: "der", example: { de: "Den Ausgang suchen.", en: "Look for the exit." } },
+  ]}] },
+};

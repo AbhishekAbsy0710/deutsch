@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega66: Record<string, Lesson> = {
+  "lc2_m109": { id: "lc2_m109", title: "Advanced Functional Analysis C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Funktionalanalysis", phonetic: "funk-tsee-oh-nahl-a-na-lü-sis", meaning: "functional analysis", gender: "die", example: { de: "Abstrakte Funktionalanalysis.", en: "Abstract functional analysis." } },
+    { word: "der Banachraum", phonetic: "ba-nakh-rowm", meaning: "Banach space", gender: "der", example: { de: "Reflexiver Banachraum.", en: "Reflexive Banach space." } },
+    { word: "der Hilbertraum", phonetic: "hil-bert-rowm", meaning: "Hilbert space", gender: "der", example: { de: "Trennbarer Hilbertraum.", en: "Separable Hilbert space." } },
+    { word: "das Orthonormalsystem", phonetic: "or-to-nor-mahl-züs-taym", meaning: "orthonormal system", gender: "das", example: { de: "Vollständiges Orthonormalsystem.", en: "Complete orthonormal system." } },
+    { word: "der Dual-Raum", phonetic: "doo-ahl-rowm", meaning: "dual space", gender: "der", example: { de: "Algebraischer Dual-Raum.", en: "Algebraic dual space." } },
+    { word: "der Hahn-Banach-Satz", phonetic: "hahn-ba-nakh-zats", meaning: "Hahn-Banach theorem", gender: "der", example: { de: "Trennungsform Hahn-Banach-Satz.", en: "Separation form Hahn-Banach theorem." } },
+    { word: "der Offene-Abbildung-Satz", phonetic: "o-fe-nuh-ap-bil-dung-zats", meaning: "open mapping theorem", gender: "der", example: { de: "Surjektiver Offene-Abbildung-Satz.", en: "Surjective open mapping theorem." } },
+    { word: "das Schwache Konvergenz", phonetic: "shva-khuh kon-ver-gents", meaning: "weak convergence", gender: "die", example: { de: "Schwache-Stern-Konvergenz.", en: "Weak-star convergence." } },
+    { word: "der Kompakte Operator", phonetic: "kom-pak-tuh oh-pe-ra-tor", meaning: "compact operator", gender: "der", example: { de: "Nuklearer kompakter Operator.", en: "Nuclear compact operator." } },
+    { word: "das Spektrum", phonetic: "shpek-troom", meaning: "spectrum (operator)", gender: "das", example: { de: "Punktspektrum.", en: "Point spectrum." } },
+    { word: "die Resolvente", phonetic: "re-zol-ven-tuh", meaning: "resolvent", gender: "die", example: { de: "Analytische Resolvente.", en: "Analytic resolvent." } },
+    { word: "der Unbeschränkte Operator", phonetic: "oon-beh-shrenk-tuh oh-pe-ra-tor", meaning: "unbounded operator", gender: "der", example: { de: "Selbstadjungierter unbeschränkter Operator.", en: "Self-adjoint unbounded operator." } },
+    { word: "die Sobolev-Räume", phonetic: "zo-bo-lef-röy-muh", meaning: "Sobolev spaces", example: { de: "Gewichtete Sobolev-Räume.", en: "Weighted Sobolev spaces." } },
+    { word: "die Distributionen", phonetic: "dis-tri-boo-tsee-oh-nen", meaning: "distributions (Schwartz)", example: { de: "Temperiertete Distributionen.", en: "Tempered distributions." } },
+    { word: "die Fourieranalysis", phonetic: "foo-ree-ay-a-na-lü-sis", meaning: "Fourier analysis", gender: "die", example: { de: "Abstrakte Fourieranalysis.", en: "Abstract Fourier analysis." } },
+    { word: "die Interpolationstheorie", phonetic: "in-ter-po-la-tsee-ohns-tay-oh-ree", meaning: "interpolation theory", gender: "die", example: { de: "Komplexe Interpolationstheorie.", en: "Complex interpolation theory." } },
+    { word: "die Hardy-Räume", phonetic: "har-dee-röy-muh", meaning: "Hardy spaces", example: { de: "Analytische Hardy-Räume.", en: "Analytic Hardy spaces." } },
+    { word: "die Wavelet-Theorie", phonetic: "vay-ve-let-tay-oh-ree", meaning: "wavelet theory", gender: "die", example: { de: "Orthogonale Wavelet-Theorie.", en: "Orthogonal wavelet theory." } },
+    { word: "die Fixed-Point-Satz", phonetic: "fikt-poynts-zats", meaning: "fixed-point theorem", gender: "der", example: { de: "Banachscher Fixed-Point-Satz.", en: "Banach fixed-point theorem." } },
+    { word: "der Eberlein-Smulian-Satz", phonetic: "ay-ber-layn-shmu-lee-an-zats", meaning: "Eberlein-Šmulian theorem", gender: "der", example: { de: "Reflexivitäts-Eberlein-Smulian-Satz.", en: "Reflexivity Eberlein-Šmulian theorem." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega70: Record<string, Lesson> = {
+  "lb1_m121": { id: "lb1_m121", title: "Social Issues B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Gesellschaft", phonetic: "geh-zel-shaft", meaning: "society", gender: "die", example: { de: "Moderne Gesellschaft.", en: "Modern society." } },
+    { word: "die Gleichstellung", phonetic: "glykh-shte-lung", meaning: "equality / equal rights", gender: "die", example: { de: "Gleichstellung der Geschlechter.", en: "Gender equality." } },
+    { word: "die Armut", phonetic: "ar-moot", meaning: "poverty", gender: "die", example: { de: "Bekämpfung der Armut.", en: "Fighting poverty." } },
+    { word: "der Wohlstand", phonetic: "vohl-shtant", meaning: "prosperity / wealth", gender: "der", example: { de: "Gesellschaftlicher Wohlstand.", en: "Societal prosperity." } },
+    { word: "die soziale Ungleichheit", phonetic: "zo-tsee-ah-luh oon-glykh-hyte", meaning: "social inequality", example: { de: "Wachsende soziale Ungleichheit.", en: "Growing social inequality." } },
+    { word: "das Ehrenamt", phonetic: "ay-ren-amt", meaning: "voluntary work", gender: "das", example: { de: "Ehrenamtlich tätig.", en: "Active as a volunteer." } },
+    { word: "die Inklusion", phonetic: "in-kloo-zee-ohn", meaning: "inclusion", gender: "die", example: { de: "Gesellschaftliche Inklusion.", en: "Societal inclusion." } },
+    { word: "die Barrierefreiheit", phonetic: "ba-ree-ay-ruh-fry-hyte", meaning: "accessibility", gender: "die", example: { de: "Barrierefreiheit gewährleisten.", en: "Ensure accessibility." } },
+    { word: "der Obdachlose", phonetic: "op-dakh-loh-zuh", meaning: "homeless person", gender: "der", example: { de: "Hilfe für Obdachlose.", en: "Help for the homeless." } },
+    { word: "die Sozialhilfe", phonetic: "zo-tsee-ahl-hil-fuh", meaning: "social welfare / benefits", gender: "die", example: { de: "Sozialhilfe beantragen.", en: "Apply for social welfare." } },
+    { word: "der Sozialstaat", phonetic: "zo-tsee-ahl-shtaht", meaning: "welfare state", gender: "der", example: { de: "Starker Sozialstaat.", en: "Strong welfare state." } },
+    { word: "die Pflegeversicherung", phonetic: "pflay-guh-fer-zi-khe-rung", meaning: "long-term care insurance", gender: "die", example: { de: "Gesetzliche Pflegeversicherung.", en: "Statutory long-term care insurance." } },
+    { word: "der Mindestlohn", phonetic: "min-dest-lohn", meaning: "minimum wage", gender: "der", example: { de: "Mindestlohn erhöhen.", en: "Raise the minimum wage." } },
+    { word: "die Partizipation", phonetic: "par-ti-tsi-pa-tsee-ohn", meaning: "participation", gender: "die", example: { de: "Politische Partizipation.", en: "Political participation." } },
+    { word: "der Generationenvertrag", phonetic: "ge-ne-ra-tsee-oh-nen-fer-trahg", meaning: "intergenerational contract", gender: "der", example: { de: "Solidarischer Generationenvertrag.", en: "Solidary intergenerational contract." } },
+    { word: "die Chancengleichheit", phonetic: "khan-tsen-glykh-hyte", meaning: "equal opportunity", gender: "die", example: { de: "Bildungsbezogene Chancengleichheit.", en: "Educational equal opportunity." } },
+    { word: "das Bildungssystem", phonetic: "bil-dungs-züs-taym", meaning: "education system", gender: "das", example: { de: "Das deutsche Bildungssystem.", en: "The German education system." } },
+    { word: "die Altersarmut", phonetic: "al-ters-ar-moot", meaning: "old-age poverty", gender: "die", example: { de: "Steigende Altersarmut.", en: "Rising old-age poverty." } },
+    { word: "die Solidarität", phonetic: "zo-li-da-ri-tayt", meaning: "solidarity", gender: "die", example: { de: "Gesellschaftliche Solidarität.", en: "Societal solidarity." } },
+    { word: "die Zivilgesellschaft", phonetic: "tsi-vil-geh-zel-shaft", meaning: "civil society", gender: "die", example: { de: "Starke Zivilgesellschaft.", en: "Strong civil society." } },
+  ]}] },
+};
