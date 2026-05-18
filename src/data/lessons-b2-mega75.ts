@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega75: Record<string, Lesson> = {
+  "lb2_m120": { id: "lb2_m120", title: "Neuroscience & Brain B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Neurowissenschaft", phonetic: "noy-ro-vi-sen-shaft", meaning: "neuroscience", gender: "die", example: { de: "Kognitive Neurowissenschaft.", en: "Cognitive neuroscience." } },
+    { word: "das Neuron", phonetic: "noy-rohn", meaning: "neuron", gender: "das", example: { de: "Glutamaterges Neuron.", en: "Glutamatergic neuron." } },
+    { word: "die Synapse", phonetic: "zü-nap-suh", meaning: "synapse", gender: "die", example: { de: "Chemische Synapse.", en: "Chemical synapse." } },
+    { word: "das Aktionspotenzial", phonetic: "ak-tsee-ohns-po-ten-tsee-ahl", meaning: "action potential", gender: "das", example: { de: "Propagierendes Aktionspotenzial.", en: "Propagating action potential." } },
+    { word: "der Neurotransmitter", phonetic: "noy-ro-trans-mi-ter", meaning: "neurotransmitter", gender: "der", example: { de: "Exzitatorischer Neurotransmitter.", en: "Excitatory neurotransmitter." } },
+    { word: "die Myelinscheide", phonetic: "mü-e-lin-shy-duh", meaning: "myelin sheath", gender: "die", example: { de: "Isolierende Myelinscheide.", en: "Insulating myelin sheath." } },
+    { word: "der Kortex", phonetic: "kor-teks", meaning: "cortex", gender: "der", example: { de: "Präfrontaler Kortex.", en: "Prefrontal cortex." } },
+    { word: "der Hippocampus", phonetic: "hi-po-kam-pus", meaning: "hippocampus", gender: "der", example: { de: "Gedächtnis-Hippocampus.", en: "Memory hippocampus." } },
+    { word: "die Amygdala", phonetic: "a-müg-da-la", meaning: "amygdala", gender: "die", example: { de: "Furcht-Amygdala.", en: "Fear amygdala." } },
+    { word: "der Dopamin", phonetic: "do-pa-meen", meaning: "dopamine", gender: "das", example: { de: "Belohnungssystem Dopamin.", en: "Reward system dopamine." } },
+    { word: "der Serotonin", phonetic: "ze-ro-to-neen", meaning: "serotonin", gender: "das", example: { de: "Stimmungsregulierendes Serotonin.", en: "Mood-regulating serotonin." } },
+    { word: "die Neuroplastizität", phonetic: "noy-ro-plas-ti-tsi-tayt", meaning: "neuroplasticity", gender: "die", example: { de: "Erfahrungsabhängige Neuroplastizität.", en: "Experience-dependent neuroplasticity." } },
+    { word: "die Langzeitpotenzierung", phonetic: "lang-tsyte-po-ten-tsee-rung", meaning: "long-term potentiation (LTP)", gender: "die", example: { de: "NMDA-abhängige Langzeitpotenzierung.", en: "NMDA-dependent long-term potentiation." } },
+    { word: "das Gedächtnis", phonetic: "geh-dekht-nis", meaning: "memory", gender: "das", example: { de: "Deklaratives Gedächtnis.", en: "Declarative memory." } },
+    { word: "die Kognition", phonetic: "kog-ni-tsee-ohn", meaning: "cognition", gender: "die", example: { de: "Exekutive Kognition.", en: "Executive cognition." } },
+    { word: "die funktionelle MRT", phonetic: "funk-tsee-oh-ne-luh em-er-tay", meaning: "fMRI (functional MRI)", gender: "die", example: { de: "Hirnaktivitäts-funktionelle MRT.", en: "Brain activity fMRI." } },
+    { word: "die EEG", phonetic: "ay-ay-gay", meaning: "EEG (electroencephalography)", gender: "das", example: { de: "Schlaf-EEG.", en: "Sleep EEG." } },
+    { word: "der Schlaganfall", phonetic: "shlahk-an-fal", meaning: "stroke", gender: "der", example: { de: "Ischämischer Schlaganfall.", en: "Ischaemic stroke." } },
+    { word: "die Alzheimer-Krankheit", phonetic: "alts-hy-mer-krank-hyte", meaning: "Alzheimer's disease", gender: "die", example: { de: "Frühe Alzheimer-Krankheit.", en: "Early Alzheimer's disease." } },
+    { word: "die Konnektomik", phonetic: "ko-nek-toh-mik", meaning: "connectomics", gender: "die", example: { de: "Strukturelle Konnektomik.", en: "Structural connectomics." } },
+  ]}] },
+};

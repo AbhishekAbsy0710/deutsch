@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega76: Record<string, Lesson> = {
+  "la1_m126": { id: "la1_m126", title: "Clothes & Colours A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Kleidung", phonetic: "kly-dung", meaning: "clothing", gender: "die", example: { de: "Warme Kleidung tragen.", en: "Wear warm clothing." } },
+    { word: "das Hemd", phonetic: "hemt", meaning: "shirt", gender: "das", example: { de: "Ein weißes Hemd.", en: "A white shirt." } },
+    { word: "die Hose", phonetic: "hoh-zuh", meaning: "trousers / pants", gender: "die", example: { de: "Eine blaue Hose.", en: "Blue trousers." } },
+    { word: "das Kleid", phonetic: "klyte", meaning: "dress", gender: "das", example: { de: "Ein rotes Kleid.", en: "A red dress." } },
+    { word: "der Rock", phonetic: "rok", meaning: "skirt", gender: "der", example: { de: "Ein kurzer Rock.", en: "A short skirt." } },
+    { word: "der Pullover", phonetic: "poo-loh-ver", meaning: "jumper / sweater", gender: "der", example: { de: "Ein warmer Pullover.", en: "A warm jumper." } },
+    { word: "die Jacke", phonetic: "ya-kuh", meaning: "jacket", gender: "die", example: { de: "Eine rote Jacke.", en: "A red jacket." } },
+    { word: "der Mantel", phonetic: "man-tel", meaning: "coat", gender: "der", example: { de: "Ein langer Mantel.", en: "A long coat." } },
+    { word: "die Schuhe", phonetic: "shoo-uh", meaning: "shoes", example: { de: "Neue Schuhe kaufen.", en: "Buy new shoes." } },
+    { word: "die Socken", phonetic: "zo-ken", meaning: "socks", example: { de: "Bunte Socken.", en: "Colourful socks." } },
+    { word: "rot", phonetic: "roht", meaning: "red", example: { de: "Rote Rosen.", en: "Red roses." } },
+    { word: "blau", phonetic: "blow", meaning: "blue", example: { de: "Blauer Himmel.", en: "Blue sky." } },
+    { word: "grün", phonetic: "grün", meaning: "green", example: { de: "Grünes Gras.", en: "Green grass." } },
+    { word: "gelb", phonetic: "gelp", meaning: "yellow", example: { de: "Gelbe Sonne.", en: "Yellow sun." } },
+    { word: "schwarz", phonetic: "shvarts", meaning: "black", example: { de: "Schwarze Nacht.", en: "Black night." } },
+    { word: "weiß", phonetic: "vyse", meaning: "white", example: { de: "Weißer Schnee.", en: "White snow." } },
+    { word: "grau", phonetic: "grow", meaning: "grey", example: { de: "Graue Wolken.", en: "Grey clouds." } },
+    { word: "braun", phonetic: "brown", meaning: "brown", example: { de: "Braune Erde.", en: "Brown earth." } },
+    { word: "die Größe", phonetic: "gröh-suh", meaning: "size", gender: "die", example: { de: "Welche Größe?", en: "What size?" } },
+    { word: "passen", phonetic: "pa-sen", meaning: "to fit / suit", example: { de: "Das passt mir.", en: "That fits me." } },
+  ]}] },
+};

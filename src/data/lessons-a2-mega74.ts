@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega74: Record<string, Lesson> = {
+  "la2_m119": { id: "la2_m119", title: "Cooking & Recipes A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "kochen", phonetic: "ko-khen", meaning: "to cook", example: { de: "Das Abendessen kochen.", en: "Cook dinner." } },
+    { word: "das Rezept", phonetic: "re-tsept", meaning: "recipe", gender: "das", example: { de: "Ein einfaches Rezept.", en: "A simple recipe." } },
+    { word: "die Zutat", phonetic: "tsoo-taht", meaning: "ingredient", gender: "die", example: { de: "Alle Zutaten.", en: "All the ingredients." } },
+    { word: "die Pfanne", phonetic: "pfa-nuh", meaning: "frying pan", gender: "die", example: { de: "In der Pfanne braten.", en: "Fry in the pan." } },
+    { word: "der Topf", phonetic: "topf", meaning: "pot / saucepan", gender: "der", example: { de: "Im Topf kochen.", en: "Cook in the pot." } },
+    { word: "der Backofen", phonetic: "bak-oh-fen", meaning: "oven", gender: "der", example: { de: "Im Backofen backen.", en: "Bake in the oven." } },
+    { word: "braten", phonetic: "brah-ten", meaning: "to fry / roast", example: { de: "Fleisch braten.", en: "Fry meat." } },
+    { word: "kochen", phonetic: "ko-khen", meaning: "to boil / cook", example: { de: "Wasser kochen.", en: "Boil water." } },
+    { word: "backen", phonetic: "ba-ken", meaning: "to bake", example: { de: "Brot backen.", en: "Bake bread." } },
+    { word: "schneiden", phonetic: "shny-den", meaning: "to cut", example: { de: "Gemüse schneiden.", en: "Cut vegetables." } },
+    { word: "rühren", phonetic: "rü-ren", meaning: "to stir", example: { de: "Die Soße rühren.", en: "Stir the sauce." } },
+    { word: "das Salz", phonetic: "zalts", meaning: "salt", gender: "das", example: { de: "Salz hinzufügen.", en: "Add salt." } },
+    { word: "der Pfeffer", phonetic: "pfe-fer", meaning: "pepper", gender: "der", example: { de: "Schwarzer Pfeffer.", en: "Black pepper." } },
+    { word: "das Öl", phonetic: "öl", meaning: "oil", gender: "das", example: { de: "Olivenöl verwenden.", en: "Use olive oil." } },
+    { word: "die Butter", phonetic: "bu-ter", meaning: "butter", gender: "die", example: { de: "Butter hinzufügen.", en: "Add butter." } },
+    { word: "der Zucker", phonetic: "tsoo-ker", meaning: "sugar", gender: "der", example: { de: "Etwas Zucker.", en: "A little sugar." } },
+    { word: "das Mehl", phonetic: "mayl", meaning: "flour", gender: "das", example: { de: "Mehl sieben.", en: "Sieve flour." } },
+    { word: "die Soße", phonetic: "zoh-suh", meaning: "sauce / gravy", gender: "die", example: { de: "Die Soße abschmecken.", en: "Season the sauce." } },
+    { word: "der Geschmack", phonetic: "geh-shmak", meaning: "taste / flavour", gender: "der", example: { de: "Guter Geschmack.", en: "Good taste." } },
+    { word: "würzen", phonetic: "vür-tsen", meaning: "to season", example: { de: "Das Gericht würzen.", en: "Season the dish." } },
+  ]}] },
+};

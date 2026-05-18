@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega73: Record<string, Lesson> = {
+  "lc2_m116": { id: "lc2_m116", title: "Advanced Differential Geometry C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Differentialgeometrie", phonetic: "di-fe-ren-tsee-ahl-ge-oh-me-tree", meaning: "differential geometry", gender: "die", example: { de: "Riemannsche Differentialgeometrie.", en: "Riemannian differential geometry." } },
+    { word: "die glatte Mannigfaltigkeit", phonetic: "gla-tuh ma-nikh-fal-tikh-kyte", meaning: "smooth manifold", gender: "die", example: { de: "Kompakte glatte Mannigfaltigkeit.", en: "Compact smooth manifold." } },
+    { word: "der Tangentialbündel", phonetic: "tan-gen-tsee-ahl-bün-del", meaning: "tangent bundle", gender: "das", example: { de: "Globaler Schnitt des Tangentialbündels.", en: "Global section of the tangent bundle." } },
+    { word: "die Riemannsche Metrik", phonetic: "ree-man-shuh may-trik", meaning: "Riemannian metric", gender: "die", example: { de: "Glatte Riemannsche Metrik.", en: "Smooth Riemannian metric." } },
+    { word: "die Levi-Civita-Zusammenhang", phonetic: "le-vi-tshi-vi-ta-tsoo-za-men-hang", meaning: "Levi-Civita connection", gender: "der", example: { de: "Eindeutiger Levi-Civita-Zusammenhang.", en: "Unique Levi-Civita connection." } },
+    { word: "der Riemannsche Krümmungstensor", phonetic: "ree-man-shuh krü-mungs-ten-sor", meaning: "Riemann curvature tensor", gender: "der", example: { de: "Kovarianter Riemannsche Krümmungstensor.", en: "Covariant Riemann curvature tensor." } },
+    { word: "die Ricci-Krümmung", phonetic: "ri-tshi-krü-mung", meaning: "Ricci curvature", gender: "die", example: { de: "Nicht-negative Ricci-Krümmung.", en: "Non-negative Ricci curvature." } },
+    { word: "die skalare Krümmung", phonetic: "ska-lah-ruh krü-mung", meaning: "scalar curvature", gender: "die", example: { de: "Konstante skalare Krümmung.", en: "Constant scalar curvature." } },
+    { word: "die geodätische Linie", phonetic: "ge-oh-day-ti-shuh lee-nee-uh", meaning: "geodesic", gender: "die", example: { de: "Längstminimierende geodätische Linie.", en: "Length-minimizing geodesic." } },
+    { word: "der Exponentialabbildung", phonetic: "ek-spo-nen-tsee-ahl-ab-bil-dung", meaning: "exponential map", gender: "die", example: { de: "Riemannsche Exponentialabbildung.", en: "Riemannian exponential map." } },
+    { word: "die Gauß-Krümmung", phonetic: "gows-krü-mung", meaning: "Gaussian curvature", gender: "die", example: { de: "Negative Gauß-Krümmung.", en: "Negative Gaussian curvature." } },
+    { word: "der Satz von Gauß-Bonnet", phonetic: "zats-fon-gows-bo-nay", meaning: "Gauss-Bonnet theorem", gender: "der", example: { de: "Topologischer Satz von Gauß-Bonnet.", en: "Topological Gauss-Bonnet theorem." } },
+    { word: "die Spin-Struktur", phonetic: "shpin-shtrook-toor", meaning: "spin structure", gender: "die", example: { de: "Orientierbare Spin-Struktur.", en: "Orientable spin structure." } },
+    { word: "der Dirac-Operator", phonetic: "dee-rak-oh-pe-ra-tor", meaning: "Dirac operator", gender: "der", example: { de: "Atiyah-Singer Dirac-Operator.", en: "Atiyah-Singer Dirac operator." } },
+    { word: "die Eichtheorie", phonetic: "aykh-tay-oh-ree", meaning: "gauge theory (geometric)", gender: "die", example: { de: "Yang-Mills-Eichtheorie.", en: "Yang-Mills gauge theory." } },
+    { word: "die Kähler-Mannigfaltigkeit", phonetic: "kay-ler-ma-nikh-fal-tikh-kyte", meaning: "Kähler manifold", gender: "die", example: { de: "Kompakte Kähler-Mannigfaltigkeit.", en: "Compact Kähler manifold." } },
+    { word: "die Calabi-Yau-Mannigfaltigkeit", phonetic: "ka-la-bi-yow-ma-nikh-fal-tikh-kyte", meaning: "Calabi-Yau manifold", gender: "die", example: { de: "Komplex-dreidimensionale Calabi-Yau-Mannigfaltigkeit.", en: "Complex three-dimensional Calabi-Yau manifold." } },
+    { word: "der Riccifluss", phonetic: "ri-tshi-floos", meaning: "Ricci flow", gender: "der", example: { de: "Perelmans Riccifluss.", en: "Perelman's Ricci flow." } },
+    { word: "die Cheeger-Gromov-Theorie", phonetic: "tshee-ger-groh-mof-tay-oh-ree", meaning: "Cheeger-Gromov theory", gender: "die", example: { de: "Kollaps Cheeger-Gromov-Theorie.", en: "Collapse Cheeger-Gromov theory." } },
+    { word: "die symplektische Geometrie", phonetic: "züm-plek-ti-shuh ge-oh-me-tree", meaning: "symplectic geometry", gender: "die", example: { de: "Hamiltonsche symplektische Geometrie.", en: "Hamiltonian symplectic geometry." } },
+  ]}] },
+};

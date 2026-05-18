@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega75: Record<string, Lesson> = {
+  "lc1_m121": { id: "lc1_m121", title: "Advanced Game Theory C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Spieltheorie", phonetic: "shpeel-tay-oh-ree", meaning: "game theory", gender: "die", example: { de: "Nicht-kooperative Spieltheorie.", en: "Non-cooperative game theory." } },
+    { word: "das Nash-Gleichgewicht", phonetic: "nash-glykh-geh-vikht", meaning: "Nash equilibrium", gender: "das", example: { de: "Gemischtes Nash-Gleichgewicht.", en: "Mixed Nash equilibrium." } },
+    { word: "das Gefangenendilemma", phonetic: "geh-fan-ge-nen-di-lem-ma", meaning: "prisoner's dilemma", gender: "das", example: { de: "Iteriertes Gefangenendilemma.", en: "Iterated prisoner's dilemma." } },
+    { word: "die dominante Strategie", phonetic: "do-mi-nan-tuh shtra-te-gee", meaning: "dominant strategy", gender: "die", example: { de: "Strikte dominante Strategie.", en: "Strictly dominant strategy." } },
+    { word: "das Nullsummenspiel", phonetic: "nool-zoo-men-shpeel", meaning: "zero-sum game", gender: "das", example: { de: "Zweipersonen-Nullsummenspiel.", en: "Two-person zero-sum game." } },
+    { word: "die kooperative Spieltheorie", phonetic: "ko-o-pe-ra-tee-vuh shpeel-tay-oh-ree", meaning: "cooperative game theory", gender: "die", example: { de: "Koalitionsbildende kooperative Spieltheorie.", en: "Coalition-forming cooperative game theory." } },
+    { word: "der Shapley-Wert", phonetic: "shep-lee-vert", meaning: "Shapley value", gender: "der", example: { de: "Fairer Shapley-Wert.", en: "Fair Shapley value." } },
+    { word: "das sequenzielle Spiel", phonetic: "ze-kven-tsee-e-luh shpeel", meaning: "sequential game", gender: "das", example: { de: "Extensivform sequenzielles Spiel.", en: "Extensive form sequential game." } },
+    { word: "der Teilgame-Perfekt", phonetic: "tile-gaym-per-fekt", meaning: "subgame perfect equilibrium", gender: "das", example: { de: "Teilgame-perfekte Gleichgewicht.", en: "Subgame perfect equilibrium." } },
+    { word: "die Rückwärtsinduktion", phonetic: "rük-verts-in-dook-tsee-ohn", meaning: "backward induction", gender: "die", example: { de: "Sequenzielle Rückwärtsinduktion.", en: "Sequential backward induction." } },
+    { word: "die Bayesianische Spieltheorie", phonetic: "bay-zi-ah-ni-shuh shpeel-tay-oh-ree", meaning: "Bayesian game theory", gender: "die", example: { de: "Harsanyi-Bayesianische Spieltheorie.", en: "Harsanyi Bayesian game theory." } },
+    { word: "die Auktion", phonetic: "owk-tsee-ohn", meaning: "auction (mechanism design)", gender: "die", example: { de: "Vickrey-Auktion.", en: "Vickrey auction." } },
+    { word: "das Mechanism Design", phonetic: "me-kha-nis-mus-di-zayn", meaning: "mechanism design", gender: "das", example: { de: "Direktes Offenbarungsprinzip Mechanism Design.", en: "Revelation principle mechanism design." } },
+    { word: "die Evolutionäre Spieltheorie", phonetic: "e-vo-loo-tsee-oh-nay-ruh shpeel-tay-oh-ree", meaning: "evolutionary game theory", gender: "die", example: { de: "Maynard Smith evolutionäre Spieltheorie.", en: "Maynard Smith evolutionary game theory." } },
+    { word: "die Evolutionäre stabile Strategie", phonetic: "e-vo-loo-tsee-oh-nay-ruh shtah-bi-luh shtra-te-gee", meaning: "evolutionarily stable strategy (ESS)", gender: "die", example: { de: "Polymorphe evolutionäre stabile Strategie.", en: "Polymorphic evolutionarily stable strategy." } },
+    { word: "der Hawk-Dove-Spiel", phonetic: "hok-dahf-shpeel", meaning: "Hawk-Dove game", gender: "das", example: { de: "Klassisches Hawk-Dove-Spiel.", en: "Classic Hawk-Dove game." } },
+    { word: "die Correlated Equilibrium", phonetic: "ko-re-leer-tes-glykh-geh-vikht", meaning: "correlated equilibrium", gender: "das", example: { de: "Aumann correlated Equilibrium.", en: "Aumann correlated equilibrium." } },
+    { word: "die Kognitive Hierarchie", phonetic: "kog-ni-tee-vuh hee-rar-khee", meaning: "cognitive hierarchy (CH model)", gender: "die", example: { de: "Camerer kognitive Hierarchie.", en: "Camerer cognitive hierarchy." } },
+    { word: "das Schelling-Punkt", phonetic: "she-ling-poonkt", meaning: "Schelling point / focal point", gender: "der", example: { de: "Koordinierendes Schelling-Punkt.", en: "Coordinating Schelling point." } },
+    { word: "das Netzwerkspiel", phonetic: "nets-verk-shpeel", meaning: "network game", gender: "das", example: { de: "Graphentheoretisches Netzwerkspiel.", en: "Graph-theoretic network game." } },
+  ]}] },
+};
