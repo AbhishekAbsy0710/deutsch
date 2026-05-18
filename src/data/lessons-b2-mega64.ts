@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega64: Record<string, Lesson> = {
+  "lb2_m109": { id: "lb2_m109", title: "Neuroscience B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Neurowissenschaft", phonetic: "noy-ro-vi-sen-shaft", meaning: "neuroscience", gender: "die", example: { de: "Kognitive Neurowissenschaft.", en: "Cognitive neuroscience." } },
+    { word: "das Neuron", phonetic: "noy-ron", meaning: "neuron", gender: "das", example: { de: "Glutamaterges Neuron.", en: "Glutamatergic neuron." } },
+    { word: "die Synapse", phonetic: "zü-nap-zuh", meaning: "synapse", gender: "die", example: { de: "Chemische Synapse.", en: "Chemical synapse." } },
+    { word: "der Neurotransmitter", phonetic: "noy-ro-trans-mi-ter", meaning: "neurotransmitter", gender: "der", example: { de: "Inhibitorischer Neurotransmitter.", en: "Inhibitory neurotransmitter." } },
+    { word: "das Aktionspotential", phonetic: "ak-tsee-ohns-po-ten-tsee-ahl", meaning: "action potential", gender: "das", example: { de: "Weitergeleitetes Aktionspotential.", en: "Propagated action potential." } },
+    { word: "die Myelinscheide", phonetic: "mü-ay-leen-shy-duh", meaning: "myelin sheath", gender: "die", example: { de: "Intakte Myelinscheide.", en: "Intact myelin sheath." } },
+    { word: "die Neuroplastizität", phonetic: "noy-ro-plas-ti-tsi-tayt", meaning: "neuroplasticity", gender: "die", example: { de: "Erfahrungsabhängige Neuroplastizität.", en: "Experience-dependent neuroplasticity." } },
+    { word: "der Hippocampus", phonetic: "hi-po-kam-poos", meaning: "hippocampus", gender: "der", example: { de: "Episodischer Hippocampus.", en: "Episodic hippocampus." } },
+    { word: "der Kortex", phonetic: "kor-teks", meaning: "cortex", gender: "der", example: { de: "Präfrontaler Kortex.", en: "Prefrontal cortex." } },
+    { word: "die Amygdala", phonetic: "a-mük-da-la", meaning: "amygdala", gender: "die", example: { de: "Emotionale Amygdala.", en: "Emotional amygdala." } },
+    { word: "die Glia", phonetic: "glee-a", meaning: "glia", gender: "die", example: { de: "Astrozytische Glia.", en: "Astrocytic glia." } },
+    { word: "das EEG", phonetic: "ay-ay-gay", meaning: "EEG (electroencephalogram)", gender: "das", example: { de: "EEG-Ableitung.", en: "EEG recording." } },
+    { word: "die fMRT", phonetic: "ef-em-er-tay", meaning: "fMRI", gender: "die", example: { de: "Funktionelle fMRT.", en: "Functional fMRI." } },
+    { word: "die Langzeitpotenzierung", phonetic: "lang-tsyte-po-ten-tsee-ee-rung", meaning: "long-term potentiation", gender: "die", example: { de: "Hippocampale Langzeitpotenzierung.", en: "Hippocampal long-term potentiation." } },
+    { word: "die Kognition", phonetic: "kog-ni-tsee-ohn", meaning: "cognition", gender: "die", example: { de: "Soziale Kognition.", en: "Social cognition." } },
+    { word: "die Neurodegeneration", phonetic: "noy-ro-de-ge-ne-ra-tsee-ohn", meaning: "neurodegeneration", gender: "die", example: { de: "Progressive Neurodegeneration.", en: "Progressive neurodegeneration." } },
+    { word: "der Schlaganfall", phonetic: "shlahg-an-fal", meaning: "stroke", gender: "der", example: { de: "Ischämischer Schlaganfall.", en: "Ischemic stroke." } },
+    { word: "die optogenetik", phonetic: "op-to-ge-nay-tik", meaning: "optogenetics", gender: "die", example: { de: "Neuronale Optogenetik.", en: "Neuronal optogenetics." } },
+    { word: "die Bewusstsein", phonetic: "beh-voost-zyne", meaning: "consciousness", gender: "das", example: { de: "Neuronale Korrelate des Bewusstseins.", en: "Neural correlates of consciousness." } },
+    { word: "die Brain-Computer-Interface", phonetic: "brayn-kom-pyoo-ter-in-ter-face", meaning: "brain-computer interface", gender: "das", example: { de: "Invasives Brain-Computer-Interface.", en: "Invasive brain-computer interface." } },
+  ]}] },
+};

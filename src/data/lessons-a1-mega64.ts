@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega64: Record<string, Lesson> = {
+  "la1_m114": { id: "la1_m114", title: "Pets & Animals A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Haustier", phonetic: "hows-teer", meaning: "pet", gender: "das", example: { de: "Ein Haustier haben.", en: "Have a pet." } },
+    { word: "der Hund", phonetic: "hoont", meaning: "dog", gender: "der", example: { de: "Der Hund bellt.", en: "The dog barks." } },
+    { word: "die Katze", phonetic: "ka-tsuh", meaning: "cat", gender: "die", example: { de: "Die Katze schnurrt.", en: "The cat purrs." } },
+    { word: "der Vogel", phonetic: "foh-gel", meaning: "bird", gender: "der", example: { de: "Der Vogel singt.", en: "The bird sings." } },
+    { word: "der Fisch", phonetic: "fish", meaning: "fish", gender: "der", example: { de: "Ein Goldfisch.", en: "A goldfish." } },
+    { word: "das Kaninchen", phonetic: "ka-neen-khen", meaning: "rabbit", gender: "das", example: { de: "Ein süßes Kaninchen.", en: "A cute rabbit." } },
+    { word: "der Hamster", phonetic: "ham-ster", meaning: "hamster", gender: "der", example: { de: "Der Hamster läuft.", en: "The hamster runs." } },
+    { word: "die Schildkröte", phonetic: "shilt-krö-tuh", meaning: "turtle / tortoise", gender: "die", example: { de: "Eine langsame Schildkröte.", en: "A slow turtle." } },
+    { word: "das Pferd", phonetic: "pfert", meaning: "horse", gender: "das", example: { de: "Auf einem Pferd reiten.", en: "Ride a horse." } },
+    { word: "die Kuh", phonetic: "koo", meaning: "cow", gender: "die", example: { de: "Die Kuh gibt Milch.", en: "The cow gives milk." } },
+    { word: "das Schwein", phonetic: "shvyne", meaning: "pig", gender: "das", example: { de: "Ein rosa Schwein.", en: "A pink pig." } },
+    { word: "das Schaf", phonetic: "shahf", meaning: "sheep", gender: "das", example: { de: "Das Schaf hat Wolle.", en: "The sheep has wool." } },
+    { word: "die Ziege", phonetic: "tsee-guh", meaning: "goat", gender: "die", example: { de: "Die Ziege springt.", en: "The goat jumps." } },
+    { word: "das Huhn", phonetic: "hoon", meaning: "chicken", gender: "das", example: { de: "Das Huhn legt Eier.", en: "The chicken lays eggs." } },
+    { word: "die Ente", phonetic: "en-tuh", meaning: "duck", gender: "die", example: { de: "Die Ente schwimmt.", en: "The duck swims." } },
+    { word: "der Frosch", phonetic: "frosh", meaning: "frog", gender: "der", example: { de: "Der Frosch quakt.", en: "The frog croaks." } },
+    { word: "die Schlange", phonetic: "shlang-uh", meaning: "snake", gender: "die", example: { de: "Eine giftige Schlange.", en: "A venomous snake." } },
+    { word: "der Bär", phonetic: "bayr", meaning: "bear", gender: "der", example: { de: "Ein großer Bär.", en: "A big bear." } },
+    { word: "der Elefant", phonetic: "e-le-fant", meaning: "elephant", gender: "der", example: { de: "Ein afrikanischer Elefant.", en: "An African elephant." } },
+    { word: "der Löwe", phonetic: "lö-vuh", meaning: "lion", gender: "der", example: { de: "Der Löwe brüllt.", en: "The lion roars." } },
+  ]}] },
+};

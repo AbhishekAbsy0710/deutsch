@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega62: Record<string, Lesson> = {
+  "lc2_m105": { id: "lc2_m105", title: "Advanced Operator Algebras C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Operatoralgebra", phonetic: "oh-pe-ra-tor-al-ge-bra", meaning: "operator algebra", gender: "die", example: { de: "Vonneumann-Operatoralgebra.", en: "Von Neumann operator algebra." } },
+    { word: "der Hilbertraum", phonetic: "hil-bert-rowm", meaning: "Hilbert space", gender: "der", example: { de: "Separabler Hilbertraum.", en: "Separable Hilbert space." } },
+    { word: "die C*-Algebra", phonetic: "tsay-shtern-al-ge-bra", meaning: "C*-algebra", gender: "die", example: { de: "Unitale C*-Algebra.", en: "Unital C*-algebra." } },
+    { word: "die Von-Neumann-Algebra", phonetic: "fon-noy-man-al-ge-bra", meaning: "von Neumann algebra", gender: "die", example: { de: "Hyperfinite Von-Neumann-Algebra.", en: "Hyperfinite von Neumann algebra." } },
+    { word: "die Selbstadjungierter Operator", phonetic: "zelpst-at-yoon-geer-ter oh-pe-ra-tor", meaning: "self-adjoint operator", example: { de: "Beschränkter selbstadjungierter Operator.", en: "Bounded self-adjoint operator." } },
+    { word: "die Spektraltheorie", phonetic: "spek-trahl-tay-oh-ree", meaning: "spectral theory", gender: "die", example: { de: "Kompakter Spektraltheorie.", en: "Compact spectral theory." } },
+    { word: "die Spurklasse", phonetic: "shpoor-kla-suh", meaning: "trace class", gender: "die", example: { de: "Nuklearer Spurklasse.", en: "Nuclear trace class." } },
+    { word: "die Fredholm-Operator", phonetic: "fred-holm-oh-pe-ra-tor", meaning: "Fredholm operator", gender: "der", example: { de: "Semibeschränkter Fredholm-Operator.", en: "Semi-bounded Fredholm operator." } },
+    { word: "die Gruppe-C*-Algebra", phonetic: "groo-puh-tsay-shtern-al-ge-bra", meaning: "group C*-algebra", example: { de: "Reduzierte Gruppe-C*-Algebra.", en: "Reduced group C*-algebra." } },
+    { word: "die Tensorprodukt", phonetic: "ten-zor-pro-dookt", meaning: "tensor product (algebras)", gender: "das", example: { de: "Minimales Tensorprodukt.", en: "Minimal tensor product." } },
+    { word: "die Nichtkommutative Geometrie", phonetic: "nikht-ko-moo-ta-tee-vuh ge-oh-me-tree", meaning: "noncommutative geometry", example: { de: "Connes nichtkommutative Geometrie.", en: "Connes noncommutative geometry." } },
+    { word: "die Tomita-Takesaki-Theorie", phonetic: "to-mee-ta-ta-ke-za-ki-tay-oh-ree", meaning: "Tomita-Takesaki theory", gender: "die", example: { de: "Modulare Tomita-Takesaki-Theorie.", en: "Modular Tomita-Takesaki theory." } },
+    { word: "die KMS-Zustand", phonetic: "kah-em-es-tsoo-shtant", meaning: "KMS state", gender: "der", example: { de: "Thermodynamischer KMS-Zustand.", en: "Thermodynamic KMS state." } },
+    { word: "die Faktorklassifikation", phonetic: "fak-tor-kla-si-fi-ka-tsee-ohn", meaning: "factor classification", gender: "die", example: { de: "Murray-von-Neumann-Faktorklassifikation.", en: "Murray-von Neumann factor classification." } },
+    { word: "die Nuklearität", phonetic: "noo-kle-ah-ri-tayt", meaning: "nuclearity", gender: "die", example: { de: "C*-algebraische Nuklearität.", en: "C*-algebraic nuclearity." } },
+    { word: "die Freie Wahrscheinlichkeitstheorie", phonetic: "fry-uh vahr-shayn-likh-kyts-tay-oh-ree", meaning: "free probability theory", gender: "die", example: { de: "Voiculescu freie Wahrscheinlichkeitstheorie.", en: "Voiculescu free probability theory." } },
+    { word: "die Quantengruppe", phonetic: "kvan-ten-groo-puh", meaning: "quantum group", gender: "die", example: { de: "Kompakte Quantengruppe.", en: "Compact quantum group." } },
+    { word: "die Injektive Algebra", phonetic: "in-yek-tee-vuh al-ge-bra", meaning: "injective algebra", example: { de: "Hyperfinite injektive Algebra.", en: "Hyperfinite injective algebra." } },
+    { word: "die Exakte C*-Algebra", phonetic: "eks-ak-tuh tsay-shtern-al-ge-bra", meaning: "exact C*-algebra", example: { de: "Nuklearitäts-exakte C*-Algebra.", en: "Nuclearity-exact C*-algebra." } },
+    { word: "die Algebraische Quantenfeldtheorie", phonetic: "al-ge-brah-i-shuh kvan-ten-felt-tay-oh-ree", meaning: "algebraic quantum field theory", example: { de: "Haag-Kastler algebraische Quantenfeldtheorie.", en: "Haag-Kastler algebraic quantum field theory." } },
+  ]}] },
+};

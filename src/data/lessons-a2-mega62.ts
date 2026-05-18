@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega62: Record<string, Lesson> = {
+  "la2_m107": { id: "la2_m107", title: "Post Office & Mail A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Post", phonetic: "post", meaning: "post office / mail", gender: "die", example: { de: "Zur Post gehen.", en: "Go to the post office." } },
+    { word: "der Brief", phonetic: "breef", meaning: "letter", gender: "der", example: { de: "Einen Brief schreiben.", en: "Write a letter." } },
+    { word: "die Postkarte", phonetic: "post-kar-tuh", meaning: "postcard", gender: "die", example: { de: "Eine Postkarte schicken.", en: "Send a postcard." } },
+    { word: "das Paket", phonetic: "pa-kayt", meaning: "package / parcel", gender: "das", example: { de: "Ein Paket abholen.", en: "Pick up a package." } },
+    { word: "der Umschlag", phonetic: "oom-shlahg", meaning: "envelope", gender: "der", example: { de: "Den Umschlag zukleben.", en: "Seal the envelope." } },
+    { word: "die Briefmarke", phonetic: "breef-mar-kuh", meaning: "stamp", gender: "die", example: { de: "Briefmarken kaufen.", en: "Buy stamps." } },
+    { word: "der Absender", phonetic: "ap-zen-der", meaning: "sender", gender: "der", example: { de: "Name des Absenders.", en: "Name of the sender." } },
+    { word: "der Empfänger", phonetic: "emp-feng-er", meaning: "recipient", gender: "der", example: { de: "Der Empfänger ist nicht da.", en: "The recipient is not there." } },
+    { word: "die Adresse", phonetic: "a-dre-suh", meaning: "address", gender: "die", example: { de: "Die richtige Adresse.", en: "The correct address." } },
+    { word: "die Postleitzahl", phonetic: "post-lyte-tsahl", meaning: "postal code", gender: "die", example: { de: "Die Postleitzahl angeben.", en: "Provide the postal code." } },
+    { word: "der Briefkasten", phonetic: "breef-kas-ten", meaning: "mailbox", gender: "der", example: { de: "Den Briefkasten leeren.", en: "Empty the mailbox." } },
+    { word: "der Briefträger", phonetic: "breef-tray-ger", meaning: "mail carrier", gender: "der", example: { de: "Der Briefträger kommt.", en: "The mail carrier is coming." } },
+    { word: "schicken", phonetic: "shi-ken", meaning: "to send", example: { de: "Ein Paket schicken.", en: "Send a package." } },
+    { word: "abschicken", phonetic: "ap-shi-ken", meaning: "to dispatch / mail", example: { de: "Den Brief abschicken.", en: "Mail the letter." } },
+    { word: "die Sendung", phonetic: "zen-dung", meaning: "shipment", gender: "die", example: { de: "Die Sendung verfolgen.", en: "Track the shipment." } },
+    { word: "die Zustellung", phonetic: "tsoo-shte-lung", meaning: "delivery", gender: "die", example: { de: "Pünktliche Zustellung.", en: "Punctual delivery." } },
+    { word: "das Einschreiben", phonetic: "ayn-shry-ben", meaning: "registered mail", gender: "das", example: { de: "Per Einschreiben senden.", en: "Send by registered mail." } },
+    { word: "die Nachnahme", phonetic: "nakh-nah-muh", meaning: "cash on delivery", gender: "die", example: { de: "Per Nachnahme bestellen.", en: "Order cash on delivery." } },
+    { word: "das Porto", phonetic: "por-to", meaning: "postage", gender: "das", example: { de: "Porto bezahlen.", en: "Pay postage." } },
+    { word: "die Packstation", phonetic: "pak-shta-tsee-ohn", meaning: "parcel locker", gender: "die", example: { de: "An der Packstation abholen.", en: "Pick up at the parcel locker." } },
+  ]}] },
+};

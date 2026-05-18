@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega63: Record<string, Lesson> = {
+  "lc1_m109": { id: "lc1_m109", title: "Advanced Bioethics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Bioethik", phonetic: "bee-oh-ay-tik", meaning: "bioethics", gender: "die", example: { de: "Klinische Bioethik.", en: "Clinical bioethics." } },
+    { word: "die Patientenverfügung", phonetic: "pa-tsee-en-ten-fer-fü-gung", meaning: "living will / advance directive", gender: "die", example: { de: "Bindende Patientenverfügung.", en: "Binding advance directive." } },
+    { word: "die Sterbehilfe", phonetic: "shter-buh-hil-fuh", meaning: "euthanasia / assisted dying", gender: "die", example: { de: "Aktive Sterbehilfe.", en: "Active euthanasia." } },
+    { word: "die Organspende", phonetic: "or-gahn-shpen-duh", meaning: "organ donation", gender: "die", example: { de: "Freiwillige Organspende.", en: "Voluntary organ donation." } },
+    { word: "die Stammzellforschung", phonetic: "shtam-tsel-for-shung", meaning: "stem cell research", gender: "die", example: { de: "Embryonale Stammzellforschung.", en: "Embryonic stem cell research." } },
+    { word: "die Gentherapie", phonetic: "gayn-te-ra-pee", meaning: "gene therapy", gender: "die", example: { de: "Somatische Gentherapie.", en: "Somatic gene therapy." } },
+    { word: "die Reproduktionsmedizin", phonetic: "re-pro-dook-tsee-ohns-me-di-tseen", meaning: "reproductive medicine", gender: "die", example: { de: "Assistierte Reproduktionsmedizin.", en: "Assisted reproductive medicine." } },
+    { word: "die Einwilligungserklärung", phonetic: "ayn-vi-li-gungs-er-klay-rung", meaning: "informed consent", gender: "die", example: { de: "Aufgeklärte Einwilligungserklärung.", en: "Informed consent form." } },
+    { word: "die Forschungsethik", phonetic: "for-shungs-ay-tik", meaning: "research ethics", gender: "die", example: { de: "Humanexperimentelle Forschungsethik.", en: "Human experimentation research ethics." } },
+    { word: "die Keimbahntherapie", phonetic: "kyme-bahn-te-ra-pee", meaning: "germline therapy", gender: "die", example: { de: "Umstrittene Keimbahntherapie.", en: "Controversial germline therapy." } },
+    { word: "die Präimplantationsdiagnostik", phonetic: "pray-im-plan-ta-tsee-ohns-dee-ag-nos-tik", meaning: "preimplantation genetic diagnosis", gender: "die", example: { de: "Selektive Präimplantationsdiagnostik.", en: "Selective preimplantation diagnosis." } },
+    { word: "die Palliativmedizin", phonetic: "pa-lee-a-teef-me-di-tseen", meaning: "palliative medicine", gender: "die", example: { de: "Interdisziplinäre Palliativmedizin.", en: "Interdisciplinary palliative medicine." } },
+    { word: "die Xenotransplantation", phonetic: "kse-no-trans-plan-ta-tsee-ohn", meaning: "xenotransplantation", gender: "die", example: { de: "Schwein-zu-Mensch-Xenotransplantation.", en: "Pig-to-human xenotransplantation." } },
+    { word: "die Neuroethik", phonetic: "noy-ro-ay-tik", meaning: "neuroethics", gender: "die", example: { de: "Kognitive Neuroethik.", en: "Cognitive neuroethics." } },
+    { word: "die Tierschutzethik", phonetic: "teer-shoots-ay-tik", meaning: "animal welfare ethics", gender: "die", example: { de: "Labortierschutzethik.", en: "Laboratory animal welfare ethics." } },
+    { word: "die Klinische Studie Ethik", phonetic: "klee-ni-shuh shtoo-dee-uh ay-tik", meaning: "clinical trial ethics", example: { de: "Doppelblinde klinische Studie Ethik.", en: "Double-blind clinical trial ethics." } },
+    { word: "die Autonomierespekt", phonetic: "ow-to-no-mee-res-pekt", meaning: "respect for autonomy", gender: "der", example: { de: "Patientlicher Autonomierespekt.", en: "Patient autonomy respect." } },
+    { word: "die Nichtschadensprinzip", phonetic: "nikht-shah-dens-prin-tseep", meaning: "principle of non-maleficence", gender: "das", example: { de: "Hippokratisches Nichtschadensprinzip.", en: "Hippocratic non-maleficence principle." } },
+    { word: "die Verteilungsgerechtigkeit", phonetic: "fer-ty-lungs-geh-rekh-tikh-kyte", meaning: "distributive justice", gender: "die", example: { de: "Medizinische Verteilungsgerechtigkeit.", en: "Medical distributive justice." } },
+    { word: "die CRISPR-Ethik", phonetic: "kris-per-ay-tik", meaning: "CRISPR ethics", gender: "die", example: { de: "Kontroverse CRISPR-Ethik.", en: "Controversial CRISPR ethics." } },
+  ]}] },
+};

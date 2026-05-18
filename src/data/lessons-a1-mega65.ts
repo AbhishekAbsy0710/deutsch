@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega65: Record<string, Lesson> = {
+  "la1_m115": { id: "la1_m115", title: "At the Market A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "der Markt", phonetic: "markt", meaning: "market", gender: "der", example: { de: "Auf den Markt gehen.", en: "Go to the market." } },
+    { word: "der Stand", phonetic: "shtant", meaning: "stall / stand", gender: "der", example: { de: "Am Stand kaufen.", en: "Buy at the stall." } },
+    { word: "der Händler", phonetic: "hend-ler", meaning: "vendor / trader", gender: "der", example: { de: "Der freundliche Händler.", en: "The friendly vendor." } },
+    { word: "der Preis", phonetic: "pryce", meaning: "price", gender: "der", example: { de: "Was kostet das?", en: "What does that cost?" } },
+    { word: "billig", phonetic: "bi-likh", meaning: "cheap", example: { de: "Das ist billig.", en: "That is cheap." } },
+    { word: "teuer", phonetic: "toy-er", meaning: "expensive", example: { de: "Zu teuer!", en: "Too expensive!" } },
+    { word: "frisch", phonetic: "frish", meaning: "fresh", example: { de: "Frisches Gemüse.", en: "Fresh vegetables." } },
+    { word: "das Angebot", phonetic: "an-geh-bot", meaning: "offer / deal", gender: "das", example: { de: "Ein gutes Angebot.", en: "A good deal." } },
+    { word: "der Rabatt", phonetic: "ra-bat", meaning: "discount", gender: "der", example: { de: "Zehn Prozent Rabatt.", en: "Ten percent discount." } },
+    { word: "die Waage", phonetic: "vah-guh", meaning: "scale / balance", gender: "die", example: { de: "Die Waage zeigt an.", en: "The scale shows." } },
+    { word: "das Kilo", phonetic: "kee-lo", meaning: "kilogram", gender: "das", example: { de: "Ein Kilo Äpfel.", en: "One kilogram of apples." } },
+    { word: "das Gramm", phonetic: "gram", meaning: "gram", gender: "das", example: { de: "Zweihundert Gramm.", en: "Two hundred grams." } },
+    { word: "die Tüte", phonetic: "tü-tuh", meaning: "bag", gender: "die", example: { de: "Eine Papiertüte.", en: "A paper bag." } },
+    { word: "wechseln", phonetic: "vek-seln", meaning: "to change (money)", example: { de: "Geld wechseln.", en: "Change money." } },
+    { word: "das Wechselgeld", phonetic: "vek-sel-gelt", meaning: "change (money returned)", gender: "das", example: { de: "Das Wechselgeld zurückgeben.", en: "Give back the change." } },
+    { word: "handeln", phonetic: "han-deln", meaning: "to bargain / trade", example: { de: "Den Preis handeln.", en: "Bargain the price." } },
+    { word: "der Wochenmarkt", phonetic: "vo-khen-markt", meaning: "weekly market", gender: "der", example: { de: "Jeden Samstag Wochenmarkt.", en: "Weekly market every Saturday." } },
+    { word: "die Auslage", phonetic: "ows-lah-guh", meaning: "display (goods)", gender: "die", example: { de: "Die bunnte Auslage.", en: "The colorful display." } },
+    { word: "die Ware", phonetic: "vah-ruh", meaning: "goods / merchandise", gender: "die", example: { de: "Frische Waren.", en: "Fresh goods." } },
+    { word: "kaufen", phonetic: "kow-fen", meaning: "to buy", example: { de: "Obst kaufen.", en: "Buy fruit." } },
+  ]}] },
+};

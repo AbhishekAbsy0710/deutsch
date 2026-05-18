@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega63: Record<string, Lesson> = {
+  "lb2_m108": { id: "lb2_m108", title: "Immunology B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Immunologie", phonetic: "i-moo-no-lo-gee", meaning: "immunology", gender: "die", example: { de: "Klinische Immunologie.", en: "Clinical immunology." } },
+    { word: "das Immunsystem", phonetic: "i-moon-züs-taym", meaning: "immune system", gender: "das", example: { de: "Angeborenes Immunsystem.", en: "Innate immune system." } },
+    { word: "der Antikörper", phonetic: "an-ti-kör-per", meaning: "antibody", gender: "der", example: { de: "Monoklonaler Antikörper.", en: "Monoclonal antibody." } },
+    { word: "das Antigen", phonetic: "an-ti-gayn", meaning: "antigen", gender: "das", example: { de: "Virusantigen.", en: "Viral antigen." } },
+    { word: "die T-Zelle", phonetic: "tay-tse-luh", meaning: "T cell", gender: "die", example: { de: "Zytotoxische T-Zelle.", en: "Cytotoxic T cell." } },
+    { word: "die B-Zelle", phonetic: "bay-tse-luh", meaning: "B cell", gender: "die", example: { de: "Aktivierte B-Zelle.", en: "Activated B cell." } },
+    { word: "die Entzündung", phonetic: "ent-tsün-dung", meaning: "inflammation", gender: "die", example: { de: "Chronische Entzündung.", en: "Chronic inflammation." } },
+    { word: "die Autoimmunerkrankung", phonetic: "ow-to-i-moon-er-kran-kung", meaning: "autoimmune disease", gender: "die", example: { de: "Systemische Autoimmunerkrankung.", en: "Systemic autoimmune disease." } },
+    { word: "die Impfung", phonetic: "imp-fung", meaning: "vaccination", gender: "die", example: { de: "Jährliche Impfung.", en: "Annual vaccination." } },
+    { word: "der Impfstoff", phonetic: "impf-shtof", meaning: "vaccine", gender: "der", example: { de: "mRNA-Impfstoff.", en: "mRNA vaccine." } },
+    { word: "die Allergie", phonetic: "a-ler-gee", meaning: "allergy", gender: "die", example: { de: "Schwere Allergie.", en: "Severe allergy." } },
+    { word: "die Immunantwort", phonetic: "i-moon-ant-vort", meaning: "immune response", gender: "die", example: { de: "Humorale Immunantwort.", en: "Humoral immune response." } },
+    { word: "die Lymphozyt", phonetic: "lüm-fo-tsüt", meaning: "lymphocyte", gender: "der", example: { de: "Aktivierter Lymphozyt.", en: "Activated lymphocyte." } },
+    { word: "die Makrophage", phonetic: "ma-kro-fah-guh", meaning: "macrophage", gender: "der", example: { de: "Gewebemakrophage.", en: "Tissue macrophage." } },
+    { word: "die Histamin", phonetic: "his-ta-meen", meaning: "histamine", gender: "das", example: { de: "Histaminfreisetzung.", en: "Histamine release." } },
+    { word: "die Immunsuppression", phonetic: "i-moon-zoo-pre-see-ohn", meaning: "immunosuppression", gender: "die", example: { de: "Medikamentöse Immunsuppression.", en: "Drug-induced immunosuppression." } },
+    { word: "die Immuntherapie", phonetic: "i-moon-te-ra-pee", meaning: "immunotherapy", gender: "die", example: { de: "Checkpoint-Immuntherapie.", en: "Checkpoint immunotherapy." } },
+    { word: "die Zytokin", phonetic: "tsü-to-keen", meaning: "cytokine", gender: "das", example: { de: "Proinflammatorisches Zytokin.", en: "Proinflammatory cytokine." } },
+    { word: "die Immundefizienz", phonetic: "i-moon-de-fi-tsee-ents", meaning: "immunodeficiency", gender: "die", example: { de: "Primäre Immundefizienz.", en: "Primary immunodeficiency." } },
+    { word: "die Transplantatabstoßung", phonetic: "trans-plan-taht-ap-shtoh-sung", meaning: "transplant rejection", gender: "die", example: { de: "Akute Transplantatabstoßung.", en: "Acute transplant rejection." } },
+  ]}] },
+};

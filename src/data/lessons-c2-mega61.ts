@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega61: Record<string, Lesson> = {
+  "lc2_m104": { id: "lc2_m104", title: "Advanced Quantum Field Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Quantenfeldtheorie", phonetic: "kvan-ten-felt-tay-oh-ree", meaning: "quantum field theory", gender: "die", example: { de: "Perturbative Quantenfeldtheorie.", en: "Perturbative quantum field theory." } },
+    { word: "die Eichtheorie", phonetic: "aykh-tay-oh-ree", meaning: "gauge theory", gender: "die", example: { de: "Nichtabelsche Eichtheorie.", en: "Non-abelian gauge theory." } },
+    { word: "die Renormierung", phonetic: "re-nor-mee-rung", meaning: "renormalization", gender: "die", example: { de: "Dimensionale Renormierung.", en: "Dimensional renormalization." } },
+    { word: "die Feynman-Diagramme", phonetic: "fayn-man-dee-a-gra-muh", meaning: "Feynman diagrams", example: { de: "Einschleifen-Feynman-Diagramme.", en: "One-loop Feynman diagrams." } },
+    { word: "die Spontane Symmetriebrechung", phonetic: "shpon-tah-nuh zü-me-tree-bre-khung", meaning: "spontaneous symmetry breaking", example: { de: "Higgs-spontane Symmetriebrechung.", en: "Higgs spontaneous symmetry breaking." } },
+    { word: "die Quantenchromodynamik", phonetic: "kvan-ten-kro-mo-dü-na-mik", meaning: "quantum chromodynamics", gender: "die", example: { de: "Perturbative Quantenchromodynamik.", en: "Perturbative QCD." } },
+    { word: "die Quantenelektrodynamik", phonetic: "kvan-ten-e-lek-tro-dü-na-mik", meaning: "quantum electrodynamics", gender: "die", example: { de: "Präzisions-Quantenelektrodynamik.", en: "Precision QED." } },
+    { word: "die Pfadintegrale", phonetic: "pfabt-in-te-grah-luh", meaning: "path integrals", example: { de: "Funktionale Pfadintegrale.", en: "Functional path integrals." } },
+    { word: "die Propagator", phonetic: "pro-pa-gah-tor", meaning: "propagator", gender: "der", example: { de: "Fermionischer Propagator.", en: "Fermionic propagator." } },
+    { word: "die Vertexfunktion", phonetic: "ver-teks-funk-tsee-ohn", meaning: "vertex function", gender: "die", example: { de: "Dreiteilchen-Vertexfunktion.", en: "Three-particle vertex function." } },
+    { word: "die Laufende Kopplungskonstante", phonetic: "low-fen-duh ko-plungs-kon-shtan-tuh", meaning: "running coupling constant", example: { de: "Asymptotisch freie laufende Kopplungskonstante.", en: "Asymptotically free running coupling constant." } },
+    { word: "die Anomalie", phonetic: "a-no-ma-lee", meaning: "anomaly (QFT)", gender: "die", example: { de: "Chirale Anomalie.", en: "Chiral anomaly." } },
+    { word: "die Effektive Feldtheorie", phonetic: "e-fek-tee-vuh felt-tay-oh-ree", meaning: "effective field theory", example: { de: "Niederenergetische effektive Feldtheorie.", en: "Low-energy effective field theory." } },
+    { word: "die Instantonen", phonetic: "in-stan-toh-nen", meaning: "instantons", example: { de: "Yang-Mills-Instantonen.", en: "Yang-Mills instantons." } },
+    { word: "die Regularisierung", phonetic: "re-goo-la-ri-zee-rung", meaning: "regularization", gender: "die", example: { de: "Pauli-Villars-Regularisierung.", en: "Pauli-Villars regularization." } },
+    { word: "die Confinement", phonetic: "kon-fyne-ment", meaning: "confinement", gender: "das", example: { de: "Farb-Confinement.", en: "Color confinement." } },
+    { word: "die Wechselwirkungswirbelquerschnitt", phonetic: "vek-sel-vir-kungs-vir-bel-kver-shnit", meaning: "scattering cross section", gender: "der", example: { de: "Differentieller Wechselwirkungsquerschnitt.", en: "Differential scattering cross section." } },
+    { word: "die Eichinvarianz", phonetic: "aykh-in-va-ree-ants", meaning: "gauge invariance", gender: "die", example: { de: "Lokale Eichinvarianz.", en: "Local gauge invariance." } },
+    { word: "die Ward-Identität", phonetic: "vord-i-den-ti-tayt", meaning: "Ward identity", gender: "die", example: { de: "Ward-Takahashi-Identität.", en: "Ward-Takahashi identity." } },
+    { word: "die Gitterfeldtheorie", phonetic: "gi-ter-felt-tay-oh-ree", meaning: "lattice field theory", gender: "die", example: { de: "Monte-Carlo-Gitterfeldtheorie.", en: "Monte Carlo lattice field theory." } },
+  ]}] },
+};

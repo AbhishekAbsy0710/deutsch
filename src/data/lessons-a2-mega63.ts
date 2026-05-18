@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega63: Record<string, Lesson> = {
+  "la2_m108": { id: "la2_m108", title: "Job Application A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Bewerbung", phonetic: "beh-ver-bung", meaning: "job application", gender: "die", example: { de: "Eine Bewerbung schreiben.", en: "Write a job application." } },
+    { word: "der Lebenslauf", phonetic: "lay-bens-lowf", meaning: "CV / résumé", gender: "der", example: { de: "Den Lebenslauf aktualisieren.", en: "Update the résumé." } },
+    { word: "das Anschreiben", phonetic: "an-shry-ben", meaning: "cover letter", gender: "das", example: { de: "Ein überzeugendes Anschreiben.", en: "A compelling cover letter." } },
+    { word: "das Vorstellungsgespräch", phonetic: "for-shte-lungs-geh-shpreyh", meaning: "job interview", gender: "das", example: { de: "Zum Vorstellungsgespräch eingeladen.", en: "Invited to a job interview." } },
+    { word: "der Arbeitgeber", phonetic: "ar-byt-gay-ber", meaning: "employer", gender: "der", example: { de: "Ein fairer Arbeitgeber.", en: "A fair employer." } },
+    { word: "der Arbeitnehmer", phonetic: "ar-byt-nay-mer", meaning: "employee", gender: "der", example: { de: "Ein zuverlässiger Arbeitnehmer.", en: "A reliable employee." } },
+    { word: "die Stellenanzeige", phonetic: "shte-len-an-tsy-guh", meaning: "job advertisement", gender: "die", example: { de: "Eine Stellenanzeige lesen.", en: "Read a job advertisement." } },
+    { word: "die Qualifikation", phonetic: "kva-li-fi-ka-tsee-ohn", meaning: "qualification", gender: "die", example: { de: "Passende Qualifikationen.", en: "Matching qualifications." } },
+    { word: "die Berufserfahrung", phonetic: "beh-rooFs-er-fah-rung", meaning: "work experience", gender: "die", example: { de: "Mehrjährige Berufserfahrung.", en: "Several years of work experience." } },
+    { word: "der Abschluss", phonetic: "ap-shloos", meaning: "degree / qualification", gender: "der", example: { de: "Universitärer Abschluss.", en: "University degree." } },
+    { word: "die Fähigkeit", phonetic: "fay-ikh-kyte", meaning: "skill / ability", gender: "die", example: { de: "Technische Fähigkeiten.", en: "Technical skills." } },
+    { word: "der Gehalt", phonetic: "geh-halt", meaning: "salary", gender: "der", example: { de: "Gutes Gehalt verhandeln.", en: "Negotiate a good salary." } },
+    { word: "die Probezeit", phonetic: "proh-buh-tsyte", meaning: "probation period", gender: "die", example: { de: "Sechs Monate Probezeit.", en: "Six months' probation period." } },
+    { word: "die Vollzeit", phonetic: "fol-tsyte", meaning: "full-time", gender: "die", example: { de: "Vollzeit arbeiten.", en: "Work full-time." } },
+    { word: "die Teilzeit", phonetic: "tyle-tsyte", meaning: "part-time", gender: "die", example: { de: "Teilzeit beschäftigt.", en: "Employed part-time." } },
+    { word: "die Kündigung", phonetic: "kün-di-gung", meaning: "dismissal / resignation", gender: "die", example: { de: "Eine Kündigung erhalten.", en: "Receive a dismissal." } },
+    { word: "einstellen", phonetic: "ayn-shte-len", meaning: "to hire", example: { de: "Neue Mitarbeiter einstellen.", en: "Hire new employees." } },
+    { word: "bewerben", phonetic: "beh-ver-ben", meaning: "to apply (for job)", example: { de: "Sich um eine Stelle bewerben.", en: "Apply for a position." } },
+    { word: "die Stelle", phonetic: "shte-luh", meaning: "position / job", gender: "die", example: { de: "Eine freie Stelle.", en: "A vacant position." } },
+    { word: "das Zeugnis", phonetic: "tsoyg-nis", meaning: "reference / certificate", gender: "das", example: { de: "Ein gutes Zeugnis.", en: "A good reference." } },
+  ]}] },
+};

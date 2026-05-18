@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega64: Record<string, Lesson> = {
+  "lc1_m110": { id: "lc1_m110", title: "Advanced Urban Planning C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Stadtplanung", phonetic: "shtat-plah-nung", meaning: "urban planning", gender: "die", example: { de: "Nachhaltige Stadtplanung.", en: "Sustainable urban planning." } },
+    { word: "die Raumordnung", phonetic: "rowm-ord-nung", meaning: "spatial planning", gender: "die", example: { de: "Regionale Raumordnung.", en: "Regional spatial planning." } },
+    { word: "der Flächennutzungsplan", phonetic: "fley-khen-noo-tsungs-plahn", meaning: "land use plan", gender: "der", example: { de: "Verbindlicher Flächennutzungsplan.", en: "Binding land use plan." } },
+    { word: "die Bebauungsdichte", phonetic: "beh-bow-ungs-dikh-tuh", meaning: "building density", gender: "die", example: { de: "Hohe Bebauungsdichte.", en: "High building density." } },
+    { word: "die Gentrifizierung", phonetic: "gen-tri-fi-tsee-ee-rung", meaning: "gentrification", gender: "die", example: { de: "Stadtweite Gentrifizierung.", en: "City-wide gentrification." } },
+    { word: "der öffentliche Nahverkehr", phonetic: "öf-ent-li-khe nah-fer-kayr", meaning: "public transport", gender: "der", example: { de: "Ausgebauter öffentlicher Nahverkehr.", en: "Expanded public transport." } },
+    { word: "die Fußgängerfreundlichkeit", phonetic: "foos-gen-ger-froyn-likh-kyte", meaning: "walkability", gender: "die", example: { de: "Hohe Fußgängerfreundlichkeit.", en: "High walkability." } },
+    { word: "die Grünfläche", phonetic: "grün-fley-khuh", meaning: "green space", gender: "die", example: { de: "Städtische Grünflächen.", en: "Urban green spaces." } },
+    { word: "die Nachverdichtung", phonetic: "nakh-fer-dikh-tung", meaning: "infill development", gender: "die", example: { de: "Innerstädtische Nachverdichtung.", en: "Inner-city infill development." } },
+    { word: "die Zonierung", phonetic: "tso-nee-rung", meaning: "zoning", gender: "die", example: { de: "Funktionale Zonierung.", en: "Functional zoning." } },
+    { word: "die Stadtentwicklung", phonetic: "shtat-ent-vik-lung", meaning: "urban development", gender: "die", example: { de: "Integrierte Stadtentwicklung.", en: "Integrated urban development." } },
+    { word: "die Segregation", phonetic: "ze-gre-ga-tsee-ohn", meaning: "segregation (urban)", gender: "die", example: { de: "Sozialräumliche Segregation.", en: "Socio-spatial segregation." } },
+    { word: "die Stadtumbau", phonetic: "shtat-oom-bow", meaning: "urban restructuring", gender: "der", example: { de: "Stadtumbau Ost.", en: "Urban restructuring East." } },
+    { word: "der Bebauungsplan", phonetic: "beh-bow-ungs-plahn", meaning: "development plan (zoning)", gender: "der", example: { de: "Qualifizierter Bebauungsplan.", en: "Qualified development plan." } },
+    { word: "die Smart City", phonetic: "shmart si-tee", meaning: "smart city", gender: "die", example: { de: "Datenzentrierte Smart City.", en: "Data-centric smart city." } },
+    { word: "die Stadterneuerung", phonetic: "shtat-er-noy-e-rung", meaning: "urban renewal", gender: "die", example: { de: "Soziale Stadterneuerung.", en: "Social urban renewal." } },
+    { word: "die Infrastrukturplanung", phonetic: "in-fra-shtrook-toor-plah-nung", meaning: "infrastructure planning", gender: "die", example: { de: "Langfristige Infrastrukturplanung.", en: "Long-term infrastructure planning." } },
+    { word: "die Bürgerbeteiligung", phonetic: "bür-ger-beh-ty-li-gung", meaning: "citizen participation", gender: "die", example: { de: "Frühzeitige Bürgerbeteiligung.", en: "Early citizen participation." } },
+    { word: "der Transit-Oriented-Development", phonetic: "tran-sit-o-ree-en-tet-de-ve-lop-ment", meaning: "transit-oriented development", gender: "das", example: { de: "Bahnhofsnahes Transit-Oriented-Development.", en: "Station-adjacent transit-oriented development." } },
+    { word: "die Klimaanpassung", phonetic: "klee-ma-an-pa-sung", meaning: "climate adaptation (urban)", gender: "die", example: { de: "Urbane Klimaanpassungsstrategie.", en: "Urban climate adaptation strategy." } },
+  ]}] },
+};
