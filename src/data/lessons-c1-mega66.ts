@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega66: Record<string, Lesson> = {
+  "lc1_m112": { id: "lc1_m112", title: "Advanced Macroeconomics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Makroökonomik", phonetic: "ma-kro-ö-ko-no-mik", meaning: "macroeconomics", gender: "die", example: { de: "Keynesianische Makroökonomik.", en: "Keynesian macroeconomics." } },
+    { word: "die Fiskalpolitik", phonetic: "fis-kahl-po-li-tik", meaning: "fiscal policy", gender: "die", example: { de: "Expansive Fiskalpolitik.", en: "Expansive fiscal policy." } },
+    { word: "die Geldpolitik", phonetic: "gelt-po-li-tik", meaning: "monetary policy", gender: "die", example: { de: "Restriktive Geldpolitik.", en: "Restrictive monetary policy." } },
+    { word: "die Zentralbank", phonetic: "tsen-trahl-bank", meaning: "central bank", gender: "die", example: { de: "Unabhängige Zentralbank.", en: "Independent central bank." } },
+    { word: "der Leitzins", phonetic: "lyte-tsins", meaning: "key interest rate", gender: "der", example: { de: "EZB-Leitzins senken.", en: "Lower the ECB key rate." } },
+    { word: "die Quantitative Lockerung", phonetic: "kvan-ti-ta-tee-vuh lo-ke-rung", meaning: "quantitative easing", example: { de: "Unkonventionelle quantitative Lockerung.", en: "Unconventional quantitative easing." } },
+    { word: "die Staatsverschuldung", phonetic: "shtahts-fer-shool-dung", meaning: "national debt", gender: "die", example: { de: "Wachsende Staatsverschuldung.", en: "Growing national debt." } },
+    { word: "das Haushaltsdefizit", phonetic: "hows-halts-de-fi-tsit", meaning: "budget deficit", gender: "das", example: { de: "Strukturelles Haushaltsdefizit.", en: "Structural budget deficit." } },
+    { word: "die Leistungsbilanz", phonetic: "lys-tungs-bi-lants", meaning: "current account balance", gender: "die", example: { de: "Chronischer Leistungsbilanzüberschuss.", en: "Chronic current account surplus." } },
+    { word: "das Wechselkurs", phonetic: "vek-sel-koors", meaning: "exchange rate", gender: "der", example: { de: "Flexibler Wechselkurs.", en: "Flexible exchange rate." } },
+    { word: "die Kaufkraftparität", phonetic: "kowf-kraft-pa-ri-tayt", meaning: "purchasing power parity", gender: "die", example: { de: "Absolute Kaufkraftparität.", en: "Absolute purchasing power parity." } },
+    { word: "der Multiplikatoreffekt", phonetic: "mul-ti-pli-ka-tor-e-fekt", meaning: "multiplier effect", gender: "der", example: { de: "Fiskalischer Multiplikatoreffekt.", en: "Fiscal multiplier effect." } },
+    { word: "die IS-LM-Modell", phonetic: "ee-es-el-em-mo-del", meaning: "IS-LM model", gender: "das", example: { de: "Erweitertes IS-LM-Modell.", en: "Extended IS-LM model." } },
+    { word: "die Phillipskurve", phonetic: "fi-lips-koor-vuh", meaning: "Phillips curve", gender: "die", example: { de: "Langfristige Phillipskurve.", en: "Long-run Phillips curve." } },
+    { word: "die Natürliche Arbeitslosenquote", phonetic: "na-tür-li-khuh ar-byts-loh-zen-kvoh-tuh", meaning: "natural rate of unemployment", example: { de: "NAIRU natürliche Arbeitslosenquote.", en: "NAIRU natural unemployment rate." } },
+    { word: "die Totale Faktorproduktivität", phonetic: "to-ta-luh fak-tor-pro-duk-ti-vi-tayt", meaning: "total factor productivity", example: { de: "Solow-residuale totale Faktorproduktivität.", en: "Solow residual total factor productivity." } },
+    { word: "das Solow-Wachstumsmodell", phonetic: "zo-lof-vaks-tums-mo-del", meaning: "Solow growth model", gender: "das", example: { de: "Erweitertes Solow-Wachstumsmodell.", en: "Augmented Solow growth model." } },
+    { word: "die Konvergenztheorie", phonetic: "kon-ver-gents-tay-oh-ree", meaning: "convergence theory", gender: "die", example: { de: "Bedingte Konvergenztheorie.", en: "Conditional convergence theory." } },
+    { word: "das DSGE-Modell", phonetic: "day-es-gay-ay-mo-del", meaning: "DSGE model", gender: "das", example: { de: "Neukeynesianisches DSGE-Modell.", en: "New Keynesian DSGE model." } },
+    { word: "die Finanzielle Friktionen", phonetic: "fi-nan-tsee-e-luh frik-tsee-oh-nen", meaning: "financial frictions", example: { de: "Makrofinanzielle Friktionen.", en: "Macrofinancial frictions." } },
+  ]}] },
+};

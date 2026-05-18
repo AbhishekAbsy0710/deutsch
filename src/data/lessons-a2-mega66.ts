@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega66: Record<string, Lesson> = {
+  "la2_m111": { id: "la2_m111", title: "Sports & Hobbies A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "der Sport", phonetic: "shport", meaning: "sport", gender: "der", example: { de: "Sport treiben.", en: "Do sport." } },
+    { word: "das Hobby", phonetic: "ho-bee", meaning: "hobby", gender: "das", example: { de: "Mein Hobby ist Lesen.", en: "My hobby is reading." } },
+    { word: "spielen", phonetic: "shpee-len", meaning: "to play", example: { de: "Fußball spielen.", en: "Play football." } },
+    { word: "der Fußball", phonetic: "foos-bal", meaning: "football / soccer", gender: "der", example: { de: "Fußball schauen.", en: "Watch football." } },
+    { word: "das Schwimmen", phonetic: "shvi-men", meaning: "swimming", gender: "das", example: { de: "Schwimmen gehen.", en: "Go swimming." } },
+    { word: "das Radfahren", phonetic: "raht-fah-ren", meaning: "cycling", gender: "das", example: { de: "Radfahren am Wochenende.", en: "Cycling at the weekend." } },
+    { word: "laufen", phonetic: "low-fen", meaning: "to run / jog", example: { de: "Jeden Morgen laufen.", en: "Run every morning." } },
+    { word: "der Verein", phonetic: "fer-ayn", meaning: "club / association", gender: "der", example: { de: "Einem Verein beitreten.", en: "Join a club." } },
+    { word: "das Training", phonetic: "tray-ning", meaning: "training / practice", gender: "das", example: { de: "Regelmäßiges Training.", en: "Regular training." } },
+    { word: "das Turnier", phonetic: "toor-neer", meaning: "tournament", gender: "das", example: { de: "Am Turnier teilnehmen.", en: "Participate in a tournament." } },
+    { word: "der Sieg", phonetic: "zeeg", meaning: "victory / win", gender: "der", example: { de: "Einen Sieg feiern.", en: "Celebrate a victory." } },
+    { word: "die Niederlage", phonetic: "nee-der-lah-guh", meaning: "defeat / loss", gender: "die", example: { de: "Eine Niederlage hinnehmen.", en: "Accept a defeat." } },
+    { word: "malen", phonetic: "mah-len", meaning: "to paint", example: { de: "Aquarelle malen.", en: "Paint watercolors." } },
+    { word: "fotografieren", phonetic: "fo-to-gra-fee-ren", meaning: "to photograph", example: { de: "Die Natur fotografieren.", en: "Photograph nature." } },
+    { word: "musizieren", phonetic: "moo-zi-tsee-ren", meaning: "to make music", example: { de: "Zusammen musizieren.", en: "Make music together." } },
+    { word: "kochen", phonetic: "ko-khen", meaning: "to cook (hobby)", example: { de: "Gerne kochen.", en: "Enjoy cooking." } },
+    { word: "reisen", phonetic: "ry-zen", meaning: "to travel", example: { de: "Gerne reisen.", en: "Like to travel." } },
+    { word: "lesen", phonetic: "lay-zen", meaning: "to read", example: { de: "Bücher lesen.", en: "Read books." } },
+    { word: "gärtnern", phonetic: "gert-nern", meaning: "to garden", example: { de: "Im Garten gärtnern.", en: "Garden in the garden." } },
+    { word: "tanzen", phonetic: "tan-tsen", meaning: "to dance", example: { de: "Salsa tanzen.", en: "Dance salsa." } },
+  ]}] },
+};

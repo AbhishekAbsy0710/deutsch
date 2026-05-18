@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega66: Record<string, Lesson> = {
+  "lb2_m111": { id: "lb2_m111", title: "Molecular Biology B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Molekularbiologie", phonetic: "mo-le-koo-lahr-bee-oh-lo-gee", meaning: "molecular biology", gender: "die", example: { de: "Strukturelle Molekularbiologie.", en: "Structural molecular biology." } },
+    { word: "die DNA", phonetic: "day-en-ah", meaning: "DNA", gender: "die", example: { de: "Doppelsträngige DNA.", en: "Double-stranded DNA." } },
+    { word: "die RNA", phonetic: "er-en-ah", meaning: "RNA", gender: "die", example: { de: "Messenger-RNA.", en: "Messenger RNA." } },
+    { word: "die Replikation", phonetic: "re-pli-ka-tsee-ohn", meaning: "replication", gender: "die", example: { de: "Semikonservative Replikation.", en: "Semi-conservative replication." } },
+    { word: "die Transkription", phonetic: "trans-skrip-tsee-ohn", meaning: "transcription", gender: "die", example: { de: "Eukariotische Transkription.", en: "Eukaryotic transcription." } },
+    { word: "die Translation", phonetic: "trans-la-tsee-ohn", meaning: "translation (protein synthesis)", gender: "die", example: { de: "Ribosomale Translation.", en: "Ribosomal translation." } },
+    { word: "das Protein", phonetic: "pro-te-een", meaning: "protein", gender: "das", example: { de: "Membranprotein.", en: "Membrane protein." } },
+    { word: "das Enzym", phonetic: "en-tsüm", meaning: "enzyme", gender: "das", example: { de: "Restriktionsenzym.", en: "Restriction enzyme." } },
+    { word: "der Promotor", phonetic: "pro-moh-tor", meaning: "promoter (gene)", gender: "der", example: { de: "Konstitutiver Promotor.", en: "Constitutive promoter." } },
+    { word: "der Vektor", phonetic: "vek-tor", meaning: "vector (cloning)", gender: "der", example: { de: "Plasmidischer Vektor.", en: "Plasmid vector." } },
+    { word: "die PCR", phonetic: "pay-tsay-er", meaning: "PCR", gender: "die", example: { de: "Quantitative PCR.", en: "Quantitative PCR." } },
+    { word: "das Gel-Elektrophorese", phonetic: "gayl-e-lek-tro-fo-ray-zuh", meaning: "gel electrophoresis", gender: "die", example: { de: "Agarose-Gel-Elektrophorese.", en: "Agarose gel electrophoresis." } },
+    { word: "die CRISPR-Cas9", phonetic: "kris-per-kas-noyn", meaning: "CRISPR-Cas9", gender: "das", example: { de: "Präzise CRISPR-Cas9-Bearbeitung.", en: "Precise CRISPR-Cas9 editing." } },
+    { word: "die Epigenetik", phonetic: "e-pi-ge-nay-tik", meaning: "epigenetics", gender: "die", example: { de: "DNA-Methylierungs-Epigenetik.", en: "DNA methylation epigenetics." } },
+    { word: "der Exon", phonetic: "ek-son", meaning: "exon", gender: "das", example: { de: "Proteinkodierender Exon.", en: "Protein-coding exon." } },
+    { word: "der Intron", phonetic: "in-tron", meaning: "intron", gender: "das", example: { de: "Spleißbarer Intron.", en: "Spliced intron." } },
+    { word: "die Northern-Blot", phonetic: "nor-dern-blot", meaning: "Northern blot", gender: "der", example: { de: "mRNA-Northern-Blot.", en: "mRNA Northern blot." } },
+    { word: "die Western-Blot", phonetic: "ves-tern-blot", meaning: "Western blot", gender: "der", example: { de: "Proteindetektions-Western-Blot.", en: "Protein detection Western blot." } },
+    { word: "die Sequenzierung", phonetic: "ze-kven-tsee-ee-rung", meaning: "sequencing", gender: "die", example: { de: "Nächstgenerations-Sequenzierung.", en: "Next-generation sequencing." } },
+    { word: "die Klonierung", phonetic: "klo-nee-rung", meaning: "cloning", gender: "die", example: { de: "Molekulare Klonierung.", en: "Molecular cloning." } },
+  ]}] },
+};

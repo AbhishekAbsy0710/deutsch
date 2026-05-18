@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega67: Record<string, Lesson> = {
+  "lc1_m113": { id: "lc1_m113", title: "Advanced Cognitive Science C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Kognitionswissenschaft", phonetic: "kog-ni-tsee-ohns-vi-sen-shaft", meaning: "cognitive science", gender: "die", example: { de: "Interdisziplinäre Kognitionswissenschaft.", en: "Interdisciplinary cognitive science." } },
+    { word: "die Kognitive Architektur", phonetic: "kog-ni-tee-vuh ar-khi-tek-toor", meaning: "cognitive architecture", example: { de: "ACT-R-kognitive Architektur.", en: "ACT-R cognitive architecture." } },
+    { word: "die Mentale Repräsentation", phonetic: "men-tah-luh re-pray-zen-ta-tsee-ohn", meaning: "mental representation", example: { de: "Propositionale mentale Repräsentation.", en: "Propositional mental representation." } },
+    { word: "die Embodied Cognition", phonetic: "em-bo-dit-kog-ni-tsee-ohn", meaning: "embodied cognition", gender: "die", example: { de: "Situierte embodied Cognition.", en: "Situated embodied cognition." } },
+    { word: "die Aufmerksamkeit", phonetic: "owf-merk-zahm-kyte", meaning: "attention", gender: "die", example: { de: "Geteilte Aufmerksamkeit.", en: "Divided attention." } },
+    { word: "das Arbeitsgedächtnis", phonetic: "ar-byts-geh-dekht-nis", meaning: "working memory", gender: "das", example: { de: "Phonologisches Arbeitsgedächtnis.", en: "Phonological working memory." } },
+    { word: "die Exekutive Funktion", phonetic: "eks-e-koo-tee-vuh funk-tsee-ohn", meaning: "executive function", example: { de: "Frontale exekutive Funktion.", en: "Frontal executive function." } },
+    { word: "die Mustererkennung", phonetic: "mus-ter-er-ke-nung", meaning: "pattern recognition", gender: "die", example: { de: "Visuelle Mustererkennung.", en: "Visual pattern recognition." } },
+    { word: "der Kognitive Bias", phonetic: "kog-ni-tee-vuh bay-as", meaning: "cognitive bias", gender: "der", example: { de: "Bestätigender kognitiver Bias.", en: "Confirmation cognitive bias." } },
+    { word: "die Heuristik", phonetic: "hoy-ris-tik", meaning: "heuristic", gender: "die", example: { de: "Verfügbarkeitsheuristik.", en: "Availability heuristic." } },
+    { word: "die Theory of Mind", phonetic: "tay-oh-ree-of-mynd", meaning: "theory of mind", gender: "die", example: { de: "Entwicklung der Theory of Mind.", en: "Development of theory of mind." } },
+    { word: "das Konzept", phonetic: "kon-tsept", meaning: "concept", gender: "das", example: { de: "Prototypisches Konzept.", en: "Prototypical concept." } },
+    { word: "die Analogisches Denken", phonetic: "a-na-lo-gi-shes den-ken", meaning: "analogical reasoning", example: { de: "Relationales analogisches Denken.", en: "Relational analogical reasoning." } },
+    { word: "die Mentale Simulation", phonetic: "men-tah-luh zi-moo-la-tsee-ohn", meaning: "mental simulation", example: { de: "Prospektive mentale Simulation.", en: "Prospective mental simulation." } },
+    { word: "die Metakognition", phonetic: "me-ta-kog-ni-tsee-ohn", meaning: "metacognition", gender: "die", example: { de: "Strategische Metakognition.", en: "Strategic metacognition." } },
+    { word: "die Kategorisierung", phonetic: "ka-te-go-ri-zee-rung", meaning: "categorization", gender: "die", example: { de: "Prototypenbasierte Kategorisierung.", en: "Prototype-based categorization." } },
+    { word: "die Kognitive Entwicklung", phonetic: "kog-ni-tee-vuh ent-vik-lung", meaning: "cognitive development", example: { de: "Piagetsche kognitive Entwicklung.", en: "Piagetian cognitive development." } },
+    { word: "die Neurokognition", phonetic: "noy-ro-kog-ni-tsee-ohn", meaning: "neurocognition", gender: "die", example: { de: "Soziale Neurokognition.", en: "Social neurocognition." } },
+    { word: "das Konnektionismus", phonetic: "ko-nek-tsee-oh-nis-mus", meaning: "connectionism", gender: "der", example: { de: "Paralleler verteilter Konnektionismus.", en: "Parallel distributed connectionism." } },
+    { word: "die Kognitive Kontrolle", phonetic: "kog-ni-tee-vuh kon-tro-luh", meaning: "cognitive control", example: { de: "Proaktive kognitive Kontrolle.", en: "Proactive cognitive control." } },
+  ]}] },
+};

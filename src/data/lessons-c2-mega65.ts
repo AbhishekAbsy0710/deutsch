@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega65: Record<string, Lesson> = {
+  "lc2_m108": { id: "lc2_m108", title: "Advanced Representation Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Darstellungstheorie", phonetic: "dar-shte-lungs-tay-oh-ree", meaning: "representation theory", gender: "die", example: { de: "Lineare Darstellungstheorie.", en: "Linear representation theory." } },
+    { word: "die Gruppenrepräsentation", phonetic: "groo-pen-re-pray-zen-ta-tsee-ohn", meaning: "group representation", gender: "die", example: { de: "Irreduzible Gruppenrepräsentation.", en: "Irreducible group representation." } },
+    { word: "der Charakter", phonetic: "kha-rak-ter", meaning: "character (representation theory)", gender: "der", example: { de: "Charaktertafel.", en: "Character table." } },
+    { word: "die Schur-Orthogonalität", phonetic: "shoor-or-to-go-na-li-tayt", meaning: "Schur orthogonality", gender: "die", example: { de: "Erste Schur-Orthogonalität.", en: "First Schur orthogonality." } },
+    { word: "das Maschke-Theorem", phonetic: "mash-kuh-tay-oh-rem", meaning: "Maschke's theorem", gender: "das", example: { de: "Vollständige Reduzibilität-Maschke-Theorem.", en: "Complete reducibility Maschke's theorem." } },
+    { word: "die Induktion", phonetic: "in-dook-tsee-ohn", meaning: "induction (representation)", gender: "die", example: { de: "Mackey-Induktion.", en: "Mackey induction." } },
+    { word: "die Restriktion", phonetic: "re-strik-tsee-ohn", meaning: "restriction (representation)", gender: "die", example: { de: "Untergruppen-Restriktion.", en: "Subgroup restriction." } },
+    { word: "die Modulare Darstellungstheorie", phonetic: "mo-doo-lah-ruh dar-shte-lungs-tay-oh-ree", meaning: "modular representation theory", example: { de: "Brauer-modulare Darstellungstheorie.", en: "Brauer modular representation theory." } },
+    { word: "die Lie-Algebren-Darstellung", phonetic: "lee-al-ge-bren-dar-shte-lung", meaning: "Lie algebra representation", gender: "die", example: { de: "Adjungierte Lie-Algebren-Darstellung.", en: "Adjoint Lie algebra representation." } },
+    { word: "das Gewicht", phonetic: "geh-vikht", meaning: "weight (representation theory)", gender: "das", example: { de: "Höchstes Gewicht.", en: "Highest weight." } },
+    { word: "die Weyl-Charakterformel", phonetic: "vayl-kha-rak-ter-for-mel", meaning: "Weyl character formula", gender: "die", example: { de: "Kompakte Weyl-Charakterformel.", en: "Compact Weyl character formula." } },
+    { word: "die Young-Tableaux", phonetic: "yung-ta-bloh", meaning: "Young tableaux", example: { de: "Standard-Young-Tableaux.", en: "Standard Young tableaux." } },
+    { word: "die Plethysmus", phonetic: "ple-tüs-mus", meaning: "plethysm", gender: "der", example: { de: "Symmetrischer Plethysmus.", en: "Symmetric plethysm." } },
+    { word: "die Kazhdan-Lusztig-Theorie", phonetic: "kash-dan-loos-tikh-tay-oh-ree", meaning: "Kazhdan-Lusztig theory", gender: "die", example: { de: "Geometrische Kazhdan-Lusztig-Theorie.", en: "Geometric Kazhdan-Lusztig theory." } },
+    { word: "die Geometrische Satake-Äquivalenz", phonetic: "ge-oh-me-tri-shuh za-ta-kuh-ey-kvi-va-lents", meaning: "geometric Satake equivalence", example: { de: "Perverse garbenbasierte geometrische Satake-Äquivalenz.", en: "Perverse sheaf-based geometric Satake equivalence." } },
+    { word: "die Quiver-Darstellung", phonetic: "kvi-ver-dar-shte-lung", meaning: "quiver representation", gender: "die", example: { de: "Azyklische Quiver-Darstellung.", en: "Acyclic quiver representation." } },
+    { word: "das Gabriel-Theorem", phonetic: "ga-bree-el-tay-oh-rem", meaning: "Gabriel's theorem", gender: "das", example: { de: "ADE-Klassifikation Gabriel-Theorem.", en: "ADE classification Gabriel's theorem." } },
+    { word: "die Cluster-Algebra", phonetic: "kloos-ter-al-ge-bra", meaning: "cluster algebra", gender: "die", example: { de: "Laurentphänomen Cluster-Algebra.", en: "Laurent phenomenon cluster algebra." } },
+    { word: "die Kategorifizierung", phonetic: "ka-te-go-ri-fi-tsee-ee-rung", meaning: "categorification", gender: "die", example: { de: "Hopf-algebraische Kategorifizierung.", en: "Hopf algebraic categorification." } },
+    { word: "die Langlands-Programm", phonetic: "lang-lands-pro-gram", meaning: "Langlands program", gender: "das", example: { de: "Geometrisches Langlands-Programm.", en: "Geometric Langlands program." } },
+  ]}] },
+};

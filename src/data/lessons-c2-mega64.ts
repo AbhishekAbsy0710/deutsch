@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega64: Record<string, Lesson> = {
+  "lc2_m107": { id: "lc2_m107", title: "Advanced Differential Geometry C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Differentialgeometrie", phonetic: "di-fe-ren-tsee-ahl-ge-oh-me-tree", meaning: "differential geometry", gender: "die", example: { de: "Riemannsche Differentialgeometrie.", en: "Riemannian differential geometry." } },
+    { word: "die Mannigfaltigkeit", phonetic: "ma-nikh-fal-tikh-kyte", meaning: "manifold", gender: "die", example: { de: "Glatte Mannigfaltigkeit.", en: "Smooth manifold." } },
+    { word: "der Tangentialraum", phonetic: "tan-gen-tsee-ahl-rowm", meaning: "tangent space", gender: "der", example: { de: "Tangentialraum an einem Punkt.", en: "Tangent space at a point." } },
+    { word: "das Vektorbündel", phonetic: "vek-tor-bün-del", meaning: "vector bundle", gender: "das", example: { de: "Tangentes Vektorbündel.", en: "Tangent vector bundle." } },
+    { word: "die Riemannsche Metrik", phonetic: "ree-man-i-shuh may-trik", meaning: "Riemannian metric", example: { de: "Vollständige Riemannsche Metrik.", en: "Complete Riemannian metric." } },
+    { word: "die Geodäte", phonetic: "ge-oh-day-tuh", meaning: "geodesic", gender: "die", example: { de: "Minimale Geodäte.", en: "Minimizing geodesic." } },
+    { word: "die Krümmung", phonetic: "krü-mung", meaning: "curvature", gender: "die", example: { de: "Schnittkrümmung.", en: "Sectional curvature." } },
+    { word: "der Riemannscher Krümmungstensor", phonetic: "ree-man-i-sher krü-mungs-ten-zor", meaning: "Riemann curvature tensor", gender: "der", example: { de: "Kovarianter Riemannscher Krümmungstensor.", en: "Covariant Riemann curvature tensor." } },
+    { word: "der Ricci-Tensor", phonetic: "ri-chi-ten-zor", meaning: "Ricci tensor", gender: "der", example: { de: "Spurfreier Ricci-Tensor.", en: "Trace-free Ricci tensor." } },
+    { word: "die Paralleltransport", phonetic: "pa-ra-lel-trans-port", meaning: "parallel transport", gender: "der", example: { de: "Levi-Civita-Paralleltransport.", en: "Levi-Civita parallel transport." } },
+    { word: "der Zusammenhang", phonetic: "tsoo-za-men-hang", meaning: "connection (differential geometry)", gender: "der", example: { de: "Affiner Zusammenhang.", en: "Affine connection." } },
+    { word: "die Holonomiegruppe", phonetic: "ho-lo-no-mee-groo-puh", meaning: "holonomy group", gender: "die", example: { de: "Berger-Holonomiegruppe.", en: "Berger holonomy group." } },
+    { word: "die Differentialform", phonetic: "di-fe-ren-tsee-ahl-form", meaning: "differential form", gender: "die", example: { de: "Geschlossene Differentialform.", en: "Closed differential form." } },
+    { word: "die Harmonische Form", phonetic: "har-mo-ni-shuh form", meaning: "harmonic form", example: { de: "Hodge-harmonische Form.", en: "Hodge harmonic form." } },
+    { word: "der Laplace-Beltrami-Operator", phonetic: "la-plas-bel-tra-mi-oh-pe-ra-tor", meaning: "Laplace-Beltrami operator", gender: "der", example: { de: "Spektrum des Laplace-Beltrami-Operators.", en: "Spectrum of the Laplace-Beltrami operator." } },
+    { word: "die Spin-Mannigfaltigkeit", phonetic: "shpin-ma-nikh-fal-tikh-kyte", meaning: "spin manifold", gender: "die", example: { de: "Orientierte Spin-Mannigfaltigkeit.", en: "Oriented spin manifold." } },
+    { word: "die Calabi-Yau-Mannigfaltigkeit", phonetic: "ka-la-bee-yow-ma-nikh-fal-tikh-kyte", meaning: "Calabi-Yau manifold", gender: "die", example: { de: "Kompakte Calabi-Yau-Mannigfaltigkeit.", en: "Compact Calabi-Yau manifold." } },
+    { word: "die Symplektische Mannigfaltigkeit", phonetic: "züm-plek-ti-shuh ma-nikh-fal-tikh-kyte", meaning: "symplectic manifold", example: { de: "Exakte symplektische Mannigfaltigkeit.", en: "Exact symplectic manifold." } },
+    { word: "der Morse-Theorie", phonetic: "mors-tay-oh-ree", meaning: "Morse theory", gender: "die", example: { de: "Endlichdimensionale Morse-Theorie.", en: "Finite-dimensional Morse theory." } },
+    { word: "die Atiyah-Singer-Indexformel", phonetic: "a-tee-yah-sin-ger-in-deks-for-mel", meaning: "Atiyah-Singer index theorem", gender: "die", example: { de: "Verallgemeinerte Atiyah-Singer-Indexformel.", en: "Generalized Atiyah-Singer index theorem." } },
+  ]}] },
+};

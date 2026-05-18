@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega67: Record<string, Lesson> = {
+  "lb2_m112": { id: "lb2_m112", title: "Thermodynamics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Thermodynamik", phonetic: "ter-mo-dü-na-mik", meaning: "thermodynamics", gender: "die", example: { de: "Technische Thermodynamik.", en: "Engineering thermodynamics." } },
+    { word: "die Entropie", phonetic: "en-tro-pee", meaning: "entropy", gender: "die", example: { de: "Zunehmende Entropie.", en: "Increasing entropy." } },
+    { word: "die Enthalpie", phonetic: "en-tal-pee", meaning: "enthalpy", gender: "die", example: { de: "Reaktionsenthalpie.", en: "Reaction enthalpy." } },
+    { word: "die Wärmekapazität", phonetic: "vayr-muh-ka-pa-tsi-tayt", meaning: "heat capacity", gender: "die", example: { de: "Molare Wärmekapazität.", en: "Molar heat capacity." } },
+    { word: "das Gleichgewicht", phonetic: "glykh-geh-vikht", meaning: "equilibrium", gender: "das", example: { de: "Thermodynamisches Gleichgewicht.", en: "Thermodynamic equilibrium." } },
+    { word: "der Carnot-Wirkungsgrad", phonetic: "kar-no-vir-kungs-graht", meaning: "Carnot efficiency", gender: "der", example: { de: "Maximaler Carnot-Wirkungsgrad.", en: "Maximum Carnot efficiency." } },
+    { word: "die Wärmepumpe", phonetic: "vayr-muh-poom-puh", meaning: "heat pump", gender: "die", example: { de: "Elektrische Wärmepumpe.", en: "Electric heat pump." } },
+    { word: "die Phasendiagramm", phonetic: "fah-zen-dee-a-gram", meaning: "phase diagram", gender: "das", example: { de: "Binäres Phasendiagramm.", en: "Binary phase diagram." } },
+    { word: "die Freie Enthalpie", phonetic: "fry-uh en-tal-pee", meaning: "Gibbs free energy", example: { de: "Gibbs-Freie-Enthalpie.", en: "Gibbs free energy." } },
+    { word: "der Hauptsatz", phonetic: "howpt-zats", meaning: "law (thermodynamics)", gender: "der", example: { de: "Zweiter Hauptsatz der Thermodynamik.", en: "Second law of thermodynamics." } },
+    { word: "die Wärmestrahlung", phonetic: "vayr-muh-shtrah-lung", meaning: "thermal radiation", gender: "die", example: { de: "Schwarzkörper-Wärmestrahlung.", en: "Blackbody thermal radiation." } },
+    { word: "die Konvektion", phonetic: "kon-vek-tsee-ohn", meaning: "convection", gender: "die", example: { de: "Erzwungene Konvektion.", en: "Forced convection." } },
+    { word: "die Wärmeleitung", phonetic: "vayr-muh-ly-tung", meaning: "heat conduction", gender: "die", example: { de: "Fouriersches Wärmeleitungsgesetz.", en: "Fourier law of heat conduction." } },
+    { word: "die Exergie", phonetic: "eks-er-gee", meaning: "exergy", gender: "die", example: { de: "Thermische Exergie.", en: "Thermal exergy." } },
+    { word: "die Kompressibilität", phonetic: "kom-pre-si-bi-li-tayt", meaning: "compressibility", gender: "die", example: { de: "Isotherme Kompressibilität.", en: "Isothermal compressibility." } },
+    { word: "der Joule-Thomson-Effekt", phonetic: "dzhool-tom-son-e-fekt", meaning: "Joule-Thomson effect", gender: "der", example: { de: "Inversionstemperatur Joule-Thomson-Effekt.", en: "Inversion temperature Joule-Thomson effect." } },
+    { word: "die Zustandsgleichung", phonetic: "tsoo-shtands-gly-khung", meaning: "equation of state", gender: "die", example: { de: "Van-der-Waals-Zustandsgleichung.", en: "Van der Waals equation of state." } },
+    { word: "die Wärmekraftmaschine", phonetic: "vayr-muh-kraft-ma-shee-nuh", meaning: "heat engine", gender: "die", example: { de: "Ideale Wärmekraftmaschine.", en: "Ideal heat engine." } },
+    { word: "die Isentrope", phonetic: "ee-zen-troh-puh", meaning: "isentropic process", gender: "die", example: { de: "Isentrope Expansion.", en: "Isentropic expansion." } },
+    { word: "der Kältemittel", phonetic: "kel-tuh-mi-tel", meaning: "refrigerant", gender: "das", example: { de: "Natürliches Kältemittel.", en: "Natural refrigerant." } },
+  ]}] },
+};

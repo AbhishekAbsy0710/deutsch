@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega65: Record<string, Lesson> = {
+  "la2_m110": { id: "la2_m110", title: "Public Transport A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "der Bus", phonetic: "boos", meaning: "bus", gender: "der", example: { de: "Den Bus nehmen.", en: "Take the bus." } },
+    { word: "die Straßenbahn", phonetic: "shtrah-sen-bahn", meaning: "tram", gender: "die", example: { de: "Mit der Straßenbahn fahren.", en: "Travel by tram." } },
+    { word: "die U-Bahn", phonetic: "oo-bahn", meaning: "underground / subway", gender: "die", example: { de: "U-Bahn fahren.", en: "Ride the subway." } },
+    { word: "der Zug", phonetic: "tsoog", meaning: "train", gender: "der", example: { de: "Den Zug verpassen.", en: "Miss the train." } },
+    { word: "der Bahnhof", phonetic: "bahn-hof", meaning: "train station", gender: "der", example: { de: "Am Bahnhof warten.", en: "Wait at the train station." } },
+    { word: "die Haltestelle", phonetic: "hal-tuh-shte-luh", meaning: "stop (bus/tram)", gender: "die", example: { de: "An der Haltestelle aussteigen.", en: "Get off at the stop." } },
+    { word: "der Fahrplan", phonetic: "fahr-plahn", meaning: "timetable / schedule", gender: "der", example: { de: "Den Fahrplan prüfen.", en: "Check the timetable." } },
+    { word: "das Ticket", phonetic: "ti-ket", meaning: "ticket", gender: "das", example: { de: "Ein Ticket kaufen.", en: "Buy a ticket." } },
+    { word: "die Monatskarte", phonetic: "mo-nahts-kar-tuh", meaning: "monthly pass", gender: "die", example: { de: "Eine Monatskarte lösen.", en: "Get a monthly pass." } },
+    { word: "einsteigen", phonetic: "ayn-shty-gen", meaning: "to board / get on", example: { de: "In den Bus einsteigen.", en: "Board the bus." } },
+    { word: "aussteigen", phonetic: "ows-shty-gen", meaning: "to get off", example: { de: "An der nächsten Haltestelle aussteigen.", en: "Get off at the next stop." } },
+    { word: "umsteigen", phonetic: "oom-shty-gen", meaning: "to transfer / change", example: { de: "In Frankfurt umsteigen.", en: "Transfer in Frankfurt." } },
+    { word: "die Verspätung", phonetic: "fer-shpay-tung", meaning: "delay", gender: "die", example: { de: "Der Zug hat Verspätung.", en: "The train is delayed." } },
+    { word: "pünktlich", phonetic: "pünkt-likh", meaning: "on time / punctual", example: { de: "Pünktlich ankommen.", en: "Arrive on time." } },
+    { word: "der Gleis", phonetic: "glyce", meaning: "platform / track", gender: "das", example: { de: "Gleis vier.", en: "Platform four." } },
+    { word: "der Sitzplatz", phonetic: "zits-plats", meaning: "seat", gender: "der", example: { de: "Einen Sitzplatz reservieren.", en: "Reserve a seat." } },
+    { word: "die Linie", phonetic: "lee-nee-uh", meaning: "line / route", gender: "die", example: { de: "Linie acht.", en: "Line eight." } },
+    { word: "der Fahrkartenautomat", phonetic: "fahr-kar-ten-ow-to-maht", meaning: "ticket machine", gender: "der", example: { de: "Am Fahrkartenautomat kaufen.", en: "Buy at the ticket machine." } },
+    { word: "das Nahverkehrsticket", phonetic: "nah-fer-kayrs-ti-ket", meaning: "local transport ticket", gender: "das", example: { de: "Günstiges Nahverkehrsticket.", en: "Affordable local transport ticket." } },
+    { word: "die Anschlusszug", phonetic: "an-shloos-tsoog", meaning: "connecting train", gender: "der", example: { de: "Den Anschlusszug erreichen.", en: "Catch the connecting train." } },
+  ]}] },
+};

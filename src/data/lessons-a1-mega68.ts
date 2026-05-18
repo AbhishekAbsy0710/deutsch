@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega68: Record<string, Lesson> = {
+  "la1_m118": { id: "la1_m118", title: "At the Restaurant A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Restaurant", phonetic: "res-to-rant", meaning: "restaurant", gender: "das", example: { de: "Im Restaurant essen.", en: "Eat at the restaurant." } },
+    { word: "die Speisekarte", phonetic: "shpy-zuh-kar-tuh", meaning: "menu", gender: "die", example: { de: "Die Speisekarte lesen.", en: "Read the menu." } },
+    { word: "der Kellner", phonetic: "kel-ner", meaning: "waiter", gender: "der", example: { de: "Den Kellner rufen.", en: "Call the waiter." } },
+    { word: "die Kellnerin", phonetic: "kel-ne-rin", meaning: "waitress", gender: "die", example: { de: "Die Kellnerin fragt.", en: "The waitress asks." } },
+    { word: "bestellen", phonetic: "beh-shte-len", meaning: "to order", example: { de: "Das Essen bestellen.", en: "Order the food." } },
+    { word: "empfehlen", phonetic: "emp-fay-len", meaning: "to recommend", example: { de: "Was empfehlen Sie?", en: "What do you recommend?" } },
+    { word: "die Vorspeise", phonetic: "for-shpy-zuh", meaning: "starter / appetiser", gender: "die", example: { de: "Eine Vorspeise wählen.", en: "Choose a starter." } },
+    { word: "das Hauptgericht", phonetic: "howpt-geh-rikht", meaning: "main course", gender: "das", example: { de: "Das Hauptgericht servieren.", en: "Serve the main course." } },
+    { word: "die Nachspeise", phonetic: "nakh-shpy-zuh", meaning: "dessert", gender: "die", example: { de: "Eine Nachspeise bestellen.", en: "Order a dessert." } },
+    { word: "das Getränk", phonetic: "geh-trenk", meaning: "drink / beverage", gender: "das", example: { de: "Ein Getränk wählen.", en: "Choose a drink." } },
+    { word: "die Rechnung", phonetic: "rekh-nung", meaning: "bill / check", gender: "die", example: { de: "Die Rechnung bitte!", en: "The bill please!" } },
+    { word: "das Trinkgeld", phonetic: "trink-gelt", meaning: "tip", gender: "das", example: { de: "Trinkgeld geben.", en: "Give a tip." } },
+    { word: "reservieren", phonetic: "re-zer-vee-ren", meaning: "to reserve", example: { de: "Einen Tisch reservieren.", en: "Reserve a table." } },
+    { word: "der Tisch", phonetic: "tish", meaning: "table", gender: "der", example: { de: "Einen Tisch für zwei.", en: "A table for two." } },
+    { word: "vegetarisch", phonetic: "ve-ge-tah-rish", meaning: "vegetarian", example: { de: "Vegetarisches Gericht.", en: "Vegetarian dish." } },
+    { word: "lecker", phonetic: "le-ker", meaning: "delicious / tasty", example: { de: "Das ist sehr lecker!", en: "That is very delicious!" } },
+    { word: "der Koch", phonetic: "kokh", meaning: "cook / chef", gender: "der", example: { de: "Ein guter Koch.", en: "A good chef." } },
+    { word: "das Gericht", phonetic: "geh-rikht", meaning: "dish / meal", gender: "das", example: { de: "Ein typisches deutsches Gericht.", en: "A typical German dish." } },
+    { word: "die Portion", phonetic: "por-tsee-ohn", meaning: "portion / serving", gender: "die", example: { de: "Eine große Portion.", en: "A large portion." } },
+    { word: "zahlen", phonetic: "tsah-len", meaning: "to pay", example: { de: "Getrennt zahlen.", en: "Pay separately." } },
+  ]}] },
+};

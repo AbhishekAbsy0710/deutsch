@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega68: Record<string, Lesson> = {
+  "lb1_m119": { id: "lb1_m119", title: "Economics & Trade B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Wirtschaft", phonetic: "virt-shaft", meaning: "economy", gender: "die", example: { de: "Soziale Marktwirtschaft.", en: "Social market economy." } },
+    { word: "der Handel", phonetic: "han-del", meaning: "trade / commerce", gender: "der", example: { de: "Internationaler Handel.", en: "International trade." } },
+    { word: "der Export", phonetic: "eks-port", meaning: "export", gender: "der", example: { de: "Deutsche Exporte.", en: "German exports." } },
+    { word: "der Import", phonetic: "im-port", meaning: "import", gender: "der", example: { de: "Waren importieren.", en: "Import goods." } },
+    { word: "das Bruttoinlandsprodukt", phonetic: "broo-to-in-lands-pro-dookt", meaning: "GDP", gender: "das", example: { de: "Wachsendes Bruttoinlandsprodukt.", en: "Growing GDP." } },
+    { word: "die Inflation", phonetic: "in-fla-tsee-ohn", meaning: "inflation", gender: "die", example: { de: "Steigende Inflation.", en: "Rising inflation." } },
+    { word: "die Rezession", phonetic: "re-tse-see-ohn", meaning: "recession", gender: "die", example: { de: "Wirtschaftliche Rezession.", en: "Economic recession." } },
+    { word: "der Zoll", phonetic: "tsol", meaning: "customs / duty", gender: "der", example: { de: "Zoll zahlen.", en: "Pay customs duty." } },
+    { word: "die Steuer", phonetic: "shtoy-er", meaning: "tax", gender: "die", example: { de: "Einkommensteuer zahlen.", en: "Pay income tax." } },
+    { word: "das Budget", phonetic: "bü-djey", meaning: "budget", gender: "das", example: { de: "Das Staatsbudget.", en: "The state budget." } },
+    { word: "die Börse", phonetic: "bör-zuh", meaning: "stock exchange", gender: "die", example: { de: "An der Börse handeln.", en: "Trade on the stock exchange." } },
+    { word: "die Aktie", phonetic: "ak-tsee-uh", meaning: "share / stock", gender: "die", example: { de: "Aktien kaufen.", en: "Buy shares." } },
+    { word: "der Gewinn", phonetic: "geh-vin", meaning: "profit", gender: "der", example: { de: "Hoher Gewinn.", en: "High profit." } },
+    { word: "der Verlust", phonetic: "fer-loost", meaning: "loss", gender: "der", example: { de: "Finanzieller Verlust.", en: "Financial loss." } },
+    { word: "die Investition", phonetic: "in-ves-ti-tsee-ohn", meaning: "investment", gender: "die", example: { de: "Ausländische Investition.", en: "Foreign investment." } },
+    { word: "die Arbeitslosigkeit", phonetic: "ar-byts-loh-zikh-kyte", meaning: "unemployment", gender: "die", example: { de: "Steigende Arbeitslosigkeit.", en: "Rising unemployment." } },
+    { word: "der Mindestlohn", phonetic: "min-dest-lohn", meaning: "minimum wage", gender: "der", example: { de: "Gesetzlicher Mindestlohn.", en: "Statutory minimum wage." } },
+    { word: "die Nachfrage", phonetic: "nakh-frah-guh", meaning: "demand", gender: "die", example: { de: "Steigende Nachfrage.", en: "Rising demand." } },
+    { word: "das Angebot", phonetic: "an-geh-bot", meaning: "supply", gender: "das", example: { de: "Angebot und Nachfrage.", en: "Supply and demand." } },
+    { word: "das Freihandelsabkommen", phonetic: "fry-han-dels-ap-ko-men", meaning: "free trade agreement", gender: "das", example: { de: "Bilaterales Freihandelsabkommen.", en: "Bilateral free trade agreement." } },
+  ]}] },
+};

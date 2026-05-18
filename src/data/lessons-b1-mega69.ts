@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega69: Record<string, Lesson> = {
+  "lb1_m120": { id: "lb1_m120", title: "Environment & Climate B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Umwelt", phonetic: "oom-velt", meaning: "environment", gender: "die", example: { de: "Die Umwelt schützen.", en: "Protect the environment." } },
+    { word: "der Klimawandel", phonetic: "klee-ma-van-del", meaning: "climate change", gender: "der", example: { de: "Den Klimawandel bekämpfen.", en: "Fight climate change." } },
+    { word: "der Treibhauseffekt", phonetic: "tryb-hows-e-fekt", meaning: "greenhouse effect", gender: "der", example: { de: "Anthropogener Treibhauseffekt.", en: "Anthropogenic greenhouse effect." } },
+    { word: "die Erderwärmung", phonetic: "ert-er-vayr-mung", meaning: "global warming", gender: "die", example: { de: "Globale Erderwärmung.", en: "Global warming." } },
+    { word: "der CO₂-Ausstoß", phonetic: "tsay-oh-tsvy-ows-shtohss", meaning: "CO₂ emissions", gender: "der", example: { de: "CO₂-Ausstoß reduzieren.", en: "Reduce CO₂ emissions." } },
+    { word: "die Nachhaltigkeit", phonetic: "nakh-hal-tikh-kyte", meaning: "sustainability", gender: "die", example: { de: "Ökologische Nachhaltigkeit.", en: "Ecological sustainability." } },
+    { word: "recyceln", phonetic: "re-zü-keln", meaning: "to recycle", example: { de: "Müll recyceln.", en: "Recycle waste." } },
+    { word: "die Artenvielfalt", phonetic: "ar-ten-feel-falt", meaning: "biodiversity", gender: "die", example: { de: "Bedrohte Artenvielfalt.", en: "Threatened biodiversity." } },
+    { word: "die Entwaldung", phonetic: "ent-val-dung", meaning: "deforestation", gender: "die", example: { de: "Tropische Entwaldung.", en: "Tropical deforestation." } },
+    { word: "die Luftverschmutzung", phonetic: "looft-fer-shmoo-tsung", meaning: "air pollution", gender: "die", example: { de: "Städtische Luftverschmutzung.", en: "Urban air pollution." } },
+    { word: "der Müll", phonetic: "mül", meaning: "waste / rubbish", gender: "der", example: { de: "Müll trennen.", en: "Separate waste." } },
+    { word: "die erneuerbare Energie", phonetic: "er-noy-er-bah-ruh e-ner-gee", meaning: "renewable energy", example: { de: "Erneuerbare Energiequellen.", en: "Renewable energy sources." } },
+    { word: "das Elektroauto", phonetic: "e-lek-tro-ow-to", meaning: "electric car", gender: "das", example: { de: "Ein Elektroauto fahren.", en: "Drive an electric car." } },
+    { word: "der Naturschutz", phonetic: "na-toor-shoots", meaning: "nature conservation", gender: "der", example: { de: "Aktiver Naturschutz.", en: "Active nature conservation." } },
+    { word: "das Ozonloch", phonetic: "oh-tsohn-lokh", meaning: "ozone hole", gender: "das", example: { de: "Das Ozonloch vergrößern.", en: "The ozone hole grows." } },
+    { word: "der Plastikmüll", phonetic: "plas-tik-mül", meaning: "plastic waste", gender: "der", example: { de: "Plastikmüll im Meer.", en: "Plastic waste in the sea." } },
+    { word: "die Wasserverschmutzung", phonetic: "va-ser-fer-shmoo-tsung", meaning: "water pollution", gender: "die", example: { de: "Industrielle Wasserverschmutzung.", en: "Industrial water pollution." } },
+    { word: "die Energiewende", phonetic: "e-ner-gee-ven-duh", meaning: "energy transition", gender: "die", example: { de: "Deutsche Energiewende.", en: "German energy transition." } },
+    { word: "der Fußabdruck", phonetic: "foos-ap-drook", meaning: "footprint (carbon)", gender: "der", example: { de: "Ökologischer Fußabdruck.", en: "Ecological footprint." } },
+    { word: "die Klimakonferenz", phonetic: "klee-ma-kon-fe-rents", meaning: "climate conference", gender: "die", example: { de: "UN-Klimakonferenz.", en: "UN climate conference." } },
+  ]}] },
+};
