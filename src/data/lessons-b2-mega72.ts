@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega72: Record<string, Lesson> = {
+  "lb2_m117": { id: "lb2_m117", title: "Quantum Mechanics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Quantenmechanik", phonetic: "kvan-ten-me-kha-nik", meaning: "quantum mechanics", gender: "die", example: { de: "Nichtrelativistische Quantenmechanik.", en: "Non-relativistic quantum mechanics." } },
+    { word: "die Wellenfunktion", phonetic: "ve-len-funk-tsee-ohn", meaning: "wave function", gender: "die", example: { de: "Normierte Wellenfunktion.", en: "Normalized wave function." } },
+    { word: "der Hamiltonoperator", phonetic: "ha-mil-ton-oh-pe-ra-tor", meaning: "Hamiltonian operator", gender: "der", example: { de: "Zeitunabhängiger Hamiltonoperator.", en: "Time-independent Hamiltonian operator." } },
+    { word: "die Schrödingergleichung", phonetic: "shröh-din-ger-gly-khung", meaning: "Schrödinger equation", gender: "die", example: { de: "Zeitabhängige Schrödingergleichung.", en: "Time-dependent Schrödinger equation." } },
+    { word: "das Superpositionsprinzip", phonetic: "zoo-per-po-zi-tsee-ohns-prin-tsip", meaning: "superposition principle", gender: "das", example: { de: "Quantenmechanisches Superpositionsprinzip.", en: "Quantum mechanical superposition principle." } },
+    { word: "die Messung", phonetic: "me-sung", meaning: "measurement (quantum)", gender: "die", example: { de: "Quantenmechanische Messung.", en: "Quantum mechanical measurement." } },
+    { word: "die Verschränkung", phonetic: "fer-shrenk-ung", meaning: "entanglement", gender: "die", example: { de: "Quantenverschränkung.", en: "Quantum entanglement." } },
+    { word: "die Unschärferelation", phonetic: "oon-shärf-fuh-re-la-tsee-ohn", meaning: "uncertainty principle", gender: "die", example: { de: "Heisenbergsche Unschärferelation.", en: "Heisenberg uncertainty principle." } },
+    { word: "der Spin", phonetic: "shpin", meaning: "spin (quantum)", gender: "der", example: { de: "Elektronenspin.", en: "Electron spin." } },
+    { word: "das Orbital", phonetic: "or-bi-tahl", meaning: "orbital (atomic)", gender: "das", example: { de: "Atomares Orbital.", en: "Atomic orbital." } },
+    { word: "das Pauli-Prinzip", phonetic: "pow-lee-prin-tsip", meaning: "Pauli exclusion principle", gender: "das", example: { de: "Fermionisches Pauli-Prinzip.", en: "Fermionic Pauli exclusion principle." } },
+    { word: "die Eigenzustand", phonetic: "eye-gen-tsoo-shtant", meaning: "eigenstate", gender: "der", example: { de: "Normierter Eigenzustand.", en: "Normalized eigenstate." } },
+    { word: "der Kommutator", phonetic: "ko-moo-ta-tor", meaning: "commutator", gender: "der", example: { de: "Kanonischer Kommutator.", en: "Canonical commutator." } },
+    { word: "das Pfadintegral", phonetic: "pfad-in-te-grahl", meaning: "path integral", gender: "das", example: { de: "Feynmansches Pfadintegral.", en: "Feynman path integral." } },
+    { word: "die Störungstheorie", phonetic: "shtö-rungs-tay-oh-ree", meaning: "perturbation theory", gender: "die", example: { de: "Zeitabhängige Störungstheorie.", en: "Time-dependent perturbation theory." } },
+    { word: "der Tunneleffekt", phonetic: "too-nel-e-fekt", meaning: "tunnel effect", gender: "der", example: { de: "Quantenmechanischer Tunneleffekt.", en: "Quantum mechanical tunnel effect." } },
+    { word: "das Dekohärenz", phonetic: "de-ko-hay-rents", meaning: "decoherence", gender: "die", example: { de: "Umgebungsinduzierte Dekohärenz.", en: "Environment-induced decoherence." } },
+    { word: "die Dichtematrix", phonetic: "dikh-te-mah-triks", meaning: "density matrix", gender: "die", example: { de: "Reduzierte Dichtematrix.", en: "Reduced density matrix." } },
+    { word: "das Bell-Ungleichung", phonetic: "bel-oon-gly-khung", meaning: "Bell inequality", gender: "die", example: { de: "Verletzung der Bell-Ungleichung.", en: "Violation of Bell inequality." } },
+    { word: "das Quantencomputer", phonetic: "kvan-ten-kom-pyoo-ter", meaning: "quantum computer", gender: "der", example: { de: "Fehlerkorrigierender Quantencomputer.", en: "Error-correcting quantum computer." } },
+  ]}] },
+};

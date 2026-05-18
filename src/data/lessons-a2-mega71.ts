@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega71: Record<string, Lesson> = {
+  "la2_m116": { id: "la2_m116", title: "Health & Doctor A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "der Arzt", phonetic: "artst", meaning: "doctor (male)", gender: "der", example: { de: "Zum Arzt gehen.", en: "Go to the doctor." } },
+    { word: "die Ärztin", phonetic: "erts-tin", meaning: "doctor (female)", gender: "die", example: { de: "Die Ärztin untersucht.", en: "The doctor examines." } },
+    { word: "das Krankenhaus", phonetic: "kran-ken-hows", meaning: "hospital", gender: "das", example: { de: "Im Krankenhaus liegen.", en: "Lie in hospital." } },
+    { word: "die Praxis", phonetic: "prak-sis", meaning: "doctor's practice / surgery", gender: "die", example: { de: "In die Praxis gehen.", en: "Go to the surgery." } },
+    { word: "der Termin", phonetic: "ter-meen", meaning: "appointment", gender: "der", example: { de: "Einen Termin machen.", en: "Make an appointment." } },
+    { word: "krank", phonetic: "krank", meaning: "ill / sick", example: { de: "Ich bin krank.", en: "I am ill." } },
+    { word: "gesund", phonetic: "geh-zoont", meaning: "healthy / well", example: { de: "Wieder gesund werden.", en: "Get well again." } },
+    { word: "der Schmerz", phonetic: "shmerts", meaning: "pain", gender: "der", example: { de: "Starke Schmerzen.", en: "Strong pains." } },
+    { word: "das Fieber", phonetic: "fee-ber", meaning: "fever", gender: "das", example: { de: "Hohes Fieber haben.", en: "Have a high fever." } },
+    { word: "der Husten", phonetic: "hoos-ten", meaning: "cough", gender: "der", example: { de: "Einen Husten haben.", en: "Have a cough." } },
+    { word: "der Schnupfen", phonetic: "shnoop-fen", meaning: "cold / runny nose", gender: "der", example: { de: "Einen Schnupfen bekommen.", en: "Get a runny nose." } },
+    { word: "das Rezept", phonetic: "re-tsept", meaning: "prescription", gender: "das", example: { de: "Ein Rezept ausstellen.", en: "Issue a prescription." } },
+    { word: "die Tablette", phonetic: "ta-ble-tuh", meaning: "tablet / pill", gender: "die", example: { de: "Tabletten nehmen.", en: "Take tablets." } },
+    { word: "die Krankenkasse", phonetic: "kran-ken-ka-suh", meaning: "health insurance fund", gender: "die", example: { de: "Bei der Krankenkasse anmelden.", en: "Register with the health insurance fund." } },
+    { word: "der Notfall", phonetic: "noht-fal", meaning: "emergency", gender: "der", example: { de: "Einen Notfall melden.", en: "Report an emergency." } },
+    { word: "der Krankenwagen", phonetic: "kran-ken-vah-gen", meaning: "ambulance", gender: "der", example: { de: "Den Krankenwagen rufen.", en: "Call the ambulance." } },
+    { word: "die Operation", phonetic: "o-pe-ra-tsee-ohn", meaning: "operation / surgery", gender: "die", example: { de: "Eine Operation durchführen.", en: "Perform an operation." } },
+    { word: "die Allergie", phonetic: "a-ler-gee", meaning: "allergy", gender: "die", example: { de: "Eine Allergie haben.", en: "Have an allergy." } },
+    { word: "untersuchen", phonetic: "oon-ter-zoo-khen", meaning: "to examine / investigate", example: { de: "Den Patienten untersuchen.", en: "Examine the patient." } },
+    { word: "blutdruckmessen", phonetic: "bloot-drook-me-sen", meaning: "to measure blood pressure", example: { de: "Blutdruck messen.", en: "Measure blood pressure." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega72: Record<string, Lesson> = {
+  "lc1_m118": { id: "lc1_m118", title: "Advanced Econometrics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Ökonometrie", phonetic: "ö-ko-no-me-tree", meaning: "econometrics", gender: "die", example: { de: "Angewandte Ökonometrie.", en: "Applied econometrics." } },
+    { word: "die Regression", phonetic: "re-gre-see-ohn", meaning: "regression", gender: "die", example: { de: "Lineare Regression.", en: "Linear regression." } },
+    { word: "die Zeitreihenanalyse", phonetic: "tsyte-ry-en-a-na-lü-zuh", meaning: "time series analysis", gender: "die", example: { de: "Stationäre Zeitreihenanalyse.", en: "Stationary time series analysis." } },
+    { word: "die Autokorrelation", phonetic: "ow-to-ko-re-la-tsee-ohn", meaning: "autocorrelation", gender: "die", example: { de: "Serielle Autokorrelation.", en: "Serial autocorrelation." } },
+    { word: "die Heteroskedastizität", phonetic: "he-te-ro-ske-das-ti-tsi-tayt", meaning: "heteroskedasticity", gender: "die", example: { de: "Robuste Heteroskedastizität.", en: "Robust heteroskedasticity." } },
+    { word: "die Endogenität", phonetic: "en-do-ge-ni-tayt", meaning: "endogeneity", gender: "die", example: { de: "Instrumentalvariable Endogenität.", en: "Instrumental variable endogeneity." } },
+    { word: "der Instrumentalvariable", phonetic: "in-stroo-men-tahl-va-ree-ah-bluh", meaning: "instrumental variable", gender: "die", example: { de: "Gültige Instrumentalvariable.", en: "Valid instrumental variable." } },
+    { word: "die Kointegrierung", phonetic: "ko-in-te-gree-rung", meaning: "cointegration", gender: "die", example: { de: "Engel-Granger-Kointegrierung.", en: "Engle-Granger cointegration." } },
+    { word: "das VAR-Modell", phonetic: "fow-ah-er-mo-del", meaning: "VAR model (vector autoregression)", gender: "das", example: { de: "Strukturelles VAR-Modell.", en: "Structural VAR model." } },
+    { word: "der Granger-Kausalität", phonetic: "gran-ger-kow-za-li-tayt", meaning: "Granger causality", gender: "die", example: { de: "Paarweise Granger-Kausalität.", en: "Pairwise Granger causality." } },
+    { word: "die Paneldaten", phonetic: "pa-nel-dah-ten", meaning: "panel data", example: { de: "Balancierte Paneldaten.", en: "Balanced panel data." } },
+    { word: "der Fixed-Effects-Schätzer", phonetic: "fikt-e-fekts-shets-er", meaning: "fixed effects estimator", gender: "der", example: { de: "Within-Fixed-Effects-Schätzer.", en: "Within fixed effects estimator." } },
+    { word: "der Random-Effects-Schätzer", phonetic: "ran-dom-e-fekts-shets-er", meaning: "random effects estimator", gender: "der", example: { de: "GLS-Random-Effects-Schätzer.", en: "GLS random effects estimator." } },
+    { word: "das Differenz-in-Differenzen", phonetic: "di-fe-rents-in-di-fe-ren-tsen", meaning: "difference-in-differences", gender: "das", example: { de: "Kausales Differenz-in-Differenzen.", en: "Causal difference-in-differences." } },
+    { word: "der Regression Discontinuity", phonetic: "re-gre-see-ohn-dis-kon-ti-nü-i-tee", meaning: "regression discontinuity", gender: "die", example: { de: "Scharfe Regression Discontinuity.", en: "Sharp regression discontinuity." } },
+    { word: "das Propensity Score Matching", phonetic: "pro-pen-si-tee-skor-mat-shing", meaning: "propensity score matching", gender: "das", example: { de: "Kalorisches Propensity Score Matching.", en: "Caloric propensity score matching." } },
+    { word: "die Bootstrapping", phonetic: "boot-strap-ing", meaning: "bootstrapping (statistics)", gender: "die", example: { de: "Nichtparametrisches Bootstrapping.", en: "Non-parametric bootstrapping." } },
+    { word: "das ARIMA-Modell", phonetic: "ah-ri-ma-mo-del", meaning: "ARIMA model", gender: "das", example: { de: "Saisonales ARIMA-Modell.", en: "Seasonal ARIMA model." } },
+    { word: "die Monte-Carlo-Simulation", phonetic: "mon-te-kar-lo-zi-moo-la-tsee-ohn", meaning: "Monte Carlo simulation", gender: "die", example: { de: "Markov-Kette-Monte-Carlo-Simulation.", en: "Markov chain Monte Carlo simulation." } },
+    { word: "die Kausalinferenz", phonetic: "kow-zahl-in-fe-rents", meaning: "causal inference", gender: "die", example: { de: "Potenzielle-Ergebnisse-Kausalinferenz.", en: "Potential outcomes causal inference." } },
+  ]}] },
+};

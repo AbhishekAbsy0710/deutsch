@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega74: Record<string, Lesson> = {
+  "lb1_m125": { id: "lb1_m125", title: "Banking & Finance B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Konto", phonetic: "kon-to", meaning: "account (bank)", gender: "das", example: { de: "Ein Konto eröffnen.", en: "Open an account." } },
+    { word: "die Überweisung", phonetic: "ü-ber-vy-zung", meaning: "bank transfer", gender: "die", example: { de: "Eine Überweisung tätigen.", en: "Make a bank transfer." } },
+    { word: "der Kredit", phonetic: "kre-deet", meaning: "credit / loan", gender: "der", example: { de: "Einen Kredit beantragen.", en: "Apply for a loan." } },
+    { word: "die Hypothek", phonetic: "hü-po-tayk", meaning: "mortgage", gender: "die", example: { de: "Eine Hypothek aufnehmen.", en: "Take out a mortgage." } },
+    { word: "der Zinssatz", phonetic: "tsins-zats", meaning: "interest rate", gender: "der", example: { de: "Niedriger Zinssatz.", en: "Low interest rate." } },
+    { word: "die Rendite", phonetic: "ren-dee-tuh", meaning: "return / yield", gender: "die", example: { de: "Gute Kapitalrendite.", en: "Good return on capital." } },
+    { word: "das Depot", phonetic: "de-poh", meaning: "securities account / depot", gender: "das", example: { de: "Ein Wertpapierdepot.", en: "A securities account." } },
+    { word: "die Aktie", phonetic: "ak-tsee-uh", meaning: "share / stock", gender: "die", example: { de: "Aktien kaufen.", en: "Buy shares." } },
+    { word: "der Fond", phonetic: "fong", meaning: "fund (investment)", gender: "der", example: { de: "Indexfonds investieren.", en: "Invest in index funds." } },
+    { word: "die Inflation", phonetic: "in-fla-tsee-ohn", meaning: "inflation", gender: "die", example: { de: "Hohe Inflation.", en: "High inflation." } },
+    { word: "die Deflation", phonetic: "de-fla-tsee-ohn", meaning: "deflation", gender: "die", example: { de: "Wirtschaftliche Deflation.", en: "Economic deflation." } },
+    { word: "der Wechselkurs", phonetic: "vek-sel-koors", meaning: "exchange rate", gender: "der", example: { de: "Günstiger Wechselkurs.", en: "Favourable exchange rate." } },
+    { word: "das Girokonto", phonetic: "gee-ro-kon-to", meaning: "current account / checking account", gender: "das", example: { de: "Das Girokonto belasten.", en: "Debit the current account." } },
+    { word: "der Dispo", phonetic: "dis-po", meaning: "overdraft facility", gender: "der", example: { de: "Den Dispo nutzen.", en: "Use the overdraft facility." } },
+    { word: "der Dauerauftrag", phonetic: "dow-er-owf-trahg", meaning: "standing order", gender: "der", example: { de: "Einen Dauerauftrag einrichten.", en: "Set up a standing order." } },
+    { word: "die Lastschrift", phonetic: "last-shrift", meaning: "direct debit", gender: "die", example: { de: "Per Lastschrift zahlen.", en: "Pay by direct debit." } },
+    { word: "das Sparbuch", phonetic: "shpar-bookh", meaning: "savings book / passbook", gender: "das", example: { de: "Geld auf dem Sparbuch.", en: "Money in the savings account." } },
+    { word: "die Kapitalanlage", phonetic: "ka-pi-tahl-an-lah-guh", meaning: "capital investment", gender: "die", example: { de: "Sichere Kapitalanlage.", en: "Safe capital investment." } },
+    { word: "der Kontostand", phonetic: "kon-to-shtant", meaning: "account balance", gender: "der", example: { de: "Den Kontostand prüfen.", en: "Check the account balance." } },
+    { word: "die Finanzberatung", phonetic: "fi-nants-beh-rah-tung", meaning: "financial advice", gender: "die", example: { de: "Professionelle Finanzberatung.", en: "Professional financial advice." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega70: Record<string, Lesson> = {
+  "lc2_m113": { id: "lc2_m113", title: "Advanced Model Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Modelltheorie", phonetic: "mo-del-tay-oh-ree", meaning: "model theory", gender: "die", example: { de: "Klassische Modelltheorie.", en: "Classical model theory." } },
+    { word: "die Struktur", phonetic: "shtrook-toor", meaning: "structure (model theory)", gender: "die", example: { de: "Relationale Struktur.", en: "Relational structure." } },
+    { word: "die Theorie", phonetic: "tay-oh-ree", meaning: "theory (model theory)", gender: "die", example: { de: "Vollständige Theorie.", en: "Complete theory." } },
+    { word: "das Axiomensystem", phonetic: "ak-see-oh-men-züs-taym", meaning: "axiom system", gender: "das", example: { de: "Konsistentes Axiomensystem.", en: "Consistent axiom system." } },
+    { word: "der Löwenheim-Skolem-Satz", phonetic: "löh-ven-hyme-skoh-lem-zats", meaning: "Löwenheim-Skolem theorem", gender: "der", example: { de: "Abwärtiger Löwenheim-Skolem-Satz.", en: "Downward Löwenheim-Skolem theorem." } },
+    { word: "der Kompaktheitssatz", phonetic: "kom-pakt-hyts-zats", meaning: "compactness theorem", gender: "der", example: { de: "Logischer Kompaktheitssatz.", en: "Logical compactness theorem." } },
+    { word: "das Ultraprodukt", phonetic: "ool-tra-pro-dookt", meaning: "ultraproduct", gender: "das", example: { de: "Łoś-Ultraprodukt.", en: "Łoś ultraproduct." } },
+    { word: "die Elementare Äquivalenz", phonetic: "e-le-men-tah-ruh ey-kvi-va-lents", meaning: "elementary equivalence", gender: "die", example: { de: "Elementare Äquivalenz von Strukturen.", en: "Elementary equivalence of structures." } },
+    { word: "die Typenraum", phonetic: "tü-pen-rowm", meaning: "type space", gender: "der", example: { de: "Kompakter Typenraum.", en: "Compact type space." } },
+    { word: "die Stabilität", phonetic: "shtah-bi-li-tayt", meaning: "stability (model theory)", gender: "die", example: { de: "Superstabile Theorie.", en: "Superstable theory." } },
+    { word: "der Morley-Rang", phonetic: "mor-lee-rang", meaning: "Morley rank", gender: "der", example: { de: "Ordinaler Morley-Rang.", en: "Ordinal Morley rank." } },
+    { word: "die Kategoriezität", phonetic: "ka-te-go-ri-tsi-tayt", meaning: "categoricity", gender: "die", example: { de: "ω-Kategoriezität.", en: "ω-categoricity." } },
+    { word: "die Simple Theorie", phonetic: "zim-pluh tay-oh-ree", meaning: "simple theory", gender: "die", example: { de: "Hypereinfache Theorie.", en: "Hypersimple theory." } },
+    { word: "die o-Minimalität", phonetic: "oh-mi-ni-ma-li-tayt", meaning: "o-minimality", gender: "die", example: { de: "Reell abgeschlossene o-Minimalität.", en: "Real closed o-minimality." } },
+    { word: "das NIP", phonetic: "en-ee-pay", meaning: "NIP (no independence property)", gender: "das", example: { de: "Dp-Rang NIP-Theorie.", en: "Dp-rank NIP theory." } },
+    { word: "die Geordnete Körper", phonetic: "geh-ord-ne-tuh kör-per", meaning: "ordered field", gender: "der", example: { de: "Reell abgeschlossener geordneter Körper.", en: "Real closed ordered field." } },
+    { word: "die Amalgamation", phonetic: "a-mal-ga-ma-tsee-ohn", meaning: "amalgamation (model theory)", gender: "die", example: { de: "Fraïssé-Amalgamation.", en: "Fraïssé amalgamation." } },
+    { word: "die Homogene Struktur", phonetic: "ho-mo-gay-nuh shtrook-toor", meaning: "homogeneous structure", gender: "die", example: { de: "Ultrahomogene Struktur.", en: "Ultrahomogeneous structure." } },
+    { word: "das Randomisierte Turm", phonetic: "ran-do-mi-zeer-tuh toom", meaning: "randomized / generic structure", gender: "das", example: { de: "Rado-Graphen generische Struktur.", en: "Rado graph generic structure." } },
+    { word: "die Neostabilität", phonetic: "ne-oh-shtah-bi-li-tayt", meaning: "neostability", gender: "die", example: { de: "Shelah-Neostabilität.", en: "Shelah neostability." } },
+  ]}] },
+};

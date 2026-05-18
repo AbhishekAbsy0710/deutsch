@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega73: Record<string, Lesson> = {
+  "la1_m123": { id: "la1_m123", title: "Family & Relationships A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Familie", phonetic: "fa-mee-lee-uh", meaning: "family", gender: "die", example: { de: "Meine Familie.", en: "My family." } },
+    { word: "die Mutter", phonetic: "mu-ter", meaning: "mother", gender: "die", example: { de: "Meine Mutter kocht.", en: "My mother cooks." } },
+    { word: "der Vater", phonetic: "fah-ter", meaning: "father", gender: "der", example: { de: "Mein Vater arbeitet.", en: "My father works." } },
+    { word: "die Eltern", phonetic: "el-tern", meaning: "parents", example: { de: "Meine Eltern.", en: "My parents." } },
+    { word: "der Bruder", phonetic: "broo-der", meaning: "brother", gender: "der", example: { de: "Mein kleiner Bruder.", en: "My little brother." } },
+    { word: "die Schwester", phonetic: "shves-ter", meaning: "sister", gender: "die", example: { de: "Meine große Schwester.", en: "My big sister." } },
+    { word: "der Großvater", phonetic: "grohs-fah-ter", meaning: "grandfather", gender: "der", example: { de: "Mein Großvater ist alt.", en: "My grandfather is old." } },
+    { word: "die Großmutter", phonetic: "grohs-mu-ter", meaning: "grandmother", gender: "die", example: { de: "Meine Großmutter backt.", en: "My grandmother bakes." } },
+    { word: "der Onkel", phonetic: "ong-kel", meaning: "uncle", gender: "der", example: { de: "Mein Onkel besucht uns.", en: "My uncle visits us." } },
+    { word: "die Tante", phonetic: "tan-tuh", meaning: "aunt", gender: "die", example: { de: "Meine Tante wohnt nah.", en: "My aunt lives nearby." } },
+    { word: "der Cousin", phonetic: "koo-zang", meaning: "cousin (male)", gender: "der", example: { de: "Mein Cousin spielt Gitarre.", en: "My cousin plays guitar." } },
+    { word: "die Cousine", phonetic: "koo-zee-nuh", meaning: "cousin (female)", gender: "die", example: { de: "Meine Cousine studiert.", en: "My cousin studies." } },
+    { word: "das Kind", phonetic: "kint", meaning: "child", gender: "das", example: { de: "Das Kind spielt.", en: "The child plays." } },
+    { word: "der Sohn", phonetic: "zohn", meaning: "son", gender: "der", example: { de: "Ihr Sohn ist klug.", en: "Her son is clever." } },
+    { word: "die Tochter", phonetic: "tokh-ter", meaning: "daughter", gender: "die", example: { de: "Ihre Tochter tanzt.", en: "Her daughter dances." } },
+    { word: "verheiratet", phonetic: "fer-hy-ra-tet", meaning: "married", example: { de: "Seit zehn Jahren verheiratet.", en: "Married for ten years." } },
+    { word: "ledig", phonetic: "lay-dikh", meaning: "single / unmarried", example: { de: "Noch ledig sein.", en: "Still be single." } },
+    { word: "geschieden", phonetic: "geh-shee-den", meaning: "divorced", example: { de: "Seit zwei Jahren geschieden.", en: "Divorced for two years." } },
+    { word: "der Freund", phonetic: "froynt", meaning: "friend / boyfriend", gender: "der", example: { de: "Mein bester Freund.", en: "My best friend." } },
+    { word: "die Freundin", phonetic: "froyn-din", meaning: "friend / girlfriend", gender: "die", example: { de: "Meine Freundin lacht.", en: "My friend laughs." } },
+  ]}] },
+};
