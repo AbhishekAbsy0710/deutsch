@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega70: Record<string, Lesson> = {
+  "lb2_m115": { id: "lb2_m115", title: "Genetics & Evolution B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Genetik", phonetic: "ge-nay-tik", meaning: "genetics", gender: "die", example: { de: "Populationsgenetik.", en: "Population genetics." } },
+    { word: "das Gen", phonetic: "gayn", meaning: "gene", gender: "das", example: { de: "Kodierendes Gen.", en: "Coding gene." } },
+    { word: "der Genotyp", phonetic: "ge-no-tüp", meaning: "genotype", gender: "der", example: { de: "Heterozygoter Genotyp.", en: "Heterozygous genotype." } },
+    { word: "der Phänotyp", phonetic: "fay-no-tüp", meaning: "phenotype", gender: "der", example: { de: "Quantitativer Phänotyp.", en: "Quantitative phenotype." } },
+    { word: "das Allel", phonetic: "a-layl", meaning: "allele", gender: "das", example: { de: "Rezessives Allel.", en: "Recessive allele." } },
+    { word: "die Mutation", phonetic: "moo-ta-tsee-ohn", meaning: "mutation", gender: "die", example: { de: "Somatische Mutation.", en: "Somatic mutation." } },
+    { word: "die Evolution", phonetic: "e-vo-loo-tsee-ohn", meaning: "evolution", gender: "die", example: { de: "Darwinsche Evolution.", en: "Darwinian evolution." } },
+    { word: "die natürliche Selektion", phonetic: "na-tür-li-khuh ze-lek-tsee-ohn", meaning: "natural selection", example: { de: "Stabilisierende natürliche Selektion.", en: "Stabilizing natural selection." } },
+    { word: "die genetische Drift", phonetic: "ge-nay-ti-shuh drift", meaning: "genetic drift", example: { de: "Zufällige genetische Drift.", en: "Random genetic drift." } },
+    { word: "der Genfluss", phonetic: "gayn-floos", meaning: "gene flow", gender: "der", example: { de: "Migration bedingter Genfluss.", en: "Migration-induced gene flow." } },
+    { word: "die Artbildung", phonetic: "art-bil-dung", meaning: "speciation", gender: "die", example: { de: "Allopatrische Artbildung.", en: "Allopatric speciation." } },
+    { word: "der Stammbaum", phonetic: "shtam-bowm", meaning: "phylogenetic tree", gender: "der", example: { de: "Molekularer Stammbaum.", en: "Molecular phylogenetic tree." } },
+    { word: "die Homologie", phonetic: "ho-mo-lo-gee", meaning: "homology", gender: "die", example: { de: "Strukturelle Homologie.", en: "Structural homology." } },
+    { word: "das Hardy-Weinberg-Gleichgewicht", phonetic: "har-dee-vayn-berg-glykh-geh-vikht", meaning: "Hardy-Weinberg equilibrium", gender: "das", example: { de: "Panmiktisches Hardy-Weinberg-Gleichgewicht.", en: "Panmictic Hardy-Weinberg equilibrium." } },
+    { word: "das Crossing-over", phonetic: "kro-sing-oh-ver", meaning: "crossing over", gender: "das", example: { de: "Meiotisches Crossing-over.", en: "Meiotic crossing over." } },
+    { word: "die Epistase", phonetic: "e-pis-ta-zuh", meaning: "epistasis", gender: "die", example: { de: "Dominante Epistase.", en: "Dominant epistasis." } },
+    { word: "das Transposon", phonetic: "trans-po-zohn", meaning: "transposon", gender: "das", example: { de: "Springendes Transposon.", en: "Jumping transposon." } },
+    { word: "die vergleichende Genomik", phonetic: "fer-gly-khen-duh ge-noh-mik", meaning: "comparative genomics", example: { de: "Evolutionäre vergleichende Genomik.", en: "Evolutionary comparative genomics." } },
+    { word: "die Metagenomik", phonetic: "me-ta-ge-noh-mik", meaning: "metagenomics", gender: "die", example: { de: "Mikrobielle Metagenomik.", en: "Microbial metagenomics." } },
+    { word: "die Proteomik", phonetic: "pro-te-oh-mik", meaning: "proteomics", gender: "die", example: { de: "Quantitative Proteomik.", en: "Quantitative proteomics." } },
+  ]}] },
+};

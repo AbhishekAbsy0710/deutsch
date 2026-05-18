@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega72: Record<string, Lesson> = {
+  "lb1_m123": { id: "lb1_m123", title: "Politics & Democracy B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Demokratie", phonetic: "de-mo-kra-tee", meaning: "democracy", gender: "die", example: { de: "Parlamentarische Demokratie.", en: "Parliamentary democracy." } },
+    { word: "das Parlament", phonetic: "par-la-ment", meaning: "parliament", gender: "das", example: { de: "Der Bundestag als Parlament.", en: "The Bundestag as parliament." } },
+    { word: "die Regierung", phonetic: "re-gee-rung", meaning: "government", gender: "die", example: { de: "Die Bundesregierung.", en: "The federal government." } },
+    { word: "der Kanzler", phonetic: "kan-tsler", meaning: "chancellor", gender: "der", example: { de: "Der Bundeskanzler.", en: "The Federal Chancellor." } },
+    { word: "der Präsident", phonetic: "pray-zi-dent", meaning: "president", gender: "der", example: { de: "Der Bundespräsident.", en: "The Federal President." } },
+    { word: "die Partei", phonetic: "par-tye", meaning: "party (political)", gender: "die", example: { de: "Einer Partei beitreten.", en: "Join a political party." } },
+    { word: "die Wahl", phonetic: "vahl", meaning: "election", gender: "die", example: { de: "Zur Wahl gehen.", en: "Go to the election." } },
+    { word: "wählen", phonetic: "vay-len", meaning: "to vote / elect", example: { de: "Den Kandidaten wählen.", en: "Vote for the candidate." } },
+    { word: "das Wahlrecht", phonetic: "vahl-rekht", meaning: "right to vote / electoral law", gender: "das", example: { de: "Allgemeines Wahlrecht.", en: "Universal suffrage." } },
+    { word: "der Abgeordnete", phonetic: "ap-geh-ord-ne-tuh", meaning: "member of parliament", gender: "der", example: { de: "Direkt gewählter Abgeordneter.", en: "Directly elected MP." } },
+    { word: "das Grundgesetz", phonetic: "groont-geh-zets", meaning: "Basic Law (German constitution)", gender: "das", example: { de: "Das deutsche Grundgesetz.", en: "The German Basic Law." } },
+    { word: "der Föderalismus", phonetic: "fö-de-ra-lis-mus", meaning: "federalism", gender: "der", example: { de: "Kooperativer Föderalismus.", en: "Cooperative federalism." } },
+    { word: "die Opposition", phonetic: "o-po-zi-tsee-ohn", meaning: "opposition", gender: "die", example: { de: "Konstruktive Opposition.", en: "Constructive opposition." } },
+    { word: "der Koalition", phonetic: "ko-a-li-tsee-ohn", meaning: "coalition", gender: "die", example: { de: "Große Koalition.", en: "Grand coalition." } },
+    { word: "die Verfassung", phonetic: "fer-fa-sung", meaning: "constitution", gender: "die", example: { de: "Die Bundesverfassung.", en: "The federal constitution." } },
+    { word: "die Meinungsfreiheit", phonetic: "my-nungs-fry-hyte", meaning: "freedom of speech", gender: "die", example: { de: "Garantierte Meinungsfreiheit.", en: "Guaranteed freedom of speech." } },
+    { word: "der Rechtsstaat", phonetic: "rekhts-shtaht", meaning: "rule of law state", gender: "der", example: { de: "Demokratischer Rechtsstaat.", en: "Democratic rule of law state." } },
+    { word: "die Gewaltenteilung", phonetic: "geh-val-ten-ty-lung", meaning: "separation of powers", gender: "die", example: { de: "Horizontale Gewaltenteilung.", en: "Horizontal separation of powers." } },
+    { word: "das Volksbegehren", phonetic: "folks-beh-gay-ren", meaning: "referendum / citizens' initiative", gender: "das", example: { de: "Direktes Volksbegehren.", en: "Direct citizens' initiative." } },
+    { word: "die Transparenz", phonetic: "trans-pa-rents", meaning: "transparency", gender: "die", example: { de: "Politische Transparenz.", en: "Political transparency." } },
+  ]}] },
+};

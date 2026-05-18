@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega68: Record<string, Lesson> = {
+  "lc2_m111": { id: "lc2_m111", title: "Advanced Algebraic Topology C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Algebraische Topologie", phonetic: "al-ge-brah-i-shuh to-po-lo-gee", meaning: "algebraic topology", gender: "die", example: { de: "Moderne algebraische Topologie.", en: "Modern algebraic topology." } },
+    { word: "die Homotopie", phonetic: "ho-mo-to-pee", meaning: "homotopy", gender: "die", example: { de: "Stückweise lineare Homotopie.", en: "Piecewise linear homotopy." } },
+    { word: "die Fundamentalgruppe", phonetic: "foon-da-men-tahl-groo-puh", meaning: "fundamental group", gender: "die", example: { de: "Freie Fundamentalgruppe.", en: "Free fundamental group." } },
+    { word: "die Homologiegruppe", phonetic: "ho-mo-lo-gee-groo-puh", meaning: "homology group", gender: "die", example: { de: "Singuläre Homologiegruppe.", en: "Singular homology group." } },
+    { word: "die Kohomologie", phonetic: "ko-ho-mo-lo-gee", meaning: "cohomology", gender: "die", example: { de: "De-Rham-Kohomologie.", en: "de Rham cohomology." } },
+    { word: "die Exakte Sequenz", phonetic: "ek-sak-tuh ze-kvents", meaning: "exact sequence", gender: "die", example: { de: "Kurze exakte Sequenz.", en: "Short exact sequence." } },
+    { word: "das Faserprodukt", phonetic: "fah-zer-pro-dookt", meaning: "fiber bundle", gender: "der", example: { de: "Hauptfaser-Faserprodukt.", en: "Principal fiber bundle." } },
+    { word: "das Spektralsequenz", phonetic: "shpek-trahl-ze-kvents", meaning: "spectral sequence", gender: "die", example: { de: "Serre-Spektralsequenz.", en: "Serre spectral sequence." } },
+    { word: "der K-Theorie", phonetic: "kah-tay-oh-ree", meaning: "K-theory", gender: "die", example: { de: "Topologische K-Theorie.", en: "Topological K-theory." } },
+    { word: "der Cobordismus", phonetic: "ko-bor-dis-mus", meaning: "cobordism", gender: "der", example: { de: "Orientierter Cobordismus.", en: "Oriented cobordism." } },
+    { word: "die Charakteristische Klasse", phonetic: "kha-rak-te-ris-ti-shuh kla-suh", meaning: "characteristic class", gender: "die", example: { de: "Chern charakteristische Klasse.", en: "Chern characteristic class." } },
+    { word: "die Poincaré-Dualität", phonetic: "poan-ka-ray-doo-a-li-tayt", meaning: "Poincaré duality", gender: "die", example: { de: "Orientierbare Poincaré-Dualität.", en: "Orientable Poincaré duality." } },
+    { word: "die Garbentheorie", phonetic: "gar-ben-tay-oh-ree", meaning: "sheaf theory", gender: "die", example: { de: "Perverse Garbentheorie.", en: "Perverse sheaf theory." } },
+    { word: "der Simpliziale Komplex", phonetic: "zim-pli-tsee-ah-luh kom-pleks", meaning: "simplicial complex", gender: "der", example: { de: "Kombinatorischer simpliziale Komplex.", en: "Combinatorial simplicial complex." } },
+    { word: "die CW-Komplex", phonetic: "tsay-vay-kom-pleks", meaning: "CW-complex", gender: "der", example: { de: "Zellulärer CW-Komplex.", en: "Cellular CW-complex." } },
+    { word: "die Persistente Homologie", phonetic: "per-sis-ten-tuh ho-mo-lo-gee", meaning: "persistent homology", gender: "die", example: { de: "Topologische Datenanalyse persistente Homologie.", en: "Topological data analysis persistent homology." } },
+    { word: "der Mapper-Algorithmus", phonetic: "map-per-al-go-rit-mus", meaning: "Mapper algorithm", gender: "der", example: { de: "Topologischer Mapper-Algorithmus.", en: "Topological Mapper algorithm." } },
+    { word: "das Homotopie-Typ", phonetic: "ho-mo-to-pee-tüp", meaning: "homotopy type", gender: "der", example: { de: "Stabiler Homotopie-Typ.", en: "Stable homotopy type." } },
+    { word: "die Motivische Kohomologie", phonetic: "mo-tee-vi-shuh ko-ho-mo-lo-gee", meaning: "motivic cohomology", gender: "die", example: { de: "Voevodskysche motivische Kohomologie.", en: "Voevodsky motivic cohomology." } },
+    { word: "die Kategorie der Schemata", phonetic: "ka-te-go-ree-der-shay-ma-ta", meaning: "category of schemes", example: { de: "Étale Garbe Kategorie der Schemata.", en: "Étale sheaf category of schemes." } },
+  ]}] },
+};

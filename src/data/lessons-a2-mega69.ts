@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega69: Record<string, Lesson> = {
+  "la2_m114": { id: "la2_m114", title: "Food & Nutrition A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Lebensmittel", phonetic: "lay-bens-mi-tel", meaning: "food / foodstuff", gender: "das", example: { de: "Frische Lebensmittel kaufen.", en: "Buy fresh food." } },
+    { word: "das Gemüse", phonetic: "geh-mü-zuh", meaning: "vegetables", gender: "das", example: { de: "Frisches Gemüse essen.", en: "Eat fresh vegetables." } },
+    { word: "das Obst", phonetic: "ohpst", meaning: "fruit", gender: "das", example: { de: "Viel Obst essen.", en: "Eat a lot of fruit." } },
+    { word: "das Fleisch", phonetic: "flysh", meaning: "meat", gender: "das", example: { de: "Kein Fleisch essen.", en: "Eat no meat." } },
+    { word: "der Fisch", phonetic: "fish", meaning: "fish", gender: "der", example: { de: "Frischer Fisch.", en: "Fresh fish." } },
+    { word: "das Brot", phonetic: "broht", meaning: "bread", gender: "das", example: { de: "Deutsches Vollkornbrot.", en: "German wholemeal bread." } },
+    { word: "der Käse", phonetic: "kay-zuh", meaning: "cheese", gender: "der", example: { de: "Reifer Käse.", en: "Mature cheese." } },
+    { word: "die Milch", phonetic: "milkh", meaning: "milk", gender: "die", example: { de: "Frische Milch trinken.", en: "Drink fresh milk." } },
+    { word: "das Ei", phonetic: "eye", meaning: "egg", gender: "das", example: { de: "Ein gekochtes Ei.", en: "A boiled egg." } },
+    { word: "die Nudeln", phonetic: "noo-deln", meaning: "pasta / noodles", example: { de: "Nudeln mit Soße.", en: "Pasta with sauce." } },
+    { word: "der Reis", phonetic: "ryse", meaning: "rice", gender: "der", example: { de: "Gekochter Reis.", en: "Cooked rice." } },
+    { word: "die Kartoffel", phonetic: "kar-to-fel", meaning: "potato", gender: "die", example: { de: "Gekochte Kartoffeln.", en: "Boiled potatoes." } },
+    { word: "die Tomate", phonetic: "to-mah-tuh", meaning: "tomato", gender: "die", example: { de: "Rote Tomaten.", en: "Red tomatoes." } },
+    { word: "die Zwiebel", phonetic: "tsvee-bel", meaning: "onion", gender: "die", example: { de: "Gehackte Zwiebeln.", en: "Chopped onions." } },
+    { word: "der Knoblauch", phonetic: "knohp-lowkh", meaning: "garlic", gender: "der", example: { de: "Frischer Knoblauch.", en: "Fresh garlic." } },
+    { word: "das Getreide", phonetic: "geh-try-duh", meaning: "grain / cereal", gender: "das", example: { de: "Biologisches Getreide.", en: "Organic grain." } },
+    { word: "die Hülsenfrüchte", phonetic: "hül-zen-frükhte", meaning: "legumes / pulses", example: { de: "Proteinreiche Hülsenfrüchte.", en: "Protein-rich legumes." } },
+    { word: "das Protein", phonetic: "pro-te-een", meaning: "protein", gender: "das", example: { de: "Ausreichend Protein aufnehmen.", en: "Consume enough protein." } },
+    { word: "das Vitamin", phonetic: "vi-ta-meen", meaning: "vitamin", gender: "das", example: { de: "Vitamin-C-reich.", en: "Rich in vitamin C." } },
+    { word: "biologisch", phonetic: "bee-oh-lo-gish", meaning: "organic / biological", example: { de: "Biologische Produkte.", en: "Organic products." } },
+  ]}] },
+};

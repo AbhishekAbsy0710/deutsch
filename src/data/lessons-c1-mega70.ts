@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega70: Record<string, Lesson> = {
+  "lc1_m116": { id: "lc1_m116", title: "Advanced International Law C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Völkerrecht", phonetic: "föl-ker-rekht", meaning: "international law", gender: "das", example: { de: "Kodifiziertes Völkerrecht.", en: "Codified international law." } },
+    { word: "der Vertrag", phonetic: "fer-trahg", meaning: "treaty", gender: "der", example: { de: "Bilateraler Vertrag.", en: "Bilateral treaty." } },
+    { word: "die Souveränität", phonetic: "zoo-ve-ray-ni-tayt", meaning: "sovereignty", gender: "die", example: { de: "Staatliche Souveränität.", en: "State sovereignty." } },
+    { word: "die Jurisdiktion", phonetic: "yoo-ris-dik-tsee-ohn", meaning: "jurisdiction", gender: "die", example: { de: "Extraterritoriale Jurisdiktion.", en: "Extraterritorial jurisdiction." } },
+    { word: "die Diplomatische Immunität", phonetic: "di-plo-ma-ti-shuh i-moo-ni-tayt", meaning: "diplomatic immunity", example: { de: "Persönliche diplomatische Immunität.", en: "Personal diplomatic immunity." } },
+    { word: "der Internationale Gerichtshof", phonetic: "in-ter-na-tsee-oh-na-luh geh-rikhts-hohf", meaning: "International Court of Justice", gender: "der", example: { de: "Den Internationalen Gerichtshof anrufen.", en: "Invoke the International Court of Justice." } },
+    { word: "das humanitäre Völkerrecht", phonetic: "hoo-ma-ni-tay-ruh föl-ker-rekht", meaning: "international humanitarian law", gender: "das", example: { de: "Genfer humanitäres Völkerrecht.", en: "Geneva international humanitarian law." } },
+    { word: "die Staatsangehörigkeit", phonetic: "shtahts-an-geh-hö-rikh-kyte", meaning: "nationality / citizenship", gender: "die", example: { de: "Mehrfache Staatsangehörigkeit.", en: "Multiple nationality." } },
+    { word: "das Auslieferungsabkommen", phonetic: "ows-lee-fe-rungs-ap-ko-men", meaning: "extradition treaty", gender: "das", example: { de: "Bilaterales Auslieferungsabkommen.", en: "Bilateral extradition treaty." } },
+    { word: "die Immunität", phonetic: "i-moo-ni-tayt", meaning: "immunity (legal)", gender: "die", example: { de: "Staatliche Immunität.", en: "State immunity." } },
+    { word: "die Selbstbestimmung", phonetic: "zelpst-beh-shti-mung", meaning: "self-determination", gender: "die", example: { de: "Recht auf Selbstbestimmung.", en: "Right to self-determination." } },
+    { word: "das Gewohnheitsrecht", phonetic: "geh-vohn-hyts-rekht", meaning: "customary law (international)", gender: "das", example: { de: "Internationales Gewohnheitsrecht.", en: "International customary law." } },
+    { word: "der Jus cogens", phonetic: "yoos-ko-gens", meaning: "jus cogens (peremptory norms)", gender: "der", example: { de: "Zwingendes Jus cogens.", en: "Peremptory jus cogens." } },
+    { word: "die Sanktion", phonetic: "zank-tsee-ohn", meaning: "sanction", gender: "die", example: { de: "Wirtschaftliche Sanktion.", en: "Economic sanction." } },
+    { word: "das Völkerstrafrecht", phonetic: "föl-ker-shtraf-rekht", meaning: "international criminal law", gender: "das", example: { de: "Komplementäres Völkerstrafrecht.", en: "Complementary international criminal law." } },
+    { word: "der Internationale Strafgerichtshof", phonetic: "in-ter-na-tsee-oh-na-luh shtraf-geh-rikhts-hohf", meaning: "International Criminal Court", gender: "der", example: { de: "Den Internationalen Strafgerichtshof befassen.", en: "Refer to the International Criminal Court." } },
+    { word: "die Nicht-Einmischung", phonetic: "nikht-ayn-mi-shung", meaning: "non-intervention", gender: "die", example: { de: "Prinzip der Nicht-Einmischung.", en: "Principle of non-intervention." } },
+    { word: "das Schutzverantwortung", phonetic: "shoots-fer-ant-vor-tung", meaning: "responsibility to protect (R2P)", gender: "die", example: { de: "Internationale Schutzverantwortung.", en: "International responsibility to protect." } },
+    { word: "die Erga-omnes-Pflichten", phonetic: "er-ga-om-nes-pflikht-en", meaning: "erga omnes obligations", example: { de: "Erga-omnes-Pflichten aller Staaten.", en: "Erga omnes obligations of all states." } },
+    { word: "das Soft Law", phonetic: "soft-lav", meaning: "soft law", gender: "das", example: { de: "Völkerrechtliches Soft Law.", en: "International soft law." } },
+  ]}] },
+};

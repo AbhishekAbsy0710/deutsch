@@ -86,6 +86,7 @@ import { lessonsA1Mega67 } from "./lessons-a1-mega67";
 import { lessonsA1Mega68 } from "./lessons-a1-mega68";
 import { lessonsA1Mega69 } from "./lessons-a1-mega69";
 import { lessonsA1Mega70 } from "./lessons-a1-mega70";
+import { lessonsA1Mega71 } from "./lessons-a1-mega71";
 import { lessonsA1New5, lessonsA2New9 } from "./lessons-final-gaps";
 import { lessonsA1Final, lessonsA2Final } from "./lessons-final-gaps2";
 import { lessonsA2ExamSkills } from "./lessons-a2-exam";
@@ -172,6 +173,7 @@ import { lessonsA2Mega65 } from "./lessons-a2-mega65";
 import { lessonsA2Mega66 } from "./lessons-a2-mega66";
 import { lessonsA2Mega67 } from "./lessons-a2-mega67";
 import { lessonsA2Mega68 } from "./lessons-a2-mega68";
+import { lessonsA2Mega69 } from "./lessons-a2-mega69";
 import { lessonsB1 } from "./lessons-b1";
 import { lessonsB1Grammar1 } from "./lessons-b1-grammar1";
 import { lessonsB1Grammar2 } from "./lessons-b1-grammar2";
@@ -259,6 +261,7 @@ import { lessonsB1Mega68 } from "./lessons-b1-mega68";
 import { lessonsB1Mega69 } from "./lessons-b1-mega69";
 import { lessonsB1Mega70 } from "./lessons-b1-mega70";
 import { lessonsB1Mega71 } from "./lessons-b1-mega71";
+import { lessonsB1Mega72 } from "./lessons-b1-mega72";
 import { lessonsB2 } from "./lessons-b2";
 import { lessonsB2Grammar1 } from "./lessons-b2-grammar1";
 import { lessonsB2Grammar2 } from "./lessons-b2-grammar2";
@@ -343,6 +346,7 @@ import { lessonsB2Mega66 } from "./lessons-b2-mega66";
 import { lessonsB2Mega67 } from "./lessons-b2-mega67";
 import { lessonsB2Mega68 } from "./lessons-b2-mega68";
 import { lessonsB2Mega69 } from "./lessons-b2-mega69";
+import { lessonsB2Mega70 } from "./lessons-b2-mega70";
 import { lessonsC1Partikeln } from "./lessons-c1-partikeln";
 import { lessonsC1Grammar } from "./lessons-c1-grammar";
 import { lessonsC1Grammar2 } from "./lessons-c1-grammar2";
@@ -445,6 +449,7 @@ import { lessonsC1Mega66 } from "./lessons-c1-mega66";
 import { lessonsC1Mega67 } from "./lessons-c1-mega67";
 import { lessonsC1Mega68 } from "./lessons-c1-mega68";
 import { lessonsC1Mega69 } from "./lessons-c1-mega69";
+import { lessonsC1Mega70 } from "./lessons-c1-mega70";
 import { lessonsC2Mega1 } from "./lessons-c2-mega1";
 import { lessonsC2Mega2 } from "./lessons-c2-mega2";
 import { lessonsC2Mega3 } from "./lessons-c2-mega3";
@@ -512,6 +517,7 @@ import { lessonsC2Mega64 } from "./lessons-c2-mega64";
 import { lessonsC2Mega65 } from "./lessons-c2-mega65";
 import { lessonsC2Mega66 } from "./lessons-c2-mega66";
 import { lessonsC2Mega67 } from "./lessons-c2-mega67";
+import { lessonsC2Mega68 } from "./lessons-c2-mega68";
 
 export type LessonBlock = 
   | { type: "vocabulary", word: string, translation: string, example: string, audioUrl?: string, phonetic: string }
@@ -624,6 +630,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsA1Mega68,
   ...lessonsA1Mega69,
   ...lessonsA1Mega70,
+  ...lessonsA1Mega71,
   ...lessonsA2,
   ...lessonsA2New,
   ...lessonsA2New2,
@@ -710,6 +717,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsA2Mega66,
   ...lessonsA2Mega67,
   ...lessonsA2Mega68,
+  ...lessonsA2Mega69,
   ...lessonsB1,
   ...lessonsB1Grammar1,
   ...lessonsB1Grammar2,
@@ -797,6 +805,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsB1Mega69,
   ...lessonsB1Mega70,
   ...lessonsB1Mega71,
+  ...lessonsB1Mega72,
   ...lessonsB2,
   ...lessonsB2Grammar1,
   ...lessonsB2Grammar2,
@@ -882,6 +891,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsB2Mega67,
   ...lessonsB2Mega68,
   ...lessonsB2Mega69,
+  ...lessonsB2Mega70,
   ...lessonsC1Partikeln,
   ...lessonsC1Grammar,
   ...lessonsC1Grammar2,
@@ -984,6 +994,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC1Mega67,
   ...lessonsC1Mega68,
   ...lessonsC1Mega69,
+  ...lessonsC1Mega70,
   ...lessonsC2Mega1,
   ...lessonsC2Mega2,
   ...lessonsC2Mega3,
@@ -1051,4 +1062,5 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC2Mega65,
   ...lessonsC2Mega66,
   ...lessonsC2Mega67,
+  ...lessonsC2Mega68,
 };
