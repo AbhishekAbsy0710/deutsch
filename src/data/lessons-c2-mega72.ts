@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega72: Record<string, Lesson> = {
+  "lc2_m115": { id: "lc2_m115", title: "Advanced Logic & Proof Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die mathematische Logik", phonetic: "ma-te-mah-ti-shuh lo-gik", meaning: "mathematical logic", gender: "die", example: { de: "Klassische mathematische Logik.", en: "Classical mathematical logic." } },
+    { word: "die Beweistheorie", phonetic: "beh-vyze-tay-oh-ree", meaning: "proof theory", gender: "die", example: { de: "Strukturalistische Beweistheorie.", en: "Structuralist proof theory." } },
+    { word: "der Kalkül", phonetic: "kal-kül", meaning: "calculus / formal system", gender: "der", example: { de: "Natürlicher Deduktionskalkül.", en: "Natural deduction calculus." } },
+    { word: "die Sequenzenkalkül", phonetic: "ze-kven-tsen-kal-kül", meaning: "sequent calculus", gender: "der", example: { de: "Gentzenscher Sequenzenkalkül.", en: "Gentzen sequent calculus." } },
+    { word: "der Gödelsche Vollständigkeitssatz", phonetic: "göh-del-shuh fol-shten-dikh-kyts-zats", meaning: "Gödel's completeness theorem", gender: "der", example: { de: "Prädikatenlogik Gödelsche Vollständigkeitssatz.", en: "Predicate logic Gödel completeness theorem." } },
+    { word: "der Gödelsche Unvollständigkeitssatz", phonetic: "göh-del-shuh oon-fol-shten-dikh-kyts-zats", meaning: "Gödel's incompleteness theorem", gender: "der", example: { de: "Erster Gödelsche Unvollständigkeitssatz.", en: "First Gödel incompleteness theorem." } },
+    { word: "die Berechenbarkeit", phonetic: "beh-rekh-en-bar-kyte", meaning: "computability", gender: "die", example: { de: "Turing-Berechenbarkeit.", en: "Turing computability." } },
+    { word: "die Church-Turing-These", phonetic: "tshürtsh-tyoo-ring-tay-zuh", meaning: "Church-Turing thesis", gender: "die", example: { de: "Informelle Church-Turing-These.", en: "Informal Church-Turing thesis." } },
+    { word: "das Halteproblem", phonetic: "hal-tuh-pro-blaym", meaning: "halting problem", gender: "das", example: { de: "Unentscheidbares Halteproblem.", en: "Undecidable halting problem." } },
+    { word: "die Komplexitätstheorie", phonetic: "kom-plek-si-tayts-tay-oh-ree", meaning: "complexity theory", gender: "die", example: { de: "Berechnungskomplexitätstheorie.", en: "Computational complexity theory." } },
+    { word: "die P-NP-Frage", phonetic: "pay-en-pay-frah-guh", meaning: "P vs NP problem", gender: "die", example: { de: "Millennium-P-NP-Frage.", en: "Millennium P vs NP problem." } },
+    { word: "die intuitionistische Logik", phonetic: "in-too-i-tsee-oh-nis-ti-shuh lo-gik", meaning: "intuitionistic logic", gender: "die", example: { de: "Brouwer-Heyting intuitionistische Logik.", en: "Brouwer-Heyting intuitionistic logic." } },
+    { word: "die Lineare Logik", phonetic: "li-ne-ah-ruh lo-gik", meaning: "linear logic", gender: "die", example: { de: "Girard-Lineare Logik.", en: "Girard linear logic." } },
+    { word: "die Modallogik", phonetic: "mo-dahl-lo-gik", meaning: "modal logic", gender: "die", example: { de: "Kripke-Semantik Modallogik.", en: "Kripke semantics modal logic." } },
+    { word: "die Curry-Howard-Korrespondenz", phonetic: "ku-ree-ho-vard-ko-re-spon-dents", meaning: "Curry-Howard correspondence", gender: "die", example: { de: "Propositions-as-Types Curry-Howard-Korrespondenz.", en: "Propositions-as-types Curry-Howard correspondence." } },
+    { word: "der Ordinalzahlanalysis", phonetic: "or-di-nahl-tsahl-a-na-lü-sis", meaning: "ordinal analysis (proof theory)", gender: "die", example: { de: "Gentzensche Ordinalzahlanalysis.", en: "Gentzen ordinal analysis." } },
+    { word: "die Umkehrbar Mathematik", phonetic: "oom-kayr-bar-ma-te-mah-tik", meaning: "reverse mathematics", gender: "die", example: { de: "Friedman-Simpson Umkehrbar Mathematik.", en: "Friedman-Simpson reverse mathematics." } },
+    { word: "das Ramsey-Theorie", phonetic: "ram-zee-tay-oh-ree", meaning: "Ramsey theory", gender: "die", example: { de: "Kombinatorische Ramsey-Theorie.", en: "Combinatorial Ramsey theory." } },
+    { word: "die Beweiskomplexität", phonetic: "beh-vyze-kom-plek-si-tayt", meaning: "proof complexity", gender: "die", example: { de: "Untere Schranken Beweiskomplexität.", en: "Lower bounds proof complexity." } },
+    { word: "die Konstruktive Mathematik", phonetic: "kon-strook-tee-vuh ma-te-mah-tik", meaning: "constructive mathematics", gender: "die", example: { de: "Bishop-Konstruktive Mathematik.", en: "Bishop constructive mathematics." } },
+  ]}] },
+};

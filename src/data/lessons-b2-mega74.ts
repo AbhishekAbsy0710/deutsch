@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega74: Record<string, Lesson> = {
+  "lb2_m119": { id: "lb2_m119", title: "Astrophysics & Cosmology B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Astrophysik", phonetic: "as-tro-fü-zeek", meaning: "astrophysics", gender: "die", example: { de: "Beobachtende Astrophysik.", en: "Observational astrophysics." } },
+    { word: "die Kosmologie", phonetic: "kos-mo-lo-gee", meaning: "cosmology", gender: "die", example: { de: "Physikalische Kosmologie.", en: "Physical cosmology." } },
+    { word: "der Urknall", phonetic: "oor-knal", meaning: "Big Bang", gender: "der", example: { de: "Standardmodell des Urknalls.", en: "Standard model of the Big Bang." } },
+    { word: "die kosmische Inflation", phonetic: "kos-mi-shuh in-fla-tsee-ohn", meaning: "cosmic inflation", gender: "die", example: { de: "Chaotische kosmische Inflation.", en: "Chaotic cosmic inflation." } },
+    { word: "die Dunkle Materie", phonetic: "doon-kluh ma-te-ree-uh", meaning: "dark matter", gender: "die", example: { de: "Kalte dunkle Materie.", en: "Cold dark matter." } },
+    { word: "die Dunkle Energie", phonetic: "doon-kluh e-ner-gee", meaning: "dark energy", gender: "die", example: { de: "Kosmologische dunkle Energie.", en: "Cosmological dark energy." } },
+    { word: "das Schwarze Loch", phonetic: "shvar-tsuh lokh", meaning: "black hole", gender: "das", example: { de: "Supermassereiches schwarzes Loch.", en: "Supermassive black hole." } },
+    { word: "die Hawking-Strahlung", phonetic: "ho-king-shtrah-lung", meaning: "Hawking radiation", gender: "die", example: { de: "Thermische Hawking-Strahlung.", en: "Thermal Hawking radiation." } },
+    { word: "der Neutronenstern", phonetic: "noy-tro-nen-shtern", meaning: "neutron star", gender: "der", example: { de: "Rotierender Neutronenstern.", en: "Rotating neutron star." } },
+    { word: "der Pulsar", phonetic: "pool-zar", meaning: "pulsar", gender: "der", example: { de: "Millisekunden-Pulsar.", en: "Millisecond pulsar." } },
+    { word: "die Gravitationswelle", phonetic: "gra-vi-ta-tsee-ohns-ve-luh", meaning: "gravitational wave", gender: "die", example: { de: "LIGO-Gravitationswelle.", en: "LIGO gravitational wave." } },
+    { word: "das Ereignishorizont", phonetic: "er-eye-gnis-ho-ri-tsont", meaning: "event horizon", gender: "der", example: { de: "Schwarzschild-Ereignishorizont.", en: "Schwarzschild event horizon." } },
+    { word: "die kosmische Mikrowellenhintergrundstrahlung", phonetic: "kos-mi-shuh mi-kro-ve-len-hin-ter-groont-shtrah-lung", meaning: "cosmic microwave background", gender: "die", example: { de: "Temperaturfluktuationen der CMB.", en: "CMB temperature fluctuations." } },
+    { word: "die Rotverschiebung", phonetic: "roht-fer-shee-bung", meaning: "redshift", gender: "die", example: { de: "Kosmologische Rotverschiebung.", en: "Cosmological redshift." } },
+    { word: "die Hubble-Konstante", phonetic: "ha-bel-kon-stan-tuh", meaning: "Hubble constant", gender: "die", example: { de: "Gemessene Hubble-Konstante.", en: "Measured Hubble constant." } },
+    { word: "die Standardkerze", phonetic: "shtan-dart-kerts-uh", meaning: "standard candle", gender: "die", example: { de: "Supernovae als Standardkerzen.", en: "Supernovae as standard candles." } },
+    { word: "der Gravitationslinseneffekt", phonetic: "gra-vi-ta-tsee-ohns-lin-zen-e-fekt", meaning: "gravitational lensing", gender: "der", example: { de: "Starker Gravitationslinseneffekt.", en: "Strong gravitational lensing." } },
+    { word: "die Baryon", phonetic: "ba-ree-on", meaning: "baryon", gender: "das", example: { de: "Baryonische Materie.", en: "Baryonic matter." } },
+    { word: "die Quantengravitation", phonetic: "kvan-ten-gra-vi-ta-tsee-ohn", meaning: "quantum gravity", gender: "die", example: { de: "Schleifenquantengravitation.", en: "Loop quantum gravity." } },
+    { word: "das Multiversum", phonetic: "mool-ti-ver-zoom", meaning: "multiverse", gender: "das", example: { de: "Ewige Inflation Multiversum.", en: "Eternal inflation multiverse." } },
+  ]}] },
+};

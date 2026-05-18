@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega74: Record<string, Lesson> = {
+  "lc1_m120": { id: "lc1_m120", title: "Advanced Clinical Psychology C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die klinische Psychologie", phonetic: "kli-ni-shuh psü-kho-lo-gee", meaning: "clinical psychology", gender: "die", example: { de: "Evidenzbasierte klinische Psychologie.", en: "Evidence-based clinical psychology." } },
+    { word: "die Psychopathologie", phonetic: "psü-kho-pa-to-lo-gee", meaning: "psychopathology", gender: "die", example: { de: "Dimensionale Psychopathologie.", en: "Dimensional psychopathology." } },
+    { word: "das DSM", phonetic: "day-es-em", meaning: "DSM (Diagnostic and Statistical Manual)", gender: "das", example: { de: "DSM-5-Diagnosekriterien.", en: "DSM-5 diagnostic criteria." } },
+    { word: "die Kognitive Verhaltenstherapie", phonetic: "kog-ni-tee-vuh fer-hal-tens-tay-ra-pee", meaning: "cognitive behavioural therapy (CBT)", gender: "die", example: { de: "Manualbasierte kognitive Verhaltenstherapie.", en: "Manualised cognitive behavioural therapy." } },
+    { word: "die Dialektisch-Behaviorale Therapie", phonetic: "dia-lek-tish-be-hay-vyo-rah-luh tay-ra-pee", meaning: "dialectical behaviour therapy (DBT)", gender: "die", example: { de: "Linehan-Dialektisch-Behaviorale Therapie.", en: "Linehan dialectical behaviour therapy." } },
+    { word: "die Schematherapie", phonetic: "shay-ma-tay-ra-pee", meaning: "schema therapy", gender: "die", example: { de: "Maladaptive Schemata-Schematherapie.", en: "Maladaptive schemas schema therapy." } },
+    { word: "das Trauma", phonetic: "trow-ma", meaning: "trauma", gender: "das", example: { de: "Komplexes Trauma.", en: "Complex trauma." } },
+    { word: "die EMDR", phonetic: "ay-em-day-er", meaning: "EMDR (eye movement desensitization and reprocessing)", gender: "die", example: { de: "Traumafokussierte EMDR.", en: "Trauma-focused EMDR." } },
+    { word: "die Persönlichkeitsstörung", phonetic: "per-zöhn-likh-kyts-shtö-rung", meaning: "personality disorder", gender: "die", example: { de: "Borderline-Persönlichkeitsstörung.", en: "Borderline personality disorder." } },
+    { word: "die Zwangsstörung", phonetic: "tsvangs-shtö-rung", meaning: "obsessive-compulsive disorder (OCD)", gender: "die", example: { de: "Behandlungsresistente Zwangsstörung.", en: "Treatment-resistant OCD." } },
+    { word: "die Biopsychosoziales Modell", phonetic: "bee-oh-psü-kho-zo-tsee-ah-les mo-del", meaning: "biopsychosocial model", gender: "das", example: { de: "Engel-Biopsychosoziales Modell.", en: "Engel biopsychosocial model." } },
+    { word: "die Neurobiologie", phonetic: "noy-ro-bee-oh-lo-gee", meaning: "neurobiology (of disorders)", gender: "die", example: { de: "Psychische Störungen Neurobiologie.", en: "Mental disorders neurobiology." } },
+    { word: "das Expositionsverfahren", phonetic: "ek-spo-zi-tsee-ohns-fer-fah-ren", meaning: "exposure therapy", gender: "das", example: { de: "Graduiertes Expositionsverfahren.", en: "Graduated exposure therapy." } },
+    { word: "die Resilienz", phonetic: "re-zi-lee-ents", meaning: "resilience (psychological)", gender: "die", example: { de: "Psychologische Resilienz fördern.", en: "Promote psychological resilience." } },
+    { word: "die Achtsamkeit", phonetic: "akht-zam-kyte", meaning: "mindfulness", gender: "die", example: { de: "Achtsamkeitsbasierte Reduktion.", en: "Mindfulness-based reduction." } },
+    { word: "die Sucht", phonetic: "zookht", meaning: "addiction", gender: "die", example: { de: "Substanzabhängige Sucht.", en: "Substance-dependent addiction." } },
+    { word: "die Motivierende Gesprächsführung", phonetic: "mo-ti-vee-ren-duh geh-shpreysh-fü-rung", meaning: "motivational interviewing", gender: "die", example: { de: "Miller-Rollnick-Motivierende Gesprächsführung.", en: "Miller-Rollnick motivational interviewing." } },
+    { word: "die Psychoeduktion", phonetic: "psü-kho-e-doo-ka-tsee-ohn", meaning: "psychoeducation", gender: "die", example: { de: "Strukturierte Psychoeduktion.", en: "Structured psychoeducation." } },
+    { word: "die Verhaltensanalyse", phonetic: "fer-hal-tens-a-na-lü-zuh", meaning: "functional / behavioural analysis", gender: "die", example: { de: "Funktionale Verhaltensanalyse.", en: "Functional behavioural analysis." } },
+    { word: "die Psychotherapieforschung", phonetic: "psü-kho-tay-ra-pee-for-shung", meaning: "psychotherapy research", gender: "die", example: { de: "Evidenzbasierte Psychotherapieforschung.", en: "Evidence-based psychotherapy research." } },
+  ]}] },
+};

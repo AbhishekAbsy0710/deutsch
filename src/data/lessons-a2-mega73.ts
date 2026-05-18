@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega73: Record<string, Lesson> = {
+  "la2_m118": { id: "la2_m118", title: "Communication & Media A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Kommunikation", phonetic: "ko-moo-ni-ka-tsee-ohn", meaning: "communication", gender: "die", example: { de: "Effektive Kommunikation.", en: "Effective communication." } },
+    { word: "das Telefon", phonetic: "te-le-fohn", meaning: "telephone", gender: "das", example: { de: "Das Telefon klingelt.", en: "The telephone rings." } },
+    { word: "anrufen", phonetic: "an-roo-fen", meaning: "to call / phone", example: { de: "Jemanden anrufen.", en: "Call someone." } },
+    { word: "die E-Mail", phonetic: "ee-mayl", meaning: "email", gender: "die", example: { de: "Eine E-Mail schicken.", en: "Send an email." } },
+    { word: "die Nachricht", phonetic: "nakh-rikht", meaning: "message / news", gender: "die", example: { de: "Eine Nachricht hinterlassen.", en: "Leave a message." } },
+    { word: "schreiben", phonetic: "shry-ben", meaning: "to write", example: { de: "Einen Brief schreiben.", en: "Write a letter." } },
+    { word: "der Brief", phonetic: "breef", meaning: "letter", gender: "der", example: { de: "Einen Brief versenden.", en: "Send a letter." } },
+    { word: "die Zeitung", phonetic: "tsy-tung", meaning: "newspaper", gender: "die", example: { de: "Die Zeitung lesen.", en: "Read the newspaper." } },
+    { word: "die Zeitschrift", phonetic: "tsyte-shrift", meaning: "magazine / journal", gender: "die", example: { de: "Eine Zeitschrift abonnieren.", en: "Subscribe to a magazine." } },
+    { word: "das Radio", phonetic: "rah-dee-oh", meaning: "radio", gender: "das", example: { de: "Radio hören.", en: "Listen to the radio." } },
+    { word: "das Fernsehen", phonetic: "fern-zay-en", meaning: "television", gender: "das", example: { de: "Fernsehen schauen.", en: "Watch television." } },
+    { word: "soziale Medien", phonetic: "zo-tsee-ah-luh may-dee-en", meaning: "social media", example: { de: "Soziale Medien nutzen.", en: "Use social media." } },
+    { word: "die Werbung", phonetic: "ver-bung", meaning: "advertising / advert", gender: "die", example: { de: "Zu viel Werbung.", en: "Too much advertising." } },
+    { word: "der Journalist", phonetic: "zhoor-na-list", meaning: "journalist", gender: "der", example: { de: "Ein investigativer Journalist.", en: "An investigative journalist." } },
+    { word: "die Sendung", phonetic: "zen-dung", meaning: "broadcast / programme", gender: "die", example: { de: "Eine interessante Sendung.", en: "An interesting programme." } },
+    { word: "die Internetseite", phonetic: "in-ter-net-zy-tuh", meaning: "website", gender: "die", example: { de: "Eine Internetseite besuchen.", en: "Visit a website." } },
+    { word: "hochladen", phonetic: "hohkh-lah-den", meaning: "to upload", example: { de: "Ein Foto hochladen.", en: "Upload a photo." } },
+    { word: "herunterladen", phonetic: "he-roon-ter-lah-den", meaning: "to download", example: { de: "Eine Datei herunterladen.", en: "Download a file." } },
+    { word: "das Passwort", phonetic: "pas-vort", meaning: "password", gender: "das", example: { de: "Das Passwort vergessen.", en: "Forget the password." } },
+    { word: "der Kommentar", phonetic: "ko-men-tar", meaning: "comment", gender: "der", example: { de: "Einen Kommentar schreiben.", en: "Write a comment." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega75: Record<string, Lesson> = {
+  "la1_m125": { id: "la1_m125", title: "Numbers & Counting A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Zahl", phonetic: "tsahl", meaning: "number", gender: "die", example: { de: "Eine große Zahl.", en: "A large number." } },
+    { word: "zählen", phonetic: "tsay-len", meaning: "to count", example: { de: "Bis zehn zählen.", en: "Count to ten." } },
+    { word: "eins", phonetic: "ayns", meaning: "one", example: { de: "Nur eins.", en: "Only one." } },
+    { word: "zwei", phonetic: "tsvy", meaning: "two", example: { de: "Zwei Personen.", en: "Two people." } },
+    { word: "drei", phonetic: "dry", meaning: "three", example: { de: "Drei Tage.", en: "Three days." } },
+    { word: "vier", phonetic: "feer", meaning: "four", example: { de: "Vier Stühle.", en: "Four chairs." } },
+    { word: "fünf", phonetic: "fünf", meaning: "five", example: { de: "Fünf Euro.", en: "Five euros." } },
+    { word: "sechs", phonetic: "zeks", meaning: "six", example: { de: "Sechs Äpfel.", en: "Six apples." } },
+    { word: "sieben", phonetic: "zee-ben", meaning: "seven", example: { de: "Sieben Tage.", en: "Seven days." } },
+    { word: "acht", phonetic: "akht", meaning: "eight", example: { de: "Acht Stunden.", en: "Eight hours." } },
+    { word: "neun", phonetic: "noyn", meaning: "nine", example: { de: "Neun Monate.", en: "Nine months." } },
+    { word: "zehn", phonetic: "tsayn", meaning: "ten", example: { de: "Zehn Minuten.", en: "Ten minutes." } },
+    { word: "zwanzig", phonetic: "tsvan-tsikh", meaning: "twenty", example: { de: "Zwanzig Grad.", en: "Twenty degrees." } },
+    { word: "dreißig", phonetic: "dry-sikh", meaning: "thirty", example: { de: "Dreißig Sekunden.", en: "Thirty seconds." } },
+    { word: "hundert", phonetic: "hoon-dert", meaning: "hundred", example: { de: "Einhundert Euro.", en: "One hundred euros." } },
+    { word: "tausend", phonetic: "tow-zent", meaning: "thousand", example: { de: "Tausend Kilometer.", en: "A thousand kilometres." } },
+    { word: "die Million", phonetic: "mi-lee-ohn", meaning: "million", gender: "die", example: { de: "Eine Million Menschen.", en: "One million people." } },
+    { word: "halb", phonetic: "halp", meaning: "half", example: { de: "Eine halbe Stunde.", en: "Half an hour." } },
+    { word: "das Prozent", phonetic: "pro-tsent", meaning: "percent", gender: "das", example: { de: "Zehn Prozent.", en: "Ten percent." } },
+    { word: "das Doppelte", phonetic: "do-pel-tuh", meaning: "double / twice as much", gender: "das", example: { de: "Das Doppelte zahlen.", en: "Pay double." } },
+  ]}] },
+};

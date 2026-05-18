@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega76: Record<string, Lesson> = {
+  "lb1_m127": { id: "lb1_m127", title: "Housing & Real Estate B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Immobilie", phonetic: "i-mo-bi-lee-uh", meaning: "property / real estate", gender: "die", example: { de: "Eine Immobilie kaufen.", en: "Buy a property." } },
+    { word: "der Makler", phonetic: "mak-ler", meaning: "estate agent", gender: "der", example: { de: "Einen Makler beauftragen.", en: "Hire an estate agent." } },
+    { word: "der Kaufpreis", phonetic: "kowf-pryce", meaning: "purchase price", gender: "der", example: { de: "Den Kaufpreis verhandeln.", en: "Negotiate the purchase price." } },
+    { word: "die Grunderwerbsteuer", phonetic: "groont-er-verp-shtoy-er", meaning: "property transfer tax", gender: "die", example: { de: "Grunderwerbsteuer zahlen.", en: "Pay property transfer tax." } },
+    { word: "das Eigenkapital", phonetic: "eye-gen-ka-pi-tahl", meaning: "equity / own capital", gender: "das", example: { de: "Ausreichend Eigenkapital.", en: "Sufficient equity." } },
+    { word: "die Baugenehmigung", phonetic: "bow-geh-nay-mi-gung", meaning: "building permit", gender: "die", example: { de: "Eine Baugenehmigung beantragen.", en: "Apply for a building permit." } },
+    { word: "der Bebauungsplan", phonetic: "beh-bow-ungs-plahn", meaning: "development plan / zoning plan", gender: "der", example: { de: "Den Bebauungsplan einsehen.", en: "Look at the development plan." } },
+    { word: "die Wohnfläche", phonetic: "vohn-fley-khuh", meaning: "living space / floor area", gender: "die", example: { de: "Hundert Quadratmeter Wohnfläche.", en: "One hundred square metres of living space." } },
+    { word: "der Grundriss", phonetic: "groont-ris", meaning: "floor plan", gender: "der", example: { de: "Den Grundriss ansehen.", en: "Look at the floor plan." } },
+    { word: "die Nebenkosten", phonetic: "nay-ben-kos-ten", meaning: "additional costs (purchase)", example: { de: "Kaufnebenkosten berechnen.", en: "Calculate additional purchase costs." } },
+    { word: "die Instandhaltung", phonetic: "in-shtant-hal-tung", meaning: "maintenance", gender: "die", example: { de: "Regelmäßige Instandhaltung.", en: "Regular maintenance." } },
+    { word: "der Energieausweis", phonetic: "e-ner-gee-ows-vyce", meaning: "energy certificate", gender: "der", example: { de: "Pflichtiger Energieausweis.", en: "Mandatory energy certificate." } },
+    { word: "die Wohnungseigentümergemeinschaft", phonetic: "voh-nungs-eye-gen-tü-mer-geh-myn-shaft", meaning: "homeowners association", gender: "die", example: { de: "WEG-Beschluss.", en: "Homeowners association resolution." } },
+    { word: "der Hausgeld", phonetic: "hows-gelt", meaning: "maintenance fee / service charge", gender: "das", example: { de: "Monatliches Hausgeld.", en: "Monthly service charge." } },
+    { word: "sanieren", phonetic: "za-nee-ren", meaning: "to renovate / refurbish", example: { de: "Das Haus sanieren.", en: "Renovate the house." } },
+    { word: "die Dämmung", phonetic: "de-mung", meaning: "insulation", gender: "die", example: { de: "Wärmedämmung verbessern.", en: "Improve thermal insulation." } },
+    { word: "die Zwangsversteigerung", phonetic: "tsvangs-fer-shty-ge-rung", meaning: "foreclosure / forced auction", gender: "die", example: { de: "Zwangsversteigerung verhindern.", en: "Prevent foreclosure." } },
+    { word: "die Mietrendite", phonetic: "meet-ren-dee-tuh", meaning: "rental yield", gender: "die", example: { de: "Nettomietrendite berechnen.", en: "Calculate net rental yield." } },
+    { word: "das Erbbaurecht", phonetic: "erp-bow-rekht", meaning: "ground lease / leasehold right", gender: "das", example: { de: "Langfristiges Erbbaurecht.", en: "Long-term ground lease." } },
+    { word: "die Teilungserklärung", phonetic: "ty-lungs-er-kley-rung", meaning: "declaration of division (condominiums)", gender: "die", example: { de: "Notarielle Teilungserklärung.", en: "Notarial declaration of division." } },
+  ]}] },
+};
