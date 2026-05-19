@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega94: Record<string, Lesson> = {
+  "la2_m139": { id: "la2_m139", title: "Emotions & Feelings A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Gefühl", phonetic: "geh-fühl", meaning: "feeling / emotion", gender: "das", example: { de: "Ein starkes Gefühl.", en: "A strong feeling." } },
+    { word: "glücklich", phonetic: "glük-likh", meaning: "happy", example: { de: "Ich bin glücklich.", en: "I am happy." } },
+    { word: "traurig", phonetic: "trow-rikh", meaning: "sad", example: { de: "Ich bin traurig.", en: "I am sad." } },
+    { word: "wütend", phonetic: "vü-tent", meaning: "angry", example: { de: "Ich bin wütend.", en: "I am angry." } },
+    { word: "ängstlich", phonetic: "engst-likh", meaning: "anxious / scared", example: { de: "Ich bin ängstlich.", en: "I am anxious." } },
+    { word: "überrascht", phonetic: "ü-ber-rasht", meaning: "surprised", example: { de: "Ich bin überrascht.", en: "I am surprised." } },
+    { word: "müde", phonetic: "mü-duh", meaning: "tired", example: { de: "Ich bin sehr müde.", en: "I am very tired." } },
+    { word: "aufgeregt", phonetic: "owf-geh-regt", meaning: "excited / nervous", example: { de: "Ich bin aufgeregt.", en: "I am excited." } },
+    { word: "stolz", phonetic: "shtolts", meaning: "proud", example: { de: "Ich bin stolz auf dich.", en: "I am proud of you." } },
+    { word: "zufrieden", phonetic: "tsoo-free-den", meaning: "satisfied / content", example: { de: "Ich bin zufrieden.", en: "I am satisfied." } },
+    { word: "einsam", phonetic: "ayn-zahm", meaning: "lonely", example: { de: "Ich fühle mich einsam.", en: "I feel lonely." } },
+    { word: "nervös", phonetic: "ner-vös", meaning: "nervous", example: { de: "Ich bin nervös.", en: "I am nervous." } },
+    { word: "entspannt", phonetic: "ent-shpant", meaning: "relaxed", example: { de: "Ich bin entspannt.", en: "I am relaxed." } },
+    { word: "verliebt", phonetic: "fer-leept", meaning: "in love", example: { de: "Ich bin verliebt.", en: "I am in love." } },
+    { word: "enttäuscht", phonetic: "ent-toysht", meaning: "disappointed", example: { de: "Ich bin enttäuscht.", en: "I am disappointed." } },
+    { word: "eifersüchtig", phonetic: "ay-fer-züch-tikh", meaning: "jealous", example: { de: "Ich bin eifersüchtig.", en: "I am jealous." } },
+    { word: "dankbar", phonetic: "dank-bar", meaning: "grateful / thankful", example: { de: "Ich bin dankbar.", en: "I am grateful." } },
+    { word: "frustriert", phonetic: "froos-triert", meaning: "frustrated", example: { de: "Ich bin frustriert.", en: "I am frustrated." } },
+    { word: "gelangweilt", phonetic: "geh-lang-vylt", meaning: "bored", example: { de: "Ich bin gelangweilt.", en: "I am bored." } },
+    { word: "sich wohl fühlen", phonetic: "zikh-vohl-fü-len", meaning: "to feel well / comfortable", example: { de: "Ich fühle mich wohl.", en: "I feel well." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega96: Record<string, Lesson> = {
+  "lb1_m147": { id: "lb1_m147", title: "History & Politics B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Geschichte", phonetic: "geh-shikh-tuh", meaning: "history", gender: "die", example: { de: "Deutsche Geschichte.", en: "German history." } },
+    { word: "das Ereignis", phonetic: "er-ayg-nis", meaning: "event / occurrence", gender: "das", example: { de: "Historisches Ereignis.", en: "Historical event." } },
+    { word: "die Revolution", phonetic: "re-vo-loo-tsee-ohn", meaning: "revolution", gender: "die", example: { de: "Industrielle Revolution.", en: "Industrial revolution." } },
+    { word: "der Krieg", phonetic: "kreeg", meaning: "war", gender: "der", example: { de: "Der Zweite Weltkrieg.", en: "The Second World War." } },
+    { word: "der Frieden", phonetic: "free-den", meaning: "peace", gender: "der", example: { de: "Den Frieden sichern.", en: "Secure the peace." } },
+    { word: "die Demokratie", phonetic: "de-mo-kra-tee", meaning: "democracy", gender: "die", example: { de: "Parlamentarische Demokratie.", en: "Parliamentary democracy." } },
+    { word: "die Diktatur", phonetic: "dik-ta-toor", meaning: "dictatorship", gender: "die", example: { de: "Militärische Diktatur.", en: "Military dictatorship." } },
+    { word: "die Regierung", phonetic: "re-gee-rung", meaning: "government", gender: "die", example: { de: "Die Bundesregierung.", en: "The federal government." } },
+    { word: "das Parlament", phonetic: "par-la-ment", meaning: "parliament", gender: "das", example: { de: "Im Parlament abstimmen.", en: "Vote in parliament." } },
+    { word: "die Wahl", phonetic: "vahl", meaning: "election", gender: "die", example: { de: "Freie und faire Wahl.", en: "Free and fair election." } },
+    { word: "wählen", phonetic: "vey-len", meaning: "to vote / elect", example: { de: "Den Kanzler wählen.", en: "Elect the chancellor." } },
+    { word: "die Partei", phonetic: "par-tye", meaning: "political party", gender: "die", example: { de: "Einer Partei beitreten.", en: "Join a political party." } },
+    { word: "der Bundestag", phonetic: "boon-des-tahk", meaning: "Bundestag (German parliament)", gender: "der", example: { de: "Im Bundestag.", en: "In the Bundestag." } },
+    { word: "der Bundeskanzler", phonetic: "boon-des-kants-ler", meaning: "Federal Chancellor", gender: "der", example: { de: "Der Bundeskanzler spricht.", en: "The Federal Chancellor speaks." } },
+    { word: "die EU", phonetic: "ay-oo", meaning: "EU (European Union)", gender: "die", example: { de: "Mitglied der EU.", en: "Member of the EU." } },
+    { word: "die Menschenrechte", phonetic: "men-shen-rekh-tuh", meaning: "human rights", example: { de: "Menschenrechte verteidigen.", en: "Defend human rights." } },
+    { word: "das Grundgesetz", phonetic: "groont-geh-zets", meaning: "Basic Law (German constitution)", gender: "das", example: { de: "Das deutsche Grundgesetz.", en: "The German Basic Law." } },
+    { word: "der Nationalismus", phonetic: "na-tsee-oh-na-lis-mus", meaning: "nationalism", gender: "der", example: { de: "Aufstieg des Nationalismus.", en: "Rise of nationalism." } },
+    { word: "die Globalisierung", phonetic: "glo-ba-li-zee-rung", meaning: "globalisation", gender: "die", example: { de: "Wirtschaftliche Globalisierung.", en: "Economic globalisation." } },
+    { word: "die Opposition", phonetic: "o-po-zi-tsee-ohn", meaning: "opposition (politics)", gender: "die", example: { de: "Die parlamentarische Opposition.", en: "The parliamentary opposition." } },
+  ]}] },
+};

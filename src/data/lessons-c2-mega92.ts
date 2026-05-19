@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega92: Record<string, Lesson> = {
+  "lc2_m135": { id: "lc2_m135", title: "Advanced Set Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Mengenlehre", phonetic: "men-gen-lay-ruh", meaning: "set theory", gender: "die", example: { de: "Axiomatische Mengenlehre.", en: "Axiomatic set theory." } },
+    { word: "die ZFC-Axiome", phonetic: "tset-ef-tsay-ak-si-oh-muh", meaning: "ZFC axioms (Zermelo-Fraenkel + Choice)", example: { de: "Standardmengenlehre ZFC-Axiome.", en: "Standard set theory ZFC axioms." } },
+    { word: "das Auswahlaxiom", phonetic: "ows-vahl-ak-si-ohm", meaning: "axiom of choice (AC)", gender: "das", example: { de: "Umstrittenes Auswahlaxiom.", en: "Controversial axiom of choice." } },
+    { word: "das Kontinuumsproblem", phonetic: "kon-ti-noo-ums-pro-blaym", meaning: "continuum problem / hypothesis", gender: "das", example: { de: "Cantors Kontinuumsproblem.", en: "Cantor's continuum problem." } },
+    { word: "die Kontinuumshypothese", phonetic: "kon-ti-noo-ums-hü-po-tay-zuh", meaning: "continuum hypothesis (CH)", gender: "die", example: { de: "Unabhängige Kontinuumshypothese.", en: "Independent continuum hypothesis." } },
+    { word: "das Forcing (Cohen)", phonetic: "for-sing", meaning: "forcing (Cohen)", gender: "das", example: { de: "Cohens Forcing-Methode.", en: "Cohen's forcing method." } },
+    { word: "das Gödelsches Konstruktum (L)", phonetic: "gö-del-shes-kon-strook-tum", meaning: "Gödel's constructible universe (L)", gender: "das", example: { de: "Gödels konstruierbares Universum L.", en: "Gödel's constructible universe L." } },
+    { word: "die Ordinalzahl", phonetic: "or-di-nahl-tsahl", meaning: "ordinal number", gender: "die", example: { de: "Transfinite Ordinalzahl.", en: "Transfinite ordinal number." } },
+    { word: "die Kardinalzahl", phonetic: "kar-di-nahl-tsahl", meaning: "cardinal number", gender: "die", example: { de: "Unerreichbare Kardinalzahl.", en: "Inaccessible cardinal number." } },
+    { word: "die Aleph-Zahlen", phonetic: "ah-lef-tsah-len", meaning: "aleph numbers (ℵ₀, ℵ₁...)", example: { de: "Abzählbare Aleph-Null.", en: "Countable aleph-null." } },
+    { word: "das Wohlordnungsprinzip", phonetic: "vohl-ord-nungs-prin-tsip", meaning: "well-ordering principle", gender: "das", example: { de: "Wohlordnungsprinzip und AC.", en: "Well-ordering principle and AC." } },
+    { word: "der Zorn-Satz", phonetic: "tsorn-zats", meaning: "Zorn's lemma", gender: "das", example: { de: "Äquivalentes Zorns Lemma.", en: "Equivalent Zorn's lemma." } },
+    { word: "die große Kardinalzahl", phonetic: "groh-suh kar-di-nahl-tsahl", meaning: "large cardinal", gender: "die", example: { de: "Messbare große Kardinalzahl.", en: "Measurable large cardinal." } },
+    { word: "das Determiniertheitsaxiom", phonetic: "de-ter-mi-neerr-hyts-ak-si-ohm", meaning: "axiom of determinacy (AD)", gender: "das", example: { de: "Projektives Determiniertheitsaxiom.", en: "Projective determinacy axiom." } },
+    { word: "die projektive Hierarchie", phonetic: "pro-yek-tee-vuh hi-e-rar-khee", meaning: "projective hierarchy", gender: "die", example: { de: "Σ-Mengen projektive Hierarchie.", en: "Σ-sets projective hierarchy." } },
+    { word: "die deskriptive Mengenlehre", phonetic: "des-krip-tee-vuh men-gen-lay-ruh", meaning: "descriptive set theory", gender: "die", example: { de: "Borelsche deskriptive Mengenlehre.", en: "Borel descriptive set theory." } },
+    { word: "der innere Modell (Mengenlehre)", phonetic: "i-ne-rer-mo-del", meaning: "inner model (set theory)", gender: "das", example: { de: "Inneres Modell Programm.", en: "Inner model programme." } },
+    { word: "die Absolutheit (Mengenlehre)", phonetic: "ap-zo-loot-hyte", meaning: "absoluteness (set theory)", gender: "die", example: { de: "Absolute Formel.", en: "Absolute formula." } },
+    { word: "die Woodin-Kardinalzahl", phonetic: "voo-din-kar-di-nahl-tsahl", meaning: "Woodin cardinal", gender: "die", example: { de: "Woodin-Kardinalzahl und AD.", en: "Woodin cardinal and AD." } },
+    { word: "die Unabhängigkeit (Logik)", phonetic: "oon-ab-heng-ikh-kyte", meaning: "independence (logic/set theory)", gender: "die", example: { de: "CH-Unabhängigkeit von ZFC.", en: "CH independence from ZFC." } },
+  ]}] },
+};

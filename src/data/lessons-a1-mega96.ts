@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega96: Record<string, Lesson> = {
+  "la1_m146": { id: "la1_m146", title: "Body Parts A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "der Körper", phonetic: "kör-per", meaning: "body", gender: "der", example: { de: "Der menschliche Körper.", en: "The human body." } },
+    { word: "der Kopf", phonetic: "kopf", meaning: "head", gender: "der", example: { de: "Mein Kopf tut weh.", en: "My head hurts." } },
+    { word: "das Gesicht", phonetic: "geh-zikht", meaning: "face", gender: "das", example: { de: "Ein freundliches Gesicht.", en: "A friendly face." } },
+    { word: "das Auge", phonetic: "ow-guh", meaning: "eye", gender: "das", example: { de: "Blaue Augen.", en: "Blue eyes." } },
+    { word: "die Nase", phonetic: "nah-zuh", meaning: "nose", gender: "die", example: { de: "Eine große Nase.", en: "A big nose." } },
+    { word: "der Mund", phonetic: "moont", meaning: "mouth", gender: "der", example: { de: "Den Mund öffnen.", en: "Open the mouth." } },
+    { word: "das Ohr", phonetic: "or", meaning: "ear", gender: "das", example: { de: "Mein Ohr schmerzt.", en: "My ear hurts." } },
+    { word: "der Zahn", phonetic: "tsahn", meaning: "tooth", gender: "der", example: { de: "Weiße Zähne.", en: "White teeth." } },
+    { word: "der Hals", phonetic: "hals", meaning: "neck / throat", gender: "der", example: { de: "Schmerzhafter Hals.", en: "Painful throat." } },
+    { word: "die Schulter", phonetic: "shool-ter", meaning: "shoulder", gender: "die", example: { de: "Breite Schultern.", en: "Broad shoulders." } },
+    { word: "der Arm", phonetic: "arm", meaning: "arm", gender: "der", example: { de: "Den Arm heben.", en: "Raise the arm." } },
+    { word: "die Hand", phonetic: "hant", meaning: "hand", gender: "die", example: { de: "Die Hand schütteln.", en: "Shake the hand." } },
+    { word: "der Finger", phonetic: "fing-er", meaning: "finger", gender: "der", example: { de: "Zehn Finger.", en: "Ten fingers." } },
+    { word: "der Bauch", phonetic: "bowkh", meaning: "stomach / belly", gender: "der", example: { de: "Bauchschmerzen.", en: "Stomach ache." } },
+    { word: "der Rücken", phonetic: "rü-ken", meaning: "back", gender: "der", example: { de: "Rückenschmerzen.", en: "Back pain." } },
+    { word: "das Bein", phonetic: "byne", meaning: "leg", gender: "das", example: { de: "Das rechte Bein.", en: "The right leg." } },
+    { word: "das Knie", phonetic: "knee", meaning: "knee", gender: "das", example: { de: "Das Knie verletzt.", en: "The knee injured." } },
+    { word: "der Fuß", phonetic: "foos", meaning: "foot", gender: "der", example: { de: "Schmerzhafter Fuß.", en: "Painful foot." } },
+    { word: "das Herz", phonetic: "herts", meaning: "heart", gender: "das", example: { de: "Das Herz schlägt.", en: "The heart beats." } },
+    { word: "die Haut", phonetic: "howt", meaning: "skin", gender: "die", example: { de: "Empfindliche Haut.", en: "Sensitive skin." } },
+  ]}] },
+};

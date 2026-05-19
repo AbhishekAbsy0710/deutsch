@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega93: Record<string, Lesson> = {
+  "lc2_m136": { id: "lc2_m136", title: "Advanced Category Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Kategorientheorie", phonetic: "ka-te-go-ree-en-tay-oh-ree", meaning: "category theory", gender: "die", example: { de: "Abstrakte Kategorientheorie.", en: "Abstract category theory." } },
+    { word: "die Kategorie (Mathematik)", phonetic: "ka-te-go-ree", meaning: "category (mathematics)", gender: "die", example: { de: "Kleine Kategorie.", en: "Small category." } },
+    { word: "der Funktor", phonetic: "foonk-tor", meaning: "functor", gender: "der", example: { de: "Kovarianter Funktor.", en: "Covariant functor." } },
+    { word: "die natürliche Transformation", phonetic: "na-tür-li-khuh trans-for-ma-tsee-ohn", meaning: "natural transformation", gender: "die", example: { de: "Natürliche Isomorphismus-Transformation.", en: "Natural isomorphism transformation." } },
+    { word: "die Adjunktion", phonetic: "at-yoonk-tsee-ohn", meaning: "adjunction (category theory)", gender: "die", example: { de: "Freies-Vergiss-Adjunktion.", en: "Free-forgetful adjunction." } },
+    { word: "der linksadjungierte Funktor", phonetic: "links-at-yoon-geer-tuh foonk-tor", meaning: "left adjoint functor", gender: "der", example: { de: "Linksadjungierter freier Funktor.", en: "Left adjoint free functor." } },
+    { word: "das Limit (Kategorientheorie)", phonetic: "li-mit", meaning: "limit (category theory)", gender: "das", example: { de: "Kartesisches Produkt Limit.", en: "Cartesian product limit." } },
+    { word: "das Kolimit", phonetic: "koh-li-mit", meaning: "colimit", gender: "das", example: { de: "Koprodukt Kolimit.", en: "Coproduct colimit." } },
+    { word: "der Topos (Lawvere/Tierney)", phonetic: "to-pos", meaning: "topos (Lawvere/Tierney)", gender: "der", example: { de: "Elementarer Topos.", en: "Elementary topos." } },
+    { word: "der Yoneda-Einbettungssatz", phonetic: "yo-ne-da-ayn-be-tungs-zats", meaning: "Yoneda embedding / lemma", gender: "der", example: { de: "Yoneda-Lemma.", en: "Yoneda lemma." } },
+    { word: "die darstellbare Funktor", phonetic: "dar-shtel-bah-ruh foonk-tor", meaning: "representable functor", gender: "der", example: { de: "Hom-Funktor darstellbar.", en: "Hom-functor representable." } },
+    { word: "die monoidale Kategorie", phonetic: "mo-no-i-dah-luh ka-te-go-ree", meaning: "monoidal category", gender: "die", example: { de: "Symmetrische monoidale Kategorie.", en: "Symmetric monoidal category." } },
+    { word: "die bereicherte Kategorie", phonetic: "beh-ry-kher-tuh ka-te-go-ree", meaning: "enriched category", gender: "die", example: { de: "Ab-bereicherte Kategorie.", en: "Ab-enriched category." } },
+    { word: "die Monade (Kategorientheorie)", phonetic: "mo-nah-duh", meaning: "monad (category theory)", gender: "die", example: { de: "Kleisli-Kategorie Monade.", en: "Kleisli category monad." } },
+    { word: "die Kan-Erweiterung", phonetic: "kahn-er-vy-te-rung", meaning: "Kan extension", gender: "die", example: { de: "Links-Kan-Erweiterung.", en: "Left Kan extension." } },
+    { word: "die ∞-Kategorie (Lurie)", phonetic: "in-fi-ni-tum-ka-te-go-ree", meaning: "∞-category (Lurie)", gender: "die", example: { de: "Stabile ∞-Kategorie.", en: "Stable ∞-category." } },
+    { word: "die Derivatoren (Grothendieck)", phonetic: "de-ri-va-toh-ren", meaning: "derivators (Grothendieck)", example: { de: "Grothendieck-Derivatoren.", en: "Grothendieck derivators." } },
+    { word: "das Fibration-Konzept (Grothendieck)", phonetic: "fi-bra-tsee-ohns-kon-tsept", meaning: "Grothendieck fibration", gender: "das", example: { de: "Grothendieck-Faserung.", en: "Grothendieck fibration." } },
+    { word: "die abgeleitete Kategorie", phonetic: "ap-geh-ly-te-tuh ka-te-go-ree", meaning: "derived category", gender: "die", example: { de: "Beschränkte abgeleitete Kategorie.", en: "Bounded derived category." } },
+    { word: "das dg-Kategorie", phonetic: "day-gay-ka-te-go-ree", meaning: "dg-category (differential graded)", gender: "die", example: { de: "Lokalisierung dg-Kategorie.", en: "Localisation dg-category." } },
+  ]}] },
+};

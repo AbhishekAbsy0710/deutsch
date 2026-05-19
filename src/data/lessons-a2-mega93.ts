@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega93: Record<string, Lesson> = {
+  "la2_m138": { id: "la2_m138", title: "Hobbies & Leisure A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Hobby", phonetic: "ho-bi", meaning: "hobby", gender: "das", example: { de: "Mein liebstes Hobby.", en: "My favourite hobby." } },
+    { word: "die Freizeit", phonetic: "fry-tsyt", meaning: "free time / leisure", gender: "die", example: { de: "In der Freizeit entspannen.", en: "Relax in free time." } },
+    { word: "lesen", phonetic: "lay-zen", meaning: "to read", example: { de: "Ein Buch lesen.", en: "Read a book." } },
+    { word: "malen", phonetic: "mah-len", meaning: "to paint / draw", example: { de: "Ein Bild malen.", en: "Paint a picture." } },
+    { word: "kochen", phonetic: "ko-khen", meaning: "to cook", example: { de: "Für die Familie kochen.", en: "Cook for the family." } },
+    { word: "backen", phonetic: "ba-ken", meaning: "to bake", example: { de: "Kuchen backen.", en: "Bake a cake." } },
+    { word: "fotografieren", phonetic: "fo-to-gra-fee-ren", meaning: "to photograph", example: { de: "Natur fotografieren.", en: "Photograph nature." } },
+    { word: "tanzen", phonetic: "tan-tsen", meaning: "to dance", example: { de: "Salsa tanzen.", en: "Dance salsa." } },
+    { word: "singen", phonetic: "zing-en", meaning: "to sing", example: { de: "Im Chor singen.", en: "Sing in the choir." } },
+    { word: "ein Instrument spielen", phonetic: "ayn-in-stroo-ment-shpee-len", meaning: "to play an instrument", example: { de: "Gitarre spielen.", en: "Play the guitar." } },
+    { word: "Gartenarbeit machen", phonetic: "gar-ten-ar-byt-ma-khen", meaning: "to garden / do gardening", example: { de: "Gartenarbeit am Wochenende.", en: "Gardening at the weekend." } },
+    { word: "reisen", phonetic: "ry-zen", meaning: "to travel", example: { de: "Durch Europa reisen.", en: "Travel through Europe." } },
+    { word: "wandern", phonetic: "van-dern", meaning: "to hike", example: { de: "In den Bergen wandern.", en: "Hike in the mountains." } },
+    { word: "Karten spielen", phonetic: "kar-ten-shpee-len", meaning: "to play cards", example: { de: "Karten spielen mit Freunden.", en: "Play cards with friends." } },
+    { word: "stricken", phonetic: "shtrik-en", meaning: "to knit", example: { de: "Einen Schal stricken.", en: "Knit a scarf." } },
+    { word: "sammeln", phonetic: "za-meln", meaning: "to collect", example: { de: "Briefmarken sammeln.", en: "Collect stamps." } },
+    { word: "der Film", phonetic: "film", meaning: "film / movie", gender: "der", example: { de: "Einen Film anschauen.", en: "Watch a film." } },
+    { word: "die Serie", phonetic: "ze-ree-uh", meaning: "TV series", gender: "die", example: { de: "Eine neue Serie schauen.", en: "Watch a new series." } },
+    { word: "das Brett­spiel", phonetic: "bret-shpeel", meaning: "board game", gender: "das", example: { de: "Brettspiele spielen.", en: "Play board games." } },
+    { word: "entspannen", phonetic: "ent-shpa-nen", meaning: "to relax", example: { de: "Nach der Arbeit entspannen.", en: "Relax after work." } },
+  ]}] },
+};

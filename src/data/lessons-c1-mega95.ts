@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega95: Record<string, Lesson> = {
+  "lc1_m141": { id: "lc1_m141", title: "Comparative Literature C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Komparatistik", phonetic: "kom-pa-ra-tis-tik", meaning: "comparative literature", gender: "die", example: { de: "Interkulturelle Komparatistik.", en: "Intercultural comparative literature." } },
+    { word: "der Weltliteratur-Begriff (Goethe)", phonetic: "velt-li-te-ra-toor-beh-grif", meaning: "world literature (Goethe)", gender: "der", example: { de: "Goethes Weltliteratur-Begriff.", en: "Goethe's world literature concept." } },
+    { word: "die Rezeptionsästhetik", phonetic: "re-tsep-tsee-ohns-es-te-tik", meaning: "reception aesthetics (Jauss)", gender: "die", example: { de: "Jauss' Rezeptionsästhetik.", en: "Jauss' reception aesthetics." } },
+    { word: "der Erwartungshorizont", phonetic: "er-var-tungs-ho-ri-tsont", meaning: "horizon of expectations (Jauss)", gender: "der", example: { de: "Literarischer Erwartungshorizont.", en: "Literary horizon of expectations." } },
+    { word: "die Weltliteratur (Casanova)", phonetic: "velt-li-te-ra-toor", meaning: "world literature (Casanova/Moretti)", gender: "die", example: { de: "Casanovas Weltliteratur.", en: "Casanova's world literature." } },
+    { word: "der Einfluss (Literatur)", phonetic: "ayn-floos", meaning: "influence (literary)", gender: "der", example: { de: "Literarischer Einfluss.", en: "Literary influence." } },
+    { word: "der Kanon (Literatur)", phonetic: "kah-non", meaning: "literary canon", gender: "der", example: { de: "Kanonisierter Literaturkanon.", en: "Canonised literary canon." } },
+    { word: "die Übersetzungswissenschaft", phonetic: "ü-ber-ze-tsungs-vi-sen-shaft", meaning: "translation studies", gender: "die", example: { de: "Moderne Übersetzungswissenschaft.", en: "Modern translation studies." } },
+    { word: "die Äquivalenz (Übersetzung)", phonetic: "ey-kvi-va-lents", meaning: "equivalence (translation)", gender: "die", example: { de: "Dynamische Äquivalenz.", en: "Dynamic equivalence." } },
+    { word: "die Übersetzung (Theorie)", phonetic: "ü-ber-ze-tsung", meaning: "translation (theory)", gender: "die", example: { de: "Literarische Übersetzungstheorie.", en: "Literary translation theory." } },
+    { word: "der Einflussangst (Bloom)", phonetic: "ayn-floos-angst", meaning: "anxiety of influence (Bloom)", gender: "die", example: { de: "Blooms Einflussangst.", en: "Bloom's anxiety of influence." } },
+    { word: "die Intertextualität (Literatur)", phonetic: "in-ter-teks-too-a-li-tayt", meaning: "intertextuality (literary)", gender: "die", example: { de: "Kristevas Intertextualität.", en: "Kristeva's intertextuality." } },
+    { word: "die Gattungstheorie", phonetic: "ga-tungs-tay-oh-ree", meaning: "genre theory", gender: "die", example: { de: "Bachtins Gattungstheorie.", en: "Bakhtin's genre theory." } },
+    { word: "die Dialogizität (Bachtin)", phonetic: "di-a-lo-gi-tsi-tayt", meaning: "dialogism (Bakhtin)", gender: "die", example: { de: "Bachtins Dialogizität.", en: "Bakhtin's dialogism." } },
+    { word: "die Chronotopos (Bachtin)", phonetic: "kro-no-to-pos", meaning: "chronotope (Bakhtin)", gender: "der", example: { de: "Bachtins Chronotopos.", en: "Bakhtin's chronotope." } },
+    { word: "das Palimpsest (Literatur)", phonetic: "pa-limp-sest", meaning: "palimpsest (literary)", gender: "das", example: { de: "Genettes Palimpsest.", en: "Genette's palimpsest." } },
+    { word: "die Hypertextualität (Genette)", phonetic: "hü-per-teks-too-a-li-tayt", meaning: "hypertextuality (Genette)", gender: "die", example: { de: "Genettes Hypertextualität.", en: "Genette's hypertextuality." } },
+    { word: "die Dekolonisierung der Literatur", phonetic: "de-ko-lo-ni-zee-rung", meaning: "decolonisation of literature", gender: "die", example: { de: "Ngügis Dekolonisierung der Literatur.", en: "Ngũgĩ's decolonisation of literature." } },
+    { word: "der Kosmopolitanismus (Literatur)", phonetic: "kos-mo-po-li-ta-nis-mus", meaning: "cosmopolitanism (literary)", gender: "der", example: { de: "Literarischer Kosmopolitanismus.", en: "Literary cosmopolitanism." } },
+    { word: "die Minneliteratur", phonetic: "mi-nuh-li-te-ra-toor", meaning: "courtly love literature", gender: "die", example: { de: "Mittelalterliche Minneliteratur.", en: "Medieval courtly love literature." } },
+  ]}] },
+};

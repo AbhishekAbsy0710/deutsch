@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega97: Record<string, Lesson> = {
+  "lb1_m148": { id: "lb1_m148", title: "Art, Music & Culture B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Kunst", phonetic: "koonst", meaning: "art", gender: "die", example: { de: "Moderne Kunst.", en: "Modern art." } },
+    { word: "das Gemälde", phonetic: "geh-mel-duh", meaning: "painting", gender: "das", example: { de: "Ein berühmtes Gemälde.", en: "A famous painting." } },
+    { word: "die Skulptur", phonetic: "skoolp-toor", meaning: "sculpture", gender: "die", example: { de: "Antike Skulptur.", en: "Ancient sculpture." } },
+    { word: "das Museum", phonetic: "moo-zay-um", meaning: "museum", gender: "das", example: { de: "Das Kunstmuseum besuchen.", en: "Visit the art museum." } },
+    { word: "die Ausstellung", phonetic: "ows-shte-lung", meaning: "exhibition", gender: "die", example: { de: "Eine Ausstellung eröffnen.", en: "Open an exhibition." } },
+    { word: "die Musik", phonetic: "moo-zeek", meaning: "music", gender: "die", example: { de: "Klassische Musik hören.", en: "Listen to classical music." } },
+    { word: "das Konzert", phonetic: "kon-tsert", meaning: "concert", gender: "das", example: { de: "Ein Konzert besuchen.", en: "Attend a concert." } },
+    { word: "die Oper", phonetic: "oh-per", meaning: "opera", gender: "die", example: { de: "In die Oper gehen.", en: "Go to the opera." } },
+    { word: "das Theater", phonetic: "tay-ah-ter", meaning: "theatre", gender: "das", example: { de: "Im Theater spielen.", en: "Perform at the theatre." } },
+    { word: "der Künstler", phonetic: "künst-ler", meaning: "artist", gender: "der", example: { de: "Bekannter Künstler.", en: "Famous artist." } },
+    { word: "komponieren", phonetic: "kom-po-nee-ren", meaning: "to compose", example: { de: "Eine Sinfonie komponieren.", en: "Compose a symphony." } },
+    { word: "das Instrument", phonetic: "in-stroo-ment", meaning: "instrument", gender: "das", example: { de: "Ein Instrument lernen.", en: "Learn an instrument." } },
+    { word: "die Geige", phonetic: "gy-guh", meaning: "violin", gender: "die", example: { de: "Geige spielen.", en: "Play the violin." } },
+    { word: "das Klavier", phonetic: "kla-veer", meaning: "piano", gender: "das", example: { de: "Klavier üben.", en: "Practise piano." } },
+    { word: "der Rhythmus", phonetic: "rüt-mus", meaning: "rhythm", gender: "der", example: { de: "Im Rhythmus tanzen.", en: "Dance to the rhythm." } },
+    { word: "der Stil", phonetic: "shteel", meaning: "style", gender: "der", example: { de: "Persönlicher Kunststil.", en: "Personal art style." } },
+    { word: "die Literatur", phonetic: "li-te-ra-toor", meaning: "literature", gender: "die", example: { de: "Deutsche Literatur.", en: "German literature." } },
+    { word: "der Roman", phonetic: "ro-mahn", meaning: "novel", gender: "der", example: { de: "Einen Roman lesen.", en: "Read a novel." } },
+    { word: "die Kultur", phonetic: "kool-toor", meaning: "culture", gender: "die", example: { de: "Kulturelle Vielfalt.", en: "Cultural diversity." } },
+    { word: "das Erbe", phonetic: "er-buh", meaning: "heritage / inheritance", gender: "das", example: { de: "Kulturelles Erbe.", en: "Cultural heritage." } },
+  ]}] },
+};

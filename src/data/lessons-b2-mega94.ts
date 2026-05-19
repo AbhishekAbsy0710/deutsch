@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega94: Record<string, Lesson> = {
+  "lb2_m139": { id: "lb2_m139", title: "Organic Chemistry B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die organische Chemie", phonetic: "or-ga-ni-shuh khe-mee", meaning: "organic chemistry", gender: "die", example: { de: "Synthetische organische Chemie.", en: "Synthetic organic chemistry." } },
+    { word: "der Kohlenwasserstoff", phonetic: "koh-len-va-ser-shtof", meaning: "hydrocarbon", gender: "der", example: { de: "Gesättigter Kohlenwasserstoff.", en: "Saturated hydrocarbon." } },
+    { word: "das Alkan", phonetic: "al-kahn", meaning: "alkane", gender: "das", example: { de: "Methan als einfachstes Alkan.", en: "Methane as the simplest alkane." } },
+    { word: "das Alken", phonetic: "al-kayn", meaning: "alkene", gender: "das", example: { de: "Ethen als einfachstes Alken.", en: "Ethene as the simplest alkene." } },
+    { word: "das Alkin", phonetic: "al-keen", meaning: "alkyne", gender: "das", example: { de: "Ethin als einfachstes Alkin.", en: "Ethyne as the simplest alkyne." } },
+    { word: "der Benzolring", phonetic: "ben-tsol-ring", meaning: "benzene ring", gender: "der", example: { de: "Aromatischer Benzolring.", en: "Aromatic benzene ring." } },
+    { word: "die funktionelle Gruppe", phonetic: "foonk-tsee-oh-ne-luh groo-puh", meaning: "functional group", gender: "die", example: { de: "Hydroxyl-funktionelle Gruppe.", en: "Hydroxyl functional group." } },
+    { word: "der Alkohol (Chemie)", phonetic: "al-ko-hol", meaning: "alcohol (chemistry)", gender: "der", example: { de: "Primärer Alkohol.", en: "Primary alcohol." } },
+    { word: "der Ether", phonetic: "ay-ter", meaning: "ether (chemistry)", gender: "der", example: { de: "Diethylether.", en: "Diethyl ether." } },
+    { word: "der Aldehyd", phonetic: "al-de-hüt", meaning: "aldehyde", gender: "der", example: { de: "Formaldehyd.", en: "Formaldehyde." } },
+    { word: "das Keton", phonetic: "ke-ton", meaning: "ketone", gender: "das", example: { de: "Aceton als einfachstes Keton.", en: "Acetone as the simplest ketone." } },
+    { word: "die Carbonsäure", phonetic: "kar-bon-zöy-ruh", meaning: "carboxylic acid", gender: "die", example: { de: "Essigsäure als Carbonsäure.", en: "Acetic acid as carboxylic acid." } },
+    { word: "der Ester", phonetic: "es-ter", meaning: "ester", gender: "der", example: { de: "Duftender Ester.", en: "Fragrant ester." } },
+    { word: "das Amid", phonetic: "a-meet", meaning: "amide", gender: "das", example: { de: "Peptidamid.", en: "Peptide amide." } },
+    { word: "das Amin", phonetic: "a-meen", meaning: "amine", gender: "das", example: { de: "Primäres Amin.", en: "Primary amine." } },
+    { word: "die Substitutionsreaktion", phonetic: "zoob-sti-too-tsee-ohns-re-ak-tsee-ohn", meaning: "substitution reaction", gender: "die", example: { de: "Nucleophile Substitutionsreaktion.", en: "Nucleophilic substitution reaction." } },
+    { word: "die Additionsreaktion", phonetic: "a-di-tsee-ohns-re-ak-tsee-ohn", meaning: "addition reaction", gender: "die", example: { de: "Elektrophile Additionsreaktion.", en: "Electrophilic addition reaction." } },
+    { word: "die Eliminierungsreaktion", phonetic: "e-li-mi-nee-rungs-re-ak-tsee-ohn", meaning: "elimination reaction", gender: "die", example: { de: "E2-Eliminierungsreaktion.", en: "E2 elimination reaction." } },
+    { word: "die Stereochemie", phonetic: "ste-ray-oh-khe-mee", meaning: "stereochemistry", gender: "die", example: { de: "Chirale Stereochemie.", en: "Chiral stereochemistry." } },
+    { word: "das Enantiomer", phonetic: "e-nan-tsee-oh-mer", meaning: "enantiomer", gender: "das", example: { de: "Optisch aktives Enantiomer.", en: "Optically active enantiomer." } },
+  ]}] },
+};

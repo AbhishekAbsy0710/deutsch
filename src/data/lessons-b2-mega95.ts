@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega95: Record<string, Lesson> = {
+  "lb2_m140": { id: "lb2_m140", title: "Molecular Biology B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Molekularbiologie", phonetic: "mo-le-koo-lar-bi-oh-lo-gee", meaning: "molecular biology", gender: "die", example: { de: "Grundlagen der Molekularbiologie.", en: "Fundamentals of molecular biology." } },
+    { word: "die DNA", phonetic: "day-en-ah", meaning: "DNA (deoxyribonucleic acid)", gender: "die", example: { de: "DNA-Doppelhelix.", en: "DNA double helix." } },
+    { word: "die RNA", phonetic: "er-en-ah", meaning: "RNA (ribonucleic acid)", gender: "die", example: { de: "Messenger-RNA.", en: "Messenger RNA." } },
+    { word: "das Gen", phonetic: "gayn", meaning: "gene", gender: "das", example: { de: "Dominantes Gen.", en: "Dominant gene." } },
+    { word: "das Chromosom", phonetic: "kro-mo-zohm", meaning: "chromosome", gender: "das", example: { de: "Menschliches Chromosom.", en: "Human chromosome." } },
+    { word: "die Transkription", phonetic: "trans-krip-tsee-ohn", meaning: "transcription (biology)", gender: "die", example: { de: "RNA-Transkription.", en: "RNA transcription." } },
+    { word: "die Translation (Biologie)", phonetic: "trans-la-tsee-ohn", meaning: "translation (biology)", gender: "die", example: { de: "Protein-Translation am Ribosom.", en: "Protein translation at the ribosome." } },
+    { word: "das Protein", phonetic: "pro-tay-een", meaning: "protein", gender: "das", example: { de: "Strukturelles Protein.", en: "Structural protein." } },
+    { word: "das Enzym", phonetic: "en-tsüm", meaning: "enzyme", gender: "das", example: { de: "Katalytisches Enzym.", en: "Catalytic enzyme." } },
+    { word: "die Zelle", phonetic: "tse-luh", meaning: "cell (biology)", gender: "die", example: { de: "Eukaryotische Zelle.", en: "Eukaryotic cell." } },
+    { word: "der Zellkern", phonetic: "tsel-kern", meaning: "cell nucleus", gender: "der", example: { de: "DNA im Zellkern.", en: "DNA in the cell nucleus." } },
+    { word: "das Mitochondrium", phonetic: "mi-to-khon-dri-um", meaning: "mitochondrion", gender: "das", example: { de: "ATP-produzierende Mitochondrien.", en: "ATP-producing mitochondria." } },
+    { word: "die Mutation", phonetic: "moo-ta-tsee-ohn", meaning: "mutation", gender: "die", example: { de: "Punktmutation.", en: "Point mutation." } },
+    { word: "die Genexpression", phonetic: "gayn-eks-pres-see-ohn", meaning: "gene expression", gender: "die", example: { de: "Regulierte Genexpression.", en: "Regulated gene expression." } },
+    { word: "die CRISPR-Technologie", phonetic: "kris-per-tek-no-lo-gee", meaning: "CRISPR technology", gender: "die", example: { de: "CRISPR-Cas9-Technologie.", en: "CRISPR-Cas9 technology." } },
+    { word: "die Epigenetik", phonetic: "e-pi-ge-nay-tik", meaning: "epigenetics", gender: "die", example: { de: "Histonmodifikation Epigenetik.", en: "Histone modification epigenetics." } },
+    { word: "die Meiose", phonetic: "may-oh-zuh", meaning: "meiosis", gender: "die", example: { de: "Chromosomentrennung Meiose.", en: "Chromosome separation meiosis." } },
+    { word: "die Mitose", phonetic: "mi-toh-zuh", meaning: "mitosis", gender: "die", example: { de: "Zellteilung durch Mitose.", en: "Cell division through mitosis." } },
+    { word: "das Ribosom", phonetic: "ri-bo-zohm", meaning: "ribosome", gender: "das", example: { de: "Proteinsynthese am Ribosom.", en: "Protein synthesis at the ribosome." } },
+    { word: "die Sequenzierung", phonetic: "ze-kven-tsee-rung", meaning: "sequencing (genetics)", gender: "die", example: { de: "Genomsequenzierung.", en: "Genome sequencing." } },
+  ]}] },
+};

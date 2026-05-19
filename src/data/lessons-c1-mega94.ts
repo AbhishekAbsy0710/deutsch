@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega94: Record<string, Lesson> = {
+  "lc1_m140": { id: "lc1_m140", title: "Advanced Political Theory C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die politische Theorie", phonetic: "po-li-ti-shuh tay-oh-ree", meaning: "political theory", gender: "die", example: { de: "Normative politische Theorie.", en: "Normative political theory." } },
+    { word: "der Liberalismus (politisch)", phonetic: "li-be-ra-lis-mus", meaning: "liberalism (political)", gender: "der", example: { de: "Klassischer Liberalismus.", en: "Classical liberalism." } },
+    { word: "der Kommunitarismus", phonetic: "ko-mü-ni-ta-ris-mus", meaning: "communitarianism", gender: "der", example: { de: "Sandels Kommunitarismus.", en: "Sandel's communitarianism." } },
+    { word: "der Republikanismus (politisch)", phonetic: "re-poo-bli-ka-nis-mus", meaning: "republicanism (political)", gender: "der", example: { de: "Neopublikanischer Republikanismus.", en: "Neo-republican republicanism." } },
+    { word: "die deliberative Demokratie", phonetic: "de-li-be-ra-tee-vuh de-mo-kra-tee", meaning: "deliberative democracy (Habermas)", gender: "die", example: { de: "Habermas-deliberative Demokratie.", en: "Habermas deliberative democracy." } },
+    { word: "der Rawlsianische Schleier des Nichtwissens", phonetic: "rawl-sian-i-shuh shly-er-des-nikht-vi-sens", meaning: "Rawls's veil of ignorance", gender: "der", example: { de: "Rawls Schleier des Nichtwissens.", en: "Rawls veil of ignorance." } },
+    { word: "die Theorie der Gerechtigkeit (Rawls)", phonetic: "tay-oh-ree-der-ge-rekh-tikh-kyte", meaning: "theory of justice (Rawls)", gender: "die", example: { de: "Rawls' Theorie der Gerechtigkeit.", en: "Rawls' theory of justice." } },
+    { word: "die Fähigkeitenansatz (Sen/Nussbaum)", phonetic: "fey-ikh-kyte-en-an-zats", meaning: "capabilities approach (Sen/Nussbaum)", gender: "der", example: { de: "Sens Fähigkeitenansatz.", en: "Sen's capabilities approach." } },
+    { word: "die Weltbürgerschaft", phonetic: "velt-bür-ger-shaft", meaning: "cosmopolitanism / world citizenship", gender: "die", example: { de: "Kantische Weltbürgerschaft.", en: "Kantian cosmopolitanism." } },
+    { word: "die Staatsbürgerschaft", phonetic: "shtahts-bür-ger-shaft", meaning: "citizenship", gender: "die", example: { de: "Doppelte Staatsbürgerschaft.", en: "Dual citizenship." } },
+    { word: "die Volkssouveränität", phonetic: "folks-zoo-ve-ey-ni-tayt", meaning: "popular sovereignty", gender: "die", example: { de: "Demokratische Volkssouveränität.", en: "Democratic popular sovereignty." } },
+    { word: "die Zivilgesellschaft", phonetic: "tsi-vil-ge-zel-shaft", meaning: "civil society", gender: "die", example: { de: "Aktive Zivilgesellschaft.", en: "Active civil society." } },
+    { word: "der öffentliche Raum", phonetic: "öf-fent-li-khuh rowm", meaning: "public sphere (Habermas)", gender: "der", example: { de: "Habermas' öffentlicher Raum.", en: "Habermas' public sphere." } },
+    { word: "das politische Kapital", phonetic: "po-li-ti-shuh ka-pi-tahl", meaning: "political capital", gender: "das", example: { de: "Politisches Kapital nutzen.", en: "Use political capital." } },
+    { word: "die Hegemonie (Gramsci)", phonetic: "he-ge-mo-nee", meaning: "hegemony (Gramsci)", gender: "die", example: { de: "Gramscis Hegemonie.", en: "Gramsci's hegemony." } },
+    { word: "der Populismus", phonetic: "po-poo-lis-mus", meaning: "populism", gender: "der", example: { de: "Rechtspopulismus.", en: "Right-wing populism." } },
+    { word: "die Technokratie", phonetic: "tek-no-kra-tee", meaning: "technocracy", gender: "die", example: { de: "Europäische Technokratie.", en: "European technocracy." } },
+    { word: "die Subsidiarität", phonetic: "zoob-si-dee-a-ri-tayt", meaning: "subsidiarity", gender: "die", example: { de: "EU-Subsidiaritätsprinzip.", en: "EU subsidiarity principle." } },
+    { word: "die Gewaltenteilung", phonetic: "ge-val-ten-ty-lung", meaning: "separation of powers", gender: "die", example: { de: "Montesquieus Gewaltenteilung.", en: "Montesquieu's separation of powers." } },
+    { word: "der Rechtsstaat", phonetic: "rekhts-shtat", meaning: "rule of law state", gender: "der", example: { de: "Demokratischer Rechtsstaat.", en: "Democratic rule of law state." } },
+  ]}] },
+};
