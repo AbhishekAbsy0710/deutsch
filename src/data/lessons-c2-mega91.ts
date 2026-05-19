@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega91: Record<string, Lesson> = {
+  "lc2_m134": { id: "lc2_m134", title: "Advanced Homotopy Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Homotopietheorie", phonetic: "ho-mo-to-pee-tay-oh-ree", meaning: "homotopy theory", gender: "die", example: { de: "Klassische Homotopietheorie.", en: "Classical homotopy theory." } },
+    { word: "die Homotopiegruppe", phonetic: "ho-mo-to-pee-groo-puh", meaning: "homotopy group", gender: "die", example: { de: "Fundamentale Homotopiegruppe.", en: "Fundamental homotopy group." } },
+    { word: "das Modell (Homotopie)", phonetic: "mo-del", meaning: "model category", gender: "das", example: { de: "Quillensche Modellkategorie.", en: "Quillen model category." } },
+    { word: "die schwache Äquivalenz", phonetic: "shva-khuh ey-kvi-va-lents", meaning: "weak equivalence", gender: "die", example: { de: "Modellkategorie schwache Äquivalenz.", en: "Model category weak equivalence." } },
+    { word: "die Cofaserung", phonetic: "koh-fah-ze-rung", meaning: "cofibration", gender: "die", example: { de: "Modelkategorie Cofaserung.", en: "Model category cofibration." } },
+    { word: "die Faserung (Homotopie)", phonetic: "fah-ze-rung", meaning: "fibration (homotopy)", gender: "die", example: { de: "Kan-Faserung.", en: "Kan fibration." } },
+    { word: "das Simplizialmenge", phonetic: "sim-pli-tsee-ahl-men-guh", meaning: "simplicial set", gender: "die", example: { de: "Kan-Simplizialmenge.", en: "Kan simplicial set." } },
+    { word: "der ∞-Kategorie", phonetic: "in-fi-ni-tum-ka-te-go-ree", meaning: "∞-category", gender: "die", example: { de: "Quasi-Kategorie ∞-Kategorie.", en: "Quasi-category ∞-category." } },
+    { word: "das Spektrum (Homotopie)", phonetic: "shpek-trum", meaning: "spectrum (homotopy theory)", gender: "das", example: { de: "Eilenberg-MacLane-Spektrum.", en: "Eilenberg-MacLane spectrum." } },
+    { word: "die stabile Homotopietheorie", phonetic: "shtah-bi-luh ho-mo-to-pee-tay-oh-ree", meaning: "stable homotopy theory", gender: "die", example: { de: "Boardman-stabile Homotopietheorie.", en: "Boardman stable homotopy theory." } },
+    { word: "der Homotopietyp", phonetic: "ho-mo-to-pee-tüp", meaning: "homotopy type", gender: "der", example: { de: "Einfacher Homotopietyp.", en: "Simple homotopy type." } },
+    { word: "der Postnikov-Turm", phonetic: "post-ni-kof-tooarm", meaning: "Postnikov tower", gender: "der", example: { de: "Postnikov-Schnitt-Turm.", en: "Postnikov section tower." } },
+    { word: "die Eilenberg-MacLane-Räume", phonetic: "ayl-en-berg-ma-klayn-röy-muh", meaning: "Eilenberg-MacLane spaces", example: { de: "K(G,n)-Eilenberg-MacLane-Räume.", en: "K(G,n) Eilenberg-MacLane spaces." } },
+    { word: "der Satz von Hurewicz", phonetic: "zats-fon-hoo-re-vich", meaning: "Hurewicz theorem", gender: "der", example: { de: "Hurewicz-Homomorphismus.", en: "Hurewicz homomorphism." } },
+    { word: "die Obstruction-Theorie", phonetic: "ob-strook-tsee-ohns-tay-oh-ree", meaning: "obstruction theory", gender: "die", example: { de: "Homotopie-Obstruction.", en: "Homotopy obstruction." } },
+    { word: "die rational Homotopietheorie (Sullivan)", phonetic: "ra-tsee-oh-nahl ho-mo-to-pee-tay-oh-ree", meaning: "rational homotopy theory (Sullivan)", gender: "die", example: { de: "Sullivans rationale Homotopietheorie.", en: "Sullivan's rational homotopy theory." } },
+    { word: "das Minimal-Modell (Sullivan)", phonetic: "mi-ni-mahl-mo-del", meaning: "minimal model (Sullivan)", gender: "das", example: { de: "Sullivans Minimal-Modell.", en: "Sullivan's minimal model." } },
+    { word: "die motivische Homotopietheorie (Morel-Voevodsky)", phonetic: "mo-tee-vi-shuh ho-mo-to-pee-tay-oh-ree", meaning: "motivic homotopy theory", gender: "die", example: { de: "Morel-Voevodsky-motivische Homotopietheorie.", en: "Morel-Voevodsky motivic homotopy theory." } },
+    { word: "die ∞-Topos-Theorie (Lurie)", phonetic: "in-fi-ni-tum-to-pos-tay-oh-ree", meaning: "∞-topos theory (Lurie)", gender: "die", example: { de: "Luries ∞-Topos.", en: "Lurie's ∞-topos." } },
+    { word: "die Homotopietypentheorie (HoTT)", phonetic: "ho-mo-to-pee-tü-pen-tay-oh-ree", meaning: "homotopy type theory (HoTT)", gender: "die", example: { de: "Univalenzaxiom HoTT.", en: "Univalence axiom HoTT." } },
+  ]}] },
+};

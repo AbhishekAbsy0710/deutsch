@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega94: Record<string, Lesson> = {
+  "la1_m144": { id: "la1_m144", title: "Time & Calendar A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Uhrzeit", phonetic: "oor-tsyt", meaning: "time (clock)", gender: "die", example: { de: "Wie spät ist es?", en: "What time is it?" } },
+    { word: "die Stunde", phonetic: "shtoon-duh", meaning: "hour", gender: "die", example: { de: "Eine Stunde warten.", en: "Wait an hour." } },
+    { word: "die Minute", phonetic: "mi-noo-tuh", meaning: "minute", gender: "die", example: { de: "Fünf Minuten.", en: "Five minutes." } },
+    { word: "die Sekunde", phonetic: "ze-koon-duh", meaning: "second", gender: "die", example: { de: "Dreißig Sekunden.", en: "Thirty seconds." } },
+    { word: "der Morgen", phonetic: "mor-gen", meaning: "morning", gender: "der", example: { de: "Guten Morgen!", en: "Good morning!" } },
+    { word: "der Mittag", phonetic: "mi-tahk", meaning: "midday / noon", gender: "der", example: { de: "Um Mittag essen.", en: "Eat at noon." } },
+    { word: "der Nachmittag", phonetic: "nakh-mi-tahk", meaning: "afternoon", gender: "der", example: { de: "Am Nachmittag lernen.", en: "Study in the afternoon." } },
+    { word: "der Abend", phonetic: "ah-bent", meaning: "evening", gender: "der", example: { de: "Guten Abend!", en: "Good evening!" } },
+    { word: "die Nacht", phonetic: "nakht", meaning: "night", gender: "die", example: { de: "Gute Nacht!", en: "Good night!" } },
+    { word: "heute", phonetic: "hoy-tuh", meaning: "today", example: { de: "Heute ist Montag.", en: "Today is Monday." } },
+    { word: "gestern", phonetic: "ges-tern", meaning: "yesterday", example: { de: "Gestern war Sonntag.", en: "Yesterday was Sunday." } },
+    { word: "morgen", phonetic: "mor-gen", meaning: "tomorrow", example: { de: "Morgen ist Dienstag.", en: "Tomorrow is Tuesday." } },
+    { word: "die Woche", phonetic: "vo-khuh", meaning: "week", gender: "die", example: { de: "Diese Woche.", en: "This week." } },
+    { word: "der Monat", phonetic: "moh-nat", meaning: "month", gender: "der", example: { de: "Dieser Monat.", en: "This month." } },
+    { word: "das Jahr", phonetic: "yahr", meaning: "year", gender: "das", example: { de: "Dieses Jahr.", en: "This year." } },
+    { word: "der Montag", phonetic: "mon-tahk", meaning: "Monday", gender: "der", example: { de: "Am Montag arbeiten.", en: "Work on Monday." } },
+    { word: "der Dienstag", phonetic: "deens-tahk", meaning: "Tuesday", gender: "der", example: { de: "Am Dienstag.", en: "On Tuesday." } },
+    { word: "der Mittwoch", phonetic: "mit-vokh", meaning: "Wednesday", gender: "der", example: { de: "Am Mittwoch.", en: "On Wednesday." } },
+    { word: "der Donnerstag", phonetic: "do-ners-tahk", meaning: "Thursday", gender: "der", example: { de: "Am Donnerstag.", en: "On Thursday." } },
+    { word: "das Wochenende", phonetic: "vo-khen-en-duh", meaning: "weekend", gender: "das", example: { de: "Am Wochenende.", en: "At the weekend." } },
+  ]}] },
+};

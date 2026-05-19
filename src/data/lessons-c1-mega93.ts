@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega93: Record<string, Lesson> = {
+  "lc1_m139": { id: "lc1_m139", title: "Advanced Pragmatics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Pragmatik", phonetic: "prag-ma-tik", meaning: "pragmatics", gender: "die", example: { de: "Linguistische Pragmatik.", en: "Linguistic pragmatics." } },
+    { word: "der Sprechakt", phonetic: "shprech-akt", meaning: "speech act (Austin/Searle)", gender: "der", example: { de: "Austins Sprechakt.", en: "Austin's speech act." } },
+    { word: "der lokutionäre Akt", phonetic: "lo-koo-tsee-oh-ney-ruh akt", meaning: "locutionary act", gender: "der", example: { de: "Propositionaler lokutionärer Akt.", en: "Propositional locutionary act." } },
+    { word: "der illokutionäre Akt", phonetic: "i-lo-koo-tsee-oh-ney-ruh akt", meaning: "illocutionary act", gender: "der", example: { de: "Direktiver illokutionärer Akt.", en: "Directive illocutionary act." } },
+    { word: "der perlokutionäre Akt", phonetic: "per-lo-koo-tsee-oh-ney-ruh akt", meaning: "perlocutionary act", gender: "der", example: { de: "Perlokutionärer Effekt.", en: "Perlocutionary effect." } },
+    { word: "die Konversationsmaxime (Grice)", phonetic: "kon-ver-za-tsee-ohns-mak-see-muh", meaning: "conversational maxim (Grice)", gender: "die", example: { de: "Grices Konversationsmaxime.", en: "Grice's conversational maxim." } },
+    { word: "die Implikatur (Grice)", phonetic: "im-pli-kah-toor", meaning: "implicature (Grice)", gender: "die", example: { de: "Konversationale Implikatur.", en: "Conversational implicature." } },
+    { word: "die Präsupposition", phonetic: "preh-zoo-po-zi-tsee-ohn", meaning: "presupposition", gender: "die", example: { de: "Pragmatische Präsupposition.", en: "Pragmatic presupposition." } },
+    { word: "die Deixis", phonetic: "dayk-sis", meaning: "deixis", gender: "die", example: { de: "Personale Deixis.", en: "Personal deixis." } },
+    { word: "die Deiktische Ausdrücke", phonetic: "dayk-ti-shuh ows-drü-kuh", meaning: "deictic expressions", example: { de: "Zeitliche deiktische Ausdrücke.", en: "Temporal deictic expressions." } },
+    { word: "die Relevanztheorie (Sperber/Wilson)", phonetic: "re-le-vants-tay-oh-ree", meaning: "relevance theory (Sperber/Wilson)", gender: "die", example: { de: "Sperber-Wilson-Relevanztheorie.", en: "Sperber-Wilson relevance theory." } },
+    { word: "die Höflichkeit (Brown/Levinson)", phonetic: "höf-likh-kyte", meaning: "politeness (Brown/Levinson)", gender: "die", example: { de: "Brown-Levinson Höflichkeitstheorie.", en: "Brown-Levinson politeness theory." } },
+    { word: "das Gesicht (Face-Theorie)", phonetic: "geh-zikht", meaning: "face (face theory)", gender: "das", example: { de: "Positives Gesicht.", en: "Positive face." } },
+    { word: "die Gesichtsbedrohende Handlung (FTA)", phonetic: "geh-zikhts-beh-droh-en-duh hand-lung", meaning: "face-threatening act (FTA)", gender: "die", example: { de: "Direkte gesichtsbedrohende Handlung.", en: "Direct face-threatening act." } },
+    { word: "der Diskurs (pragmatisch)", phonetic: "dis-koors", meaning: "discourse (pragmatic)", gender: "der", example: { de: "Institutioneller Diskurs.", en: "Institutional discourse." } },
+    { word: "die Diskursanalyse (pragmatisch)", phonetic: "dis-koors-a-na-lü-zuh", meaning: "discourse analysis (pragmatic)", gender: "die", example: { de: "Kritische Diskursanalyse.", en: "Critical discourse analysis." } },
+    { word: "die Sprachhandlung", phonetic: "shprakh-hand-lung", meaning: "linguistic action / speech action", gender: "die", example: { de: "Indirekte Sprachhandlung.", en: "Indirect speech action." } },
+    { word: "die Gesprächsorganisation", phonetic: "geh-shpreks-or-ga-ni-za-tsee-ohn", meaning: "conversation organisation", gender: "die", example: { de: "Turn-taking-Gesprächsorganisation.", en: "Turn-taking conversation organisation." } },
+    { word: "das Turn-taking", phonetic: "tern-tay-king", meaning: "turn-taking", gender: "das", example: { de: "Sacks-Turn-taking.", en: "Sacks turn-taking." } },
+    { word: "die Gesprächsreparatur", phonetic: "geh-shpreks-re-pa-rahr", meaning: "conversation repair", gender: "die", example: { de: "Selbstinitierte Gesprächsreparatur.", en: "Self-initiated conversation repair." } },
+  ]}] },
+};

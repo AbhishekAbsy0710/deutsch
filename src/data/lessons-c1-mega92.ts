@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega92: Record<string, Lesson> = {
+  "lc1_m138": { id: "lc1_m138", title: "Advanced Sociology C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Soziologie", phonetic: "zo-tsee-oh-lo-gee", meaning: "sociology", gender: "die", example: { de: "Empirische Soziologie.", en: "Empirical sociology." } },
+    { word: "die soziale Schichtung", phonetic: "zo-tsee-ah-luh shikh-tung", meaning: "social stratification", gender: "die", example: { de: "Vertikale soziale Schichtung.", en: "Vertical social stratification." } },
+    { word: "die soziale Mobilität", phonetic: "zo-tsee-ah-luh mo-bi-li-tayt", meaning: "social mobility", gender: "die", example: { de: "Intergenerationale soziale Mobilität.", en: "Intergenerational social mobility." } },
+    { word: "die soziale Klasse", phonetic: "zo-tsee-ah-luh kla-suh", meaning: "social class", gender: "die", example: { de: "Marxistische soziale Klasse.", en: "Marxist social class." } },
+    { word: "der soziale Status", phonetic: "zo-tsee-ah-ler shtah-tus", meaning: "social status", gender: "der", example: { de: "Sozioökonomischer Status.", en: "Socioeconomic status." } },
+    { word: "die Sozialisation", phonetic: "zo-tsee-a-li-za-tsee-ohn", meaning: "socialisation", gender: "die", example: { de: "Primäre Sozialisation.", en: "Primary socialisation." } },
+    { word: "die Norm (soziologisch)", phonetic: "norm", meaning: "social norm", gender: "die", example: { de: "Soziale Norm internalisieren.", en: "Internalise a social norm." } },
+    { word: "die Rolle (soziologisch)", phonetic: "ro-luh", meaning: "social role", gender: "die", example: { de: "Geschlechtsrollenerwartung.", en: "Gender role expectation." } },
+    { word: "die Institution (soziologisch)", phonetic: "in-sti-too-tsee-ohn", meaning: "social institution", gender: "die", example: { de: "Soziale Institution Familie.", en: "Social institution family." } },
+    { word: "die Deviantz", phonetic: "de-vi-ants", meaning: "deviance (sociology)", gender: "die", example: { de: "Labeling-Theorie Deviantz.", en: "Labelling theory deviance." } },
+    { word: "die soziale Kontrolle", phonetic: "zo-tsee-ah-luh kon-tro-luh", meaning: "social control", gender: "die", example: { de: "Formelle soziale Kontrolle.", en: "Formal social control." } },
+    { word: "die Kollektive Handlung", phonetic: "ko-lek-tee-vuh hand-lung", meaning: "collective action", gender: "die", example: { de: "Olsons kollektive Handlung.", en: "Olson's collective action." } },
+    { word: "das Sozialkapital (Putnam)", phonetic: "zo-tsee-ahl-ka-pi-tahl", meaning: "social capital (Putnam)", gender: "das", example: { de: "Putnams Sozialkapital.", en: "Putnam's social capital." } },
+    { word: "die Intersektionalität", phonetic: "in-ter-sek-tsee-oh-na-li-tayt", meaning: "intersectionality", gender: "die", example: { de: "Crenshaw-Intersektionalität.", en: "Crenshaw intersectionality." } },
+    { word: "die strukturelle Gewalt (Galtung)", phonetic: "shtrook-too-re-luh ge-valt", meaning: "structural violence (Galtung)", gender: "die", example: { de: "Galtungs strukturelle Gewalt.", en: "Galtung's structural violence." } },
+    { word: "der Funktionalismus (soziologisch)", phonetic: "foonk-tsee-oh-na-lis-mus", meaning: "functionalism (sociology)", gender: "der", example: { de: "Parsons-Funktionalismus.", en: "Parsons functionalism." } },
+    { word: "der Symbolische Interaktionismus", phonetic: "züm-bo-li-shuh in-ter-ak-tsee-oh-nis-mus", meaning: "symbolic interactionism", gender: "der", example: { de: "Mead-symbolischer Interaktionismus.", en: "Mead symbolic interactionism." } },
+    { word: "die Systemtheorie (Luhmann)", phonetic: "züs-tem-tay-oh-ree", meaning: "systems theory (Luhmann)", gender: "die", example: { de: "Luhmanns Systemtheorie.", en: "Luhmann's systems theory." } },
+    { word: "die Lebensqualität", phonetic: "lay-bens-kva-li-tayt", meaning: "quality of life", gender: "die", example: { de: "Messung der Lebensqualität.", en: "Measuring quality of life." } },
+    { word: "die soziale Ungleichheit", phonetic: "zo-tsee-ah-luh oon-glykh-hyte", meaning: "social inequality", gender: "die", example: { de: "Globale soziale Ungleichheit.", en: "Global social inequality." } },
+  ]}] },
+};

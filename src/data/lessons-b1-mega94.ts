@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega94: Record<string, Lesson> = {
+  "lb1_m145": { id: "lb1_m145", title: "Energy & Sustainability B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Energie", phonetic: "e-ner-gee", meaning: "energy", gender: "die", example: { de: "Erneuerbare Energie.", en: "Renewable energy." } },
+    { word: "die erneuerbare Energie", phonetic: "er-noy-er-bah-ruh e-ner-gee", meaning: "renewable energy", gender: "die", example: { de: "Ausbau erneuerbarer Energie.", en: "Expansion of renewable energy." } },
+    { word: "die Solarenergie", phonetic: "zo-lar-e-ner-gee", meaning: "solar energy", gender: "die", example: { de: "Solarenergie nutzen.", en: "Use solar energy." } },
+    { word: "die Windenergie", phonetic: "vint-e-ner-gee", meaning: "wind energy", gender: "die", example: { de: "Offshore-Windenergie.", en: "Offshore wind energy." } },
+    { word: "die Wasserkraft", phonetic: "va-ser-kraft", meaning: "hydropower", gender: "die", example: { de: "Wasserkraftwerk.", en: "Hydroelectric power station." } },
+    { word: "die Kernenergie", phonetic: "kern-e-ner-gee", meaning: "nuclear energy", gender: "die", example: { de: "Umstrittene Kernenergie.", en: "Controversial nuclear energy." } },
+    { word: "das Kraftwerk", phonetic: "kraft-verk", meaning: "power station", gender: "das", example: { de: "Kohlekraftwerk.", en: "Coal power station." } },
+    { word: "der CO₂-Ausstoß", phonetic: "tsay-oh-tsvay-ows-shtoss", meaning: "CO₂ emissions", gender: "der", example: { de: "CO₂-Ausstoß reduzieren.", en: "Reduce CO₂ emissions." } },
+    { word: "die Nachhaltigkeit", phonetic: "nakh-hal-tikh-kyte", meaning: "sustainability", gender: "die", example: { de: "Ökologische Nachhaltigkeit.", en: "Ecological sustainability." } },
+    { word: "der ökologische Fußabdruck", phonetic: "ö-ko-lo-gi-shuh foos-ap-drook", meaning: "ecological footprint", gender: "der", example: { de: "Ökologischen Fußabdruck verringern.", en: "Reduce ecological footprint." } },
+    { word: "die Energiewende", phonetic: "e-ner-gee-ven-duh", meaning: "energy transition", gender: "die", example: { de: "Deutsche Energiewende.", en: "German energy transition." } },
+    { word: "das Treibhausgas", phonetic: "tryp-hows-gahs", meaning: "greenhouse gas", gender: "das", example: { de: "Treibhausgasemissionen.", en: "Greenhouse gas emissions." } },
+    { word: "der Treibhauseffekt", phonetic: "tryp-hows-e-fekt", meaning: "greenhouse effect", gender: "der", example: { de: "Verstärkter Treibhauseffekt.", en: "Enhanced greenhouse effect." } },
+    { word: "die Elektromobilität", phonetic: "e-lek-tro-mo-bi-li-tayt", meaning: "electric mobility", gender: "die", example: { de: "Förderung der Elektromobilität.", en: "Promotion of electric mobility." } },
+    { word: "die Energieeffizienz", phonetic: "e-ner-gee-e-fi-tsee-ents", meaning: "energy efficiency", gender: "die", example: { de: "Energieeffizienz verbessern.", en: "Improve energy efficiency." } },
+    { word: "das Recycling", phonetic: "ri-sy-kling", meaning: "recycling", gender: "das", example: { de: "Recycling betreiben.", en: "Do recycling." } },
+    { word: "die Mülltrennung", phonetic: "mül-tren-nung", meaning: "waste separation", gender: "die", example: { de: "Konsequente Mülltrennung.", en: "Consistent waste separation." } },
+    { word: "der Umweltschutz", phonetic: "oom-velt-shoots", meaning: "environmental protection", gender: "der", example: { de: "Aktiver Umweltschutz.", en: "Active environmental protection." } },
+    { word: "klimaneutral", phonetic: "klee-ma-noy-trahl", meaning: "climate neutral / carbon neutral", example: { de: "Klimaneutral wirtschaften.", en: "Operate in a climate-neutral way." } },
+    { word: "die Wärmepumpe", phonetic: "ver-muh-poom-puh", meaning: "heat pump", gender: "die", example: { de: "Effiziente Wärmepumpe.", en: "Efficient heat pump." } },
+  ]}] },
+};

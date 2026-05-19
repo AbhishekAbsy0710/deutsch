@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega92: Record<string, Lesson> = {
+  "lb2_m137": { id: "lb2_m137", title: "Electrochemistry B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Elektrochemie", phonetic: "e-lek-tro-khe-mee", meaning: "electrochemistry", gender: "die", example: { de: "Grundlagen der Elektrochemie.", en: "Fundamentals of electrochemistry." } },
+    { word: "die Elektrode", phonetic: "e-lek-troh-duh", meaning: "electrode", gender: "die", example: { de: "Positive Elektrode.", en: "Positive electrode." } },
+    { word: "die Anode", phonetic: "a-noh-duh", meaning: "anode", gender: "die", example: { de: "Oxidation an der Anode.", en: "Oxidation at the anode." } },
+    { word: "die Kathode", phonetic: "ka-toh-duh", meaning: "cathode", gender: "die", example: { de: "Reduktion an der Kathode.", en: "Reduction at the cathode." } },
+    { word: "der Elektrolyt", phonetic: "e-lek-tro-lüt", meaning: "electrolyte", gender: "der", example: { de: "Wässriger Elektrolyt.", en: "Aqueous electrolyte." } },
+    { word: "die Elektrolyse", phonetic: "e-lek-tro-lü-zuh", meaning: "electrolysis", gender: "die", example: { de: "Wasserelektrolyse.", en: "Water electrolysis." } },
+    { word: "die galvanische Zelle", phonetic: "gal-vah-ni-shuh tse-luh", meaning: "galvanic cell", gender: "die", example: { de: "Daniell-galvanische Zelle.", en: "Daniell galvanic cell." } },
+    { word: "das Elektropotenzial", phonetic: "e-lek-tro-po-ten-tsee-ahl", meaning: "electrode potential", gender: "das", example: { de: "Standardelektropotenzial.", en: "Standard electrode potential." } },
+    { word: "die Nernst-Gleichung", phonetic: "nernst-gly-khung", meaning: "Nernst equation", gender: "die", example: { de: "Konzentrationsabhängigkeit Nernst-Gleichung.", en: "Concentration dependence Nernst equation." } },
+    { word: "der Faraday-Strom", phonetic: "fa-ra-day-shtrom", meaning: "Faradaic current", gender: "der", example: { de: "Faraday-Strom bei Elektrolyse.", en: "Faradaic current in electrolysis." } },
+    { word: "das Faraday-Gesetz", phonetic: "fa-ra-day-geh-zets", meaning: "Faraday's law", gender: "das", example: { de: "Elektrolytisches Faraday-Gesetz.", en: "Electrolytic Faraday's law." } },
+    { word: "die Überspannung", phonetic: "ü-ber-shpa-nung", meaning: "overpotential", gender: "die", example: { de: "Wasserstoffüberspannung.", en: "Hydrogen overpotential." } },
+    { word: "die Lithium-Ionen-Batterie", phonetic: "li-ti-um-i-oh-nen-ba-te-ree", meaning: "lithium-ion battery", gender: "die", example: { de: "Aufladbare Lithium-Ionen-Batterie.", en: "Rechargeable lithium-ion battery." } },
+    { word: "die Brennstoffzelle", phonetic: "bren-shtof-tse-luh", meaning: "fuel cell", gender: "die", example: { de: "Wasserstoff-Brennstoffzelle.", en: "Hydrogen fuel cell." } },
+    { word: "die Korrosion (elektrochemisch)", phonetic: "ko-ro-zee-ohn", meaning: "corrosion (electrochemical)", gender: "die", example: { de: "Elektrochemische Korrosion.", en: "Electrochemical corrosion." } },
+    { word: "die elektrochemische Impedanzspektroskopie", phonetic: "e-lek-tro-khe-mi-shuh im-pe-dants-shpek-tro-sko-pee", meaning: "electrochemical impedance spectroscopy (EIS)", gender: "die", example: { de: "EIS-Messung.", en: "EIS measurement." } },
+    { word: "die Voltammetrie", phonetic: "vol-ta-me-tree", meaning: "voltammetry", gender: "die", example: { de: "Cyclische Voltammetrie.", en: "Cyclic voltammetry." } },
+    { word: "die Leitfähigkeit (elektrochemisch)", phonetic: "lyte-feh-ikh-kyte", meaning: "conductivity (electrochemical)", gender: "die", example: { de: "Ionische Leitfähigkeit.", en: "Ionic conductivity." } },
+    { word: "die Passivierung", phonetic: "pa-si-vee-rung", meaning: "passivation", gender: "die", example: { de: "Aluminium-Passivierung.", en: "Aluminium passivation." } },
+    { word: "das Redoxpotenzial", phonetic: "ray-doks-po-ten-tsee-ahl", meaning: "redox potential", gender: "das", example: { de: "Biologisches Redoxpotenzial.", en: "Biological redox potential." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega93: Record<string, Lesson> = {
+  "la1_m143": { id: "la1_m143", title: "Food & Eating Out A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Frühstück", phonetic: "früh-shtük", meaning: "breakfast", gender: "das", example: { de: "Frühstück essen.", en: "Eat breakfast." } },
+    { word: "das Mittagessen", phonetic: "mi-tahk-e-sen", meaning: "lunch", gender: "das", example: { de: "Mittagessen kochen.", en: "Cook lunch." } },
+    { word: "das Abendessen", phonetic: "ah-bent-e-sen", meaning: "dinner / supper", gender: "das", example: { de: "Abendessen zubereiten.", en: "Prepare dinner." } },
+    { word: "das Restaurant", phonetic: "res-toh-rang", meaning: "restaurant", gender: "das", example: { de: "Im Restaurant essen.", en: "Eat in the restaurant." } },
+    { word: "das Brot", phonetic: "broht", meaning: "bread", gender: "das", example: { de: "Frisches Brot.", en: "Fresh bread." } },
+    { word: "die Butter", phonetic: "boo-ter", meaning: "butter", gender: "die", example: { de: "Butter aufs Brot.", en: "Butter on the bread." } },
+    { word: "das Ei", phonetic: "eye", meaning: "egg", gender: "das", example: { de: "Gekochtes Ei.", en: "Boiled egg." } },
+    { word: "die Milch", phonetic: "milkh", meaning: "milk", gender: "die", example: { de: "Glas Milch trinken.", en: "Drink a glass of milk." } },
+    { word: "der Käse", phonetic: "kay-zuh", meaning: "cheese", gender: "der", example: { de: "Deutscher Käse.", en: "German cheese." } },
+    { word: "das Fleisch", phonetic: "flysh", meaning: "meat", gender: "das", example: { de: "Gebratenes Fleisch.", en: "Fried meat." } },
+    { word: "der Fisch", phonetic: "fish", meaning: "fish", gender: "der", example: { de: "Frischer Fisch.", en: "Fresh fish." } },
+    { word: "das Gemüse", phonetic: "geh-mü-zuh", meaning: "vegetables", gender: "das", example: { de: "Frisches Gemüse.", en: "Fresh vegetables." } },
+    { word: "das Obst", phonetic: "ohpst", meaning: "fruit", gender: "das", example: { de: "Frisches Obst essen.", en: "Eat fresh fruit." } },
+    { word: "die Kartoffel", phonetic: "kar-to-fel", meaning: "potato", gender: "die", example: { de: "Gekochte Kartoffeln.", en: "Boiled potatoes." } },
+    { word: "der Reis", phonetic: "ryse", meaning: "rice", gender: "der", example: { de: "Reis kochen.", en: "Cook rice." } },
+    { word: "die Nudeln", phonetic: "noo-deln", meaning: "pasta / noodles", example: { de: "Nudeln mit Soße.", en: "Pasta with sauce." } },
+    { word: "das Wasser", phonetic: "va-ser", meaning: "water", gender: "das", example: { de: "Ein Glas Wasser.", en: "A glass of water." } },
+    { word: "der Saft", phonetic: "zaft", meaning: "juice", gender: "der", example: { de: "Frischer Orangensaft.", en: "Fresh orange juice." } },
+    { word: "lecker", phonetic: "le-ker", meaning: "delicious / tasty", example: { de: "Das schmeckt lecker!", en: "That tastes delicious!" } },
+    { word: "die Speisekarte", phonetic: "shpy-zuh-kar-tuh", meaning: "menu", gender: "die", example: { de: "Die Speisekarte bitte.", en: "The menu please." } },
+  ]}] },
+};

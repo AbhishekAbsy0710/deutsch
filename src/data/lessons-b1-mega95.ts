@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega95: Record<string, Lesson> = {
+  "lb1_m146": { id: "lb1_m146", title: "Digital Society B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Digitalisierung", phonetic: "di-gi-ta-li-zee-rung", meaning: "digitalisation", gender: "die", example: { de: "Fortschreitende Digitalisierung.", en: "Advancing digitalisation." } },
+    { word: "künstliche Intelligenz", phonetic: "künst-li-khuh in-te-li-gents", meaning: "artificial intelligence (AI)", example: { de: "Künstliche Intelligenz im Alltag.", en: "Artificial intelligence in everyday life." } },
+    { word: "der Algorithmus", phonetic: "al-go-rit-mus", meaning: "algorithm", gender: "der", example: { de: "Datengetriebener Algorithmus.", en: "Data-driven algorithm." } },
+    { word: "die Daten", phonetic: "dah-ten", meaning: "data", example: { de: "Persönliche Daten schützen.", en: "Protect personal data." } },
+    { word: "der Datenschutz", phonetic: "dah-ten-shoots", meaning: "data protection", gender: "der", example: { de: "Europäischer Datenschutz.", en: "European data protection." } },
+    { word: "die Cybersicherheit", phonetic: "sy-ber-zi-kher-hyte", meaning: "cybersecurity", gender: "die", example: { de: "Cybersicherheit stärken.", en: "Strengthen cybersecurity." } },
+    { word: "das Cloud-Computing", phonetic: "klowd-kom-pyoo-ting", meaning: "cloud computing", gender: "das", example: { de: "Cloud-Computing nutzen.", en: "Use cloud computing." } },
+    { word: "die Plattformökonomie", phonetic: "plat-form-ö-ko-no-mee", meaning: "platform economy", gender: "die", example: { de: "Wachsende Plattformökonomie.", en: "Growing platform economy." } },
+    { word: "das Smart Home", phonetic: "smart-hohm", meaning: "smart home", gender: "das", example: { de: "Vernetztes Smart Home.", en: "Connected smart home." } },
+    { word: "das Internet der Dinge", phonetic: "in-ter-net-der-ding-uh", meaning: "Internet of Things (IoT)", gender: "das", example: { de: "Internet der Dinge-Geräte.", en: "Internet of Things devices." } },
+    { word: "die Automatisierung", phonetic: "ow-to-ma-ti-zee-rung", meaning: "automation", gender: "die", example: { de: "Industrielle Automatisierung.", en: "Industrial automation." } },
+    { word: "das maschinelle Lernen", phonetic: "ma-shee-ne-luh ler-nen", meaning: "machine learning", gender: "das", example: { de: "Maschinelles Lernen anwenden.", en: "Apply machine learning." } },
+    { word: "die digitale Kluft", phonetic: "di-gi-tah-luh klooft", meaning: "digital divide", gender: "die", example: { de: "Digitale Kluft überwinden.", en: "Bridge the digital divide." } },
+    { word: "die Desinformation", phonetic: "des-in-for-ma-tsee-ohn", meaning: "disinformation", gender: "die", example: { de: "Desinformation bekämpfen.", en: "Combat disinformation." } },
+    { word: "der Datenskandal", phonetic: "dah-ten-skan-dahl", meaning: "data scandal", gender: "der", example: { de: "Sozialer Medien Datenskandal.", en: "Social media data scandal." } },
+    { word: "die Überwachung", phonetic: "ü-ber-va-khung", meaning: "surveillance", gender: "die", example: { de: "Digitale Überwachung.", en: "Digital surveillance." } },
+    { word: "die digitale Identität", phonetic: "di-gi-tah-luh i-den-ti-tayt", meaning: "digital identity", gender: "die", example: { de: "Digitale Identität verwalten.", en: "Manage digital identity." } },
+    { word: "das Blockchain", phonetic: "blok-cheyn", meaning: "blockchain", gender: "die", example: { de: "Dezentrale Blockchain.", en: "Decentralised blockchain." } },
+    { word: "die App-Wirtschaft", phonetic: "ap-virt-shaft", meaning: "app economy", gender: "die", example: { de: "Wachsende App-Wirtschaft.", en: "Growing app economy." } },
+    { word: "der digitale Wandel", phonetic: "di-gi-tah-ler van-del", meaning: "digital transformation", gender: "der", example: { de: "Digitaler Wandel in Unternehmen.", en: "Digital transformation in companies." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega90: Record<string, Lesson> = {
+  "lc2_m133": { id: "lc2_m133", title: "Advanced K-Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die K-Theorie", phonetic: "kah-tay-oh-ree", meaning: "K-theory", gender: "die", example: { de: "Algebraische K-Theorie.", en: "Algebraic K-theory." } },
+    { word: "der Grothendieck-Gruppe", phonetic: "groh-ten-deek-groo-puh", meaning: "Grothendieck group (K₀)", gender: "die", example: { de: "K₀-Grothendieck-Gruppe.", en: "K₀ Grothendieck group." } },
+    { word: "der Vektorbündel", phonetic: "vek-tor-bün-del", meaning: "vector bundle", gender: "der", example: { de: "Glatter Vektorbündel.", en: "Smooth vector bundle." } },
+    { word: "die topologische K-Theorie", phonetic: "to-po-lo-gi-shuh kah-tay-oh-ree", meaning: "topological K-theory", gender: "die", example: { de: "Atiyah-Hirzebruch topologische K-Theorie.", en: "Atiyah-Hirzebruch topological K-theory." } },
+    { word: "der Satz von Bott-Periodizität", phonetic: "zats-fon-bot-pe-ri-oh-di-tsi-tayt", meaning: "Bott periodicity theorem", gender: "der", example: { de: "Komplexe Bott-Periodizität.", en: "Complex Bott periodicity." } },
+    { word: "das Atiyah-Singer-Indextheorem", phonetic: "a-tee-ya-sing-er-in-deks-tay-oh-rem", meaning: "Atiyah-Singer index theorem", gender: "das", example: { de: "Elliptisches Atiyah-Singer-Indextheorem.", en: "Elliptic Atiyah-Singer index theorem." } },
+    { word: "der analytische Index", phonetic: "a-na-lü-ti-shuh in-deks", meaning: "analytical index", gender: "der", example: { de: "Fredholm-analytischer Index.", en: "Fredholm analytical index." } },
+    { word: "der topologische Index", phonetic: "to-po-lo-gi-shuh in-deks", meaning: "topological index", gender: "der", example: { de: "Chern-Charakter topologischer Index.", en: "Chern character topological index." } },
+    { word: "der Chern-Charakter", phonetic: "tsern-kha-rak-ter", meaning: "Chern character", gender: "der", example: { de: "Rationaler Chern-Charakter.", en: "Rational Chern character." } },
+    { word: "die Milnor-K-Theorie", phonetic: "mil-nor-kah-tay-oh-ree", meaning: "Milnor K-theory", gender: "die", example: { de: "Milnor-K-Gruppen.", en: "Milnor K-groups." } },
+    { word: "der Quillen-K-Theorie", phonetic: "kvil-en-kah-tay-oh-ree", meaning: "Quillen K-theory", gender: "die", example: { de: "Höhere Quillen-K-Theorie.", en: "Higher Quillen K-theory." } },
+    { word: "die motivische K-Theorie", phonetic: "mo-tee-vi-shuh kah-tay-oh-ree", meaning: "motivic K-theory", gender: "die", example: { de: "Voevodskysche motivische K-Theorie.", en: "Voevodsky motivic K-theory." } },
+    { word: "die equivariante K-Theorie", phonetic: "e-kvi-va-ri-an-tuh kah-tay-oh-ree", meaning: "equivariant K-theory", gender: "die", example: { de: "Segal-equivariante K-Theorie.", en: "Segal equivariant K-theory." } },
+    { word: "die KK-Theorie (Kasparov)", phonetic: "kah-kah-tay-oh-ree", meaning: "KK-theory (Kasparov)", gender: "die", example: { de: "Kasparovs KK-Theorie.", en: "Kasparov's KK-theory." } },
+    { word: "die C*-Algebra-K-Theorie", phonetic: "tsay-shtern-al-ge-bra-kah-tay-oh-ree", meaning: "C*-algebra K-theory", gender: "die", example: { de: "K-Theorie von C*-Algebren.", en: "K-theory of C*-algebras." } },
+    { word: "das Bass-Fundierungstheorem", phonetic: "bas-foon-dee-rungs-tay-oh-rem", meaning: "Bass fundamental theorem", gender: "das", example: { de: "Bass-NK-Gruppen.", en: "Bass NK-groups." } },
+    { word: "die Waldhausen-K-Theorie", phonetic: "valt-how-zen-kah-tay-oh-ree", meaning: "Waldhausen K-theory", gender: "die", example: { de: "S-Dot-Konstruktion Waldhausen.", en: "S-dot construction Waldhausen." } },
+    { word: "die motivische Kohomologie", phonetic: "mo-tee-vi-shuh ko-ho-mo-lo-gee", meaning: "motivic cohomology", gender: "die", example: { de: "Bloch-motivische Kohomologie.", en: "Bloch motivic cohomology." } },
+    { word: "die algebraische Zyklen", phonetic: "al-ge-bray-i-shuh tsük-len", meaning: "algebraic cycles", example: { de: "Chow-Gruppen algebraische Zyklen.", en: "Chow groups algebraic cycles." } },
+    { word: "die Vermutung von Bass", phonetic: "fer-moo-tung fon bas", meaning: "Bass conjecture", gender: "die", example: { de: "Endliche Erzeugtheit Bass-Vermutung.", en: "Finite generation Bass conjecture." } },
+  ]}] },
+};

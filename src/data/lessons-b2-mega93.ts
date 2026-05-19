@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega93: Record<string, Lesson> = {
+  "lb2_m138": { id: "lb2_m138", title: "Quantum Field Theory Basics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Quantenfeldtheorie", phonetic: "kvant-en-felt-tay-oh-ree", meaning: "quantum field theory (QFT)", gender: "die", example: { de: "Relativistische Quantenfeldtheorie.", en: "Relativistic quantum field theory." } },
+    { word: "das Feld (Physik)", phonetic: "felt", meaning: "field (physics)", gender: "das", example: { de: "Quantisiertes Feld.", en: "Quantised field." } },
+    { word: "das Quant", phonetic: "kvant", meaning: "quantum", gender: "das", example: { de: "Energiequant.", en: "Energy quantum." } },
+    { word: "das Feynman-Diagramm", phonetic: "fayn-man-di-a-gram", meaning: "Feynman diagram", gender: "das", example: { de: "Wechselwirkung Feynman-Diagramm.", en: "Interaction Feynman diagram." } },
+    { word: "der Propagator", phonetic: "pro-pa-ga-tor", meaning: "propagator", gender: "der", example: { de: "Freier Skalar-Propagator.", en: "Free scalar propagator." } },
+    { word: "der Vertex (QFT)", phonetic: "ver-teks", meaning: "vertex (QFT)", gender: "der", example: { de: "Wechselwirkungsvertex.", en: "Interaction vertex." } },
+    { word: "die Renormierung", phonetic: "re-nor-mee-rung", meaning: "renormalisation", gender: "die", example: { de: "Störungstheoretische Renormierung.", en: "Perturbative renormalisation." } },
+    { word: "die Eichinvarianz", phonetic: "aykh-in-va-ri-ants", meaning: "gauge invariance", gender: "die", example: { de: "Lokale Eichinvarianz.", en: "Local gauge invariance." } },
+    { word: "die Eichtheorie", phonetic: "aykh-tay-oh-ree", meaning: "gauge theory", gender: "die", example: { de: "Yang-Mills-Eichtheorie.", en: "Yang-Mills gauge theory." } },
+    { word: "der Lagrangian", phonetic: "la-grang-ee-an", meaning: "Lagrangian (QFT)", gender: "der", example: { de: "Wechselwirkungs-Lagrangian.", en: "Interaction Lagrangian." } },
+    { word: "der Pfadintegral (Feynman)", phonetic: "pfat-in-te-grahl", meaning: "path integral (Feynman)", gender: "das", example: { de: "Feynman-Pfadintegral.", en: "Feynman path integral." } },
+    { word: "die spontane Symmetriebrechung", phonetic: "shpon-tah-nuh züm-me-tree-bre-khung", meaning: "spontaneous symmetry breaking", gender: "die", example: { de: "Higgs-spontane Symmetriebrechung.", en: "Higgs spontaneous symmetry breaking." } },
+    { word: "der Higgs-Mechanismus", phonetic: "hiks-me-kha-nis-mus", meaning: "Higgs mechanism", gender: "der", example: { de: "Massenerzeugung Higgs-Mechanismus.", en: "Mass generation Higgs mechanism." } },
+    { word: "das Standardmodell (Teilchen)", phonetic: "shtan-dart-mo-del", meaning: "Standard Model (particle physics)", gender: "das", example: { de: "SM-Standardmodell.", en: "SM Standard Model." } },
+    { word: "die Quantenelektrodynamik", phonetic: "kvant-en-e-lek-tro-dü-na-mik", meaning: "quantum electrodynamics (QED)", gender: "die", example: { de: "QED-Quantenelektrodynamik.", en: "QED quantum electrodynamics." } },
+    { word: "die Quantenchromodynamik", phonetic: "kvant-en-kro-mo-dü-na-mik", meaning: "quantum chromodynamics (QCD)", gender: "die", example: { de: "QCD-Quarkgluon-Plasma.", en: "QCD quark-gluon plasma." } },
+    { word: "das Boson", phonetic: "boh-zon", meaning: "boson", gender: "das", example: { de: "W-Boson.", en: "W boson." } },
+    { word: "das Fermion", phonetic: "fer-mi-on", meaning: "fermion", gender: "das", example: { de: "Dirac-Fermion.", en: "Dirac fermion." } },
+    { word: "die Supersymmetrie", phonetic: "zoo-per-züm-me-tree", meaning: "supersymmetry (SUSY)", gender: "die", example: { de: "Broken-Supersymmetrie.", en: "Broken supersymmetry." } },
+    { word: "die Stringtheorie", phonetic: "shtrink-tay-oh-ree", meaning: "string theory", gender: "die", example: { de: "Superstringtheorie.", en: "Superstring theory." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega92: Record<string, Lesson> = {
+  "la2_m137": { id: "la2_m137", title: "Community & City Life A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Stadt", phonetic: "shtat", meaning: "city / town", gender: "die", example: { de: "In der Stadt wohnen.", en: "Live in the city." } },
+    { word: "das Dorf", phonetic: "dorf", meaning: "village", gender: "das", example: { de: "Ein kleines Dorf.", en: "A small village." } },
+    { word: "die Straße", phonetic: "shtrah-suh", meaning: "street / road", gender: "die", example: { de: "Die Hauptstraße.", en: "The main street." } },
+    { word: "der Platz", phonetic: "plats", meaning: "square / place", gender: "der", example: { de: "Auf dem Marktplatz.", en: "On the market square." } },
+    { word: "die Kirche", phonetic: "kir-khuh", meaning: "church", gender: "die", example: { de: "Alte Kirche.", en: "Old church." } },
+    { word: "das Rathaus", phonetic: "raht-hows", meaning: "town hall", gender: "das", example: { de: "Das Rathaus besuchen.", en: "Visit the town hall." } },
+    { word: "die Post", phonetic: "post", meaning: "post office", gender: "die", example: { de: "Zur Post gehen.", en: "Go to the post office." } },
+    { word: "das Krankenhaus", phonetic: "kran-ken-hows", meaning: "hospital", gender: "das", example: { de: "Das nächste Krankenhaus.", en: "The nearest hospital." } },
+    { word: "die Apotheke", phonetic: "a-po-tay-kuh", meaning: "pharmacy / chemist", gender: "die", example: { de: "In die Apotheke gehen.", en: "Go to the pharmacy." } },
+    { word: "der Supermarkt", phonetic: "zoo-per-markt", meaning: "supermarket", gender: "der", example: { de: "Im Supermarkt einkaufen.", en: "Shop at the supermarket." } },
+    { word: "der Park", phonetic: "park", meaning: "park", gender: "der", example: { de: "Im Park spazieren.", en: "Walk in the park." } },
+    { word: "die Brücke", phonetic: "brü-kuh", meaning: "bridge", gender: "die", example: { de: "Über die Brücke gehen.", en: "Walk over the bridge." } },
+    { word: "der Bürgersteig", phonetic: "bür-ger-shtyg", meaning: "pavement / sidewalk", gender: "der", example: { de: "Auf dem Bürgersteig gehen.", en: "Walk on the pavement." } },
+    { word: "die Kreuzung", phonetic: "kroyt-sung", meaning: "crossroads / intersection", gender: "die", example: { de: "An der Kreuzung.", en: "At the crossroads." } },
+    { word: "die Ampel", phonetic: "am-pel", meaning: "traffic light", gender: "die", example: { de: "Bei Rot stoppen.", en: "Stop at red." } },
+    { word: "das Stadtzentrum", phonetic: "shtat-tsen-trum", meaning: "city centre", gender: "das", example: { de: "Im Stadtzentrum.", en: "In the city centre." } },
+    { word: "der Vorort", phonetic: "for-ort", meaning: "suburb", gender: "der", example: { de: "Im Vorort wohnen.", en: "Live in the suburbs." } },
+    { word: "der Nachbar", phonetic: "nakh-bar", meaning: "neighbour", gender: "der", example: { de: "Freundlicher Nachbar.", en: "Friendly neighbour." } },
+    { word: "die Gemeinde", phonetic: "geh-myn-duh", meaning: "community / municipality", gender: "die", example: { de: "Engagierte Gemeinde.", en: "Engaged community." } },
+    { word: "der Stadtplan", phonetic: "shtat-plahn", meaning: "city map", gender: "der", example: { de: "Den Stadtplan lesen.", en: "Read the city map." } },
+  ]}] },
+};
