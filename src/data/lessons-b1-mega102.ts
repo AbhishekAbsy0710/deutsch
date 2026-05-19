@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega102: Record<string, Lesson> = {
+  "lb1_m153": { id: "lb1_m153", title: "Sociology Basics B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Soziologie", phonetic: "zo-tsee-oh-lo-gee", meaning: "sociology", gender: "die", example: { de: "Empirische Soziologie.", en: "Empirical sociology." } },
+    { word: "die Gesellschaft", phonetic: "geh-zel-shaft", meaning: "society", gender: "die", example: { de: "Moderne Gesellschaft.", en: "Modern society." } },
+    { word: "die soziale Klasse", phonetic: "zo-tsee-ah-luh-kla-suh", meaning: "social class", gender: "die", example: { de: "Marx soziale Klasse.", en: "Marx social class." } },
+    { word: "das soziale Kapital (Bourdieu)", phonetic: "zo-tsee-ah-luh-ka-pi-tahl", meaning: "social capital (Bourdieu)", gender: "das", example: { de: "Bourdieus soziales Kapital.", en: "Bourdieu's social capital." } },
+    { word: "der Habitus (Bourdieu)", phonetic: "ha-bi-tus", meaning: "habitus (Bourdieu)", gender: "der", example: { de: "Bourdieus Habitus-Konzept.", en: "Bourdieu's habitus concept." } },
+    { word: "die soziale Mobilität", phonetic: "zo-tsee-ah-luh-mo-bi-li-tayt", meaning: "social mobility", gender: "die", example: { de: "Aufwärts soziale Mobilität.", en: "Upward social mobility." } },
+    { word: "die Norm (Soziologie)", phonetic: "norm", meaning: "norm (sociology)", gender: "die", example: { de: "Gesellschaftliche Normen.", en: "Social norms." } },
+    { word: "die Sozialisation", phonetic: "zo-tsee-a-li-za-tsee-ohn", meaning: "socialisation", gender: "die", example: { de: "Primäre Sozialisation.", en: "Primary socialisation." } },
+    { word: "die Institution (Soziologie)", phonetic: "in-sti-too-tsee-ohn", meaning: "institution (sociology)", gender: "die", example: { de: "Gesellschaftliche Institution.", en: "Social institution." } },
+    { word: "die soziale Ungleichheit", phonetic: "zo-tsee-ah-luh-oon-gly-khy", meaning: "social inequality", gender: "die", example: { de: "Strukturelle soziale Ungleichheit.", en: "Structural social inequality." } },
+    { word: "die Bürokratie (Weber)", phonetic: "bü-ro-kra-tee", meaning: "bureaucracy (Weber)", gender: "die", example: { de: "Webers Bürokratie.", en: "Weber's bureaucracy." } },
+    { word: "die Rationalisierung (Weber)", phonetic: "ra-tsee-oh-na-li-zee-rung", meaning: "rationalisation (Weber)", gender: "die", example: { de: "Webers Rationalisierung.", en: "Weber's rationalisation." } },
+    { word: "die Anomie (Durkheim)", phonetic: "a-no-mee", meaning: "anomie (Durkheim)", gender: "die", example: { de: "Durkheims Anomie.", en: "Durkheim's anomie." } },
+    { word: "der Funktionalismus (Soziologie)", phonetic: "foonk-tsee-oh-na-lis-mus", meaning: "functionalism (sociology)", gender: "der", example: { de: "Parsons struktureller Funktionalismus.", en: "Parsons structural functionalism." } },
+    { word: "der Konfliktansatz (Marx)", phonetic: "kon-flikt-an-zats", meaning: "conflict theory (Marx)", gender: "der", example: { de: "Marxistischer Konfliktansatz.", en: "Marxist conflict theory." } },
+    { word: "der Symbolische Interaktionismus (Mead)", phonetic: "züm-bo-li-shuh-in-ter-ak-tsee-oh-nis-mus", meaning: "symbolic interactionism (Mead)", gender: "der", example: { de: "Meads symbolischer Interaktionismus.", en: "Mead's symbolic interactionism." } },
+    { word: "das Stigma (Goffman)", phonetic: "shtig-mah", meaning: "stigma (Goffman)", gender: "das", example: { de: "Goffmans Stigma-Konzept.", en: "Goffman's stigma concept." } },
+    { word: "die Globalisierung (soziologisch)", phonetic: "glo-ba-li-zee-rung", meaning: "globalisation (sociological)", gender: "die", example: { de: "Giddenssche Globalisierung.", en: "Giddens's globalisation." } },
+    { word: "die soziale Bewegung", phonetic: "zo-tsee-ah-luh-beh-vay-gung", meaning: "social movement", gender: "die", example: { de: "Neue soziale Bewegungen.", en: "New social movements." } },
+    { word: "der Nationalismus (soziologisch)", phonetic: "na-tsee-oh-na-lis-mus", meaning: "nationalism (sociological)", gender: "der", example: { de: "Andersons Nationalismus.", en: "Anderson's nationalism." } },
+  ]}] },
+};

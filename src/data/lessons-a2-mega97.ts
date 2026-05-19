@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega97: Record<string, Lesson> = {
+  "la2_m142": { id: "la2_m142", title: "Shopping & Clothing A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "einkaufen", phonetic: "ayn-kow-fen", meaning: "to go shopping", example: { de: "Im Laden einkaufen.", en: "Shop in the store." } },
+    { word: "das Geschäft", phonetic: "geh-sheft", meaning: "shop / store", gender: "das", example: { de: "Ein kleines Geschäft.", en: "A small shop." } },
+    { word: "die Kleidung", phonetic: "kly-dung", meaning: "clothing", gender: "die", example: { de: "Neue Kleidung kaufen.", en: "Buy new clothing." } },
+    { word: "das Hemd", phonetic: "hemt", meaning: "shirt", gender: "das", example: { de: "Ein weißes Hemd.", en: "A white shirt." } },
+    { word: "die Bluse", phonetic: "bloo-zuh", meaning: "blouse", gender: "die", example: { de: "Eine elegante Bluse.", en: "An elegant blouse." } },
+    { word: "die Hose", phonetic: "hoh-zuh", meaning: "trousers / pants", gender: "die", example: { de: "Eine blaue Hose.", en: "Blue trousers." } },
+    { word: "der Rock", phonetic: "rok", meaning: "skirt", gender: "der", example: { de: "Ein kurzer Rock.", en: "A short skirt." } },
+    { word: "das Kleid", phonetic: "klyt", meaning: "dress", gender: "das", example: { de: "Ein schönes Kleid.", en: "A beautiful dress." } },
+    { word: "der Mantel", phonetic: "man-tel", meaning: "coat", gender: "der", example: { de: "Ein warmer Mantel.", en: "A warm coat." } },
+    { word: "die Jacke", phonetic: "ya-kuh", meaning: "jacket", gender: "die", example: { de: "Eine leichte Jacke.", en: "A light jacket." } },
+    { word: "der Schuh", phonetic: "shoo", meaning: "shoe", gender: "der", example: { de: "Neue Schuhe kaufen.", en: "Buy new shoes." } },
+    { word: "die Größe", phonetic: "grö-suh", meaning: "size", gender: "die", example: { de: "Welche Größe tragen Sie?", en: "What size do you wear?" } },
+    { word: "passen", phonetic: "pa-sen", meaning: "to fit", example: { de: "Das Kleid passt gut.", en: "The dress fits well." } },
+    { word: "anprobieren", phonetic: "an-pro-bee-ren", meaning: "to try on", example: { de: "Das Hemd anprobieren.", en: "Try on the shirt." } },
+    { word: "die Umkleidekabine", phonetic: "oom-kly-duh-ka-bee-nuh", meaning: "changing room", gender: "die", example: { de: "In die Umkleidekabine.", en: "Into the changing room." } },
+    { word: "der Preis", phonetic: "pryce", meaning: "price", gender: "der", example: { de: "Der Preis ist hoch.", en: "The price is high." } },
+    { word: "der Rabatt", phonetic: "ra-bat", meaning: "discount", gender: "der", example: { de: "Einen Rabatt bekommen.", en: "Get a discount." } },
+    { word: "die Kasse", phonetic: "ka-suh", meaning: "checkout / till", gender: "die", example: { de: "An der Kasse zahlen.", en: "Pay at the checkout." } },
+    { word: "der Beleg", phonetic: "beh-leyk", meaning: "receipt", gender: "der", example: { de: "Den Beleg aufbewahren.", en: "Keep the receipt." } },
+    { word: "umtauschen", phonetic: "oom-tow-shen", meaning: "to exchange / return", example: { de: "Etwas umtauschen.", en: "Exchange something." } },
+  ]}] },
+};

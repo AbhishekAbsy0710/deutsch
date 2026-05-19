@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega102: Record<string, Lesson> = {
+  "la1_m152": { id: "la1_m152", title: "Basic Prepositions A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "in", phonetic: "in", meaning: "in / into", example: { de: "Im Haus. In die Schule.", en: "In the house. Into school." } },
+    { word: "auf", phonetic: "owf", meaning: "on / onto", example: { de: "Auf dem Tisch.", en: "On the table." } },
+    { word: "an", phonetic: "an", meaning: "at / on (vertical)", example: { de: "An der Wand.", en: "On the wall." } },
+    { word: "unter", phonetic: "oon-ter", meaning: "under / below", example: { de: "Unter dem Bett.", en: "Under the bed." } },
+    { word: "über", phonetic: "ü-ber", meaning: "over / above", example: { de: "Über dem Tisch.", en: "Above the table." } },
+    { word: "vor", phonetic: "for", meaning: "in front of / before", example: { de: "Vor dem Haus.", en: "In front of the house." } },
+    { word: "hinter", phonetic: "hin-ter", meaning: "behind", example: { de: "Hinter der Tür.", en: "Behind the door." } },
+    { word: "neben", phonetic: "nay-ben", meaning: "next to / beside", example: { de: "Neben dem Stuhl.", en: "Next to the chair." } },
+    { word: "zwischen", phonetic: "tsvish-en", meaning: "between", example: { de: "Zwischen den Stühlen.", en: "Between the chairs." } },
+    { word: "aus", phonetic: "ows", meaning: "from / out of", example: { de: "Aus Deutschland.", en: "From Germany." } },
+    { word: "mit", phonetic: "mit", meaning: "with", example: { de: "Mit dem Bus.", en: "With the bus / by bus." } },
+    { word: "ohne", phonetic: "oh-nuh", meaning: "without", example: { de: "Ohne Zucker.", en: "Without sugar." } },
+    { word: "für", phonetic: "für", meaning: "for", example: { de: "Für dich.", en: "For you." } },
+    { word: "durch", phonetic: "durrkh", meaning: "through", example: { de: "Durch den Park.", en: "Through the park." } },
+    { word: "gegen", phonetic: "gay-gen", meaning: "against / around (time)", example: { de: "Gegen acht Uhr.", en: "Around eight o'clock." } },
+    { word: "nach", phonetic: "nakh", meaning: "after / to (places)", example: { de: "Nach Hause gehen.", en: "Go home." } },
+    { word: "von", phonetic: "fon", meaning: "from / of", example: { de: "Von Berlin.", en: "From Berlin." } },
+    { word: "zu", phonetic: "tsoo", meaning: "to / at", example: { de: "Zum Bahnhof.", en: "To the station." } },
+    { word: "bei", phonetic: "by", meaning: "at / near / with", example: { de: "Bei meiner Mutter.", en: "At my mother's." } },
+    { word: "seit", phonetic: "zyt", meaning: "since / for (time)", example: { de: "Seit drei Jahren.", en: "For three years." } },
+  ]}] },
+};

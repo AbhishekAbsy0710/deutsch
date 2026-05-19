@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega101: Record<string, Lesson> = {
+  "lc1_m147": { id: "lc1_m147", title: "Postmodern Theory C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Postmoderne", phonetic: "post-mo-der-nuh", meaning: "postmodernism / postmodernity", gender: "die", example: { de: "Lyotards Postmoderne.", en: "Lyotard's postmodernism." } },
+    { word: "das große Erzählung (Lyotard)", phonetic: "groh-suh-er-tsey-lung", meaning: "grand narrative / metanarrative (Lyotard)", gender: "die", example: { de: "Ende der großen Erzählungen.", en: "End of grand narratives." } },
+    { word: "die Dekonstruktion (Derrida)", phonetic: "de-kon-strook-tsee-ohn", meaning: "deconstruction (Derrida)", gender: "die", example: { de: "Derridas Dekonstruktion.", en: "Derrida's deconstruction." } },
+    { word: "die différance (Derrida)", phonetic: "di-fe-rans", meaning: "différance (Derrida)", gender: "die", example: { de: "Derridas différance.", en: "Derrida's différance." } },
+    { word: "die Simulation (Baudrillard)", phonetic: "zi-moo-la-tsee-ohn", meaning: "simulation (Baudrillard)", gender: "die", example: { de: "Baudrillards Simulation.", en: "Baudrillard's simulation." } },
+    { word: "das Hyperreale (Baudrillard)", phonetic: "hü-per-re-ah-luh", meaning: "hyperreality (Baudrillard)", gender: "das", example: { de: "Baudrillards Hyperreale.", en: "Baudrillard's hyperreality." } },
+    { word: "das Simulakrum (Baudrillard)", phonetic: "zi-moo-lah-kroom", meaning: "simulacrum (Baudrillard)", gender: "das", example: { de: "Baudrillards Simulakrum.", en: "Baudrillard's simulacrum." } },
+    { word: "die Macht-Wissen (Foucault)", phonetic: "makht-vi-sen", meaning: "power-knowledge (Foucault)", gender: "das", example: { de: "Foucaults Macht-Wissen.", en: "Foucault's power-knowledge." } },
+    { word: "das Diskurs (Foucault)", phonetic: "dis-koors", meaning: "discourse (Foucault)", gender: "der", example: { de: "Foucaults Diskursanalyse.", en: "Foucault's discourse analysis." } },
+    { word: "das Dispositiv (Foucault)", phonetic: "dis-po-zi-teef", meaning: "dispositif (Foucault)", gender: "das", example: { de: "Foucaults Dispositiv.", en: "Foucault's dispositif." } },
+    { word: "die Genealogie (Foucault/Nietzsche)", phonetic: "ge-ne-a-lo-gee", meaning: "genealogy (Foucault/Nietzsche)", gender: "die", example: { de: "Foucaults Genealogie der Moral.", en: "Foucault's genealogy of morals." } },
+    { word: "der Rhizom (Deleuze/Guattari)", phonetic: "ri-tsohm", meaning: "rhizome (Deleuze/Guattari)", gender: "das", example: { de: "Deleuze-Guattari Rhizom.", en: "Deleuze-Guattari rhizome." } },
+    { word: "die Deterritorialisierung (Deleuze)", phonetic: "de-te-ri-to-ri-a-li-zee-rung", meaning: "deterritorialisation (Deleuze)", gender: "die", example: { de: "Deleuzsche Deterritorialisierung.", en: "Deleuzean deterritorialisation." } },
+    { word: "die Biopolitik (Foucault/Agamben)", phonetic: "bi-oh-po-li-tik", meaning: "biopolitics (Foucault/Agamben)", gender: "die", example: { de: "Agambens Biopolitik.", en: "Agamben's biopolitics." } },
+    { word: "das nackte Leben (Agamben)", phonetic: "nak-tuh-lay-ben", meaning: "bare life (Agamben)", gender: "das", example: { de: "Agambens nacktes Leben.", en: "Agamben's bare life." } },
+    { word: "die Poststrukturalismus", phonetic: "post-shtrook-too-ra-lis-mus", meaning: "poststructuralism", gender: "der", example: { de: "Französischer Poststrukturalismus.", en: "French poststructuralism." } },
+    { word: "der Logozentrismus (Derrida)", phonetic: "lo-go-tsen-tris-mus", meaning: "logocentrism (Derrida)", gender: "der", example: { de: "Derridas Logozentrismus-Kritik.", en: "Derrida's logocentrism critique." } },
+    { word: "die Textualität (Barthes)", phonetic: "teks-too-a-li-tayt", meaning: "textuality / death of the author (Barthes)", gender: "die", example: { de: "Barthes' Tod des Autors.", en: "Barthes' death of the author." } },
+    { word: "das Jouissance (Lacan/Kristeva)", phonetic: "zhu-ee-sans", meaning: "jouissance (Lacan/Kristeva)", gender: "die", example: { de: "Lacans Jouissance.", en: "Lacan's jouissance." } },
+    { word: "die Subalterne (Spivak)", phonetic: "zoo-bal-ter-nuh", meaning: "subaltern (Spivak)", gender: "die", example: { de: "Spivaks subalterne Stimme.", en: "Spivak's subaltern voice." } },
+  ]}] },
+};

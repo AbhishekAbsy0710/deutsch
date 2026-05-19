@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega100: Record<string, Lesson> = {
+  "lb2_m145": { id: "lb2_m145", title: "Neuroscience B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Neurowissenschaft", phonetic: "noy-ro-vi-sen-shaft", meaning: "neuroscience", gender: "die", example: { de: "Kognitive Neurowissenschaft.", en: "Cognitive neuroscience." } },
+    { word: "das Neuron", phonetic: "noy-ron", meaning: "neuron", gender: "das", example: { de: "Pyramidales Neuron.", en: "Pyramidal neuron." } },
+    { word: "die Synapse", phonetic: "zü-nap-suh", meaning: "synapse", gender: "die", example: { de: "Chemische Synapse.", en: "Chemical synapse." } },
+    { word: "der Neurotransmitter", phonetic: "noy-ro-trans-mi-ter", meaning: "neurotransmitter", gender: "der", example: { de: "Dopamin als Neurotransmitter.", en: "Dopamine as neurotransmitter." } },
+    { word: "das Aktionspotential", phonetic: "ak-tsee-ohns-po-ten-tsee-ahl", meaning: "action potential", gender: "das", example: { de: "Neuronales Aktionspotential.", en: "Neuronal action potential." } },
+    { word: "die Myelinscheide", phonetic: "mü-e-leen-shy-duh", meaning: "myelin sheath", gender: "die", example: { de: "Myelinscheide Leitgeschwindigkeit.", en: "Myelin sheath conduction speed." } },
+    { word: "der Hippocampus", phonetic: "hi-po-kam-pus", meaning: "hippocampus", gender: "der", example: { de: "Gedächtnis-Hippocampus.", en: "Memory hippocampus." } },
+    { word: "der präfrontale Kortex", phonetic: "prä-fron-tah-luh-kor-teks", meaning: "prefrontal cortex", gender: "der", example: { de: "Exekutiver präfrontaler Kortex.", en: "Executive prefrontal cortex." } },
+    { word: "die Amygdala", phonetic: "a-müg-da-lah", meaning: "amygdala", gender: "die", example: { de: "Angst-Amygdala.", en: "Fear amygdala." } },
+    { word: "die Neuroplastizität", phonetic: "noy-ro-plas-ti-tsi-tayt", meaning: "neuroplasticity", gender: "die", example: { de: "Synaptische Neuroplastizität.", en: "Synaptic neuroplasticity." } },
+    { word: "der Dopamin", phonetic: "do-pa-meen", meaning: "dopamine", gender: "das", example: { de: "Dopamin-Belohnungssystem.", en: "Dopamine reward system." } },
+    { word: "das Serotonin", phonetic: "ze-ro-to-neen", meaning: "serotonin", gender: "das", example: { de: "Serotonin-Stimmungsregulation.", en: "Serotonin mood regulation." } },
+    { word: "die funktionelle MRT", phonetic: "foonk-tsee-o-ne-luh-em-er-tay", meaning: "functional MRI (fMRI)", gender: "die", example: { de: "Gehirnaktivität fMRT.", en: "Brain activity fMRI." } },
+    { word: "das EEG (Elektroenzephalogramm)", phonetic: "ay-ay-gay", meaning: "EEG (electroencephalogram)", gender: "das", example: { de: "EEG-Hirnwellenmessung.", en: "EEG brain wave measurement." } },
+    { word: "die kognitive Neurowissenschaft", phonetic: "kog-ni-tee-vuh-noy-ro-vi-sen-shaft", meaning: "cognitive neuroscience", gender: "die", example: { de: "Kognitive Neurowissenschaft Aufmerksamkeit.", en: "Cognitive neuroscience attention." } },
+    { word: "der gliale Zelle", phonetic: "glee-ah-luh-tse-luh", meaning: "glial cell", gender: "die", example: { de: "Astrozyt gliale Zelle.", en: "Astrocyte glial cell." } },
+    { word: "die synaptische Plastizität", phonetic: "zü-nap-ti-shuh-plas-ti-tsi-tayt", meaning: "synaptic plasticity", gender: "die", example: { de: "Langzeit-synaptische Plastizität.", en: "Long-term synaptic plasticity." } },
+    { word: "das Bewusstsein (Neurowissenschaft)", phonetic: "beh-voost-zayn", meaning: "consciousness (neuroscience)", gender: "das", example: { de: "Neuronale Korrelate Bewusstsein.", en: "Neural correlates of consciousness." } },
+    { word: "die neurodegenerative Erkrankung", phonetic: "noy-ro-de-ge-ne-ra-tee-vuh-er-krank-ung", meaning: "neurodegenerative disease", gender: "die", example: { de: "Alzheimer neurodegenerativ.", en: "Alzheimer neurodegenerative." } },
+    { word: "die Konnektom-Forschung", phonetic: "ko-nek-tom-for-shung", meaning: "connectome research", gender: "die", example: { de: "Menschliches Konnektom-Projekt.", en: "Human connectome project." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega99: Record<string, Lesson> = {
+  "lc2_m142": { id: "lc2_m142", title: "Theory of Motives C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Motiventheorie (Grothendieck)", phonetic: "mo-tee-ven-tay-oh-ree", meaning: "theory of motives (Grothendieck)", gender: "die", example: { de: "Grothendiecks Motiventheorie.", en: "Grothendieck's theory of motives." } },
+    { word: "das reine Motiv", phonetic: "ry-nuh-mo-teef", meaning: "pure motive", gender: "das", example: { de: "Numerisches reines Motiv.", en: "Numerical pure motive." } },
+    { word: "das gemischtes Motiv", phonetic: "geh-mish-tes-mo-teef", meaning: "mixed motive", gender: "das", example: { de: "Voevodsky gemischtes Motiv.", en: "Voevodsky mixed motive." } },
+    { word: "die Standardvermutungen (Grothendieck)", phonetic: "shtan-dart-fer-moo-tung-en", meaning: "standard conjectures (Grothendieck)", example: { de: "Grothendiecks Standardvermutungen.", en: "Grothendieck's standard conjectures." } },
+    { word: "die numerische Äquivalenz", phonetic: "noo-me-ri-shuh-ey-kvi-va-lents", meaning: "numerical equivalence (motives)", gender: "die", example: { de: "Numerische Äquivalenz algebraischer Zykel.", en: "Numerical equivalence of algebraic cycles." } },
+    { word: "die Chow-Gruppe", phonetic: "show-groo-puh", meaning: "Chow group", gender: "die", example: { de: "CH^k(X) Chow-Gruppe.", en: "CH^k(X) Chow group." } },
+    { word: "die algebraische K-Theorie (Quillen)", phonetic: "al-ge-bray-i-shuh-kah-tay-oh-ree", meaning: "algebraic K-theory (Quillen)", gender: "die", example: { de: "Quillens algebraische K-Theorie.", en: "Quillen's algebraic K-theory." } },
+    { word: "das motivische Kohomologie (Bloch)", phonetic: "mo-tee-vi-shuh-ko-ho-mo-lo-gee", meaning: "motivic cohomology (Bloch)", gender: "die", example: { de: "Blochs motivische Kohomologie.", en: "Bloch's motivic cohomology." } },
+    { word: "der Bloch-Kato-Vermutung", phonetic: "blokh-ka-to-fer-moo-tung", meaning: "Bloch-Kato conjecture (proved Voevodsky)", gender: "die", example: { de: "Beweis Bloch-Kato-Vermutung.", en: "Proof of Bloch-Kato conjecture." } },
+    { word: "die Triangulierte Kategorie der Motive (DM)", phonetic: "tri-ang-goo-leer-tuh-ka-te-go-ree-der-mo-tee-vuh", meaning: "triangulated category of motives DM(k)", gender: "die", example: { de: "Voevodsky DM(k).", en: "Voevodsky DM(k)." } },
+    { word: "die Weil-Kohomologietheorie", phonetic: "vyl-ko-ho-mo-lo-gee-tay-oh-ree", meaning: "Weil cohomology theory", gender: "die", example: { de: "Axiome Weil-Kohomologietheorie.", en: "Axioms Weil cohomology theory." } },
+    { word: "das Tannaka-Dualismus", phonetic: "ta-na-ka-doo-a-lis-mus", meaning: "Tannaka duality / Tannakian formalism", gender: "der", example: { de: "Tannaka-Dualismus für Motive.", en: "Tannaka duality for motives." } },
+    { word: "die Tannaka-Kategorie", phonetic: "ta-na-ka-ka-te-go-ree", meaning: "Tannakian category", gender: "die", example: { de: "Neutrale Tannaka-Kategorie.", en: "Neutral Tannakian category." } },
+    { word: "das motivische Galois-Gruppe", phonetic: "mo-tee-vi-shuh-ga-lwa-groo-puh", meaning: "motivic Galois group", gender: "die", example: { de: "Motivische Galois-Gruppe Gm.", en: "Motivic Galois group Gm." } },
+    { word: "die gemischte Hodge-Struktur", phonetic: "geh-mish-tuh-hodsh-shtrook-toor", meaning: "mixed Hodge structure", gender: "die", example: { de: "Deligne gemischte Hodge-Struktur.", en: "Deligne mixed Hodge structure." } },
+    { word: "die Periode (Motiventheorie)", phonetic: "pe-ree-oh-duh", meaning: "period (in motives / Kontsevich-Zagier)", gender: "die", example: { de: "Kontsevich-Zagier Perioden.", en: "Kontsevich-Zagier periods." } },
+    { word: "die Perioden-Matrix", phonetic: "pe-ree-oh-den-ma-triks", meaning: "period matrix", gender: "die", example: { de: "Hodge-Perioden-Matrix.", en: "Hodge period matrix." } },
+    { word: "das Langlands-Programm (geometrisch)", phonetic: "lang-lants-pro-gram", meaning: "geometric Langlands programme", gender: "das", example: { de: "Geometrisches Langlands-Programm.", en: "Geometric Langlands programme." } },
+    { word: "das p-adische L-Funktion", phonetic: "pay-ah-di-shuh-el-foonk-tsee-ohn", meaning: "p-adic L-function", gender: "die", example: { de: "Iwasawa p-adische L-Funktion.", en: "Iwasawa p-adic L-function." } },
+    { word: "die Iwasawa-Theorie", phonetic: "ee-va-sa-va-tay-oh-ree", meaning: "Iwasawa theory", gender: "die", example: { de: "Iwasawa-Theorie Zykelgruppe.", en: "Iwasawa theory cyclotomic." } },
+  ]}] },
+};

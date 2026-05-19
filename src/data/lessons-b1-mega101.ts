@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega101: Record<string, Lesson> = {
+  "lb1_m152": { id: "lb1_m152", title: "German Literature B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die deutsche Literatur", phonetic: "doyt-shuh-li-te-ra-toor", meaning: "German literature", gender: "die", example: { de: "Klassische deutsche Literatur.", en: "Classical German literature." } },
+    { word: "die Klassik (Weimar)", phonetic: "kla-sik", meaning: "Weimar Classicism", gender: "die", example: { de: "Goethe und Schiller Klassik.", en: "Goethe and Schiller Classicism." } },
+    { word: "die Romantik (Literatur)", phonetic: "ro-man-tik", meaning: "Romanticism (literature)", gender: "die", example: { de: "Deutsche Romantik.", en: "German Romanticism." } },
+    { word: "die Aufklärung (Literatur)", phonetic: "owf-kley-rung", meaning: "Enlightenment (literature)", gender: "die", example: { de: "Literatur der Aufklärung.", en: "Enlightenment literature." } },
+    { word: "der Sturm und Drang", phonetic: "shtooarm-oont-drang", meaning: "Sturm und Drang", gender: "der", example: { de: "Junges Deutschland Sturm und Drang.", en: "Young Germany Sturm und Drang." } },
+    { word: "die Novelle", phonetic: "no-ve-luh", meaning: "novella", gender: "die", example: { de: "Storms Novellen.", en: "Storm's novellas." } },
+    { word: "das Drama (deutsch)", phonetic: "drah-mah", meaning: "drama (German)", gender: "das", example: { de: "Brechts episches Drama.", en: "Brecht's epic drama." } },
+    { word: "das Gedicht", phonetic: "geh-dikht", meaning: "poem", gender: "das", example: { de: "Rilkes Gedichte.", en: "Rilke's poems." } },
+    { word: "die Lyrik", phonetic: "lü-rik", meaning: "lyric poetry", gender: "die", example: { de: "Deutsche Lyrik.", en: "German lyric poetry." } },
+    { word: "Johann Wolfgang von Goethe", phonetic: "yo-han-volf-gang-fon-gö-tuh", meaning: "Goethe (author)", example: { de: "Goethes Faust.", en: "Goethe's Faust." } },
+    { word: "Friedrich Schiller", phonetic: "freed-rikh-shi-ler", meaning: "Schiller (author)", example: { de: "Schillers Wilhelm Tell.", en: "Schiller's Wilhelm Tell." } },
+    { word: "der Expressionismus", phonetic: "eks-pres-see-oh-nis-mus", meaning: "Expressionism", gender: "der", example: { de: "Literarischer Expressionismus.", en: "Literary Expressionism." } },
+    { word: "der Realismus (Literatur)", phonetic: "re-a-lis-mus", meaning: "Realism (literature)", gender: "der", example: { de: "Bürgerlicher Realismus.", en: "Bourgeois Realism." } },
+    { word: "die Exilliteratur", phonetic: "ek-sil-li-te-ra-toor", meaning: "exile literature", gender: "die", example: { de: "Deutschsprachige Exilliteratur.", en: "German-language exile literature." } },
+    { word: "die Trümmerliteratur", phonetic: "trü-mer-li-te-ra-toor", meaning: "rubble literature (post-WWII)", gender: "die", example: { de: "Nachkriegliche Trümmerliteratur.", en: "Post-war rubble literature." } },
+    { word: "die Gruppe 47", phonetic: "groo-puh-zee-ben-oont-feer-tsikh", meaning: "Group 47", gender: "die", example: { de: "Böll und Grass Gruppe 47.", en: "Böll and Grass Group 47." } },
+    { word: "Franz Kafka", phonetic: "frants-kaf-kah", meaning: "Franz Kafka (author)", example: { de: "Kafkas Verwandlung.", en: "Kafka's Metamorphosis." } },
+    { word: "Thomas Mann", phonetic: "toh-mas-man", meaning: "Thomas Mann (author)", example: { de: "Thomas Manns Buddenbrooks.", en: "Thomas Mann's Buddenbrooks." } },
+    { word: "Bertolt Brecht", phonetic: "ber-tolt-brekht", meaning: "Bertolt Brecht (playwright)", example: { de: "Brechts Verfremdungseffekt.", en: "Brecht's alienation effect." } },
+    { word: "der Verfremdungseffekt", phonetic: "fer-frem-dungs-e-fekt", meaning: "alienation effect (Brecht)", gender: "der", example: { de: "Brechtscher Verfremdungseffekt.", en: "Brechtian alienation effect." } },
+  ]}] },
+};

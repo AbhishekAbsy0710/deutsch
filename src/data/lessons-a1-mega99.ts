@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega99: Record<string, Lesson> = {
+  "la1_m149": { id: "la1_m149", title: "School & Classroom A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Schule", phonetic: "shoo-luh", meaning: "school", gender: "die", example: { de: "Zur Schule gehen.", en: "Go to school." } },
+    { word: "die Klasse", phonetic: "kla-suh", meaning: "class / classroom", gender: "die", example: { de: "In der Klasse sitzen.", en: "Sit in the classroom." } },
+    { word: "der Lehrer", phonetic: "lay-rer", meaning: "teacher (male)", gender: "der", example: { de: "Der Lehrer erklärt.", en: "The teacher explains." } },
+    { word: "die Lehrerin", phonetic: "lay-re-rin", meaning: "teacher (female)", gender: "die", example: { de: "Die Lehrerin hilft.", en: "The teacher helps." } },
+    { word: "der Schüler", phonetic: "shü-ler", meaning: "pupil / student (male)", gender: "der", example: { de: "Fleißiger Schüler.", en: "Diligent pupil." } },
+    { word: "das Heft", phonetic: "heft", meaning: "exercise book / notebook", gender: "das", example: { de: "Im Heft schreiben.", en: "Write in the exercise book." } },
+    { word: "das Buch", phonetic: "bookh", meaning: "book", gender: "das", example: { de: "Ein Buch lesen.", en: "Read a book." } },
+    { word: "der Stift", phonetic: "shtift", meaning: "pen / pencil", gender: "der", example: { de: "Mit dem Stift schreiben.", en: "Write with the pen." } },
+    { word: "der Bleistift", phonetic: "bly-shtift", meaning: "pencil", gender: "der", example: { de: "Mit Bleistift zeichnen.", en: "Draw with pencil." } },
+    { word: "der Radiergummi", phonetic: "ra-deer-goo-mi", meaning: "eraser / rubber", gender: "der", example: { de: "Fehler mit Radiergummi.", en: "Mistakes with eraser." } },
+    { word: "das Lineal", phonetic: "li-ne-ahl", meaning: "ruler", gender: "das", example: { de: "Linie mit Lineal.", en: "Line with ruler." } },
+    { word: "die Tafel", phonetic: "tah-fel", meaning: "blackboard / whiteboard", gender: "die", example: { de: "An der Tafel schreiben.", en: "Write on the board." } },
+    { word: "die Hausaufgabe", phonetic: "hows-owf-gah-buh", meaning: "homework", gender: "die", example: { de: "Hausaufgaben machen.", en: "Do homework." } },
+    { word: "der Test", phonetic: "test", meaning: "test", gender: "der", example: { de: "Einen Test schreiben.", en: "Write a test." } },
+    { word: "die Pause", phonetic: "pow-zuh", meaning: "break / recess", gender: "die", example: { de: "In der Pause spielen.", en: "Play during break." } },
+    { word: "der Stundenplan", phonetic: "shtoon-den-plahn", meaning: "timetable", gender: "der", example: { de: "Den Stundenplan ansehen.", en: "Look at the timetable." } },
+    { word: "lernen", phonetic: "ler-nen", meaning: "to learn / study", example: { de: "Deutsch lernen.", en: "Learn German." } },
+    { word: "schreiben", phonetic: "shry-ben", meaning: "to write", example: { de: "Einen Satz schreiben.", en: "Write a sentence." } },
+    { word: "lesen", phonetic: "lay-zen", meaning: "to read", example: { de: "Ein Buch lesen.", en: "Read a book." } },
+    { word: "fragen", phonetic: "frah-gen", meaning: "to ask", example: { de: "Den Lehrer fragen.", en: "Ask the teacher." } },
+  ]}] },
+};

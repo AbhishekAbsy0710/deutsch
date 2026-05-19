@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega101: Record<string, Lesson> = {
+  "lb2_m146": { id: "lb2_m146", title: "Environmental Science B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Umweltwissenschaft", phonetic: "oom-velt-vi-sen-shaft", meaning: "environmental science", gender: "die", example: { de: "Interdisziplinäre Umweltwissenschaft.", en: "Interdisciplinary environmental science." } },
+    { word: "der Treibhauseffekt", phonetic: "tryp-hows-e-fekt", meaning: "greenhouse effect", gender: "der", example: { de: "Anthropogener Treibhauseffekt.", en: "Anthropogenic greenhouse effect." } },
+    { word: "das Treibhausgas", phonetic: "tryp-hows-gahs", meaning: "greenhouse gas", gender: "das", example: { de: "CO₂ als Treibhausgas.", en: "CO₂ as greenhouse gas." } },
+    { word: "die Kohlenstoffdioxid-Konzentration", phonetic: "koh-len-shtof-di-ok-seet-kon-tsen-tra-tsee-ohn", meaning: "CO₂ concentration", gender: "die", example: { de: "Atmosphärische CO₂-Konzentration.", en: "Atmospheric CO₂ concentration." } },
+    { word: "die Erderwärmung", phonetic: "erd-er-ver-mung", meaning: "global warming", gender: "die", example: { de: "1,5-Grad-Erderwärmung.", en: "1.5-degree global warming." } },
+    { word: "die Artenvielfalt", phonetic: "ar-ten-feel-falt", meaning: "biodiversity", gender: "die", example: { de: "Bedrohte Artenvielfalt.", en: "Threatened biodiversity." } },
+    { word: "das Ökosystem", phonetic: "ö-ko-züs-tem", meaning: "ecosystem", gender: "das", example: { de: "Stabiles Ökosystem.", en: "Stable ecosystem." } },
+    { word: "die Nahrungskette", phonetic: "nah-rungs-ke-tuh", meaning: "food chain", gender: "die", example: { de: "Nahrungskette gestört.", en: "Food chain disturbed." } },
+    { word: "die erneuerbare Energie", phonetic: "er-noy-er-bah-ruh-e-ner-gee", meaning: "renewable energy", gender: "die", example: { de: "Erneuerbare Energie.", en: "Renewable energy." } },
+    { word: "die Entwaldung", phonetic: "ent-val-dung", meaning: "deforestation", gender: "die", example: { de: "Tropische Entwaldung.", en: "Tropical deforestation." } },
+    { word: "die Bodenverschmutzung", phonetic: "boh-den-fer-shmu-tssung", meaning: "soil pollution", gender: "die", example: { de: "Landwirtschaftliche Bodenverschmutzung.", en: "Agricultural soil pollution." } },
+    { word: "die Luftverschmutzung", phonetic: "looft-fer-shmu-tssung", meaning: "air pollution", gender: "die", example: { de: "Städtische Luftverschmutzung.", en: "Urban air pollution." } },
+    { word: "die Meeresversauerung", phonetic: "may-res-fer-zow-e-rung", meaning: "ocean acidification", gender: "die", example: { de: "Korallenriff Meeresversauerung.", en: "Coral reef ocean acidification." } },
+    { word: "das Pariser Abkommen", phonetic: "pa-ri-zer-ap-ko-men", meaning: "Paris Agreement", gender: "das", example: { de: "Pariser Abkommen 2015.", en: "Paris Agreement 2015." } },
+    { word: "die Nachhaltigkeit", phonetic: "nakh-hal-tikh-kyte", meaning: "sustainability", gender: "die", example: { de: "Wirtschaftliche Nachhaltigkeit.", en: "Economic sustainability." } },
+    { word: "der Kohlenstoffkreislauf", phonetic: "koh-len-shtof-krys-lowf", meaning: "carbon cycle", gender: "der", example: { de: "Terrestrischer Kohlenstoffkreislauf.", en: "Terrestrial carbon cycle." } },
+    { word: "der ökologische Fußabdruck", phonetic: "ö-ko-lo-gi-shuh-foos-ap-drook", meaning: "ecological footprint", gender: "der", example: { de: "Persönlicher ökologischer Fußabdruck.", en: "Personal ecological footprint." } },
+    { word: "die Kreislaufwirtschaft", phonetic: "krys-lowf-virt-shaft", meaning: "circular economy", gender: "die", example: { de: "EU-Kreislaufwirtschaft.", en: "EU circular economy." } },
+    { word: "der Ozeanversauerung-pH-Wert", phonetic: "o-tsay-an-fer-zow-e-rung-pay-hah-vert", meaning: "ocean pH / acidification pH", gender: "der", example: { de: "Sinkender Ozean-pH-Wert.", en: "Declining ocean pH." } },
+    { word: "die Geoengineering", phonetic: "gay-oh-en-ji-nee-ring", meaning: "geoengineering", gender: "das", example: { de: "Solare Geoengineering.", en: "Solar geoengineering." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega101: Record<string, Lesson> = {
+  "la1_m151": { id: "la1_m151", title: "Numbers 11–100 A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "elf", phonetic: "elf", meaning: "eleven (11)", example: { de: "Elf Äpfel.", en: "Eleven apples." } },
+    { word: "zwölf", phonetic: "tsvölf", meaning: "twelve (12)", example: { de: "Zwölf Monate.", en: "Twelve months." } },
+    { word: "dreizehn", phonetic: "dry-tsayn", meaning: "thirteen (13)", example: { de: "Dreizehn Kinder.", en: "Thirteen children." } },
+    { word: "vierzehn", phonetic: "feer-tsayn", meaning: "fourteen (14)", example: { de: "Vierzehn Tage.", en: "Fourteen days." } },
+    { word: "fünfzehn", phonetic: "fünf-tsayn", meaning: "fifteen (15)", example: { de: "Fünfzehn Euro.", en: "Fifteen euros." } },
+    { word: "sechzehn", phonetic: "zekh-tsayn", meaning: "sixteen (16)", example: { de: "Sechzehn Stunden.", en: "Sixteen hours." } },
+    { word: "siebzehn", phonetic: "zeep-tsayn", meaning: "seventeen (17)", example: { de: "Siebzehn Punkte.", en: "Seventeen points." } },
+    { word: "achtzehn", phonetic: "akht-tsayn", meaning: "eighteen (18)", example: { de: "Achtzehn Jahre alt.", en: "Eighteen years old." } },
+    { word: "neunzehn", phonetic: "noyn-tsayn", meaning: "nineteen (19)", example: { de: "Neunzehn Schüler.", en: "Nineteen pupils." } },
+    { word: "zwanzig", phonetic: "tsvan-tsikh", meaning: "twenty (20)", example: { de: "Zwanzig Minuten.", en: "Twenty minutes." } },
+    { word: "dreißig", phonetic: "dry-sikh", meaning: "thirty (30)", example: { de: "Dreißig Grad.", en: "Thirty degrees." } },
+    { word: "vierzig", phonetic: "feer-tsikh", meaning: "forty (40)", example: { de: "Vierzig Kilometer.", en: "Forty kilometres." } },
+    { word: "fünfzig", phonetic: "fünf-tsikh", meaning: "fifty (50)", example: { de: "Fünfzig Prozent.", en: "Fifty percent." } },
+    { word: "sechzig", phonetic: "zekh-tsikh", meaning: "sixty (60)", example: { de: "Sechzig Sekunden.", en: "Sixty seconds." } },
+    { word: "siebzig", phonetic: "zeep-tsikh", meaning: "seventy (70)", example: { de: "Siebzig Jahre.", en: "Seventy years." } },
+    { word: "achtzig", phonetic: "akht-tsikh", meaning: "eighty (80)", example: { de: "Achtzig Kilometer.", en: "Eighty kilometres." } },
+    { word: "neunzig", phonetic: "noyn-tsikh", meaning: "ninety (90)", example: { de: "Neunzig Cent.", en: "Ninety cents." } },
+    { word: "hundert", phonetic: "hoon-dert", meaning: "one hundred (100)", example: { de: "Hundert Euro.", en: "One hundred euros." } },
+    { word: "einundzwanzig", phonetic: "ayn-oont-tsvan-tsikh", meaning: "twenty-one (21)", example: { de: "Einundzwanzig Grad.", en: "Twenty-one degrees." } },
+    { word: "fünfundvierzig", phonetic: "fünf-oont-feer-tsikh", meaning: "forty-five (45)", example: { de: "Fünfundvierzig Minuten.", en: "Forty-five minutes." } },
+  ]}] },
+};

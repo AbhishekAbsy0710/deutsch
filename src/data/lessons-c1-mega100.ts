@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega100: Record<string, Lesson> = {
+  "lc1_m146": { id: "lc1_m146", title: "Advanced Phonology C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Phonologie", phonetic: "fo-no-lo-gee", meaning: "phonology", gender: "die", example: { de: "Generative Phonologie.", en: "Generative phonology." } },
+    { word: "das Phonem", phonetic: "fo-naym", meaning: "phoneme", gender: "das", example: { de: "Minimales Phonem-Paar.", en: "Minimal phoneme pair." } },
+    { word: "das Allophon", phonetic: "a-lo-fohn", meaning: "allophone", gender: "das", example: { de: "Kontextuelles Allophon.", en: "Contextual allophone." } },
+    { word: "die Distinktive Merkmaltheorie (Jakobson)", phonetic: "dis-tinkt-tee-vuh-merk-mahl-tay-oh-ree", meaning: "distinctive feature theory (Jakobson)", gender: "die", example: { de: "Jakobsons distinktive Merkmale.", en: "Jakobson's distinctive features." } },
+    { word: "die optimale Theorie (Prince/Smolensky)", phonetic: "op-ti-mah-luh-tay-oh-ree", meaning: "optimality theory (Prince/Smolensky)", gender: "die", example: { de: "Prince-Smolensky optimale Theorie.", en: "Prince-Smolensky optimality theory." } },
+    { word: "die autosegmentale Phonologie (Goldsmith)", phonetic: "ow-to-zeg-men-tah-luh-fo-no-lo-gee", meaning: "autosegmental phonology (Goldsmith)", gender: "die", example: { de: "Goldsmiths autosegmentale Phonologie.", en: "Goldsmith's autosegmental phonology." } },
+    { word: "die metrische Phonologie", phonetic: "me-tri-shuh-fo-no-lo-gee", meaning: "metrical phonology", gender: "die", example: { de: "Metrischer Stress.", en: "Metrical stress." } },
+    { word: "das Silbenstruktur", phonetic: "zil-ben-shtrook-toor", meaning: "syllable structure", gender: "die", example: { de: "CV-Silbenstruktur.", en: "CV syllable structure." } },
+    { word: "die Sonoritätshierarchie", phonetic: "zo-no-ri-tayts-hi-e-rar-khee", meaning: "sonority hierarchy", gender: "die", example: { de: "Sonoritätshierarchie Silbe.", en: "Sonority hierarchy syllable." } },
+    { word: "der Umlaut (Phonologie)", phonetic: "oom-lowt", meaning: "umlaut (phonology)", gender: "der", example: { de: "Germanischer Umlaut.", en: "Germanic umlaut." } },
+    { word: "der Ablaut (Phonologie)", phonetic: "ap-lowt", meaning: "ablaut / vowel gradation", gender: "der", example: { de: "Indogermanischer Ablaut.", en: "Indo-European ablaut." } },
+    { word: "die phonologische Schnittstelle (Syntax)", phonetic: "fo-no-lo-gi-shuh-shni-shte-luh", meaning: "phonology-syntax interface", gender: "die", example: { de: "PF-phonologische Schnittstelle.", en: "PF phonological interface." } },
+    { word: "die Sandhi-Phänomene", phonetic: "zan-di-fey-no-me-nuh", meaning: "sandhi phenomena", example: { de: "Externe Sandhi-Phänomene.", en: "External sandhi phenomena." } },
+    { word: "die Assimilation (Phonologie)", phonetic: "a-si-mi-la-tsee-ohn", meaning: "assimilation (phonology)", gender: "die", example: { de: "Regressive Assimilation.", en: "Regressive assimilation." } },
+    { word: "die Dissimilation (Phonologie)", phonetic: "di-si-mi-la-tsee-ohn", meaning: "dissimilation (phonology)", gender: "die", example: { de: "Grassmanns Dissimilation.", en: "Grassmann's dissimilation." } },
+    { word: "der Lautwandel", phonetic: "lowt-van-del", meaning: "sound change", gender: "der", example: { de: "Regelmäßiger Lautwandel.", en: "Regular sound change." } },
+    { word: "die tonale Sprache (Phonologie)", phonetic: "to-nah-luh-shpra-khuh", meaning: "tonal language (phonology)", gender: "die", example: { de: "Mandarin als tonale Sprache.", en: "Mandarin as a tonal language." } },
+    { word: "die Prosodie", phonetic: "pro-zo-dee", meaning: "prosody", gender: "die", example: { de: "Prosodische Struktur.", en: "Prosodic structure." } },
+    { word: "die Intonation (Phonologie)", phonetic: "in-to-na-tsee-ohn", meaning: "intonation (phonology)", gender: "die", example: { de: "Frageform-Intonation.", en: "Question intonation." } },
+    { word: "der Phonem-Inventar", phonetic: "fo-naym-in-ven-tahr", meaning: "phoneme inventory", gender: "das", example: { de: "Weltsprachliches Phonem-Inventar.", en: "World language phoneme inventory." } },
+  ]}] },
+};

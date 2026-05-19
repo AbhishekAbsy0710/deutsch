@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega97: Record<string, Lesson> = {
+  "lc2_m140": { id: "lc2_m140", title: "Topos Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "der Topos (Lawvere/Tierney)", phonetic: "to-pos", meaning: "topos (Lawvere/Tierney)", gender: "der", example: { de: "Elementarer Topos.", en: "Elementary topos." } },
+    { word: "der Grothendieck-Topos", phonetic: "gro-ten-deek-to-pos", meaning: "Grothendieck topos", gender: "der", example: { de: "Situs-Grothendieck-Topos.", en: "Site Grothendieck topos." } },
+    { word: "der Subobjectklassifikator (Ω)", phonetic: "zoob-ob-jekt-kla-si-fi-ka-tor", meaning: "subobject classifier (Ω)", gender: "der", example: { de: "Subobjectklassifikator Ω.", en: "Subobject classifier Ω." } },
+    { word: "die Garben auf einer Kategorie", phonetic: "gar-ben-owf-ay-ner-ka-te-go-ree", meaning: "sheaves on a category / site", example: { de: "Garben auf einem Situs.", en: "Sheaves on a site." } },
+    { word: "der Situs (Grothendieck)", phonetic: "zee-tus", meaning: "Grothendieck site (situs)", gender: "der", example: { de: "Grothendieck-Situs.", en: "Grothendieck site." } },
+    { word: "die Garben-Kategorie (Sh(C,J))", phonetic: "gar-ben-ka-te-go-ree", meaning: "sheaf category Sh(C,J)", gender: "die", example: { de: "Garben-Kategorie Sh(C,J).", en: "Sheaf category Sh(C,J)." } },
+    { word: "die geometrische Morphismus", phonetic: "gay-oh-me-tri-shuh-mor-fis-mus", meaning: "geometric morphism (between toposes)", gender: "der", example: { de: "Geometrischer Morphismus f*⊣f*.", en: "Geometric morphism f*⊣f*." } },
+    { word: "die interne Sprache (Topos)", phonetic: "in-ter-nuh-shpra-khuh", meaning: "internal language of a topos", gender: "die", example: { de: "Interne intuitionistische Sprache.", en: "Internal intuitionistic language." } },
+    { word: "die intuitionistische Logik (Topos)", phonetic: "in-too-i-tsee-oh-ni-sti-shuh-lo-gik", meaning: "intuitionistic logic (internal to topos)", gender: "die", example: { de: "Topos-interne intuitionistische Logik.", en: "Topos-internal intuitionistic logic." } },
+    { word: "das Lawvere-Objekt natürlicher Zahlen (NNO)", phonetic: "lo-ve-ruh-ob-yekt", meaning: "natural number object (NNO, Lawvere)", gender: "das", example: { de: "Lawveres NNO.", en: "Lawvere's NNO." } },
+    { word: "der kategorientheoretische Satz von Gödel", phonetic: "ka-te-go-ree-en-tay-oh-re-ti-shuh-zats-fon-gö-del", meaning: "categorical Gödel theorem", gender: "der", example: { de: "Kategorientheoretischer Gödel-Satz.", en: "Categorical Gödel theorem." } },
+    { word: "die ∞-Topos (Lurie)", phonetic: "in-fi-ni-tum-to-pos", meaning: "∞-topos (Lurie)", gender: "der", example: { de: "Luriescher ∞-Topos.", en: "Lurie ∞-topos." } },
+    { word: "die Homotopie-Typentheorie (HoTT)", phonetic: "ho-mo-to-pee-tü-pen-tay-oh-ree", meaning: "homotopy type theory (HoTT)", gender: "die", example: { de: "Univalenz-HoTT.", en: "Univalence HoTT." } },
+    { word: "das Univalenzaxiom (Voevodsky)", phonetic: "oo-ni-va-lents-ak-si-ohm", meaning: "univalence axiom (Voevodsky)", gender: "das", example: { de: "Voevodskysche Univalenzaxiom.", en: "Voevodsky univalence axiom." } },
+    { word: "die kohärente Garbe (Topos)", phonetic: "ko-hey-ren-tuh-gar-buh", meaning: "coherent sheaf (topos)", gender: "die", example: { de: "Kohärente Garbe auf Schema.", en: "Coherent sheaf on scheme." } },
+    { word: "die étale Garbe", phonetic: "e-tah-luh-gar-buh", meaning: "étale sheaf", gender: "die", example: { de: "l-adische étale Garbe.", en: "l-adic étale sheaf." } },
+    { word: "die Verdier-Dualität (Topos)", phonetic: "ver-dee-ay-doo-a-li-tayt", meaning: "Verdier duality (in a topos)", gender: "die", example: { de: "Verdier-Dualität im étalen Topos.", en: "Verdier duality in étale topos." } },
+    { word: "der Stacks-Projekt", phonetic: "staks-pro-yekt", meaning: "Stacks Project", gender: "der", example: { de: "Online Stacks-Projekt.", en: "Online Stacks Project." } },
+    { word: "das synthetische algebraische Geometrie", phonetic: "zün-te-ti-shuh-al-ge-bray-i-shuh-gay-oh-me-tree", meaning: "synthetic algebraic geometry", gender: "die", example: { de: "Condensed/Pyknotic synthetische Geometrie.", en: "Condensed/Pyknotic synthetic geometry." } },
+    { word: "das Condensed Mathematics (Clausen/Scholze)", phonetic: "kon-denst-ma-te-ma-tiks", meaning: "condensed mathematics (Clausen/Scholze)", gender: "die", example: { de: "Clausen-Scholze Condensed Mathematics.", en: "Clausen-Scholze condensed mathematics." } },
+  ]}] },
+};

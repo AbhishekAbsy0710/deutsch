@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega98: Record<string, Lesson> = {
+  "lc2_m141": { id: "lc2_m141", title: "Étale Cohomology C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die étale Kohomologie", phonetic: "e-tah-luh-ko-ho-mo-lo-gee", meaning: "étale cohomology", gender: "die", example: { de: "Grothendieck étale Kohomologie.", en: "Grothendieck étale cohomology." } },
+    { word: "die étale Topologie", phonetic: "e-tah-luh-to-po-lo-gee", meaning: "étale topology", gender: "die", example: { de: "Étale Topologie auf Spec(Z).", en: "Étale topology on Spec(Z)." } },
+    { word: "die l-adische Kohomologie", phonetic: "el-ah-di-shuh-ko-ho-mo-lo-gee", meaning: "l-adic cohomology", gender: "die", example: { de: "Deligne l-adische Kohomologie.", en: "Deligne l-adic cohomology." } },
+    { word: "der l-adische Garbe", phonetic: "el-ah-di-shuh-gar-buh", meaning: "l-adic sheaf", gender: "die", example: { de: "Konstante l-adische Garbe.", en: "Constant l-adic sheaf." } },
+    { word: "die Weil-Vermutungen (Beweis Deligne)", phonetic: "vyl-fer-moo-tung-en", meaning: "Weil conjectures (Deligne's proof)", example: { de: "Delignes Beweis Weil-Vermutungen.", en: "Deligne's proof of Weil conjectures." } },
+    { word: "die Riemannsche Vermutung (über endliche Körper)", phonetic: "ree-man-shuh-fer-moo-tung", meaning: "Riemann hypothesis (over finite fields)", gender: "die", example: { de: "Riemann-Vermutung endlicher Körper.", en: "Riemann hypothesis finite fields." } },
+    { word: "das étale π₁ (Grothendieck)", phonetic: "e-tah-luh-pi-ayns", meaning: "étale fundamental group π₁", gender: "das", example: { de: "Étale Fundamentalgruppe π₁.", en: "Étale fundamental group π₁." } },
+    { word: "die Galois-Darstellung", phonetic: "ga-lwa-dar-shte-lung", meaning: "Galois representation", gender: "die", example: { de: "L-adische Galois-Darstellung.", en: "L-adic Galois representation." } },
+    { word: "der Künneth-Formel (étale)", phonetic: "kü-net-for-mel", meaning: "Künneth formula (étale)", gender: "die", example: { de: "Étale Künneth-Formel.", en: "Étale Künneth formula." } },
+    { word: "die Poincaré-Dualität (étale)", phonetic: "pwan-ka-ray-doo-a-li-tayt", meaning: "Poincaré duality (étale)", gender: "die", example: { de: "Étale Poincaré-Dualität.", en: "Étale Poincaré duality." } },
+    { word: "die Lefschetz-Spurformel", phonetic: "lef-shets-shpoor-for-mel", meaning: "Lefschetz trace formula", gender: "die", example: { de: "Weil-Lefschetz-Spurformel.", en: "Weil-Lefschetz trace formula." } },
+    { word: "das ζ-Funktion (Weil)", phonetic: "tse-ta-foonk-tsee-ohn", meaning: "zeta function (Weil)", gender: "die", example: { de: "Weil-ζ-Funktion.", en: "Weil zeta function." } },
+    { word: "die kristalline Kohomologie (Berthelot)", phonetic: "kris-ta-li-nuh-ko-ho-mo-lo-gee", meaning: "crystalline cohomology (Berthelot)", gender: "die", example: { de: "Berthelot kristalline Kohomologie.", en: "Berthelot crystalline cohomology." } },
+    { word: "die de-Rham-Kohomologie (p-adisch)", phonetic: "de-rahm-ko-ho-mo-lo-gee", meaning: "de Rham cohomology (p-adic)", gender: "die", example: { de: "P-adische de-Rham-Kohomologie.", en: "P-adic de Rham cohomology." } },
+    { word: "der Hodge-Tate-Zerlegung", phonetic: "hodsh-tayt-tser-lay-gung", meaning: "Hodge-Tate decomposition", gender: "die", example: { de: "Tate-Hodge-Tate-Zerlegung.", en: "Tate Hodge-Tate decomposition." } },
+    { word: "die p-adische Hodge-Theorie (Fontaine)", phonetic: "pay-ah-di-shuh-hodsh-tay-oh-ree", meaning: "p-adic Hodge theory (Fontaine)", gender: "die", example: { de: "Fontaines p-adische Hodge-Theorie.", en: "Fontaine's p-adic Hodge theory." } },
+    { word: "der Frobenius-Endomorphismus", phonetic: "fro-be-ni-us-en-do-mor-fis-mus", meaning: "Frobenius endomorphism", gender: "der", example: { de: "Geometrischer Frobenius-Endomorphismus.", en: "Geometric Frobenius endomorphism." } },
+    { word: "die Tate-Vermutung", phonetic: "tayt-fer-moo-tung", meaning: "Tate conjecture", gender: "die", example: { de: "Tate-Vermutung algebraische Zykel.", en: "Tate conjecture algebraic cycles." } },
+    { word: "das motivische Kohomologie (Voevodsky)", phonetic: "mo-tee-vi-shuh-ko-ho-mo-lo-gee", meaning: "motivic cohomology (Voevodsky)", gender: "die", example: { de: "Voevodsky motivische Kohomologie.", en: "Voevodsky motivic cohomology." } },
+    { word: "die gemischte Motive (Deligne)", phonetic: "geh-mishk-tuh-mo-tee-vuh", meaning: "mixed motives (Deligne)", example: { de: "Delignes gemischte Motive.", en: "Deligne's mixed motives." } },
+  ]}] },
+};

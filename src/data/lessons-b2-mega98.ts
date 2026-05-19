@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega98: Record<string, Lesson> = {
+  "lb2_m143": { id: "lb2_m143", title: "Immunology B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Immunologie", phonetic: "i-moo-no-lo-gee", meaning: "immunology", gender: "die", example: { de: "Klinische Immunologie.", en: "Clinical immunology." } },
+    { word: "das angeborene Immunsystem", phonetic: "an-geh-boh-ruh-nuh-i-mun-züs-tem", meaning: "innate immune system", gender: "das", example: { de: "Angeborenes Immunsystem.", en: "Innate immune system." } },
+    { word: "das adaptive Immunsystem", phonetic: "a-dap-tee-vuh-i-mun-züs-tem", meaning: "adaptive immune system", gender: "das", example: { de: "Adaptives Immunsystem.", en: "Adaptive immune system." } },
+    { word: "das Lymphozyt", phonetic: "lüm-fo-tsüt", meaning: "lymphocyte", gender: "der", example: { de: "T- und B-Lymphozyten.", en: "T and B lymphocytes." } },
+    { word: "der T-Lymphozyt", phonetic: "tay-lüm-fo-tsüt", meaning: "T lymphocyte / T cell", gender: "der", example: { de: "Zytotoxischer T-Lymphozyt.", en: "Cytotoxic T lymphocyte." } },
+    { word: "der B-Lymphozyt", phonetic: "bay-lüm-fo-tsüt", meaning: "B lymphocyte / B cell", gender: "der", example: { de: "Antikörper-produzierende B-Lymphozyten.", en: "Antibody-producing B lymphocytes." } },
+    { word: "der Antikörper", phonetic: "an-ti-kör-per", meaning: "antibody", gender: "der", example: { de: "Monoklonaler Antikörper.", en: "Monoclonal antibody." } },
+    { word: "das Antigen", phonetic: "an-ti-gayn", meaning: "antigen", gender: "das", example: { de: "Fremdes Antigen.", en: "Foreign antigen." } },
+    { word: "die Entzündung", phonetic: "ent-tsün-dung", meaning: "inflammation", gender: "die", example: { de: "Chronische Entzündung.", en: "Chronic inflammation." } },
+    { word: "das Zytokin", phonetic: "tsü-to-keen", meaning: "cytokine", gender: "das", example: { de: "Proinflammatorisches Zytokin.", en: "Pro-inflammatory cytokine." } },
+    { word: "der Makrophage", phonetic: "ma-kro-fah-guh", meaning: "macrophage", gender: "der", example: { de: "Aktivierter Makrophage.", en: "Activated macrophage." } },
+    { word: "der Neutrophil", phonetic: "noy-tro-feel", meaning: "neutrophil", gender: "der", example: { de: "Neutrophil-Infiltration.", en: "Neutrophil infiltration." } },
+    { word: "die natürliche Killerzelle", phonetic: "na-tür-li-khuh-ki-ler-tse-luh", meaning: "natural killer (NK) cell", gender: "die", example: { de: "NK-natürliche Killerzelle.", en: "NK natural killer cell." } },
+    { word: "die Vakzination", phonetic: "vak-tsi-na-tsee-ohn", meaning: "vaccination", gender: "die", example: { de: "mRNA-Vakzination.", en: "mRNA vaccination." } },
+    { word: "die Immuntoleranz", phonetic: "i-mun-to-le-rants", meaning: "immune tolerance", gender: "die", example: { de: "Selbst-Immuntoleranz.", en: "Self immune tolerance." } },
+    { word: "die Autoimmunerkrankung", phonetic: "ow-to-i-mun-er-krank-ung", meaning: "autoimmune disease", gender: "die", example: { de: "Rheumatoide Autoimmunerkrankung.", en: "Rheumatoid autoimmune disease." } },
+    { word: "der Immunglobulin", phonetic: "i-mun-glo-boo-lin", meaning: "immunoglobulin", gender: "das", example: { de: "IgG-Immunglobulin.", en: "IgG immunoglobulin." } },
+    { word: "das Komplementsystem", phonetic: "kom-ple-ment-züs-tem", meaning: "complement system", gender: "das", example: { de: "Aktiviertes Komplementsystem.", en: "Activated complement system." } },
+    { word: "die Phagozytose", phonetic: "fa-go-tsü-toh-zuh", meaning: "phagocytosis", gender: "die", example: { de: "Makrophagen-Phagozytose.", en: "Macrophage phagocytosis." } },
+    { word: "die Immunsuppression", phonetic: "i-mun-zoo-pre-see-ohn", meaning: "immunosuppression", gender: "die", example: { de: "Transplantations-Immunsuppression.", en: "Transplant immunosuppression." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega100: Record<string, Lesson> = {
+  "lb1_m151": { id: "lb1_m151", title: "Psychology Basics B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Psychologie", phonetic: "psü-kho-lo-gee", meaning: "psychology", gender: "die", example: { de: "Klinische Psychologie.", en: "Clinical psychology." } },
+    { word: "das Verhalten", phonetic: "fer-hal-ten", meaning: "behaviour", gender: "das", example: { de: "Menschliches Verhalten.", en: "Human behaviour." } },
+    { word: "die Kognition", phonetic: "kog-ni-tsee-ohn", meaning: "cognition", gender: "die", example: { de: "Kognitive Kognition.", en: "Cognitive cognition." } },
+    { word: "das Bewusstsein", phonetic: "beh-voost-zayn", meaning: "consciousness", gender: "das", example: { de: "Menschliches Bewusstsein.", en: "Human consciousness." } },
+    { word: "das Unbewusste (Freud)", phonetic: "oon-beh-voos-tuh", meaning: "the unconscious (Freud)", gender: "das", example: { de: "Freuds Unbewusstes.", en: "Freud's unconscious." } },
+    { word: "die Motivation", phonetic: "mo-ti-va-tsee-ohn", meaning: "motivation", gender: "die", example: { de: "Intrinsische Motivation.", en: "Intrinsic motivation." } },
+    { word: "die Emotion (Psychologie)", phonetic: "e-mo-tsee-ohn", meaning: "emotion (psychology)", gender: "die", example: { de: "Basisemotion.", en: "Basic emotion." } },
+    { word: "die Wahrnehmung", phonetic: "vahr-nay-mung", meaning: "perception", gender: "die", example: { de: "Visuelle Wahrnehmung.", en: "Visual perception." } },
+    { word: "das Gedächtnis", phonetic: "geh-dekht-nis", meaning: "memory", gender: "das", example: { de: "Kurzzeitgedächtnis.", en: "Short-term memory." } },
+    { word: "das Lernen (Psychologie)", phonetic: "ler-nen", meaning: "learning (psychology)", gender: "das", example: { de: "Konditioniertes Lernen.", en: "Conditioned learning." } },
+    { word: "die Persönlichkeit", phonetic: "per-zön-likh-kyte", meaning: "personality", gender: "die", example: { de: "Big-Five-Persönlichkeit.", en: "Big Five personality." } },
+    { word: "die kognitive Dissonanz", phonetic: "kog-ni-tee-vuh-di-so-nants", meaning: "cognitive dissonance (Festinger)", gender: "die", example: { de: "Festingers kognitive Dissonanz.", en: "Festinger's cognitive dissonance." } },
+    { word: "die Hierarchie der Bedürfnisse (Maslow)", phonetic: "hi-e-rar-khee-der-beh-dürf-ni-suh", meaning: "hierarchy of needs (Maslow)", gender: "die", example: { de: "Maslows Bedürfnishierarchie.", en: "Maslow's hierarchy of needs." } },
+    { word: "die Psychotherapie", phonetic: "psü-kho-te-ra-pee", meaning: "psychotherapy", gender: "die", example: { de: "Kognitive Psychotherapie.", en: "Cognitive psychotherapy." } },
+    { word: "der Behaviorismus", phonetic: "be-hay-vi-o-ris-mus", meaning: "behaviourism", gender: "der", example: { de: "Watsons Behaviorismus.", en: "Watson's behaviourism." } },
+    { word: "die klassische Konditionierung (Pawlow)", phonetic: "kla-si-shuh-kon-di-tsee-oh-nee-rung", meaning: "classical conditioning (Pavlov)", gender: "die", example: { de: "Pawlows klassische Konditionierung.", en: "Pavlov's classical conditioning." } },
+    { word: "die operante Konditionierung (Skinner)", phonetic: "o-pe-ran-tuh-kon-di-tsee-oh-nee-rung", meaning: "operant conditioning (Skinner)", gender: "die", example: { de: "Skinners operante Konditionierung.", en: "Skinner's operant conditioning." } },
+    { word: "die Stressreaktion", phonetic: "shtres-re-ak-tsee-ohn", meaning: "stress response", gender: "die", example: { de: "Kampf-oder-Flucht-Stressreaktion.", en: "Fight-or-flight stress response." } },
+    { word: "die Resilienz", phonetic: "re-zi-lee-ents", meaning: "resilience", gender: "die", example: { de: "Psychologische Resilienz.", en: "Psychological resilience." } },
+    { word: "die Empathie", phonetic: "em-pa-tee", meaning: "empathy", gender: "die", example: { de: "Kognitive Empathie.", en: "Cognitive empathy." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega103: Record<string, Lesson> = {
+  "lb1_m154": { id: "lb1_m154", title: "Economics Basics B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Wirtschaft", phonetic: "virt-shaft", meaning: "economy", gender: "die", example: { de: "Deutsche Wirtschaft.", en: "German economy." } },
+    { word: "der Markt", phonetic: "markt", meaning: "market", gender: "der", example: { de: "Freier Markt.", en: "Free market." } },
+    { word: "das Angebot", phonetic: "an-geh-bot", meaning: "supply", gender: "das", example: { de: "Angebot und Nachfrage.", en: "Supply and demand." } },
+    { word: "die Nachfrage", phonetic: "nakh-frah-guh", meaning: "demand", gender: "die", example: { de: "Steigende Nachfrage.", en: "Rising demand." } },
+    { word: "der Preis (Wirtschaft)", phonetic: "pryce", meaning: "price (economics)", gender: "der", example: { de: "Gleichgewichtspreis.", en: "Equilibrium price." } },
+    { word: "die Inflation (einfach)", phonetic: "in-fla-tsee-ohn", meaning: "inflation (simple)", gender: "die", example: { de: "Steigende Inflation.", en: "Rising inflation." } },
+    { word: "das Wirtschaftswachstum", phonetic: "virt-shafts-vaks-toom", meaning: "economic growth", gender: "das", example: { de: "Positives Wirtschaftswachstum.", en: "Positive economic growth." } },
+    { word: "die Rezession", phonetic: "re-tse-see-ohn", meaning: "recession", gender: "die", example: { de: "Wirtschaftliche Rezession.", en: "Economic recession." } },
+    { word: "die Steuer", phonetic: "shtoy-er", meaning: "tax", gender: "die", example: { de: "Einkommensteuer.", en: "Income tax." } },
+    { word: "das Einkommen", phonetic: "ayn-ko-men", meaning: "income", gender: "das", example: { de: "Monatliches Einkommen.", en: "Monthly income." } },
+    { word: "die Investition", phonetic: "in-ves-ti-tsee-ohn", meaning: "investment", gender: "die", example: { de: "Langfristige Investition.", en: "Long-term investment." } },
+    { word: "der Handel", phonetic: "han-del", meaning: "trade / commerce", gender: "der", example: { de: "Internationaler Handel.", en: "International trade." } },
+    { word: "der Export", phonetic: "eks-port", meaning: "export", gender: "der", example: { de: "Deutscher Export.", en: "German export." } },
+    { word: "der Import", phonetic: "im-port", meaning: "import", gender: "der", example: { de: "Günstiger Import.", en: "Cheap import." } },
+    { word: "die Bank", phonetic: "bank", meaning: "bank", gender: "die", example: { de: "Zur Bank gehen.", en: "Go to the bank." } },
+    { word: "das Konto", phonetic: "kon-to", meaning: "account (bank)", gender: "das", example: { de: "Bankkonto eröffnen.", en: "Open a bank account." } },
+    { word: "der Kredit", phonetic: "kre-deet", meaning: "loan / credit", gender: "der", example: { de: "Einen Kredit aufnehmen.", en: "Take out a loan." } },
+    { word: "der Zinssatz", phonetic: "tsins-zats", meaning: "interest rate", gender: "der", example: { de: "Niedriger Zinssatz.", en: "Low interest rate." } },
+    { word: "das Unternehmen", phonetic: "oon-ter-nay-men", meaning: "company / enterprise", gender: "das", example: { de: "Großes Unternehmen.", en: "Large company." } },
+    { word: "der Gewinn", phonetic: "geh-vin", meaning: "profit", gender: "der", example: { de: "Hoher Gewinn.", en: "High profit." } },
+  ]}] },
+};

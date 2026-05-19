@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega98: Record<string, Lesson> = {
+  "lc1_m144": { id: "lc1_m144", title: "Philosophy of Mind C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Philosophie des Geistes", phonetic: "fi-lo-zo-fee-des-gys-tes", meaning: "philosophy of mind", gender: "die", example: { de: "Analytische Philosophie des Geistes.", en: "Analytic philosophy of mind." } },
+    { word: "das Leib-Seele-Problem", phonetic: "lyp-zay-luh-pro-blaym", meaning: "mind-body problem", gender: "das", example: { de: "Descartes Leib-Seele-Problem.", en: "Descartes mind-body problem." } },
+    { word: "der Dualismus (Descartes)", phonetic: "doo-a-lis-mus", meaning: "dualism (Descartes)", gender: "der", example: { de: "Substanzdualismus Descartes.", en: "Substance dualism Descartes." } },
+    { word: "der Physikalismus", phonetic: "fü-zi-ka-lis-mus", meaning: "physicalism", gender: "der", example: { de: "Nichtreduktiver Physikalismus.", en: "Non-reductive physicalism." } },
+    { word: "der Funktionalismus (Geist)", phonetic: "foonk-tsee-oh-na-lis-mus", meaning: "functionalism (mind)", gender: "der", example: { de: "Putnams Funktionalismus.", en: "Putnam's functionalism." } },
+    { word: "das schwierige Problem des Bewusstseins (Chalmers)", phonetic: "shvee-ri-guh-pro-blaym-des-beh-voost-zyns", meaning: "hard problem of consciousness (Chalmers)", gender: "das", example: { de: "Chalmers schwieriges Problem.", en: "Chalmers hard problem." } },
+    { word: "das Qualia", phonetic: "kvah-li-ah", meaning: "qualia", example: { de: "Phänomenales Qualia.", en: "Phenomenal qualia." } },
+    { word: "die Intentionalität (Brentano)", phonetic: "in-ten-tsee-oh-na-li-tayt", meaning: "intentionality (Brentano)", gender: "die", example: { de: "Brentanos Intentionalität.", en: "Brentano's intentionality." } },
+    { word: "der Eliminativismus", phonetic: "e-li-mi-na-ti-vis-mus", meaning: "eliminativism", gender: "der", example: { de: "Churchlands Eliminativismus.", en: "Churchland's eliminativism." } },
+    { word: "der Eigenschaftsdualismus", phonetic: "ayg-en-shafts-doo-a-lis-mus", meaning: "property dualism", gender: "der", example: { de: "Eigenschaftsdualismus Bewusstsein.", en: "Property dualism consciousness." } },
+    { word: "die Supervenienz", phonetic: "zoo-per-ve-ni-ents", meaning: "supervenience", gender: "die", example: { de: "Mentale Supervenienz.", en: "Mental supervenience." } },
+    { word: "das chinesische Zimmer (Searle)", phonetic: "khi-nay-zi-shuh-tsim-er", meaning: "Chinese room (Searle)", gender: "das", example: { de: "Searles chinesisches Zimmer.", en: "Searle's Chinese room." } },
+    { word: "der Zombie-Gedankenexperiment", phonetic: "tsombee-geh-dan-ken-eks-pe-ri-ment", meaning: "philosophical zombie thought experiment", gender: "das", example: { de: "Philosophischer Zombie-Gedankenexperiment.", en: "Philosophical zombie thought experiment." } },
+    { word: "die Repräsentation (Geist)", phonetic: "re-pre-zen-ta-tsee-ohn", meaning: "mental representation", gender: "die", example: { de: "Mentale Repräsentation.", en: "Mental representation." } },
+    { word: "die extended mind thesis (Clark/Chalmers)", phonetic: "eks-ten-det-mynt-tay-zis", meaning: "extended mind thesis (Clark/Chalmers)", gender: "die", example: { de: "Clark-Chalmers extended mind.", en: "Clark-Chalmers extended mind." } },
+    { word: "die Emergenz", phonetic: "e-mer-gents", meaning: "emergence (mind)", gender: "die", example: { de: "Starke Emergenz.", en: "Strong emergence." } },
+    { word: "der Epiphänomenalismus", phonetic: "e-pi-fey-no-me-na-lis-mus", meaning: "epiphenomenalism", gender: "der", example: { de: "Mentaler Epiphänomenalismus.", en: "Mental epiphenomenalism." } },
+    { word: "der Panpsychismus", phonetic: "pan-psü-khis-mus", meaning: "panpsychism", gender: "der", example: { de: "Chalmers-Panpsychismus.", en: "Chalmers panpsychism." } },
+    { word: "die Enaktivismus (Varela/Maturana)", phonetic: "en-ak-ti-vis-mus", meaning: "enactivism (Varela/Maturana)", gender: "der", example: { de: "Varela-Enaktivismus.", en: "Varela enactivism." } },
+    { word: "die prädiktive Kodierung (Clark)", phonetic: "prä-dik-tee-vuh-ko-dee-rung", meaning: "predictive coding (Clark)", gender: "die", example: { de: "Clarks prädiktive Kodierung.", en: "Clark's predictive coding." } },
+  ]}] },
+};

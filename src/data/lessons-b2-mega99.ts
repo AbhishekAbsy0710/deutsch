@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega99: Record<string, Lesson> = {
+  "lb2_m144": { id: "lb2_m144", title: "Macroeconomics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Makroökonomie", phonetic: "ma-kro-ö-ko-no-mee", meaning: "macroeconomics", gender: "die", example: { de: "Keynesianische Makroökonomie.", en: "Keynesian macroeconomics." } },
+    { word: "das Bruttoinlandsprodukt (BIP)", phonetic: "broo-to-in-lants-pro-dookt", meaning: "GDP (gross domestic product)", gender: "das", example: { de: "Reales BIP-Wachstum.", en: "Real GDP growth." } },
+    { word: "die Inflation", phonetic: "in-fla-tsee-ohn", meaning: "inflation", gender: "die", example: { de: "Hyperinflation 1923.", en: "Hyperinflation 1923." } },
+    { word: "die Deflation", phonetic: "de-fla-tsee-ohn", meaning: "deflation", gender: "die", example: { de: "Japan-Deflation.", en: "Japan deflation." } },
+    { word: "die Geldpolitik", phonetic: "gelt-po-li-tik", meaning: "monetary policy", gender: "die", example: { de: "EZB-Geldpolitik.", en: "ECB monetary policy." } },
+    { word: "die Fiskalpolitik", phonetic: "fis-kahl-po-li-tik", meaning: "fiscal policy", gender: "die", example: { de: "Expansive Fiskalpolitik.", en: "Expansionary fiscal policy." } },
+    { word: "die Arbeitslosigkeit", phonetic: "ar-byts-loh-zikh-kyte", meaning: "unemployment", gender: "die", example: { de: "Strukturelle Arbeitslosigkeit.", en: "Structural unemployment." } },
+    { word: "die Phillips-Kurve", phonetic: "fi-lips-kur-vuh", meaning: "Phillips curve", gender: "die", example: { de: "Kurzfristige Phillips-Kurve.", en: "Short-run Phillips curve." } },
+    { word: "der Konjunkturzyklus", phonetic: "kon-yoonk-toor-tsü-klus", meaning: "business cycle", gender: "der", example: { de: "Rezession im Konjunkturzyklus.", en: "Recession in the business cycle." } },
+    { word: "der Multiplikatoreffekt (Keynes)", phonetic: "mool-ti-pli-ka-tor-e-fekt", meaning: "multiplier effect (Keynes)", gender: "der", example: { de: "Keynesianischer Multiplikatoreffekt.", en: "Keynesian multiplier effect." } },
+    { word: "die Zentralbank", phonetic: "tsen-trahl-bank", meaning: "central bank", gender: "die", example: { de: "Europäische Zentralbank.", en: "European Central Bank." } },
+    { word: "der Leitzins", phonetic: "lyt-tsins", meaning: "key interest rate / base rate", gender: "der", example: { de: "EZB-Leitzins.", en: "ECB key interest rate." } },
+    { word: "die Staatsschulden", phonetic: "shtahts-shool-den", meaning: "national debt / government debt", example: { de: "Hohe Staatsschulden.", en: "High national debt." } },
+    { word: "das Haushaltsdefizit", phonetic: "hows-halts-de-fi-tsit", meaning: "budget deficit", gender: "das", example: { de: "Staatliches Haushaltsdefizit.", en: "Government budget deficit." } },
+    { word: "das Handelsdefizit", phonetic: "han-dels-de-fi-tsit", meaning: "trade deficit", gender: "das", example: { de: "US-Handelsdefizit.", en: "US trade deficit." } },
+    { word: "die Wechselkurspolitik", phonetic: "vek-sel-koors-po-li-tik", meaning: "exchange rate policy", gender: "die", example: { de: "Flexible Wechselkurspolitik.", en: "Flexible exchange rate policy." } },
+    { word: "die quantitative Lockerung (QE)", phonetic: "kvan-ti-ta-tee-vuh-lo-ke-rung", meaning: "quantitative easing (QE)", gender: "die", example: { de: "EZB quantitative Lockerung.", en: "ECB quantitative easing." } },
+    { word: "die Stagflation", phonetic: "shtag-fla-tsee-ohn", meaning: "stagflation", gender: "die", example: { de: "1970er Stagflation.", en: "1970s stagflation." } },
+    { word: "die Zahlungsbilanz", phonetic: "tsah-lungs-bi-lants", meaning: "balance of payments", gender: "die", example: { de: "Ausgeglichene Zahlungsbilanz.", en: "Balanced balance of payments." } },
+    { word: "der Geldmengenmultiplikator", phonetic: "gelt-men-gen-mool-ti-pli-ka-tor", meaning: "money multiplier", gender: "der", example: { de: "Bankgeldmengenmultiplikator.", en: "Bank money multiplier." } },
+  ]}] },
+};

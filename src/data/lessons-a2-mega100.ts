@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega100: Record<string, Lesson> = {
+  "la2_m145": { id: "la2_m145", title: "Nature & Environment A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Natur", phonetic: "na-toor", meaning: "nature", gender: "die", example: { de: "In der Natur spazieren.", en: "Walk in nature." } },
+    { word: "der Wald", phonetic: "valt", meaning: "forest / wood", gender: "der", example: { de: "Durch den Wald gehen.", en: "Walk through the forest." } },
+    { word: "der Berg", phonetic: "berk", meaning: "mountain", gender: "der", example: { de: "Den Berg besteigen.", en: "Climb the mountain." } },
+    { word: "der Fluss", phonetic: "floos", meaning: "river", gender: "der", example: { de: "Am Fluss sitzen.", en: "Sit by the river." } },
+    { word: "der See", phonetic: "zay", meaning: "lake", gender: "der", example: { de: "Im See schwimmen.", en: "Swim in the lake." } },
+    { word: "das Meer", phonetic: "mayr", meaning: "sea / ocean", gender: "das", example: { de: "Am Meer sein.", en: "Be at the sea." } },
+    { word: "der Strand", phonetic: "shtrant", meaning: "beach", gender: "der", example: { de: "Am Strand liegen.", en: "Lie on the beach." } },
+    { word: "das Tal", phonetic: "tahl", meaning: "valley", gender: "das", example: { de: "Im Tal wandern.", en: "Hike in the valley." } },
+    { word: "die Wiese", phonetic: "vee-zuh", meaning: "meadow / field", gender: "die", example: { de: "Auf der Wiese spielen.", en: "Play in the meadow." } },
+    { word: "der Baum", phonetic: "bowm", meaning: "tree", gender: "der", example: { de: "Unter dem Baum sitzen.", en: "Sit under the tree." } },
+    { word: "die Blume", phonetic: "bloo-muh", meaning: "flower", gender: "die", example: { de: "Bunte Blumen pflücken.", en: "Pick colourful flowers." } },
+    { word: "das Tier", phonetic: "teer", meaning: "animal", gender: "das", example: { de: "Wilde Tiere.", en: "Wild animals." } },
+    { word: "der Vogel", phonetic: "foh-gel", meaning: "bird", gender: "der", example: { de: "Der Vogel singt.", en: "The bird sings." } },
+    { word: "der Fisch", phonetic: "fish", meaning: "fish", gender: "der", example: { de: "Frischer Fisch.", en: "Fresh fish." } },
+    { word: "das Wetter", phonetic: "ve-ter", meaning: "weather", gender: "das", example: { de: "Das Wetter ist schön.", en: "The weather is nice." } },
+    { word: "der Regen", phonetic: "ray-gen", meaning: "rain", gender: "der", example: { de: "Es regnet.", en: "It is raining." } },
+    { word: "der Schnee", phonetic: "shnay", meaning: "snow", gender: "der", example: { de: "Weißer Schnee.", en: "White snow." } },
+    { word: "der Wind", phonetic: "vint", meaning: "wind", gender: "der", example: { de: "Starker Wind.", en: "Strong wind." } },
+    { word: "die Umwelt", phonetic: "oom-velt", meaning: "environment", gender: "die", example: { de: "Umwelt schützen.", en: "Protect the environment." } },
+    { word: "der Klimawandel", phonetic: "klee-ma-van-del", meaning: "climate change", gender: "der", example: { de: "Klimawandel bekämpfen.", en: "Combat climate change." } },
+  ]}] },
+};

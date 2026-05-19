@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega99: Record<string, Lesson> = {
+  "la2_m144": { id: "la2_m144", title: "Work & Employment A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Arbeit", phonetic: "ar-byte", meaning: "work / job", gender: "die", example: { de: "Eine gute Arbeit finden.", en: "Find a good job." } },
+    { word: "der Beruf", phonetic: "beh-roof", meaning: "profession / occupation", gender: "der", example: { de: "Welchen Beruf haben Sie?", en: "What is your profession?" } },
+    { word: "der Arbeitsplatz", phonetic: "ar-byts-plats", meaning: "workplace / job", gender: "der", example: { de: "Sicherer Arbeitsplatz.", en: "Secure workplace." } },
+    { word: "das Büro", phonetic: "bü-roh", meaning: "office", gender: "das", example: { de: "Im Büro arbeiten.", en: "Work in the office." } },
+    { word: "der Chef", phonetic: "shef", meaning: "boss (male)", gender: "der", example: { de: "Mein Chef ist nett.", en: "My boss is nice." } },
+    { word: "der Kollege", phonetic: "ko-lay-guh", meaning: "colleague (male)", gender: "der", example: { de: "Netter Kollege.", en: "Nice colleague." } },
+    { word: "das Gehalt", phonetic: "geh-halt", meaning: "salary", gender: "das", example: { de: "Monatliches Gehalt.", en: "Monthly salary." } },
+    { word: "der Lohn", phonetic: "lohn", meaning: "wage", gender: "der", example: { de: "Stündlicher Lohn.", en: "Hourly wage." } },
+    { word: "die Arbeitszeit", phonetic: "ar-byts-tsyt", meaning: "working hours", gender: "die", example: { de: "Flexible Arbeitszeit.", en: "Flexible working hours." } },
+    { word: "der Urlaub", phonetic: "oor-lowp", meaning: "holiday / annual leave", gender: "der", example: { de: "Urlaub nehmen.", en: "Take annual leave." } },
+    { word: "der Vertrag", phonetic: "fer-trahk", meaning: "contract", gender: "der", example: { de: "Arbeitsvertrag unterschreiben.", en: "Sign a work contract." } },
+    { word: "die Kündigung", phonetic: "kün-di-gung", meaning: "dismissal / notice", gender: "die", example: { de: "Eine Kündigung erhalten.", en: "Receive a dismissal notice." } },
+    { word: "die Bewerbung", phonetic: "beh-ver-bung", meaning: "application (job)", gender: "die", example: { de: "Eine Bewerbung schreiben.", en: "Write a job application." } },
+    { word: "das Vorstellungsgespräch", phonetic: "for-shte-lungs-geh-shpreykkh", meaning: "job interview", gender: "das", example: { de: "Ein Vorstellungsgespräch haben.", en: "Have a job interview." } },
+    { word: "die Stelle", phonetic: "shte-luh", meaning: "post / position", gender: "die", example: { de: "Eine neue Stelle.", en: "A new position." } },
+    { word: "die Ausbildung", phonetic: "ows-bil-dung", meaning: "apprenticeship / training", gender: "die", example: { de: "Berufsausbildung machen.", en: "Do vocational training." } },
+    { word: "in Rente gehen", phonetic: "in-ren-tuh-gay-en", meaning: "to retire", example: { de: "Mit 67 in Rente gehen.", en: "Retire at 67." } },
+    { word: "arbeitslos", phonetic: "ar-byts-lohs", meaning: "unemployed", example: { de: "Arbeitslos sein.", en: "Be unemployed." } },
+    { word: "selbstständig", phonetic: "zelpst-shten-dikh", meaning: "self-employed", example: { de: "Selbstständig arbeiten.", en: "Work self-employed." } },
+    { word: "der Lebenslauf", phonetic: "lay-bens-lowf", meaning: "CV / résumé", gender: "der", example: { de: "Lebenslauf aktualisieren.", en: "Update the CV." } },
+  ]}] },
+};

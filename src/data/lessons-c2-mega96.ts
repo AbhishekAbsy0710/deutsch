@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega96: Record<string, Lesson> = {
+  "lc2_m139": { id: "lc2_m139", title: "Derived Categories C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die abgeleitete Kategorie", phonetic: "ap-geh-ly-te-tuh-ka-te-go-ree", meaning: "derived category", gender: "die", example: { de: "Beschränkte abgeleitete Kategorie D^b(A).", en: "Bounded derived category D^b(A)." } },
+    { word: "die dreieckige Kategorie", phonetic: "dry-e-ki-guh-ka-te-go-ree", meaning: "triangulated category", gender: "die", example: { de: "Ausgezeichnetes Dreieck.", en: "Distinguished triangle." } },
+    { word: "die Lokalisierung (Kategorientheorie)", phonetic: "lo-ka-li-zee-rung", meaning: "localisation (category theory)", gender: "die", example: { de: "Kategorientheoretische Lokalisierung.", en: "Category-theoretic localisation." } },
+    { word: "das ausgezeichnete Dreieck", phonetic: "ows-geh-tsykh-ne-tuh-dry-ek", meaning: "distinguished triangle", gender: "das", example: { de: "Ausgezeichnetes Dreieck in D(A).", en: "Distinguished triangle in D(A)." } },
+    { word: "der abgeleitete Funktor", phonetic: "ap-geh-ly-te-tuh-foonk-tor", meaning: "derived functor", gender: "der", example: { de: "Rechts-abgeleiteter Funktor RF.", en: "Right-derived functor RF." } },
+    { word: "die perverse Garbe", phonetic: "per-ver-zuh-gar-buh", meaning: "perverse sheaf", gender: "die", example: { de: "Beilinson-Perverse Garbe.", en: "Beilinson perverse sheaf." } },
+    { word: "die t-Struktur (abgeleitete Kategorie)", phonetic: "tay-shtrook-toor", meaning: "t-structure (derived category)", gender: "die", example: { de: "Perverse t-Struktur.", en: "Perverse t-structure." } },
+    { word: "der Fourier-Mukai-Transformation", phonetic: "foo-ree-ay-moo-ky-trans-for-ma-tsee-ohn", meaning: "Fourier-Mukai transform", gender: "die", example: { de: "Fourier-Mukai-Äquivalenz.", en: "Fourier-Mukai equivalence." } },
+    { word: "die DG-Kategorie", phonetic: "day-gay-ka-te-go-ree", meaning: "DG-category (differential graded)", gender: "die", example: { de: "Pre-triangulierte DG-Kategorie.", en: "Pre-triangulated DG-category." } },
+    { word: "die Serre-Funktor", phonetic: "ser-foonk-tor", meaning: "Serre functor", gender: "der", example: { de: "Serre-Dualität Funktor.", en: "Serre duality functor." } },
+    { word: "die A∞-Kategorie", phonetic: "a-in-fi-ni-tum-ka-te-go-ree", meaning: "A∞-category", gender: "die", example: { de: "Fukaya A∞-Kategorie.", en: "Fukaya A∞-category." } },
+    { word: "die Bondal-Orlov-Rekonstruktion", phonetic: "bon-dal-or-lof-re-kon-strook-tsee-ohn", meaning: "Bondal-Orlov reconstruction", gender: "die", example: { de: "Bondal-Orlov-Rekonstruktionssatz.", en: "Bondal-Orlov reconstruction theorem." } },
+    { word: "die Ableitung (Garbe)", phonetic: "ap-ly-tung", meaning: "sheaf derivation", gender: "die", example: { de: "Direkte Bildableitung.", en: "Direct image derivation." } },
+    { word: "der Mutation (abgeleitete Kategorie)", phonetic: "moo-ta-tsee-ohn", meaning: "mutation (derived categories)", gender: "die", example: { de: "Braid-Mutation.", en: "Braid mutation." } },
+    { word: "die außergewöhnliche Garbe", phonetic: "ows-ser-geh-vöhn-li-khuh-gar-buh", meaning: "exceptional sheaf / object", gender: "die", example: { de: "Außergewöhnliche Kollektion.", en: "Exceptional collection." } },
+    { word: "die semiorthogonale Zerlegung", phonetic: "ze-mi-or-to-go-nah-luh-tser-lay-gung", meaning: "semiorthogonal decomposition", gender: "die", example: { de: "Semiorthogonale Zerlegung von D^b.", en: "Semiorthogonal decomposition of D^b." } },
+    { word: "der Grothendieck-Gruppe", phonetic: "gro-ten-deek-groo-puh", meaning: "Grothendieck group K₀", gender: "die", example: { de: "K₀ als Grothendieck-Gruppe.", en: "K₀ as Grothendieck group." } },
+    { word: "die Hochschild-Homologie (Kategorie)", phonetic: "hokh-shilt-ho-mo-lo-gee", meaning: "Hochschild homology (of a category)", gender: "die", example: { de: "Hochschild-Homologie der DG-Kategorie.", en: "Hochschild homology of DG-category." } },
+    { word: "die Morita-Äquivalenz", phonetic: "mo-ri-ta-ey-kvi-va-lents", meaning: "Morita equivalence", gender: "die", example: { de: "DG-Morita-Äquivalenz.", en: "DG Morita equivalence." } },
+    { word: "die Stabilisierung (Kategorie)", phonetic: "shta-bi-li-zee-rung", meaning: "stabilisation (stable ∞-category)", gender: "die", example: { de: "Luriesche stabile Kategorie.", en: "Lurie stable category." } },
+  ]}] },
+};

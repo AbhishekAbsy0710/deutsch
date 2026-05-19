@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega99: Record<string, Lesson> = {
+  "lc1_m145": { id: "lc1_m145", title: "Linguistic Typology C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Sprachtypologie", phonetic: "shprakh-tü-po-lo-gee", meaning: "linguistic typology", gender: "die", example: { de: "Morphologische Sprachtypologie.", en: "Morphological linguistic typology." } },
+    { word: "die Universalgrammatik", phonetic: "oo-ni-ver-zahl-gra-mah-tik", meaning: "universal grammar (Chomsky)", gender: "die", example: { de: "Chomskys Universalgrammatik.", en: "Chomsky's universal grammar." } },
+    { word: "die Sprachuniversalien", phonetic: "shprakh-oo-ni-ver-zah-lee-en", meaning: "language universals (Greenberg)", example: { de: "Greenbergs Sprachuniversalien.", en: "Greenberg's language universals." } },
+    { word: "der Sprachbund", phonetic: "shprakh-boont", meaning: "Sprachbund / linguistic area", gender: "der", example: { de: "Balkanischer Sprachbund.", en: "Balkan Sprachbund." } },
+    { word: "die isolierende Sprache", phonetic: "i-zo-lee-ren-duh-shpra-khuh", meaning: "isolating language", gender: "die", example: { de: "Chinesisch als isolierende Sprache.", en: "Chinese as an isolating language." } },
+    { word: "die agglutinierende Sprache", phonetic: "a-gloo-ti-nee-ren-duh-shpra-khuh", meaning: "agglutinating language", gender: "die", example: { de: "Türkisch als agglutinierendes Sprache.", en: "Turkish as an agglutinating language." } },
+    { word: "die flektierende Sprache", phonetic: "flek-tee-ren-duh-shpra-khuh", meaning: "inflecting language", gender: "die", example: { de: "Latein als flektierende Sprache.", en: "Latin as an inflecting language." } },
+    { word: "die inkorporierende Sprache", phonetic: "in-kor-po-ree-ren-duh-shpra-khuh", meaning: "incorporating / polysynthetic language", gender: "die", example: { de: "Inuit als inkorporierende Sprache.", en: "Inuit as an incorporating language." } },
+    { word: "die Wortstellungstypologie", phonetic: "vort-shte-lungs-tü-po-lo-gee", meaning: "word order typology (SOV/SVO etc.)", gender: "die", example: { de: "SOV-Wortstellungstypologie.", en: "SOV word order typology." } },
+    { word: "der Ergativer-Sprache", phonetic: "er-ga-ti-ver-shpra-khuh", meaning: "ergative language", gender: "die", example: { de: "Baskisch als ergative Sprache.", en: "Basque as an ergative language." } },
+    { word: "die Sprachrelativismusthese (Sapir-Whorf)", phonetic: "shprakh-re-la-ti-vis-mus-tay-zuh", meaning: "linguistic relativity (Sapir-Whorf)", gender: "die", example: { de: "Sapir-Whorf-Sprachrelativismusthese.", en: "Sapir-Whorf linguistic relativity." } },
+    { word: "die Sprachfamilie", phonetic: "shprakh-fa-mi-lee-uh", meaning: "language family", gender: "die", example: { de: "Indogermanische Sprachfamilie.", en: "Indo-European language family." } },
+    { word: "der Protoindogermanisch", phonetic: "pro-to-in-do-ger-mah-nish", meaning: "Proto-Indo-European", gender: "das", example: { de: "Rekonstruiertes Protoindogermanisch.", en: "Reconstructed Proto-Indo-European." } },
+    { word: "die Sprachkontaktforschung", phonetic: "shprakh-kon-takt-for-shung", meaning: "language contact research", gender: "die", example: { de: "Sprachkontakt und Entlehnung.", en: "Language contact and borrowing." } },
+    { word: "das Pidgin", phonetic: "pid-shin", meaning: "pidgin language", gender: "das", example: { de: "Pidgin-Entstehung.", en: "Pidgin formation." } },
+    { word: "die Kreolsprache", phonetic: "kre-ol-shpra-khuh", meaning: "creole language", gender: "die", example: { de: "Karibische Kreolsprache.", en: "Caribbean creole language." } },
+    { word: "die Sprachveränderung", phonetic: "shprakh-fer-en-de-rung", meaning: "language change", gender: "die", example: { de: "Lautliche Sprachveränderung.", en: "Phonetic language change." } },
+    { word: "das Lautverschiebungsgesetz", phonetic: "lowt-fer-shee-bungs-geh-sets", meaning: "Grimm's law (consonant shift)", gender: "das", example: { de: "Grimms Lautverschiebungsgesetz.", en: "Grimm's law." } },
+    { word: "der Sprachzerfall", phonetic: "shprakh-tser-fal", meaning: "language attrition / death", gender: "der", example: { de: "Minderheitssprachzerfall.", en: "Minority language attrition." } },
+    { word: "die Revitalisierung (Sprache)", phonetic: "re-vi-ta-li-zee-rung", meaning: "language revitalisation", gender: "die", example: { de: "Walisische Sprachrevitalisierung.", en: "Welsh language revitalisation." } },
+  ]}] },
+};
