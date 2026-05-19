@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega106: Record<string, Lesson> = {
+  "la1_m156": { id: "la1_m156", title: "Core Adjectives A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "gut", phonetic: "goot", meaning: "good", example: { de: "Ein gutes Ergebnis.", en: "A good result." } },
+    { word: "schlecht", phonetic: "shlekht", meaning: "bad", example: { de: "Ein schlechter Tag.", en: "A bad day." } },
+    { word: "groß", phonetic: "grohs", meaning: "big / tall", example: { de: "Ein großes Haus.", en: "A big house." } },
+    { word: "klein", phonetic: "klyn", meaning: "small / short", example: { de: "Eine kleine Katze.", en: "A small cat." } },
+    { word: "neu", phonetic: "noy", meaning: "new", example: { de: "Ein neues Auto.", en: "A new car." } },
+    { word: "alt", phonetic: "alt", meaning: "old", example: { de: "Ein altes Buch.", en: "An old book." } },
+    { word: "schön", phonetic: "shön", meaning: "beautiful / nice", example: { de: "Ein schöner Tag.", en: "A beautiful day." } },
+    { word: "hässlich", phonetic: "hes-likh", meaning: "ugly", example: { de: "Ein hässliches Bild.", en: "An ugly picture." } },
+    { word: "schnell", phonetic: "shnel", meaning: "fast / quick", example: { de: "Ein schnelles Auto.", en: "A fast car." } },
+    { word: "langsam", phonetic: "lang-zahm", meaning: "slow", example: { de: "Ein langsamer Zug.", en: "A slow train." } },
+    { word: "schwer", phonetic: "shvayr", meaning: "heavy / difficult", example: { de: "Schwere Arbeit.", en: "Heavy work." } },
+    { word: "leicht", phonetic: "lykht", meaning: "light / easy", example: { de: "Eine leichte Aufgabe.", en: "An easy task." } },
+    { word: "lecker", phonetic: "le-ker", meaning: "delicious / tasty", example: { de: "Das Essen ist lecker.", en: "The food is delicious." } },
+    { word: "ekelhaft", phonetic: "ay-kel-haft", meaning: "disgusting", example: { de: "Ein ekelhafter Geruch.", en: "A disgusting smell." } },
+    { word: "interessant", phonetic: "in-te-res-sant", meaning: "interesting", example: { de: "Ein interessantes Buch.", en: "An interesting book." } },
+    { word: "langweilig", phonetic: "lang-vy-likh", meaning: "boring", example: { de: "Ein langweiliger Film.", en: "A boring film." } },
+    { word: "lustig", phonetic: "loos-tikh", meaning: "funny", example: { de: "Eine lustige Geschichte.", en: "A funny story." } },
+    { word: "traurig", phonetic: "trow-rikh", meaning: "sad", example: { de: "Ein trauriges Lied.", en: "A sad song." } },
+    { word: "müde", phonetic: "mü-duh", meaning: "tired", example: { de: "Ich bin müde.", en: "I am tired." } },
+    { word: "hungrig", phonetic: "hoon-grikh", meaning: "hungry", example: { de: "Ich bin hungrig.", en: "I am hungry." } },
+  ]}] },
+};

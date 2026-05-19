@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega105: Record<string, Lesson> = {
+  "lb1_m156": { id: "lb1_m156", title: "Physics Basics B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Physik", phonetic: "fü-zik", meaning: "physics", gender: "die", example: { de: "Klassische Physik.", en: "Classical physics." } },
+    { word: "die Mechanik", phonetic: "me-kha-nik", meaning: "mechanics", gender: "die", example: { de: "Newtonsche Mechanik.", en: "Newtonian mechanics." } },
+    { word: "die Kraft", phonetic: "kraft", meaning: "force", gender: "die", example: { de: "Wirkende Kraft.", en: "Acting force." } },
+    { word: "die Masse", phonetic: "ma-suh", meaning: "mass", gender: "die", example: { de: "Masse und Gewicht.", en: "Mass and weight." } },
+    { word: "die Beschleunigung", phonetic: "beh-shloyn-i-gung", meaning: "acceleration", gender: "die", example: { de: "Gleichmäßige Beschleunigung.", en: "Uniform acceleration." } },
+    { word: "die Gravitation", phonetic: "gra-vi-ta-tsee-ohn", meaning: "gravity / gravitation", gender: "die", example: { de: "Newtonsche Gravitation.", en: "Newtonian gravitation." } },
+    { word: "die Energie", phonetic: "e-ner-gee", meaning: "energy", gender: "die", example: { de: "Kinetische Energie.", en: "Kinetic energy." } },
+    { word: "die kinetische Energie", phonetic: "ki-ne-ti-shuh-e-ner-gee", meaning: "kinetic energy", gender: "die", example: { de: "Kinetische Energie Eₖ = ½mv².", en: "Kinetic energy Eₖ = ½mv²." } },
+    { word: "die potenzielle Energie", phonetic: "po-ten-tsee-e-luh-e-ner-gee", meaning: "potential energy", gender: "die", example: { de: "Potenzielle Energie E_p = mgh.", en: "Potential energy E_p = mgh." } },
+    { word: "die Thermodynamik", phonetic: "ter-mo-dü-na-mik", meaning: "thermodynamics", gender: "die", example: { de: "Erster Hauptsatz Thermodynamik.", en: "First law of thermodynamics." } },
+    { word: "die Temperatur (Physik)", phonetic: "tem-pe-ra-toor", meaning: "temperature (physics)", gender: "die", example: { de: "Absolute Temperatur Kelvin.", en: "Absolute temperature Kelvin." } },
+    { word: "der Druck", phonetic: "drook", meaning: "pressure", gender: "der", example: { de: "Atmosphärischer Druck.", en: "Atmospheric pressure." } },
+    { word: "die Welle", phonetic: "ve-luh", meaning: "wave", gender: "die", example: { de: "Elektromagnetische Welle.", en: "Electromagnetic wave." } },
+    { word: "die Frequenz", phonetic: "fre-kvents", meaning: "frequency", gender: "die", example: { de: "Schallfrequenz.", en: "Sound frequency." } },
+    { word: "die Wellenlänge", phonetic: "ve-len-len-guh", meaning: "wavelength", gender: "die", example: { de: "Lichtwellenlänge.", en: "Light wavelength." } },
+    { word: "das Licht", phonetic: "likht", meaning: "light", gender: "das", example: { de: "Lichtgeschwindigkeit.", en: "Speed of light." } },
+    { word: "das Elektron", phonetic: "e-lek-tron", meaning: "electron", gender: "das", example: { de: "Negativ geladenes Elektron.", en: "Negatively charged electron." } },
+    { word: "der Atomkern", phonetic: "ah-tom-kern", meaning: "atomic nucleus", gender: "der", example: { de: "Proton im Atomkern.", en: "Proton in atomic nucleus." } },
+    { word: "die Quantenmechanik", phonetic: "kvan-ten-me-kha-nik", meaning: "quantum mechanics", gender: "die", example: { de: "Schrödingers Quantenmechanik.", en: "Schrödinger's quantum mechanics." } },
+    { word: "die Relativitätstheorie (Einstein)", phonetic: "re-la-ti-vi-tayts-tay-oh-ree", meaning: "theory of relativity (Einstein)", gender: "die", example: { de: "Einsteins Relativitätstheorie.", en: "Einstein's theory of relativity." } },
+  ]}] },
+};

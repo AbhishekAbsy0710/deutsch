@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega102: Record<string, Lesson> = {
+  "la2_m147": { id: "la2_m147", title: "Media & Technology A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Smartphone", phonetic: "smaht-fohn", meaning: "smartphone", gender: "das", example: { de: "Das Smartphone nutzen.", en: "Use the smartphone." } },
+    { word: "der Computer", phonetic: "kom-pyoo-ter", meaning: "computer", gender: "der", example: { de: "Am Computer arbeiten.", en: "Work on the computer." } },
+    { word: "das Internet", phonetic: "in-ter-net", meaning: "the internet", gender: "das", example: { de: "Im Internet surfen.", en: "Surf the internet." } },
+    { word: "die App", phonetic: "ap", meaning: "app", gender: "die", example: { de: "Eine App herunterladen.", en: "Download an app." } },
+    { word: "die E-Mail", phonetic: "ee-meyl", meaning: "email", gender: "die", example: { de: "Eine E-Mail schreiben.", en: "Write an email." } },
+    { word: "das soziale Netzwerk", phonetic: "zo-tsee-ah-luh-nets-verk", meaning: "social network", gender: "das", example: { de: "Soziale Netzwerke nutzen.", en: "Use social networks." } },
+    { word: "das Fernsehen", phonetic: "fern-zay-en", meaning: "television / TV", gender: "das", example: { de: "Fernsehen schauen.", en: "Watch television." } },
+    { word: "der Fernseher", phonetic: "fern-zay-er", meaning: "television set", gender: "der", example: { de: "Neuer Fernseher.", en: "New television set." } },
+    { word: "das Radio", phonetic: "rah-di-oh", meaning: "radio", gender: "das", example: { de: "Radio hören.", en: "Listen to the radio." } },
+    { word: "die Zeitung", phonetic: "tsy-tung", meaning: "newspaper", gender: "die", example: { de: "Die Zeitung lesen.", en: "Read the newspaper." } },
+    { word: "die Zeitschrift", phonetic: "tsyt-shrift", meaning: "magazine", gender: "die", example: { de: "Eine Zeitschrift abonnieren.", en: "Subscribe to a magazine." } },
+    { word: "das Foto", phonetic: "fo-to", meaning: "photo", gender: "das", example: { de: "Ein Foto machen.", en: "Take a photo." } },
+    { word: "das Video", phonetic: "vi-de-oh", meaning: "video", gender: "das", example: { de: "Ein Video ansehen.", en: "Watch a video." } },
+    { word: "herunterladen", phonetic: "her-oon-ter-lah-den", meaning: "to download", example: { de: "Eine Datei herunterladen.", en: "Download a file." } },
+    { word: "das Passwort", phonetic: "pas-vort", meaning: "password", gender: "das", example: { de: "Sicheres Passwort.", en: "Secure password." } },
+    { word: "der Akku", phonetic: "a-koo", meaning: "battery (rechargeable)", gender: "der", example: { de: "Akku laden.", en: "Charge the battery." } },
+    { word: "das WLAN", phonetic: "ve-lan", meaning: "Wi-Fi", gender: "das", example: { de: "WLAN-Verbindung.", en: "Wi-Fi connection." } },
+    { word: "das Kabel", phonetic: "kah-bel", meaning: "cable / wire", gender: "das", example: { de: "USB-Kabel.", en: "USB cable." } },
+    { word: "drucken", phonetic: "droo-ken", meaning: "to print", example: { de: "Dokument drucken.", en: "Print a document." } },
+    { word: "speichern", phonetic: "shpy-khern", meaning: "to save (file)", example: { de: "Datei speichern.", en: "Save a file." } },
+  ]}] },
+};

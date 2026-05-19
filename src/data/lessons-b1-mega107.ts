@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega107: Record<string, Lesson> = {
+  "lb1_m158": { id: "lb1_m158", title: "Philosophy of Science B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Wissenschaftsphilosophie", phonetic: "vi-sen-shafts-fi-lo-zo-fee", meaning: "philosophy of science", gender: "die", example: { de: "Analytische Wissenschaftsphilosophie.", en: "Analytic philosophy of science." } },
+    { word: "die Falsifikation (Popper)", phonetic: "fal-zi-fi-ka-tsee-ohn", meaning: "falsification (Popper)", gender: "die", example: { de: "Poppers Falsifikationsprinzip.", en: "Popper's falsification principle." } },
+    { word: "der Falsifizierbarkeit", phonetic: "fal-zi-fi-tseer-bahr-kyte", meaning: "falsifiability", gender: "die", example: { de: "Wissenschaftliche Falsifizierbarkeit.", en: "Scientific falsifiability." } },
+    { word: "das Paradigma (Kuhn)", phonetic: "pa-ra-dig-mah", meaning: "paradigm (Kuhn)", gender: "das", example: { de: "Wissenschaftliches Paradigma.", en: "Scientific paradigm." } },
+    { word: "die wissenschaftliche Revolution (Kuhn)", phonetic: "vi-sen-shaft-li-khuh-re-vo-loo-tsee-ohn", meaning: "scientific revolution (Kuhn)", gender: "die", example: { de: "Kuhns wissenschaftliche Revolution.", en: "Kuhn's scientific revolution." } },
+    { word: "die Normalwissenschaft (Kuhn)", phonetic: "nor-mahl-vi-sen-shaft", meaning: "normal science (Kuhn)", gender: "die", example: { de: "Kuhns Normalwissenschaft.", en: "Kuhn's normal science." } },
+    { word: "der Induktivismus", phonetic: "in-dook-ti-vis-mus", meaning: "inductivism", gender: "der", example: { de: "Baconscher Induktivismus.", en: "Baconian inductivism." } },
+    { word: "das Induktionsproblem (Hume)", phonetic: "in-dook-tsee-ohns-pro-blaym", meaning: "problem of induction (Hume)", gender: "das", example: { de: "Humes Induktionsproblem.", en: "Hume's problem of induction." } },
+    { word: "der Deduktivismus", phonetic: "de-dook-ti-vis-mus", meaning: "deductivism", gender: "der", example: { de: "Poppers Deduktivismus.", en: "Popper's deductivism." } },
+    { word: "das hypothetisch-deduktive Methode", phonetic: "hü-po-tay-tish-de-dook-tee-vuh-me-to-duh", meaning: "hypothetico-deductive method", gender: "die", example: { de: "HD-Methode Wissenschaft.", en: "HD method science." } },
+    { word: "die wissenschaftliche Erklärung", phonetic: "vi-sen-shaft-li-khuh-er-kley-rung", meaning: "scientific explanation", gender: "die", example: { de: "Kausale wissenschaftliche Erklärung.", en: "Causal scientific explanation." } },
+    { word: "das Hempel-Oppenheim-Schema", phonetic: "hem-pel-o-pen-hym-shay-mah", meaning: "covering law model (Hempel)", gender: "das", example: { de: "Hempel-Oppenheim Erklärungsschema.", en: "Hempel-Oppenheim explanation schema." } },
+    { word: "der wissenschaftliche Realismus", phonetic: "vi-sen-shaft-li-kher-re-a-lis-mus", meaning: "scientific realism", gender: "der", example: { de: "Wissenschaftlicher Realismus.", en: "Scientific realism." } },
+    { word: "der Anti-Realismus (Wissenschaft)", phonetic: "an-ti-re-a-lis-mus", meaning: "anti-realism (philosophy of science)", gender: "der", example: { de: "Van Fraassens Anti-Realismus.", en: "Van Fraassen's anti-realism." } },
+    { word: "das Underdetermination (Quine)", phonetic: "oon-der-de-ter-mi-na-tsee-ohn", meaning: "underdetermination (Quine)", gender: "die", example: { de: "Quines Underdetermination.", en: "Quine's underdetermination." } },
+    { word: "die Theorie-Beladenheit", phonetic: "tay-oh-ree-beh-lah-den-hyte", meaning: "theory-ladenness (of observation)", gender: "die", example: { de: "Theoriebeladenheit Beobachtungen.", en: "Theory-ladenness of observations." } },
+    { word: "das Forschungsprogramm (Lakatos)", phonetic: "for-shungs-pro-gram", meaning: "research programme (Lakatos)", gender: "das", example: { de: "Lakatossches Forschungsprogramm.", en: "Lakatosian research programme." } },
+    { word: "der Feyerabend-Anarchismus", phonetic: "fy-er-ah-bent-an-ar-khis-mus", meaning: "Feyerabend's epistemological anarchism", gender: "der", example: { de: "Feyerabends anything goes.", en: "Feyerabend's anything goes." } },
+    { word: "die wissenschaftliche Gemeinschaft", phonetic: "vi-sen-shaft-li-khuh-geh-myn-shaft", meaning: "scientific community", gender: "die", example: { de: "Kuhns wissenschaftliche Gemeinschaft.", en: "Kuhn's scientific community." } },
+    { word: "die Peer Review (Wissenschaft)", phonetic: "peer-re-vyoo", meaning: "peer review (science)", gender: "das", example: { de: "Peer-Review-Prozess.", en: "Peer review process." } },
+  ]}] },
+};

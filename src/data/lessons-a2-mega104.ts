@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega104: Record<string, Lesson> = {
+  "la2_m149": { id: "la2_m149", title: "Housing & Home A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Wohnung", phonetic: "vo-nung", meaning: "apartment / flat", gender: "die", example: { de: "Eine Wohnung mieten.", en: "Rent an apartment." } },
+    { word: "das Haus", phonetic: "hows", meaning: "house", gender: "das", example: { de: "Ein Haus kaufen.", en: "Buy a house." } },
+    { word: "das Zimmer", phonetic: "tsim-er", meaning: "room", gender: "das", example: { de: "Ein helles Zimmer.", en: "A bright room." } },
+    { word: "die Küche", phonetic: "kü-khuh", meaning: "kitchen", gender: "die", example: { de: "In der Küche kochen.", en: "Cook in the kitchen." } },
+    { word: "das Wohnzimmer", phonetic: "von-tsim-er", meaning: "living room", gender: "das", example: { de: "Im Wohnzimmer sitzen.", en: "Sit in the living room." } },
+    { word: "das Schlafzimmer", phonetic: "shlahf-tsim-er", meaning: "bedroom", gender: "das", example: { de: "Im Schlafzimmer schlafen.", en: "Sleep in the bedroom." } },
+    { word: "das Badezimmer", phonetic: "bah-duh-tsim-er", meaning: "bathroom", gender: "das", example: { de: "Im Badezimmer duschen.", en: "Shower in the bathroom." } },
+    { word: "die Toilette", phonetic: "toa-le-tuh", meaning: "toilet", gender: "die", example: { de: "Die Toilette benutzen.", en: "Use the toilet." } },
+    { word: "der Keller", phonetic: "ke-ler", meaning: "cellar / basement", gender: "der", example: { de: "Im Keller lagern.", en: "Store in the cellar." } },
+    { word: "der Dachboden", phonetic: "dakh-boh-den", meaning: "attic / loft", gender: "der", example: { de: "Auf dem Dachboden.", en: "In the attic." } },
+    { word: "der Balkon", phonetic: "bal-kon", meaning: "balcony", gender: "der", example: { de: "Auf dem Balkon sitzen.", en: "Sit on the balcony." } },
+    { word: "der Garten", phonetic: "gar-ten", meaning: "garden", gender: "der", example: { de: "Im Garten arbeiten.", en: "Work in the garden." } },
+    { word: "die Miete", phonetic: "mee-tuh", meaning: "rent", gender: "die", example: { de: "Monatliche Miete.", en: "Monthly rent." } },
+    { word: "der Vermieter", phonetic: "fer-mee-ter", meaning: "landlord", gender: "der", example: { de: "Der Vermieter repariert.", en: "The landlord repairs." } },
+    { word: "der Mieter", phonetic: "mee-ter", meaning: "tenant", gender: "der", example: { de: "Guter Mieter.", en: "Good tenant." } },
+    { word: "das Möbel", phonetic: "mö-bel", meaning: "furniture (piece)", gender: "das", example: { de: "Neue Möbel kaufen.", en: "Buy new furniture." } },
+    { word: "die Heizung", phonetic: "hy-tsung", meaning: "heating", gender: "die", example: { de: "Heizung einschalten.", en: "Switch on the heating." } },
+    { word: "der Aufzug", phonetic: "owf-tsook", meaning: "lift / elevator", gender: "der", example: { de: "Mit dem Aufzug.", en: "By lift." } },
+    { word: "die Treppe", phonetic: "tre-puh", meaning: "stairs / staircase", gender: "die", example: { de: "Die Treppe hinaufgehen.", en: "Go up the stairs." } },
+    { word: "der Schlüssel", phonetic: "shlü-sel", meaning: "key", gender: "der", example: { de: "Schlüssel verloren.", en: "Lost the key." } },
+  ]}] },
+};

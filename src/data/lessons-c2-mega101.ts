@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega101: Record<string, Lesson> = {
+  "lc2_m144": { id: "lc2_m144", title: "L-Functions & Automorphic Forms C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die L-Funktion (allgemein)", phonetic: "el-foonk-tsee-ohn", meaning: "L-function (general)", gender: "die", example: { de: "Selberg-Klasse L-Funktion.", en: "Selberg class L-function." } },
+    { word: "die Riemann-Zetafunktion", phonetic: "ree-man-tsay-ta-foonk-tsee-ohn", meaning: "Riemann zeta function ζ(s)", gender: "die", example: { de: "Riemannsche Zetafunktion ζ(s).", en: "Riemann zeta function ζ(s)." } },
+    { word: "die Riemann-Vermutung", phonetic: "ree-man-fer-moo-tung", meaning: "Riemann hypothesis", gender: "die", example: { de: "Offene Riemann-Vermutung.", en: "Open Riemann hypothesis." } },
+    { word: "die Dirichlet-L-Funktion", phonetic: "di-rik-lay-el-foonk-tsee-ohn", meaning: "Dirichlet L-function", gender: "die", example: { de: "L(s,χ) Dirichlet-L-Funktion.", en: "L(s,χ) Dirichlet L-function." } },
+    { word: "die Dirichlet-Charakter", phonetic: "di-rik-lay-kar-ak-ter", meaning: "Dirichlet character", gender: "der", example: { de: "Primitiver Dirichlet-Charakter.", en: "Primitive Dirichlet character." } },
+    { word: "die analytische Fortsetzung", phonetic: "a-na-lü-ti-shuh-fort-ze-tsung", meaning: "analytic continuation", gender: "die", example: { de: "Meromorphe analytische Fortsetzung.", en: "Meromorphic analytic continuation." } },
+    { word: "die Funktionalgleichung (L-Funktion)", phonetic: "foonk-tsee-oh-nahl-gly-khung", meaning: "functional equation (L-function)", gender: "die", example: { de: "Symmetrische Funktionalgleichung.", en: "Symmetric functional equation." } },
+    { word: "das automorphe Formular", phonetic: "ow-to-mor-fuh-for-moo-lahr", meaning: "automorphic form", gender: "die", example: { de: "GL(n) automorphe Form.", en: "GL(n) automorphic form." } },
+    { word: "die Maass-Form", phonetic: "mahs-form", meaning: "Maass form", gender: "die", example: { de: "Reelle Maass-Form.", en: "Real-weight Maass form." } },
+    { word: "das Langlands-Programm (analytisch)", phonetic: "lang-lants-pro-gram", meaning: "Langlands programme (analytic)", gender: "das", example: { de: "Analytisches Langlands-Programm.", en: "Analytic Langlands programme." } },
+    { word: "die Galois-Darstellung (L-Funktion)", phonetic: "ga-lwa-dar-shte-lung", meaning: "Galois representation (L-function)", gender: "die", example: { de: "Kompatible Galois-System.", en: "Compatible Galois system." } },
+    { word: "die Laplace-Eigenform", phonetic: "la-plahs-ayg-en-form", meaning: "Laplace eigenform", gender: "die", example: { de: "Hecke-Laplace-Eigenform.", en: "Hecke-Laplace eigenform." } },
+    { word: "die Petersson-Skalarprodukt", phonetic: "pe-ters-son-ska-lahr-pro-dookt", meaning: "Petersson inner product", gender: "das", example: { de: "Petersson-Skalarprodukt modularer Formen.", en: "Petersson inner product of modular forms." } },
+    { word: "der kongruente Untergruppe (Γ₀(N))", phonetic: "kon-groo-en-tuh-oon-ter-groo-puh", meaning: "congruence subgroup Γ₀(N)", gender: "die", example: { de: "Γ₀(N) kongruente Untergruppe.", en: "Γ₀(N) congruence subgroup." } },
+    { word: "die Eisenstein-Reihe", phonetic: "ay-zen-shtyn-ry-uh", meaning: "Eisenstein series", gender: "die", example: { de: "Holomorphe Eisenstein-Reihe G_k.", en: "Holomorphic Eisenstein series G_k." } },
+    { word: "das Voronoi-Summationsformel", phonetic: "vo-ro-noy-zoo-ma-tsee-ohns-for-mel", meaning: "Voronoi summation formula", gender: "die", example: { de: "GL(3) Voronoi-Summationsformel.", en: "GL(3) Voronoi summation formula." } },
+    { word: "die Rankin-Selberg-Methode", phonetic: "ran-kin-zel-berg-me-to-duh", meaning: "Rankin-Selberg method", gender: "die", example: { de: "L(s, f × g) Rankin-Selberg.", en: "L(s, f × g) Rankin-Selberg." } },
+    { word: "die Selberg-Spurformel", phonetic: "zel-berg-shpoor-for-mel", meaning: "Selberg trace formula", gender: "die", example: { de: "Arthur-Selberg-Spurformel.", en: "Arthur-Selberg trace formula." } },
+    { word: "die lokale Langlands-Korrespondenz", phonetic: "lo-kah-luh-lang-lants-ko-res-pon-dents", meaning: "local Langlands correspondence", gender: "die", example: { de: "Lokale Langlands-Korrespondenz GL(n).", en: "Local Langlands correspondence GL(n)." } },
+    { word: "das Sato-Tate-Verteilung", phonetic: "za-to-tayt-fer-ty-lung", meaning: "Sato-Tate distribution", gender: "die", example: { de: "Sato-Tate-Verteilung Hecke-Eigenwerte.", en: "Sato-Tate distribution Hecke eigenvalues." } },
+  ]}] },
+};

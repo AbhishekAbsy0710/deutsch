@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega102: Record<string, Lesson> = {
+  "lc2_m145": { id: "lc2_m145", title: "Representation Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Darstellungstheorie", phonetic: "dar-shte-lungs-tay-oh-ree", meaning: "representation theory", gender: "die", example: { de: "Darstellungstheorie endlicher Gruppen.", en: "Representation theory of finite groups." } },
+    { word: "die Darstellung einer Gruppe", phonetic: "dar-shte-lung-ay-ner-groo-puh", meaning: "representation of a group", gender: "die", example: { de: "Lineare Darstellung.", en: "Linear representation." } },
+    { word: "der Charakter (Darstellungstheorie)", phonetic: "ka-rak-ter", meaning: "character (representation theory)", gender: "der", example: { de: "Gruppencharakter χ.", en: "Group character χ." } },
+    { word: "die Charaktertafel", phonetic: "ka-rak-ter-tah-fel", meaning: "character table", gender: "die", example: { de: "Charaktertafel der S₃.", en: "Character table of S₃." } },
+    { word: "die irreduzible Darstellung", phonetic: "i-re-doo-tsee-bluh-dar-shte-lung", meaning: "irreducible representation", gender: "die", example: { de: "Irreduzible Darstellungen von SU(2).", en: "Irreducible representations of SU(2)." } },
+    { word: "der Satz von Maschke", phonetic: "zats-fon-mash-kuh", meaning: "Maschke's theorem", gender: "der", example: { de: "Maschkes vollständige Reduzierbarkeit.", en: "Maschke's complete reducibility." } },
+    { word: "die Schur-Orthogonalitätsrelationen", phonetic: "shoor-or-to-go-na-li-tayts-re-la-tsee-oh-nen", meaning: "Schur orthogonality relations", example: { de: "Schur-Orthogonalitätsrelationen.", en: "Schur orthogonality relations." } },
+    { word: "das Schur-Lemma", phonetic: "shoor-le-mah", meaning: "Schur's lemma", gender: "das", example: { de: "Schurs Lemma Homomorphismus.", en: "Schur's lemma homomorphism." } },
+    { word: "die induzierte Darstellung", phonetic: "in-doo-tseer-tuh-dar-shte-lung", meaning: "induced representation", gender: "die", example: { de: "Ind_H^G Darstellung.", en: "Ind_H^G representation." } },
+    { word: "die eingeschränkte Darstellung", phonetic: "ayn-geh-shrenk-tuh-dar-shte-lung", meaning: "restricted representation", gender: "die", example: { de: "Res_H^G Darstellung.", en: "Res_H^G representation." } },
+    { word: "das Frobenius-Reziprozitätsgesetz", phonetic: "fro-be-ni-us-re-tsi-pro-tsi-tayts-geh-sets", meaning: "Frobenius reciprocity", gender: "das", example: { de: "Frobenius-Reziprozität Ind/Res.", en: "Frobenius reciprocity Ind/Res." } },
+    { word: "die Lie-Algebren-Darstellung", phonetic: "lee-al-ge-bren-dar-shte-lung", meaning: "Lie algebra representation", gender: "die", example: { de: "sl(2,ℂ)-Darstellung.", en: "sl(2,ℂ) representation." } },
+    { word: "das höchste Gewicht (Lie-Gruppe)", phonetic: "hökhstes-geh-vikht", meaning: "highest weight (Lie group)", gender: "das", example: { de: "Irreduzible Höchstgewichts-Darstellung.", en: "Irreducible highest weight representation." } },
+    { word: "die Weyl-Charakterformel", phonetic: "vyl-ka-rak-ter-for-mel", meaning: "Weyl character formula", gender: "die", example: { de: "Weylsche Charakterformel.", en: "Weyl character formula." } },
+    { word: "das Dynkin-Diagramm", phonetic: "dün-kin-di-a-gram", meaning: "Dynkin diagram", gender: "das", example: { de: "A_n Dynkin-Diagramm.", en: "A_n Dynkin diagram." } },
+    { word: "die Wurzelsystem", phonetic: "voor-tsel-züs-tem", meaning: "root system", gender: "das", example: { de: "E₈-Wurzelsystem.", en: "E₈ root system." } },
+    { word: "die Weyl-Gruppe", phonetic: "vyl-groo-puh", meaning: "Weyl group", gender: "die", example: { de: "Weyl-Gruppe vom Typ A_n.", en: "Weyl group of type A_n." } },
+    { word: "die modulare Darstellungstheorie (Brauer)", phonetic: "mo-doo-lah-ruh-dar-shte-lungs-tay-oh-ree", meaning: "modular representation theory (Brauer)", gender: "die", example: { de: "Brauers modulare Darstellungstheorie.", en: "Brauer's modular representation theory." } },
+    { word: "der Quiver (Köcherdarstellung)", phonetic: "kvi-ver", meaning: "quiver representation", gender: "der", example: { de: "Gabriels Quiver-Darstellung.", en: "Gabriel's quiver representation." } },
+    { word: "der Satz von Gabriel", phonetic: "zats-fon-ga-bri-el", meaning: "Gabriel's theorem (quivers)", gender: "der", example: { de: "Gabriels Klassifikation endlicher Typ.", en: "Gabriel's classification finite type." } },
+  ]}] },
+};

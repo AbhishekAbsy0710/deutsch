@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega105: Record<string, Lesson> = {
+  "lc1_m151": { id: "lc1_m151", title: "Advanced German Morphology C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Morphologie (Deutsch)", phonetic: "mor-fo-lo-gee", meaning: "morphology (German)", gender: "die", example: { de: "Deutsche Wortbildungsmorphologie.", en: "German word-formation morphology." } },
+    { word: "das Morphem", phonetic: "mor-feym", meaning: "morpheme", gender: "das", example: { de: "Freies und gebundenes Morphem.", en: "Free and bound morpheme." } },
+    { word: "das freie Morphem", phonetic: "fry-uh-mor-feym", meaning: "free morpheme", gender: "das", example: { de: "Freies Morphem 'Haus'.", en: "Free morpheme 'Haus'." } },
+    { word: "das gebundene Morphem", phonetic: "geh-boon-de-nuh-mor-feym", meaning: "bound morpheme", gender: "das", example: { de: "Präfix als gebundenes Morphem.", en: "Prefix as bound morpheme." } },
+    { word: "die Derivation (Morphologie)", phonetic: "de-ri-va-tsee-ohn", meaning: "derivation (morphology)", gender: "die", example: { de: "Adjektivische Derivation.", en: "Adjectival derivation." } },
+    { word: "die Komposition (Wortbildung)", phonetic: "kom-po-zee-tsee-ohn", meaning: "compounding (word formation)", gender: "die", example: { de: "Deutsche Komposition: Hausaufgabe.", en: "German compounding: Hausaufgabe." } },
+    { word: "das Determinativkompositum", phonetic: "de-ter-mi-na-teef-kom-po-zi-tum", meaning: "determinative compound", gender: "das", example: { de: "Rechtsköpfiges Determinativkompositum.", en: "Right-headed determinative compound." } },
+    { word: "die Konversion (Morphologie)", phonetic: "kon-ver-zee-ohn", meaning: "conversion / zero-derivation", gender: "die", example: { de: "Nominalisierung durch Konversion.", en: "Nominalisation by conversion." } },
+    { word: "die Nominalisierung", phonetic: "no-mi-na-li-zee-rung", meaning: "nominalisation", gender: "die", example: { de: "Infinitivische Nominalisierung.", en: "Infinitival nominalisation." } },
+    { word: "das Präfix", phonetic: "prä-fiks", meaning: "prefix", gender: "das", example: { de: "Un- als negatives Präfix.", en: "Un- as negative prefix." } },
+    { word: "das Suffix", phonetic: "zoo-fiks", meaning: "suffix", gender: "das", example: { de: "Suffix -ung Nominalisierung.", en: "Suffix -ung nominalisation." } },
+    { word: "das Zirkumfix", phonetic: "tsir-koom-fiks", meaning: "circumfix", gender: "das", example: { de: "Ge-…-e Kollektivzirkumfix.", en: "Ge-…-e collective circumfix." } },
+    { word: "die Flexionsmorphologie", phonetic: "flek-tsee-ohns-mor-fo-lo-gee", meaning: "inflectional morphology", gender: "die", example: { de: "Verbale Flexionsmorphologie.", en: "Verbal inflectional morphology." } },
+    { word: "das Genus (Grammatik)", phonetic: "gay-nus", meaning: "grammatical gender", gender: "das", example: { de: "Deutsches Genus maskulin/feminin/neutrum.", en: "German gender masculine/feminine/neuter." } },
+    { word: "der Kasus (Grammatik)", phonetic: "kah-zus", meaning: "grammatical case", gender: "der", example: { de: "Vier Kasus des Deutschen.", en: "Four cases of German." } },
+    { word: "die starke Flexion (Verb)", phonetic: "shtar-kuh-flek-tsee-ohn", meaning: "strong verb inflection", gender: "die", example: { de: "Starke Verben: singen-sang.", en: "Strong verbs: singen-sang." } },
+    { word: "die schwache Flexion (Verb)", phonetic: "shva-khuh-flek-tsee-ohn", meaning: "weak verb inflection", gender: "die", example: { de: "Schwache Verben: machen-machte.", en: "Weak verbs: machen-machte." } },
+    { word: "das Ablautsystem", phonetic: "ap-lowt-züs-tem", meaning: "ablaut system (vowel gradation)", gender: "das", example: { de: "Germanisches Ablautsystem.", en: "Germanic ablaut system." } },
+    { word: "der Umlaut (Morphologie)", phonetic: "oom-lowt", meaning: "umlaut (morphological)", gender: "der", example: { de: "Pluralischer Umlaut.", en: "Plural umlaut." } },
+    { word: "die Wortfamilie", phonetic: "vort-fa-mi-lee-uh", meaning: "word family", gender: "die", example: { de: "Wortfamilie von 'fragen'.", en: "Word family of 'fragen'." } },
+  ]}] },
+};

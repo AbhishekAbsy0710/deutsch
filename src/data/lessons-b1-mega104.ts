@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega104: Record<string, Lesson> = {
+  "lb1_m155": { id: "lb1_m155", title: "Philosophy Basics B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Philosophie", phonetic: "fi-lo-zo-fee", meaning: "philosophy", gender: "die", example: { de: "Antike Philosophie.", en: "Ancient philosophy." } },
+    { word: "die Metaphysik", phonetic: "me-ta-fü-zik", meaning: "metaphysics", gender: "die", example: { de: "Aristoteles Metaphysik.", en: "Aristotle's metaphysics." } },
+    { word: "die Epistemologie", phonetic: "e-pis-te-mo-lo-gee", meaning: "epistemology", gender: "die", example: { de: "Erkenntnistheoretische Epistemologie.", en: "Epistemological epistemology." } },
+    { word: "die Ethik", phonetic: "ay-tik", meaning: "ethics", gender: "die", example: { de: "Normative Ethik.", en: "Normative ethics." } },
+    { word: "die Logik (Philosophie)", phonetic: "lo-gik", meaning: "logic (philosophy)", gender: "die", example: { de: "Formale Logik.", en: "Formal logic." } },
+    { word: "Platon", phonetic: "plah-ton", meaning: "Plato", example: { de: "Platons Ideenlehre.", en: "Plato's theory of forms." } },
+    { word: "Aristoteles", phonetic: "a-ris-to-te-les", meaning: "Aristotle", example: { de: "Aristoteles' Syllogistik.", en: "Aristotle's syllogistic." } },
+    { word: "Sokrates", phonetic: "zo-kra-tes", meaning: "Socrates", example: { de: "Sokratische Methode.", en: "Socratic method." } },
+    { word: "Immanuel Kant", phonetic: "i-ma-noo-el-kant", meaning: "Immanuel Kant", example: { de: "Kants Kritik der reinen Vernunft.", en: "Kant's Critique of Pure Reason." } },
+    { word: "der kategorische Imperativ (Kant)", phonetic: "ka-te-go-ri-shuh-im-pe-ra-teef", meaning: "categorical imperative (Kant)", gender: "der", example: { de: "Kants kategorischer Imperativ.", en: "Kant's categorical imperative." } },
+    { word: "Friedrich Nietzsche", phonetic: "freed-rikh-nee-chuh", meaning: "Friedrich Nietzsche", example: { de: "Nietzsche: Gott ist tot.", en: "Nietzsche: God is dead." } },
+    { word: "der Utilitarismus", phonetic: "oo-ti-li-ta-ris-mus", meaning: "utilitarianism", gender: "der", example: { de: "Benthams Utilitarismus.", en: "Bentham's utilitarianism." } },
+    { word: "das Sein und Nichts", phonetic: "zayn-oont-nikhts", meaning: "being and nothingness (Sartre)", gender: "das", example: { de: "Sartres Sein und Nichts.", en: "Sartre's being and nothingness." } },
+    { word: "der Existenzialismus", phonetic: "eks-is-ten-tsee-a-lis-mus", meaning: "existentialism", gender: "der", example: { de: "Sartres Existenzialismus.", en: "Sartre's existentialism." } },
+    { word: "der Empirismus", phonetic: "em-pi-ris-mus", meaning: "empiricism", gender: "der", example: { de: "Humes Empirismus.", en: "Hume's empiricism." } },
+    { word: "der Rationalismus", phonetic: "ra-tsee-oh-na-lis-mus", meaning: "rationalism", gender: "der", example: { de: "Descartes Rationalismus.", en: "Descartes' rationalism." } },
+    { word: "cogito ergo sum", phonetic: "ko-gi-to-er-go-zoom", meaning: "I think therefore I am (Descartes)", example: { de: "Descartes: cogito ergo sum.", en: "Descartes: I think therefore I am." } },
+    { word: "das Sein (Heidegger)", phonetic: "zayn", meaning: "Being (Heidegger)", gender: "das", example: { de: "Heideggers Seinsfrage.", en: "Heidegger's question of Being." } },
+    { word: "das Dasein (Heidegger)", phonetic: "dah-zayn", meaning: "Dasein (Heidegger)", gender: "das", example: { de: "Heideggers Dasein.", en: "Heidegger's Dasein." } },
+    { word: "der Pragmatismus", phonetic: "prag-ma-tis-mus", meaning: "pragmatism", gender: "der", example: { de: "Deweys Pragmatismus.", en: "Dewey's pragmatism." } },
+  ]}] },
+};

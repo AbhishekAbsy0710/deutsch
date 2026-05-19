@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega102: Record<string, Lesson> = {
+  "lb2_m147": { id: "lb2_m147", title: "Astrophysics & Cosmology B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Astrophysik", phonetic: "as-tro-fü-zik", meaning: "astrophysics", gender: "die", example: { de: "Relativistische Astrophysik.", en: "Relativistic astrophysics." } },
+    { word: "die Kosmologie", phonetic: "kos-mo-lo-gee", meaning: "cosmology", gender: "die", example: { de: "Physikalische Kosmologie.", en: "Physical cosmology." } },
+    { word: "der Urknall", phonetic: "oor-knal", meaning: "Big Bang", gender: "der", example: { de: "Urknall-Kosmologie.", en: "Big Bang cosmology." } },
+    { word: "die kosmische Hintergrundstrahlung (CMB)", phonetic: "kos-mi-shuh-hin-ter-gronts-shtrah-lung", meaning: "cosmic microwave background (CMB)", gender: "die", example: { de: "CMB kosmische Hintergrundstrahlung.", en: "CMB cosmic background radiation." } },
+    { word: "die Dunkle Materie", phonetic: "doonk-luh-ma-te-ree", meaning: "dark matter", gender: "die", example: { de: "Dunkle Materie Kandidat.", en: "Dark matter candidate." } },
+    { word: "die Dunkle Energie", phonetic: "doonk-luh-e-ner-gee", meaning: "dark energy", gender: "die", example: { de: "Kosmologische Konstante Dunkle Energie.", en: "Cosmological constant dark energy." } },
+    { word: "das schwarze Loch", phonetic: "shvar-tsuh-lokh", meaning: "black hole", gender: "das", example: { de: "Supermassives schwarzes Loch.", en: "Supermassive black hole." } },
+    { word: "der Ereignishorizont", phonetic: "er-ayg-nis-ho-ri-tsont", meaning: "event horizon", gender: "der", example: { de: "Schwarzes Loch Ereignishorizont.", en: "Black hole event horizon." } },
+    { word: "der Neutronenstern", phonetic: "noy-tro-nen-shtern", meaning: "neutron star", gender: "der", example: { de: "Rotierender Neutronenstern.", en: "Rotating neutron star." } },
+    { word: "die Supernova", phonetic: "zoo-per-no-vah", meaning: "supernova", gender: "die", example: { de: "Typ-Ia Supernova.", en: "Type Ia supernova." } },
+    { word: "die Galaxie", phonetic: "ga-lak-see", meaning: "galaxy", gender: "die", example: { de: "Elliptische Galaxie.", en: "Elliptical galaxy." } },
+    { word: "die Milchstraße", phonetic: "milkh-shtrah-suh", meaning: "Milky Way", gender: "die", example: { de: "Die Milchstraße.", en: "The Milky Way." } },
+    { word: "die kosmische Inflation (Guth)", phonetic: "kos-mi-shuh-in-fla-tsee-ohn", meaning: "cosmic inflation (Guth)", gender: "die", example: { de: "Guths kosmische Inflation.", en: "Guth's cosmic inflation." } },
+    { word: "die beschleunigte Ausdehnung (des Universums)", phonetic: "beh-shloyn-ig-tuh-ows-day-nung", meaning: "accelerated expansion (of universe)", gender: "die", example: { de: "Beschleunigte Ausdehnung.", en: "Accelerated expansion." } },
+    { word: "der Pulsar", phonetic: "pool-zar", meaning: "pulsar", gender: "der", example: { de: "Millisekunden-Pulsar.", en: "Millisecond pulsar." } },
+    { word: "die Gravitationswelle (LIGO)", phonetic: "gra-vi-ta-tsee-ohns-ve-luh", meaning: "gravitational wave (LIGO)", gender: "die", example: { de: "LIGO Gravitationswellenmessung.", en: "LIGO gravitational wave detection." } },
+    { word: "das Multiversum", phonetic: "mool-ti-ver-zoom", meaning: "multiverse", gender: "das", example: { de: "Everetts Multiversum.", en: "Everett's multiverse." } },
+    { word: "die Stringtheorie", phonetic: "shring-tay-oh-ree", meaning: "string theory", gender: "die", example: { de: "M-Theorie Stringtheorie.", en: "M-theory string theory." } },
+    { word: "die Hawking-Strahlung", phonetic: "ho-king-shtrah-lung", meaning: "Hawking radiation", gender: "die", example: { de: "Hawking-Strahlung schwarzer Löcher.", en: "Hawking radiation of black holes." } },
+    { word: "das Schrödingers Katze (Quantenkosmologie)", phonetic: "shro-ding-ers-ka-tsuh", meaning: "Schrödinger's cat (quantum cosmology)", gender: "die", example: { de: "Quantenkosmologie Vieler-Welten.", en: "Many-worlds quantum cosmology." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega104: Record<string, Lesson> = {
+  "lb2_m149": { id: "lb2_m149", title: "Advanced Thermodynamics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Thermodynamik", phonetic: "ter-mo-dü-na-mik", meaning: "thermodynamics", gender: "die", example: { de: "Statistische Thermodynamik.", en: "Statistical thermodynamics." } },
+    { word: "der erste Hauptsatz (Thermodynamik)", phonetic: "ers-tuh-howpt-zats", meaning: "first law of thermodynamics", gender: "der", example: { de: "Energieerhaltungssatz.", en: "Conservation of energy." } },
+    { word: "der zweite Hauptsatz (Thermodynamik)", phonetic: "tsvy-tuh-howpt-zats", meaning: "second law of thermodynamics", gender: "der", example: { de: "Entropieerhöhung zweiter Hauptsatz.", en: "Entropy increase second law." } },
+    { word: "die Entropie", phonetic: "en-tro-pee", meaning: "entropy", gender: "die", example: { de: "Boltzmanns Entropieformel.", en: "Boltzmann's entropy formula." } },
+    { word: "die freie Energie (Helmholtz)", phonetic: "fry-uh-e-ner-gee", meaning: "Helmholtz free energy", gender: "die", example: { de: "Helmholtz freie Energie F = U - TS.", en: "Helmholtz free energy F = U - TS." } },
+    { word: "die Gibbs-Energie", phonetic: "gibs-e-ner-gee", meaning: "Gibbs free energy", gender: "die", example: { de: "Gibbs-Energie G = H - TS.", en: "Gibbs free energy G = H - TS." } },
+    { word: "der Carnot-Wirkungsgrad", phonetic: "kar-noh-vir-kungs-grahd", meaning: "Carnot efficiency", gender: "der", example: { de: "Maximaler Carnot-Wirkungsgrad.", en: "Maximum Carnot efficiency." } },
+    { word: "das Boltzmann-Konstante (kB)", phonetic: "bolts-man-kon-stan-tuh", meaning: "Boltzmann constant kB", gender: "die", example: { de: "Boltzmann-Konstante kB.", en: "Boltzmann constant kB." } },
+    { word: "die Maxwell-Boltzmann-Verteilung", phonetic: "maks-vel-bolts-man-fer-ty-lung", meaning: "Maxwell-Boltzmann distribution", gender: "die", example: { de: "Geschwindigkeitsverteilung Maxwell-Boltzmann.", en: "Velocity distribution Maxwell-Boltzmann." } },
+    { word: "die kanonische Gesamtheit", phonetic: "ka-no-ni-shuh-geh-zamt-hyte", meaning: "canonical ensemble", gender: "die", example: { de: "Kanonische Gesamtheit statistische Mechanik.", en: "Canonical ensemble statistical mechanics." } },
+    { word: "die Zustandssumme (Z)", phonetic: "tsoo-shtants-zoo-muh", meaning: "partition function Z", gender: "die", example: { de: "Partition Function Z statistische Mechanik.", en: "Partition function Z statistical mechanics." } },
+    { word: "der Phasenraum (Thermodynamik)", phonetic: "fah-zen-rowm", meaning: "phase space", gender: "der", example: { de: "Liouville-Phasenraumevolation.", en: "Liouville phase space evolution." } },
+    { word: "die Phasenübergänge (zweite Ordnung)", phonetic: "fah-zen-ü-ber-gen-guh", meaning: "phase transitions (second order)", example: { de: "Kontinuierliche Phasenübergänge.", en: "Continuous phase transitions." } },
+    { word: "der kritische Exponent", phonetic: "kri-ti-shuh-eks-po-nent", meaning: "critical exponent", gender: "der", example: { de: "Universelle kritische Exponenten.", en: "Universal critical exponents." } },
+    { word: "die Renormierungsgruppe (Wilson)", phonetic: "re-nor-mee-rungs-groo-puh", meaning: "renormalization group (Wilson)", gender: "die", example: { de: "Wilsons Renormierungsgruppe.", en: "Wilson's renormalization group." } },
+    { word: "das Ising-Modell", phonetic: "ee-zing-mo-del", meaning: "Ising model", gender: "das", example: { de: "Zweidimensionales Ising-Modell.", en: "Two-dimensional Ising model." } },
+    { word: "die Wärmekapazität", phonetic: "ver-muh-ka-pa-tsi-tayt", meaning: "heat capacity", gender: "die", example: { de: "Molare Wärmekapazität.", en: "Molar heat capacity." } },
+    { word: "der Wärmeübertragung", phonetic: "ver-muh-ü-ber-trah-gung", meaning: "heat transfer", gender: "die", example: { de: "Konduktive Wärmeübertragung.", en: "Conductive heat transfer." } },
+    { word: "die Irreversibilität", phonetic: "i-re-ver-zi-bi-li-tayt", meaning: "irreversibility", gender: "die", example: { de: "Thermodynamische Irreversibilität.", en: "Thermodynamic irreversibility." } },
+    { word: "das Fluktuations-Dissipations-Theorem", phonetic: "flook-too-a-tsee-ohns-di-si-pa-tsee-ohns-tay-oh-raym", meaning: "fluctuation-dissipation theorem", gender: "das", example: { de: "Kubo-Fluktuations-Dissipations.", en: "Kubo fluctuation-dissipation." } },
+  ]}] },
+};

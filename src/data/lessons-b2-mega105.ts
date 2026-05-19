@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega105: Record<string, Lesson> = {
+  "lb2_m150": { id: "lb2_m150", title: "Biochemistry B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Biochemie", phonetic: "bi-oh-khe-mee", meaning: "biochemistry", gender: "die", example: { de: "Strukturelle Biochemie.", en: "Structural biochemistry." } },
+    { word: "die Aminosäure", phonetic: "a-mi-noh-zoy-ruh", meaning: "amino acid", gender: "die", example: { de: "Essentielle Aminosäure.", en: "Essential amino acid." } },
+    { word: "das Protein", phonetic: "pro-tayn", meaning: "protein", gender: "das", example: { de: "Gefaltetes Protein.", en: "Folded protein." } },
+    { word: "das Enzym", phonetic: "en-tsüm", meaning: "enzyme", gender: "das", example: { de: "Katalytisches Enzym.", en: "Catalytic enzyme." } },
+    { word: "das Substrat (Biochemie)", phonetic: "zoo-shtrat", meaning: "substrate (biochemistry)", gender: "das", example: { de: "Enzym-Substrat-Komplex.", en: "Enzyme-substrate complex." } },
+    { word: "das aktive Zentrum (Enzym)", phonetic: "ak-tee-vuh-tsen-troom", meaning: "active site (enzyme)", gender: "das", example: { de: "Aktives Zentrum Enzym.", en: "Active site enzyme." } },
+    { word: "die Michaelis-Menten-Kinetik", phonetic: "mi-khay-lis-men-ten-ki-ne-tik", meaning: "Michaelis-Menten kinetics", gender: "die", example: { de: "Michaelis-Menten-Gleichung.", en: "Michaelis-Menten equation." } },
+    { word: "das Coenzym", phonetic: "ko-en-tsüm", meaning: "coenzyme", gender: "das", example: { de: "NAD+ Coenzym.", en: "NAD+ coenzyme." } },
+    { word: "der Metabolismus", phonetic: "me-ta-bo-lis-mus", meaning: "metabolism", gender: "der", example: { de: "Zellulärer Metabolismus.", en: "Cellular metabolism." } },
+    { word: "die Glykolyse", phonetic: "glü-ko-lü-zuh", meaning: "glycolysis", gender: "die", example: { de: "Anaerobe Glykolyse.", en: "Anaerobic glycolysis." } },
+    { word: "der Citratzyklus (Krebs-Zyklus)", phonetic: "tsi-trat-tsü-klus", meaning: "citric acid / Krebs cycle", gender: "der", example: { de: "Mitochondrialer Citratzyklus.", en: "Mitochondrial citric acid cycle." } },
+    { word: "die oxidative Phosphorylierung", phonetic: "ok-si-da-tee-vuh-fos-fo-rü-lee-rung", meaning: "oxidative phosphorylation", gender: "die", example: { de: "Mitochondriale oxidative Phosphorylierung.", en: "Mitochondrial oxidative phosphorylation." } },
+    { word: "das ATP (Adenosintriphosphat)", phonetic: "ah-tay-pay", meaning: "ATP (adenosine triphosphate)", gender: "das", example: { de: "ATP zelluläre Energiewährung.", en: "ATP cellular energy currency." } },
+    { word: "die DNA-Replikation", phonetic: "day-en-ah-re-pli-ka-tsee-ohn", meaning: "DNA replication", gender: "die", example: { de: "Semi-konservative DNA-Replikation.", en: "Semi-conservative DNA replication." } },
+    { word: "die Transkription (Genetik)", phonetic: "trans-krip-tsee-ohn", meaning: "transcription (genetics)", gender: "die", example: { de: "RNA-Transkription.", en: "RNA transcription." } },
+    { word: "die Translation (Genetik)", phonetic: "trans-la-tsee-ohn", meaning: "translation (genetics)", gender: "die", example: { de: "Ribosomale Translation.", en: "Ribosomal translation." } },
+    { word: "das Ribosom", phonetic: "ri-bo-zohm", meaning: "ribosome", gender: "das", example: { de: "Prokaryotisches Ribosom.", en: "Prokaryotic ribosome." } },
+    { word: "der Fettsäurestoffwechsel", phonetic: "fet-zoy-ruh-shtof-vek-sel", meaning: "fatty acid metabolism", gender: "der", example: { de: "Beta-Oxidation Fettsäurestoffwechsel.", en: "Beta-oxidation fatty acid metabolism." } },
+    { word: "das Cholesterin", phonetic: "kho-les-te-reen", meaning: "cholesterol", gender: "das", example: { de: "LDL-Cholesterin.", en: "LDL cholesterol." } },
+    { word: "der Proteinfehlfaltung (Prion)", phonetic: "pro-tayn-fehl-fal-tung", meaning: "protein misfolding (prion)", gender: "die", example: { de: "Prion-Proteinfehlfaltung.", en: "Prion protein misfolding." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega103: Record<string, Lesson> = {
+  "lc1_m149": { id: "lc1_m149", title: "Advanced Syntax C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Syntax (Linguistik)", phonetic: "züntaks", meaning: "syntax (linguistics)", gender: "die", example: { de: "Generative Syntax.", en: "Generative syntax." } },
+    { word: "die Minimalismus-Theorie (Chomsky)", phonetic: "mi-ni-ma-lis-mus-tay-oh-ree", meaning: "Minimalist Program (Chomsky)", gender: "das", example: { de: "Chomskys Minimalismus-Theorie.", en: "Chomsky's Minimalist Program." } },
+    { word: "die Rektions- und Bindungstheorie (GB)", phonetic: "rek-tsee-ohns-oont-bin-dungs-tay-oh-ree", meaning: "Government and Binding theory", gender: "die", example: { de: "GB Rektions-Bindungstheorie.", en: "GB Government Binding theory." } },
+    { word: "die Phrasenstruktur", phonetic: "frah-zen-shtrook-toor", meaning: "phrase structure", gender: "die", example: { de: "X-Bar-Phrasenstruktur.", en: "X-bar phrase structure." } },
+    { word: "die X-Bar-Theorie", phonetic: "iks-bar-tay-oh-ree", meaning: "X-bar theory", gender: "die", example: { de: "X-Bar-Theorie Projektion.", en: "X-bar theory projection." } },
+    { word: "der Kopf (Syntax)", phonetic: "kopf", meaning: "head (syntax)", gender: "der", example: { de: "Kopf der Nominalphrase.", en: "Head of noun phrase." } },
+    { word: "das Komplement (Syntax)", phonetic: "kom-ple-ment", meaning: "complement (syntax)", gender: "das", example: { de: "Verbkomplement.", en: "Verb complement." } },
+    { word: "der Spezifikator", phonetic: "shpe-tsi-fi-ka-tor", meaning: "specifier", gender: "der", example: { de: "Spezifikator der DP.", en: "Specifier of DP." } },
+    { word: "die Bewegung (syntaktisch)", phonetic: "beh-vay-gung", meaning: "movement (syntactic)", gender: "die", example: { de: "Wh-Bewegung.", en: "Wh-movement." } },
+    { word: "die NP-Bewegung", phonetic: "en-pay-beh-vay-gung", meaning: "NP-movement / A-movement", gender: "die", example: { de: "Passiv NP-Bewegung.", en: "Passive NP-movement." } },
+    { word: "der Spurenansatz", phonetic: "shpoo-ren-an-zats", meaning: "trace theory", gender: "der", example: { de: "Trace-Theory Spurenansatz.", en: "Trace theory." } },
+    { word: "die Bindungstheorie (Prinzip A/B/C)", phonetic: "bin-dungs-tay-oh-ree", meaning: "binding theory (Principle A/B/C)", gender: "die", example: { de: "Bindungstheorie Prinzip A.", en: "Binding theory Principle A." } },
+    { word: "das Subjazenzprinzip", phonetic: "zoo-ba-tsents-prin-tseep", meaning: "subjacency (constraint)", gender: "das", example: { de: "Subjazenzprinzip Inseln.", en: "Subjacency island constraint." } },
+    { word: "die syntaktische Insel", phonetic: "züntakti-shuh-in-zel", meaning: "syntactic island", gender: "die", example: { de: "Adjunkts-syntaktische Insel.", en: "Adjunct syntactic island." } },
+    { word: "der Merge-Operator (Minimalismus)", phonetic: "mersh-o-pe-ra-tor", meaning: "Merge operation (Minimalism)", gender: "der", example: { de: "Merge-Operator im Minimalism.", en: "Merge operation in Minimalism." } },
+    { word: "das Agree (Merkmalabgleich)", phonetic: "ah-gree", meaning: "Agree (feature checking)", gender: "das", example: { de: "Agree-Merkmalabgleich.", en: "Agree feature checking." } },
+    { word: "der flache Satz (Linksversetzung)", phonetic: "flat-sats", meaning: "flat sentence / left dislocation", gender: "der", example: { de: "Linksversetzung im Deutschen.", en: "Left dislocation in German." } },
+    { word: "die Verbzweitstellung (V2)", phonetic: "ferp-tsvyt-shte-lung", meaning: "verb-second (V2) rule (German)", gender: "die", example: { de: "Deutsche Verbzweitstellung.", en: "German verb-second rule." } },
+    { word: "die Verbletztstellung (VL)", phonetic: "ferp-letst-shte-lung", meaning: "verb-final (VL) in German subordinates", gender: "die", example: { de: "Nebensatz Verbletztstellung.", en: "Subordinate clause verb-final." } },
+    { word: "das Mittelfeld (deutsch)", phonetic: "mi-tel-felt", meaning: "middle field (German syntax)", gender: "das", example: { de: "Mittelfeld der deutschen Klammerstruktur.", en: "Middle field of German bracket structure." } },
+  ]}] },
+};

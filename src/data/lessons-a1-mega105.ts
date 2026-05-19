@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega105: Record<string, Lesson> = {
+  "la1_m155": { id: "la1_m155", title: "Post Office & Bank A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Post", phonetic: "post", meaning: "post office / mail", gender: "die", example: { de: "Zur Post gehen.", en: "Go to the post office." } },
+    { word: "der Brief", phonetic: "breef", meaning: "letter", gender: "der", example: { de: "Einen Brief schreiben.", en: "Write a letter." } },
+    { word: "das Paket", phonetic: "pa-keyt", meaning: "parcel / package", gender: "das", example: { de: "Ein Paket verschicken.", en: "Send a parcel." } },
+    { word: "die Briefmarke", phonetic: "breef-mar-kuh", meaning: "stamp", gender: "die", example: { de: "Eine Briefmarke kaufen.", en: "Buy a stamp." } },
+    { word: "der Briefkasten", phonetic: "breef-kas-ten", meaning: "letterbox / mailbox", gender: "der", example: { de: "Brief in den Briefkasten.", en: "Put letter in the letterbox." } },
+    { word: "die Adresse", phonetic: "a-dre-suh", meaning: "address", gender: "die", example: { de: "Die Adresse schreiben.", en: "Write the address." } },
+    { word: "die Bank", phonetic: "bank", meaning: "bank", gender: "die", example: { de: "Zur Bank gehen.", en: "Go to the bank." } },
+    { word: "das Konto", phonetic: "kon-to", meaning: "bank account", gender: "das", example: { de: "Konto eröffnen.", en: "Open an account." } },
+    { word: "das Geld", phonetic: "gelt", meaning: "money", gender: "das", example: { de: "Geld abheben.", en: "Withdraw money." } },
+    { word: "der Geldautomat", phonetic: "gelt-ow-to-maht", meaning: "ATM / cashpoint", gender: "der", example: { de: "Am Geldautomat.", en: "At the ATM." } },
+    { word: "überweisen", phonetic: "ü-ber-vy-zen", meaning: "to transfer (money)", example: { de: "Geld überweisen.", en: "Transfer money." } },
+    { word: "das Bargeld", phonetic: "bahr-gelt", meaning: "cash", gender: "das", example: { de: "Bar bezahlen.", en: "Pay cash." } },
+    { word: "die Kreditkarte", phonetic: "kre-deet-kar-tuh", meaning: "credit card", gender: "die", example: { de: "Mit Kreditkarte zahlen.", en: "Pay by credit card." } },
+    { word: "der Euro", phonetic: "oy-ro", meaning: "euro", gender: "der", example: { de: "Zehn Euro.", en: "Ten euros." } },
+    { word: "der Cent", phonetic: "sent", meaning: "cent", gender: "der", example: { de: "Fünfzig Cent.", en: "Fifty cents." } },
+    { word: "wechseln", phonetic: "vek-seln", meaning: "to exchange (money)", example: { de: "Geld wechseln.", en: "Exchange money." } },
+    { word: "sparen", phonetic: "shpah-ren", meaning: "to save (money)", example: { de: "Geld sparen.", en: "Save money." } },
+    { word: "ausgeben", phonetic: "ows-gay-ben", meaning: "to spend (money)", example: { de: "Geld ausgeben.", en: "Spend money." } },
+    { word: "kostenlos", phonetic: "kos-ten-lohs", meaning: "free of charge", example: { de: "Kostenloser Eintritt.", en: "Free entry." } },
+    { word: "teuer", phonetic: "toy-er", meaning: "expensive", example: { de: "Zu teuer.", en: "Too expensive." } },
+  ]}] },
+};

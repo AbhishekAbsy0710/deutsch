@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega104: Record<string, Lesson> = {
+  "la1_m154": { id: "la1_m154", title: "Expanded Family Terms A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Familie", phonetic: "fa-mi-lee-uh", meaning: "family", gender: "die", example: { de: "Meine Familie.", en: "My family." } },
+    { word: "der Vater", phonetic: "fah-ter", meaning: "father", gender: "der", example: { de: "Mein Vater arbeitet.", en: "My father works." } },
+    { word: "die Mutter", phonetic: "moo-ter", meaning: "mother", gender: "die", example: { de: "Meine Mutter kocht.", en: "My mother cooks." } },
+    { word: "der Bruder", phonetic: "broo-der", meaning: "brother", gender: "der", example: { de: "Mein Bruder spielt.", en: "My brother plays." } },
+    { word: "die Schwester", phonetic: "shves-ter", meaning: "sister", gender: "die", example: { de: "Meine Schwester singt.", en: "My sister sings." } },
+    { word: "der Großvater", phonetic: "grohs-fah-ter", meaning: "grandfather", gender: "der", example: { de: "Mein Großvater liest.", en: "My grandfather reads." } },
+    { word: "die Großmutter", phonetic: "grohs-moo-ter", meaning: "grandmother", gender: "die", example: { de: "Meine Großmutter backt.", en: "My grandmother bakes." } },
+    { word: "der Onkel", phonetic: "on-kel", meaning: "uncle", gender: "der", example: { de: "Mein Onkel besucht.", en: "My uncle visits." } },
+    { word: "die Tante", phonetic: "tan-tuh", meaning: "aunt", gender: "die", example: { de: "Meine Tante hilft.", en: "My aunt helps." } },
+    { word: "der Cousin", phonetic: "koo-zen", meaning: "cousin (male)", gender: "der", example: { de: "Mein Cousin kommt.", en: "My cousin is coming." } },
+    { word: "die Cousine", phonetic: "koo-zee-nuh", meaning: "cousin (female)", gender: "die", example: { de: "Meine Cousine lacht.", en: "My cousin laughs." } },
+    { word: "der Neffe", phonetic: "ne-fuh", meaning: "nephew", gender: "der", example: { de: "Mein Neffe ist klein.", en: "My nephew is small." } },
+    { word: "die Nichte", phonetic: "nikh-tuh", meaning: "niece", gender: "die", example: { de: "Meine Nichte tanzt.", en: "My niece dances." } },
+    { word: "der Schwiegervater", phonetic: "shvee-ger-fah-ter", meaning: "father-in-law", gender: "der", example: { de: "Mein Schwiegervater.", en: "My father-in-law." } },
+    { word: "die Schwiegermutter", phonetic: "shvee-ger-moo-ter", meaning: "mother-in-law", gender: "die", example: { de: "Meine Schwiegermutter.", en: "My mother-in-law." } },
+    { word: "der Ehemann", phonetic: "ay-uh-man", meaning: "husband", gender: "der", example: { de: "Mein Ehemann.", en: "My husband." } },
+    { word: "die Ehefrau", phonetic: "ay-uh-frow", meaning: "wife", gender: "die", example: { de: "Meine Ehefrau.", en: "My wife." } },
+    { word: "der Sohn", phonetic: "zohn", meaning: "son", gender: "der", example: { de: "Mein Sohn.", en: "My son." } },
+    { word: "die Tochter", phonetic: "tokh-ter", meaning: "daughter", gender: "die", example: { de: "Meine Tochter.", en: "My daughter." } },
+    { word: "die Eltern", phonetic: "el-tern", meaning: "parents", example: { de: "Meine Eltern.", en: "My parents." } },
+  ]}] },
+};

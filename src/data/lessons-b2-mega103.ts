@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega103: Record<string, Lesson> = {
+  "lb2_m148": { id: "lb2_m148", title: "Materials Science B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Materialwissenschaft", phonetic: "ma-te-ree-ahl-vi-sen-shaft", meaning: "materials science", gender: "die", example: { de: "Moderne Materialwissenschaft.", en: "Modern materials science." } },
+    { word: "die Kristallstruktur", phonetic: "kris-tal-shtrook-toor", meaning: "crystal structure", gender: "die", example: { de: "Kubische Kristallstruktur.", en: "Cubic crystal structure." } },
+    { word: "das Gitter (Festkörper)", phonetic: "gi-ter", meaning: "lattice (solid state)", gender: "das", example: { de: "Bravais-Gitter.", en: "Bravais lattice." } },
+    { word: "der Halbleiter", phonetic: "halp-ly-ter", meaning: "semiconductor", gender: "der", example: { de: "Silizium-Halbleiter.", en: "Silicon semiconductor." } },
+    { word: "der Leiter (Elektrizität)", phonetic: "ly-ter", meaning: "conductor (electricity)", gender: "der", example: { de: "Kupfer als Leiter.", en: "Copper as conductor." } },
+    { word: "der Isolator", phonetic: "i-zo-la-tor", meaning: "insulator", gender: "der", example: { de: "Elektrischer Isolator.", en: "Electrical insulator." } },
+    { word: "der Supraleiter", phonetic: "zoo-pra-ly-ter", meaning: "superconductor", gender: "der", example: { de: "Supraleiter bei tiefen Temperaturen.", en: "Superconductor at low temperatures." } },
+    { word: "die Polymere", phonetic: "po-li-may-ruh", meaning: "polymers", example: { de: "Synthetische Polymere.", en: "Synthetic polymers." } },
+    { word: "die Keramik", phonetic: "ke-rah-mik", meaning: "ceramics", gender: "die", example: { de: "Technische Keramik.", en: "Technical ceramics." } },
+    { word: "das Metall", phonetic: "me-tal", meaning: "metal", gender: "das", example: { de: "Metallische Bindung.", en: "Metallic bonding." } },
+    { word: "die Legierung", phonetic: "le-gee-rung", meaning: "alloy", gender: "die", example: { de: "Stahllegierung.", en: "Steel alloy." } },
+    { word: "die Korrosion", phonetic: "ko-ro-zee-ohn", meaning: "corrosion", gender: "die", example: { de: "Metallkorrosion.", en: "Metal corrosion." } },
+    { word: "die Zugfestigkeit", phonetic: "tsook-fes-tikh-kyte", meaning: "tensile strength", gender: "die", example: { de: "Stahl-Zugfestigkeit.", en: "Steel tensile strength." } },
+    { word: "die Härte (Material)", phonetic: "her-tuh", meaning: "hardness (material)", gender: "die", example: { de: "Mohs-Härteskala.", en: "Mohs hardness scale." } },
+    { word: "das Verbundmaterial", phonetic: "fer-boont-ma-te-ree-ahl", meaning: "composite material", gender: "das", example: { de: "Kohlenstofffaser-Verbundmaterial.", en: "Carbon fibre composite material." } },
+    { word: "das Nanomaterial", phonetic: "na-no-ma-te-ree-ahl", meaning: "nanomaterial", gender: "das", example: { de: "Kohlenstoff-Nanomaterial.", en: "Carbon nanomaterial." } },
+    { word: "das Graphen", phonetic: "gra-feyn", meaning: "graphene", gender: "das", example: { de: "Einschichtiges Graphen.", en: "Single-layer graphene." } },
+    { word: "der Phasenübergang", phonetic: "fah-zen-ü-ber-gang", meaning: "phase transition", gender: "der", example: { de: "Magnetischer Phasenübergang.", en: "Magnetic phase transition." } },
+    { word: "die Diffusion (Material)", phonetic: "di-foo-zee-ohn", meaning: "diffusion (materials)", gender: "die", example: { de: "Festkörper-Diffusion.", en: "Solid-state diffusion." } },
+    { word: "die Ermüdung (Material)", phonetic: "er-mü-dung", meaning: "material fatigue", gender: "die", example: { de: "Metallermüdung.", en: "Metal fatigue." } },
+  ]}] },
+};

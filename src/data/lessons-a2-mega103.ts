@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega103: Record<string, Lesson> = {
+  "la2_m148": { id: "la2_m148", title: "Holidays & Travel A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "der Urlaub", phonetic: "oor-lowp", meaning: "holiday / vacation", gender: "der", example: { de: "Im Urlaub entspannen.", en: "Relax on holiday." } },
+    { word: "die Reise", phonetic: "ry-zuh", meaning: "journey / trip", gender: "die", example: { de: "Eine schöne Reise.", en: "A nice trip." } },
+    { word: "reisen", phonetic: "ry-zen", meaning: "to travel", example: { de: "Ins Ausland reisen.", en: "Travel abroad." } },
+    { word: "das Hotel", phonetic: "ho-tel", meaning: "hotel", gender: "das", example: { de: "Im Hotel übernachten.", en: "Stay overnight at the hotel." } },
+    { word: "das Zimmer (Hotel)", phonetic: "tsim-er", meaning: "room (hotel)", gender: "das", example: { de: "Ein Einzelzimmer buchen.", en: "Book a single room." } },
+    { word: "die Reservierung", phonetic: "re-zer-vee-rung", meaning: "reservation", gender: "die", example: { de: "Eine Reservierung machen.", en: "Make a reservation." } },
+    { word: "die Unterkunft", phonetic: "oon-ter-koonft", meaning: "accommodation", gender: "die", example: { de: "Günstige Unterkunft.", en: "Cheap accommodation." } },
+    { word: "das Gepäck", phonetic: "geh-pek", meaning: "luggage / baggage", gender: "das", example: { de: "Gepäck aufgeben.", en: "Check in luggage." } },
+    { word: "der Koffer", phonetic: "ko-fer", meaning: "suitcase", gender: "der", example: { de: "Koffer packen.", en: "Pack a suitcase." } },
+    { word: "das Visum", phonetic: "vee-zoom", meaning: "visa", gender: "das", example: { de: "Visum beantragen.", en: "Apply for a visa." } },
+    { word: "der Reisepass", phonetic: "ry-zuh-pas", meaning: "passport", gender: "der", example: { de: "Reisepass verlängern.", en: "Renew passport." } },
+    { word: "die Reisekrankenversicherung", phonetic: "ry-zuh-kran-ken-fer-zi-khe-rung", meaning: "travel insurance", gender: "die", example: { de: "Reisekrankenversicherung abschließen.", en: "Take out travel insurance." } },
+    { word: "die Sehenswürdigkeit", phonetic: "zay-ens-vür-dikh-kyte", meaning: "sight / attraction", gender: "die", example: { de: "Sehenswürdigkeiten besichtigen.", en: "Visit sights." } },
+    { word: "die Führung", phonetic: "fü-rung", meaning: "guided tour", gender: "die", example: { de: "An einer Führung teilnehmen.", en: "Take part in a guided tour." } },
+    { word: "die Landkarte", phonetic: "lant-kar-tuh", meaning: "map", gender: "die", example: { de: "Landkarte lesen.", en: "Read a map." } },
+    { word: "der Reiseführer", phonetic: "ry-zuh-fü-rer", meaning: "travel guide (book)", gender: "der", example: { de: "Reiseführer kaufen.", en: "Buy a travel guide." } },
+    { word: "ankommen (Reise)", phonetic: "an-ko-men", meaning: "to arrive", example: { de: "Sicher ankommen.", en: "Arrive safely." } },
+    { word: "abfahren (Reise)", phonetic: "ap-fah-ren", meaning: "to depart", example: { de: "Pünktlich abfahren.", en: "Depart on time." } },
+    { word: "die Verspätung", phonetic: "fer-shpey-tung", meaning: "delay", gender: "die", example: { de: "Verspätung melden.", en: "Report a delay." } },
+    { word: "der Reiseleiter", phonetic: "ry-zuh-ly-ter", meaning: "tour guide (person)", gender: "der", example: { de: "Der Reiseleiter erklärt.", en: "The tour guide explains." } },
+  ]}] },
+};

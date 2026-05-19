@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega106: Record<string, Lesson> = {
+  "lb1_m157": { id: "lb1_m157", title: "World Literature B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Weltliteratur", phonetic: "velt-li-te-ra-toor", meaning: "world literature", gender: "die", example: { de: "Goethes Weltliteratur.", en: "Goethe's world literature." } },
+    { word: "William Shakespeare", phonetic: "vi-lee-am-shayk-speer", meaning: "Shakespeare", example: { de: "Shakespeares Hamlet.", en: "Shakespeare's Hamlet." } },
+    { word: "Leo Tolstoi", phonetic: "le-oh-tol-shtoy", meaning: "Tolstoy", example: { de: "Tolstois Krieg und Frieden.", en: "Tolstoy's War and Peace." } },
+    { word: "Fjodor Dostojewski", phonetic: "fyo-dor-dos-toy-yev-ski", meaning: "Dostoevsky", example: { de: "Dostojewskis Schuld und Sühne.", en: "Dostoevsky's Crime and Punishment." } },
+    { word: "Marcel Proust", phonetic: "mar-sel-proost", meaning: "Marcel Proust", example: { de: "Prousts Auf der Suche.", en: "Proust's In Search of." } },
+    { word: "James Joyce", phonetic: "dshayms-dshoys", meaning: "James Joyce", example: { de: "Joyce's Ulysses.", en: "Joyce's Ulysses." } },
+    { word: "Jorge Luis Borges", phonetic: "khor-khe-loo-ees-bor-khes", meaning: "Jorge Luis Borges", example: { de: "Borges' Labyrinthe.", en: "Borges' Labyrinths." } },
+    { word: "Gabriel García Márquez", phonetic: "ga-bree-el-gar-see-ah-mar-kes", meaning: "Gabriel García Márquez", example: { de: "Márquez' Hundert Jahre Einsamkeit.", en: "Márquez' One Hundred Years of Solitude." } },
+    { word: "der magische Realismus", phonetic: "ma-gi-shuh-re-a-lis-mus", meaning: "magical realism", gender: "der", example: { de: "Lateinamerikanischer magischer Realismus.", en: "Latin American magical realism." } },
+    { word: "der Bewusstseinsstrom", phonetic: "beh-voost-zyns-shtrom", meaning: "stream of consciousness", gender: "der", example: { de: "Joyce Bewusstseinsstrom.", en: "Joyce stream of consciousness." } },
+    { word: "Albert Camus", phonetic: "al-ber-ka-mü", meaning: "Albert Camus", example: { de: "Camus' Der Fremde.", en: "Camus' The Stranger." } },
+    { word: "Jean-Paul Sartre", phonetic: "zhon-pohl-sartr", meaning: "Jean-Paul Sartre", example: { de: "Sartres existentialistische Werke.", en: "Sartre's existentialist works." } },
+    { word: "die Antike Tragödie", phonetic: "an-tee-kuh-tra-gö-dee", meaning: "classical tragedy (Greek)", gender: "die", example: { de: "Sophokles' antike Tragödie.", en: "Sophocles' classical tragedy." } },
+    { word: "der Protagonisten", phonetic: "pro-ta-go-nist", meaning: "protagonist", gender: "der", example: { de: "Tragischer Protagonist.", en: "Tragic protagonist." } },
+    { word: "der Antagonist", phonetic: "an-ta-go-nist", meaning: "antagonist", gender: "der", example: { de: "Böser Antagonist.", en: "Evil antagonist." } },
+    { word: "das Motiv (Literatur)", phonetic: "mo-teef", meaning: "motif (literature)", gender: "das", example: { de: "Wiederkehrendes Motiv.", en: "Recurring motif." } },
+    { word: "die Allegorie", phonetic: "a-le-go-ree", meaning: "allegory", gender: "die", example: { de: "Politische Allegorie.", en: "Political allegory." } },
+    { word: "die Satire", phonetic: "za-tee-ruh", meaning: "satire", gender: "die", example: { de: "Gesellschaftliche Satire.", en: "Social satire." } },
+    { word: "Samuel Beckett", phonetic: "zam-yoo-el-be-ket", meaning: "Samuel Beckett", example: { de: "Becketts Warten auf Godot.", en: "Beckett's Waiting for Godot." } },
+    { word: "die Dystopie", phonetic: "düs-to-pee", meaning: "dystopia", gender: "die", example: { de: "Orwells 1984 Dystopie.", en: "Orwell's 1984 dystopia." } },
+  ]}] },
+};

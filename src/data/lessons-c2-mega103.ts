@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega103: Record<string, Lesson> = {
+  "lc2_m146": { id: "lc2_m146", title: "Algebraic Number Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die algebraische Zahlentheorie", phonetic: "al-ge-bray-i-shuh-tsah-len-tay-oh-ree", meaning: "algebraic number theory", gender: "die", example: { de: "Klassische algebraische Zahlentheorie.", en: "Classical algebraic number theory." } },
+    { word: "der Zahlkörper", phonetic: "tsahl-kör-per", meaning: "number field", gender: "der", example: { de: "Quadratischer Zahlkörper.", en: "Quadratic number field." } },
+    { word: "der Ring der ganzen algebraischen Zahlen", phonetic: "ring-der-gan-tsen-al-ge-bray-i-shen-tsah-len", meaning: "ring of integers (of a number field)", gender: "der", example: { de: "Ring ganzer Zahlen O_K.", en: "Ring of integers O_K." } },
+    { word: "die Diskriminante (Zahlkörper)", phonetic: "dis-kri-mi-nan-tuh", meaning: "discriminant (of a number field)", gender: "die", example: { de: "Diskriminante des Zahlkörpers.", en: "Discriminant of the number field." } },
+    { word: "die Klassenzahl", phonetic: "kla-sen-tsahl", meaning: "class number", gender: "die", example: { de: "Klassenzahl h_K.", en: "Class number h_K." } },
+    { word: "die Klassengruppe", phonetic: "kla-sen-groo-puh", meaning: "class group (ideal class group)", gender: "die", example: { de: "Ideale Klassengruppe Cl(K).", en: "Ideal class group Cl(K)." } },
+    { word: "das Einheitengruppe (Dirichlet)", phonetic: "ayn-hytes-groo-puh", meaning: "unit group (Dirichlet's theorem)", gender: "die", example: { de: "Dirichlets Einheitengruppe.", en: "Dirichlet's unit group." } },
+    { word: "der Satz von Minkowski", phonetic: "zats-fon-min-kov-ski", meaning: "Minkowski's theorem", gender: "der", example: { de: "Minkowski Gitterpunktsatz.", en: "Minkowski lattice point theorem." } },
+    { word: "der Primideal", phonetic: "preem-i-de-ahl", meaning: "prime ideal", gender: "das", example: { de: "Primideal-Zerlegung.", en: "Prime ideal factorisation." } },
+    { word: "die Zerlegung von Primzahlen", phonetic: "tser-lay-gung-fon-preem-tsah-len", meaning: "decomposition of primes (in extensions)", gender: "die", example: { de: "Inerte, gespaltene Primideal-Zerlegung.", en: "Inert, split prime decomposition." } },
+    { word: "das Frobenius-Element (Galois)", phonetic: "fro-be-ni-us-e-le-ment", meaning: "Frobenius element (Galois extension)", gender: "das", example: { de: "Frobenius-Element Galois-Erweiterung.", en: "Frobenius element Galois extension." } },
+    { word: "die Artinsche Reziprozitätsgesetz", phonetic: "ar-tin-shuh-re-tsi-pro-tsi-tayts-geh-sets", meaning: "Artin reciprocity law", gender: "das", example: { de: "Artinsches Reziprozitätsgesetz.", en: "Artin's reciprocity law." } },
+    { word: "die Klassenkörpertheorie", phonetic: "kla-sen-kör-per-tay-oh-ree", meaning: "class field theory", gender: "die", example: { de: "Globale Klassenkörpertheorie.", en: "Global class field theory." } },
+    { word: "die quadratische Reziprozität (Gauß)", phonetic: "kva-dra-ti-shuh-re-tsi-pro-tsi-tayt", meaning: "quadratic reciprocity (Gauss)", gender: "die", example: { de: "Gaußsches quadratisches Reziprozitätsgesetz.", en: "Gauss quadratic reciprocity law." } },
+    { word: "das Legendre-Symbol", phonetic: "le-ghan-druh-züm-bol", meaning: "Legendre symbol", gender: "das", example: { de: "Legendre-Symbol (p/q).", en: "Legendre symbol (p/q)." } },
+    { word: "die p-adische Zahl", phonetic: "pay-ah-di-shuh-tsahl", meaning: "p-adic number", gender: "die", example: { de: "Komplettierung ℚ_p.", en: "Completion ℚ_p." } },
+    { word: "der Bewertungsring", phonetic: "beh-ver-tungs-ring", meaning: "valuation ring", gender: "der", example: { de: "p-adischer Bewertungsring.", en: "P-adic valuation ring." } },
+    { word: "die adele Gruppe (Chevalley)", phonetic: "a-de-luh-groo-puh", meaning: "adèle group (Chevalley)", gender: "die", example: { de: "Adele-Ring A_K.", en: "Adèle ring A_K." } },
+    { word: "die Idele-Gruppe", phonetic: "i-de-luh-groo-puh", meaning: "idèle group", gender: "die", example: { de: "Idele-Klassengruppe.", en: "Idèle class group." } },
+    { word: "die globale Zeta-Funktion (Tate)", phonetic: "glo-bah-luh-tsay-ta-foonk-tsee-ohn", meaning: "global zeta function (Tate's thesis)", gender: "die", example: { de: "Tates globale Zeta-Funktion.", en: "Tate's global zeta function." } },
+  ]}] },
+};

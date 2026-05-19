@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega104: Record<string, Lesson> = {
+  "lc1_m150": { id: "lc1_m150", title: "Discourse Analysis C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Diskursanalyse", phonetic: "dis-koors-a-na-lü-zuh", meaning: "discourse analysis", gender: "die", example: { de: "Kritische Diskursanalyse.", en: "Critical discourse analysis." } },
+    { word: "der Diskurs (Linguistik)", phonetic: "dis-koors", meaning: "discourse (linguistics)", gender: "der", example: { de: "Schriftlicher Diskurs.", en: "Written discourse." } },
+    { word: "die Kohäsion", phonetic: "ko-hey-zee-ohn", meaning: "cohesion (text)", gender: "die", example: { de: "Lexikalische Kohäsion.", en: "Lexical cohesion." } },
+    { word: "die Kohärenz", phonetic: "ko-hey-rents", meaning: "coherence (text)", gender: "die", example: { de: "Semantische Kohärenz.", en: "Semantic coherence." } },
+    { word: "die Sprechakttheorie (Austin/Searle)", phonetic: "shprekh-akt-tay-oh-ree", meaning: "speech act theory (Austin/Searle)", gender: "die", example: { de: "Austins Sprechakttheorie.", en: "Austin's speech act theory." } },
+    { word: "der illokutionäre Akt", phonetic: "i-lo-koo-tsee-o-ney-ruh-akt", meaning: "illocutionary act", gender: "der", example: { de: "Illokutionärer Akt Versprechen.", en: "Illocutionary act promise." } },
+    { word: "der perlokutionäre Akt", phonetic: "per-lo-koo-tsee-o-ney-ruh-akt", meaning: "perlocutionary act", gender: "der", example: { de: "Perlokutionäre Wirkung.", en: "Perlocutionary effect." } },
+    { word: "die Konversationsmaximen (Grice)", phonetic: "kon-ver-za-tsee-ohns-mak-si-men", meaning: "conversational maxims (Grice)", example: { de: "Grices Kooperationsprinzip.", en: "Grice's cooperative principle." } },
+    { word: "das Kooperationsprinzip (Grice)", phonetic: "ko-o-pe-ra-tsee-ohns-prin-tseep", meaning: "cooperative principle (Grice)", gender: "das", example: { de: "Grices Kooperationsprinzip.", en: "Grice's cooperative principle." } },
+    { word: "die Implikatur (Grice)", phonetic: "im-pli-ka-toor", meaning: "implicature (Grice)", gender: "die", example: { de: "Konversationale Implikatur.", en: "Conversational implicature." } },
+    { word: "die kritische Diskursanalyse (CDA)", phonetic: "kri-ti-shuh-dis-koors-a-na-lü-zuh", meaning: "critical discourse analysis (CDA)", gender: "die", example: { de: "Faircloughs CDA.", en: "Fairclough's CDA." } },
+    { word: "die Intertextualität", phonetic: "in-ter-teks-too-a-li-tayt", meaning: "intertextuality (Bakhtin/Kristeva)", gender: "die", example: { de: "Bakhtins Intertextualität.", en: "Bakhtin's intertextuality." } },
+    { word: "das Frame (Diskurs)", phonetic: "fraym", meaning: "frame (discourse, Goffman)", gender: "das", example: { de: "Goffmans Diskurs-Frame.", en: "Goffman's discourse frame." } },
+    { word: "die Konversationsanalyse", phonetic: "kon-ver-za-tsee-ohns-a-na-lü-zuh", meaning: "conversation analysis (CA)", gender: "die", example: { de: "Ethnomethodologische Konversationsanalyse.", en: "Ethnomethodological conversation analysis." } },
+    { word: "die Gesprächsrunde (Turntaking)", phonetic: "geh-shpreyks-roon-duh", meaning: "turn-taking", gender: "die", example: { de: "Gesprächsrunde Mechanismus.", en: "Turn-taking mechanism." } },
+    { word: "die Anaphora (Diskurs)", phonetic: "a-na-fo-rah", meaning: "anaphora (discourse reference)", gender: "die", example: { de: "Diskursanaphorik.", en: "Discourse anaphora." } },
+    { word: "die Diskursmarkierung", phonetic: "dis-koors-mar-kee-rung", meaning: "discourse marker", gender: "die", example: { de: "Diskursmarkierer 'also'.", en: "Discourse marker 'also'." } },
+    { word: "die Hedging (Linguistik)", phonetic: "he-dshing", meaning: "hedging (linguistics)", gender: "das", example: { de: "Akademisches Hedging.", en: "Academic hedging." } },
+    { word: "die Metadiskursivität", phonetic: "me-ta-dis-koor-zi-vi-tayt", meaning: "metadiscursivity", gender: "die", example: { de: "Akademische Metadiskursivität.", en: "Academic metadiscursivity." } },
+    { word: "die Erzählanalyse (narrativ)", phonetic: "er-tseyl-a-na-lü-zuh", meaning: "narrative analysis", gender: "die", example: { de: "Labovsche Erzählanalyse.", en: "Labovian narrative analysis." } },
+  ]}] },
+};

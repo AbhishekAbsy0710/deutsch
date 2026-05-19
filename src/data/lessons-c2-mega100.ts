@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega100: Record<string, Lesson> = {
+  "lc2_m143": { id: "lc2_m143", title: "Arithmetic Geometry C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die arithmetische Geometrie", phonetic: "a-rit-me-ti-shuh-gay-oh-me-tree", meaning: "arithmetic geometry", gender: "die", example: { de: "Moderne arithmetische Geometrie.", en: "Modern arithmetic geometry." } },
+    { word: "das Schema (Grothendieck)", phonetic: "shay-mah", meaning: "scheme (Grothendieck)", gender: "das", example: { de: "Algebraisches Schema.", en: "Algebraic scheme." } },
+    { word: "das affine Schema", phonetic: "a-fee-nuh-shay-mah", meaning: "affine scheme", gender: "das", example: { de: "Spec(A) affines Schema.", en: "Spec(A) affine scheme." } },
+    { word: "der Modulraum (Kurven)", phonetic: "mo-dool-rowm", meaning: "moduli space (of curves)", gender: "der", example: { de: "Modulraum algebraischer Kurven.", en: "Moduli space of algebraic curves." } },
+    { word: "das Mordell-Weil-Theorem", phonetic: "mor-del-vyl-tay-oh-raym", meaning: "Mordell-Weil theorem", gender: "das", example: { de: "Mordell-Weil-Theorem elliptische Kurven.", en: "Mordell-Weil theorem elliptic curves." } },
+    { word: "das Faltings-Theorem (Mordell-Vermutung)", phonetic: "fal-tings-tay-oh-raym", meaning: "Faltings theorem (former Mordell conjecture)", gender: "das", example: { de: "Faltings Beweis Mordell-Vermutung.", en: "Faltings proof Mordell conjecture." } },
+    { word: "der Wiles-Beweis (Fermat)", phonetic: "vylz-beh-vys", meaning: "Wiles proof (Fermat's Last Theorem)", gender: "der", example: { de: "Wiles Beweis Fermat.", en: "Wiles proof Fermat." } },
+    { word: "die Taniyama-Shimura-Vermutung", phonetic: "ta-ni-ya-ma-shi-moo-rah-fer-moo-tung", meaning: "Taniyama-Shimura conjecture (modularity)", gender: "die", example: { de: "Taniyama-Shimura Modularitätsvermutung.", en: "Taniyama-Shimura modularity conjecture." } },
+    { word: "die elliptische Kurve", phonetic: "e-lip-ti-shuh-kur-vuh", meaning: "elliptic curve", gender: "die", example: { de: "E: y² = x³ + ax + b.", en: "E: y² = x³ + ax + b." } },
+    { word: "der Rang (elliptische Kurve)", phonetic: "rang", meaning: "rank (of an elliptic curve)", gender: "der", example: { de: "Rang der elliptischen Kurve.", en: "Rank of the elliptic curve." } },
+    { word: "die Birch-Swinnerton-Dyer-Vermutung (BSD)", phonetic: "birsh-svi-ner-ton-dy-er-fer-moo-tung", meaning: "Birch and Swinnerton-Dyer conjecture", gender: "die", example: { de: "BSD-Vermutung Millenniumsproblem.", en: "BSD conjecture Millennium Problem." } },
+    { word: "die L-Funktion (elliptische Kurve)", phonetic: "el-foonk-tsee-ohn", meaning: "L-function (elliptic curve)", gender: "die", example: { de: "Hasse-Weil L-Funktion.", en: "Hasse-Weil L-function." } },
+    { word: "das Torsionsuntergruppe", phonetic: "tor-zee-ohns-oon-ter-groo-puh", meaning: "torsion subgroup", gender: "die", example: { de: "Mazur-Torsionsklassifikation.", en: "Mazur torsion classification." } },
+    { word: "die modulare Form", phonetic: "mo-doo-lah-ruh-form", meaning: "modular form", gender: "die", example: { de: "Gewicht-k modulare Form.", en: "Weight-k modular form." } },
+    { word: "der Hecke-Operator", phonetic: "he-kuh-o-pe-ra-tor", meaning: "Hecke operator", gender: "der", example: { de: "Hecke-Operator T_p.", en: "Hecke operator T_p." } },
+    { word: "der Ramanujan-Vermutung (Deligne)", phonetic: "ra-ma-noo-jan-fer-moo-tung", meaning: "Ramanujan conjecture (proved by Deligne)", gender: "die", example: { de: "Delignes Ramanujan-Vermutung.", en: "Deligne's Ramanujan conjecture." } },
+    { word: "das Sato-Tate-Vermutung", phonetic: "za-to-tayt-fer-moo-tung", meaning: "Sato-Tate conjecture", gender: "die", example: { de: "Beweis Sato-Tate-Vermutung.", en: "Proof of Sato-Tate conjecture." } },
+    { word: "der p-Gruppe (Galoistheorie)", phonetic: "pay-groo-puh", meaning: "p-group (Galois theory)", gender: "die", example: { de: "P-Sylow-Untergruppe.", en: "P-Sylow subgroup." } },
+    { word: "das Arakelov-Theorie", phonetic: "a-ra-ke-lof-tay-oh-ree", meaning: "Arakelov theory", gender: "die", example: { de: "Arakelov-Geometrie.", en: "Arakelov geometry." } },
+    { word: "das Inter-Universal Teichmüller Theorie (Mochizuki)", phonetic: "in-ter-oo-ni-ver-zahl-tykh-mü-ler-tay-oh-ree", meaning: "Inter-universal Teichmüller theory (Mochizuki)", gender: "die", example: { de: "Mochizukis IUT-Theorie.", en: "Mochizuki's IUT theory." } },
+  ]}] },
+};

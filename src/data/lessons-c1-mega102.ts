@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega102: Record<string, Lesson> = {
+  "lc1_m148": { id: "lc1_m148", title: "Moral Philosophy C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Moralphilosophie", phonetic: "mo-rahl-fi-lo-zo-fee", meaning: "moral philosophy", gender: "die", example: { de: "Normative Moralphilosophie.", en: "Normative moral philosophy." } },
+    { word: "der Konsequenzialismus", phonetic: "kon-ze-kvents-ee-a-lis-mus", meaning: "consequentialism", gender: "der", example: { de: "Utilitaristischer Konsequenzialismus.", en: "Utilitarian consequentialism." } },
+    { word: "die deontologische Ethik (Kant)", phonetic: "de-on-to-lo-gi-shuh-ay-tik", meaning: "deontological ethics (Kant)", gender: "die", example: { de: "Kantische deontologische Ethik.", en: "Kantian deontological ethics." } },
+    { word: "die Tugendethik (Aristoteles)", phonetic: "too-gent-ay-tik", meaning: "virtue ethics (Aristotle)", gender: "die", example: { de: "Aristotelische Tugendethik.", en: "Aristotelian virtue ethics." } },
+    { word: "das moralische Dilemma", phonetic: "mo-rahl-i-shuh-di-le-mah", meaning: "moral dilemma", gender: "das", example: { de: "Trolley-Problem moralisches Dilemma.", en: "Trolley problem moral dilemma." } },
+    { word: "der moralische Realismus", phonetic: "mo-rahl-i-shuh-re-a-lis-mus", meaning: "moral realism", gender: "der", example: { de: "Moralischer Realismus und Antirealismus.", en: "Moral realism and anti-realism." } },
+    { word: "der Kontraktualismus (Rawls)", phonetic: "kon-trak-too-a-lis-mus", meaning: "contractualism (Rawls)", gender: "der", example: { de: "Rawls Kontraktualismus.", en: "Rawls' contractualism." } },
+    { word: "der Schleier der Unwissenheit (Rawls)", phonetic: "shly-er-der-oon-vi-sen-hyte", meaning: "veil of ignorance (Rawls)", gender: "der", example: { de: "Rawls Schleier der Unwissenheit.", en: "Rawls' veil of ignorance." } },
+    { word: "die Diskursethik (Habermas)", phonetic: "dis-koors-ay-tik", meaning: "discourse ethics (Habermas)", gender: "die", example: { de: "Habermas Diskursethik.", en: "Habermas' discourse ethics." } },
+    { word: "das Trolley-Problem", phonetic: "tro-lee-pro-blaym", meaning: "trolley problem (Foot/Thomson)", gender: "das", example: { de: "Klassisches Trolley-Problem.", en: "Classic trolley problem." } },
+    { word: "der Metaethik", phonetic: "me-ta-ay-tik", meaning: "metaethics", gender: "die", example: { de: "Metaethik und Normativität.", en: "Metaethics and normativity." } },
+    { word: "der Moralrelativismus", phonetic: "mo-rahl-re-la-ti-vis-mus", meaning: "moral relativism", gender: "der", example: { de: "Kultureller Moralrelativismus.", en: "Cultural moral relativism." } },
+    { word: "der Moraluniversalismus", phonetic: "mo-rahl-oo-ni-ver-za-lis-mus", meaning: "moral universalism", gender: "der", example: { de: "Kantischer Moraluniversalismus.", en: "Kantian moral universalism." } },
+    { word: "die Pflichtenethik", phonetic: "pflikh-ten-ay-tik", meaning: "duty ethics", gender: "die", example: { de: "Kantische Pflichtenethik.", en: "Kantian duty ethics." } },
+    { word: "die hedonistische Ethik (Epikur)", phonetic: "he-do-nis-ti-shuh-ay-tik", meaning: "hedonistic ethics (Epicurus)", gender: "die", example: { de: "Epikureische hedonistische Ethik.", en: "Epicurean hedonistic ethics." } },
+    { word: "die Sorge-Ethik (Noddings/Gilligan)", phonetic: "zor-guh-ay-tik", meaning: "care ethics (Noddings/Gilligan)", gender: "die", example: { de: "Gilligan Sorge-Ethik.", en: "Gilligan care ethics." } },
+    { word: "die Bioethik", phonetic: "bi-oh-ay-tik", meaning: "bioethics", gender: "die", example: { de: "Medizinische Bioethik.", en: "Medical bioethics." } },
+    { word: "der Altruismus", phonetic: "al-troo-is-mus", meaning: "altruism", gender: "der", example: { de: "Effektiver Altruismus.", en: "Effective altruism." } },
+    { word: "der Egoismus", phonetic: "e-go-is-mus", meaning: "egoism", gender: "der", example: { de: "Moralischer Egoismus.", en: "Moral egoism." } },
+    { word: "die moralische Intuition", phonetic: "mo-rahl-i-shuh-in-too-i-tsee-ohn", meaning: "moral intuition", gender: "die", example: { de: "Starke moralische Intuition.", en: "Strong moral intuition." } },
+  ]}] },
+};
