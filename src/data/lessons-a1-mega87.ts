@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega87: Record<string, Lesson> = {
+  "la1_m137": { id: "la1_m137", title: "Prepositions & Articles A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "in", phonetic: "in", meaning: "in / into", example: { de: "Ich bin in der Schule.", en: "I am in school." } },
+    { word: "auf", phonetic: "owf", meaning: "on / onto", example: { de: "Das Buch liegt auf dem Tisch.", en: "The book is on the table." } },
+    { word: "an", phonetic: "an", meaning: "at / on (vertical)", example: { de: "Das Bild hängt an der Wand.", en: "The picture hangs on the wall." } },
+    { word: "bei", phonetic: "by", meaning: "at / near / with", example: { de: "Ich wohne bei meiner Familie.", en: "I live with my family." } },
+    { word: "mit", phonetic: "mit", meaning: "with", example: { de: "Ich fahre mit dem Bus.", en: "I go by bus." } },
+    { word: "zu", phonetic: "tsoo", meaning: "to / at", example: { de: "Ich gehe zu Hause.", en: "I go home." } },
+    { word: "von", phonetic: "fon", meaning: "from / of", example: { de: "Das ist von mir.", en: "That is from me." } },
+    { word: "aus", phonetic: "ows", meaning: "from / out of", example: { de: "Ich komme aus Deutschland.", en: "I come from Germany." } },
+    { word: "nach", phonetic: "nakh", meaning: "to / after", example: { de: "Ich fahre nach Berlin.", en: "I travel to Berlin." } },
+    { word: "für", phonetic: "für", meaning: "for", example: { de: "Das ist für dich.", en: "That is for you." } },
+    { word: "über", phonetic: "ü-ber", meaning: "over / about", example: { de: "Die Brücke über den Fluss.", en: "The bridge over the river." } },
+    { word: "unter", phonetic: "oon-ter", meaning: "under / below", example: { de: "Die Katze sitzt unter dem Tisch.", en: "The cat sits under the table." } },
+    { word: "vor", phonetic: "for", meaning: "in front of / before", example: { de: "Warte vor dem Haus.", en: "Wait in front of the house." } },
+    { word: "hinter", phonetic: "hin-ter", meaning: "behind", example: { de: "Das Auto steht hinter dem Haus.", en: "The car is behind the house." } },
+    { word: "neben", phonetic: "nay-ben", meaning: "next to / beside", example: { de: "Er sitzt neben mir.", en: "He sits next to me." } },
+    { word: "der (maskulin)", phonetic: "dehr", meaning: "the (masculine)", example: { de: "Der Mann.", en: "The man." } },
+    { word: "die (feminin)", phonetic: "dee", meaning: "the (feminine)", example: { de: "Die Frau.", en: "The woman." } },
+    { word: "das (neutrum)", phonetic: "das", meaning: "the (neuter)", example: { de: "Das Kind.", en: "The child." } },
+    { word: "ein (maskulin/neutrum)", phonetic: "ayn", meaning: "a/an (masc/neut)", example: { de: "Ein Mann / ein Kind.", en: "A man / a child." } },
+    { word: "eine (feminin)", phonetic: "ay-nuh", meaning: "a/an (feminine)", example: { de: "Eine Frau.", en: "A woman." } },
+  ]}] },
+};

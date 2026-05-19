@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega84: Record<string, Lesson> = {
+  "lc2_m127": { id: "lc2_m127", title: "Advanced Functional Analysis C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Funktionalanalysis", phonetic: "foonk-tsee-oh-nahl-a-na-lü-zuh", meaning: "functional analysis", gender: "die", example: { de: "Lineare Funktionalanalysis.", en: "Linear functional analysis." } },
+    { word: "der Banach-Raum", phonetic: "ba-nakh-rowm", meaning: "Banach space", gender: "der", example: { de: "Vollständiger Banach-Raum.", en: "Complete Banach space." } },
+    { word: "der Hilbert-Raum", phonetic: "hil-bert-rowm", meaning: "Hilbert space", gender: "der", example: { de: "Separabler Hilbert-Raum.", en: "Separable Hilbert space." } },
+    { word: "das Innere Produkt", phonetic: "in-ne-ruh pro-dookt", meaning: "inner product", gender: "das", example: { de: "Hermitesches inneres Produkt.", en: "Hermitian inner product." } },
+    { word: "die Norm (funktionalanalytisch)", phonetic: "norm", meaning: "norm (functional analysis)", gender: "die", example: { de: "Äquivalente Norm.", en: "Equivalent norm." } },
+    { word: "der beschränkte lineare Operator", phonetic: "beh-shrenk-tuh li-ne-ah-ruh oh-pe-rah-tor", meaning: "bounded linear operator", gender: "der", example: { de: "Beschränkter linearer Operator.", en: "Bounded linear operator." } },
+    { word: "das Spektrum (Operator)", phonetic: "shpek-trum", meaning: "spectrum (operator)", gender: "das", example: { de: "Kontinuierliches Spektrum.", en: "Continuous spectrum." } },
+    { word: "der Satz von Hahn-Banach", phonetic: "zats-fon-hahn-ba-nakh", meaning: "Hahn-Banach theorem", gender: "der", example: { de: "Trennungsform Satz von Hahn-Banach.", en: "Separation form Hahn-Banach theorem." } },
+    { word: "der Satz über offene Abbildungen", phonetic: "zats-ü-ber-o-fe-nuh-ap-bil-dun-gen", meaning: "open mapping theorem", gender: "der", example: { de: "Banach-Satz über offene Abbildungen.", en: "Banach open mapping theorem." } },
+    { word: "der geschlossene Graphsatz", phonetic: "ge-shlo-se-nuh-grahf-zats", meaning: "closed graph theorem", gender: "der", example: { de: "Banach-geschlossener Graphsatz.", en: "Banach closed graph theorem." } },
+    { word: "das gleichmäßig beschränkte Prinzip", phonetic: "glykh-mey-sikh-beh-shrenk-tuh-prin-tsip", meaning: "uniform boundedness principle", gender: "das", example: { de: "Banach-Steinhaus Prinzip.", en: "Banach-Steinhaus principle." } },
+    { word: "der Projektor", phonetic: "pro-yek-tor", meaning: "projection (operator)", gender: "der", example: { de: "Orthogonaler Projektor.", en: "Orthogonal projector." } },
+    { word: "der kompakte Operator", phonetic: "kom-pak-tuh oh-pe-rah-tor", meaning: "compact operator", gender: "der", example: { de: "Schur-kompakter Operator.", en: "Schur compact operator." } },
+    { word: "der Fredholm-Operator", phonetic: "fred-holm-oh-pe-rah-tor", meaning: "Fredholm operator", gender: "der", example: { de: "Fredholm-Index.", en: "Fredholm index." } },
+    { word: "der Satz von Riesz-Fréchet", phonetic: "zats-fon-rees-fre-shay", meaning: "Riesz representation theorem", gender: "der", example: { de: "Riesz-Fréchet-Darstellungssatz.", en: "Riesz-Fréchet representation theorem." } },
+    { word: "der selbstadjungierte Operator", phonetic: "zelpst-at-yoon-geer-tuh oh-pe-rah-tor", meaning: "self-adjoint operator", gender: "der", example: { de: "Unbeschränkter selbstadjungierter Operator.", en: "Unbounded self-adjoint operator." } },
+    { word: "der Spektralsatz", phonetic: "shpek-trahl-zats", meaning: "spectral theorem", gender: "der", example: { de: "Funktionalkalkül-Spektralsatz.", en: "Functional calculus spectral theorem." } },
+    { word: "die C*-Algebra", phonetic: "tsay-shtern-al-ge-bra", meaning: "C*-algebra", gender: "die", example: { de: "Kommutative C*-Algebra.", en: "Commutative C*-algebra." } },
+    { word: "die von-Neumann-Algebra", phonetic: "fon-noy-man-al-ge-bra", meaning: "von Neumann algebra", gender: "die", example: { de: "Hyperfinite von-Neumann-Algebra.", en: "Hyperfinite von Neumann algebra." } },
+    { word: "der Sobolew-Raum", phonetic: "zo-bo-lyef-rowm", meaning: "Sobolev space", gender: "der", example: { de: "Sobolew-Raum W^{k,p}.", en: "Sobolev space W^{k,p}." } },
+  ]}] },
+};

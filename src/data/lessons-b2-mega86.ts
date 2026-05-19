@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega86: Record<string, Lesson> = {
+  "lb2_m131": { id: "lb2_m131", title: "Biophysics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Biophysik", phonetic: "bi-oh-fü-zik", meaning: "biophysics", gender: "die", example: { de: "Strukturelle Biophysik.", en: "Structural biophysics." } },
+    { word: "die Membranbiophysik", phonetic: "mem-brahn-bi-oh-fü-zik", meaning: "membrane biophysics", gender: "die", example: { de: "Lipiddoppelschicht-Membranbiophysik.", en: "Lipid bilayer membrane biophysics." } },
+    { word: "der Ionenkanal", phonetic: "i-oh-nen-ka-nahl", meaning: "ion channel", gender: "der", example: { de: "Spannungsgesteuerter Ionenkanal.", en: "Voltage-gated ion channel." } },
+    { word: "das Membranpotenzial", phonetic: "mem-brahn-po-ten-tsee-ahl", meaning: "membrane potential", gender: "das", example: { de: "Ruhemembranpotenzial.", en: "Resting membrane potential." } },
+    { word: "das Aktionspotenzial", phonetic: "ak-tsee-ohns-po-ten-tsee-ahl", meaning: "action potential", gender: "das", example: { de: "Neuronales Aktionspotenzial.", en: "Neuronal action potential." } },
+    { word: "der Hodgkin-Huxley-Modell", phonetic: "hodsh-kin-hoks-li-mo-del", meaning: "Hodgkin-Huxley model", gender: "das", example: { de: "Quantitatives Hodgkin-Huxley-Modell.", en: "Quantitative Hodgkin-Huxley model." } },
+    { word: "die Proteinfaltung", phonetic: "pro-tay-in-fal-tung", meaning: "protein folding", gender: "die", example: { de: "Chaperonvermittelte Proteinfaltung.", en: "Chaperone-mediated protein folding." } },
+    { word: "das molekulare Motor", phonetic: "mo-le-koo-lah-ruh mo-tor", meaning: "molecular motor", gender: "der", example: { de: "Kinesin molekularer Motor.", en: "Kinesin molecular motor." } },
+    { word: "die einzelmolekulare Spektroskopie", phonetic: "ayn-tsel-mo-le-koo-lah-ruh shpek-tro-sko-pee", meaning: "single-molecule spectroscopy", gender: "die", example: { de: "FRET-einzelmolekulare Spektroskopie.", en: "FRET single-molecule spectroscopy." } },
+    { word: "die optische Pinzette", phonetic: "op-ti-shuh pin-tse-tuh", meaning: "optical tweezers", gender: "die", example: { de: "Laserfalle optische Pinzette.", en: "Laser trap optical tweezers." } },
+    { word: "das Atomkraftmikroskop", phonetic: "ah-tom-kraft-mi-kro-skohp", meaning: "atomic force microscope (AFM)", gender: "das", example: { de: "Biologisches AFM.", en: "Biological AFM." } },
+    { word: "die stochastische Biodynamik", phonetic: "sto-khas-ti-shuh bi-oh-dü-na-mik", meaning: "stochastic biodynamics", gender: "die", example: { de: "Langevin-stochastische Biodynamik.", en: "Langevin stochastic biodynamics." } },
+    { word: "das Diffusionsmodell", phonetic: "di-foo-zee-ohns-mo-del", meaning: "diffusion model (biophysics)", gender: "das", example: { de: "Fick-Diffusionsmodell.", en: "Fick diffusion model." } },
+    { word: "die Elastizität (Biomaterial)", phonetic: "e-las-ti-tsi-tayt", meaning: "elasticity (biomaterial)", gender: "die", example: { de: "Zelluläre Elastizität.", en: "Cellular elasticity." } },
+    { word: "das Zytoskelett", phonetic: "tsü-to-ske-let", meaning: "cytoskeleton", gender: "das", example: { de: "Aktin-Zytoskelett.", en: "Actin cytoskeleton." } },
+    { word: "die Zellmechanik", phonetic: "tsel-me-kha-nik", meaning: "cell mechanics", gender: "die", example: { de: "Mikrorheologische Zellmechanik.", en: "Microrheological cell mechanics." } },
+    { word: "die Thermodynamik (biologisch)", phonetic: "ter-mo-dü-na-mik", meaning: "thermodynamics (biological)", gender: "die", example: { de: "Entropie biologischer Systeme.", en: "Entropy of biological systems." } },
+    { word: "die elektrostatische Wechselwirkung (Bio)", phonetic: "e-lek-tro-shta-ti-shuh vek-sel-vir-kung", meaning: "electrostatic interaction (biological)", gender: "die", example: { de: "Protein-DNA elektrostatische Wechselwirkung.", en: "Protein-DNA electrostatic interaction." } },
+    { word: "die Röntgenkristallographie", phonetic: "rönt-gen-kris-ta-lo-gra-fee", meaning: "X-ray crystallography", gender: "die", example: { de: "Proteinkristallstruktur.", en: "Protein crystal structure." } },
+    { word: "die Kryo-Elektronenmikroskopie", phonetic: "kry-oh-e-lek-tro-nen-mi-kro-sko-pee", meaning: "cryo-electron microscopy (cryo-EM)", gender: "die", example: { de: "Hochauflösende Kryo-EM.", en: "High-resolution cryo-EM." } },
+  ]}] },
+};

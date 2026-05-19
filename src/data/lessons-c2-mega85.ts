@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega85: Record<string, Lesson> = {
+  "lc2_m128": { id: "lc2_m128", title: "Advanced Combinatorics C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Kombinatorik", phonetic: "kom-bi-na-toh-rik", meaning: "combinatorics", gender: "die", example: { de: "Algebraische Kombinatorik.", en: "Algebraic combinatorics." } },
+    { word: "die erzeugende Funktion", phonetic: "er-tsoy-gen-duh foonk-tsee-ohn", meaning: "generating function", gender: "die", example: { de: "Exponentielle erzeugende Funktion.", en: "Exponential generating function." } },
+    { word: "die Inklusion-Exklusion", phonetic: "in-kloo-zee-ohn-eks-kloo-zee-ohn", meaning: "inclusion-exclusion principle", gender: "die", example: { de: "Kombinatorische Inklusion-Exklusion.", en: "Combinatorial inclusion-exclusion." } },
+    { word: "die Partitionstheorie", phonetic: "par-ti-tsee-ohns-tay-oh-ree", meaning: "partition theory", gender: "die", example: { de: "Eulersche Partitionstheorie.", en: "Euler partition theory." } },
+    { word: "das Ramsey-Theorem", phonetic: "ram-zi-tay-oh-rem", meaning: "Ramsey's theorem", gender: "das", example: { de: "Graphentheoretisches Ramsey-Theorem.", en: "Graph-theoretic Ramsey's theorem." } },
+    { word: "die Ramsey-Zahl", phonetic: "ram-zi-tsahl", meaning: "Ramsey number", gender: "die", example: { de: "Diagonale Ramsey-Zahl.", en: "Diagonal Ramsey number." } },
+    { word: "die Extremalkombinatorik", phonetic: "eks-tre-mahl-kom-bi-na-toh-rik", meaning: "extremal combinatorics", gender: "die", example: { de: "Turán-Extremalkombinatorik.", en: "Turán extremal combinatorics." } },
+    { word: "der Satz von Turán", phonetic: "zats-fon-too-rahn", meaning: "Turán's theorem", gender: "der", example: { de: "Turán-Graphentheorem.", en: "Turán graph theorem." } },
+    { word: "die probabilistische Methode", phonetic: "pro-ba-bi-lis-ti-shuh me-toh-duh", meaning: "probabilistic method (Erdős)", gender: "die", example: { de: "Erdős probabilistische Methode.", en: "Erdős probabilistic method." } },
+    { word: "der Lovász-Lokallemma", phonetic: "lo-vash-lo-kahl-le-ma", meaning: "Lovász Local Lemma", gender: "das", example: { de: "Asymmetrisches Lovász-Lokallemma.", en: "Asymmetric Lovász Local Lemma." } },
+    { word: "die Matroid-Theorie", phonetic: "ma-troyt-tay-oh-ree", meaning: "matroid theory", gender: "die", example: { de: "Whitney-Matroid-Theorie.", en: "Whitney matroid theory." } },
+    { word: "der Satz von van der Waerden", phonetic: "zats-fon-van-der-var-den", meaning: "van der Waerden's theorem", gender: "der", example: { de: "Arithmetische Progressionen Satz von van der Waerden.", en: "Arithmetic progressions van der Waerden's theorem." } },
+    { word: "der Satz von Szemerédi", phonetic: "zats-fon-ze-me-re-di", meaning: "Szemerédi's theorem", gender: "der", example: { de: "Arithmetische Progressionen Satz von Szemerédi.", en: "Arithmetic progressions Szemerédi's theorem." } },
+    { word: "der Satz von Green-Tao", phonetic: "zats-fon-green-tow", meaning: "Green-Tao theorem", gender: "der", example: { de: "Primzahlen Satz von Green-Tao.", en: "Primes Green-Tao theorem." } },
+    { word: "die additive Kombinatorik", phonetic: "a-di-tee-vuh kom-bi-na-toh-rik", meaning: "additive combinatorics", gender: "die", example: { de: "Freiman-additive Kombinatorik.", en: "Freiman additive combinatorics." } },
+    { word: "das Doppelzählen", phonetic: "do-pel-tsey-len", meaning: "double counting", gender: "das", example: { de: "Kombinatorisches Doppelzählen.", en: "Combinatorial double counting." } },
+    { word: "die Bijektionsmethode", phonetic: "bi-yek-tsee-ohns-me-toh-duh", meaning: "bijective method", gender: "die", example: { de: "Kombinatorische Bijektionsmethode.", en: "Combinatorial bijective method." } },
+    { word: "der Schubfachprinzip", phonetic: "shoob-fakh-prin-tsip", meaning: "pigeonhole principle", gender: "das", example: { de: "Dirichlets Schubfachprinzip.", en: "Dirichlet's pigeonhole principle." } },
+    { word: "die Stirling-Zahlen", phonetic: "shter-ling-tsah-len", meaning: "Stirling numbers", example: { de: "Stirling-Zahlen erster Art.", en: "Stirling numbers of the first kind." } },
+    { word: "die Catalansche Zahl", phonetic: "ka-ta-lahn-shuh tsahl", meaning: "Catalan number", gender: "die", example: { de: "Kombinatorische Catalansche Zahl.", en: "Combinatorial Catalan number." } },
+  ]}] },
+};

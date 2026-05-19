@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega89: Record<string, Lesson> = {
+  "lb1_m140": { id: "lb1_m140", title: "Architecture & Design B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Architektur", phonetic: "ar-khi-tek-toor", meaning: "architecture", gender: "die", example: { de: "Moderne Architektur.", en: "Modern architecture." } },
+    { word: "das Gebäude", phonetic: "geh-boy-duh", meaning: "building", gender: "das", example: { de: "Altes Gebäude.", en: "Old building." } },
+    { word: "der Grundriss", phonetic: "groont-ris", meaning: "floor plan", gender: "der", example: { de: "Grundriss zeichnen.", en: "Draw a floor plan." } },
+    { word: "die Fassade", phonetic: "fa-sah-duh", meaning: "facade", gender: "die", example: { de: "Gläserne Fassade.", en: "Glass facade." } },
+    { word: "das Dach", phonetic: "dakh", meaning: "roof", gender: "das", example: { de: "Flaches Dach.", en: "Flat roof." } },
+    { word: "die Säule", phonetic: "zoy-luh", meaning: "column / pillar", gender: "die", example: { de: "Antike Säule.", en: "Ancient column." } },
+    { word: "der Bogen", phonetic: "boh-gen", meaning: "arch", gender: "der", example: { de: "Gotischer Bogen.", en: "Gothic arch." } },
+    { word: "der Entwurf", phonetic: "ent-vroorf", meaning: "design / draft", gender: "der", example: { de: "Architektonischer Entwurf.", en: "Architectural design." } },
+    { word: "die Skizze", phonetic: "ski-tsuh", meaning: "sketch", gender: "die", example: { de: "Eine Skizze anfertigen.", en: "Make a sketch." } },
+    { word: "das Modell (Architektur)", phonetic: "mo-del", meaning: "model (architecture)", gender: "das", example: { de: "Maßstabsgetreues Modell.", en: "Scale model." } },
+    { word: "nachhaltig bauen", phonetic: "nakh-hal-tikh bow-en", meaning: "to build sustainably", example: { de: "Nachhaltig bauen.", en: "Build sustainably." } },
+    { word: "der Innenraum", phonetic: "in-en-rowm", meaning: "interior space", gender: "der", example: { de: "Gestaltung des Innenraums.", en: "Interior design." } },
+    { word: "das Raumkonzept", phonetic: "rowm-kon-tsept", meaning: "spatial concept", gender: "das", example: { de: "Offenes Raumkonzept.", en: "Open spatial concept." } },
+    { word: "die Materialität", phonetic: "ma-te-ri-a-li-tayt", meaning: "materiality", gender: "die", example: { de: "Materialität der Architektur.", en: "Materiality of architecture." } },
+    { word: "der Baustil", phonetic: "bow-shteel", meaning: "architectural style", gender: "der", example: { de: "Historistischer Baustil.", en: "Historicist architectural style." } },
+    { word: "das Bauwerk", phonetic: "bow-verk", meaning: "structure / edifice", gender: "das", example: { de: "Monumentales Bauwerk.", en: "Monumental structure." } },
+    { word: "die Restaurierung", phonetic: "res-tow-ree-rung", meaning: "restoration", gender: "die", example: { de: "Denkmalpflegerische Restaurierung.", en: "Conservation restoration." } },
+    { word: "der Städtebau", phonetic: "shtet-uh-bow", meaning: "urban architecture / town planning", gender: "der", example: { de: "Nachhaltiger Städtebau.", en: "Sustainable town planning." } },
+    { word: "die Proportion", phonetic: "pro-por-tsee-ohn", meaning: "proportion", gender: "die", example: { de: "Harmonische Proportion.", en: "Harmonious proportion." } },
+    { word: "der Lichteinfall", phonetic: "likht-ayn-fal", meaning: "light ingress / daylighting", gender: "der", example: { de: "Natürlicher Lichteinfall.", en: "Natural daylighting." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega87: Record<string, Lesson> = {
+  "lb2_m132": { id: "lb2_m132", title: "Plasma Physics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Plasma (Physik)", phonetic: "plaz-ma", meaning: "plasma (physics)", gender: "das", example: { de: "Heißes Plasma.", en: "Hot plasma." } },
+    { word: "die Plasmaphysik", phonetic: "plaz-ma-fü-zik", meaning: "plasma physics", gender: "die", example: { de: "Kernfusions-Plasmaphysik.", en: "Fusion plasma physics." } },
+    { word: "die Debye-Abschirmung", phonetic: "de-by-ap-sheer-mung", meaning: "Debye shielding", gender: "die", example: { de: "Elektrostatische Debye-Abschirmung.", en: "Electrostatic Debye shielding." } },
+    { word: "die Debye-Länge", phonetic: "de-by-len-guh", meaning: "Debye length", gender: "die", example: { de: "Charakteristische Debye-Länge.", en: "Characteristic Debye length." } },
+    { word: "die Plasmafrequenz", phonetic: "plaz-ma-fre-kvents", meaning: "plasma frequency", gender: "die", example: { de: "Elektronenplasmafrequenz.", en: "Electron plasma frequency." } },
+    { word: "die magnetohydrodynamik", phonetic: "mag-ne-to-hü-dro-dü-na-mik", meaning: "magnetohydrodynamics (MHD)", gender: "die", example: { de: "Ideale MHD.", en: "Ideal MHD." } },
+    { word: "die Alfvén-Welle", phonetic: "al-vayn-ve-luh", meaning: "Alfvén wave", gender: "die", example: { de: "Scherwellen-Alfvén-Welle.", en: "Shear Alfvén wave." } },
+    { word: "die Instabilität (Plasma)", phonetic: "in-sta-bi-li-tayt", meaning: "instability (plasma)", gender: "die", example: { de: "Kelvin-Helmholtz-Instabilität.", en: "Kelvin-Helmholtz instability." } },
+    { word: "die Pinch-Entladung", phonetic: "pinch-ent-lah-dung", meaning: "pinch discharge", gender: "die", example: { de: "Z-Pinch-Entladung.", en: "Z-pinch discharge." } },
+    { word: "der Tokamak", phonetic: "to-ka-mak", meaning: "tokamak", gender: "der", example: { de: "ITER-Tokamak.", en: "ITER tokamak." } },
+    { word: "der Stellarator", phonetic: "shte-la-ra-tor", meaning: "stellarator", gender: "der", example: { de: "Wendelstein-7-X-Stellarator.", en: "Wendelstein 7-X stellarator." } },
+    { word: "die Plasmakonfiguierung", phonetic: "plaz-ma-kon-fi-goo-ree-rung", meaning: "plasma confinement", gender: "die", example: { de: "Magnetische Plasmakonfiguierung.", en: "Magnetic plasma confinement." } },
+    { word: "die Larmor-Radius", phonetic: "lar-mor-ra-di-oos", meaning: "Larmor radius / gyroradius", gender: "der", example: { de: "Elektronischer Larmor-Radius.", en: "Electron Larmor radius." } },
+    { word: "die Zyklotron-Frequenz", phonetic: "tsü-klo-tron-fre-kvents", meaning: "cyclotron frequency", gender: "die", example: { de: "Ionenzyklotron-Frequenz.", en: "Ion cyclotron frequency." } },
+    { word: "die Landau-Dämpfung", phonetic: "lan-dow-demp-fung", meaning: "Landau damping", gender: "die", example: { de: "Kinetische Landau-Dämpfung.", en: "Kinetic Landau damping." } },
+    { word: "die Wärmeleitfähigkeit (Plasma)", phonetic: "ver-muh-lyte-feh-ikh-kyte", meaning: "thermal conductivity (plasma)", gender: "die", example: { de: "Elektronische Wärmeleitfähigkeit.", en: "Electron thermal conductivity." } },
+    { word: "die Diffusion (Plasma)", phonetic: "di-foo-zee-ohn", meaning: "diffusion (plasma)", gender: "die", example: { de: "Anomale Plasma-Diffusion.", en: "Anomalous plasma diffusion." } },
+    { word: "das Sonnenwind-Plasma", phonetic: "zo-nen-vint-plaz-ma", meaning: "solar wind plasma", gender: "das", example: { de: "Interplanetares Sonnenwind-Plasma.", en: "Interplanetary solar wind plasma." } },
+    { word: "die Magnetosphäre", phonetic: "mag-ne-to-sfeh-ruh", meaning: "magnetosphere", gender: "die", example: { de: "Erdmagnetosphäre.", en: "Earth's magnetosphere." } },
+    { word: "die Strahlungsgürtel", phonetic: "shtrah-lungs-gür-tel", meaning: "radiation belts (Van Allen)", example: { de: "Van-Allen-Strahlungsgürtel.", en: "Van Allen radiation belts." } },
+  ]}] },
+};

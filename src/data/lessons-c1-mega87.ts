@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega87: Record<string, Lesson> = {
+  "lc1_m133": { id: "lc1_m133", title: "Advanced Hermeneutics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Hermeneutik", phonetic: "her-me-noy-tik", meaning: "hermeneutics", gender: "die", example: { de: "Philosophische Hermeneutik.", en: "Philosophical hermeneutics." } },
+    { word: "die Interpretation", phonetic: "in-ter-pre-ta-tsee-ohn", meaning: "interpretation", gender: "die", example: { de: "Textuellen Interpretation.", en: "Textual interpretation." } },
+    { word: "der hermeneutische Zirkel", phonetic: "her-me-noy-ti-shuh tsir-kel", meaning: "hermeneutic circle", gender: "der", example: { de: "Schleiermachers hermeneutischer Zirkel.", en: "Schleiermacher's hermeneutic circle." } },
+    { word: "das Vorverständnis", phonetic: "for-fer-shtent-nis", meaning: "pre-understanding", gender: "das", example: { de: "Heideggers Vorverständnis.", en: "Heidegger's pre-understanding." } },
+    { word: "die Horizontverschmelzung", phonetic: "ho-ri-tsont-fer-shmel-tsung", meaning: "fusion of horizons (Gadamer)", gender: "die", example: { de: "Gadamers Horizontverschmelzung.", en: "Gadamer's fusion of horizons." } },
+    { word: "der Sinnhorizont", phonetic: "zin-ho-ri-tsont", meaning: "horizon of meaning", gender: "der", example: { de: "Kultureller Sinnhorizont.", en: "Cultural horizon of meaning." } },
+    { word: "die Applikation (Hermeneutik)", phonetic: "a-pli-ka-tsee-ohn", meaning: "application (hermeneutics)", gender: "die", example: { de: "Gadamers Applikation.", en: "Gadamer's application." } },
+    { word: "die Wirkungsgeschichte", phonetic: "vir-kungs-geh-shikh-tuh", meaning: "effective history (Wirkungsgeschichte)", gender: "die", example: { de: "Gadamers Wirkungsgeschichte.", en: "Gadamer's effective history." } },
+    { word: "die Ricoeur-Texthermeutik", phonetic: "ri-kör-teks-her-me-noy-tik", meaning: "Ricoeur's text hermeneutics", gender: "die", example: { de: "Ricoeurs narrative Hermeneutik.", en: "Ricoeur's narrative hermeneutics." } },
+    { word: "das Symbolische (Ricoeur)", phonetic: "zim-bo-li-shuh", meaning: "the symbolic (Ricoeur)", gender: "das", example: { de: "Das Symbolische und Hermeneutik.", en: "The symbolic and hermeneutics." } },
+    { word: "die Bedeutungskonstituierung", phonetic: "beh-doy-tungs-kon-sti-too-ee-rung", meaning: "meaning constitution", gender: "die", example: { de: "Phänomenologische Bedeutungskonstituierung.", en: "Phenomenological meaning constitution." } },
+    { word: "die Exegese", phonetic: "ek-ze-gay-zuh", meaning: "exegesis", gender: "die", example: { de: "Biblische Exegese.", en: "Biblical exegesis." } },
+    { word: "die Isogese", phonetic: "ee-zo-gay-zuh", meaning: "eisegesis", gender: "die", example: { de: "Fehlerhafte Isogese.", en: "Erroneous eisegesis." } },
+    { word: "die Analogie (Hermeneutik)", phonetic: "a-na-lo-gee", meaning: "analogy (hermeneutics)", gender: "die", example: { de: "Interpretive Analogie.", en: "Interpretive analogy." } },
+    { word: "die Allegorie", phonetic: "a-le-go-ree", meaning: "allegory", gender: "die", example: { de: "Politische Allegorie.", en: "Political allegory." } },
+    { word: "der Autor-Leser-Dialog", phonetic: "ow-tor-lay-zer-di-a-log", meaning: "author-reader dialogue", gender: "der", example: { de: "Hermeneutischer Autor-Leser-Dialog.", en: "Hermeneutic author-reader dialogue." } },
+    { word: "der objektive Geist (Dilthey)", phonetic: "op-yek-tee-vuh gayst", meaning: "objective spirit (Dilthey)", gender: "der", example: { de: "Diltheys objektiver Geist.", en: "Dilthey's objective spirit." } },
+    { word: "das Verstehen (Dilthey)", phonetic: "fer-shtay-en", meaning: "understanding (Dilthey)", gender: "das", example: { de: "Geisteswissenschaftliches Verstehen.", en: "Humanistic understanding." } },
+    { word: "die Erklärung vs. Verstehen", phonetic: "er-kleh-rung-fus-fer-shtay-en", meaning: "explanation vs. understanding", example: { de: "Erklärung (Naturwissenschaft) vs. Verstehen (Geisteswissenschaft).", en: "Explanation (natural science) vs. understanding (humanities)." } },
+    { word: "die tiefenhermeneutik", phonetic: "tee-fen-her-me-noy-tik", meaning: "depth hermeneutics (Habermas)", gender: "die", example: { de: "Habermas-Tiefenhermeneutik.", en: "Habermas depth hermeneutics." } },
+  ]}] },
+};

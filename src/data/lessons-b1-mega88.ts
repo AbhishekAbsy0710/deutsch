@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega88: Record<string, Lesson> = {
+  "lb1_m139": { id: "lb1_m139", title: "Global Issues & Globalisation B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Globalisierung", phonetic: "glo-ba-li-zee-rung", meaning: "globalisation", gender: "die", example: { de: "Wirtschaftliche Globalisierung.", en: "Economic globalisation." } },
+    { word: "die Armut", phonetic: "ar-moot", meaning: "poverty", gender: "die", example: { de: "Extreme Armut bekämpfen.", en: "Fight extreme poverty." } },
+    { word: "der Hunger", phonetic: "hoon-ger", meaning: "hunger / famine", gender: "der", example: { de: "Welthunger beenden.", en: "End world hunger." } },
+    { word: "die Ungleichheit", phonetic: "oon-glykh-hyte", meaning: "inequality", gender: "die", example: { de: "Soziale Ungleichheit.", en: "Social inequality." } },
+    { word: "die Menschenrechte", phonetic: "men-shen-rekh-tuh", meaning: "human rights", example: { de: "Menschenrechte schützen.", en: "Protect human rights." } },
+    { word: "die Migration", phonetic: "mi-gra-tsee-ohn", meaning: "migration", gender: "die", example: { de: "Internationale Migration.", en: "International migration." } },
+    { word: "die Entwicklungshilfe", phonetic: "ent-vik-lungs-hil-fuh", meaning: "development aid", gender: "die", example: { de: "Nachhaltige Entwicklungshilfe.", en: "Sustainable development aid." } },
+    { word: "die nachhaltige Entwicklung", phonetic: "nakh-hal-ti-guh ent-vik-lung", meaning: "sustainable development", gender: "die", example: { de: "UN-nachhaltige Entwicklungsziele.", en: "UN sustainable development goals." } },
+    { word: "der Frieden", phonetic: "free-den", meaning: "peace", gender: "der", example: { de: "Frieden fördern.", en: "Promote peace." } },
+    { word: "der Konflikt", phonetic: "kon-flikt", meaning: "conflict", gender: "der", example: { de: "Bewaffneter Konflikt.", en: "Armed conflict." } },
+    { word: "der Terrorismus", phonetic: "te-ro-ris-mus", meaning: "terrorism", gender: "der", example: { de: "Terrorismus bekämpfen.", en: "Combat terrorism." } },
+    { word: "der Klimaschutz", phonetic: "klee-ma-shoots", meaning: "climate protection", gender: "der", example: { de: "Internationaler Klimaschutz.", en: "International climate protection." } },
+    { word: "die Erderwärmung", phonetic: "erd-er-ver-mung", meaning: "global warming", gender: "die", example: { de: "Erderwärmung begrenzen.", en: "Limit global warming." } },
+    { word: "das Abkommen", phonetic: "ap-ko-men", meaning: "agreement / accord", gender: "das", example: { de: "Pariser Abkommen.", en: "Paris Agreement." } },
+    { word: "die Sanktion", phonetic: "zank-tsee-ohn", meaning: "sanction", gender: "die", example: { de: "Wirtschaftliche Sanktionen.", en: "Economic sanctions." } },
+    { word: "der Handel", phonetic: "han-del", meaning: "trade", gender: "der", example: { de: "Fairer Handel.", en: "Fair trade." } },
+    { word: "die Digitalisierung", phonetic: "di-gi-ta-li-zee-rung", meaning: "digitalisation", gender: "die", example: { de: "Globale Digitalisierung.", en: "Global digitalisation." } },
+    { word: "die Pandemie", phonetic: "pan-de-mee", meaning: "pandemic", gender: "die", example: { de: "Globale Pandemie.", en: "Global pandemic." } },
+    { word: "der Impfstoff", phonetic: "impf-shtof", meaning: "vaccine", gender: "der", example: { de: "Impfstoff entwickeln.", en: "Develop a vaccine." } },
+    { word: "die Solidarität", phonetic: "zo-li-da-ri-tayt", meaning: "solidarity", gender: "die", example: { de: "Internationale Solidarität.", en: "International solidarity." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega86: Record<string, Lesson> = {
+  "lc1_m132": { id: "lc1_m132", title: "Advanced Discourse Analysis C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Diskursanalyse", phonetic: "dis-koors-a-na-lü-zuh", meaning: "discourse analysis", gender: "die", example: { de: "Kritische Diskursanalyse.", en: "Critical discourse analysis." } },
+    { word: "der Diskurs", phonetic: "dis-koors", meaning: "discourse", gender: "der", example: { de: "Politischer Diskurs.", en: "Political discourse." } },
+    { word: "die Diskursgemeinschaft", phonetic: "dis-koors-geh-myn-shaft", meaning: "discourse community", gender: "die", example: { de: "Akademische Diskursgemeinschaft.", en: "Academic discourse community." } },
+    { word: "die Sprechhandlung", phonetic: "shprekh-hand-lung", meaning: "speech act", gender: "die", example: { de: "Austins Sprechhandlung.", en: "Austin's speech act." } },
+    { word: "die Illokution", phonetic: "i-lo-koo-tsee-ohn", meaning: "illocution", gender: "die", example: { de: "Illokutionäre Kraft.", en: "Illocutionary force." } },
+    { word: "die Perlokution", phonetic: "per-lo-koo-tsee-ohn", meaning: "perlocution", gender: "die", example: { de: "Perlokutionärer Effekt.", en: "Perlocutionary effect." } },
+    { word: "die Grice-Maximen", phonetic: "grees-mak-see-men", meaning: "Gricean maxims", example: { de: "Kooperationsprinzip Grice-Maximen.", en: "Cooperative principle Gricean maxims." } },
+    { word: "die Implikatur", phonetic: "im-pli-ka-toor", meaning: "implicature", gender: "die", example: { de: "Konversationelle Implikatur.", en: "Conversational implicature." } },
+    { word: "die Präsupposition", phonetic: "prä-zoo-po-zi-tsee-ohn", meaning: "presupposition", gender: "die", example: { de: "Semantische Präsupposition.", en: "Semantic presupposition." } },
+    { word: "die Kohäsion (Text)", phonetic: "ko-hay-zee-ohn", meaning: "cohesion (text)", gender: "die", example: { de: "Lexikalische Kohäsion.", en: "Lexical cohesion." } },
+    { word: "die Kohärenz (Text)", phonetic: "ko-hay-rents", meaning: "coherence (text)", gender: "die", example: { de: "Thematische Kohärenz.", en: "Thematic coherence." } },
+    { word: "das Register (Linguistik)", phonetic: "re-gi-ster", meaning: "register (linguistics)", gender: "das", example: { de: "Formelles Register.", en: "Formal register." } },
+    { word: "der Intertextualitätsverweis", phonetic: "in-ter-teks-too-a-li-tayts-fer-vyse", meaning: "intertextual reference", gender: "der", example: { de: "Literarischer Intertextualitätsverweis.", en: "Literary intertextual reference." } },
+    { word: "die Kritische Diskurstheorie", phonetic: "kri-ti-shuh dis-koors-tay-oh-ree", meaning: "critical discourse theory (Fairclough)", gender: "die", example: { de: "Fairclough-Kritische Diskurstheorie.", en: "Fairclough critical discourse theory." } },
+    { word: "die Macht-Wissen-Relation", phonetic: "makht-vi-sen-re-la-tsee-ohn", meaning: "power-knowledge relation (Foucault)", gender: "die", example: { de: "Foucaults Macht-Wissen-Relation.", en: "Foucault's power-knowledge relation." } },
+    { word: "das Gesprächsturnsystem", phonetic: "geh-shprekhs-turn-zys-tem", meaning: "turn-taking system", gender: "das", example: { de: "Sacks-Schegloff Gesprächsturnsystem.", en: "Sacks-Schegloff turn-taking system." } },
+    { word: "die Reparatur (Konversation)", phonetic: "re-pa-ra-toor", meaning: "repair (conversation analysis)", gender: "die", example: { de: "Selbstinitiierte Reparatur.", en: "Self-initiated repair." } },
+    { word: "die Kontextualisierung", phonetic: "kon-teks-too-a-li-zee-rung", meaning: "contextualisation (Gumperz)", gender: "die", example: { de: "Gumperz-Kontextualisierungshinweis.", en: "Gumperz contextualisation cue." } },
+    { word: "der Metadiskurs", phonetic: "me-ta-dis-koors", meaning: "metadiscourse", gender: "der", example: { de: "Akademischer Metadiskurs.", en: "Academic metadiscourse." } },
+    { word: "die Rahmung (frame)", phonetic: "rah-mung", meaning: "framing", gender: "die", example: { de: "Mediale Rahmung.", en: "Media framing." } },
+  ]}] },
+};

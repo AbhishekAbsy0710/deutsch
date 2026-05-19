@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega85: Record<string, Lesson> = {
+  "la2_m130": { id: "la2_m130", title: "Technology & Internet A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "der Computer", phonetic: "kom-pyoo-ter", meaning: "computer", gender: "der", example: { de: "Am Computer arbeiten.", en: "Work on the computer." } },
+    { word: "das Handy", phonetic: "hen-di", meaning: "mobile phone", gender: "das", example: { de: "Das Handy aufladen.", en: "Charge the mobile phone." } },
+    { word: "das Internet", phonetic: "in-ter-net", meaning: "internet", gender: "das", example: { de: "Im Internet surfen.", en: "Surf the internet." } },
+    { word: "die E-Mail", phonetic: "ee-mayl", meaning: "email", gender: "die", example: { de: "Eine E-Mail schreiben.", en: "Write an email." } },
+    { word: "das Passwort", phonetic: "pas-vort", meaning: "password", gender: "das", example: { de: "Ein sicheres Passwort.", en: "A secure password." } },
+    { word: "herunterladen", phonetic: "her-oon-ter-lah-den", meaning: "to download", example: { de: "Eine App herunterladen.", en: "Download an app." } },
+    { word: "hochladen", phonetic: "hokh-lah-den", meaning: "to upload", example: { de: "Ein Foto hochladen.", en: "Upload a photo." } },
+    { word: "die Webseite", phonetic: "vep-zy-tuh", meaning: "website", gender: "die", example: { de: "Eine Webseite besuchen.", en: "Visit a website." } },
+    { word: "die soziale Medien", phonetic: "zo-tsee-ah-luh-meh-dee-en", meaning: "social media", example: { de: "Soziale Medien nutzen.", en: "Use social media." } },
+    { word: "das Selfie", phonetic: "sel-fi", meaning: "selfie", gender: "das", example: { de: "Ein Selfie machen.", en: "Take a selfie." } },
+    { word: "streamen", phonetic: "stree-men", meaning: "to stream", example: { de: "Musik streamen.", en: "Stream music." } },
+    { word: "der Drucker", phonetic: "droo-ker", meaning: "printer", gender: "der", example: { de: "Dokument drucken.", en: "Print a document." } },
+    { word: "der USB-Stick", phonetic: "oo-es-bay-shtik", meaning: "USB stick / flash drive", gender: "der", example: { de: "Dateien auf dem USB-Stick.", en: "Files on the USB stick." } },
+    { word: "das Kabel", phonetic: "kah-bel", meaning: "cable / wire", gender: "das", example: { de: "Das Ladekabel.", en: "The charging cable." } },
+    { word: "der Akku", phonetic: "a-koo", meaning: "battery (rechargeable)", gender: "der", example: { de: "Akku leer.", en: "Battery empty." } },
+    { word: "der Bildschirm", phonetic: "bilt-shirm", meaning: "screen / display", gender: "der", example: { de: "Heller Bildschirm.", en: "Bright screen." } },
+    { word: "die Tastatur", phonetic: "tas-ta-toor", meaning: "keyboard", gender: "die", example: { de: "Auf der Tastatur tippen.", en: "Type on the keyboard." } },
+    { word: "die Maus (Computer)", phonetic: "mows", meaning: "mouse (computer)", gender: "die", example: { de: "Computermaus benutzen.", en: "Use a computer mouse." } },
+    { word: "das WLAN", phonetic: "vay-lan", meaning: "Wi-Fi", gender: "das", example: { de: "WLAN verbinden.", en: "Connect to Wi-Fi." } },
+    { word: "googeln", phonetic: "goo-geln", meaning: "to google / search online", example: { de: "Etwas googeln.", en: "Google something." } },
+  ]}] },
+};
