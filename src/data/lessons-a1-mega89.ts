@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega89: Record<string, Lesson> = {
+  "la1_m139": { id: "la1_m139", title: "Clothes & Shopping A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Hemd", phonetic: "hemt", meaning: "shirt", gender: "das", example: { de: "Ein weißes Hemd.", en: "A white shirt." } },
+    { word: "die Hose", phonetic: "hoh-zuh", meaning: "trousers / pants", gender: "die", example: { de: "Eine blaue Hose.", en: "Blue trousers." } },
+    { word: "das Kleid", phonetic: "klyte", meaning: "dress", gender: "das", example: { de: "Ein rotes Kleid.", en: "A red dress." } },
+    { word: "der Rock", phonetic: "rok", meaning: "skirt", gender: "der", example: { de: "Ein kurzer Rock.", en: "A short skirt." } },
+    { word: "die Jacke", phonetic: "ya-kuh", meaning: "jacket", gender: "die", example: { de: "Eine warme Jacke.", en: "A warm jacket." } },
+    { word: "der Mantel", phonetic: "man-tel", meaning: "coat", gender: "der", example: { de: "Ein langer Mantel.", en: "A long coat." } },
+    { word: "der Pullover", phonetic: "poo-lo-ver", meaning: "pullover / jumper", gender: "der", example: { de: "Ein dicker Pullover.", en: "A thick jumper." } },
+    { word: "das T-Shirt", phonetic: "tee-shirt", meaning: "T-shirt", gender: "das", example: { de: "Ein buntes T-Shirt.", en: "A colourful T-shirt." } },
+    { word: "die Schuhe", phonetic: "shoo-uh", meaning: "shoes", example: { de: "Neue Schuhe kaufen.", en: "Buy new shoes." } },
+    { word: "die Socken", phonetic: "zo-ken", meaning: "socks", example: { de: "Bunte Socken anziehen.", en: "Put on colourful socks." } },
+    { word: "der Hut", phonetic: "hoot", meaning: "hat", gender: "der", example: { de: "Einen Hut tragen.", en: "Wear a hat." } },
+    { word: "der Schal", phonetic: "shahl", meaning: "scarf", gender: "der", example: { de: "Einen Schal um den Hals.", en: "A scarf around the neck." } },
+    { word: "die Handschuhe", phonetic: "hant-shoo-uh", meaning: "gloves", example: { de: "Handschuhe anziehen.", en: "Put on gloves." } },
+    { word: "die Größe", phonetic: "grö-suh", meaning: "size", gender: "die", example: { de: "Welche Größe?", en: "What size?" } },
+    { word: "das Geschäft", phonetic: "ge-sheft", meaning: "shop / store", gender: "das", example: { de: "Im Geschäft einkaufen.", en: "Shop in the store." } },
+    { word: "der Preis", phonetic: "pryse", meaning: "price", gender: "der", example: { de: "Wie viel kostet das?", en: "How much does that cost?" } },
+    { word: "billig", phonetic: "bi-likh", meaning: "cheap", example: { de: "Sehr billig.", en: "Very cheap." } },
+    { word: "teuer", phonetic: "toy-er", meaning: "expensive", example: { de: "Zu teuer.", en: "Too expensive." } },
+    { word: "kaufen", phonetic: "kow-fen", meaning: "to buy", example: { de: "Kleidung kaufen.", en: "Buy clothes." } },
+    { word: "anprobieren", phonetic: "an-pro-bee-ren", meaning: "to try on", example: { de: "Kann ich das anprobieren?", en: "Can I try that on?" } },
+  ]}] },
+};

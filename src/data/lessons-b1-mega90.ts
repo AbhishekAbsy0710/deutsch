@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega90: Record<string, Lesson> = {
+  "lb1_m141": { id: "lb1_m141", title: "Health System & Medicine B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Gesundheitssystem", phonetic: "geh-zoont-hyts-zys-tem", meaning: "health system", gender: "das", example: { de: "Das öffentliche Gesundheitssystem.", en: "The public health system." } },
+    { word: "die Krankenversicherung", phonetic: "kran-ken-fer-zi-khe-rung", meaning: "health insurance", gender: "die", example: { de: "Gesetzliche Krankenversicherung.", en: "Statutory health insurance." } },
+    { word: "der Hausarzt", phonetic: "hows-artst", meaning: "GP / family doctor", gender: "der", example: { de: "Zum Hausarzt gehen.", en: "Go to the GP." } },
+    { word: "der Facharzt", phonetic: "fakh-artst", meaning: "specialist doctor", gender: "der", example: { de: "Einen Facharzt aufsuchen.", en: "See a specialist." } },
+    { word: "das Krankenhaus", phonetic: "kran-ken-hows", meaning: "hospital", gender: "das", example: { de: "Im Krankenhaus liegen.", en: "Be in hospital." } },
+    { word: "die Notaufnahme", phonetic: "noht-owf-nah-muh", meaning: "emergency room / A&E", gender: "die", example: { de: "In die Notaufnahme.", en: "Go to A&E." } },
+    { word: "das Rezept", phonetic: "re-tsept", meaning: "prescription", gender: "das", example: { de: "Rezept ausstellen.", en: "Issue a prescription." } },
+    { word: "das Medikament", phonetic: "me-di-ka-ment", meaning: "medication", gender: "das", example: { de: "Medikamente einnehmen.", en: "Take medication." } },
+    { word: "die Tablette", phonetic: "ta-ble-tuh", meaning: "tablet / pill", gender: "die", example: { de: "Tabletten schlucken.", en: "Swallow tablets." } },
+    { word: "die Allergie", phonetic: "a-ler-gee", meaning: "allergy", gender: "die", example: { de: "Eine Allergie haben.", en: "Have an allergy." } },
+    { word: "die Operation", phonetic: "oh-pe-ra-tsee-ohn", meaning: "operation / surgery", gender: "die", example: { de: "Eine Operation durchführen.", en: "Perform an operation." } },
+    { word: "die Diagnose", phonetic: "di-ag-noh-zuh", meaning: "diagnosis", gender: "die", example: { de: "Eine Diagnose stellen.", en: "Make a diagnosis." } },
+    { word: "die Symptome", phonetic: "züm-toh-muh", meaning: "symptoms", example: { de: "Symptome beschreiben.", en: "Describe symptoms." } },
+    { word: "das Blut", phonetic: "bloot", meaning: "blood", gender: "das", example: { de: "Blut abnehmen.", en: "Take blood." } },
+    { word: "der Blutdruck", phonetic: "bloot-drook", meaning: "blood pressure", gender: "der", example: { de: "Blutdruck messen.", en: "Measure blood pressure." } },
+    { word: "die Impfung", phonetic: "impf-ung", meaning: "vaccination", gender: "die", example: { de: "Impfung erhalten.", en: "Receive a vaccination." } },
+    { word: "gesund", phonetic: "geh-zoont", meaning: "healthy", example: { de: "Gesund leben.", en: "Live healthily." } },
+    { word: "krank", phonetic: "krank", meaning: "ill / sick", example: { de: "Ich bin krank.", en: "I am ill." } },
+    { word: "die Wunde", phonetic: "voon-duh", meaning: "wound", gender: "die", example: { de: "Eine Wunde verbinden.", en: "Dress a wound." } },
+    { word: "der Verband", phonetic: "fer-bant", meaning: "bandage / dressing", gender: "der", example: { de: "Einen Verband anlegen.", en: "Apply a bandage." } },
+  ]}] },
+};

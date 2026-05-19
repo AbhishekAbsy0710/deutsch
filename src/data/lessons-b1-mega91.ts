@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega91: Record<string, Lesson> = {
+  "lb1_m142": { id: "lb1_m142", title: "Law & Justice B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Gesetz", phonetic: "geh-zets", meaning: "law / statute", gender: "das", example: { de: "Ein Gesetz verabschieden.", en: "Pass a law." } },
+    { word: "das Recht", phonetic: "rekht", meaning: "law / right", gender: "das", example: { de: "Recht auf Bildung.", en: "Right to education." } },
+    { word: "die Gerechtigkeit", phonetic: "geh-rekh-tikh-kyte", meaning: "justice", gender: "die", example: { de: "Soziale Gerechtigkeit.", en: "Social justice." } },
+    { word: "das Gericht", phonetic: "geh-rikht", meaning: "court", gender: "das", example: { de: "Vor Gericht gehen.", en: "Go to court." } },
+    { word: "der Richter", phonetic: "rikh-ter", meaning: "judge", gender: "der", example: { de: "Der Richter urteilt.", en: "The judge rules." } },
+    { word: "der Anwalt", phonetic: "an-valt", meaning: "lawyer / solicitor", gender: "der", example: { de: "Einen Anwalt beauftragen.", en: "Hire a lawyer." } },
+    { word: "die Klage", phonetic: "klah-guh", meaning: "lawsuit / complaint", gender: "die", example: { de: "Eine Klage einreichen.", en: "File a lawsuit." } },
+    { word: "der Angeklagte", phonetic: "an-ge-klahg-tuh", meaning: "defendant / accused", gender: "der", example: { de: "Der Angeklagte schweigt.", en: "The defendant is silent." } },
+    { word: "das Urteil", phonetic: "oor-tyle", meaning: "verdict / judgement", gender: "das", example: { de: "Das Urteil sprechen.", en: "Deliver the verdict." } },
+    { word: "die Strafe", phonetic: "shtrah-fuh", meaning: "punishment / fine", gender: "die", example: { de: "Eine Strafe erhalten.", en: "Receive a punishment." } },
+    { word: "unschuldig", phonetic: "oon-shool-dikh", meaning: "innocent", example: { de: "Unschuldig sein.", en: "Be innocent." } },
+    { word: "schuldig", phonetic: "shool-dikh", meaning: "guilty", example: { de: "Schuldig gesprochen.", en: "Found guilty." } },
+    { word: "verhaften", phonetic: "fer-haf-ten", meaning: "to arrest", example: { de: "Jemanden verhaften.", en: "Arrest someone." } },
+    { word: "die Polizei", phonetic: "po-li-tsye", meaning: "police", gender: "die", example: { de: "Die Polizei rufen.", en: "Call the police." } },
+    { word: "der Zeuge", phonetic: "tsoy-guh", meaning: "witness", gender: "der", example: { de: "Ein Zeuge aussagen.", en: "A witness testifies." } },
+    { word: "der Beweis", phonetic: "beh-vyse", meaning: "evidence / proof", gender: "der", example: { de: "Beweise vorlegen.", en: "Present evidence." } },
+    { word: "die Verfassung", phonetic: "fer-fa-sung", meaning: "constitution", gender: "die", example: { de: "Das Grundgesetz.", en: "The Basic Law (constitution)." } },
+    { word: "der Paragraph", phonetic: "pa-ra-grahf", meaning: "paragraph / article (law)", gender: "der", example: { de: "Gemäß Paragraph 1.", en: "According to Article 1." } },
+    { word: "klagen", phonetic: "klah-gen", meaning: "to sue / file a complaint", example: { de: "Jemanden verklagen.", en: "Sue someone." } },
+    { word: "berufung einlegen", phonetic: "beh-roo-fung-ayn-lay-gen", meaning: "to appeal (a verdict)", example: { de: "Berufung einlegen.", en: "Lodge an appeal." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega89: Record<string, Lesson> = {
+  "lc1_m135": { id: "lc1_m135", title: "Advanced Epistemology C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Erkenntnistheorie", phonetic: "er-kent-nis-tay-oh-ree", meaning: "epistemology", gender: "die", example: { de: "Analytische Erkenntnistheorie.", en: "Analytic epistemology." } },
+    { word: "das Wissen", phonetic: "vi-sen", meaning: "knowledge", gender: "das", example: { de: "Propositionales Wissen.", en: "Propositional knowledge." } },
+    { word: "die Rechtfertigung", phonetic: "rekht-fer-ti-gung", meaning: "justification (epistemic)", gender: "die", example: { de: "Epistemische Rechtfertigung.", en: "Epistemic justification." } },
+    { word: "die Wahrheit", phonetic: "vahr-hyte", meaning: "truth", gender: "die", example: { de: "Korrespondenztheorie der Wahrheit.", en: "Correspondence theory of truth." } },
+    { word: "der Gettier-Fall", phonetic: "ge-tier-fal", meaning: "Gettier case", gender: "der", example: { de: "JTB-Gettier-Fall.", en: "JTB Gettier case." } },
+    { word: "der Internalismus (Epistemologie)", phonetic: "in-ter-na-lis-mus", meaning: "internalism (epistemology)", gender: "der", example: { de: "Epistemischer Internalismus.", en: "Epistemic internalism." } },
+    { word: "der Externalismus (Epistemologie)", phonetic: "eks-ter-na-lis-mus", meaning: "externalism (epistemology)", gender: "der", example: { de: "Goldman-Externalismus.", en: "Goldman externalism." } },
+    { word: "der Reliabilismus", phonetic: "re-li-a-bi-lis-mus", meaning: "reliabilism", gender: "der", example: { de: "Prozessreliabilismus.", en: "Process reliabilism." } },
+    { word: "der Foundationalismus", phonetic: "fown-da-tsee-oh-na-lis-mus", meaning: "foundationalism", gender: "der", example: { de: "Klassischer Foundationalismus.", en: "Classical foundationalism." } },
+    { word: "der Kohärentismus", phonetic: "ko-hay-ren-tis-mus", meaning: "coherentism", gender: "der", example: { de: "Holistische Kohärentismus.", en: "Holistic coherentism." } },
+    { word: "der epistemische Skeptizismus", phonetic: "e-pis-tay-mi-shuh skep-ti-tsis-mus", meaning: "epistemic scepticism", gender: "der", example: { de: "Globaler epistemischer Skeptizismus.", en: "Global epistemic scepticism." } },
+    { word: "das Kontextualismusargument", phonetic: "kon-teks-too-a-lis-mus-ar-goo-ment", meaning: "contextualism argument", gender: "das", example: { de: "DeRose-Kontextualismusargument.", en: "DeRose contextualism argument." } },
+    { word: "der epistemische Zugang", phonetic: "e-pis-tay-mi-shuh tsoo-gang", meaning: "epistemic access", gender: "der", example: { de: "Direkter epistemischer Zugang.", en: "Direct epistemic access." } },
+    { word: "die epistemische Tugend", phonetic: "e-pis-tay-mi-shuh too-gent", meaning: "epistemic virtue", gender: "die", example: { de: "Epistemische Bescheidenheit.", en: "Epistemic humility." } },
+    { word: "die Tugenderkenntnistheorie", phonetic: "too-gent-er-kent-nis-tay-oh-ree", meaning: "virtue epistemology", gender: "die", example: { de: "Zagzebski-Tugenderkenntnistheorie.", en: "Zagzebski virtue epistemology." } },
+    { word: "das A-priori-Wissen", phonetic: "ah-pree-oh-ri-vi-sen", meaning: "a priori knowledge", gender: "das", example: { de: "Mathematisches A-priori-Wissen.", en: "Mathematical a priori knowledge." } },
+    { word: "das A-posteriori-Wissen", phonetic: "ah-pos-te-ri-oh-ri-vi-sen", meaning: "a posteriori knowledge", gender: "das", example: { de: "Empirisches A-posteriori-Wissen.", en: "Empirical a posteriori knowledge." } },
+    { word: "der naturalistische Erkenntnisbegriff", phonetic: "na-toor-a-lis-ti-shuh er-kent-nis-beh-grif", meaning: "naturalistic conception of knowledge", gender: "der", example: { de: "Quine-naturalistische Erkenntnistheorie.", en: "Quine naturalistic epistemology." } },
+    { word: "die soziale Erkenntnistheorie", phonetic: "zo-tsee-ah-luh er-kent-nis-tay-oh-ree", meaning: "social epistemology", gender: "die", example: { de: "Goldman-soziale Erkenntnistheorie.", en: "Goldman social epistemology." } },
+    { word: "das epistemische Unrecht", phonetic: "e-pis-tay-mi-shuh oon-rekht", meaning: "epistemic injustice (Fricker)", gender: "das", example: { de: "Frickers epistemisches Unrecht.", en: "Fricker's epistemic injustice." } },
+  ]}] },
+};

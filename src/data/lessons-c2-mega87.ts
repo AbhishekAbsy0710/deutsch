@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega87: Record<string, Lesson> = {
+  "lc2_m130": { id: "lc2_m130", title: "Advanced Analytic Number Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die analytische Zahlentheorie", phonetic: "a-na-lü-ti-shuh tsah-len-tay-oh-ree", meaning: "analytic number theory", gender: "die", example: { de: "Klassische analytische Zahlentheorie.", en: "Classical analytic number theory." } },
+    { word: "die Riemannsche Zetafunktion", phonetic: "ree-man-shuh tse-ta-foonk-tsee-ohn", meaning: "Riemann zeta function", gender: "die", example: { de: "Nullstellen der Riemannschen Zetafunktion.", en: "Zeros of the Riemann zeta function." } },
+    { word: "die Riemannsche Vermutung", phonetic: "ree-man-shuh fer-moo-tung", meaning: "Riemann hypothesis", gender: "die", example: { de: "Ungelöste Riemannsche Vermutung.", en: "Unsolved Riemann hypothesis." } },
+    { word: "der Primzahlsatz", phonetic: "preem-tsahl-zats", meaning: "prime number theorem", gender: "der", example: { de: "Asymptotischer Primzahlsatz.", en: "Asymptotic prime number theorem." } },
+    { word: "die Primzahldichte", phonetic: "preem-tsahl-dikh-tuh", meaning: "prime density / prime counting function", gender: "die", example: { de: "π(x)-Primzahldichte.", en: "π(x) prime counting function." } },
+    { word: "der Satz von Dirichlet", phonetic: "zats-fon-di-ri-kley", meaning: "Dirichlet's theorem on primes", gender: "der", example: { de: "Primzahlen in arithmetischen Folgen Satz von Dirichlet.", en: "Primes in arithmetic progressions Dirichlet's theorem." } },
+    { word: "die Dirichlet-Reihe", phonetic: "di-ri-kley-ry-uh", meaning: "Dirichlet series", gender: "die", example: { de: "Konvergenzabszisse Dirichlet-Reihe.", en: "Abscissa of convergence Dirichlet series." } },
+    { word: "der L-Funktion", phonetic: "el-foonk-tsee-ohn", meaning: "L-function", gender: "die", example: { de: "Automorphe L-Funktion.", en: "Automorphic L-function." } },
+    { word: "die Euler-Produkt-Formel", phonetic: "oy-ler-pro-dookt-for-mel", meaning: "Euler product formula", gender: "die", example: { de: "Euler-Produkt-Formel für ζ(s).", en: "Euler product formula for ζ(s)." } },
+    { word: "der Tschebyscheff-Satz", phonetic: "tshe-bü-shef-zats", meaning: "Chebyshev's theorem", gender: "der", example: { de: "Tschebyscheff-Primzahlabschätzung.", en: "Chebyshev prime estimate." } },
+    { word: "die Siebmethode (Zahlentheorie)", phonetic: "zeep-me-toh-duh", meaning: "sieve method", gender: "die", example: { de: "Selberg-Siebmethode.", en: "Selberg sieve method." } },
+    { word: "das Sieb des Eratosthenes", phonetic: "zeep-des-e-ra-tos-te-nes", meaning: "Sieve of Eratosthenes", gender: "das", example: { de: "Algorithmisches Sieb des Eratosthenes.", en: "Algorithmic Sieve of Eratosthenes." } },
+    { word: "die Goldbachsche Vermutung", phonetic: "golt-bakh-shuh fer-moo-tung", meaning: "Goldbach's conjecture", gender: "die", example: { de: "Offene Goldbachsche Vermutung.", en: "Open Goldbach's conjecture." } },
+    { word: "das Primzahlzwillingsproblem", phonetic: "preem-tsahl-tsvil-lings-pro-blaym", meaning: "twin prime conjecture", gender: "das", example: { de: "Ungelöstes Primzahlzwillingsproblem.", en: "Unsolved twin prime conjecture." } },
+    { word: "der Satz von Hardy-Littlewood", phonetic: "zats-fon-har-di-li-tel-voot", meaning: "Hardy-Littlewood conjecture", gender: "der", example: { de: "Hardy-Littlewood-Kreismethode.", en: "Hardy-Littlewood circle method." } },
+    { word: "die exponentielle Summe", phonetic: "eks-po-nen-tsee-e-luh zoo-muh", meaning: "exponential sum", gender: "die", example: { de: "Weyl-exponentielle Summe.", en: "Weyl exponential sum." } },
+    { word: "die Stirlingapproximation", phonetic: "shter-ling-a-pro-ksi-ma-tsee-ohn", meaning: "Stirling's approximation", gender: "die", example: { de: "Asymptotische Stirlingapproximation.", en: "Asymptotic Stirling's approximation." } },
+    { word: "der Satz von Vinogradov", phonetic: "zats-fon-vi-no-gra-dof", meaning: "Vinogradov's theorem", gender: "der", example: { de: "Ternäre Goldbachvermutung Vinogradov.", en: "Ternary Goldbach Vinogradov's theorem." } },
+    { word: "das große Sieb (Bombieri)", phonetic: "groh-suh zeep", meaning: "large sieve (Bombieri)", gender: "das", example: { de: "Bombieri-Vinogradov großes Sieb.", en: "Bombieri-Vinogradov large sieve." } },
+    { word: "die Funktionalgleichung (Zeta)", phonetic: "foonk-tsee-oh-nahl-gly-khung", meaning: "functional equation (zeta)", gender: "die", example: { de: "Symmetrische Funktionalgleichung ζ(s).", en: "Symmetric functional equation ζ(s)." } },
+  ]}] },
+};

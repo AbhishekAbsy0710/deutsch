@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega88: Record<string, Lesson> = {
+  "lc1_m134": { id: "lc1_m134", title: "Advanced Cultural Studies C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Kulturwissenschaft", phonetic: "kool-toor-vi-sen-shaft", meaning: "cultural studies", gender: "die", example: { de: "Interdisziplinäre Kulturwissenschaft.", en: "Interdisciplinary cultural studies." } },
+    { word: "die Kulturtheorie", phonetic: "kool-toor-tay-oh-ree", meaning: "cultural theory", gender: "die", example: { de: "Poststrukturalistische Kulturtheorie.", en: "Post-structuralist cultural theory." } },
+    { word: "die Hybridität", phonetic: "hü-bri-di-tayt", meaning: "hybridity (cultural)", gender: "die", example: { de: "Bhabhas kulturelle Hybridität.", en: "Bhabha's cultural hybridity." } },
+    { word: "der dritte Raum (Bhabha)", phonetic: "dri-tuh-rowm", meaning: "third space (Bhabha)", gender: "der", example: { de: "Interkultureller dritter Raum.", en: "Intercultural third space." } },
+    { word: "die Kulturhegemonie", phonetic: "kool-toor-he-ge-mo-nee", meaning: "cultural hegemony (Gramsci)", gender: "die", example: { de: "Gramscis Kulturhegemonie.", en: "Gramsci's cultural hegemony." } },
+    { word: "das kulturelle Kapital (Bourdieu)", phonetic: "kool-too-re-luh ka-pi-tahl", meaning: "cultural capital (Bourdieu)", gender: "das", example: { de: "Bourdieus kulturelles Kapital.", en: "Bourdieu's cultural capital." } },
+    { word: "das Habitus (Bourdieu)", phonetic: "ha-bi-toos", meaning: "habitus (Bourdieu)", gender: "der", example: { de: "Bourdieus Habitus.", en: "Bourdieu's habitus." } },
+    { word: "das kulturelle Gedächtnis", phonetic: "kool-too-re-luh geh-dekht-nis", meaning: "cultural memory", gender: "das", example: { de: "Assmanns kulturelles Gedächtnis.", en: "Assmann's cultural memory." } },
+    { word: "die Erinnerungskultur", phonetic: "er-in-ne-rungs-kool-toor", meaning: "culture of remembrance", gender: "die", example: { de: "Nationale Erinnerungskultur.", en: "National culture of remembrance." } },
+    { word: "die Postkolonialismus", phonetic: "pohst-ko-lo-ni-a-lis-mus", meaning: "postcolonialism", gender: "der", example: { de: "Said-Postkolonialismus.", en: "Said postcolonialism." } },
+    { word: "der Orientalismus (Said)", phonetic: "oh-ri-en-ta-lis-mus", meaning: "Orientalism (Said)", gender: "der", example: { de: "Saids Orientalismus.", en: "Said's Orientalism." } },
+    { word: "die Subalterne (Spivak)", phonetic: "zoo-bal-ter-nuh", meaning: "subaltern (Spivak)", gender: "die", example: { de: "Spivaks Subalterne.", en: "Spivak's subaltern." } },
+    { word: "die kulturelle Identität", phonetic: "kool-too-re-luh i-den-ti-tayt", meaning: "cultural identity", gender: "die", example: { de: "Fluid kulturelle Identität.", en: "Fluid cultural identity." } },
+    { word: "die Interkulturalität", phonetic: "in-ter-kool-toor-a-li-tayt", meaning: "interculturality", gender: "die", example: { de: "Interkulturelle Kompetenz.", en: "Intercultural competence." } },
+    { word: "die Transkulturalität (Welsch)", phonetic: "trans-kool-toor-a-li-tayt", meaning: "transculturality (Welsch)", gender: "die", example: { de: "Welschs Transkulturalität.", en: "Welsch's transculturality." } },
+    { word: "der Kulturtransfer", phonetic: "kool-toor-trans-fer", meaning: "cultural transfer", gender: "der", example: { de: "Historischer Kulturtransfer.", en: "Historical cultural transfer." } },
+    { word: "die Performativität", phonetic: "per-for-ma-ti-vi-tayt", meaning: "performativity (Butler)", gender: "die", example: { de: "Butlers Performativität.", en: "Butler's performativity." } },
+    { word: "der kulturelle Relativismus", phonetic: "kool-too-re-ler re-la-ti-vis-mus", meaning: "cultural relativism", gender: "der", example: { de: "Ethnologischer kultureller Relativismus.", en: "Ethnological cultural relativism." } },
+    { word: "die Zivilisationstheorie", phonetic: "tsi-vi-li-za-tsee-ohns-tay-oh-ree", meaning: "civilisation theory (Elias)", gender: "die", example: { de: "Elias' Zivilisationstheorie.", en: "Elias' civilisation theory." } },
+    { word: "die transkulturelle Kompetenz", phonetic: "trans-kool-too-re-luh kom-pe-tents", meaning: "transcultural competence", gender: "die", example: { de: "Transkulturelle Kompetenz aufbauen.", en: "Build transcultural competence." } },
+  ]}] },
+};

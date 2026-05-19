@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega88: Record<string, Lesson> = {
+  "la2_m133": { id: "la2_m133", title: "Education & School A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Schule", phonetic: "shoo-luh", meaning: "school", gender: "die", example: { de: "In die Schule gehen.", en: "Go to school." } },
+    { word: "die Klasse", phonetic: "kla-suh", meaning: "class / classroom", gender: "die", example: { de: "In der Klasse sitzen.", en: "Sit in the classroom." } },
+    { word: "das Fach", phonetic: "fakh", meaning: "subject (school)", gender: "das", example: { de: "Lieblungsfach Mathematik.", en: "Favourite subject maths." } },
+    { word: "die Note", phonetic: "noh-tuh", meaning: "grade / mark", gender: "die", example: { de: "Eine gute Note bekommen.", en: "Get a good grade." } },
+    { word: "die Prüfung", phonetic: "prü-fung", meaning: "exam / test", gender: "die", example: { de: "Prüfung bestehen.", en: "Pass an exam." } },
+    { word: "die Hausaufgaben", phonetic: "hows-owf-gah-ben", meaning: "homework", example: { de: "Hausaufgaben machen.", en: "Do homework." } },
+    { word: "lernen", phonetic: "ler-nen", meaning: "to learn / study", example: { de: "Vokabeln lernen.", en: "Learn vocabulary." } },
+    { word: "unterrichten", phonetic: "oon-ter-rikh-ten", meaning: "to teach", example: { de: "Englisch unterrichten.", en: "Teach English." } },
+    { word: "der Schüler", phonetic: "shü-ler", meaning: "pupil / student (school)", gender: "der", example: { de: "Guter Schüler.", en: "Good pupil." } },
+    { word: "der Lehrer", phonetic: "lay-rer", meaning: "teacher", gender: "der", example: { de: "Strenger Lehrer.", en: "Strict teacher." } },
+    { word: "das Zeugnis", phonetic: "tsoyg-nis", meaning: "school report / certificate", gender: "das", example: { de: "Gutes Zeugnis.", en: "Good report." } },
+    { word: "die Pause", phonetic: "pow-zuh", meaning: "break / recess", gender: "die", example: { de: "In der Pause spielen.", en: "Play in the break." } },
+    { word: "die Bibliothek", phonetic: "bi-bli-oh-tayk", meaning: "library", gender: "die", example: { de: "In der Bibliothek lesen.", en: "Read in the library." } },
+    { word: "der Stundenplan", phonetic: "shtoon-den-plahn", meaning: "timetable", gender: "der", example: { de: "Den Stundenplan anschauen.", en: "Look at the timetable." } },
+    { word: "die Ferien", phonetic: "feh-ri-en", meaning: "school holidays", example: { de: "In den Ferien reisen.", en: "Travel during the holidays." } },
+    { word: "das Abitur", phonetic: "a-bi-toor", meaning: "Abitur (German school leaving exam)", gender: "das", example: { de: "Das Abitur machen.", en: "Do the Abitur." } },
+    { word: "das Gymnasium", phonetic: "gim-nah-zee-um", meaning: "Gymnasium (secondary school)", gender: "das", example: { de: "Auf dem Gymnasium.", en: "At the Gymnasium." } },
+    { word: "die Grundschule", phonetic: "groont-shoo-luh", meaning: "primary school", gender: "die", example: { de: "In der Grundschule.", en: "At primary school." } },
+    { word: "erklären", phonetic: "er-kley-ren", meaning: "to explain", example: { de: "Etwas erklären.", en: "Explain something." } },
+    { word: "wiederholen", phonetic: "vee-der-hoh-len", meaning: "to revise / repeat", example: { de: "Vokabeln wiederholen.", en: "Revise vocabulary." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega88: Record<string, Lesson> = {
+  "lb2_m133": { id: "lb2_m133", title: "Acoustics & Waves B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Akustik", phonetic: "a-koos-tik", meaning: "acoustics", gender: "die", example: { de: "Raumakustik.", en: "Room acoustics." } },
+    { word: "die Schallwelle", phonetic: "shal-ve-luh", meaning: "sound wave", gender: "die", example: { de: "Longitudinale Schallwelle.", en: "Longitudinal sound wave." } },
+    { word: "die Frequenz (Schall)", phonetic: "fre-kvents", meaning: "frequency (sound)", gender: "die", example: { de: "Hörbare Frequenz.", en: "Audible frequency." } },
+    { word: "die Amplitude", phonetic: "am-pli-too-duh", meaning: "amplitude", gender: "die", example: { de: "Schwingungsamplitude.", en: "Oscillation amplitude." } },
+    { word: "die Wellenlänge (Schall)", phonetic: "ve-len-len-guh", meaning: "wavelength (sound)", gender: "die", example: { de: "Akustische Wellenlänge.", en: "Acoustic wavelength." } },
+    { word: "die Schallgeschwindigkeit", phonetic: "shal-ge-shvin-dikh-kyte", meaning: "speed of sound", gender: "die", example: { de: "In Luft Schallgeschwindigkeit.", en: "Speed of sound in air." } },
+    { word: "das Dezibel", phonetic: "de-tsi-bel", meaning: "decibel (dB)", gender: "das", example: { de: "Lautstärke in Dezibel.", en: "Volume in decibels." } },
+    { word: "der Schallpegel", phonetic: "shal-pay-gel", meaning: "sound pressure level", gender: "der", example: { de: "Äquivalenter Schallpegel.", en: "Equivalent sound pressure level." } },
+    { word: "die Resonanz", phonetic: "re-zo-nants", meaning: "resonance", gender: "die", example: { de: "Mechanische Resonanz.", en: "Mechanical resonance." } },
+    { word: "die Eigenfrequenz", phonetic: "ay-gen-fre-kvents", meaning: "natural frequency / eigenfrequency", gender: "die", example: { de: "Strukturelle Eigenfrequenz.", en: "Structural natural frequency." } },
+    { word: "der Doppler-Effekt", phonetic: "dop-ler-e-fekt", meaning: "Doppler effect", gender: "der", example: { de: "Akustischer Doppler-Effekt.", en: "Acoustic Doppler effect." } },
+    { word: "die Überschallgeschwindigkeit", phonetic: "ü-ber-shal-ge-shvin-dikh-kyte", meaning: "supersonic speed", gender: "die", example: { de: "Überschallgeschwindigkeit überschreiten.", en: "Exceed supersonic speed." } },
+    { word: "der Mach-Kegel", phonetic: "makh-kay-gel", meaning: "Mach cone", gender: "der", example: { de: "Überschall-Mach-Kegel.", en: "Supersonic Mach cone." } },
+    { word: "die stehende Welle", phonetic: "shtay-en-duh ve-luh", meaning: "standing wave", gender: "die", example: { de: "Akustische stehende Welle.", en: "Acoustic standing wave." } },
+    { word: "der Knoten (Welle)", phonetic: "knoh-ten", meaning: "node (wave)", gender: "der", example: { de: "Schwingungsknoten.", en: "Vibration node." } },
+    { word: "der Bauch (Welle)", phonetic: "bowkh", meaning: "antinode (wave)", gender: "der", example: { de: "Schwingungsbauch.", en: "Vibration antinode." } },
+    { word: "die Schallabsorption", phonetic: "shal-ab-zorp-tsee-ohn", meaning: "sound absorption", gender: "die", example: { de: "Poröse Schallabsorption.", en: "Porous sound absorption." } },
+    { word: "die Schalldämmung", phonetic: "shal-dem-mung", meaning: "sound insulation", gender: "die", example: { de: "Bauliche Schalldämmung.", en: "Structural sound insulation." } },
+    { word: "das Ultraschall", phonetic: "ool-tra-shal", meaning: "ultrasound", gender: "der", example: { de: "Medizinischer Ultraschall.", en: "Medical ultrasound." } },
+    { word: "die Fourier-Analyse", phonetic: "foo-ri-ay-a-na-lü-zuh", meaning: "Fourier analysis", gender: "die", example: { de: "Spektrale Fourier-Analyse.", en: "Spectral Fourier analysis." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega90: Record<string, Lesson> = {
+  "la1_m140": { id: "la1_m140", title: "Common Verbs A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "sein", phonetic: "zayn", meaning: "to be", example: { de: "Ich bin müde.", en: "I am tired." } },
+    { word: "haben", phonetic: "hah-ben", meaning: "to have", example: { de: "Ich habe ein Buch.", en: "I have a book." } },
+    { word: "machen", phonetic: "ma-khen", meaning: "to make / do", example: { de: "Hausaufgaben machen.", en: "Do homework." } },
+    { word: "gehen", phonetic: "gay-en", meaning: "to go", example: { de: "In die Schule gehen.", en: "Go to school." } },
+    { word: "kommen", phonetic: "ko-men", meaning: "to come", example: { de: "Aus Deutschland kommen.", en: "Come from Germany." } },
+    { word: "sagen", phonetic: "zah-gen", meaning: "to say", example: { de: "Etwas sagen.", en: "Say something." } },
+    { word: "sehen", phonetic: "zay-en", meaning: "to see", example: { de: "Ich sehe den Hund.", en: "I see the dog." } },
+    { word: "wissen", phonetic: "vi-sen", meaning: "to know (a fact)", example: { de: "Ich weiß das.", en: "I know that." } },
+    { word: "denken", phonetic: "den-ken", meaning: "to think", example: { de: "Ich denke, ja.", en: "I think so." } },
+    { word: "sprechen", phonetic: "shpre-khen", meaning: "to speak", example: { de: "Deutsch sprechen.", en: "Speak German." } },
+    { word: "wohnen", phonetic: "voh-nen", meaning: "to live / reside", example: { de: "In Berlin wohnen.", en: "Live in Berlin." } },
+    { word: "arbeiten", phonetic: "ar-by-ten", meaning: "to work", example: { de: "Viel arbeiten.", en: "Work a lot." } },
+    { word: "helfen", phonetic: "hel-fen", meaning: "to help", example: { de: "Jemandem helfen.", en: "Help someone." } },
+    { word: "brauchen", phonetic: "brow-khen", meaning: "to need", example: { de: "Hilfe brauchen.", en: "Need help." } },
+    { word: "fragen", phonetic: "frah-gen", meaning: "to ask", example: { de: "Eine Frage stellen.", en: "Ask a question." } },
+    { word: "antworten", phonetic: "ant-vor-ten", meaning: "to answer", example: { de: "Auf eine Frage antworten.", en: "Answer a question." } },
+    { word: "schreiben", phonetic: "shry-ben", meaning: "to write", example: { de: "Einen Brief schreiben.", en: "Write a letter." } },
+    { word: "hören", phonetic: "hö-ren", meaning: "to hear / listen", example: { de: "Musik hören.", en: "Listen to music." } },
+    { word: "verstehen", phonetic: "fer-shtay-en", meaning: "to understand", example: { de: "Ich verstehe nicht.", en: "I do not understand." } },
+    { word: "mögen", phonetic: "mö-gen", meaning: "to like", example: { de: "Ich mag Schokolade.", en: "I like chocolate." } },
+  ]}] },
+};

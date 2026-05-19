@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega89: Record<string, Lesson> = {
+  "lb2_m134": { id: "lb2_m134", title: "Astrophysics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Astrophysik", phonetic: "as-tro-fü-zik", meaning: "astrophysics", gender: "die", example: { de: "Beobachtende Astrophysik.", en: "Observational astrophysics." } },
+    { word: "der Stern", phonetic: "shtern", meaning: "star", gender: "der", example: { de: "Massereicher Stern.", en: "Massive star." } },
+    { word: "die Sternentwicklung", phonetic: "shtern-ent-vik-lung", meaning: "stellar evolution", gender: "die", example: { de: "Sternentwicklung Hertzsprung-Russell.", en: "Stellar evolution Hertzsprung-Russell." } },
+    { word: "der Hauptreihenstern", phonetic: "howpt-ry-en-shtern", meaning: "main sequence star", gender: "der", example: { de: "Sonnenähnlicher Hauptreihenstern.", en: "Sun-like main sequence star." } },
+    { word: "der Rote Riese", phonetic: "roh-tuh-ree-zuh", meaning: "red giant", gender: "der", example: { de: "Entwickelter Roter Riese.", en: "Evolved red giant." } },
+    { word: "der Weiße Zwerg", phonetic: "vy-suh-tsverk", meaning: "white dwarf", gender: "der", example: { de: "Entarteter Weißer Zwerg.", en: "Degenerate white dwarf." } },
+    { word: "der Neutronenstern", phonetic: "noy-tro-nen-shtern", meaning: "neutron star", gender: "der", example: { de: "Rotierender Neutronenstern.", en: "Rotating neutron star." } },
+    { word: "der Pulsar", phonetic: "pool-zar", meaning: "pulsar", gender: "der", example: { de: "Millisekunden-Pulsar.", en: "Millisecond pulsar." } },
+    { word: "die Supernova", phonetic: "zoo-per-noh-va", meaning: "supernova", gender: "die", example: { de: "Typ-Ia-Supernova.", en: "Type Ia supernova." } },
+    { word: "die Galaxie", phonetic: "ga-lak-see", meaning: "galaxy", gender: "die", example: { de: "Spiralgalaxie.", en: "Spiral galaxy." } },
+    { word: "die Milchstraße", phonetic: "milkh-shtrah-suh", meaning: "Milky Way", gender: "die", example: { de: "Die Milchstraße Galaxie.", en: "The Milky Way galaxy." } },
+    { word: "das Quasar", phonetic: "kvah-zar", meaning: "quasar", gender: "der", example: { de: "Hochrotverschobenes Quasar.", en: "High-redshift quasar." } },
+    { word: "die kosmologische Rotverschiebung", phonetic: "kos-mo-lo-gi-shuh roht-fer-shee-bung", meaning: "cosmological redshift", gender: "die", example: { de: "Hubble-kosmologische Rotverschiebung.", en: "Hubble cosmological redshift." } },
+    { word: "das Hubble-Gesetz", phonetic: "hu-bel-geh-zets", meaning: "Hubble's law", gender: "das", example: { de: "Expansionsrate Hubble-Gesetz.", en: "Expansion rate Hubble's law." } },
+    { word: "die kosmische Hintergrundstrahlung", phonetic: "kos-mi-shuh hin-ter-groont-shtrah-lung", meaning: "cosmic microwave background (CMB)", gender: "die", example: { de: "COBE-kosmische Hintergrundstrahlung.", en: "COBE cosmic microwave background." } },
+    { word: "die dunkle Energie", phonetic: "doon-kluh e-ner-gee", meaning: "dark energy", gender: "die", example: { de: "Beschleunigte Expansion dunkle Energie.", en: "Accelerated expansion dark energy." } },
+    { word: "das Standardmodell (Kosmologie)", phonetic: "shtan-dart-mo-del", meaning: "standard model (cosmology)", gender: "das", example: { de: "ΛCDM-Standardmodell.", en: "ΛCDM standard model." } },
+    { word: "die Gravitationslinse (Astro)", phonetic: "gra-vi-ta-tsee-ohns-lin-zuh", meaning: "gravitational lensing (astro)", gender: "die", example: { de: "Starke Gravitationslinse.", en: "Strong gravitational lensing." } },
+    { word: "das Exoplanet", phonetic: "ek-zo-pla-net", meaning: "exoplanet", gender: "der", example: { de: "Habitabler Exoplanet.", en: "Habitable exoplanet." } },
+    { word: "die Astrobiologie", phonetic: "as-tro-bi-oh-lo-gee", meaning: "astrobiology", gender: "die", example: { de: "Astrobiologie und Leben.", en: "Astrobiology and life." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega86: Record<string, Lesson> = {
+  "lc2_m129": { id: "lc2_m129", title: "Advanced Ergodic Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Ergodentheorie", phonetic: "er-go-den-tay-oh-ree", meaning: "ergodic theory", gender: "die", example: { de: "Maßtheoretische Ergodentheorie.", en: "Measure-theoretic ergodic theory." } },
+    { word: "das Maßerhaltungssystem", phonetic: "mahs-er-hal-tungs-zys-tem", meaning: "measure-preserving system", gender: "das", example: { de: "Invertibles Maßerhaltungssystem.", en: "Invertible measure-preserving system." } },
+    { word: "ergodisch", phonetic: "er-goh-dish", meaning: "ergodic", example: { de: "Ergodische Transformation.", en: "Ergodic transformation." } },
+    { word: "der ergodische Satz von Birkhoff", phonetic: "er-goh-di-shuh-zats-fon-birk-hof", meaning: "Birkhoff ergodic theorem", gender: "der", example: { de: "Punktweiser ergodischer Satz von Birkhoff.", en: "Pointwise Birkhoff ergodic theorem." } },
+    { word: "der ergodische Satz von von Neumann", phonetic: "er-goh-di-shuh-zats-fon-fon-noy-man", meaning: "von Neumann ergodic theorem", gender: "der", example: { de: "L²-von-Neumann-ergodischer Satz.", en: "L² von Neumann ergodic theorem." } },
+    { word: "der Mischungseigenschaft", phonetic: "mi-shungs-ay-gen-shaft", meaning: "mixing property", gender: "die", example: { de: "Starke Mischungseigenschaft.", en: "Strong mixing property." } },
+    { word: "die schwache Mischung", phonetic: "shva-khuh mi-shung", meaning: "weak mixing", gender: "die", example: { de: "Spektrale schwache Mischung.", en: "Spectral weak mixing." } },
+    { word: "die Entropie (Ergodentheorie)", phonetic: "en-tro-pee", meaning: "entropy (ergodic theory)", gender: "die", example: { de: "Kolmogorov-Sinai-Entropie.", en: "Kolmogorov-Sinai entropy." } },
+    { word: "der Satz von Ornstein", phonetic: "zats-fon-orn-shtayn", meaning: "Ornstein's theorem", gender: "der", example: { de: "Isomorphismus-Satz von Ornstein.", en: "Ornstein isomorphism theorem." } },
+    { word: "der Bernoulli-Shift", phonetic: "ber-noo-li-shift", meaning: "Bernoulli shift", gender: "der", example: { de: "Einseitiger Bernoulli-Shift.", en: "One-sided Bernoulli shift." } },
+    { word: "die topologische Dynamik", phonetic: "to-po-lo-gi-shuh dü-na-mik", meaning: "topological dynamics", gender: "die", example: { de: "Minimale topologische Dynamik.", en: "Minimal topological dynamics." } },
+    { word: "das Furstenberg-Korrespondenzprinzip", phonetic: "furs-ten-berg-ko-re-spon-dents-prin-tsip", meaning: "Furstenberg correspondence principle", gender: "das", example: { de: "Furstenberg-Korrespondenzprinzip.", en: "Furstenberg correspondence principle." } },
+    { word: "der Satz von Furstenberg-Katznelson", phonetic: "zats-fon-furs-ten-berg-kats-nel-son", meaning: "Furstenberg-Katznelson theorem", gender: "der", example: { de: "Mehrfacher Furstenberg-Katznelson-Satz.", en: "Multiple Furstenberg-Katznelson theorem." } },
+    { word: "die Faktorabbildung", phonetic: "fak-tor-ap-bil-dung", meaning: "factor map", gender: "die", example: { de: "Messbare Faktorabbildung.", en: "Measurable factor map." } },
+    { word: "die invertierbare Erweiterung", phonetic: "in-ver-teer-bah-ruh er-vy-te-rung", meaning: "invertible extension / natural extension", gender: "die", example: { de: "Natürliche invertierbare Erweiterung.", en: "Natural invertible extension." } },
+    { word: "die Rokhlin-Eigenschaft", phonetic: "rokh-lin-ay-gen-shaft", meaning: "Rokhlin property", gender: "die", example: { de: "Rokhlin-Zerlegung.", en: "Rokhlin decomposition." } },
+    { word: "die Joinings-Theorie", phonetic: "dschoy-nings-tay-oh-ree", meaning: "joinings theory", gender: "die", example: { de: "Disjunktheit Joinings-Theorie.", en: "Disjointness joinings theory." } },
+    { word: "die symbolische Dynamik", phonetic: "züm-bo-li-shuh dü-na-mik", meaning: "symbolic dynamics", gender: "die", example: { de: "Subshift-symbolische Dynamik.", en: "Subshift symbolic dynamics." } },
+    { word: "die Schieberfluss (Horocyclenfluss)", phonetic: "shee-ber-floos", meaning: "horocycle flow", gender: "der", example: { de: "Ratners Schieberfluss.", en: "Ratner horocycle flow." } },
+    { word: "der Ratner-Satz", phonetic: "rat-ner-zats", meaning: "Ratner's theorem", gender: "der", example: { de: "Unipotenter Ratner-Satz.", en: "Unipotent Ratner's theorem." } },
+  ]}] },
+};
