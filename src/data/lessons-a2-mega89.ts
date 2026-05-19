@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega89: Record<string, Lesson> = {
+  "la2_m134": { id: "la2_m134", title: "Weather & Climate A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Wetter", phonetic: "ve-ter", meaning: "weather", gender: "das", example: { de: "Schönes Wetter heute.", en: "Nice weather today." } },
+    { word: "der Regen", phonetic: "ray-gen", meaning: "rain", gender: "der", example: { de: "Starker Regen.", en: "Heavy rain." } },
+    { word: "der Schnee", phonetic: "shnay", meaning: "snow", gender: "der", example: { de: "Frischer Schnee.", en: "Fresh snow." } },
+    { word: "der Wind", phonetic: "vint", meaning: "wind", gender: "der", example: { de: "Starker Wind.", en: "Strong wind." } },
+    { word: "der Sturm", phonetic: "shtoorm", meaning: "storm", gender: "der", example: { de: "Heftiger Sturm.", en: "Violent storm." } },
+    { word: "der Blitz", phonetic: "blits", meaning: "lightning", gender: "der", example: { de: "Blitz und Donner.", en: "Lightning and thunder." } },
+    { word: "der Donner", phonetic: "do-ner", meaning: "thunder", gender: "der", example: { de: "Lauter Donner.", en: "Loud thunder." } },
+    { word: "der Nebel", phonetic: "nay-bel", meaning: "fog / mist", gender: "der", example: { de: "Dichter Nebel.", en: "Dense fog." } },
+    { word: "der Frost", phonetic: "frost", meaning: "frost", gender: "der", example: { de: "Frost in der Nacht.", en: "Frost at night." } },
+    { word: "das Eis", phonetic: "eyse", meaning: "ice", gender: "das", example: { de: "Glatteis auf der Straße.", en: "Black ice on the road." } },
+    { word: "die Temperatur", phonetic: "tem-pe-ra-toor", meaning: "temperature", gender: "die", example: { de: "Angenehme Temperatur.", en: "Pleasant temperature." } },
+    { word: "regnen", phonetic: "reg-nen", meaning: "to rain", example: { de: "Es regnet.", en: "It is raining." } },
+    { word: "schneien", phonetic: "shny-en", meaning: "to snow", example: { de: "Es schneit.", en: "It is snowing." } },
+    { word: "sonnig", phonetic: "zo-nikh", meaning: "sunny", example: { de: "Sonniges Wetter.", en: "Sunny weather." } },
+    { word: "bewölkt", phonetic: "beh-völkt", meaning: "cloudy / overcast", example: { de: "Bewölkter Himmel.", en: "Cloudy sky." } },
+    { word: "die Wolke", phonetic: "vol-kuh", meaning: "cloud", gender: "die", example: { de: "Dunkle Wolken.", en: "Dark clouds." } },
+    { word: "der Regenbogen", phonetic: "ray-gen-boh-gen", meaning: "rainbow", gender: "der", example: { de: "Bunter Regenbogen.", en: "Colourful rainbow." } },
+    { word: "die Wettervorhersage", phonetic: "ve-ter-for-her-zah-guh", meaning: "weather forecast", gender: "die", example: { de: "Die Wettervorhersage.", en: "The weather forecast." } },
+    { word: "der Klimawandel", phonetic: "klee-ma-van-del", meaning: "climate change", gender: "der", example: { de: "Globaler Klimawandel.", en: "Global climate change." } },
+    { word: "schwül", phonetic: "shvül", meaning: "humid / muggy", example: { de: "Schwüles Wetter.", en: "Muggy weather." } },
+  ]}] },
+};

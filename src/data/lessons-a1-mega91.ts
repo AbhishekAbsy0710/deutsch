@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega91: Record<string, Lesson> = {
+  "la1_m141": { id: "la1_m141", title: "Adjectives & Opposites A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "groß", phonetic: "grohs", meaning: "big / tall", example: { de: "Ein großes Haus.", en: "A big house." } },
+    { word: "klein", phonetic: "klyne", meaning: "small / little", example: { de: "Eine kleine Katze.", en: "A small cat." } },
+    { word: "alt", phonetic: "alt", meaning: "old", example: { de: "Ein altes Auto.", en: "An old car." } },
+    { word: "jung", phonetic: "yoong", meaning: "young", example: { de: "Ein junger Mann.", en: "A young man." } },
+    { word: "neu", phonetic: "noy", meaning: "new", example: { de: "Ein neues Handy.", en: "A new phone." } },
+    { word: "schön", phonetic: "shön", meaning: "beautiful / nice", example: { de: "Ein schöner Tag.", en: "A beautiful day." } },
+    { word: "hässlich", phonetic: "hes-likh", meaning: "ugly", example: { de: "Hässliches Wetter.", en: "Ugly weather." } },
+    { word: "schnell", phonetic: "shnel", meaning: "fast / quick", example: { de: "Ein schnelles Auto.", en: "A fast car." } },
+    { word: "langsam", phonetic: "lang-zahm", meaning: "slow", example: { de: "Ein langsamer Zug.", en: "A slow train." } },
+    { word: "heiß", phonetic: "hyce", meaning: "hot", example: { de: "Heißer Kaffee.", en: "Hot coffee." } },
+    { word: "kalt", phonetic: "kalt", meaning: "cold", example: { de: "Kaltes Wasser.", en: "Cold water." } },
+    { word: "warm", phonetic: "varm", meaning: "warm", example: { de: "Warmes Wetter.", en: "Warm weather." } },
+    { word: "schwer", phonetic: "shvehr", meaning: "heavy / difficult", example: { de: "Schwere Arbeit.", en: "Heavy work." } },
+    { word: "leicht", phonetic: "lykht", meaning: "light / easy", example: { de: "Eine leichte Aufgabe.", en: "An easy task." } },
+    { word: "laut", phonetic: "lowt", meaning: "loud / noisy", example: { de: "Laute Musik.", en: "Loud music." } },
+    { word: "leise", phonetic: "ly-zuh", meaning: "quiet / soft", example: { de: "Eine leise Stimme.", en: "A quiet voice." } },
+    { word: "lang", phonetic: "lang", meaning: "long", example: { de: "Ein langer Weg.", en: "A long way." } },
+    { word: "kurz", phonetic: "koorts", meaning: "short / brief", example: { de: "Kurzes Gespräch.", en: "Brief conversation." } },
+    { word: "gut", phonetic: "goot", meaning: "good", example: { de: "Gute Arbeit.", en: "Good work." } },
+    { word: "schlecht", phonetic: "shlekht", meaning: "bad", example: { de: "Schlechtes Wetter.", en: "Bad weather." } },
+  ]}] },
+};

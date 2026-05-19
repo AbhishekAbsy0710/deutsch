@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega88: Record<string, Lesson> = {
+  "lc2_m131": { id: "lc2_m131", title: "Advanced Model Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Modelltheorie", phonetic: "mo-del-tay-oh-ree", meaning: "model theory", gender: "die", example: { de: "Klassische Modelltheorie.", en: "Classical model theory." } },
+    { word: "die Struktur (Modelltheorie)", phonetic: "shtrook-toor", meaning: "structure (model theory)", gender: "die", example: { de: "Relationale Struktur.", en: "Relational structure." } },
+    { word: "das Modell (Logik)", phonetic: "mo-del", meaning: "model (logic)", gender: "das", example: { de: "Kanonisches Modell.", en: "Canonical model." } },
+    { word: "die Erfüllbarkeit", phonetic: "er-fül-bar-kyte", meaning: "satisfiability", gender: "die", example: { de: "Aussagenlogische Erfüllbarkeit.", en: "Propositional satisfiability." } },
+    { word: "der Kompaktheitssatz", phonetic: "kom-pakht-hyts-zats", meaning: "compactness theorem", gender: "der", example: { de: "Modelltheoretischer Kompaktheitssatz.", en: "Model-theoretic compactness theorem." } },
+    { word: "der Satz von Löwenheim-Skolem", phonetic: "zats-fon-lö-ven-haym-sko-lem", meaning: "Löwenheim-Skolem theorem", gender: "der", example: { de: "Abwärts Löwenheim-Skolem.", en: "Downward Löwenheim-Skolem." } },
+    { word: "die Elementare Äquivalenz", phonetic: "e-le-men-tah-ruh ey-kvi-va-lents", meaning: "elementary equivalence", gender: "die", example: { de: "Elementardiagramm-Äquivalenz.", en: "Elementary diagram equivalence." } },
+    { word: "der Elementare Einbettung", phonetic: "e-le-men-tah-ruh ayn-be-tung", meaning: "elementary embedding", gender: "die", example: { de: "Ultrapotenz elementare Einbettung.", en: "Ultrapower elementary embedding." } },
+    { word: "das Ultraprodukt", phonetic: "ool-tra-pro-dookt", meaning: "ultraproduct", gender: "das", example: { de: "Los-Theorem Ultraprodukt.", en: "Łoś theorem ultraproduct." } },
+    { word: "der Satz von Łoś", phonetic: "zats-fon-losh", meaning: "Łoś theorem", gender: "der", example: { de: "Fundamentaler Satz von Łoś.", en: "Fundamental Łoś theorem." } },
+    { word: "die Theorie (Logik)", phonetic: "tay-oh-ree", meaning: "theory (logic)", gender: "die", example: { de: "Vollständige Theorie.", en: "Complete theory." } },
+    { word: "die kategorische Theorie", phonetic: "ka-te-go-ri-shuh tay-oh-ree", meaning: "categorical theory", gender: "die", example: { de: "κ-kategorische Theorie.", en: "κ-categorical theory." } },
+    { word: "der Morley-Satz", phonetic: "mor-li-zats", meaning: "Morley's theorem", gender: "der", example: { de: "Kategorisitäts-Morley-Satz.", en: "Categoricity Morley's theorem." } },
+    { word: "die stabile Theorie (Shelah)", phonetic: "shtah-bi-luh tay-oh-ree", meaning: "stable theory (Shelah)", gender: "die", example: { de: "Superstabile Theorie.", en: "Superstable theory." } },
+    { word: "die Klassifikationstheorie (Shelah)", phonetic: "kla-si-fi-ka-tsee-ohns-tay-oh-ree", meaning: "classification theory (Shelah)", gender: "die", example: { de: "Shelahs Klassifikationstheorie.", en: "Shelah's classification theory." } },
+    { word: "der Typ (Modelltheorie)", phonetic: "tüp", meaning: "type (model theory)", gender: "der", example: { de: "Vollständiger Typ.", en: "Complete type." } },
+    { word: "die Saturationseigenschaft", phonetic: "za-tü-ra-tsee-ohns-ay-gen-shaft", meaning: "saturation property", gender: "die", example: { de: "ω-Saturationseigenschaft.", en: "ω-saturation property." } },
+    { word: "die Quantorenelimination", phonetic: "kvant-oh-ren-e-li-mi-na-tsee-ohn", meaning: "quantifier elimination", gender: "die", example: { de: "Algebraisch-geschlossene Körper Quantorenelimination.", en: "Algebraically closed fields quantifier elimination." } },
+    { word: "das Ehrenfeucht-Fraïssé-Spiel", phonetic: "ay-ren-foykht-fray-say-shpeel", meaning: "Ehrenfeucht-Fraïssé game", gender: "das", example: { de: "Elementare Äquivalenz Ehrenfeucht-Fraïssé-Spiel.", en: "Elementary equivalence Ehrenfeucht-Fraïssé game." } },
+    { word: "die o-Minimalität", phonetic: "oh-mi-ni-ma-li-tayt", meaning: "o-minimality", gender: "die", example: { de: "Reell-geschlossene Körper o-Minimalität.", en: "Real closed fields o-minimality." } },
+  ]}] },
+};

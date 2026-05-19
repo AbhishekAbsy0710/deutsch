@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega91: Record<string, Lesson> = {
+  "lc1_m137": { id: "lc1_m137", title: "Advanced Narratology C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Narratologie", phonetic: "na-ra-to-lo-gee", meaning: "narratology", gender: "die", example: { de: "Strukturalistische Narratologie.", en: "Structuralist narratology." } },
+    { word: "der Erzähler", phonetic: "er-tsey-ler", meaning: "narrator", gender: "der", example: { de: "Unzuverlässiger Erzähler.", en: "Unreliable narrator." } },
+    { word: "die Erzählperspektive", phonetic: "er-tseyl-per-shpek-tee-vuh", meaning: "narrative perspective", gender: "die", example: { de: "Auktoriale Erzählperspektive.", en: "Authorial narrative perspective." } },
+    { word: "die Focalisierung (Genette)", phonetic: "fo-ka-li-zee-rung", meaning: "focalisation (Genette)", gender: "die", example: { de: "Interne Focalisierung.", en: "Internal focalisation." } },
+    { word: "der Homodiegetische Erzähler", phonetic: "ho-mo-di-e-ge-ti-shuh-er-tsey-ler", meaning: "homodiegetic narrator", gender: "der", example: { de: "Ich-Homodiegetischer Erzähler.", en: "I-homodiegetic narrator." } },
+    { word: "der Heterodiegetische Erzähler", phonetic: "he-te-ro-di-e-ge-ti-shuh-er-tsey-ler", meaning: "heterodiegetic narrator", gender: "der", example: { de: "Allwissender heterodiegetischer Erzähler.", en: "Omniscient heterodiegetic narrator." } },
+    { word: "die Erzählzeit vs. erzählte Zeit", phonetic: "er-tseyl-tsyt-fus-er-tseyl-tuh-tsyt", meaning: "narrative time vs. story time", example: { de: "Erzählzeit kürzer als erzählte Zeit.", en: "Narrative time shorter than story time." } },
+    { word: "die Analepse", phonetic: "a-na-lep-zuh", meaning: "analepsis (flashback)", gender: "die", example: { de: "Externe Analepse.", en: "External analepsis." } },
+    { word: "die Prolepse", phonetic: "pro-lep-zuh", meaning: "prolepsis (flashforward)", gender: "die", example: { de: "Interne Prolepse.", en: "Internal prolepsis." } },
+    { word: "die Raffung", phonetic: "ra-fung", meaning: "summary (narrative speed)", gender: "die", example: { de: "Dramatische Raffung.", en: "Dramatic summary." } },
+    { word: "die Szene (Narratologie)", phonetic: "stse-nuh", meaning: "scene (narratology)", gender: "die", example: { de: "Dialogische Szene.", en: "Dialogic scene." } },
+    { word: "die Pause (Narratologie)", phonetic: "pow-zuh", meaning: "pause / descriptive stop", gender: "die", example: { de: "Deskriptive Pause.", en: "Descriptive pause." } },
+    { word: "der Plot", phonetic: "plot", meaning: "plot (narratology)", gender: "der", example: { de: "Linearer Plot.", en: "Linear plot." } },
+    { word: "die Fabula und Sjuzhet", phonetic: "fa-boo-la-oont-zhoo-zhet", meaning: "fabula and syuzhet (Russian formalism)", example: { de: "Russischer Formalismus Fabula und Sjuzhet.", en: "Russian formalism fabula and syuzhet." } },
+    { word: "der Aktant (Greimas)", phonetic: "ak-tant", meaning: "actant (Greimas)", gender: "der", example: { de: "Greimas-Aktantenmodell.", en: "Greimas actantial model." } },
+    { word: "die Figurenkonstellation", phonetic: "fi-goo-ren-kon-ste-la-tsee-ohn", meaning: "character constellation", gender: "die", example: { de: "Erzählerische Figurenkonstellation.", en: "Narrative character constellation." } },
+    { word: "der narrative Bogen", phonetic: "na-ra-tee-vuh boh-gen", meaning: "narrative arc", gender: "der", example: { de: "Dramatischer narrativer Bogen.", en: "Dramatic narrative arc." } },
+    { word: "die Intertextualität (Narratologie)", phonetic: "in-ter-teks-too-a-li-tayt", meaning: "intertextuality (narratology)", gender: "die", example: { de: "Narratologische Intertextualität.", en: "Narratological intertextuality." } },
+    { word: "die transmediale Narratologie", phonetic: "trans-me-dee-ah-luh na-ra-to-lo-gee", meaning: "transmedial narratology", gender: "die", example: { de: "Ryan-transmediale Narratologie.", en: "Ryan transmedial narratology." } },
+    { word: "die kognitive Narratologie", phonetic: "kog-ni-tee-vuh na-ra-to-lo-gee", meaning: "cognitive narratology", gender: "die", example: { de: "Herman-kognitive Narratologie.", en: "Herman cognitive narratology." } },
+  ]}] },
+};

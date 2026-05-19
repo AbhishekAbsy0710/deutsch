@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega89: Record<string, Lesson> = {
+  "lc2_m132": { id: "lc2_m132", title: "Advanced Representation Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Darstellungstheorie", phonetic: "dar-shte-lungs-tay-oh-ree", meaning: "representation theory", gender: "die", example: { de: "Lineare Darstellungstheorie.", en: "Linear representation theory." } },
+    { word: "die Darstellung (Gruppe)", phonetic: "dar-shte-lung", meaning: "representation (group)", gender: "die", example: { de: "Irreduzible Darstellung.", en: "Irreducible representation." } },
+    { word: "der Charakter (Darstellung)", phonetic: "kha-rak-ter", meaning: "character (representation)", gender: "der", example: { de: "Irreduziblen Charakter.", en: "Irreducible character." } },
+    { word: "die Charaktertafel", phonetic: "kha-rak-ter-tah-fel", meaning: "character table", gender: "die", example: { de: "Symmetriegruppen-Charaktertafel.", en: "Symmetry group character table." } },
+    { word: "der Satz von Maschke", phonetic: "zats-fon-mash-kuh", meaning: "Maschke's theorem", gender: "der", example: { de: "Vollreduzibilität Satz von Maschke.", en: "Complete reducibility Maschke's theorem." } },
+    { word: "die irreduzible Darstellung", phonetic: "i-re-doo-tsee-bluh dar-shte-lung", meaning: "irreducible representation", gender: "die", example: { de: "Endlichdimensionale irreduzible Darstellung.", en: "Finite-dimensional irreducible representation." } },
+    { word: "das Schur-Lemma", phonetic: "shoor-le-ma", meaning: "Schur's lemma", gender: "das", example: { de: "Intertwining-Operatoren Schur-Lemma.", en: "Intertwining operators Schur's lemma." } },
+    { word: "die reguläre Darstellung", phonetic: "re-goo-ley-ruh dar-shte-lung", meaning: "regular representation", gender: "die", example: { de: "Linksreguläre Darstellung.", en: "Left regular representation." } },
+    { word: "die induzierte Darstellung", phonetic: "in-doo-tseer-tuh dar-shte-lung", meaning: "induced representation", gender: "die", example: { de: "Mackey-induzierte Darstellung.", en: "Mackey induced representation." } },
+    { word: "der Satz von Peter-Weyl", phonetic: "zats-fon-pay-ter-vayl", meaning: "Peter-Weyl theorem", gender: "der", example: { de: "Kompakte Gruppen Satz von Peter-Weyl.", en: "Compact groups Peter-Weyl theorem." } },
+    { word: "das Gewicht (Lie-Algebra)", phonetic: "ge-vikht", meaning: "weight (Lie algebra)", gender: "das", example: { de: "Höchstes Gewicht.", en: "Highest weight." } },
+    { word: "der Wurzelraum", phonetic: "vooorts-el-rowm", meaning: "root space", gender: "der", example: { de: "Positivwurzel-Wurzelraum.", en: "Positive root root space." } },
+    { word: "das Dynkin-Diagramm", phonetic: "din-kin-di-a-gram", meaning: "Dynkin diagram", gender: "das", example: { de: "ADE-Dynkin-Diagramm.", en: "ADE Dynkin diagram." } },
+    { word: "die Weyl-Gruppe", phonetic: "vayl-groo-puh", meaning: "Weyl group", gender: "die", example: { de: "Symmetrische Weyl-Gruppe.", en: "Symmetric Weyl group." } },
+    { word: "der Satz von Weyl (Charakter)", phonetic: "zats-fon-vayl", meaning: "Weyl character formula", gender: "der", example: { de: "Weyl-Charakterformel.", en: "Weyl character formula." } },
+    { word: "die Moduldarstellung", phonetic: "mo-dool-dar-shte-lung", meaning: "modular representation", gender: "die", example: { de: "Brauer-Moduldarstellung.", en: "Brauer modular representation." } },
+    { word: "das Quiver (Darstellung)", phonetic: "kvi-ver", meaning: "quiver (representation theory)", gender: "der", example: { de: "Gerichtetes Quiver.", en: "Directed quiver." } },
+    { word: "der Satz von Gabriel", phonetic: "zats-fon-ga-bri-el", meaning: "Gabriel's theorem", gender: "der", example: { de: "Endlich-Typ-Satz von Gabriel.", en: "Finite type Gabriel's theorem." } },
+    { word: "die Cluster-Algebra", phonetic: "klus-ter-al-ge-bra", meaning: "cluster algebra", gender: "die", example: { de: "Fomin-Zelevinsky-Cluster-Algebra.", en: "Fomin-Zelevinsky cluster algebra." } },
+    { word: "die geometrische Darstellungstheorie", phonetic: "ge-oh-me-tri-shuh dar-shte-lungs-tay-oh-ree", meaning: "geometric representation theory", gender: "die", example: { de: "Kazhdan-Lusztig-geometrische Darstellungstheorie.", en: "Kazhdan-Lusztig geometric representation theory." } },
+  ]}] },
+};

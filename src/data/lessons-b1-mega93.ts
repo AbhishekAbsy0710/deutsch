@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega93: Record<string, Lesson> = {
+  "lb1_m144": { id: "lb1_m144", title: "Philosophy & Ethics B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Philosophie", phonetic: "fi-lo-zo-fee", meaning: "philosophy", gender: "die", example: { de: "Antike Philosophie.", en: "Ancient philosophy." } },
+    { word: "die Ethik", phonetic: "ay-tik", meaning: "ethics", gender: "die", example: { de: "Angewandte Ethik.", en: "Applied ethics." } },
+    { word: "die Moral", phonetic: "mo-rahl", meaning: "morality", gender: "die", example: { de: "Persönliche Moral.", en: "Personal morality." } },
+    { word: "die Logik", phonetic: "loh-gik", meaning: "logic", gender: "die", example: { de: "Formale Logik.", en: "Formal logic." } },
+    { word: "das Argument", phonetic: "ar-goo-ment", meaning: "argument", gender: "das", example: { de: "Ein starkes Argument.", en: "A strong argument." } },
+    { word: "die Wahrheit", phonetic: "vahr-hyte", meaning: "truth", gender: "die", example: { de: "Die Suche nach Wahrheit.", en: "The search for truth." } },
+    { word: "die Freiheit", phonetic: "fry-hyte", meaning: "freedom / liberty", gender: "die", example: { de: "Persönliche Freiheit.", en: "Personal freedom." } },
+    { word: "die Gerechtigkeit", phonetic: "geh-rekh-tikh-kyte", meaning: "justice / fairness", gender: "die", example: { de: "Soziale Gerechtigkeit.", en: "Social justice." } },
+    { word: "die Gleichheit", phonetic: "glykh-hyte", meaning: "equality", gender: "die", example: { de: "Gleichheit vor dem Gesetz.", en: "Equality before the law." } },
+    { word: "das Gewissen", phonetic: "geh-vi-sen", meaning: "conscience", gender: "das", example: { de: "Schlechtes Gewissen.", en: "Bad conscience." } },
+    { word: "die Verantwortung", phonetic: "fer-ant-vor-tung", meaning: "responsibility", gender: "die", example: { de: "Verantwortung übernehmen.", en: "Take responsibility." } },
+    { word: "der Wert", phonetic: "vert", meaning: "value / worth", gender: "der", example: { de: "Moralische Werte.", en: "Moral values." } },
+    { word: "die Tugend", phonetic: "too-gent", meaning: "virtue", gender: "die", example: { de: "Aristotelische Tugend.", en: "Aristotelian virtue." } },
+    { word: "das Dilemma", phonetic: "di-le-ma", meaning: "dilemma", gender: "das", example: { de: "Ethisches Dilemma.", en: "Ethical dilemma." } },
+    { word: "der Utilitarismus", phonetic: "oo-ti-li-ta-ris-mus", meaning: "utilitarianism", gender: "der", example: { de: "Bentham-Utilitarismus.", en: "Bentham utilitarianism." } },
+    { word: "der kategorische Imperativ", phonetic: "ka-te-go-ri-shuh im-pe-ra-teef", meaning: "categorical imperative", gender: "der", example: { de: "Kants kategorischer Imperativ.", en: "Kant's categorical imperative." } },
+    { word: "das Recht auf Leben", phonetic: "rekht-owf-lay-ben", meaning: "right to life", gender: "das", example: { de: "Grundrecht auf Leben.", en: "Fundamental right to life." } },
+    { word: "die Menschenwürde", phonetic: "men-shen-vür-duh", meaning: "human dignity", gender: "die", example: { de: "Unveräußerliche Menschenwürde.", en: "Inalienable human dignity." } },
+    { word: "das Prinzip", phonetic: "prin-tsip", meaning: "principle", gender: "das", example: { de: "Ethisches Prinzip.", en: "Ethical principle." } },
+    { word: "reflektieren", phonetic: "re-flek-tee-ren", meaning: "to reflect / think deeply", example: { de: "Kritisch reflektieren.", en: "Reflect critically." } },
+  ]}] },
+};

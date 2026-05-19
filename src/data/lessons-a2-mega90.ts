@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega90: Record<string, Lesson> = {
+  "la2_m135": { id: "la2_m135", title: "Sports & Exercise A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "der Sport", phonetic: "shport", meaning: "sport", gender: "der", example: { de: "Sport treiben.", en: "Do sport." } },
+    { word: "spielen", phonetic: "shpee-len", meaning: "to play", example: { de: "Fußball spielen.", en: "Play football." } },
+    { word: "der Fußball", phonetic: "foos-bal", meaning: "football / soccer", gender: "der", example: { de: "Fußball spielen.", en: "Play football." } },
+    { word: "der Basketball", phonetic: "bas-ket-bal", meaning: "basketball", gender: "der", example: { de: "Basketball spielen.", en: "Play basketball." } },
+    { word: "das Tennis", phonetic: "te-nis", meaning: "tennis", gender: "das", example: { de: "Tennis spielen.", en: "Play tennis." } },
+    { word: "das Schwimmen", phonetic: "shvi-men", meaning: "swimming", gender: "das", example: { de: "Schwimmen gehen.", en: "Go swimming." } },
+    { word: "laufen", phonetic: "low-fen", meaning: "to run / jog", example: { de: "Jeden Morgen laufen.", en: "Run every morning." } },
+    { word: "das Fahrradfahren", phonetic: "fahr-raht-fah-ren", meaning: "cycling", gender: "das", example: { de: "Fahrradfahren als Sport.", en: "Cycling as sport." } },
+    { word: "das Turnen", phonetic: "toor-nen", meaning: "gymnastics", gender: "das", example: { de: "Turnen im Verein.", en: "Do gymnastics in the club." } },
+    { word: "das Yoga", phonetic: "yoh-ga", meaning: "yoga", gender: "das", example: { de: "Yoga praktizieren.", en: "Practise yoga." } },
+    { word: "die Mannschaft", phonetic: "man-shaft", meaning: "team", gender: "die", example: { de: "In einer Mannschaft spielen.", en: "Play in a team." } },
+    { word: "das Training", phonetic: "tray-ning", meaning: "training / practice", gender: "das", example: { de: "Regelmäßiges Training.", en: "Regular training." } },
+    { word: "das Spiel", phonetic: "shpeel", meaning: "game / match", gender: "das", example: { de: "Das Spiel gewinnen.", en: "Win the game." } },
+    { word: "gewinnen", phonetic: "geh-vi-nen", meaning: "to win", example: { de: "Das Match gewinnen.", en: "Win the match." } },
+    { word: "verlieren", phonetic: "fer-lee-ren", meaning: "to lose", example: { de: "Das Spiel verlieren.", en: "Lose the game." } },
+    { word: "das Tor", phonetic: "tor", meaning: "goal (sports)", gender: "das", example: { de: "Ein Tor schießen.", en: "Score a goal." } },
+    { word: "der Verein", phonetic: "fer-ayne", meaning: "club / association", gender: "der", example: { de: "Im Sportverein.", en: "In the sports club." } },
+    { word: "trainieren", phonetic: "tray-nee-ren", meaning: "to train", example: { de: "Täglich trainieren.", en: "Train daily." } },
+    { word: "fit", phonetic: "fit", meaning: "fit / in shape", example: { de: "Fit bleiben.", en: "Stay fit." } },
+    { word: "die Olympischen Spiele", phonetic: "oh-lüm-pi-shen-shpee-luh", meaning: "Olympic Games", example: { de: "Die Olympischen Spiele.", en: "The Olympic Games." } },
+  ]}] },
+};

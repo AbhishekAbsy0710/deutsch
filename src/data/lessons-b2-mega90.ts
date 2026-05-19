@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega90: Record<string, Lesson> = {
+  "lb2_m135": { id: "lb2_m135", title: "Materials Science B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Materialwissenschaft", phonetic: "ma-te-ri-ahl-vi-sen-shaft", meaning: "materials science", gender: "die", example: { de: "Angewandte Materialwissenschaft.", en: "Applied materials science." } },
+    { word: "das Kristallgitter", phonetic: "kris-tal-gi-ter", meaning: "crystal lattice", gender: "das", example: { de: "Kubisches Kristallgitter.", en: "Cubic crystal lattice." } },
+    { word: "die Korngrenze", phonetic: "korn-gren-tsuh", meaning: "grain boundary", gender: "die", example: { de: "Polykristalline Korngrenze.", en: "Polycrystalline grain boundary." } },
+    { word: "die Versetzung (Kristall)", phonetic: "fer-ze-tsung", meaning: "dislocation (crystal)", gender: "die", example: { de: "Stufenversetzung.", en: "Edge dislocation." } },
+    { word: "die Verfestigung", phonetic: "fer-fes-ti-gung", meaning: "work hardening / strengthening", gender: "die", example: { de: "Kaltverfestigung.", en: "Work hardening." } },
+    { word: "die Legierung", phonetic: "le-gee-rung", meaning: "alloy", gender: "die", example: { de: "Eisenlegierung.", en: "Iron alloy." } },
+    { word: "die Wärmebehandlung", phonetic: "ver-muh-beh-hand-lung", meaning: "heat treatment", gender: "die", example: { de: "Wärmebehandlung von Stahl.", en: "Heat treatment of steel." } },
+    { word: "das Glühen", phonetic: "glü-en", meaning: "annealing", gender: "das", example: { de: "Rekristallisationsglühen.", en: "Recrystallisation annealing." } },
+    { word: "das Härten", phonetic: "her-ten", meaning: "hardening (materials)", gender: "das", example: { de: "Martensitisches Härten.", en: "Martensitic hardening." } },
+    { word: "das Polymer", phonetic: "po-li-mer", meaning: "polymer", gender: "das", example: { de: "Thermoplastisches Polymer.", en: "Thermoplastic polymer." } },
+    { word: "die Polymerisation", phonetic: "po-li-me-ri-za-tsee-ohn", meaning: "polymerisation", gender: "die", example: { de: "Radikalische Polymerisation.", en: "Radical polymerisation." } },
+    { word: "das Kompositmaterial", phonetic: "kom-po-zit-ma-te-ri-ahl", meaning: "composite material", gender: "das", example: { de: "Faserverstärktes Kompositmaterial.", en: "Fibre-reinforced composite material." } },
+    { word: "die Keramik", phonetic: "ke-rah-mik", meaning: "ceramic", gender: "die", example: { de: "Technische Keramik.", en: "Technical ceramic." } },
+    { word: "der Halbleiter", phonetic: "halp-ly-ter", meaning: "semiconductor", gender: "der", example: { de: "Intrinsischer Halbleiter.", en: "Intrinsic semiconductor." } },
+    { word: "die Bandlücke", phonetic: "bant-lü-kuh", meaning: "band gap", gender: "die", example: { de: "Direkte Bandlücke.", en: "Direct band gap." } },
+    { word: "die Leitfähigkeit (elektrisch)", phonetic: "lyte-feh-ikh-kyte", meaning: "electrical conductivity", gender: "die", example: { de: "Metallische Leitfähigkeit.", en: "Metallic conductivity." } },
+    { word: "der Supraleiter", phonetic: "zoo-pra-ly-ter", meaning: "superconductor", gender: "der", example: { de: "Hochtemperatur-Supraleiter.", en: "High-temperature superconductor." } },
+    { word: "die Ermüdung (Material)", phonetic: "er-mü-dung", meaning: "fatigue (material)", gender: "die", example: { de: "Metallermüdung.", en: "Metal fatigue." } },
+    { word: "der Bruch (Material)", phonetic: "brookh", meaning: "fracture (material)", gender: "der", example: { de: "Sprödbruch.", en: "Brittle fracture." } },
+    { word: "die Korrosion", phonetic: "ko-ro-zee-ohn", meaning: "corrosion", gender: "die", example: { de: "Elektrochemische Korrosion.", en: "Electrochemical corrosion." } },
+  ]}] },
+};

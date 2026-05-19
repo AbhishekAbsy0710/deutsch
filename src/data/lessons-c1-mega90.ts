@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega90: Record<string, Lesson> = {
+  "lc1_m136": { id: "lc1_m136", title: "Advanced Lexicology & Morphology C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Lexikologie", phonetic: "lek-si-ko-lo-gee", meaning: "lexicology", gender: "die", example: { de: "Kognitive Lexikologie.", en: "Cognitive lexicology." } },
+    { word: "die Morphologie (Linguistik)", phonetic: "mor-fo-lo-gee", meaning: "morphology (linguistics)", gender: "die", example: { de: "Derivationsmorphologie.", en: "Derivational morphology." } },
+    { word: "das Morphem", phonetic: "mor-faym", meaning: "morpheme", gender: "das", example: { de: "Freies Morphem.", en: "Free morpheme." } },
+    { word: "das Allomorph", phonetic: "a-lo-morf", meaning: "allomorph", gender: "das", example: { de: "Phonologisch konditioniertes Allomorph.", en: "Phonologically conditioned allomorph." } },
+    { word: "die Derivation (Wortbildung)", phonetic: "de-ri-va-tsee-ohn", meaning: "derivation (word formation)", gender: "die", example: { de: "Präfixderivation.", en: "Prefix derivation." } },
+    { word: "die Komposition (Wortbildung)", phonetic: "kom-po-zi-tsee-ohn", meaning: "compounding (word formation)", gender: "die", example: { de: "Nominalkomposition.", en: "Nominal compounding." } },
+    { word: "die Konversion (Wortbildung)", phonetic: "kon-ver-zee-ohn", meaning: "conversion (word formation)", gender: "die", example: { de: "Verbkonversion.", en: "Verbal conversion." } },
+    { word: "das Lemma (Lexikographie)", phonetic: "le-ma", meaning: "lemma (lexicography)", gender: "das", example: { de: "Wörterbuchlemma.", en: "Dictionary lemma." } },
+    { word: "das Lexem", phonetic: "lek-saym", meaning: "lexeme", gender: "das", example: { de: "Polysemes Lexem.", en: "Polysemous lexeme." } },
+    { word: "die Polysemie", phonetic: "po-li-ze-mee", meaning: "polysemy", gender: "die", example: { de: "Lexikalische Polysemie.", en: "Lexical polysemy." } },
+    { word: "die Homonymie", phonetic: "ho-mo-nü-mee", meaning: "homonymy", gender: "die", example: { de: "Homonymie und Polysemie.", en: "Homonymy and polysemy." } },
+    { word: "die Synonymie", phonetic: "zü-no-nü-mee", meaning: "synonymy", gender: "die", example: { de: "Kognitive Synonymie.", en: "Cognitive synonymy." } },
+    { word: "die Antonymie", phonetic: "an-to-nü-mee", meaning: "antonymy", gender: "die", example: { de: "Gradierbare Antonymie.", en: "Gradable antonymy." } },
+    { word: "die Hyponymie", phonetic: "hü-po-nü-mee", meaning: "hyponymy", gender: "die", example: { de: "Taxonomische Hyponymie.", en: "Taxonomic hyponymy." } },
+    { word: "das Wortfeld", phonetic: "vort-felt", meaning: "semantic field / word field", gender: "das", example: { de: "Farbwortfeld.", en: "Colour semantic field." } },
+    { word: "die Wortfamilie", phonetic: "vort-fa-mee-lee-uh", meaning: "word family", gender: "die", example: { de: "Morphologische Wortfamilie.", en: "Morphological word family." } },
+    { word: "die Phraseologie", phonetic: "fra-ze-oh-lo-gee", meaning: "phraseology", gender: "die", example: { de: "Idiomatische Phraseologie.", en: "Idiomatic phraseology." } },
+    { word: "die Kollokation (Linguistik)", phonetic: "ko-lo-ka-tsee-ohn", meaning: "collocation (linguistics)", gender: "die", example: { de: "Typische Kollokation.", en: "Typical collocation." } },
+    { word: "das Neologismus", phonetic: "ne-oh-lo-gis-mus", meaning: "neologism", gender: "der", example: { de: "Anglizistischer Neologismus.", en: "Anglicistic neologism." } },
+    { word: "die Etymologie", phonetic: "ay-ti-mo-lo-gee", meaning: "etymology", gender: "die", example: { de: "Lateinische Etymologie.", en: "Latin etymology." } },
+  ]}] },
+};

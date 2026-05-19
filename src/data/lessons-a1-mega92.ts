@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega92: Record<string, Lesson> = {
+  "la1_m142": { id: "la1_m142", title: "Family & Relationships A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Familie", phonetic: "fa-mee-lee-uh", meaning: "family", gender: "die", example: { de: "Meine Familie.", en: "My family." } },
+    { word: "die Mutter", phonetic: "moo-ter", meaning: "mother", gender: "die", example: { de: "Meine Mutter.", en: "My mother." } },
+    { word: "der Vater", phonetic: "fah-ter", meaning: "father", gender: "der", example: { de: "Mein Vater.", en: "My father." } },
+    { word: "die Eltern", phonetic: "el-tern", meaning: "parents", example: { de: "Meine Eltern.", en: "My parents." } },
+    { word: "die Geschwister", phonetic: "geh-shvis-ter", meaning: "siblings", example: { de: "Meine Geschwister.", en: "My siblings." } },
+    { word: "der Bruder", phonetic: "broo-der", meaning: "brother", gender: "der", example: { de: "Mein Bruder.", en: "My brother." } },
+    { word: "die Schwester", phonetic: "shves-ter", meaning: "sister", gender: "die", example: { de: "Meine Schwester.", en: "My sister." } },
+    { word: "der Großvater", phonetic: "grohs-fah-ter", meaning: "grandfather", gender: "der", example: { de: "Mein Großvater.", en: "My grandfather." } },
+    { word: "die Großmutter", phonetic: "grohs-moo-ter", meaning: "grandmother", gender: "die", example: { de: "Meine Großmutter.", en: "My grandmother." } },
+    { word: "die Großeltern", phonetic: "grohs-el-tern", meaning: "grandparents", example: { de: "Meine Großeltern.", en: "My grandparents." } },
+    { word: "der Sohn", phonetic: "zohn", meaning: "son", gender: "der", example: { de: "Mein Sohn.", en: "My son." } },
+    { word: "die Tochter", phonetic: "tokh-ter", meaning: "daughter", gender: "die", example: { de: "Meine Tochter.", en: "My daughter." } },
+    { word: "der Onkel", phonetic: "on-kel", meaning: "uncle", gender: "der", example: { de: "Mein Onkel.", en: "My uncle." } },
+    { word: "die Tante", phonetic: "tan-tuh", meaning: "aunt", gender: "die", example: { de: "Meine Tante.", en: "My aunt." } },
+    { word: "der Cousin", phonetic: "koo-zang", meaning: "cousin (male)", gender: "der", example: { de: "Mein Cousin.", en: "My cousin." } },
+    { word: "der Freund", phonetic: "froynt", meaning: "friend / boyfriend", gender: "der", example: { de: "Ein guter Freund.", en: "A good friend." } },
+    { word: "die Freundin", phonetic: "froyn-din", meaning: "friend / girlfriend", gender: "die", example: { de: "Meine Freundin.", en: "My friend." } },
+    { word: "der Mann", phonetic: "man", meaning: "husband / man", gender: "der", example: { de: "Mein Mann.", en: "My husband." } },
+    { word: "die Frau", phonetic: "frow", meaning: "wife / woman", gender: "die", example: { de: "Meine Frau.", en: "My wife." } },
+    { word: "das Baby", phonetic: "bay-bi", meaning: "baby", gender: "das", example: { de: "Ein kleines Baby.", en: "A small baby." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega91: Record<string, Lesson> = {
+  "lb2_m136": { id: "lb2_m136", title: "Geophysics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Geophysik", phonetic: "ge-oh-fü-zik", meaning: "geophysics", gender: "die", example: { de: "Angewandte Geophysik.", en: "Applied geophysics." } },
+    { word: "die Seismologie", phonetic: "zays-mo-lo-gee", meaning: "seismology", gender: "die", example: { de: "Erdbebenseismologie.", en: "Earthquake seismology." } },
+    { word: "das Erdbeben", phonetic: "erd-bay-ben", meaning: "earthquake", gender: "das", example: { de: "Tektonisches Erdbeben.", en: "Tectonic earthquake." } },
+    { word: "die Seismische Welle", phonetic: "zays-mi-shuh ve-luh", meaning: "seismic wave", gender: "die", example: { de: "P-Welle seismische Welle.", en: "P-wave seismic wave." } },
+    { word: "der Richter-Skala", phonetic: "rikh-ter-skah-la", meaning: "Richter scale", gender: "die", example: { de: "Magnitude Richter-Skala.", en: "Magnitude Richter scale." } },
+    { word: "das Epizentrum", phonetic: "e-pi-tsen-trum", meaning: "epicentre", gender: "das", example: { de: "Oberflächennahes Epizentrum.", en: "Shallow epicentre." } },
+    { word: "der Vulkanismus", phonetic: "vool-kah-nis-mus", meaning: "volcanism", gender: "der", example: { de: "Aktiver Vulkanismus.", en: "Active volcanism." } },
+    { word: "die Tektonik", phonetic: "tek-to-nik", meaning: "tectonics", gender: "die", example: { de: "Plattentektonik.", en: "Plate tectonics." } },
+    { word: "die Plattentektonik", phonetic: "pla-ten-tek-to-nik", meaning: "plate tectonics", gender: "die", example: { de: "Kontinentaldrift Plattentektonik.", en: "Continental drift plate tectonics." } },
+    { word: "der Erdkern", phonetic: "erd-kern", meaning: "Earth's core", gender: "der", example: { de: "Flüssiger äußerer Erdkern.", en: "Liquid outer Earth's core." } },
+    { word: "der Erdmantel", phonetic: "erd-man-tel", meaning: "Earth's mantle", gender: "der", example: { de: "Konvektionsströme im Erdmantel.", en: "Convection currents in Earth's mantle." } },
+    { word: "die Erdkruste", phonetic: "erd-krus-tuh", meaning: "Earth's crust", gender: "die", example: { de: "Ozeanische Erdkruste.", en: "Oceanic Earth's crust." } },
+    { word: "der Geomagnetismus", phonetic: "ge-oh-mag-ne-tis-mus", meaning: "geomagnetism", gender: "der", example: { de: "Erdmagnetfeldumkehr.", en: "Geomagnetic reversal." } },
+    { word: "das Erdmagnetfeld", phonetic: "erd-mag-net-felt", meaning: "Earth's magnetic field", gender: "das", example: { de: "Schützendes Erdmagnetfeld.", en: "Protective Earth's magnetic field." } },
+    { word: "die Gravimetrie", phonetic: "gra-vi-me-tree", meaning: "gravimetry", gender: "die", example: { de: "Satellitengravimetrie.", en: "Satellite gravimetry." } },
+    { word: "die Geothermie", phonetic: "ge-oh-ter-mee", meaning: "geothermal energy", gender: "die", example: { de: "Tiefengeothermie.", en: "Deep geothermal energy." } },
+    { word: "der Geothermische Gradient", phonetic: "ge-oh-ter-mi-shuh gra-dee-ent", meaning: "geothermal gradient", gender: "der", example: { de: "Mittlerer geothermischer Gradient.", en: "Average geothermal gradient." } },
+    { word: "die Reflexionsseismik", phonetic: "re-flek-tsee-ohns-zays-mik", meaning: "reflection seismology", gender: "die", example: { de: "Erdölexploration Reflexionsseismik.", en: "Oil exploration reflection seismology." } },
+    { word: "das Tsunami", phonetic: "tsoo-nah-mi", meaning: "tsunami", gender: "der", example: { de: "Unterwasserbeben erzeugt Tsunami.", en: "Submarine earthquake generates tsunami." } },
+    { word: "die Isostasie", phonetic: "i-zo-stah-zee", meaning: "isostasy", gender: "die", example: { de: "Glazioiostasie nach Eiszeit.", en: "Glacioisostasy after ice age." } },
+  ]}] },
+};
