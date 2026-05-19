@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega113: Record<string, Lesson> = {
+  "la1_m163": { id: "la1_m163", title: "Emotions & Feelings A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "glücklich", phonetic: "glük-likh", meaning: "happy", example: { de: "Ich bin glücklich.", en: "I am happy." } },
+    { word: "traurig", phonetic: "trow-rikh", meaning: "sad", example: { de: "Ich bin traurig.", en: "I am sad." } },
+    { word: "wütend", phonetic: "vü-tent", meaning: "angry", example: { de: "Ich bin wütend.", en: "I am angry." } },
+    { word: "müde", phonetic: "mü-duh", meaning: "tired", example: { de: "Ich bin müde.", en: "I am tired." } },
+    { word: "aufgeregt", phonetic: "owf-geh-regt", meaning: "excited", example: { de: "Ich bin aufgeregt.", en: "I am excited." } },
+    { word: "ängstlich", phonetic: "engst-likh", meaning: "anxious / scared", example: { de: "Ich bin ängstlich.", en: "I am anxious." } },
+    { word: "überrascht", phonetic: "ü-ber-rasht", meaning: "surprised", example: { de: "Ich bin überrascht.", en: "I am surprised." } },
+    { word: "gelangweilt", phonetic: "geh-lang-vylt", meaning: "bored", example: { de: "Ich bin gelangweilt.", en: "I am bored." } },
+    { word: "stolz", phonetic: "shtolts", meaning: "proud", example: { de: "Ich bin stolz.", en: "I am proud." } },
+    { word: "verliebt", phonetic: "fer-leept", meaning: "in love", example: { de: "Ich bin verliebt.", en: "I am in love." } },
+    { word: "einsam", phonetic: "ayn-zahm", meaning: "lonely", example: { de: "Ich fühle mich einsam.", en: "I feel lonely." } },
+    { word: "entspannt", phonetic: "ent-shpant", meaning: "relaxed", example: { de: "Ich bin entspannt.", en: "I am relaxed." } },
+    { word: "nervös", phonetic: "ner-vös", meaning: "nervous", example: { de: "Ich bin nervös.", en: "I am nervous." } },
+    { word: "zufrieden", phonetic: "tsoo-free-den", meaning: "content / satisfied", example: { de: "Ich bin zufrieden.", en: "I am content." } },
+    { word: "dankbar", phonetic: "dank-bar", meaning: "grateful", example: { de: "Ich bin dankbar.", en: "I am grateful." } },
+    { word: "die Liebe", phonetic: "lee-buh", meaning: "love", gender: "die", example: { de: "Ich fühle Liebe.", en: "I feel love." } },
+    { word: "die Freude", phonetic: "froy-duh", meaning: "joy", gender: "die", example: { de: "Große Freude.", en: "Great joy." } },
+    { word: "die Angst", phonetic: "angst", meaning: "fear", gender: "die", example: { de: "Angst vor der Dunkelheit.", en: "Fear of the dark." } },
+    { word: "die Trauer", phonetic: "trow-er", meaning: "grief / sadness", gender: "die", example: { de: "Tiefe Trauer.", en: "Deep grief." } },
+    { word: "sich fühlen", phonetic: "zikh-fü-len", meaning: "to feel (oneself)", example: { de: "Wie fühlen Sie sich?", en: "How do you feel?" } },
+  ]}] },
+};

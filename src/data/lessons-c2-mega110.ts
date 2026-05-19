@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega110: Record<string, Lesson> = {
+  "lc2_m153": { id: "lc2_m153", title: "Derived Algebraic Geometry (Lurie/Toën-Vezzosi) C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die derived algebraic geometry (DAG)", phonetic: "de-rayved-al-ge-bray-ik-gay-oh-me-tree", meaning: "derived algebraic geometry (DAG)", gender: "die", example: { de: "Luries derived algebraic geometry.", en: "Lurie's derived algebraic geometry." } },
+    { word: "das simpliziale kommutative Ring", phonetic: "zim-pli-tsee-ah-luh-ko-moo-ta-tee-vuh-ring", meaning: "simplicial commutative ring", gender: "der", example: { de: "Simplizialer kommutativer Ring.", en: "Simplicial commutative ring." } },
+    { word: "der dg-Ring (differenziell-graduiert)", phonetic: "day-gay-ring", meaning: "dg-ring (differential graded ring)", gender: "der", example: { de: "dg-Ring dg-Algebra.", en: "dg-ring dg-algebra." } },
+    { word: "der Topos (strukturierter ∞-Topos)", phonetic: "to-pos", meaning: "structured ∞-topos", gender: "der", example: { de: "Strukturierter ∞-Topos.", en: "Structured ∞-topos." } },
+    { word: "das Hochschild-Komplex", phonetic: "hokh-shilt-kom-pleks", meaning: "Hochschild complex", gender: "der", example: { de: "Hochschild Kohomologie.", en: "Hochschild cohomology." } },
+    { word: "die Deformationstheorie (DAG)", phonetic: "de-for-ma-tsee-ohns-tay-oh-ree", meaning: "deformation theory (DAG)", gender: "die", example: { de: "Abgeleitete Deformationstheorie.", en: "Derived deformation theory." } },
+    { word: "das PTVV (Pantev-Toën-Vaquié-Vezzosi)", phonetic: "pay-tay-fow-fow", meaning: "PTVV shifted symplectic structures", gender: "die", example: { de: "PTVV verschobene symplektische Strukturen.", en: "PTVV shifted symplectic structures." } },
+    { word: "die verschobene symplektische Struktur (Toën-Vezzosi)", phonetic: "fer-sho-buh-nuh-züm-plek-ti-shuh-shtrook-toor", meaning: "shifted symplectic structure (Toën-Vezzosi)", gender: "die", example: { de: "n-verschobene symplektische Struktur.", en: "n-shifted symplectic structure." } },
+    { word: "der Stack (abgeleiteter)", phonetic: "stek", meaning: "derived stack", gender: "der", example: { de: "Abgeleiteter Modulstack.", en: "Derived moduli stack." } },
+    { word: "das Moduli-Problem (abgeleitet)", phonetic: "mo-doo-lee-pro-blaym", meaning: "derived moduli problem", gender: "das", example: { de: "Abgeleitetes Moduliproblem.", en: "Derived moduli problem." } },
+    { word: "die virtuelle Fundamentalklasse (DAG)", phonetic: "vir-too-e-luh-foon-da-men-tahl-kla-suh", meaning: "virtual fundamental class (DAG)", gender: "die", example: { de: "Virtuelle Fundamentalklasse.", en: "Virtual fundamental class." } },
+    { word: "das Gromov-Witten-Theorie (abgeleitet)", phonetic: "gro-mov-vi-ten-tay-oh-ree", meaning: "derived Gromov-Witten theory", gender: "die", example: { de: "Abgeleitete Gromov-Witten.", en: "Derived Gromov-Witten." } },
+    { word: "die Faktoring-Homologie (Francis)", phonetic: "fak-tor-ing-ho-mo-lo-gee", meaning: "factorisation homology (Francis)", gender: "die", example: { de: "Francis Faktoring-Homologie.", en: "Francis factorisation homology." } },
+    { word: "das topologische Feldtheorie (TFT/TQFT)", phonetic: "to-po-lo-gi-shuh-felt-tay-oh-ree", meaning: "topological field theory (TFT)", gender: "die", example: { de: "Topologische Quantenfeldtheorie TQFT.", en: "Topological quantum field theory TQFT." } },
+    { word: "der Hochschild-Homologie (DAG)", phonetic: "hokh-shilt-ho-mo-lo-gee", meaning: "Hochschild homology (DAG perspective)", gender: "die", example: { de: "Faktoring-Hochschild.", en: "Factorisation-Hochschild." } },
+    { word: "die Cotangent-Komplex (Illusie/Toën)", phonetic: "ko-tan-gent-kom-pleks", meaning: "cotangent complex (Illusie/Toën)", gender: "der", example: { de: "Illusies Cotangent-Komplex.", en: "Illusie's cotangent complex." } },
+    { word: "das Lurie-Jacob (SAG, Spectral Algebraic Geometry)", phonetic: "loo-ree-ya-kop", meaning: "spectral algebraic geometry (Lurie SAG)", gender: "die", example: { de: "Luries spectral algebraic geometry.", en: "Lurie's spectral algebraic geometry." } },
+    { word: "der E_∞-Ring-Spektrum", phonetic: "ey-oon-ent-likh-ring-shpek-trum", meaning: "E_∞-ring spectrum", gender: "das", example: { de: "E_∞-Ring-Spektrum TMF.", en: "E_∞-ring spectrum TMF." } },
+    { word: "das TMF (topological modular forms)", phonetic: "tay-em-ef", meaning: "topological modular forms (TMF)", gender: "das", example: { de: "TMF topologische Modulformen.", en: "TMF topological modular forms." } },
+    { word: "der Rezk-Nerv (∞-Kategorien)", phonetic: "rezk-nerv", meaning: "Rezk nerve / Θ_n-spaces", gender: "der", example: { de: "Rezk-Nerv Θn-Räume.", en: "Rezk nerve Θn-spaces." } },
+  ]}] },
+};

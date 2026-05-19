@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega112: Record<string, Lesson> = {
+  "lb2_m157": { id: "lb2_m157", title: "Formal Logic & Model Theory B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die formale Logik", phonetic: "for-mah-luh-lo-gik", meaning: "formal logic", gender: "die", example: { de: "Mathematische formale Logik.", en: "Mathematical formal logic." } },
+    { word: "die Aussagenlogik", phonetic: "ows-zah-gen-lo-gik", meaning: "propositional logic", gender: "die", example: { de: "Klassische Aussagenlogik.", en: "Classical propositional logic." } },
+    { word: "die Prädikatenlogik", phonetic: "prä-di-ka-ten-lo-gik", meaning: "predicate logic / first-order logic", gender: "die", example: { de: "Prädikatenlogik erster Stufe.", en: "First-order predicate logic." } },
+    { word: "der Allquantor (∀)", phonetic: "al-kvan-tor", meaning: "universal quantifier (∀)", gender: "der", example: { de: "Allquantor ∀x P(x).", en: "Universal quantifier ∀x P(x)." } },
+    { word: "der Existenzquantor (∃)", phonetic: "eks-is-tents-kvan-tor", meaning: "existential quantifier (∃)", gender: "der", example: { de: "Existenzquantor ∃x P(x).", en: "Existential quantifier ∃x P(x)." } },
+    { word: "der Gödelscher Unvollständigkeitssatz", phonetic: "gö-del-shuh-oon-fol-shtend-ikh-kyts-zats", meaning: "Gödel's incompleteness theorem", gender: "der", example: { de: "Gödels Unvollständigkeitssatz 1931.", en: "Gödel's incompleteness theorem 1931." } },
+    { word: "die Entscheidbarkeit (Logik)", phonetic: "ent-shyt-bar-kyte", meaning: "decidability (logic)", gender: "die", example: { de: "Entscheidungsproblem Hilbert.", en: "Hilbert's Entscheidungsproblem." } },
+    { word: "das Modell (Modelltheorie)", phonetic: "mo-del", meaning: "model (model theory)", gender: "das", example: { de: "Standardmodell der Arithmetik.", en: "Standard model of arithmetic." } },
+    { word: "die Modelltheorie", phonetic: "mo-del-tay-oh-ree", meaning: "model theory", gender: "die", example: { de: "Klassische Modelltheorie.", en: "Classical model theory." } },
+    { word: "der Satz von Löwenheim-Skolem", phonetic: "zats-fon-lö-ven-hym-sko-lem", meaning: "Löwenheim-Skolem theorem", gender: "der", example: { de: "Löwenheim-Skolem Abwärtssatz.", en: "Löwenheim-Skolem downward theorem." } },
+    { word: "der Kompaktheitssatz (Logik)", phonetic: "kom-pakt-hyts-zats", meaning: "compactness theorem (logic)", gender: "der", example: { de: "Logischer Kompaktheitssatz.", en: "Logical compactness theorem." } },
+    { word: "die Vollständigkeit (Gödel)", phonetic: "fol-shtend-ikh-kyte", meaning: "completeness (Gödel)", gender: "die", example: { de: "Gödels Vollständigkeitssatz.", en: "Gödel's completeness theorem." } },
+    { word: "der Korrektheitssatz (Logik)", phonetic: "ko-rekt-hyts-zats", meaning: "soundness theorem (logic)", gender: "der", example: { de: "Korrektheitssatz Prädikatenlogik.", en: "Soundness theorem predicate logic." } },
+    { word: "die natürliche Deduktion (Gentzen)", phonetic: "na-tür-li-khuh-de-dook-tsee-ohn", meaning: "natural deduction (Gentzen)", gender: "die", example: { de: "Gentzens natürliche Deduktion.", en: "Gentzen's natural deduction." } },
+    { word: "der Sequenzenkalkül (Gentzen)", phonetic: "ze-kven-tsen-kal-kül", meaning: "sequent calculus (Gentzen)", gender: "der", example: { de: "Gentzens Sequenzenkalkül.", en: "Gentzen's sequent calculus." } },
+    { word: "die Beweistheorie", phonetic: "beh-vys-tay-oh-ree", meaning: "proof theory", gender: "die", example: { de: "Hilbertsche Beweistheorie.", en: "Hilbert's proof theory." } },
+    { word: "die Mengentheorie (ZFC)", phonetic: "men-gen-tay-oh-ree", meaning: "set theory (ZFC)", gender: "die", example: { de: "Zermelo-Fraenkel Mengentheorie.", en: "Zermelo-Fraenkel set theory." } },
+    { word: "das Auswahlaxiom (ZFC)", phonetic: "ows-vahl-ak-see-ohm", meaning: "axiom of choice (ZFC)", gender: "das", example: { de: "Auswahlaxiom ZFC.", en: "Axiom of choice ZFC." } },
+    { word: "die Kontinuumhypothese (Cantor/Cohen)", phonetic: "kon-ti-noo-oom-hü-po-tey-zuh", meaning: "continuum hypothesis (Cantor/Cohen)", gender: "die", example: { de: "Cohens Kontinuumhypothese Unabhängigkeit.", en: "Cohen's independence of CH." } },
+    { word: "die Typentheorie (Russell)", phonetic: "tü-pen-tay-oh-ree", meaning: "type theory (Russell)", gender: "die", example: { de: "Russells Typentheorie.", en: "Russell's type theory." } },
+  ]}] },
+};

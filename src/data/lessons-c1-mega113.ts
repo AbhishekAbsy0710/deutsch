@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega113: Record<string, Lesson> = {
+  "lc1_m159": { id: "lc1_m159", title: "German Literary Theory (Brecht & Benjamin) C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Literaturtheorie", phonetic: "li-te-ra-toor-tay-oh-ree", meaning: "literary theory", gender: "die", example: { de: "Deutsche Literaturtheorie.", en: "German literary theory." } },
+    { word: "das epische Theater (Brecht)", phonetic: "ey-pi-shuh-tay-ah-ter", meaning: "epic theatre (Brecht)", gender: "das", example: { de: "Brechts episches Theater.", en: "Brecht's epic theatre." } },
+    { word: "der Verfremdungseffekt (Brecht)", phonetic: "fer-frem-dungs-e-fekt", meaning: "alienation effect / V-Effekt (Brecht)", gender: "der", example: { de: "Brechts Verfremdungseffekt.", en: "Brecht's alienation effect." } },
+    { word: "das Lehrstück (Brecht)", phonetic: "leyr-shtük", meaning: "learning play / Lehrstück (Brecht)", gender: "das", example: { de: "Brechts Badener Lehrstück.", en: "Brecht's Badener Lehrstück." } },
+    { word: "das Dialektische Theater (Brecht)", phonetic: "di-a-lek-ti-shuh-tay-ah-ter", meaning: "dialectical theatre (Brecht)", gender: "das", example: { de: "Brechts dialektisches Theater.", en: "Brecht's dialectical theatre." } },
+    { word: "die Kunstwerk-im-Zeitalter-der-technischen-Reproduzierbarkeit (Benjamin)", phonetic: "koonst-verk-im-tsy-tal-ter", meaning: "artwork in the age of mechanical reproduction (Benjamin)", gender: "das", example: { de: "Benjamins Kunstwerk-Aufsatz.", en: "Benjamin's artwork essay." } },
+    { word: "die Aura (Benjamin)", phonetic: "ow-rah", meaning: "aura (Benjamin)", gender: "die", example: { de: "Benjamins Aura-Konzept.", en: "Benjamin's aura concept." } },
+    { word: "die Allegorie (Benjamin)", phonetic: "a-le-go-ree", meaning: "allegory (Benjamin)", gender: "die", example: { de: "Benjamins barocke Allegorie.", en: "Benjamin's baroque allegory." } },
+    { word: "die Dialektik im Stillstand (Benjamin)", phonetic: "di-a-lek-tik-im-shtil-shtant", meaning: "dialectics at a standstill (Benjamin)", gender: "die", example: { de: "Benjamins dialektisches Bild.", en: "Benjamin's dialectical image." } },
+    { word: "das Passagen-Werk (Benjamin)", phonetic: "pa-sah-gen-verk", meaning: "Arcades Project (Benjamin)", gender: "das", example: { de: "Benjamins Passagen-Werk.", en: "Benjamin's Arcades Project." } },
+    { word: "der Engel der Geschichte (Benjamin)", phonetic: "en-gel-der-geh-shikh-tuh", meaning: "angel of history (Benjamin)", gender: "der", example: { de: "Benjamins Angelus Novus.", en: "Benjamin's Angelus Novus." } },
+    { word: "die kritische Theorie (Frankfurt)", phonetic: "kri-ti-shuh-tay-oh-ree", meaning: "critical theory (Frankfurt School)", gender: "die", example: { de: "Frankfurter kritische Theorie.", en: "Frankfurt School critical theory." } },
+    { word: "die Dialektik der Aufklärung (Horkheimer/Adorno)", phonetic: "di-a-lek-tik-der-owf-klä-rung", meaning: "Dialectic of Enlightenment (Horkheimer/Adorno)", gender: "die", example: { de: "Horkheimer/Adorno Dialektik.", en: "Horkheimer/Adorno Dialectic." } },
+    { word: "die Kulturindustrie (Adorno/Horkheimer)", phonetic: "kool-toor-in-doos-tree", meaning: "culture industry (Adorno/Horkheimer)", gender: "die", example: { de: "Adorno Kulturindustrie.", en: "Adorno culture industry." } },
+    { word: "das negative Dialektik (Adorno)", phonetic: "ne-ga-tee-vuh-di-a-lek-tik", meaning: "negative dialectics (Adorno)", gender: "die", example: { de: "Adornos negative Dialektik.", en: "Adorno's negative dialectics." } },
+    { word: "die Ästhetische Theorie (Adorno)", phonetic: "es-te-ti-shuh-tay-oh-ree", meaning: "aesthetic theory (Adorno)", gender: "die", example: { de: "Adornos Ästhetische Theorie.", en: "Adorno's aesthetic theory." } },
+    { word: "der Mimesis-Begriff (Adorno)", phonetic: "mi-mey-zis-beh-grif", meaning: "mimesis concept (Adorno)", gender: "der", example: { de: "Adornos Mimesis.", en: "Adorno's mimesis." } },
+    { word: "der Habermas (Diskursethik)", phonetic: "hah-ber-mas", meaning: "Habermas (discourse ethics)", gender: "der", example: { de: "Habermas kommunikatives Handeln.", en: "Habermas communicative action." } },
+    { word: "das Kommunikative Handeln (Habermas)", phonetic: "ko-moo-ni-ka-tee-vuh-hand-eln", meaning: "communicative action (Habermas)", gender: "das", example: { de: "Habermas Theorie kommunikativen Handelns.", en: "Habermas theory of communicative action." } },
+    { word: "die Öffentlichkeit (Habermas)", phonetic: "öf-fent-likh-kyte", meaning: "public sphere (Habermas)", gender: "die", example: { de: "Habermas bürgerliche Öffentlichkeit.", en: "Habermas public sphere." } },
+  ]}] },
+};

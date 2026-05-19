@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega110: Record<string, Lesson> = {
+  "la2_m155": { id: "la2_m155", title: "Travel Phrases & Tourism A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "Wo ist ...?", phonetic: "vo-ist", meaning: "Where is ...?", example: { de: "Wo ist der Bahnhof?", en: "Where is the station?" } },
+    { word: "Wie komme ich zu ...?", phonetic: "vee-ko-muh-ikh-tsoo", meaning: "How do I get to ...?", example: { de: "Wie komme ich zum Hotel?", en: "How do I get to the hotel?" } },
+    { word: "geradeaus", phonetic: "geh-rah-deh-ows", meaning: "straight ahead", example: { de: "Geradeaus gehen.", en: "Go straight ahead." } },
+    { word: "links abbiegen", phonetic: "links-ap-bee-gen", meaning: "turn left", example: { de: "Links abbiegen.", en: "Turn left." } },
+    { word: "rechts abbiegen", phonetic: "rekhts-ap-bee-gen", meaning: "turn right", example: { de: "Rechts abbiegen.", en: "Turn right." } },
+    { word: "das Hotel", phonetic: "ho-tel", meaning: "hotel", gender: "das", example: { de: "Hotel buchen.", en: "Book a hotel." } },
+    { word: "das Zimmer (Hotel)", phonetic: "tsi-mer", meaning: "room (hotel)", gender: "das", example: { de: "Ein Zimmer reservieren.", en: "Reserve a room." } },
+    { word: "die Rezeption", phonetic: "re-tsep-tsee-ohn", meaning: "reception (hotel)", gender: "die", example: { de: "An der Rezeption.", en: "At reception." } },
+    { word: "einchecken", phonetic: "ayn-che-ken", meaning: "to check in", example: { de: "Im Hotel einchecken.", en: "Check in at the hotel." } },
+    { word: "auschecken", phonetic: "ows-che-ken", meaning: "to check out", example: { de: "Um 11 Uhr auschecken.", en: "Check out at 11 o'clock." } },
+    { word: "der Flughafen", phonetic: "flook-hah-fen", meaning: "airport", gender: "der", example: { de: "Zum Flughafen fahren.", en: "Drive to the airport." } },
+    { word: "der Flug", phonetic: "flook", meaning: "flight", gender: "der", example: { de: "Flug buchen.", en: "Book a flight." } },
+    { word: "der Reisepass", phonetic: "ry-zuh-pas", meaning: "passport", gender: "der", example: { de: "Reisepass zeigen.", en: "Show passport." } },
+    { word: "das Visum", phonetic: "vee-zoom", meaning: "visa", gender: "das", example: { de: "Visum beantragen.", en: "Apply for a visa." } },
+    { word: "der Koffer", phonetic: "ko-fer", meaning: "suitcase", gender: "der", example: { de: "Koffer packen.", en: "Pack the suitcase." } },
+    { word: "die Sehenswürdigkeit", phonetic: "zay-ens-vür-dikh-kyte", meaning: "tourist attraction / sight", gender: "die", example: { de: "Sehenswürdigkeiten besichtigen.", en: "Visit tourist attractions." } },
+    { word: "die Touristeninformation", phonetic: "too-ris-ten-in-for-ma-tsee-ohn", meaning: "tourist information", gender: "die", example: { de: "Touristeninformation besuchen.", en: "Visit tourist information." } },
+    { word: "die Reiseversicherung", phonetic: "ry-zuh-fer-zi-khe-rung", meaning: "travel insurance", gender: "die", example: { de: "Reiseversicherung kaufen.", en: "Buy travel insurance." } },
+    { word: "die Währung", phonetic: "vey-rung", meaning: "currency", gender: "die", example: { de: "Lokale Währung.", en: "Local currency." } },
+    { word: "Gute Reise!", phonetic: "goo-tuh-ry-zuh", meaning: "Have a good trip!", example: { de: "Gute Reise!", en: "Have a good trip!" } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega109: Record<string, Lesson> = {
+  "lc2_m152": { id: "lc2_m152", title: "∞-Categories & Higher Topos Theory (Lurie) C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Unendlichkeitskategorie (∞-Kategorie)", phonetic: "oon-ent-likh-kyts-ka-te-go-ree", meaning: "∞-category (infinity category)", gender: "die", example: { de: "Luries ∞-Kategorie.", en: "Lurie's ∞-category." } },
+    { word: "das quasi-Kategorie (Joyal)", phonetic: "kva-zee-ka-te-go-ree", meaning: "quasi-category (Joyal)", gender: "die", example: { de: "Joyals quasi-Kategorie.", en: "Joyal's quasi-category." } },
+    { word: "das Kan-Komplex", phonetic: "kan-kom-pleks", meaning: "Kan complex", gender: "der", example: { de: "Kan-Komplex ∞-Gruppoide.", en: "Kan complex ∞-groupoid." } },
+    { word: "der Simplex (simpliziale Menge)", phonetic: "zim-pleks", meaning: "simplex / simplicial set", gender: "der", example: { de: "Simplizialer Nerv Kategorie.", en: "Simplicial nerve of category." } },
+    { word: "die simpliziale Menge", phonetic: "zim-pli-tsee-ah-luh-men-guh", meaning: "simplicial set", gender: "die", example: { de: "Simpliziale Menge Δ.", en: "Simplicial set Δ." } },
+    { word: "der ∞-Topos (Lurie)", phonetic: "oon-ent-likh-to-pos", meaning: "∞-topos (Lurie)", gender: "der", example: { de: "Luries ∞-Topos.", en: "Lurie's ∞-topos." } },
+    { word: "das Higher Topos Theory (HTT)", phonetic: "hy-er-to-pos-tay-oh-ree", meaning: "Higher Topos Theory (Lurie, HTT)", gender: "die", example: { de: "Luries Higher Topos Theory.", en: "Lurie's Higher Topos Theory." } },
+    { word: "die Higher Algebra (HA)", phonetic: "hy-er-al-ge-brah", meaning: "Higher Algebra (Lurie, HA)", gender: "die", example: { de: "Luries Higher Algebra.", en: "Lurie's Higher Algebra." } },
+    { word: "der Spektrum (∞-Kategorien)", phonetic: "shpek-trum", meaning: "spectrum (∞-categories)", gender: "das", example: { de: "Stabile ∞-Kategorie Spektren.", en: "Stable ∞-category spectra." } },
+    { word: "die E_n-Algebra (∞-Operaden)", phonetic: "ey-en-al-ge-brah", meaning: "E_n-algebra (∞-operads)", gender: "die", example: { de: "E_∞-Algebra kommutativ.", en: "E_∞-algebra commutative." } },
+    { word: "der Kobordismus (∞-Kategorien)", phonetic: "ko-bor-dis-mus", meaning: "cobordism (∞-categories)", gender: "der", example: { de: "Lurie Kobordismus-Hypothese.", en: "Lurie cobordism hypothesis." } },
+    { word: "die Kobordismushypothese (Lurie)", phonetic: "ko-bor-dis-mus-hü-po-tey-zuh", meaning: "cobordism hypothesis (Lurie)", gender: "die", example: { de: "Luries Kobordismushypothese.", en: "Lurie's cobordism hypothesis." } },
+    { word: "die Adjunktion (∞-Kategorien)", phonetic: "at-yoonk-tsee-ohn", meaning: "adjunction (∞-categories)", gender: "die", example: { de: "∞-kategorielle Adjunktion.", en: "∞-categorical adjunction." } },
+    { word: "der Joyal-Modellstruktur", phonetic: "zho-yahl-mo-del-shtruk-toor", meaning: "Joyal model structure (simplicial sets)", gender: "die", example: { de: "Joyals Modellstruktur auf sSet.", en: "Joyal's model structure on sSet." } },
+    { word: "die Homotopietheorie (Quillen)", phonetic: "ho-mo-to-pee-tay-oh-ree", meaning: "homotopy theory (Quillen)", gender: "die", example: { de: "Quillens Modellkategorie.", en: "Quillen's model category." } },
+    { word: "die Yoneda-Einbettung (∞-Kategorie)", phonetic: "yo-ne-dah-ayn-be-tung", meaning: "Yoneda embedding (∞-categories)", gender: "die", example: { de: "∞-kategorielle Yoneda-Einbettung.", en: "∞-categorical Yoneda embedding." } },
+    { word: "die Colimit (∞-Kategorien)", phonetic: "ko-li-mit", meaning: "colimit (∞-categories)", gender: "der", example: { de: "∞-kategorielle Colimit.", en: "∞-categorical colimit." } },
+    { word: "das Descent (∞-Topos)", phonetic: "de-sent", meaning: "descent (∞-topos)", gender: "das", example: { de: "∞-topos Descent.", en: "∞-topos descent." } },
+    { word: "die Homotopy Type Theory (HoTT)", phonetic: "ho-mo-to-pee-tüp-tay-oh-ree", meaning: "homotopy type theory (HoTT)", gender: "die", example: { de: "HoTT Univalenz-Axiom.", en: "HoTT univalence axiom." } },
+    { word: "das Univalenz-Axiom (Voevodsky/HoTT)", phonetic: "oo-ni-va-lents-ak-see-ohm", meaning: "univalence axiom (Voevodsky/HoTT)", gender: "das", example: { de: "Voevodskys Univalenz-Axiom.", en: "Voevodsky's univalence axiom." } },
+  ]}] },
+};

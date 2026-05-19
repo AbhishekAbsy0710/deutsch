@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega113: Record<string, Lesson> = {
+  "lb2_m158": { id: "lb2_m158", title: "Fluid Dynamics & Continuum Mechanics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Strömungsmechanik", phonetic: "shtrö-mungs-me-kha-nik", meaning: "fluid dynamics / mechanics", gender: "die", example: { de: "Theoretische Strömungsmechanik.", en: "Theoretical fluid dynamics." } },
+    { word: "die Kontinuumsmechanik", phonetic: "kon-ti-noo-oms-me-kha-nik", meaning: "continuum mechanics", gender: "die", example: { de: "Angewandte Kontinuumsmechanik.", en: "Applied continuum mechanics." } },
+    { word: "die Navier-Stokes-Gleichungen", phonetic: "na-vee-ey-shtoks-gly-khung-en", meaning: "Navier-Stokes equations", example: { de: "Navier-Stokes Gleichungen.", en: "Navier-Stokes equations." } },
+    { word: "die laminare Strömung", phonetic: "la-mi-nah-ruh-shtrö-mung", meaning: "laminar flow", gender: "die", example: { de: "Laminare Rohrströmung.", en: "Laminar pipe flow." } },
+    { word: "die turbulente Strömung", phonetic: "toor-boo-len-tuh-shtrö-mung", meaning: "turbulent flow", gender: "die", example: { de: "Turbulente Grenzschicht.", en: "Turbulent boundary layer." } },
+    { word: "die Reynolds-Zahl", phonetic: "rey-nolds-tsahl", meaning: "Reynolds number", gender: "die", example: { de: "Reynolds-Zahl Re.", en: "Reynolds number Re." } },
+    { word: "die Viskosität", phonetic: "vis-ko-zi-tayt", meaning: "viscosity", gender: "die", example: { de: "Dynamische Viskosität.", en: "Dynamic viscosity." } },
+    { word: "der Druckgradient", phonetic: "drook-gra-dee-ent", meaning: "pressure gradient", gender: "der", example: { de: "Axialer Druckgradient.", en: "Axial pressure gradient." } },
+    { word: "die Grenzschicht (Prandtl)", phonetic: "grents-shikht", meaning: "boundary layer (Prandtl)", gender: "die", example: { de: "Prandtlsche Grenzschicht.", en: "Prandtl boundary layer." } },
+    { word: "die Kontinuitätsgleichung", phonetic: "kon-ti-noo-i-tayts-gly-khung", meaning: "continuity equation", gender: "die", example: { de: "Kontinuitätsgleichung Masse.", en: "Continuity equation mass." } },
+    { word: "die Bernoulli-Gleichung", phonetic: "ber-noo-lee-gly-khung", meaning: "Bernoulli equation", gender: "die", example: { de: "Bernoulli Druckgleichung.", en: "Bernoulli pressure equation." } },
+    { word: "der Auftrieb (Aerodynamik)", phonetic: "owf-treep", meaning: "lift (aerodynamics)", gender: "der", example: { de: "Aerodynamischer Auftrieb.", en: "Aerodynamic lift." } },
+    { word: "der Widerstand (Aerodynamik)", phonetic: "vi-der-shtant", meaning: "drag (aerodynamics)", gender: "der", example: { de: "Aerodynamischer Widerstand.", en: "Aerodynamic drag." } },
+    { word: "der Spannungstensor", phonetic: "shpa-nungs-ten-zor", meaning: "stress tensor", gender: "der", example: { de: "Cauchy Spannungstensor.", en: "Cauchy stress tensor." } },
+    { word: "der Deformationstensor", phonetic: "de-for-ma-tsee-ohns-ten-zor", meaning: "deformation tensor", gender: "der", example: { de: "Green Deformationstensor.", en: "Green deformation tensor." } },
+    { word: "das Hooksche Gesetz", phonetic: "hook-shuh-geh-sets", meaning: "Hooke's law (elasticity)", gender: "das", example: { de: "Hooksche Gesetz Elastizität.", en: "Hooke's law elasticity." } },
+    { word: "die Elastizität (Kontinuumsmechanik)", phonetic: "e-las-ti-tsi-tayt", meaning: "elasticity (continuum)", gender: "die", example: { de: "Lineare Elastizitätstheorie.", en: "Linear elasticity theory." } },
+    { word: "die Plastizität (Kontinuumsmechanik)", phonetic: "plas-ti-tsi-tayt", meaning: "plasticity (continuum)", gender: "die", example: { de: "Elastoplastisches Materialverhalten.", en: "Elastoplastic material behaviour." } },
+    { word: "der Mach-Zahl", phonetic: "makh-tsahl", meaning: "Mach number", gender: "die", example: { de: "Mach-Zahl Ma=1 Schall.", en: "Mach number Ma=1 sound." } },
+    { word: "die Schockwelle", phonetic: "shok-ve-luh", meaning: "shock wave", gender: "die", example: { de: "Supersonische Schockwelle.", en: "Supersonic shock wave." } },
+  ]}] },
+};

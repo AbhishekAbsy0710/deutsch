@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega114: Record<string, Lesson> = {
+  "lb1_m165": { id: "lb1_m165", title: "Political Science & Governance B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Politikwissenschaft", phonetic: "po-li-tik-vi-sen-shaft", meaning: "political science", gender: "die", example: { de: "Empirische Politikwissenschaft.", en: "Empirical political science." } },
+    { word: "die Regierung", phonetic: "reh-gee-rung", meaning: "government", gender: "die", example: { de: "Bundesregierung.", en: "Federal government." } },
+    { word: "das Parlament", phonetic: "par-la-ment", meaning: "parliament", gender: "das", example: { de: "Europäisches Parlament.", en: "European Parliament." } },
+    { word: "die Verfassung", phonetic: "fer-fa-sung", meaning: "constitution", gender: "die", example: { de: "Deutsche Verfassung Grundgesetz.", en: "German constitution Basic Law." } },
+    { word: "das Grundgesetz (Deutschland)", phonetic: "groont-geh-sets", meaning: "Basic Law (Germany)", gender: "das", example: { de: "Deutsches Grundgesetz 1949.", en: "German Basic Law 1949." } },
+    { word: "die Partei", phonetic: "par-ty", meaning: "political party", gender: "die", example: { de: "Politische Partei gründen.", en: "Found a political party." } },
+    { word: "die Wahl", phonetic: "vahl", meaning: "election", gender: "die", example: { de: "Bundestagswahl.", en: "Federal election." } },
+    { word: "der Bundeskanzler / die Bundeskanzlerin", phonetic: "boon-des-kants-ler", meaning: "Federal Chancellor (m/f)", gender: "der", example: { de: "Bundeskanzler Regierung.", en: "Federal Chancellor government." } },
+    { word: "der Bundespräsident", phonetic: "boon-des-prä-zi-dent", meaning: "Federal President", gender: "der", example: { de: "Bundespräsident Deutschland.", en: "German Federal President." } },
+    { word: "der Föderalismus", phonetic: "fö-de-ra-lis-mus", meaning: "federalism", gender: "der", example: { de: "Deutsches föderales System.", en: "German federal system." } },
+    { word: "die Gewaltenteilung", phonetic: "geh-val-ten-ty-lung", meaning: "separation of powers", gender: "die", example: { de: "Gewaltenteilung Legislative/Exekutive.", en: "Separation of powers legislative/executive." } },
+    { word: "die Legislative", phonetic: "le-gis-la-tee-vuh", meaning: "legislature", gender: "die", example: { de: "Legislative gesetzgebende Gewalt.", en: "Legislative law-making power." } },
+    { word: "die Exekutive", phonetic: "eks-e-koo-tee-vuh", meaning: "executive", gender: "die", example: { de: "Exekutive ausführende Gewalt.", en: "Executive power." } },
+    { word: "die Judikative", phonetic: "yoo-di-ka-tee-vuh", meaning: "judiciary", gender: "die", example: { de: "Judikative richterliche Gewalt.", en: "Judicial power." } },
+    { word: "der Rechtsstaat", phonetic: "rekhts-shtaht", meaning: "rule of law state", gender: "der", example: { de: "Demokratischer Rechtsstaat.", en: "Democratic rule-of-law state." } },
+    { word: "die Bürgerrechte", phonetic: "bür-ger-rekh-tuh", meaning: "civil rights", example: { de: "Bürgerrechte schützen.", en: "Protect civil rights." } },
+    { word: "die Menschenrechte", phonetic: "men-shen-rekh-tuh", meaning: "human rights", example: { de: "UN-Menschenrechte.", en: "UN human rights." } },
+    { word: "die Opposition", phonetic: "o-po-zi-tsee-ohn", meaning: "opposition (politics)", gender: "die", example: { de: "Parlamentarische Opposition.", en: "Parliamentary opposition." } },
+    { word: "der Lobbyismus", phonetic: "lo-bi-is-mus", meaning: "lobbying", gender: "der", example: { de: "Politischer Lobbyismus.", en: "Political lobbying." } },
+    { word: "die Propaganda", phonetic: "pro-pa-gan-dah", meaning: "propaganda", gender: "die", example: { de: "Staatliche Propaganda.", en: "State propaganda." } },
+  ]}] },
+};

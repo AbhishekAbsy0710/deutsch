@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega111: Record<string, Lesson> = {
+  "lc1_m157": { id: "lc1_m157", title: "Formal Semantics (Montague) C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die formale Semantik", phonetic: "for-mah-luh-ze-man-tik", meaning: "formal semantics", gender: "die", example: { de: "Montague formale Semantik.", en: "Montague formal semantics." } },
+    { word: "der Wahrheitswert", phonetic: "vahr-hytes-vairt", meaning: "truth value", gender: "der", example: { de: "Wahrheitswert wahr/falsch.", en: "Truth value true/false." } },
+    { word: "die mögliche Welt (Kripke)", phonetic: "mög-li-khuh-velt", meaning: "possible world (Kripke)", gender: "die", example: { de: "Kripkes mögliche Welten.", en: "Kripke's possible worlds." } },
+    { word: "die Modallogik", phonetic: "mo-dahl-lo-gik", meaning: "modal logic", gender: "die", example: { de: "Kripke-Rahmen Modallogik.", en: "Kripke frame modal logic." } },
+    { word: "der Notwendigkeitsoperator (□)", phonetic: "not-ven-dikh-kyts-o-pe-ra-tor", meaning: "necessity operator (□)", gender: "der", example: { de: "□P notwendig wahr.", en: "□P necessarily true." } },
+    { word: "der Möglichkeitsoperator (◇)", phonetic: "mög-likh-kyts-o-pe-ra-tor", meaning: "possibility operator (◇)", gender: "der", example: { de: "◇P möglicherweise wahr.", en: "◇P possibly true." } },
+    { word: "die Montague-Grammatik", phonetic: "mon-ta-gü-gra-ma-tik", meaning: "Montague grammar", gender: "die", example: { de: "Montague PTQ-Grammatik.", en: "Montague PTQ grammar." } },
+    { word: "die intensionale Logik", phonetic: "in-ten-zee-oh-nah-luh-lo-gik", meaning: "intensional logic", gender: "die", example: { de: "Montagues intensionale Logik.", en: "Montague's intensional logic." } },
+    { word: "die Extension / Intension (Semantik)", phonetic: "eks-ten-zee-ohn-in-ten-zee-ohn", meaning: "extension / intension (semantics)", gender: "die", example: { de: "Freges Sinn und Bedeutung.", en: "Frege's sense and reference." } },
+    { word: "der Lambda-Kalkül (Semantik)", phonetic: "lam-dah-kal-kül", meaning: "lambda calculus (semantics)", gender: "der", example: { de: "Church Lambda-Kalkül.", en: "Church lambda calculus." } },
+    { word: "die Typenlogik (Montague)", phonetic: "tü-pen-lo-gik", meaning: "type logic / type theory (Montague)", gender: "die", example: { de: "Montague Typenlogik.", en: "Montague type logic." } },
+    { word: "die generalisierte Quantoren (GQ-Theorie)", phonetic: "ge-ne-ra-li-zeer-tuh-kvan-to-ren", meaning: "generalised quantifiers (GQ theory)", example: { de: "Barwise-Cooper GQ-Theorie.", en: "Barwise-Cooper GQ theory." } },
+    { word: "der semantische Kompositionsprinzip", phonetic: "ze-man-ti-shuh-kom-po-zee-tsee-ohns-prin-tseep", meaning: "principle of compositionality", gender: "das", example: { de: "Freges Kompositionalitätsprinzip.", en: "Frege's principle of compositionality." } },
+    { word: "die Ereignissemantik (Davidson)", phonetic: "er-ayg-nis-ze-man-tik", meaning: "event semantics (Davidson)", gender: "die", example: { de: "Davidsons Ereignissemantik.", en: "Davidson's event semantics." } },
+    { word: "die Diskursrepräsentationstheorie (DRT)", phonetic: "dis-koors-re-prä-zen-ta-tsee-ohns-tay-oh-ree", meaning: "discourse representation theory (DRT)", gender: "die", example: { de: "Kamp DRT.", en: "Kamp's DRT." } },
+    { word: "die Situation Semantics (Barwise/Perry)", phonetic: "si-too-a-tsee-ohns-ze-man-tik", meaning: "situation semantics (Barwise/Perry)", gender: "die", example: { de: "Barwise-Perry Situation Semantics.", en: "Barwise-Perry situation semantics." } },
+    { word: "die lexikalische Semantik (formale)", phonetic: "lek-si-ka-li-shuh-ze-man-tik", meaning: "lexical semantics (formal)", gender: "die", example: { de: "Formale lexikalische Semantik.", en: "Formal lexical semantics." } },
+    { word: "das Implikaturgitter (Horn-Skala)", phonetic: "im-pli-ka-toor-gi-ter", meaning: "implicature lattice (Horn scale)", gender: "das", example: { de: "Horns skalare Implikatur.", en: "Horn's scalar implicature." } },
+    { word: "die Pluralsemantics (Link)", phonetic: "ploo-rahl-ze-man-tiks", meaning: "plural semantics (Link)", gender: "die", example: { de: "Links Pluralsemantics.", en: "Link's plural semantics." } },
+    { word: "die Temporallogik / Tense Logic (Prior)", phonetic: "tem-po-rahl-lo-gik", meaning: "tense logic (Prior)", gender: "die", example: { de: "Priors Temporallogik.", en: "Prior's tense logic." } },
+  ]}] },
+};

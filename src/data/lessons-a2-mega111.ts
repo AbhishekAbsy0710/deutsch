@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega111: Record<string, Lesson> = {
+  "la2_m156": { id: "la2_m156", title: "Relationships & Social Life A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "der Freund / die Freundin", phonetic: "froynt", meaning: "friend (m/f) / boyfriend/girlfriend", gender: "der", example: { de: "Mein bester Freund.", en: "My best friend." } },
+    { word: "der Bekannte / die Bekannte", phonetic: "beh-kan-tuh", meaning: "acquaintance (m/f)", gender: "der", example: { de: "Ein Bekannter von mir.", en: "An acquaintance of mine." } },
+    { word: "der Partner / die Partnerin", phonetic: "part-ner", meaning: "partner (m/f)", gender: "der", example: { de: "Mein Lebenspartner.", en: "My life partner." } },
+    { word: "heiraten", phonetic: "hy-rah-ten", meaning: "to marry", example: { de: "Im Sommer heiraten.", en: "Get married in summer." } },
+    { word: "die Hochzeit", phonetic: "hokh-tsyt", meaning: "wedding", gender: "die", example: { de: "Eine schöne Hochzeit.", en: "A beautiful wedding." } },
+    { word: "sich verloben", phonetic: "zikh-fer-lo-ben", meaning: "to get engaged", example: { de: "Sie verloben sich.", en: "They get engaged." } },
+    { word: "sich trennen", phonetic: "zikh-tre-nen", meaning: "to break up / separate", example: { de: "Sie trennen sich.", en: "They break up." } },
+    { word: "die Scheidung", phonetic: "shy-dung", meaning: "divorce", gender: "die", example: { de: "Scheidung einreichen.", en: "File for divorce." } },
+    { word: "einladen", phonetic: "ayn-lah-den", meaning: "to invite", example: { de: "Freunde einladen.", en: "Invite friends." } },
+    { word: "die Einladung", phonetic: "ayn-lah-dung", meaning: "invitation", gender: "die", example: { de: "Einladung annehmen.", en: "Accept an invitation." } },
+    { word: "die Party", phonetic: "par-tee", meaning: "party", gender: "die", example: { de: "Party feiern.", en: "Celebrate at a party." } },
+    { word: "sich treffen", phonetic: "zikh-tre-fen", meaning: "to meet (each other)", example: { de: "Wir treffen uns.", en: "We meet each other." } },
+    { word: "plaudern", phonetic: "plow-dern", meaning: "to chat / gossip", example: { de: "Über alles plaudern.", en: "Chat about everything." } },
+    { word: "streiten", phonetic: "shty-ten", meaning: "to argue / quarrel", example: { de: "Nicht streiten.", en: "Don't argue." } },
+    { word: "sich versöhnen", phonetic: "zikh-fer-zö-nen", meaning: "to reconcile", example: { de: "Sich nach dem Streit versöhnen.", en: "Reconcile after the argument." } },
+    { word: "die Nachbarschaft", phonetic: "nakh-bar-shaft", meaning: "neighbourhood", gender: "die", example: { de: "Gute Nachbarschaft.", en: "Good neighbourhood." } },
+    { word: "der Nachbar / die Nachbarin", phonetic: "nakh-bar", meaning: "neighbour (m/f)", gender: "der", example: { de: "Netter Nachbar.", en: "Nice neighbour." } },
+    { word: "teilen", phonetic: "ty-len", meaning: "to share", example: { de: "Mit anderen teilen.", en: "Share with others." } },
+    { word: "helfen", phonetic: "hel-fen", meaning: "to help", example: { de: "Anderen helfen.", en: "Help others." } },
+    { word: "zusammen", phonetic: "tsoo-za-men", meaning: "together", example: { de: "Zusammen essen.", en: "Eat together." } },
+  ]}] },
+};

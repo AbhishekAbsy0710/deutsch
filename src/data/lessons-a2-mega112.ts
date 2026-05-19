@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega112: Record<string, Lesson> = {
+  "la2_m157": { id: "la2_m157", title: "Health & the Human Body A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "gesund", phonetic: "geh-zoont", meaning: "healthy", example: { de: "Gesund leben.", en: "Live healthily." } },
+    { word: "die Gesundheit", phonetic: "geh-zoont-hyte", meaning: "health", gender: "die", example: { de: "Gesundheit ist wichtig.", en: "Health is important." } },
+    { word: "das Rezept (Arzt)", phonetic: "re-tsept", meaning: "prescription (doctor)", gender: "das", example: { de: "Rezept ausstellen.", en: "Write a prescription." } },
+    { word: "die Apotheke", phonetic: "a-po-tay-kuh", meaning: "pharmacy", gender: "die", example: { de: "Medikamente aus der Apotheke.", en: "Medicines from the pharmacy." } },
+    { word: "die Tablette", phonetic: "ta-ble-tuh", meaning: "tablet / pill", gender: "die", example: { de: "Tablette einnehmen.", en: "Take a tablet." } },
+    { word: "der Hustensaft", phonetic: "hoos-ten-zaft", meaning: "cough syrup", gender: "der", example: { de: "Hustensaft trinken.", en: "Drink cough syrup." } },
+    { word: "der Blutdruck", phonetic: "bloot-drook", meaning: "blood pressure", gender: "der", example: { de: "Hoher Blutdruck.", en: "High blood pressure." } },
+    { word: "das Blut", phonetic: "bloot", meaning: "blood", gender: "das", example: { de: "Blut spenden.", en: "Donate blood." } },
+    { word: "die Allergie", phonetic: "a-ler-gee", meaning: "allergy", gender: "die", example: { de: "Pollenallergie.", en: "Pollen allergy." } },
+    { word: "die Operation", phonetic: "o-pe-ra-tsee-ohn", meaning: "operation / surgery", gender: "die", example: { de: "Operation durchführen.", en: "Perform an operation." } },
+    { word: "der Arzttermin", phonetic: "artst-ter-meen", meaning: "doctor's appointment", gender: "der", example: { de: "Arzttermin vereinbaren.", en: "Make a doctor's appointment." } },
+    { word: "das Röntgen", phonetic: "rönt-gen", meaning: "X-ray", gender: "das", example: { de: "Röntgenbild machen.", en: "Take an X-ray." } },
+    { word: "die Krankenkasse", phonetic: "kran-ken-ka-suh", meaning: "health insurance fund (Germany)", gender: "die", example: { de: "Krankenkasse bezahlt.", en: "Health insurance pays." } },
+    { word: "der Krankenschein", phonetic: "kran-ken-shyn", meaning: "sick note", gender: "der", example: { de: "Krankenschein holen.", en: "Get a sick note." } },
+    { word: "krank sein", phonetic: "krank-zayn", meaning: "to be ill", example: { de: "Ich bin krank.", en: "I am ill." } },
+    { word: "sich erholen", phonetic: "zikh-er-ho-len", meaning: "to recover / rest", example: { de: "Sich vom Stress erholen.", en: "Recover from stress." } },
+    { word: "Sport treiben", phonetic: "shport-try-ben", meaning: "to do sport / exercise", example: { de: "Regelmäßig Sport treiben.", en: "Do sport regularly." } },
+    { word: "die Diät", phonetic: "di-eyt", meaning: "diet", gender: "die", example: { de: "Diät machen.", en: "Go on a diet." } },
+    { word: "schlafen", phonetic: "shlah-fen", meaning: "to sleep", example: { de: "Gut schlafen.", en: "Sleep well." } },
+    { word: "das Wohlbefinden", phonetic: "vohl-beh-fin-den", meaning: "well-being", gender: "das", example: { de: "Allgemeines Wohlbefinden.", en: "General well-being." } },
+  ]}] },
+};

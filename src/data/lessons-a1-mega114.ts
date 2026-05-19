@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega114: Record<string, Lesson> = {
+  "la1_m164": { id: "la1_m164", title: "Prepositions & Directions A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "in", phonetic: "in", meaning: "in / into", example: { de: "Im Haus.", en: "In the house." } },
+    { word: "auf", phonetic: "owf", meaning: "on / onto", example: { de: "Auf dem Tisch.", en: "On the table." } },
+    { word: "unter", phonetic: "oon-ter", meaning: "under / beneath", example: { de: "Unter dem Bett.", en: "Under the bed." } },
+    { word: "über", phonetic: "ü-ber", meaning: "over / above", example: { de: "Über der Tür.", en: "Above the door." } },
+    { word: "neben", phonetic: "nay-ben", meaning: "next to / beside", example: { de: "Neben dem Fenster.", en: "Next to the window." } },
+    { word: "vor", phonetic: "for", meaning: "in front of / before", example: { de: "Vor dem Haus.", en: "In front of the house." } },
+    { word: "hinter", phonetic: "hin-ter", meaning: "behind", example: { de: "Hinter dem Baum.", en: "Behind the tree." } },
+    { word: "zwischen", phonetic: "tsvi-shen", meaning: "between", example: { de: "Zwischen den Häusern.", en: "Between the houses." } },
+    { word: "bei", phonetic: "by", meaning: "at / near / with", example: { de: "Bei der Bank.", en: "Near the bank." } },
+    { word: "mit", phonetic: "mit", meaning: "with", example: { de: "Mit dem Bus.", en: "By bus." } },
+    { word: "ohne", phonetic: "oh-nuh", meaning: "without", example: { de: "Ohne Zucker.", en: "Without sugar." } },
+    { word: "für", phonetic: "für", meaning: "for", example: { de: "Für dich.", en: "For you." } },
+    { word: "gegen", phonetic: "gay-gen", meaning: "against", example: { de: "Gegen den Wind.", en: "Against the wind." } },
+    { word: "durch", phonetic: "doorkh", meaning: "through", example: { de: "Durch den Park.", en: "Through the park." } },
+    { word: "nach", phonetic: "nakh", meaning: "after / to (city)", example: { de: "Nach Berlin.", en: "To Berlin." } },
+    { word: "zu", phonetic: "tsoo", meaning: "to / towards", example: { de: "Zum Bahnhof.", en: "To the station." } },
+    { word: "von", phonetic: "fon", meaning: "from / of", example: { de: "Von Berlin.", en: "From Berlin." } },
+    { word: "aus", phonetic: "ows", meaning: "from / out of", example: { de: "Aus Deutschland.", en: "From Germany." } },
+    { word: "an", phonetic: "an", meaning: "at (a surface)", example: { de: "An der Wand.", en: "On the wall." } },
+    { word: "gegenüber", phonetic: "gay-gen-ü-ber", meaning: "opposite / across from", example: { de: "Gegenüber dem Kino.", en: "Across from the cinema." } },
+  ]}] },
+};

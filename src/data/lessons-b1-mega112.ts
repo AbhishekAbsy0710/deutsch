@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega112: Record<string, Lesson> = {
+  "lb1_m163": { id: "lb1_m163", title: "Sociology of Education B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Bildungssoziologie", phonetic: "bil-dungs-zo-tsee-oh-lo-gee", meaning: "sociology of education", gender: "die", example: { de: "Bildungssoziologische Forschung.", en: "Sociology of education research." } },
+    { word: "das Bildungssystem", phonetic: "bil-dungs-züs-tem", meaning: "education system", gender: "das", example: { de: "Deutsches Bildungssystem.", en: "German education system." } },
+    { word: "die Bildungsungleichheit", phonetic: "bil-dungs-oon-glyakh-hyte", meaning: "educational inequality", gender: "die", example: { de: "Soziale Bildungsungleichheit.", en: "Social educational inequality." } },
+    { word: "das soziale Kapital (Bourdieu)", phonetic: "zo-tsee-ah-luh-ka-pi-tahl", meaning: "social capital (Bourdieu)", gender: "das", example: { de: "Bourdieus soziales Kapital.", en: "Bourdieu's social capital." } },
+    { word: "das kulturelle Kapital (Bourdieu)", phonetic: "kool-too-rel-luh-ka-pi-tahl", meaning: "cultural capital (Bourdieu)", gender: "das", example: { de: "Kulturelles Kapital Bourdieu.", en: "Bourdieu's cultural capital." } },
+    { word: "der Habitus (Bourdieu)", phonetic: "ha-bi-tus", meaning: "habitus (Bourdieu)", gender: "der", example: { de: "Bourdieus Habitus-Konzept.", en: "Bourdieu's habitus concept." } },
+    { word: "die Chancengleichheit", phonetic: "khan-tsen-glyakh-hyte", meaning: "equal opportunity", gender: "die", example: { de: "Chancengleichheit im Bildungssystem.", en: "Equal opportunity in education." } },
+    { word: "die Bildungsarmut", phonetic: "bil-dungs-ar-moot", meaning: "educational poverty", gender: "die", example: { de: "Bildungsarmut bekämpfen.", en: "Combat educational poverty." } },
+    { word: "die Inklusion (Bildung)", phonetic: "in-kloo-zee-ohn", meaning: "inclusion (education)", gender: "die", example: { de: "Schulische Inklusion.", en: "Educational inclusion." } },
+    { word: "die Bildungsgerechtigkeit", phonetic: "bil-dungs-geh-rekh-tikh-kyte", meaning: "educational justice", gender: "die", example: { de: "Bildungsgerechtigkeit fördern.", en: "Promote educational justice." } },
+    { word: "der PISA-Test (Schulleistung)", phonetic: "pee-zah-test", meaning: "PISA test (school performance)", gender: "der", example: { de: "PISA-Schulleistungsvergleich.", en: "PISA school performance comparison." } },
+    { word: "die Schulpflicht", phonetic: "shool-pflikt", meaning: "compulsory schooling", gender: "die", example: { de: "Allgemeine Schulpflicht.", en: "Compulsory schooling." } },
+    { word: "die Privatschule", phonetic: "pri-vaht-shoo-luh", meaning: "private school", gender: "die", example: { de: "Teure Privatschule.", en: "Expensive private school." } },
+    { word: "das Stipendium", phonetic: "shti-pen-dee-oom", meaning: "scholarship / stipend", gender: "das", example: { de: "Stipendium erhalten.", en: "Receive a scholarship." } },
+    { word: "die frühkindliche Bildung", phonetic: "frü-kint-li-khuh-bil-dung", meaning: "early childhood education", gender: "die", example: { de: "Frühkindliche Bildung fördern.", en: "Promote early childhood education." } },
+    { word: "die Alphabetisierung", phonetic: "al-fa-be-ti-zee-rung", meaning: "literacy education", gender: "die", example: { de: "Grundlegende Alphabetisierung.", en: "Basic literacy education." } },
+    { word: "das digitale Lernen", phonetic: "di-gi-tah-luh-ler-nen", meaning: "digital learning", gender: "das", example: { de: "Digitales Lernen in Schulen.", en: "Digital learning in schools." } },
+    { word: "die Bildungspolitik", phonetic: "bil-dungs-po-li-tik", meaning: "education policy", gender: "die", example: { de: "Nationale Bildungspolitik.", en: "National education policy." } },
+    { word: "der Nachhilfeunterricht", phonetic: "nakh-hil-fuh-oon-ter-rikht", meaning: "private tutoring", gender: "der", example: { de: "Nachhilfeunterricht nehmen.", en: "Take private tutoring." } },
+    { word: "die Lernbehinderung", phonetic: "lern-beh-hin-de-rung", meaning: "learning disability", gender: "die", example: { de: "Lernbehinderung fördern.", en: "Support learning disability." } },
+  ]}] },
+};

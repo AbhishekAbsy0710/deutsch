@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega109: Record<string, Lesson> = {
+  "la2_m154": { id: "la2_m154", title: "Environment & Climate A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Umwelt", phonetic: "oom-velt", meaning: "environment", gender: "die", example: { de: "Umwelt schützen.", en: "Protect the environment." } },
+    { word: "der Klimawandel", phonetic: "klee-mah-van-del", meaning: "climate change", gender: "der", example: { de: "Klimawandel bekämpfen.", en: "Combat climate change." } },
+    { word: "die Umweltverschmutzung", phonetic: "oom-velt-fer-shmoo-tsung", meaning: "environmental pollution", gender: "die", example: { de: "Luft-Umweltverschmutzung.", en: "Air pollution." } },
+    { word: "recyceln", phonetic: "re-tsü-keln", meaning: "to recycle", example: { de: "Papier recyceln.", en: "Recycle paper." } },
+    { word: "die Mülltrennung", phonetic: "mül-tren-nung", meaning: "waste separation", gender: "die", example: { de: "Mülltrennung praktizieren.", en: "Practice waste separation." } },
+    { word: "erneuerbare Energien", phonetic: "er-noy-er-bah-ruh-e-ner-gee-en", meaning: "renewable energies", example: { de: "Erneuerbare Energien nutzen.", en: "Use renewable energies." } },
+    { word: "die Solarenergie", phonetic: "zo-lar-e-ner-gee", meaning: "solar energy", gender: "die", example: { de: "Solarenergie gewinnen.", en: "Harness solar energy." } },
+    { word: "die Windenergie", phonetic: "vint-e-ner-gee", meaning: "wind energy", gender: "die", example: { de: "Windenergie erzeugen.", en: "Generate wind energy." } },
+    { word: "die Treibhausgase", phonetic: "tryp-hows-gah-zuh", meaning: "greenhouse gases", example: { de: "Treibhausgase reduzieren.", en: "Reduce greenhouse gases." } },
+    { word: "das CO₂ (Kohlendioxid)", phonetic: "tsay-oh-tsvy", meaning: "CO₂ (carbon dioxide)", gender: "das", example: { de: "CO₂-Emissionen senken.", en: "Reduce CO₂ emissions." } },
+    { word: "der Energieverbrauch", phonetic: "e-ner-gee-fer-browkh", meaning: "energy consumption", gender: "der", example: { de: "Energieverbrauch senken.", en: "Reduce energy consumption." } },
+    { word: "umweltfreundlich", phonetic: "oom-velt-froyndlikh", meaning: "eco-friendly", example: { de: "Umweltfreundliches Produkt.", en: "Eco-friendly product." } },
+    { word: "biologisch abbaubar", phonetic: "bi-oh-lo-gish-ap-bow-bar", meaning: "biodegradable", example: { de: "Biologisch abbaubare Verpackung.", en: "Biodegradable packaging." } },
+    { word: "die Plastiktüte", phonetic: "plas-tik-tü-tuh", meaning: "plastic bag", gender: "die", example: { de: "Keine Plastiktüten.", en: "No plastic bags." } },
+    { word: "sparen (Energie/Wasser)", phonetic: "shpah-ren", meaning: "to save (energy/water)", example: { de: "Energie und Wasser sparen.", en: "Save energy and water." } },
+    { word: "der öffentliche Nahverkehr", phonetic: "öf-fent-li-khuh-nah-fer-keyr", meaning: "public transport", gender: "der", example: { de: "Öffentlichen Nahverkehr nutzen.", en: "Use public transport." } },
+    { word: "die Nachhaltigkeit", phonetic: "nakh-hal-tikh-kyte", meaning: "sustainability", gender: "die", example: { de: "Nachhaltige Entwicklung.", en: "Sustainable development." } },
+    { word: "das Naturschutzgebiet", phonetic: "na-toor-shoots-geh-beet", meaning: "nature reserve", gender: "das", example: { de: "Naturschutzgebiet besuchen.", en: "Visit a nature reserve." } },
+    { word: "der Fleischkonsum", phonetic: "flysh-kon-zoom", meaning: "meat consumption", gender: "der", example: { de: "Fleischkonsum reduzieren.", en: "Reduce meat consumption." } },
+    { word: "vegan / vegetarisch", phonetic: "ve-gahn-ve-ge-tah-rish", meaning: "vegan / vegetarian", example: { de: "Vegan oder vegetarisch essen.", en: "Eat vegan or vegetarian." } },
+  ]}] },
+};

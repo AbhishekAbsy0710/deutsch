@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega112: Record<string, Lesson> = {
+  "lc1_m158": { id: "lc1_m158", title: "Philosophy of Language C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Sprachphilosophie", phonetic: "shprahkh-fi-lo-zo-fee", meaning: "philosophy of language", gender: "die", example: { de: "Analytische Sprachphilosophie.", en: "Analytic philosophy of language." } },
+    { word: "die Bedeutung (Frege)", phonetic: "beh-doy-tung", meaning: "reference / Bedeutung (Frege)", gender: "die", example: { de: "Freges Sinn und Bedeutung.", en: "Frege's Sinn and Bedeutung." } },
+    { word: "der Sinn (Frege)", phonetic: "zin", meaning: "sense / Sinn (Frege)", gender: "der", example: { de: "Freges Sinn des Ausdrucks.", en: "Frege's sense of expression." } },
+    { word: "die beschreibende Theorie (Russell)", phonetic: "beh-shry-ben-duh-tay-oh-ree", meaning: "theory of descriptions (Russell)", gender: "die", example: { de: "Russells Kennzeichnungstheorie.", en: "Russell's theory of descriptions." } },
+    { word: "der logische Eigennamen (Kripke)", phonetic: "lo-gi-shuh-ayg-en-nah-men", meaning: "rigid designator (Kripke)", gender: "der", example: { de: "Kripkes starrer Designator.", en: "Kripke's rigid designator." } },
+    { word: "die Kausaltheorie der Referenz (Kripke)", phonetic: "kow-zahl-tay-oh-ree-der-re-fe-rents", meaning: "causal theory of reference (Kripke)", gender: "die", example: { de: "Kripkes Kausaltheorie.", en: "Kripke's causal theory." } },
+    { word: "der Tractatus Logico-Philosophicus (Wittgenstein)", phonetic: "trak-tah-tus-lo-gi-ko-fi-lo-zo-fi-kus", meaning: "Tractatus (early Wittgenstein)", gender: "der", example: { de: "Wittgensteins Tractatus.", en: "Wittgenstein's Tractatus." } },
+    { word: "das Bild der Wirklichkeit (Wittgenstein)", phonetic: "bilt-der-virk-likh-kyte", meaning: "picture theory of meaning (early Wittgenstein)", gender: "das", example: { de: "Wittgensteins Bildtheorie.", en: "Wittgenstein's picture theory." } },
+    { word: "das Sprachspiel (Wittgenstein)", phonetic: "shprahkh-shpeel", meaning: "language game (Wittgenstein)", gender: "das", example: { de: "Wittgensteins Sprachspiele.", en: "Wittgenstein's language games." } },
+    { word: "die Privatsprache (Wittgenstein)", phonetic: "pri-vaht-shprah-khuh", meaning: "private language argument (Wittgenstein)", gender: "die", example: { de: "Wittgensteins Privatsprache-Argument.", en: "Wittgenstein's private language argument." } },
+    { word: "die Lebensform (Wittgenstein)", phonetic: "lay-bens-form", meaning: "form of life (Wittgenstein)", gender: "die", example: { de: "Wittgensteins Lebensform.", en: "Wittgenstein's form of life." } },
+    { word: "der logische Atomismus (Russell/early Wittgenstein)", phonetic: "lo-gi-shuh-a-to-mis-mus", meaning: "logical atomism (Russell/early Wittgenstein)", gender: "der", example: { de: "Russells logischer Atomismus.", en: "Russell's logical atomism." } },
+    { word: "die analytische Philosophie", phonetic: "a-na-lü-ti-shuh-fi-lo-zo-fee", meaning: "analytic philosophy", gender: "die", example: { de: "Englischsprachige analytische Philosophie.", en: "Anglo-American analytic philosophy." } },
+    { word: "die ordinary language philosophy (Austin/Ryle)", phonetic: "or-di-ne-ri-lang-gwidsh-fi-lo-so-fee", meaning: "ordinary language philosophy (Austin/Ryle)", gender: "die", example: { de: "Austins Alltagssprachphilosophie.", en: "Austin's ordinary language philosophy." } },
+    { word: "die Bedeutungstheorie (Semantik)", phonetic: "beh-doy-tungs-tay-oh-ree", meaning: "theory of meaning (semantics)", gender: "die", example: { de: "Wahrheitskonditionelle Bedeutungstheorie.", en: "Truth-conditional theory of meaning." } },
+    { word: "die Interpretationstheorie (Davidson)", phonetic: "in-ter-pre-ta-tsee-ohns-tay-oh-ree", meaning: "theory of interpretation (Davidson)", gender: "die", example: { de: "Davidsons radikale Interpretation.", en: "Davidson's radical interpretation." } },
+    { word: "das Mentalese (Fodor)", phonetic: "men-ta-leez", meaning: "language of thought / Mentalese (Fodor)", gender: "das", example: { de: "Fodors Mentalese Gedankensprache.", en: "Fodor's Mentalese language of thought." } },
+    { word: "der Externalismus (Putnam/Burge)", phonetic: "eks-ter-na-lis-mus", meaning: "externalism (Putnam/Burge)", gender: "der", example: { de: "Putnams semantischer Externalismus.", en: "Putnam's semantic externalism." } },
+    { word: "der Internalismus (Chomsky)", phonetic: "in-ter-na-lis-mus", meaning: "internalism (Chomsky)", gender: "der", example: { de: "Chomskys sprachlicher Internalismus.", en: "Chomsky's linguistic internalism." } },
+    { word: "das leere Zeichen (Saussure)", phonetic: "lay-ruh-tsy-khen", meaning: "arbitrary sign (Saussure)", gender: "das", example: { de: "Saussures arbiträres Zeichen.", en: "Saussure's arbitrary sign." } },
+  ]}] },
+};

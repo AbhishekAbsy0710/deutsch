@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega111: Record<string, Lesson> = {
+  "lb2_m156": { id: "lb2_m156", title: "Quantum Computing & Quantum Chemistry B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Quantencomputing", phonetic: "kvan-ten-kom-pyoo-ting", meaning: "quantum computing", gender: "das", example: { de: "Skalierung des Quantencomputings.", en: "Scaling of quantum computing." } },
+    { word: "das Qubit", phonetic: "koo-bit", meaning: "qubit (quantum bit)", gender: "das", example: { de: "Supraleitendes Qubit.", en: "Superconducting qubit." } },
+    { word: "die Superposition (Quanten)", phonetic: "zoo-per-po-zee-tsee-ohn", meaning: "superposition (quantum)", gender: "die", example: { de: "Quantenmechanische Superposition.", en: "Quantum mechanical superposition." } },
+    { word: "die Verschränkung (Quanten)", phonetic: "fer-shrenk-ung", meaning: "entanglement (quantum)", gender: "die", example: { de: "Quantenverschränkung.", en: "Quantum entanglement." } },
+    { word: "die Quantengatter", phonetic: "kvan-ten-ga-ter", meaning: "quantum gates", example: { de: "Hadamard-Quantengatter.", en: "Hadamard quantum gate." } },
+    { word: "der Shor-Algorithmus", phonetic: "shor-al-go-rit-mus", meaning: "Shor's algorithm (factoring)", gender: "der", example: { de: "Shors Faktorisierungsalgorithmus.", en: "Shor's factoring algorithm." } },
+    { word: "der Grover-Algorithmus", phonetic: "gro-ver-al-go-rit-mus", meaning: "Grover's algorithm (search)", gender: "der", example: { de: "Grovers Suchalgorithmus.", en: "Grover's search algorithm." } },
+    { word: "die Quantenfehlerkorrektur", phonetic: "kvan-ten-fey-ler-ko-rek-toor", meaning: "quantum error correction", gender: "die", example: { de: "Surface-Code Quantenfehlerkorrektur.", en: "Surface code quantum error correction." } },
+    { word: "das Quantenrauschen (Decoherence)", phonetic: "kvan-ten-row-shen", meaning: "quantum decoherence / noise", gender: "das", example: { de: "Quantendecoherence Rauschen.", en: "Quantum decoherence noise." } },
+    { word: "die Quantenchemie", phonetic: "kvan-ten-khuh-mee", meaning: "quantum chemistry", gender: "die", example: { de: "Ab-initio Quantenchemie.", en: "Ab initio quantum chemistry." } },
+    { word: "die Schrödinger-Gleichung (Molekül)", phonetic: "shröd-ing-er-gly-khung", meaning: "Schrödinger equation (molecular)", gender: "die", example: { de: "Elektronische Schrödinger-Gleichung.", en: "Electronic Schrödinger equation." } },
+    { word: "die Hartree-Fock-Methode", phonetic: "har-tree-fok-me-to-duh", meaning: "Hartree-Fock method", gender: "die", example: { de: "Hartree-Fock-Annäherung.", en: "Hartree-Fock approximation." } },
+    { word: "die Dichtefunktionaltheorie (DFT)", phonetic: "dikh-tuh-foonk-tsee-oh-nahl-tay-oh-ree", meaning: "density functional theory (DFT)", gender: "die", example: { de: "Kohn-Sham-DFT.", en: "Kohn-Sham DFT." } },
+    { word: "das Molekülorbital", phonetic: "mo-le-kül-or-bi-tahl", meaning: "molecular orbital", gender: "das", example: { de: "Bindungs-Molekülorbital.", en: "Bonding molecular orbital." } },
+    { word: "die HOMO-LUMO-Lücke", phonetic: "ho-mo-loo-mo-lü-kuh", meaning: "HOMO-LUMO gap", gender: "die", example: { de: "HOMO-LUMO-Lücke Reaktivität.", en: "HOMO-LUMO gap reactivity." } },
+    { word: "das VQE (Variational Quantum Eigensolver)", phonetic: "fow-koo-ey", meaning: "variational quantum eigensolver (VQE)", gender: "der", example: { de: "VQE Quantenchemie.", en: "VQE quantum chemistry." } },
+    { word: "das QAOA (Quantenoptimierung)", phonetic: "koo-ah-oh-ah", meaning: "QAOA (quantum approximate optimisation)", gender: "der", example: { de: "QAOA Kombinatorische Optimierung.", en: "QAOA combinatorial optimisation." } },
+    { word: "der Quantenvorteil (quantum advantage)", phonetic: "kvan-ten-for-tyl", meaning: "quantum advantage", gender: "der", example: { de: "Quantenvorteil über Klassik.", en: "Quantum advantage over classical." } },
+    { word: "der Quantensimulator", phonetic: "kvan-ten-zi-moo-la-tor", meaning: "quantum simulator", gender: "der", example: { de: "Quantensimulator Vielkörper.", en: "Quantum simulator many-body." } },
+    { word: "die topologische Quanteninformationsverarbeitung", phonetic: "to-po-lo-gi-shuh-kvan-ten-in-for-ma-tsee-ohns-fer-ar-by-tung", meaning: "topological quantum computing", gender: "die", example: { de: "Majorana topologisches Quantencomputing.", en: "Majorana topological quantum computing." } },
+  ]}] },
+};

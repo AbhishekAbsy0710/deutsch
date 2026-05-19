@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega113: Record<string, Lesson> = {
+  "lb1_m164": { id: "lb1_m164", title: "Arts & Architecture B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Architektur", phonetic: "ar-khi-tek-toor", meaning: "architecture", gender: "die", example: { de: "Gotische Architektur.", en: "Gothic architecture." } },
+    { word: "die Kunst", phonetic: "koonst", meaning: "art", gender: "die", example: { de: "Moderne Kunst.", en: "Modern art." } },
+    { word: "das Gemälde", phonetic: "geh-mell-duh", meaning: "painting", gender: "das", example: { de: "Ölgemälde.", en: "Oil painting." } },
+    { word: "die Skulptur", phonetic: "skoolp-toor", meaning: "sculpture", gender: "die", example: { de: "Marmorskuptur.", en: "Marble sculpture." } },
+    { word: "das Museum", phonetic: "moo-zay-oom", meaning: "museum", gender: "das", example: { de: "Kunstmuseum besuchen.", en: "Visit an art museum." } },
+    { word: "die Galerie", phonetic: "ga-le-ree", meaning: "gallery", gender: "die", example: { de: "Kunstgalerie.", en: "Art gallery." } },
+    { word: "die Renaissance (Epoche)", phonetic: "re-ne-sans", meaning: "Renaissance (period)", gender: "die", example: { de: "Italienische Renaissance.", en: "Italian Renaissance." } },
+    { word: "der Barock (Epoche)", phonetic: "ba-rok", meaning: "Baroque (period)", gender: "der", example: { de: "Deutschen Barock.", en: "German Baroque." } },
+    { word: "der Impressionismus", phonetic: "im-pres-see-oh-nis-mus", meaning: "Impressionism", gender: "der", example: { de: "Monet Impressionismus.", en: "Monet Impressionism." } },
+    { word: "der Expressionismus", phonetic: "eks-pres-see-oh-nis-mus", meaning: "Expressionism", gender: "der", example: { de: "Deutscher Expressionismus.", en: "German Expressionism." } },
+    { word: "das Bauhaus (Stil)", phonetic: "bow-hows", meaning: "Bauhaus (style)", gender: "das", example: { de: "Bauhaus-Designschule.", en: "Bauhaus design school." } },
+    { word: "die Gotik (Architektur)", phonetic: "go-tik", meaning: "Gothic (architecture)", gender: "die", example: { de: "Gotische Kathedrale.", en: "Gothic cathedral." } },
+    { word: "das Fresco", phonetic: "fres-ko", meaning: "fresco (wall painting)", gender: "das", example: { de: "Sixtinisches Kapelle Fresco.", en: "Sistine Chapel fresco." } },
+    { word: "die Perspektive (Kunst)", phonetic: "per-spek-tee-vuh", meaning: "perspective (art)", gender: "die", example: { de: "Lineare Perspektive.", en: "Linear perspective." } },
+    { word: "der Künstler / die Künstlerin", phonetic: "künst-ler", meaning: "artist (m/f)", gender: "der", example: { de: "Bekannter Künstler.", en: "Famous artist." } },
+    { word: "der Architekt / die Architektin", phonetic: "ar-khi-tekt", meaning: "architect (m/f)", gender: "der", example: { de: "Berühmter Architekt.", en: "Famous architect." } },
+    { word: "die Ausstellung", phonetic: "ows-shte-lung", meaning: "exhibition", gender: "die", example: { de: "Kunstausstellung besuchen.", en: "Visit an art exhibition." } },
+    { word: "das Denkmal", phonetic: "denk-mahl", meaning: "monument / memorial", gender: "das", example: { de: "Nationales Denkmal.", en: "National monument." } },
+    { word: "die Oper", phonetic: "oh-per", meaning: "opera", gender: "die", example: { de: "Wagner-Oper.", en: "Wagner opera." } },
+    { word: "das Theater", phonetic: "tay-ah-ter", meaning: "theatre", gender: "das", example: { de: "Theater spielen.", en: "Act in the theatre." } },
+  ]}] },
+};

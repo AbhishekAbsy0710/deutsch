@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega115: Record<string, Lesson> = {
+  "lb1_m166": { id: "lb1_m166", title: "Cultural Anthropology B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Kulturanthropologie", phonetic: "kool-toor-an-tro-po-lo-gee", meaning: "cultural anthropology", gender: "die", example: { de: "Amerikanische Kulturanthropologie.", en: "American cultural anthropology." } },
+    { word: "die Ethnographie", phonetic: "et-no-gra-fee", meaning: "ethnography", gender: "die", example: { de: "Teilnehmende ethnographische Beobachtung.", en: "Participant ethnographic observation." } },
+    { word: "die Feldforschung", phonetic: "felt-for-shung", meaning: "fieldwork", gender: "die", example: { de: "Anthropologische Feldforschung.", en: "Anthropological fieldwork." } },
+    { word: "die Kultur (Anthropologie)", phonetic: "kool-toor", meaning: "culture (anthropology)", gender: "die", example: { de: "Kulturelle Praxis.", en: "Cultural practice." } },
+    { word: "der Mythos", phonetic: "mü-tos", meaning: "myth", gender: "der", example: { de: "Gründungsmythos.", en: "Foundation myth." } },
+    { word: "das Ritual", phonetic: "ri-too-ahl", meaning: "ritual", gender: "das", example: { de: "Religiöses Ritual.", en: "Religious ritual." } },
+    { word: "das Tabu", phonetic: "ta-boo", meaning: "taboo", gender: "das", example: { de: "Kulturelles Tabu.", en: "Cultural taboo." } },
+    { word: "der Strukturalismus (Lévi-Strauss)", phonetic: "shtrook-too-ra-lis-mus", meaning: "structuralism (Lévi-Strauss)", gender: "der", example: { de: "Lévi-Strauss Strukturalismus.", en: "Lévi-Strauss structuralism." } },
+    { word: "die Verwandtschaft (Anthropologie)", phonetic: "fer-vant-shaft", meaning: "kinship (anthropology)", gender: "die", example: { de: "Verwandtschaftssysteme.", en: "Kinship systems." } },
+    { word: "der Totemismus", phonetic: "to-te-mis-mus", meaning: "totemism", gender: "der", example: { de: "Indigener Totemismus.", en: "Indigenous totemism." } },
+    { word: "das Geschenk (Mauss)", phonetic: "geh-shenk", meaning: "gift exchange (Mauss)", gender: "das", example: { de: "Maussches Gabe-Konzept.", en: "Mauss's gift concept." } },
+    { word: "die Akkulturation", phonetic: "a-kool-too-ra-tsee-ohn", meaning: "acculturation", gender: "die", example: { de: "Kulturelle Akkulturation.", en: "Cultural acculturation." } },
+    { word: "der Ethnozentrismus", phonetic: "et-no-tsen-tris-mus", meaning: "ethnocentrism", gender: "der", example: { de: "Kultureller Ethnozentrismus.", en: "Cultural ethnocentrism." } },
+    { word: "der Kulturrelativismus", phonetic: "kool-toor-re-la-ti-vis-mus", meaning: "cultural relativism (Boas)", gender: "der", example: { de: "Boas Kulturrelativismus.", en: "Boas cultural relativism." } },
+    { word: "der Schamanismus", phonetic: "sha-ma-nis-mus", meaning: "shamanism", gender: "der", example: { de: "Sibirischer Schamanismus.", en: "Siberian shamanism." } },
+    { word: "die Initiation (Anthropologie)", phonetic: "i-ni-tsee-a-tsee-ohn", meaning: "initiation (anthropology)", gender: "die", example: { de: "Initiationsriten.", en: "Initiation rites." } },
+    { word: "der Übergang (Rites of Passage)", phonetic: "ü-ber-gang", meaning: "rites of passage (van Gennep)", gender: "der", example: { de: "Van Genneps Übergangsriten.", en: "Van Gennep's rites of passage." } },
+    { word: "die Oralliteratur", phonetic: "o-rahl-li-te-ra-toor", meaning: "oral literature", gender: "die", example: { de: "Mündliche Oralliteratur.", en: "Oral literature." } },
+    { word: "die Globalisierung (Kultur)", phonetic: "glo-ba-li-zee-rung", meaning: "globalisation (culture)", gender: "die", example: { de: "Kulturelle Globalisierung.", en: "Cultural globalisation." } },
+    { word: "die Hybridität (Bhabha)", phonetic: "hü-bri-di-tayt", meaning: "cultural hybridity (Bhabha)", gender: "die", example: { de: "Bhabhas kulturelle Hybridität.", en: "Bhabha's cultural hybridity." } },
+  ]}] },
+};

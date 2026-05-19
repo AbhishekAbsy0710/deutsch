@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega110: Record<string, Lesson> = {
+  "lc1_m156": { id: "lc1_m156", title: "Rhetoric & Argumentation Theory C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Rhetorik", phonetic: "rey-to-rik", meaning: "rhetoric", gender: "die", example: { de: "Klassische aristotelische Rhetorik.", en: "Classical Aristotelian rhetoric." } },
+    { word: "das Ethos (Aristoteles)", phonetic: "ey-tos", meaning: "ethos (Aristotle)", gender: "das", example: { de: "Aristoteles Ethos Glaubwürdigkeit.", en: "Aristotle's ethos credibility." } },
+    { word: "das Pathos (Aristoteles)", phonetic: "pah-tos", meaning: "pathos (Aristotle)", gender: "das", example: { de: "Aristoteles Pathos Emotion.", en: "Aristotle's pathos emotion." } },
+    { word: "der Logos (Aristoteles)", phonetic: "lo-gos", meaning: "logos (Aristotle)", gender: "der", example: { de: "Aristoteles Logos Vernunft.", en: "Aristotle's logos reason." } },
+    { word: "die Argumentation", phonetic: "ar-goo-men-ta-tsee-ohn", meaning: "argumentation", gender: "die", example: { de: "Deduktive Argumentation.", en: "Deductive argumentation." } },
+    { word: "das Argument", phonetic: "ar-goo-ment", meaning: "argument", gender: "das", example: { de: "Valides Argument.", en: "Valid argument." } },
+    { word: "die These", phonetic: "tay-zuh", meaning: "thesis / claim", gender: "die", example: { de: "Zentrale These.", en: "Central thesis." } },
+    { word: "das Gegenargument", phonetic: "gay-gen-ar-goo-ment", meaning: "counter-argument", gender: "das", example: { de: "Gegenargument entkräften.", en: "Rebut counter-argument." } },
+    { word: "der Trugschluss (Fehlschluss)", phonetic: "trook-shloos", meaning: "fallacy", gender: "der", example: { de: "Ad hominem Fehlschluss.", en: "Ad hominem fallacy." } },
+    { word: "der Strohmann-Fehlschluss", phonetic: "shtroh-man-feyl-shloos", meaning: "straw man fallacy", gender: "der", example: { de: "Strohmann-Argumentation.", en: "Straw man argumentation." } },
+    { word: "der Ad-hominem-Angriff", phonetic: "at-ho-mi-nem-an-grif", meaning: "ad hominem attack", gender: "der", example: { de: "Ad-hominem-Angriff vermeiden.", en: "Avoid ad hominem attack." } },
+    { word: "der Syllogismus (Logik)", phonetic: "züllo-gis-mus", meaning: "syllogism (logic)", gender: "der", example: { de: "Aristotelischer Syllogismus.", en: "Aristotelian syllogism." } },
+    { word: "die deduktive Schlussfolgerung", phonetic: "de-dook-tee-vuh-shloos-fol-geh-rung", meaning: "deductive inference", gender: "die", example: { de: "Modus ponens Deduktion.", en: "Modus ponens deduction." } },
+    { word: "die induktive Schlussfolgerung", phonetic: "in-dook-tee-vuh-shloos-fol-geh-rung", meaning: "inductive inference", gender: "die", example: { de: "Statistische Induktion.", en: "Statistical induction." } },
+    { word: "die abduktive Schlussfolgerung (Peirce)", phonetic: "ap-dook-tee-vuh-shloos-fol-geh-rung", meaning: "abductive inference (Peirce)", gender: "die", example: { de: "Peirces abduktive Schlussfolgerung.", en: "Peirce's abductive inference." } },
+    { word: "das Toulmin-Schema", phonetic: "tool-min-shay-mah", meaning: "Toulmin's argumentation model", gender: "das", example: { de: "Toulmins Argumentationsschema.", en: "Toulmin's argumentation schema." } },
+    { word: "die dialektische Argumentation (Hegel)", phonetic: "di-a-lek-ti-shuh-ar-goo-men-ta-tsee-ohn", meaning: "dialectical argumentation (Hegel)", gender: "die", example: { de: "Hegels These-Antithese-Synthese.", en: "Hegel's thesis-antithesis-synthesis." } },
+    { word: "die Überzeugung (Rhetorik)", phonetic: "ü-ber-tsoy-gung", meaning: "persuasion (rhetoric)", gender: "die", example: { de: "Rhetorische Überzeugung.", en: "Rhetorical persuasion." } },
+    { word: "die Widerlegung", phonetic: "vi-der-lay-gung", meaning: "refutation", gender: "die", example: { de: "Logische Widerlegung.", en: "Logical refutation." } },
+    { word: "die Nouvelle Rhétorique (Perelman)", phonetic: "noo-vel-rey-to-rik", meaning: "new rhetoric (Perelman/Olbrechts-Tyteca)", gender: "die", example: { de: "Perelmans neue Rhetorik.", en: "Perelman's new rhetoric." } },
+  ]}] },
+};

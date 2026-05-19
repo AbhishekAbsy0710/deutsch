@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega111: Record<string, Lesson> = {
+  "la1_m161": { id: "la1_m161", title: "Numbers 100–1000 & Ordinals A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "hundert", phonetic: "hoon-dert", meaning: "one hundred (100)", example: { de: "Hundert Euro.", en: "One hundred euros." } },
+    { word: "zweihundert", phonetic: "tsvy-hoon-dert", meaning: "two hundred (200)", example: { de: "Zweihundert Meter.", en: "Two hundred metres." } },
+    { word: "dreihundert", phonetic: "dry-hoon-dert", meaning: "three hundred (300)", example: { de: "Dreihundert Seiten.", en: "Three hundred pages." } },
+    { word: "vierhundert", phonetic: "feer-hoon-dert", meaning: "four hundred (400)", example: { de: "Vierhundert Kilometer.", en: "Four hundred kilometres." } },
+    { word: "fünfhundert", phonetic: "fünf-hoon-dert", meaning: "five hundred (500)", example: { de: "Fünfhundert Wörter.", en: "Five hundred words." } },
+    { word: "sechshundert", phonetic: "zeks-hoon-dert", meaning: "six hundred (600)", example: { de: "Sechshundert Gramm.", en: "Six hundred grams." } },
+    { word: "siebenhundert", phonetic: "zee-ben-hoon-dert", meaning: "seven hundred (700)", example: { de: "Siebenhundert Jahre.", en: "Seven hundred years." } },
+    { word: "achthundert", phonetic: "akh-hoon-dert", meaning: "eight hundred (800)", example: { de: "Achthundert Schüler.", en: "Eight hundred students." } },
+    { word: "neunhundert", phonetic: "noyn-hoon-dert", meaning: "nine hundred (900)", example: { de: "Neunhundert Einwohner.", en: "Nine hundred inhabitants." } },
+    { word: "tausend", phonetic: "tow-zent", meaning: "one thousand (1000)", example: { de: "Tausend Mal.", en: "One thousand times." } },
+    { word: "der erste / die erste / das erste", phonetic: "ers-tuh", meaning: "first (1st)", example: { de: "Der erste Tag.", en: "The first day." } },
+    { word: "der zweite", phonetic: "tsvy-tuh", meaning: "second (2nd)", example: { de: "Das zweite Kind.", en: "The second child." } },
+    { word: "der dritte", phonetic: "dri-tuh", meaning: "third (3rd)", example: { de: "Die dritte Woche.", en: "The third week." } },
+    { word: "der vierte", phonetic: "feer-tuh", meaning: "fourth (4th)", example: { de: "Das vierte Mal.", en: "The fourth time." } },
+    { word: "der fünfte", phonetic: "fünf-tuh", meaning: "fifth (5th)", example: { de: "Die fünfte Klasse.", en: "The fifth class." } },
+    { word: "der sechste", phonetic: "zeks-tuh", meaning: "sixth (6th)", example: { de: "Der sechste April.", en: "The sixth of April." } },
+    { word: "der siebte", phonetic: "zeep-tuh", meaning: "seventh (7th)", example: { de: "Der siebte Himmel.", en: "Seventh heaven." } },
+    { word: "der achte", phonetic: "akh-tuh", meaning: "eighth (8th)", example: { de: "Der achte März.", en: "The eighth of March." } },
+    { word: "der neunte", phonetic: "noyn-tuh", meaning: "ninth (9th)", example: { de: "Der neunte November.", en: "The ninth of November." } },
+    { word: "der zehnte", phonetic: "tsayn-tuh", meaning: "tenth (10th)", example: { de: "Der zehnte Platz.", en: "Tenth place." } },
+  ]}] },
+};

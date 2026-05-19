@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega108: Record<string, Lesson> = {
+  "lc2_m151": { id: "lc2_m151", title: "Motivic Cohomology & K-theory (Voevodsky) C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die motivische Kohomologie (Voevodsky)", phonetic: "mo-ti-vi-shuh-ko-ho-mo-lo-gee", meaning: "motivic cohomology (Voevodsky)", gender: "die", example: { de: "Voevodskys motivische Kohomologie.", en: "Voevodsky's motivic cohomology." } },
+    { word: "das Motiv (algebraische Geometrie)", phonetic: "mo-teef", meaning: "motive (algebraic geometry)", gender: "das", example: { de: "Reiner Motiv M(X).", en: "Pure motive M(X)." } },
+    { word: "die Chow-Gruppe", phonetic: "chow-groo-puh", meaning: "Chow group", gender: "die", example: { de: "Chow-Gruppe CH^n(X).", en: "Chow group CH^n(X)." } },
+    { word: "die algebraische K-Theorie (Quillen)", phonetic: "al-ge-bray-i-shuh-kah-tay-oh-ree", meaning: "algebraic K-theory (Quillen)", gender: "die", example: { de: "Quillens algebraische K-Theorie.", en: "Quillen's algebraic K-theory." } },
+    { word: "die Milnor-K-Theorie", phonetic: "mil-nor-kah-tay-oh-ree", meaning: "Milnor K-theory", gender: "die", example: { de: "Milnor K-Theorie Symbole.", en: "Milnor K-theory symbols." } },
+    { word: "der Bloch-Kato-Vermutung", phonetic: "blokh-kah-to-fer-moo-tung", meaning: "Bloch-Kato conjecture (proved by Voevodsky)", gender: "die", example: { de: "Voevodskys Beweis Bloch-Kato.", en: "Voevodsky's proof of Bloch-Kato." } },
+    { word: "das A1-Homotopie-Theorie (Morel-Voevodsky)", phonetic: "ah-ayns-ho-mo-to-pee-tay-oh-ree", meaning: "A1-homotopy theory (Morel-Voevodsky)", gender: "die", example: { de: "Morel-Voevodsky A1-Homotopie.", en: "Morel-Voevodsky A1-homotopy." } },
+    { word: "die stabile Homotopiekategorie (SH)", phonetic: "shtah-bi-luh-ho-mo-to-pee-ka-te-go-ree", meaning: "stable homotopy category (SH)", gender: "die", example: { de: "Stabile motivische Homotopie SH(k).", en: "Stable motivic homotopy SH(k)." } },
+    { word: "das motivische Spektrum", phonetic: "mo-ti-vi-shuh-shpek-trum", meaning: "motivic spectrum", gender: "das", example: { de: "Motivisches Spektrum MGL.", en: "Motivic spectrum MGL." } },
+    { word: "der Voevodsky-Triangulation (DM)", phonetic: "vo-e-vod-ski-tri-an-goo-la-tsee-ohn", meaning: "Voevodsky's triangulated motives (DM)", gender: "die", example: { de: "Voevodskys Dreieckskategorie DM(k).", en: "Voevodsky's triangulated category DM(k)." } },
+    { word: "die Transfers (algebraisch)", phonetic: "trans-fers", meaning: "algebraic transfers (motivic)", example: { de: "Korrespondenz-Transfers.", en: "Correspondence transfers." } },
+    { word: "das Zariski-Mayer-Vietoris (motivisch)", phonetic: "za-ris-ki-my-er-vee-tor-is", meaning: "motivic Mayer-Vietoris", gender: "das", example: { de: "Motivische Mayer-Vietoris Sequenz.", en: "Motivic Mayer-Vietoris sequence." } },
+    { word: "die Gysin-Sequenz (algebraisch)", phonetic: "gü-zin-ze-kvents", meaning: "Gysin sequence (algebraic geometry)", gender: "die", example: { de: "Algebraische Gysin-Sequenz.", en: "Algebraic Gysin sequence." } },
+    { word: "die Beilinson-Regulator", phonetic: "by-lin-son-re-goo-la-tor", meaning: "Beilinson regulator", gender: "der", example: { de: "Beilinsons Regulator K-Theorie.", en: "Beilinson's regulator K-theory." } },
+    { word: "das Merkurjev-Suslin-Theorem", phonetic: "mer-kur-yev-zoo-slin-tay-oh-rem", meaning: "Merkurjev-Suslin theorem", gender: "das", example: { de: "Merkurjev-Suslin K₂/Brauer.", en: "Merkurjev-Suslin K₂/Brauer." } },
+    { word: "das Weil-Kohomologie-Theorie", phonetic: "veyl-ko-ho-mo-lo-gee-tay-oh-ree", meaning: "Weil cohomology theory", gender: "die", example: { de: "Weil-Kohomologie l-adisch.", en: "Weil cohomology l-adic." } },
+    { word: "die Standard-Vermutungen (Grothendieck)", phonetic: "shtan-dart-fer-moo-tung-en", meaning: "standard conjectures (Grothendieck)", example: { de: "Grothendiecks Standard-Vermutungen.", en: "Grothendieck's standard conjectures." } },
+    { word: "das universelles Motiv", phonetic: "oo-ni-ver-zel-les-mo-teef", meaning: "universal motive", gender: "das", example: { de: "Grothendieck universelles Motiv.", en: "Grothendieck universal motive." } },
+    { word: "die Tannaka-Theorie (Motive)", phonetic: "ta-na-kah-tay-oh-ree", meaning: "Tannakian theory (motives)", gender: "die", example: { de: "Tannakische Kategorie gemischter Motive.", en: "Tannakian category of mixed motives." } },
+    { word: "das Mixed Motive (Deligne/Beilinson)", phonetic: "mikst-mo-teef", meaning: "mixed motive (Deligne/Beilinson)", gender: "das", example: { de: "Deligne gemischtes Motiv.", en: "Deligne mixed motive." } },
+  ]}] },
+};

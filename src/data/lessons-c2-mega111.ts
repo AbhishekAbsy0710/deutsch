@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega111: Record<string, Lesson> = {
+  "lc2_m154": { id: "lc2_m154", title: "Stochastic Analysis & Rough Paths (Lyons) C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die stochastische Analysis", phonetic: "shto-kha-sti-shuh-a-na-lü-zuh", meaning: "stochastic analysis", gender: "die", example: { de: "Itō-stochastische Analysis.", en: "Itō stochastic analysis." } },
+    { word: "der Wiener-Prozess (Brownsche Bewegung)", phonetic: "vee-ner-pro-tses", meaning: "Wiener process (Brownian motion)", gender: "der", example: { de: "Standard-Wiener-Prozess W_t.", en: "Standard Wiener process W_t." } },
+    { word: "das Itō-Integral", phonetic: "i-tō-in-teh-grahl", meaning: "Itō integral", gender: "das", example: { de: "Stochastisches Itō-Integral.", en: "Stochastic Itō integral." } },
+    { word: "die Itō-Formel", phonetic: "i-tō-for-mel", meaning: "Itō's lemma / formula", gender: "die", example: { de: "Itō-Formel Kettenregel.", en: "Itō's formula chain rule." } },
+    { word: "die stochastische Differentialgleichung (SDE)", phonetic: "shto-kha-sti-shuh-di-fe-ren-tsee-ahl-gly-khung", meaning: "stochastic differential equation (SDE)", gender: "die", example: { de: "SDE dX = μdt + σdW.", en: "SDE dX = μdt + σdW." } },
+    { word: "der Martingal", phonetic: "mar-tin-gahl", meaning: "martingale", gender: "der", example: { de: "Lokales Martingal.", en: "Local martingale." } },
+    { word: "die Filtration (stochastische)", phonetic: "fil-tra-tsee-ohn", meaning: "filtration (stochastic)", gender: "die", example: { de: "Natürliche Filtration F_t.", en: "Natural filtration F_t." } },
+    { word: "das Girsanov-Theorem", phonetic: "gir-za-nov-tay-oh-rem", meaning: "Girsanov's theorem (measure change)", gender: "das", example: { de: "Girsanov Maßwechsel.", en: "Girsanov measure change." } },
+    { word: "die Feynman-Kac-Formel", phonetic: "feyn-man-kak-for-mel", meaning: "Feynman-Kac formula", gender: "die", example: { de: "Feynman-Kac PDE Verbindung.", en: "Feynman-Kac PDE connection." } },
+    { word: "der Stratonovich-Integral", phonetic: "stra-to-no-vich-in-teh-grahl", meaning: "Stratonovich integral", gender: "das", example: { de: "Stratonovich-Integral ∘dW.", en: "Stratonovich integral ∘dW." } },
+    { word: "die Rough-Paths-Theorie (Lyons)", phonetic: "ruf-pats-tay-oh-ree", meaning: "rough paths theory (Lyons)", gender: "die", example: { de: "Lyons Rough-Paths-Theorie.", en: "Lyons rough paths theory." } },
+    { word: "der rauhe Pfad (Rough Path)", phonetic: "row-uh-pfat", meaning: "rough path (Lyons)", gender: "der", example: { de: "Geometrischer rauher Pfad.", en: "Geometric rough path." } },
+    { word: "der Itō-Lyons-Abbildungssatz", phonetic: "i-tō-ly-ons-ap-bil-dungs-zats", meaning: "Itō-Lyons map theorem", gender: "der", example: { de: "Itō-Lyons Kontraktionssatz.", en: "Itō-Lyons map theorem." } },
+    { word: "das reguläre Struktur (Hairer)", phonetic: "re-goo-lä-ruh-shtrook-toor", meaning: "regularity structures (Hairer)", gender: "die", example: { de: "Hairers Reguläre Strukturen.", en: "Hairer's regularity structures." } },
+    { word: "die singuläre SPDE (Hairer)", phonetic: "zin-goo-lä-ruh-es-pay-day-ey", meaning: "singular SPDE (Hairer)", gender: "die", example: { de: "KPZ-Gleichung singuläre SPDE.", en: "KPZ equation singular SPDE." } },
+    { word: "die KPZ-Gleichung", phonetic: "kah-pay-tset-gly-khung", meaning: "KPZ equation (Kardar-Parisi-Zhang)", gender: "die", example: { de: "Hairers KPZ Renormierung.", en: "Hairer's KPZ renormalisation." } },
+    { word: "die Paraprodukte (Renormierung)", phonetic: "pa-ra-pro-dook-tuh", meaning: "paraproducts (renormalisation)", example: { de: "Paraprodukte Bony.", en: "Paraproducts Bony." } },
+    { word: "der Stochastischer partieller DGL (SPDE)", phonetic: "shto-kha-ti-shuh-par-tsee-el-er-dee-gay-el", meaning: "stochastic PDE (SPDE)", gender: "die", example: { de: "Stochastische Wärmeleitungsgleichung.", en: "Stochastic heat equation." } },
+    { word: "die malliavinsche Kalkül (Malliavin)", phonetic: "ma-lee-a-vin-shuh-kal-kül", meaning: "Malliavin calculus", gender: "der", example: { de: "Malliavinscher Kalkül.", en: "Malliavin calculus." } },
+    { word: "die Wong-Zakai-Approximation", phonetic: "vong-za-kai-a-proks-i-ma-tsee-ohn", meaning: "Wong-Zakai approximation", gender: "die", example: { de: "Wong-Zakai Wong-Zakai.", en: "Wong-Zakai approximation." } },
+  ]}] },
+};

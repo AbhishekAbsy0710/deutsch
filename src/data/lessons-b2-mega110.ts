@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega110: Record<string, Lesson> = {
+  "lb2_m155": { id: "lb2_m155", title: "Neurolinguistics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Neurolinguistik", phonetic: "noy-ro-lin-gvis-tik", meaning: "neurolinguistics", gender: "die", example: { de: "Kognitive Neurolinguistik.", en: "Cognitive neurolinguistics." } },
+    { word: "das Broca-Areal", phonetic: "bro-kah-a-re-ahl", meaning: "Broca's area (speech production)", gender: "das", example: { de: "Brocas Areal linker Frontal.", en: "Broca's area left frontal." } },
+    { word: "das Wernicke-Areal", phonetic: "ver-ni-kuh-a-re-ahl", meaning: "Wernicke's area (comprehension)", gender: "das", example: { de: "Wernickes Areal linker Temporal.", en: "Wernicke's area left temporal." } },
+    { word: "die Aphasie (Broca-Aphasie)", phonetic: "a-fah-zee", meaning: "aphasia (Broca's aphasia)", gender: "die", example: { de: "Broca-Aphasie Sprachproduktion.", en: "Broca's aphasia speech production." } },
+    { word: "die Wernicke-Aphasie", phonetic: "ver-ni-kuh-a-fah-zee", meaning: "Wernicke's aphasia", gender: "die", example: { de: "Wernicke-Aphasie Sprachverständnis.", en: "Wernicke's aphasia comprehension." } },
+    { word: "der Fasciculus arcuatus", phonetic: "fa-shi-koo-lus-ar-koo-ah-tus", meaning: "arcuate fasciculus", gender: "der", example: { de: "Arcuate fasciculus Sprachpfad.", en: "Arcuate fasciculus language pathway." } },
+    { word: "die zerebrale Hemisphäre (Sprache)", phonetic: "tse-re-brah-luh-he-mi-sfey-ruh", meaning: "cerebral hemisphere (language)", gender: "die", example: { de: "Linke zerebrale Hemisphäre.", en: "Left cerebral hemisphere." } },
+    { word: "die Lateralisierung (Sprache)", phonetic: "la-te-ra-li-zee-rung", meaning: "lateralisation (language)", gender: "die", example: { de: "Sprachlateralisierung links.", en: "Language lateralisation left." } },
+    { word: "das N400 (EEG Sprachverarbeitung)", phonetic: "en-feer-hun-dert", meaning: "N400 (EEG language processing)", gender: "das", example: { de: "N400 semantische Verletzung.", en: "N400 semantic violation." } },
+    { word: "das P600 (EEG Syntaxverarbeitung)", phonetic: "pay-zeks-hun-dert", meaning: "P600 (EEG syntax processing)", gender: "das", example: { de: "P600 syntaktische Verarbeitung.", en: "P600 syntactic processing." } },
+    { word: "das fMRT (Sprache)", phonetic: "ef-em-er-tay", meaning: "fMRI (language research)", gender: "das", example: { de: "fMRT Sprachaktivierungsmuster.", en: "fMRI language activation pattern." } },
+    { word: "die Dyslexie (Lese-Rechtschreib-Schwäche)", phonetic: "düs-lek-see", meaning: "dyslexia", gender: "die", example: { de: "Neuronale Ursachen Dyslexie.", en: "Neural causes of dyslexia." } },
+    { word: "die Erstspracherwerb-Forschung", phonetic: "erst-shprahkh-er-verp-for-shung", meaning: "first language acquisition research", gender: "die", example: { de: "Neuronale Erstspracherwerb-Forschung.", en: "Neural first language acquisition research." } },
+    { word: "die kritische Periode (Neurolinguistik)", phonetic: "kri-ti-shuh-pe-ree-oh-duh", meaning: "critical period (neurolinguistics)", gender: "die", example: { de: "Lenneberg kritische Periode.", en: "Lenneberg critical period." } },
+    { word: "das Sprachzentrum", phonetic: "shprahkh-tsen-trum", meaning: "language centre (brain)", gender: "das", example: { de: "Linkes Sprachzentrum.", en: "Left language centre." } },
+    { word: "die Sprachplanung (Neurolinguistik)", phonetic: "shprahkh-pla-nung", meaning: "language planning (neurolinguistics)", gender: "die", example: { de: "Phonologische Sprachplanung.", en: "Phonological language planning." } },
+    { word: "das Mentale Lexikon (Neurolinguistik)", phonetic: "men-tah-luh-lek-si-kon", meaning: "mental lexicon (neurolinguistics)", gender: "das", example: { de: "Mentales Lexikon Aktivierung.", en: "Mental lexicon activation." } },
+    { word: "die Sprachproduktion (Levelt-Modell)", phonetic: "shprahkh-pro-dook-tsee-ohn", meaning: "speech production (Levelt model)", gender: "die", example: { de: "Levelt Sprachproduktionsmodell.", en: "Levelt speech production model." } },
+    { word: "die Sprachperzeption (Kohonen)", phonetic: "shprahkh-per-tsep-tsee-ohn", meaning: "speech perception (neuroscience)", gender: "die", example: { de: "Kortikale Sprachperzeption.", en: "Cortical speech perception." } },
+    { word: "die Mehrsprachigkeit (neuronale Basis)", phonetic: "meyr-shprahkh-ikh-kyte", meaning: "multilingualism (neural basis)", gender: "die", example: { de: "Neuronale Basis der Mehrsprachigkeit.", en: "Neural basis of multilingualism." } },
+  ]}] },
+};
