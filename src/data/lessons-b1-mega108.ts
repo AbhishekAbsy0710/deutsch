@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega108: Record<string, Lesson> = {
+  "lb1_m159": { id: "lb1_m159", title: "Ecology & Biodiversity B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Ökologie", phonetic: "ö-ko-lo-gee", meaning: "ecology", gender: "die", example: { de: "Terrestrische Ökologie.", en: "Terrestrial ecology." } },
+    { word: "das Ökosystem", phonetic: "ö-ko-züs-tem", meaning: "ecosystem", gender: "das", example: { de: "Tropisches Ökosystem.", en: "Tropical ecosystem." } },
+    { word: "die Biodiversität", phonetic: "bi-oh-di-ver-zi-tayt", meaning: "biodiversity", gender: "die", example: { de: "Globale Biodiversität.", en: "Global biodiversity." } },
+    { word: "die Art (Biologie)", phonetic: "art", meaning: "species (biology)", gender: "die", example: { de: "Gefährdete Art.", en: "Endangered species." } },
+    { word: "das Aussterben", phonetic: "ows-shter-ben", meaning: "extinction", gender: "das", example: { de: "Massenaussterben.", en: "Mass extinction." } },
+    { word: "der Lebensraum", phonetic: "lay-bens-rowm", meaning: "habitat", gender: "der", example: { de: "Natürlicher Lebensraum.", en: "Natural habitat." } },
+    { word: "die Nahrungskette", phonetic: "nah-rungs-ke-tuh", meaning: "food chain", gender: "die", example: { de: "Ozeanische Nahrungskette.", en: "Oceanic food chain." } },
+    { word: "das Nahrungsnetz", phonetic: "nah-rungs-nets", meaning: "food web", gender: "das", example: { de: "Komplexes Nahrungsnetz.", en: "Complex food web." } },
+    { word: "die Photosynthese", phonetic: "fo-to-zün-te-zuh", meaning: "photosynthesis", gender: "die", example: { de: "Pflanzliche Photosynthese.", en: "Plant photosynthesis." } },
+    { word: "der Kohlenstoffkreislauf", phonetic: "koh-len-shtof-krys-lowf", meaning: "carbon cycle", gender: "der", example: { de: "Globaler Kohlenstoffkreislauf.", en: "Global carbon cycle." } },
+    { word: "der Stickstoffkreislauf", phonetic: "shtik-shtof-krys-lowf", meaning: "nitrogen cycle", gender: "der", example: { de: "Stickstoffkreislauf Boden.", en: "Soil nitrogen cycle." } },
+    { word: "der Treibhauseffekt", phonetic: "tryp-hows-e-fekt", meaning: "greenhouse effect", gender: "der", example: { de: "Verstärkter Treibhauseffekt.", en: "Enhanced greenhouse effect." } },
+    { word: "der Klimawandel", phonetic: "klee-mah-van-del", meaning: "climate change", gender: "der", example: { de: "Anthropogener Klimawandel.", en: "Anthropogenic climate change." } },
+    { word: "die Entwaldung", phonetic: "ent-val-dung", meaning: "deforestation", gender: "die", example: { de: "Tropische Entwaldung.", en: "Tropical deforestation." } },
+    { word: "der Regenwald", phonetic: "ray-gen-valt", meaning: "rainforest", gender: "der", example: { de: "Amazonischer Regenwald.", en: "Amazonian rainforest." } },
+    { word: "die invasive Art", phonetic: "in-vah-zee-vuh-art", meaning: "invasive species", gender: "die", example: { de: "Schädliche invasive Art.", en: "Harmful invasive species." } },
+    { word: "der Naturschutz", phonetic: "na-toor-shoots", meaning: "nature conservation", gender: "der", example: { de: "Aktiver Naturschutz.", en: "Active nature conservation." } },
+    { word: "das Naturschutzgebiet", phonetic: "na-toor-shoots-geh-beet", meaning: "nature reserve", gender: "das", example: { de: "Nationales Naturschutzgebiet.", en: "National nature reserve." } },
+    { word: "die Symbiose", phonetic: "züm-bi-oh-zuh", meaning: "symbiosis", gender: "die", example: { de: "Mutualistische Symbiose.", en: "Mutualistic symbiosis." } },
+    { word: "der Parasitismus", phonetic: "pa-ra-zi-tis-mus", meaning: "parasitism", gender: "der", example: { de: "Tierischer Parasitismus.", en: "Animal parasitism." } },
+  ]}] },
+};

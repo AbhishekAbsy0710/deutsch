@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega110: Record<string, Lesson> = {
+  "lb1_m161": { id: "lb1_m161", title: "Chemistry Basics B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Chemie", phonetic: "khuh-mee", meaning: "chemistry", gender: "die", example: { de: "Organische Chemie.", en: "Organic chemistry." } },
+    { word: "das Element (Chemie)", phonetic: "e-le-ment", meaning: "element (chemistry)", gender: "das", example: { de: "Chemisches Element.", en: "Chemical element." } },
+    { word: "das Atom", phonetic: "ah-tom", meaning: "atom", gender: "das", example: { de: "Einzelnes Atom.", en: "Single atom." } },
+    { word: "das Molekül", phonetic: "mo-le-kül", meaning: "molecule", gender: "das", example: { de: "H₂O Wassermolekül.", en: "H₂O water molecule." } },
+    { word: "die chemische Bindung", phonetic: "khuh-mi-shuh-bin-dung", meaning: "chemical bond", gender: "die", example: { de: "Kovalente chemische Bindung.", en: "Covalent chemical bond." } },
+    { word: "die kovalente Bindung", phonetic: "ko-va-len-tuh-bin-dung", meaning: "covalent bond", gender: "die", example: { de: "C–C kovalente Bindung.", en: "C–C covalent bond." } },
+    { word: "die ionische Bindung", phonetic: "i-oh-ni-shuh-bin-dung", meaning: "ionic bond", gender: "die", example: { de: "NaCl ionische Bindung.", en: "NaCl ionic bond." } },
+    { word: "die chemische Reaktion", phonetic: "khuh-mi-shuh-re-ak-tsee-ohn", meaning: "chemical reaction", gender: "die", example: { de: "Exotherme chemische Reaktion.", en: "Exothermic chemical reaction." } },
+    { word: "der Katalysator", phonetic: "ka-ta-lü-za-tor", meaning: "catalyst", gender: "der", example: { de: "Platin-Katalysator.", en: "Platinum catalyst." } },
+    { word: "die Säure", phonetic: "zoy-ruh", meaning: "acid", gender: "die", example: { de: "Schwefelsäure.", en: "Sulphuric acid." } },
+    { word: "die Base (Chemie)", phonetic: "bah-zuh", meaning: "base (chemistry)", gender: "die", example: { de: "Natriumhydroxid Base.", en: "Sodium hydroxide base." } },
+    { word: "der pH-Wert", phonetic: "pay-hah-vairt", meaning: "pH value", gender: "der", example: { de: "Neutraler pH-Wert 7.", en: "Neutral pH value 7." } },
+    { word: "die Oxidation", phonetic: "ok-si-da-tsee-ohn", meaning: "oxidation", gender: "die", example: { de: "Metallische Oxidation.", en: "Metal oxidation." } },
+    { word: "die Reduktion (Chemie)", phonetic: "re-dook-tsee-ohn", meaning: "reduction (chemistry)", gender: "die", example: { de: "Elektrochemische Reduktion.", en: "Electrochemical reduction." } },
+    { word: "das Periodensystem", phonetic: "pe-ree-oh-den-züs-tem", meaning: "periodic table", gender: "das", example: { de: "Periodensystem der Elemente.", en: "Periodic table of elements." } },
+    { word: "das Kohlenstoff", phonetic: "koh-len-shtof", meaning: "carbon (C)", gender: "der", example: { de: "Kohlenstoff-Chemie.", en: "Carbon chemistry." } },
+    { word: "die organische Chemie", phonetic: "or-ga-ni-shuh-khuh-mee", meaning: "organic chemistry", gender: "die", example: { de: "Organische Synthesechemie.", en: "Organic synthetic chemistry." } },
+    { word: "die anorganische Chemie", phonetic: "an-or-ga-ni-shuh-khuh-mee", meaning: "inorganic chemistry", gender: "die", example: { de: "Anorganische Koordinationschemie.", en: "Inorganic coordination chemistry." } },
+    { word: "die Stöchiometrie", phonetic: "shtö-khee-oh-me-tree", meaning: "stoichiometry", gender: "die", example: { de: "Stöchiometrische Berechnung.", en: "Stoichiometric calculation." } },
+    { word: "das Mol", phonetic: "mohl", meaning: "mole (unit, chemistry)", gender: "das", example: { de: "Ein Mol CO₂.", en: "One mole of CO₂." } },
+  ]}] },
+};

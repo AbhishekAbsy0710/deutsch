@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega109: Record<string, Lesson> = {
+  "lb2_m154": { id: "lb2_m154", title: "Cognitive Science B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Kognitionswissenschaft", phonetic: "kog-ni-tsee-ohns-vi-sen-shaft", meaning: "cognitive science", gender: "die", example: { de: "Interdisziplinäre Kognitionswissenschaft.", en: "Interdisciplinary cognitive science." } },
+    { word: "die Kognition", phonetic: "kog-ni-tsee-ohn", meaning: "cognition", gender: "die", example: { de: "Menschliche Kognition.", en: "Human cognition." } },
+    { word: "das Arbeitsgedächtnis", phonetic: "ar-byts-geh-dekht-nis", meaning: "working memory", gender: "das", example: { de: "Begrenzte Kapazität Arbeitsgedächtnis.", en: "Limited capacity working memory." } },
+    { word: "das Langzeitgedächtnis", phonetic: "lang-tsyt-geh-dekht-nis", meaning: "long-term memory", gender: "das", example: { de: "Explizites Langzeitgedächtnis.", en: "Explicit long-term memory." } },
+    { word: "die Aufmerksamkeit", phonetic: "owf-merk-zahm-kyte", meaning: "attention", gender: "die", example: { de: "Selektive Aufmerksamkeit.", en: "Selective attention." } },
+    { word: "die Wahrnehmung (Kognition)", phonetic: "vahr-nay-mung", meaning: "perception (cognition)", gender: "die", example: { de: "Visuelle Wahrnehmung.", en: "Visual perception." } },
+    { word: "das mentale Modell", phonetic: "men-ta-luh-mo-del", meaning: "mental model", gender: "das", example: { de: "Situationales mentales Modell.", en: "Situational mental model." } },
+    { word: "die kognitive Dissonanz (Festinger)", phonetic: "kog-ni-tee-vuh-di-zo-nants", meaning: "cognitive dissonance (Festinger)", gender: "die", example: { de: "Festingers kognitive Dissonanz.", en: "Festinger's cognitive dissonance." } },
+    { word: "der kognitive Bias", phonetic: "kog-ni-tee-ver-bias", meaning: "cognitive bias", gender: "der", example: { de: "Bestätigungsfehler kognitiver Bias.", en: "Confirmation bias cognitive bias." } },
+    { word: "das Heuristiken (Kahneman/Tversky)", phonetic: "hoy-ris-ti-ken", meaning: "heuristics (Kahneman/Tversky)", example: { de: "Verfügbarkeitsheuristik.", en: "Availability heuristic." } },
+    { word: "das System 1 und System 2 (Kahneman)", phonetic: "züs-tem-ayns-oont-tsvy", meaning: "System 1 and System 2 (Kahneman)", gender: "das", example: { de: "Kahneman System 1 und 2.", en: "Kahneman System 1 and 2." } },
+    { word: "die verkörperte Kognition (Embodied)", phonetic: "fer-kör-per-tuh-kog-ni-tsee-ohn", meaning: "embodied cognition", gender: "die", example: { de: "Verkörperte Kognition Lakoff.", en: "Embodied cognition Lakoff." } },
+    { word: "die Theorie des Geistes (ToM)", phonetic: "tay-oh-ree-des-gys-tes", meaning: "theory of mind (ToM)", gender: "die", example: { de: "Autismus Theorie des Geistes.", en: "Autism theory of mind." } },
+    { word: "das Spiegelneuron", phonetic: "shpee-gel-noy-ron", meaning: "mirror neuron (Rizzolatti)", gender: "das", example: { de: "Rizzolattis Spiegelneuron.", en: "Rizzolatti's mirror neuron." } },
+    { word: "die kognitive Neurowissenschaft", phonetic: "kog-ni-tee-vuh-noy-ro-vi-sen-shaft", meaning: "cognitive neuroscience", gender: "die", example: { de: "Kognitive Neurowissenschaft.", en: "Cognitive neuroscience." } },
+    { word: "der harte Problem des Bewusstseins (Chalmers)", phonetic: "har-tuh-pro-blaym-des-beh-voost-zyns", meaning: "hard problem of consciousness (Chalmers)", gender: "das", example: { de: "Chalmers hartes Bewusstseinsproblem.", en: "Chalmers' hard problem of consciousness." } },
+    { word: "das Global Workspace Theory (Baars)", phonetic: "glo-bal-vork-speys-tay-oh-ree", meaning: "global workspace theory (Baars)", gender: "die", example: { de: "Baars Global Workspace.", en: "Baars Global Workspace." } },
+    { word: "die kognitive Linguistik (Lakoff/Langacker)", phonetic: "kog-ni-tee-vuh-lin-gvis-tik", meaning: "cognitive linguistics (Lakoff/Langacker)", gender: "die", example: { de: "Lakoff kognitive Linguistik.", en: "Lakoff cognitive linguistics." } },
+    { word: "das Enaktivismus (Varela/Thompson)", phonetic: "en-ak-ti-vis-mus", meaning: "enactivism (Varela/Thompson)", gender: "der", example: { de: "Varelas Enaktivismus.", en: "Varela's enactivism." } },
+    { word: "die prädiktive Kodierung (Friston)", phonetic: "prä-dik-tee-vuh-ko-dee-rung", meaning: "predictive coding (Friston)", gender: "die", example: { de: "Friston prädiktive Kodierung.", en: "Friston predictive coding." } },
+  ]}] },
+};

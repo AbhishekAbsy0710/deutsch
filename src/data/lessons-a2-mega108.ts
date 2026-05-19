@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega108: Record<string, Lesson> = {
+  "la2_m153": { id: "la2_m153", title: "Banking & Finance A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Girokonto", phonetic: "gee-ro-kon-to", meaning: "current account / checking account", gender: "das", example: { de: "Girokonto eröffnen.", en: "Open a current account." } },
+    { word: "das Sparkonto", phonetic: "shpar-kon-to", meaning: "savings account", gender: "das", example: { de: "Geld auf Sparkonto.", en: "Money in savings account." } },
+    { word: "die Überweisung", phonetic: "ü-ber-vy-zung", meaning: "bank transfer", gender: "die", example: { de: "Überweisung tätigen.", en: "Make a bank transfer." } },
+    { word: "die Kontonummer", phonetic: "kon-to-noo-mer", meaning: "account number", gender: "die", example: { de: "Meine Kontonummer.", en: "My account number." } },
+    { word: "die IBAN", phonetic: "ee-ban", meaning: "IBAN (international bank number)", gender: "die", example: { de: "IBAN angeben.", en: "Provide IBAN." } },
+    { word: "der BIC/SWIFT-Code", phonetic: "bik-svift-kohd", meaning: "BIC/SWIFT code", gender: "der", example: { de: "BIC-Code der Bank.", en: "Bank BIC code." } },
+    { word: "der Kontoauszug", phonetic: "kon-to-ows-tsook", meaning: "bank statement", gender: "der", example: { de: "Monatlicher Kontoauszug.", en: "Monthly bank statement." } },
+    { word: "die Lastschrift", phonetic: "last-shrift", meaning: "direct debit", gender: "die", example: { de: "Lastschrift einrichten.", en: "Set up direct debit." } },
+    { word: "der Dauerauftrag", phonetic: "dow-er-owf-trahk", meaning: "standing order", gender: "der", example: { de: "Dauerauftrag einrichten.", en: "Set up a standing order." } },
+    { word: "die Zinsen", phonetic: "tsin-zen", meaning: "interest (banking)", example: { de: "Jährliche Zinsen.", en: "Annual interest." } },
+    { word: "der Kredit", phonetic: "kre-deet", meaning: "loan / credit", gender: "der", example: { de: "Kredit beantragen.", en: "Apply for a loan." } },
+    { word: "die Hypothek", phonetic: "hü-po-teyk", meaning: "mortgage", gender: "die", example: { de: "Hypothek aufnehmen.", en: "Take out a mortgage." } },
+    { word: "der Wechselkurs", phonetic: "vek-sel-koors", meaning: "exchange rate", gender: "der", example: { de: "Aktueller Wechselkurs.", en: "Current exchange rate." } },
+    { word: "die Steuer", phonetic: "shtoy-er", meaning: "tax", gender: "die", example: { de: "Einkommenssteuer zahlen.", en: "Pay income tax." } },
+    { word: "die Versicherung", phonetic: "fer-zi-khe-rung", meaning: "insurance", gender: "die", example: { de: "Krankenversicherung.", en: "Health insurance." } },
+    { word: "die Rente", phonetic: "ren-tuh", meaning: "pension", gender: "die", example: { de: "Staatliche Rente.", en: "State pension." } },
+    { word: "das Budget", phonetic: "büd-shey", meaning: "budget", gender: "das", example: { de: "Monatliches Budget.", en: "Monthly budget." } },
+    { word: "sparsam", phonetic: "shpar-zahm", meaning: "frugal / economical", example: { de: "Sparsam wirtschaften.", en: "Live frugally." } },
+    { word: "die Schulden", phonetic: "shool-den", meaning: "debts", example: { de: "Schulden abbauen.", en: "Pay off debts." } },
+    { word: "der Kontostand", phonetic: "kon-to-shtant", meaning: "account balance", gender: "der", example: { de: "Kontostand prüfen.", en: "Check account balance." } },
+  ]}] },
+};

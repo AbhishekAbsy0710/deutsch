@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega108: Record<string, Lesson> = {
+  "la1_m158": { id: "la1_m158", title: "Core Verb Conjugation A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "ich bin", phonetic: "ikh-bin", meaning: "I am", example: { de: "Ich bin müde.", en: "I am tired." } },
+    { word: "du bist", phonetic: "doo-bist", meaning: "you are", example: { de: "Du bist nett.", en: "You are nice." } },
+    { word: "er/sie/es ist", phonetic: "er-zee-es-ist", meaning: "he/she/it is", example: { de: "Er ist groß.", en: "He is tall." } },
+    { word: "wir sind", phonetic: "veer-zint", meaning: "we are", example: { de: "Wir sind hier.", en: "We are here." } },
+    { word: "ihr seid", phonetic: "eer-zyt", meaning: "you (pl.) are", example: { de: "Ihr seid fertig.", en: "You are done." } },
+    { word: "sie/Sie sind", phonetic: "zee-zint", meaning: "they/you (formal) are", example: { de: "Sie sind freundlich.", en: "They are friendly." } },
+    { word: "ich habe", phonetic: "ikh-hah-buh", meaning: "I have", example: { de: "Ich habe Hunger.", en: "I am hungry." } },
+    { word: "du hast", phonetic: "doo-hast", meaning: "you have", example: { de: "Du hast Zeit.", en: "You have time." } },
+    { word: "er/sie/es hat", phonetic: "er-hat", meaning: "he/she/it has", example: { de: "Er hat ein Auto.", en: "He has a car." } },
+    { word: "wir haben", phonetic: "veer-hah-ben", meaning: "we have", example: { de: "Wir haben Geld.", en: "We have money." } },
+    { word: "ihr habt", phonetic: "eer-hapt", meaning: "you (pl.) have", example: { de: "Ihr habt Glück.", en: "You are lucky." } },
+    { word: "sie/Sie haben", phonetic: "zee-hah-ben", meaning: "they/you (formal) have", example: { de: "Sie haben Recht.", en: "They are right." } },
+    { word: "ich werde", phonetic: "ikh-ver-duh", meaning: "I will / I become", example: { de: "Ich werde Arzt.", en: "I will become a doctor." } },
+    { word: "du wirst", phonetic: "doo-virst", meaning: "you will / you become", example: { de: "Du wirst besser.", en: "You will get better." } },
+    { word: "er/sie/es wird", phonetic: "er-virt", meaning: "he/she/it will/becomes", example: { de: "Es wird kalt.", en: "It is getting cold." } },
+    { word: "ich mache", phonetic: "ikh-makh-uh", meaning: "I do / I make", example: { de: "Ich mache Hausaufgaben.", en: "I do homework." } },
+    { word: "ich gehe", phonetic: "ikh-gay-uh", meaning: "I go", example: { de: "Ich gehe nach Hause.", en: "I go home." } },
+    { word: "ich komme", phonetic: "ikh-ko-muh", meaning: "I come", example: { de: "Ich komme aus Deutschland.", en: "I come from Germany." } },
+    { word: "ich sehe", phonetic: "ikh-zay-uh", meaning: "I see", example: { de: "Ich sehe das Haus.", en: "I see the house." } },
+    { word: "ich spreche", phonetic: "ikh-shprekh-uh", meaning: "I speak", example: { de: "Ich spreche Deutsch.", en: "I speak German." } },
+  ]}] },
+};

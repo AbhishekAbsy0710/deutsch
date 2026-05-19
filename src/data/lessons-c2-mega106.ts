@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega106: Record<string, Lesson> = {
+  "lc2_m149": { id: "lc2_m149", title: "Shimura Varieties & Modular Curves C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Shimura-Varietät", phonetic: "shi-moo-rah-va-ree-e-tayt", meaning: "Shimura variety", gender: "die", example: { de: "PEL-Typ Shimura-Varietät.", en: "PEL-type Shimura variety." } },
+    { word: "die Modulkurve", phonetic: "mo-dool-kur-vuh", meaning: "modular curve", gender: "die", example: { de: "Modulkurve Y(Γ₀(N)).", en: "Modular curve Y(Γ₀(N))." } },
+    { word: "der j-Invariante (Modulkurve)", phonetic: "yot-in-va-ree-an-tuh", meaning: "j-invariant (modular curve)", gender: "die", example: { de: "j-Invariante elliptische Kurve.", en: "j-invariant elliptic curve." } },
+    { word: "die Hecke-Korrespondenz", phonetic: "he-kuh-ko-res-pon-dents", meaning: "Hecke correspondence", gender: "die", example: { de: "Hecke-Korrespondenz auf Modulkurve.", en: "Hecke correspondence on modular curve." } },
+    { word: "die komplexe Multiplikation (CM)", phonetic: "kom-pleks-es-mool-ti-pli-ka-tsee-ohn", meaning: "complex multiplication (CM)", gender: "die", example: { de: "CM elliptische Kurve.", en: "CM elliptic curve." } },
+    { word: "die Hauptsatz der CM-Theorie (Shimura-Taniyama)", phonetic: "howpt-zats-der-tsay-em-tay-oh-ree", meaning: "main theorem of CM theory", gender: "der", example: { de: "Shimura-Taniyama CM Hauptsatz.", en: "Shimura-Taniyama CM main theorem." } },
+    { word: "die kanonische Modell (Shimura)", phonetic: "ka-no-ni-shuh-mo-del", meaning: "canonical model (Shimura)", gender: "das", example: { de: "Kanonisches Modell Shimura-Varietät.", en: "Canonical model Shimura variety." } },
+    { word: "die Eichler-Shimura-Relation", phonetic: "aysh-ler-shi-moo-rah-re-la-tsee-ohn", meaning: "Eichler-Shimura relation", gender: "die", example: { de: "Eichler-Shimura-Relation L-Funktion.", en: "Eichler-Shimura relation L-function." } },
+    { word: "das Galois-Wirkung (Shimura)", phonetic: "ga-lwa-vir-kung", meaning: "Galois action (on Shimura)", gender: "die", example: { de: "Galois-Wirkung auf Shimura-Varietät.", en: "Galois action on Shimura variety." } },
+    { word: "die spezielle Faser (Shimura)", phonetic: "shpe-tsee-e-luh-fah-zer", meaning: "special fibre (Shimura variety)", gender: "die", example: { de: "Spezielle Faser über Fp.", en: "Special fibre over Fp." } },
+    { word: "die Supersingulare Punkte", phonetic: "zoo-per-zing-goo-lah-ruh-poonk-tuh", meaning: "supersingular points", example: { de: "Supersingulare Punkte Fp.", en: "Supersingular points Fp." } },
+    { word: "das Igusa-Turm", phonetic: "i-goo-zah-torm", meaning: "Igusa tower (p-adic)", gender: "der", example: { de: "Hida-Igusa-Turm.", en: "Hida-Igusa tower." } },
+    { word: "die Hida-Familie", phonetic: "hi-dah-fa-mi-lee-uh", meaning: "Hida family (p-adic modular forms)", gender: "die", example: { de: "Hida-Familie p-adische Formen.", en: "Hida family p-adic forms." } },
+    { word: "die Coleman-Kurve", phonetic: "kol-man-kur-vuh", meaning: "Coleman's p-adic families (rigid)", gender: "die", example: { de: "Coleman rigide p-adische Familien.", en: "Coleman rigid p-adic families." } },
+    { word: "das Eigenkurve (Coleman-Mazur)", phonetic: "ayg-en-kur-vuh", meaning: "eigencurve (Coleman-Mazur)", gender: "die", example: { de: "Coleman-Mazur Eigenkurve.", en: "Coleman-Mazur eigencurve." } },
+    { word: "die Ihara-Zeta-Funktion (Graphen)", phonetic: "i-ha-rah-tsay-ta-foonk-tsee-ohn", meaning: "Ihara zeta function (graphs)", gender: "die", example: { de: "Ihara-Zeta-Funktion regulärer Graphen.", en: "Ihara zeta function regular graphs." } },
+    { word: "die Albanese-Varietät", phonetic: "al-ba-nay-zuh-va-ree-e-tayt", meaning: "Albanese variety", gender: "die", example: { de: "Albanese-Varietät Kurve.", en: "Albanese variety of curve." } },
+    { word: "die Jacobische Varietät (Kurve)", phonetic: "ya-ko-bi-shuh-va-ree-e-tayt", meaning: "Jacobian variety (of a curve)", gender: "die", example: { de: "Jacobische Varietät J(C).", en: "Jacobian variety J(C)." } },
+    { word: "das Neron-Modell", phonetic: "ne-ron-mo-del", meaning: "Néron model (abelian variety)", gender: "das", example: { de: "Néron-Modell elliptische Kurve.", en: "Néron model elliptic curve." } },
+    { word: "die Serre-Tate-Theorie (Lifting)", phonetic: "ser-tayt-tay-oh-ree", meaning: "Serre-Tate lifting theorem", gender: "die", example: { de: "Serre-Tate kanonisches Lifting.", en: "Serre-Tate canonical lifting." } },
+  ]}] },
+};

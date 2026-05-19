@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega111: Record<string, Lesson> = {
+  "lb1_m162": { id: "lb1_m162", title: "Music Theory B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Musiktheorie", phonetic: "moo-zeek-tay-oh-ree", meaning: "music theory", gender: "die", example: { de: "Grundlegende Musiktheorie.", en: "Basic music theory." } },
+    { word: "die Note (Musik)", phonetic: "no-tuh", meaning: "musical note", gender: "die", example: { de: "Ganze Note.", en: "Whole note." } },
+    { word: "die Tonleiter", phonetic: "ton-ly-ter", meaning: "scale (music)", gender: "die", example: { de: "C-Dur-Tonleiter.", en: "C major scale." } },
+    { word: "die Dur-Tonleiter", phonetic: "door-ton-ly-ter", meaning: "major scale", gender: "die", example: { de: "G-Dur-Tonleiter.", en: "G major scale." } },
+    { word: "die Moll-Tonleiter", phonetic: "mol-ton-ly-ter", meaning: "minor scale", gender: "die", example: { de: "A-Moll-Tonleiter.", en: "A minor scale." } },
+    { word: "der Akkord", phonetic: "a-kord", meaning: "chord", gender: "der", example: { de: "C-Dur-Akkord.", en: "C major chord." } },
+    { word: "das Intervall", phonetic: "in-ter-val", meaning: "interval (music)", gender: "das", example: { de: "Quinten-Intervall.", en: "Fifth interval." } },
+    { word: "der Rhythmus", phonetic: "rüt-mus", meaning: "rhythm", gender: "der", example: { de: "Synkopierter Rhythmus.", en: "Syncopated rhythm." } },
+    { word: "der Takt", phonetic: "takt", meaning: "bar / time signature", gender: "der", example: { de: "4/4-Takt.", en: "4/4 time." } },
+    { word: "das Tempo (Musik)", phonetic: "tem-po", meaning: "tempo (music)", gender: "das", example: { de: "Langsames Tempo.", en: "Slow tempo." } },
+    { word: "die Melodie", phonetic: "me-lo-dee", meaning: "melody", gender: "die", example: { de: "Eingängige Melodie.", en: "Catchy melody." } },
+    { word: "die Harmonie", phonetic: "har-mo-nee", meaning: "harmony", gender: "die", example: { de: "Vokale Harmonie.", en: "Vocal harmony." } },
+    { word: "die Dynamik (Musik)", phonetic: "dü-na-mik", meaning: "dynamics (music)", gender: "die", example: { de: "Forte und Piano Dynamik.", en: "Forte and piano dynamics." } },
+    { word: "das Vorzeichen (Kreuz/Be)", phonetic: "for-tsy-khen", meaning: "accidental (sharp/flat)", gender: "das", example: { de: "Vorzeichen Kreuz und Be.", en: "Accidental sharp and flat." } },
+    { word: "die Tonart", phonetic: "ton-art", meaning: "key (music)", gender: "die", example: { de: "Tonart G-Dur.", en: "Key of G major." } },
+    { word: "das Notensystem", phonetic: "no-ten-züs-tem", meaning: "staff / stave", gender: "das", example: { de: "Fünfliniiges Notensystem.", en: "Five-line stave." } },
+    { word: "der Violinschlüssel", phonetic: "vi-oh-leen-shlü-sel", meaning: "treble clef", gender: "der", example: { de: "Violinschlüssel G.", en: "Treble clef G." } },
+    { word: "der Bassschlüssel", phonetic: "bas-shlü-sel", meaning: "bass clef", gender: "der", example: { de: "Bassschlüssel F.", en: "Bass clef F." } },
+    { word: "polyphon", phonetic: "po-lü-fohn", meaning: "polyphonic", example: { de: "Polyphoner Choral.", en: "Polyphonic chorale." } },
+    { word: "die Komposition (Musik)", phonetic: "kom-po-zee-tsee-ohn", meaning: "musical composition", gender: "die", example: { de: "Beethovens Komposition.", en: "Beethoven's composition." } },
+  ]}] },
+};

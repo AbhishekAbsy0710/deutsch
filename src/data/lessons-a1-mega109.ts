@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega109: Record<string, Lesson> = {
+  "la1_m159": { id: "la1_m159", title: "Telling the Time A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "Wie viel Uhr ist es?", phonetic: "vee-feel-oor-ist-es", meaning: "What time is it?", example: { de: "Wie viel Uhr ist es?", en: "What time is it?" } },
+    { word: "Es ist ... Uhr.", phonetic: "es-ist-oor", meaning: "It is ... o'clock.", example: { de: "Es ist drei Uhr.", en: "It is three o'clock." } },
+    { word: "halb (Uhrzeit)", phonetic: "halp", meaning: "half past (German: 30 min before)", example: { de: "Es ist halb vier (03:30).", en: "It is half three (03:30)." } },
+    { word: "Viertel nach", phonetic: "fir-tel-nakh", meaning: "quarter past", example: { de: "Viertel nach zwei.", en: "Quarter past two." } },
+    { word: "Viertel vor", phonetic: "fir-tel-for", meaning: "quarter to", example: { de: "Viertel vor vier.", en: "Quarter to four." } },
+    { word: "morgens", phonetic: "mor-gens", meaning: "in the morning / a.m.", example: { de: "Um acht Uhr morgens.", en: "At eight in the morning." } },
+    { word: "mittags", phonetic: "mi-tahks", meaning: "at midday / noon", example: { de: "Um zwölf Uhr mittags.", en: "At twelve noon." } },
+    { word: "nachmittags", phonetic: "nakh-mi-tahks", meaning: "in the afternoon / p.m.", example: { de: "Um drei Uhr nachmittags.", en: "At three in the afternoon." } },
+    { word: "abends", phonetic: "ah-bents", meaning: "in the evening", example: { de: "Um sieben Uhr abends.", en: "At seven in the evening." } },
+    { word: "nachts", phonetic: "nakhts", meaning: "at night", example: { de: "Um Mitternacht.", en: "At midnight." } },
+    { word: "die Minute", phonetic: "mi-noo-tuh", meaning: "minute", gender: "die", example: { de: "Fünf Minuten.", en: "Five minutes." } },
+    { word: "die Stunde", phonetic: "shtoon-duh", meaning: "hour", gender: "die", example: { de: "Eine Stunde warten.", en: "Wait an hour." } },
+    { word: "die Uhr", phonetic: "oor", meaning: "clock / watch / o'clock", gender: "die", example: { de: "Meine Uhr.", en: "My watch." } },
+    { word: "pünktlich", phonetic: "pünkt-likh", meaning: "punctual / on time", example: { de: "Pünktlich ankommen.", en: "Arrive on time." } },
+    { word: "früh", phonetic: "frü", meaning: "early", example: { de: "Zu früh aufwachen.", en: "Wake up too early." } },
+    { word: "spät", phonetic: "shpeyt", meaning: "late", example: { de: "Zu spät ankommen.", en: "Arrive too late." } },
+    { word: "jetzt", phonetic: "yetst", meaning: "now", example: { de: "Jetzt essen wir.", en: "We eat now." } },
+    { word: "gleich", phonetic: "glykh", meaning: "in a moment / shortly", example: { de: "Ich komme gleich.", en: "I'll come shortly." } },
+    { word: "bald", phonetic: "balt", meaning: "soon", example: { de: "Bald fertig.", en: "Done soon." } },
+    { word: "die Mitternacht", phonetic: "mi-ter-nakht", meaning: "midnight", gender: "die", example: { de: "Um Mitternacht.", en: "At midnight." } },
+  ]}] },
+};

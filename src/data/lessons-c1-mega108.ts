@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega108: Record<string, Lesson> = {
+  "lc1_m154": { id: "lc1_m154", title: "Computational Linguistics & NLP C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Computerlinguistik", phonetic: "kom-pyoo-ter-lin-gvis-tik", meaning: "computational linguistics", gender: "die", example: { de: "Statistische Computerlinguistik.", en: "Statistical computational linguistics." } },
+    { word: "die natürliche Sprachverarbeitung (NLP)", phonetic: "na-tür-li-khuh-shprahkh-fer-ar-by-tung", meaning: "natural language processing (NLP)", gender: "die", example: { de: "NLP Modelle.", en: "NLP models." } },
+    { word: "das Sprachmodell (LLM)", phonetic: "shprahkh-mo-del", meaning: "language model (LLM)", gender: "das", example: { de: "Großes Sprachmodell GPT.", en: "Large language model GPT." } },
+    { word: "das Tokenisierung", phonetic: "to-ke-ni-zee-rung", meaning: "tokenisation (NLP)", gender: "die", example: { de: "BPE-Tokenisierung.", en: "BPE tokenisation." } },
+    { word: "das Parsing (Syntaxanalyse)", phonetic: "par-sing", meaning: "parsing (syntax analysis)", gender: "das", example: { de: "Probabilistisches Parsing.", en: "Probabilistic parsing." } },
+    { word: "die Dependenzanalyse", phonetic: "de-pen-dents-a-na-lü-zuh", meaning: "dependency parsing", gender: "die", example: { de: "Universal-Dependenz-Analyse.", en: "Universal Dependency parsing." } },
+    { word: "das Named Entity Recognition (NER)", phonetic: "ney-med-en-ti-ti-rek-og-ni-tsee-ohn", meaning: "named entity recognition (NER)", gender: "das", example: { de: "NER-Personenerkennung.", en: "NER person recognition." } },
+    { word: "die Stimmungsanalyse", phonetic: "shti-mungs-a-na-lü-zuh", meaning: "sentiment analysis", gender: "die", example: { de: "Twitter Stimmungsanalyse.", en: "Twitter sentiment analysis." } },
+    { word: "die maschinelle Übersetzung (MT)", phonetic: "ma-shee-nel-luh-ü-ber-zet-tsung", meaning: "machine translation (MT)", gender: "die", example: { de: "Neuronale maschinelle Übersetzung.", en: "Neural machine translation." } },
+    { word: "das Transformer-Modell (Attention)", phonetic: "trans-for-mer-mo-del", meaning: "Transformer model (attention)", gender: "das", example: { de: "BERT Transformer-Modell.", en: "BERT Transformer model." } },
+    { word: "das BERT (Bidirectional Encoder)", phonetic: "bert", meaning: "BERT (Bidirectional Encoder Representations)", gender: "das", example: { de: "BERT Vortraining.", en: "BERT pre-training." } },
+    { word: "das GPT (Generative Pre-trained Transformer)", phonetic: "gay-pay-tay", meaning: "GPT (Generative Pre-trained Transformer)", gender: "das", example: { de: "GPT-4 Sprachmodell.", en: "GPT-4 language model." } },
+    { word: "das Word Embedding", phonetic: "vord-em-be-ding", meaning: "word embedding (Word2Vec)", gender: "das", example: { de: "Word2Vec Embedding.", en: "Word2Vec embedding." } },
+    { word: "die kontextfreie Grammatik (CFG)", phonetic: "kon-tekst-fry-uh-gra-ma-tik", meaning: "context-free grammar (CFG)", gender: "die", example: { de: "CFG Chomsky-Normalform.", en: "CFG Chomsky normal form." } },
+    { word: "der Finite-State-Automat (FSA)", phonetic: "fi-ni-tuh-steyt-ow-to-maht", meaning: "finite-state automaton (FSA)", gender: "der", example: { de: "FSA Morphologieverarbeitung.", en: "FSA morphology processing." } },
+    { word: "die Spracherkennung (ASR)", phonetic: "shprahkh-er-ke-nung", meaning: "automatic speech recognition (ASR)", gender: "die", example: { de: "ASR Spracherkennung.", en: "ASR automatic speech recognition." } },
+    { word: "die Textzusammenfassung", phonetic: "teksts-tsoo-za-men-fa-sung", meaning: "text summarisation", gender: "die", example: { de: "Automatische Textzusammenfassung.", en: "Automatic text summarisation." } },
+    { word: "die Frage-Antwort-Systeme (QA)", phonetic: "fra-guh-ant-vort-züs-tey-muh", meaning: "question answering (QA) systems", example: { de: "QA Frage-Antwort.", en: "QA question answering." } },
+    { word: "die Coreference Resolution", phonetic: "ko-re-fe-rents-re-zo-loo-tsee-ohn", meaning: "coreference resolution", gender: "die", example: { de: "Pronominale Coreference.", en: "Pronominal coreference." } },
+    { word: "das Zero-Shot-Lernen (NLP)", phonetic: "tsee-ro-shot-ler-nen", meaning: "zero-shot learning (NLP)", gender: "das", example: { de: "Zero-Shot-Klassifikation NLP.", en: "Zero-shot classification NLP." } },
+  ]}] },
+};

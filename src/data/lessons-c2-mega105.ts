@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega105: Record<string, Lesson> = {
+  "lc2_m148": { id: "lc2_m148", title: "Perfectoid Spaces & p-adic Geometry C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die perfektoide Raum (Scholze)", phonetic: "per-fek-toi-duh-rowm", meaning: "perfectoid space (Scholze)", gender: "der", example: { de: "Scholzes perfektoider Raum.", en: "Scholze's perfectoid space." } },
+    { word: "die p-adische Geometrie", phonetic: "pay-ah-di-shuh-gay-oh-me-tree", meaning: "p-adic geometry", gender: "die", example: { de: "Rigide p-adische Geometrie.", en: "Rigid p-adic geometry." } },
+    { word: "die rigide analytische Geometrie (Tate)", phonetic: "ri-gi-duh-a-na-lü-ti-shuh-gay-oh-me-tree", meaning: "rigid analytic geometry (Tate)", gender: "die", example: { de: "Tates rigide Geometrie.", en: "Tate's rigid geometry." } },
+    { word: "das Adic-Raum (Huber)", phonetic: "ah-dik-rowm", meaning: "adic space (Huber)", gender: "der", example: { de: "Hubers adic Raum.", en: "Huber's adic space." } },
+    { word: "die Berkovich-Raum", phonetic: "ber-ko-vikh-rowm", meaning: "Berkovich space", gender: "der", example: { de: "Analytischer Berkovich-Raum.", en: "Analytic Berkovich space." } },
+    { word: "das Tilting (Scholze/Fontaine)", phonetic: "til-ting", meaning: "tilting equivalence (Scholze)", gender: "das", example: { de: "Perfektoide Tilting-Äquivalenz.", en: "Perfectoid tilting equivalence." } },
+    { word: "das Fontaine-Theorie", phonetic: "fon-tayn-tay-oh-ree", meaning: "Fontaine theory (p-adic Hodge)", gender: "die", example: { de: "Fontaines p-adische Hodge-Theorie.", en: "Fontaine's p-adic Hodge theory." } },
+    { word: "die p-adische Hodge-Theorie", phonetic: "pay-ah-di-shuh-hodsh-tay-oh-ree", meaning: "p-adic Hodge theory", gender: "die", example: { de: "p-adische Hodge-Theorie Perioden.", en: "P-adic Hodge theory periods." } },
+    { word: "das Witt-Vektoren", phonetic: "vit-vek-to-ren", meaning: "Witt vectors", example: { de: "Witt-Vektoren W(k).", en: "Witt vectors W(k)." } },
+    { word: "das Prismatische Kohomologie (Bhatt-Scholze)", phonetic: "pris-ma-ti-shuh-ko-ho-mo-lo-gee", meaning: "prismatic cohomology (Bhatt-Scholze)", gender: "die", example: { de: "Bhatt-Scholze prismatische Kohomologie.", en: "Bhatt-Scholze prismatic cohomology." } },
+    { word: "das Crystalline Kohomologie (Berthelot)", phonetic: "krüs-ta-lee-nuh-ko-ho-mo-lo-gee", meaning: "crystalline cohomology (Berthelot)", gender: "die", example: { de: "Berthelots crystalline Kohomologie.", en: "Berthelot's crystalline cohomology." } },
+    { word: "der de Rham-Witt-Komplex", phonetic: "duh-ram-vit-kom-pleks", meaning: "de Rham-Witt complex", gender: "der", example: { de: "de Rham-Witt-Komplex Zerlegung.", en: "de Rham-Witt complex decomposition." } },
+    { word: "die étale Kohomologie (l-adisch)", phonetic: "ay-tah-luh-ko-ho-mo-lo-gee", meaning: "étale cohomology (l-adic)", gender: "die", example: { de: "l-adische étale Kohomologie.", en: "L-adic étale cohomology." } },
+    { word: "das Vergleichssatz (p-adische Hodge)", phonetic: "fer-glykhs-zats", meaning: "comparison theorem (p-adic Hodge)", gender: "der", example: { de: "CdR-Vergleichssatz.", en: "CdR comparison theorem." } },
+    { word: "die Galois-Darstellung (p-adisch)", phonetic: "ga-lwa-dar-shte-lung", meaning: "p-adic Galois representation", gender: "die", example: { de: "Hodge-Tate p-adische Galois-Darstellung.", en: "Hodge-Tate p-adic Galois representation." } },
+    { word: "die globale Klassenkörpertheorie (p-adisch)", phonetic: "glo-bah-luh-kla-sen-kör-per-tay-oh-ree", meaning: "global class field theory (p-adic)", gender: "die", example: { de: "Globale p-adische Klassenkörpertheorie.", en: "Global p-adic class field theory." } },
+    { word: "das Lubin-Tate-Theorie", phonetic: "loo-bin-tayt-tay-oh-ree", meaning: "Lubin-Tate theory", gender: "die", example: { de: "Lubin-Tate-Formalgruppen.", en: "Lubin-Tate formal groups." } },
+    { word: "das Isocrystal", phonetic: "i-zo-krüs-tal", meaning: "isocrystal (p-adic)", gender: "das", example: { de: "F-Isocrystal über Fp.", en: "F-isocrystal over Fp." } },
+    { word: "die Diamond (Scholze)", phonetic: "dai-mond", meaning: "diamond (Scholze)", gender: "der", example: { de: "Scholzes Diamond-Projekt.", en: "Scholze's diamond project." } },
+    { word: "der Shtukas (function field analogue)", phonetic: "shtoo-ka", meaning: "shtukas (function field analogue)", gender: "der", example: { de: "Drinfeld-Shtukas.", en: "Drinfeld shtukas." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega107: Record<string, Lesson> = {
+  "la2_m152": { id: "la2_m152", title: "German Culture & Traditions A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Oktoberfest", phonetic: "ok-to-ber-fest", meaning: "Oktoberfest", gender: "das", example: { de: "Münchner Oktoberfest.", en: "Munich Oktoberfest." } },
+    { word: "der Karneval", phonetic: "kar-ne-vahl", meaning: "carnival / Fasching", gender: "der", example: { de: "Karneval in Köln.", en: "Carnival in Cologne." } },
+    { word: "das Weihnachten", phonetic: "vy-nakh-ten", meaning: "Christmas", gender: "das", example: { de: "Frohe Weihnachten!", en: "Merry Christmas!" } },
+    { word: "der Weihnachtsmarkt", phonetic: "vy-nakhts-markt", meaning: "Christmas market", gender: "der", example: { de: "Nürnberger Weihnachtsmarkt.", en: "Nuremberg Christmas market." } },
+    { word: "Ostern", phonetic: "os-tern", meaning: "Easter", example: { de: "Frohe Ostern!", en: "Happy Easter!" } },
+    { word: "der Osterhase", phonetic: "os-ter-hah-zuh", meaning: "Easter bunny", gender: "der", example: { de: "Der Osterhase bringt Eier.", en: "The Easter bunny brings eggs." } },
+    { word: "das Pfingsten", phonetic: "pfing-sten", meaning: "Whitsun / Pentecost", gender: "das", example: { de: "Pfingsten Feiertag.", en: "Whitsun public holiday." } },
+    { word: "der Tag der Deutschen Einheit (3. Oktober)", phonetic: "tahk-der-doyt-shen-ayn-hyte", meaning: "German Unity Day (3 Oct)", gender: "der", example: { de: "Tag der Deutschen Einheit.", en: "German Unity Day." } },
+    { word: "das Bier (Kultur)", phonetic: "beer", meaning: "beer (German culture)", gender: "das", example: { de: "Deutsches Reinheitsgebot.", en: "German beer purity law." } },
+    { word: "die Bratwurst", phonetic: "braht-voorst", meaning: "bratwurst", gender: "die", example: { de: "Nürnberger Bratwurst.", en: "Nuremberg bratwurst." } },
+    { word: "das Schnitzel", phonetic: "shni-tsel", meaning: "schnitzel", gender: "das", example: { de: "Wiener Schnitzel.", en: "Viennese schnitzel." } },
+    { word: "der Schwarzwald", phonetic: "shvarts-valt", meaning: "Black Forest", gender: "der", example: { de: "Schwarzwälder Kirschtorte.", en: "Black Forest cake." } },
+    { word: "das Dirndl", phonetic: "dirn-del", meaning: "dirndl (traditional dress)", gender: "das", example: { de: "Dirndl beim Oktoberfest.", en: "Dirndl at Oktoberfest." } },
+    { word: "die Lederhose", phonetic: "lay-der-hoh-zuh", meaning: "lederhosen", gender: "die", example: { de: "Bayerische Lederhose.", en: "Bavarian lederhosen." } },
+    { word: "der Bundesrat", phonetic: "boon-des-raht", meaning: "Federal Council (Germany)", gender: "der", example: { de: "Bundesrat in Berlin.", en: "Federal Council in Berlin." } },
+    { word: "der Bundestag", phonetic: "boon-des-tahk", meaning: "Federal Parliament (Germany)", gender: "der", example: { de: "Bundestag in Berlin.", en: "Federal Parliament in Berlin." } },
+    { word: "Prost!", phonetic: "prost", meaning: "Cheers!", example: { de: "Prost! Ein Bier.", en: "Cheers! A beer." } },
+    { word: "das Brettspiel", phonetic: "bret-shpeel", meaning: "board game", gender: "das", example: { de: "Deutsches Brettspiel.", en: "German board game." } },
+    { word: "die Gemütlichkeit", phonetic: "geh-müt-likh-kyte", meaning: "cosiness / conviviality", gender: "die", example: { de: "Deutsche Gemütlichkeit.", en: "German cosiness." } },
+    { word: "das Volksfest", phonetic: "folks-fest", meaning: "folk festival", gender: "das", example: { de: "Traditionelles Volksfest.", en: "Traditional folk festival." } },
+  ]}] },
+};

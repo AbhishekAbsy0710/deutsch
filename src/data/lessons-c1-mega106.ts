@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega106: Record<string, Lesson> = {
+  "lc1_m152": { id: "lc1_m152", title: "Advanced Pragmatics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Pragmatik (Linguistik)", phonetic: "prag-mah-tik", meaning: "pragmatics (linguistics)", gender: "die", example: { de: "Linguistische Pragmatik.", en: "Linguistic pragmatics." } },
+    { word: "der Kontext (Pragmatik)", phonetic: "kon-tekst", meaning: "context (pragmatics)", gender: "der", example: { de: "Außersprachlicher Kontext.", en: "Extralinguistic context." } },
+    { word: "die Deixis", phonetic: "dayk-sis", meaning: "deixis", gender: "die", example: { de: "Personale Deixis.", en: "Personal deixis." } },
+    { word: "die Referenz (Pragmatik)", phonetic: "re-fe-rents", meaning: "reference (pragmatics)", gender: "die", example: { de: "Referentielle Vagheit.", en: "Referential vagueness." } },
+    { word: "die Präsupposition", phonetic: "prä-zoo-po-zee-tsee-ohn", meaning: "presupposition", gender: "die", example: { de: "Existenzielle Präsupposition.", en: "Existential presupposition." } },
+    { word: "der Skopus (Negation/Quantor)", phonetic: "sko-pus", meaning: "scope (negation/quantifier)", gender: "der", example: { de: "Negations-Skopus.", en: "Negation scope." } },
+    { word: "die skalare Implikatur", phonetic: "ska-lah-ruh-im-pli-ka-toor", meaning: "scalar implicature", gender: "die", example: { de: "Horn-Skala skalare Implikatur.", en: "Horn-scale scalar implicature." } },
+    { word: "die Relevanztheorie (Sperber/Wilson)", phonetic: "re-le-vants-tay-oh-ree", meaning: "relevance theory (Sperber/Wilson)", gender: "die", example: { de: "Wilsons Relevanztheorie.", en: "Wilson's relevance theory." } },
+    { word: "das kommunikative Wollen (Grice)", phonetic: "ko-mü-ni-ka-tee-vuh-vo-len", meaning: "communicative intention (Grice)", gender: "das", example: { de: "Grices kommunikatives Wollen.", en: "Grice's communicative intention." } },
+    { word: "die Face-Theorie (Goffman/Brown)", phonetic: "feys-tay-oh-ree", meaning: "face theory (Goffman/Brown & Levinson)", gender: "die", example: { de: "Brown-Levinsonsche Face-Theorie.", en: "Brown-Levinson face theory." } },
+    { word: "der Gesichtsbedrohende Akt (FTA)", phonetic: "geh-zikhts-beh-droh-en-de-akt", meaning: "face-threatening act (FTA)", gender: "der", example: { de: "Positiver FTA.", en: "Positive FTA." } },
+    { word: "die Höflichkeitsstrategie", phonetic: "höf-likh-kyts-shtra-te-gee", meaning: "politeness strategy", gender: "die", example: { de: "Positive Höflichkeitsstrategie.", en: "Positive politeness strategy." } },
+    { word: "das Konversationspostulat (Grice)", phonetic: "kon-ver-za-tsee-ohns-pos-too-laht", meaning: "conversational maxim (Grice)", gender: "das", example: { de: "Quantitätspostulat.", en: "Quantity maxim." } },
+    { word: "die Indirektheit (Sprechakt)", phonetic: "in-di-rekt-hyte", meaning: "indirectness (speech act)", gender: "die", example: { de: "Indirekter Sprechakt.", en: "Indirect speech act." } },
+    { word: "die Hörerorientierung", phonetic: "hö-rer-o-ree-en-tee-rung", meaning: "audience design (Bell)", gender: "die", example: { de: "Bells Hörerorientierung.", en: "Bell's audience design." } },
+    { word: "das Kode-Switching", phonetic: "koh-de-svit-shing", meaning: "code-switching", gender: "das", example: { de: "Bilinguales Kode-Switching.", en: "Bilingual code-switching." } },
+    { word: "der Sprachkonflikt", phonetic: "shprakhe-kon-flikt", meaning: "language conflict", gender: "der", example: { de: "Sozialer Sprachkonflikt.", en: "Social language conflict." } },
+    { word: "das Tabuwort", phonetic: "ta-boo-vort", meaning: "taboo word", gender: "das", example: { de: "Soziales Tabuwort.", en: "Social taboo word." } },
+    { word: "die Lüge (pragmatisch)", phonetic: "lü-guh", meaning: "lying (pragmatic analysis)", gender: "die", example: { de: "Pragmatische Lügenanalyse.", en: "Pragmatic analysis of lying." } },
+    { word: "die Ironie (pragmatisch)", phonetic: "i-ro-nee", meaning: "irony (pragmatics)", gender: "die", example: { de: "Echoische Ironie.", en: "Echoic irony." } },
+  ]}] },
+};

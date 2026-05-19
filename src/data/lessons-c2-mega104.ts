@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega104: Record<string, Lesson> = {
+  "lc2_m147": { id: "lc2_m147", title: "Geometric Langlands Programme C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "das geometrische Langlands-Programm", phonetic: "gay-oh-me-tri-shuh-lang-lants-pro-gram", meaning: "geometric Langlands programme", gender: "das", example: { de: "Geometrisches Langlands-Programm.", en: "Geometric Langlands programme." } },
+    { word: "das Bündel (algebraische Geometrie)", phonetic: "bün-del", meaning: "bundle (algebraic geometry)", gender: "das", example: { de: "Vektorbündel auf Kurve.", en: "Vector bundle on curve." } },
+    { word: "das Geradenbündel (Linienbündel)", phonetic: "geh-rah-den-bün-del", meaning: "line bundle", gender: "das", example: { de: "Holomorphes Linienbündel.", en: "Holomorphic line bundle." } },
+    { word: "das flache Zusammenhang", phonetic: "fla-khuh-tsoo-za-men-hang", meaning: "flat connection", gender: "der", example: { de: "Flacher Zusammenhang auf Bündel.", en: "Flat connection on bundle." } },
+    { word: "der lokale System (D-Modul)", phonetic: "lo-kah-les-züs-tem", meaning: "local system / D-module", gender: "das", example: { de: "Lokales System auf Kurve.", en: "Local system on curve." } },
+    { word: "die Perversgarbe", phonetic: "per-vers-gar-buh", meaning: "perverse sheaf", gender: "die", example: { de: "Intermediäre Perversgarbe.", en: "Intermediate extension perverse sheaf." } },
+    { word: "die Garbe (Sheaf)", phonetic: "gar-buh", meaning: "sheaf", gender: "die", example: { de: "Kohärente Garbe.", en: "Coherent sheaf." } },
+    { word: "die abgeleitete Kategorie", phonetic: "ap-ge-ly-te-tuh-ka-te-go-ree", meaning: "derived category", gender: "die", example: { de: "Abgeleitete Kategorie D^b(X).", en: "Derived category D^b(X)." } },
+    { word: "das Hitchin-System", phonetic: "hit-shin-züs-tem", meaning: "Hitchin system (integrable)", gender: "das", example: { de: "Hitchin-Integrierbares-System.", en: "Hitchin integrable system." } },
+    { word: "die Beilinson-Bernstein-Lokalisierung", phonetic: "by-lin-son-bern-shtyn-lo-ka-li-zee-rung", meaning: "Beilinson-Bernstein localisation", gender: "die", example: { de: "BB-Lokalisierung D-Moduln.", en: "BB localisation D-modules." } },
+    { word: "das Hecke-Eigengarbe", phonetic: "he-kuh-ayg-en-gar-buh", meaning: "Hecke eigensheaf", gender: "die", example: { de: "Geometrische Hecke-Eigengarbe.", en: "Geometric Hecke eigensheaf." } },
+    { word: "die Langlands-Dualität", phonetic: "lang-lants-doo-a-li-tayt", meaning: "Langlands duality", gender: "die", example: { de: "Geometrische Langlands-Dualität.", en: "Geometric Langlands duality." } },
+    { word: "das Quantengeometrische Langlands", phonetic: "kvan-ten-gay-oh-me-tri-shuh-lang-lants", meaning: "quantum geometric Langlands", gender: "das", example: { de: "Quantisiertes geometrisches Langlands.", en: "Quantised geometric Langlands." } },
+    { word: "die Kazhdan-Lusztig-Theorie", phonetic: "kaz-dan-loo-shtig-tay-oh-ree", meaning: "Kazhdan-Lusztig theory", gender: "die", example: { de: "KL-Polynome Darstellungstheorie.", en: "KL polynomials representation theory." } },
+    { word: "die Langlands-Funktorialität", phonetic: "lang-lants-foonk-tsee-oh-na-li-tayt", meaning: "Langlands functoriality", gender: "die", example: { de: "Geometrische Langlands-Funktorialität.", en: "Geometric Langlands functoriality." } },
+    { word: "der Satake-Isomorphismus", phonetic: "za-ta-kuh-i-zo-mor-fis-mus", meaning: "Satake isomorphism", gender: "der", example: { de: "Geometrischer Satake-Isomorphismus.", en: "Geometric Satake isomorphism." } },
+    { word: "die Gauß-Manin-Verbindung", phonetic: "gows-ma-neen-fer-bin-dung", meaning: "Gauss-Manin connection", gender: "die", example: { de: "Gauß-Manin-Verbindung Familien.", en: "Gauss-Manin connection families." } },
+    { word: "das Riemann-Hilbert-Problem (D-Moduln)", phonetic: "ree-man-hil-bert-pro-blaym", meaning: "Riemann-Hilbert correspondence", gender: "das", example: { de: "Riemann-Hilbert-Korrespondenz.", en: "Riemann-Hilbert correspondence." } },
+    { word: "die geometrische Satake-Äquivalenz", phonetic: "gay-oh-me-tri-shuh-za-ta-kuh-ey-kvi-va-lents", meaning: "geometric Satake equivalence", gender: "die", example: { de: "Geometrische Satake-Äquivalenz.", en: "Geometric Satake equivalence." } },
+    { word: "das Frenkel-Ben-Zvi-Programm", phonetic: "fren-kel-ben-tsvi-pro-gram", meaning: "Frenkel-Ben-Zvi programme (quantum GL)", gender: "das", example: { de: "Frenkel-Ben-Zvi geometrisches Langlands.", en: "Frenkel-Ben-Zvi geometric Langlands." } },
+  ]}] },
+};

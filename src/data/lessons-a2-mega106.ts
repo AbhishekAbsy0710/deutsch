@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega106: Record<string, Lesson> = {
+  "la2_m151": { id: "la2_m151", title: "Food & Cooking Extended A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Rezept", phonetic: "re-tsept", meaning: "recipe", gender: "das", example: { de: "Ein Rezept folgen.", en: "Follow a recipe." } },
+    { word: "die Zutat", phonetic: "tsoo-taht", meaning: "ingredient", gender: "die", example: { de: "Alle Zutaten vorbereiten.", en: "Prepare all ingredients." } },
+    { word: "kochen", phonetic: "ko-khen", meaning: "to cook", example: { de: "Das Abendessen kochen.", en: "Cook dinner." } },
+    { word: "backen", phonetic: "ba-ken", meaning: "to bake", example: { de: "Brot backen.", en: "Bake bread." } },
+    { word: "braten", phonetic: "brah-ten", meaning: "to fry / roast", example: { de: "Fleisch braten.", en: "Fry meat." } },
+    { word: "das Gemüse", phonetic: "geh-mü-zuh", meaning: "vegetables", gender: "das", example: { de: "Frisches Gemüse.", en: "Fresh vegetables." } },
+    { word: "das Obst", phonetic: "ohpst", meaning: "fruit", gender: "das", example: { de: "Saisonales Obst.", en: "Seasonal fruit." } },
+    { word: "das Fleisch", phonetic: "flysh", meaning: "meat", gender: "das", example: { de: "Frisches Fleisch.", en: "Fresh meat." } },
+    { word: "der Fisch", phonetic: "fish", meaning: "fish", gender: "der", example: { de: "Gegrillter Fisch.", en: "Grilled fish." } },
+    { word: "das Ei", phonetic: "ay", meaning: "egg", gender: "das", example: { de: "Ein gekochtes Ei.", en: "A boiled egg." } },
+    { word: "die Butter", phonetic: "boo-ter", meaning: "butter", gender: "die", example: { de: "Butter in die Pfanne.", en: "Butter in the pan." } },
+    { word: "das Öl", phonetic: "öl", meaning: "oil", gender: "das", example: { de: "Olivenöl.", en: "Olive oil." } },
+    { word: "das Salz", phonetic: "zalts", meaning: "salt", gender: "das", example: { de: "Salz und Pfeffer.", en: "Salt and pepper." } },
+    { word: "der Pfeffer", phonetic: "pfe-fer", meaning: "pepper", gender: "der", example: { de: "Schwarzer Pfeffer.", en: "Black pepper." } },
+    { word: "der Zucker", phonetic: "tsoo-ker", meaning: "sugar", gender: "der", example: { de: "Zucker im Kaffee.", en: "Sugar in coffee." } },
+    { word: "das Mehl", phonetic: "mayl", meaning: "flour", gender: "das", example: { de: "Mehl für den Kuchen.", en: "Flour for the cake." } },
+    { word: "die Milch", phonetic: "milkh", meaning: "milk", gender: "die", example: { de: "Frische Milch.", en: "Fresh milk." } },
+    { word: "der Käse", phonetic: "key-zuh", meaning: "cheese", gender: "der", example: { de: "Würziger Käse.", en: "Spicy cheese." } },
+    { word: "würzen", phonetic: "vür-tsen", meaning: "to season (food)", example: { de: "Das Gericht würzen.", en: "Season the dish." } },
+    { word: "schmecken", phonetic: "shme-ken", meaning: "to taste", example: { de: "Das schmeckt gut.", en: "That tastes good." } },
+  ]}] },
+};

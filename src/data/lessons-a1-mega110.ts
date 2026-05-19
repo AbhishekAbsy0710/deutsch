@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega110: Record<string, Lesson> = {
+  "la1_m160": { id: "la1_m160", title: "Household Chores A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "aufräumen", phonetic: "owf-roy-men", meaning: "to tidy up", example: { de: "Das Zimmer aufräumen.", en: "Tidy up the room." } },
+    { word: "putzen", phonetic: "poo-tsen", meaning: "to clean", example: { de: "Das Bad putzen.", en: "Clean the bathroom." } },
+    { word: "saugen", phonetic: "zow-gen", meaning: "to vacuum", example: { de: "Den Boden saugen.", en: "Vacuum the floor." } },
+    { word: "wischen", phonetic: "vi-shen", meaning: "to mop / wipe", example: { de: "Den Boden wischen.", en: "Mop the floor." } },
+    { word: "spülen", phonetic: "shpü-len", meaning: "to wash up / rinse", example: { de: "Das Geschirr spülen.", en: "Wash the dishes." } },
+    { word: "waschen", phonetic: "va-shen", meaning: "to wash (laundry)", example: { de: "Die Wäsche waschen.", en: "Wash the laundry." } },
+    { word: "bügeln", phonetic: "bü-geln", meaning: "to iron", example: { de: "Das Hemd bügeln.", en: "Iron the shirt." } },
+    { word: "kochen (Haushalt)", phonetic: "ko-khen", meaning: "to cook (household)", example: { de: "Das Abendessen kochen.", en: "Cook dinner." } },
+    { word: "einkaufen", phonetic: "ayn-kow-fen", meaning: "to go shopping", example: { de: "Lebensmittel einkaufen.", en: "Buy groceries." } },
+    { word: "müll rausbringen", phonetic: "mül-rows-bring-en", meaning: "to take out the rubbish", example: { de: "Den Müll rausbringen.", en: "Take out the rubbish." } },
+    { word: "der Staubsauger", phonetic: "shtowp-zow-ger", meaning: "vacuum cleaner", gender: "der", example: { de: "Mit dem Staubsauger.", en: "With the vacuum cleaner." } },
+    { word: "der Wischmopp", phonetic: "vish-mop", meaning: "mop", gender: "der", example: { de: "Wischmopp benutzen.", en: "Use the mop." } },
+    { word: "das Spülmittel", phonetic: "shpül-mi-tel", meaning: "washing-up liquid", gender: "das", example: { de: "Spülmittel kaufen.", en: "Buy washing-up liquid." } },
+    { word: "die Waschmaschine", phonetic: "vash-ma-shee-nuh", meaning: "washing machine", gender: "die", example: { de: "Waschmaschine einschalten.", en: "Turn on the washing machine." } },
+    { word: "der Trockner", phonetic: "trok-ner", meaning: "tumble dryer", gender: "der", example: { de: "Wäsche in den Trockner.", en: "Put laundry in the dryer." } },
+    { word: "aufhängen", phonetic: "owf-heng-en", meaning: "to hang up (laundry)", example: { de: "Wäsche aufhängen.", en: "Hang up the laundry." } },
+    { word: "fegen", phonetic: "fay-gen", meaning: "to sweep", example: { de: "Den Boden fegen.", en: "Sweep the floor." } },
+    { word: "der Besen", phonetic: "bay-zen", meaning: "broom", gender: "der", example: { de: "Mit dem Besen fegen.", en: "Sweep with the broom." } },
+    { word: "das Putzmittel", phonetic: "poots-mi-tel", meaning: "cleaning product", gender: "das", example: { de: "Putzmittel verwenden.", en: "Use cleaning product." } },
+    { word: "der Haushalt", phonetic: "hows-halt", meaning: "household / housekeeping", gender: "der", example: { de: "Den Haushalt führen.", en: "Run the household." } },
+  ]}] },
+};

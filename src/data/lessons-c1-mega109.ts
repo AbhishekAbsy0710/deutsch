@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega109: Record<string, Lesson> = {
+  "lc1_m155": { id: "lc1_m155", title: "Advanced Sociolinguistics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Soziolinguistik", phonetic: "zo-tsee-oh-lin-gvis-tik", meaning: "sociolinguistics", gender: "die", example: { de: "Quantitative Soziolinguistik.", en: "Quantitative sociolinguistics." } },
+    { word: "die Sprachvariation", phonetic: "shprahkh-va-ree-a-tsee-ohn", meaning: "language variation", gender: "die", example: { de: "Soziale Sprachvariation.", en: "Social language variation." } },
+    { word: "die soziale Variable (Labov)", phonetic: "zo-tsee-ah-luh-va-ree-ah-bluh", meaning: "social variable (Labov)", gender: "die", example: { de: "Phonologische soziale Variable.", en: "Phonological social variable." } },
+    { word: "der Soziolekt", phonetic: "zo-tsee-oh-lekt", meaning: "sociolect", gender: "der", example: { de: "Jugend-Soziolekt.", en: "Youth sociolect." } },
+    { word: "der Idiolekt", phonetic: "i-dee-oh-lekt", meaning: "idiolect", gender: "der", example: { de: "Individueller Idiolekt.", en: "Individual idiolect." } },
+    { word: "der Dialekt", phonetic: "di-a-lekt", meaning: "dialect", gender: "der", example: { de: "Bairischer Dialekt.", en: "Bavarian dialect." } },
+    { word: "die Diglossia (Ferguson)", phonetic: "di-glo-see-ah", meaning: "diglossia (Ferguson)", gender: "die", example: { de: "Arabische Diglossia.", en: "Arabic diglossia." } },
+    { word: "die Mehrsprachigkeit", phonetic: "meyr-shprahkh-ikh-kyte", meaning: "multilingualism", gender: "die", example: { de: "Individuelle Mehrsprachigkeit.", en: "Individual multilingualism." } },
+    { word: "der Erstspracherwerb (L1)", phonetic: "erst-shprahkh-er-verp", meaning: "first language acquisition (L1)", gender: "der", example: { de: "Kindlicher L1-Erwerb.", en: "Child L1 acquisition." } },
+    { word: "der Zweitspracherwerb (L2)", phonetic: "tsvy-tuh-shprahkh-er-verp", meaning: "second language acquisition (L2)", gender: "der", example: { de: "Erwachsener L2-Erwerb.", en: "Adult L2 acquisition." } },
+    { word: "die kritische Periode (Spracherwerb)", phonetic: "kri-ti-shuh-pe-ree-oh-duh", meaning: "critical period (language acquisition)", gender: "die", example: { de: "Lenneberg kritische Periode.", en: "Lenneberg critical period." } },
+    { word: "die sprachliche Akkommodation (Giles)", phonetic: "shprahkh-li-khuh-a-ko-mo-da-tsee-ohn", meaning: "speech accommodation (Giles)", gender: "die", example: { de: "Konvergenz Akkommodationstheorie.", en: "Convergence accommodation theory." } },
+    { word: "die Sprachpolitik", phonetic: "shprahkh-po-li-tik", meaning: "language policy", gender: "die", example: { de: "Nationale Sprachpolitik.", en: "National language policy." } },
+    { word: "der Sprachkontakt", phonetic: "shprahkh-kon-takt", meaning: "language contact", gender: "der", example: { de: "Deutsch-türkischer Sprachkontakt.", en: "German-Turkish language contact." } },
+    { word: "das Pidgin", phonetic: "pid-shin", meaning: "pidgin language", gender: "das", example: { de: "Pidgin-Kontaktsprache.", en: "Pidgin contact language." } },
+    { word: "das Kreolisch", phonetic: "kre-oh-lish", meaning: "creole language", gender: "das", example: { de: "Haitianisches Kreolisch.", en: "Haitian creole." } },
+    { word: "die Spracheinstellung", phonetic: "shprahkh-ayn-shte-lung", meaning: "language attitude", gender: "die", example: { de: "Soziale Spracheinstellung.", en: "Social language attitude." } },
+    { word: "die sprachliche Ideologie", phonetic: "shprahkh-li-khuh-i-de-oh-lo-gee", meaning: "language ideology", gender: "die", example: { de: "Monoglossische Sprachideologie.", en: "Monoglossic language ideology." } },
+    { word: "die Indexikalität (Sprachzeichen)", phonetic: "in-dek-zi-ka-li-tayt", meaning: "indexicality (of language)", gender: "die", example: { de: "Soziale Indexikalität.", en: "Social indexicality." } },
+    { word: "die translanguaging (García)", phonetic: "trans-lan-gvi-dshink", meaning: "translanguaging (García)", gender: "das", example: { de: "Translanguaging im Unterricht.", en: "Translanguaging in education." } },
+  ]}] },
+};

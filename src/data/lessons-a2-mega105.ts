@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega105: Record<string, Lesson> = {
+  "la2_m150": { id: "la2_m150", title: "German School System A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Grundschule", phonetic: "groont-shoo-luh", meaning: "primary school (Gr. 1–4)", gender: "die", example: { de: "Vier Jahre Grundschule.", en: "Four years of primary school." } },
+    { word: "die Hauptschule", phonetic: "howpt-shoo-luh", meaning: "Hauptschule (Gr. 5–9/10)", gender: "die", example: { de: "Die Hauptschule beenden.", en: "Finish Hauptschule." } },
+    { word: "die Realschule", phonetic: "re-ahl-shoo-luh", meaning: "Realschule (Gr. 5–10)", gender: "die", example: { de: "Die Realschule abschließen.", en: "Complete Realschule." } },
+    { word: "das Gymnasium", phonetic: "güm-nah-zee-oom", meaning: "Gymnasium / grammar school", gender: "das", example: { de: "Das Gymnasium besuchen.", en: "Attend the Gymnasium." } },
+    { word: "die Gesamtschule", phonetic: "geh-zamt-shoo-luh", meaning: "comprehensive school", gender: "die", example: { de: "Integrierte Gesamtschule.", en: "Integrated comprehensive school." } },
+    { word: "das Abitur", phonetic: "a-bi-toor", meaning: "Abitur / A-level (university entrance)", gender: "das", example: { de: "Das Abitur bestehen.", en: "Pass the Abitur." } },
+    { word: "der Abschluss", phonetic: "ap-shloos", meaning: "qualification / leaving certificate", gender: "der", example: { de: "Schul-Abschluss machen.", en: "Get a school qualification." } },
+    { word: "das Zeugnis", phonetic: "tsoyg-nis", meaning: "school report / certificate", gender: "das", example: { de: "Gutes Zeugnis bekommen.", en: "Get a good school report." } },
+    { word: "die Note", phonetic: "no-tuh", meaning: "grade / mark", gender: "die", example: { de: "Note 1 ist sehr gut.", en: "Grade 1 is very good." } },
+    { word: "die Klasse", phonetic: "kla-suh", meaning: "class / year group", gender: "die", example: { de: "Fünfte Klasse.", en: "Fifth year." } },
+    { word: "das Fach", phonetic: "fakh", meaning: "subject (school)", gender: "das", example: { de: "Lieblingsfach Mathematik.", en: "Favourite subject maths." } },
+    { word: "der Stundenplan", phonetic: "shtoon-den-plan", meaning: "timetable", gender: "der", example: { de: "Den Stundenplan lesen.", en: "Read the timetable." } },
+    { word: "die Hausaufgaben", phonetic: "hows-owf-gah-ben", meaning: "homework", example: { de: "Hausaufgaben machen.", en: "Do homework." } },
+    { word: "der Lehrer / die Lehrerin", phonetic: "lay-rer", meaning: "teacher (m/f)", gender: "der", example: { de: "Guter Lehrer.", en: "Good teacher." } },
+    { word: "die Prüfung", phonetic: "prü-fung", meaning: "exam / test", gender: "die", example: { de: "Prüfung schreiben.", en: "Take an exam." } },
+    { word: "die Berufsschule", phonetic: "beh-roofs-shoo-luh", meaning: "vocational school", gender: "die", example: { de: "Berufsschule und Ausbildung.", en: "Vocational school and training." } },
+    { word: "die Ausbildung", phonetic: "ows-bil-dung", meaning: "apprenticeship / vocational training", gender: "die", example: { de: "Ausbildung als Elektriker.", en: "Apprenticeship as electrician." } },
+    { word: "die Universität", phonetic: "oo-ni-ver-zi-tayt", meaning: "university", gender: "die", example: { de: "An der Universität studieren.", en: "Study at university." } },
+    { word: "der Bachelor", phonetic: "ba-che-lor", meaning: "bachelor's degree", gender: "der", example: { de: "Bachelor-Abschluss.", en: "Bachelor's degree." } },
+    { word: "der Master", phonetic: "mas-ter", meaning: "master's degree", gender: "der", example: { de: "Master-Studium.", en: "Master's programme." } },
+  ]}] },
+};

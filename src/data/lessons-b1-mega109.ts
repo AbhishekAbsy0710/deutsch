@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega109: Record<string, Lesson> = {
+  "lb1_m160": { id: "lb1_m160", title: "History of Science B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Wissenschaftsgeschichte", phonetic: "vi-sen-shafts-geh-shi-khtuh", meaning: "history of science", gender: "die", example: { de: "Europäische Wissenschaftsgeschichte.", en: "European history of science." } },
+    { word: "die Wissenschaftliche Revolution (16./17. Jh.)", phonetic: "vi-sen-shaft-li-khuh-re-vo-loo-tsee-ohn", meaning: "Scientific Revolution (16th-17th c.)", gender: "die", example: { de: "Kopernikanische Wissenschaftliche Revolution.", en: "Copernican Scientific Revolution." } },
+    { word: "das geozentrische Weltbild", phonetic: "gay-oh-tsen-tri-shuh-velt-bilt", meaning: "geocentric model (Ptolemy)", gender: "das", example: { de: "Ptolemäisches geozentrisches Weltbild.", en: "Ptolemaic geocentric model." } },
+    { word: "das heliozentrische Weltbild (Kopernikus)", phonetic: "hay-li-oh-tsen-tri-shuh-velt-bilt", meaning: "heliocentric model (Copernicus)", gender: "das", example: { de: "Kopernikanisches heliozentrisches Weltbild.", en: "Copernican heliocentric model." } },
+    { word: "Galileo Galilei", phonetic: "ga-li-lay-oh-ga-li-lay", meaning: "Galileo Galilei", example: { de: "Galileis Fernrohr-Beobachtungen.", en: "Galileo's telescope observations." } },
+    { word: "Isaac Newton", phonetic: "ay-zahk-nü-ton", meaning: "Isaac Newton", example: { de: "Newtons Principia Mathematica.", en: "Newton's Principia Mathematica." } },
+    { word: "die Aufklärung (18. Jh.)", phonetic: "owf-kley-rung", meaning: "the Enlightenment (18th c.)", gender: "die", example: { de: "Europäische Aufklärung.", en: "European Enlightenment." } },
+    { word: "Charles Darwin", phonetic: "sharl-dar-vin", meaning: "Charles Darwin", example: { de: "Darwins Evolutionstheorie.", en: "Darwin's theory of evolution." } },
+    { word: "die natürliche Selektion (Darwin)", phonetic: "na-tür-li-khuh-ze-lek-tsee-ohn", meaning: "natural selection (Darwin)", gender: "die", example: { de: "Darwins natürliche Selektion.", en: "Darwin's natural selection." } },
+    { word: "Louis Pasteur", phonetic: "loo-ee-pas-tör", meaning: "Louis Pasteur", example: { de: "Pasteurs Keimtheorie.", en: "Pasteur's germ theory." } },
+    { word: "Marie Curie", phonetic: "ma-ree-kü-ree", meaning: "Marie Curie", example: { de: "Curies Radioaktivitätsforschung.", en: "Curie's radioactivity research." } },
+    { word: "Max Planck", phonetic: "maks-plank", meaning: "Max Planck", example: { de: "Plancks Quantenpostulat.", en: "Planck's quantum postulate." } },
+    { word: "die Entdeckung des Penicillins (Fleming)", phonetic: "ent-de-kung-des-pe-ni-tsi-lins", meaning: "discovery of penicillin (Fleming)", gender: "die", example: { de: "Flemings Penicillin-Entdeckung.", en: "Fleming's penicillin discovery." } },
+    { word: "die Doppelhelix (Watson & Crick)", phonetic: "do-pel-hay-liks", meaning: "double helix (Watson & Crick)", gender: "die", example: { de: "DNA-Doppelhelix.", en: "DNA double helix." } },
+    { word: "Alan Turing (Informatik)", phonetic: "a-lan-tü-ring", meaning: "Alan Turing (computing)", example: { de: "Turings Turing-Maschine.", en: "Turing's Turing machine." } },
+    { word: "die Mondlandung (Apollo 11)", phonetic: "mont-lan-dung", meaning: "Moon landing (Apollo 11)", gender: "die", example: { de: "Apollo 11 Mondlandung 1969.", en: "Apollo 11 Moon landing 1969." } },
+    { word: "das Hubble-Weltraumteleskop", phonetic: "ha-bel-velt-rowm-te-le-skop", meaning: "Hubble Space Telescope", gender: "das", example: { de: "Hubble-Teleskop-Bilder.", en: "Hubble telescope images." } },
+    { word: "das Higgs-Boson (CERN 2012)", phonetic: "hiks-bo-zon", meaning: "Higgs boson (CERN 2012)", gender: "das", example: { de: "CERN Higgs-Boson-Entdeckung.", en: "CERN Higgs boson discovery." } },
+    { word: "CRISPR-Cas9", phonetic: "kris-per-kas-noyn", meaning: "CRISPR-Cas9 gene editing", example: { de: "CRISPR-Cas9 Genschere.", en: "CRISPR-Cas9 gene scissors." } },
+    { word: "die künstliche Intelligenz (Geschichte)", phonetic: "künst-li-khuh-in-te-li-gents", meaning: "artificial intelligence (history)", gender: "die", example: { de: "Geschichte der künstlichen Intelligenz.", en: "History of artificial intelligence." } },
+  ]}] },
+};

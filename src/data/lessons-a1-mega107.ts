@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega107: Record<string, Lesson> = {
+  "la1_m157": { id: "la1_m157", title: "Days, Months & Seasons A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "Montag", phonetic: "mon-tahk", meaning: "Monday", example: { de: "Montag beginnt die Woche.", en: "Monday starts the week." } },
+    { word: "Dienstag", phonetic: "deens-tahk", meaning: "Tuesday", example: { de: "Dienstag ist der zweite Tag.", en: "Tuesday is the second day." } },
+    { word: "Mittwoch", phonetic: "mit-vokh", meaning: "Wednesday", example: { de: "Mittwoch ist die Mitte.", en: "Wednesday is the middle." } },
+    { word: "Donnerstag", phonetic: "do-ners-tahk", meaning: "Thursday", example: { de: "Am Donnerstag treffen wir.", en: "We meet on Thursday." } },
+    { word: "Freitag", phonetic: "fry-tahk", meaning: "Friday", example: { de: "Freitag ist Wochenende.", en: "Friday is the weekend." } },
+    { word: "Samstag", phonetic: "zams-tahk", meaning: "Saturday", example: { de: "Samstag schlafen wir länger.", en: "On Saturday we sleep in." } },
+    { word: "Sonntag", phonetic: "zon-tahk", meaning: "Sunday", example: { de: "Sonntag ist Ruhetag.", en: "Sunday is a day of rest." } },
+    { word: "Januar", phonetic: "ya-noo-ahr", meaning: "January", example: { de: "Januar ist kalt.", en: "January is cold." } },
+    { word: "Februar", phonetic: "fay-broo-ahr", meaning: "February", example: { de: "Februar hat 28 Tage.", en: "February has 28 days." } },
+    { word: "März", phonetic: "merts", meaning: "March", example: { de: "März ist Frühling.", en: "March is spring." } },
+    { word: "April", phonetic: "a-pril", meaning: "April", example: { de: "April Regen.", en: "April showers." } },
+    { word: "Mai", phonetic: "my", meaning: "May", example: { de: "Blumen im Mai.", en: "Flowers in May." } },
+    { word: "Juni", phonetic: "yoo-nee", meaning: "June", example: { de: "Heiß im Juni.", en: "Hot in June." } },
+    { word: "Juli", phonetic: "yoo-lee", meaning: "July", example: { de: "Urlaub im Juli.", en: "Holiday in July." } },
+    { word: "August", phonetic: "ow-goost", meaning: "August", example: { de: "August ist heiß.", en: "August is hot." } },
+    { word: "September", phonetic: "zep-tem-ber", meaning: "September", example: { de: "Schule beginnt im September.", en: "School starts in September." } },
+    { word: "Oktober", phonetic: "ok-toh-ber", meaning: "October", example: { de: "Herbst im Oktober.", en: "Autumn in October." } },
+    { word: "November", phonetic: "no-vem-ber", meaning: "November", example: { de: "Grau im November.", en: "Grey in November." } },
+    { word: "Dezember", phonetic: "de-tsem-ber", meaning: "December", example: { de: "Weihnachten im Dezember.", en: "Christmas in December." } },
+    { word: "der Frühling", phonetic: "frü-ling", meaning: "spring", gender: "der", example: { de: "Frühling beginnt im März.", en: "Spring begins in March." } },
+  ]}] },
+};

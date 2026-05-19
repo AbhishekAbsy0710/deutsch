@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega107: Record<string, Lesson> = {
+  "lc1_m153": { id: "lc1_m153", title: "Historical German Linguistics C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die historische Linguistik (Deutsch)", phonetic: "his-to-ri-shuh-lin-gvis-tik", meaning: "historical German linguistics", gender: "die", example: { de: "Deutsche historische Sprachwissenschaft.", en: "German historical linguistics." } },
+    { word: "die germanische Ursprache", phonetic: "ger-mah-ni-shuh-oor-shprah-khuh", meaning: "Proto-Germanic language", gender: "die", example: { de: "Rekonstruierte germanische Ursprache.", en: "Reconstructed Proto-Germanic." } },
+    { word: "die Grimmschen Gesetze", phonetic: "grim-shen-geh-zet-tsuh", meaning: "Grimm's Law (consonant shift)", example: { de: "Grimmsches Lautgesetz.", en: "Grimm's Law consonant shift." } },
+    { word: "die Erste Lautverschiebung (germanisch)", phonetic: "ers-tuh-lowt-fer-shee-bung", meaning: "First Germanic Consonant Shift", gender: "die", example: { de: "Erste germanische Lautverschiebung.", en: "First Germanic consonant shift." } },
+    { word: "die Zweite Lautverschiebung (ahd.)", phonetic: "tsvy-tuh-lowt-fer-shee-bung", meaning: "Second (High German) Consonant Shift", gender: "die", example: { de: "Althochdeutsche zweite Lautverschiebung.", en: "Old High German second consonant shift." } },
+    { word: "das Althochdeutsch (750–1050)", phonetic: "alt-hokh-doytsh", meaning: "Old High German (750–1050)", gender: "das", example: { de: "Althochdeutsches Hildebrandlied.", en: "Old High German Hildebrandslied." } },
+    { word: "das Mittelhochdeutsch (1050–1350)", phonetic: "mi-tel-hokh-doytsh", meaning: "Middle High German (1050–1350)", gender: "das", example: { de: "Mittelhochdeutsches Nibelungenlied.", en: "Middle High German Nibelungenlied." } },
+    { word: "das Frühneuhochdeutsch (1350–1650)", phonetic: "frü-noy-hokh-doytsh", meaning: "Early New High German (1350–1650)", gender: "das", example: { de: "Luthers Frühneuhochdeutsch.", en: "Luther's Early New High German." } },
+    { word: "Martin Luthers Bibelübersetzung", phonetic: "mar-teen-loo-ters-bi-bel-ü-ber-zet-tsung", meaning: "Luther's Bible translation", gender: "die", example: { de: "Luthers Bibelübersetzung 1534.", en: "Luther's Bible translation 1534." } },
+    { word: "die Junggrammatiker", phonetic: "yoong-gra-mah-ti-ker", meaning: "Neogrammarians", example: { de: "Junggrammatische Lautgesetze.", en: "Neogrammarian sound laws." } },
+    { word: "das Vernersche Gesetz", phonetic: "ver-ner-shuh-geh-zets", meaning: "Verner's Law", gender: "das", example: { de: "Verners Gesetz Akzentabhängigkeit.", en: "Verner's Law stress dependence." } },
+    { word: "die dialektale Gliederung (Deutsch)", phonetic: "di-a-lek-tah-luh-glee-de-rung", meaning: "dialectal division (German)", gender: "die", example: { de: "Oberdeutsch-Mitteldeutsch Gliederung.", en: "Upper-Middle German division." } },
+    { word: "das Nibelungenlied", phonetic: "ni-be-lun-gen-leet", meaning: "Nibelungenlied (epic poem)", gender: "das", example: { de: "Das Nibelungenlied mhd. Epos.", en: "The Nibelungenlied MHG epic." } },
+    { word: "der Umlaut (historisch)", phonetic: "oom-lowt", meaning: "umlaut (historical development)", gender: "der", example: { de: "I-Umlaut im Althochdeutschen.", en: "I-umlaut in Old High German." } },
+    { word: "die Apokope (historisch)", phonetic: "a-po-ko-puh", meaning: "apocope (historical German)", gender: "die", example: { de: "Frühneuhochdeutsche Apokope.", en: "Early New High German apocope." } },
+    { word: "die Kontraktion (historisch)", phonetic: "kon-trak-tsee-ohn", meaning: "contraction (historical German)", gender: "die", example: { de: "Mittelhochdeutsche Kontraktion.", en: "Middle High German contraction." } },
+    { word: "das Kanzleideutsch", phonetic: "kants-ly-doytsh", meaning: "chancery German", gender: "das", example: { de: "Habsburgisches Kanzleideutsch.", en: "Habsburg chancery German." } },
+    { word: "die Standardisierung des Deutschen", phonetic: "shtan-dar-di-zee-rung-des-doyt-shen", meaning: "standardisation of German", gender: "die", example: { de: "Standardisierung durch Buchdruck.", en: "Standardisation via printing press." } },
+    { word: "das Neuhochdeutsch (ab 1650)", phonetic: "noy-hokh-doytsh", meaning: "Modern High German (from 1650)", gender: "das", example: { de: "Neuhochdeutsche Standardsprache.", en: "Modern High German standard language." } },
+    { word: "die Sprachpflege (Deutsch)", phonetic: "shprahkh-pfle-guh", meaning: "language cultivation / purism (German)", gender: "die", example: { de: "Deutsche Gesellschaft für Sprachpflege.", en: "German Society for Language Cultivation." } },
+  ]}] },
+};

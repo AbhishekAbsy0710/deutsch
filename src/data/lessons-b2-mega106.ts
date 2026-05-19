@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega106: Record<string, Lesson> = {
+  "lb2_m151": { id: "lb2_m151", title: "Genetics & Genomics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Genetik", phonetic: "geh-ne-tik", meaning: "genetics", gender: "die", example: { de: "Molekulare Genetik.", en: "Molecular genetics." } },
+    { word: "das Genom", phonetic: "geh-nohm", meaning: "genome", gender: "das", example: { de: "Menschliches Genom.", en: "Human genome." } },
+    { word: "das Gen", phonetic: "gayn", meaning: "gene", gender: "das", example: { de: "Codierendes Gen.", en: "Coding gene." } },
+    { word: "das Allel", phonetic: "a-layl", meaning: "allele", gender: "das", example: { de: "Dominantes Allel.", en: "Dominant allele." } },
+    { word: "der Genotyp", phonetic: "gay-no-tüp", meaning: "genotype", gender: "der", example: { de: "Homozygoter Genotyp.", en: "Homozygous genotype." } },
+    { word: "der Phänotyp", phonetic: "fey-no-tüp", meaning: "phenotype", gender: "der", example: { de: "Komplexer Phänotyp.", en: "Complex phenotype." } },
+    { word: "die Mutation", phonetic: "moo-ta-tsee-ohn", meaning: "mutation", gender: "die", example: { de: "Somatische Mutation.", en: "Somatic mutation." } },
+    { word: "die Meiose", phonetic: "my-oh-zuh", meaning: "meiosis", gender: "die", example: { de: "Meiose der Keimzellen.", en: "Meiosis of germ cells." } },
+    { word: "die Mitose", phonetic: "mi-toh-zuh", meaning: "mitosis", gender: "die", example: { de: "Zellteilung durch Mitose.", en: "Cell division by mitosis." } },
+    { word: "der Chromosom", phonetic: "khro-mo-zohm", meaning: "chromosome", gender: "das", example: { de: "Menschlich 46 Chromosomen.", en: "Human 46 chromosomes." } },
+    { word: "das Crossing-over", phonetic: "kro-sing-oh-ver", meaning: "crossing over (recombination)", gender: "das", example: { de: "Crossing-over in der Meiose.", en: "Crossing over in meiosis." } },
+    { word: "die DNA-Sequenzierung", phonetic: "day-en-ah-ze-kven-tsee-rung", meaning: "DNA sequencing", gender: "die", example: { de: "Nächste-Generation-Sequenzierung.", en: "Next-generation sequencing." } },
+    { word: "das Humangenomprojekt (HGP)", phonetic: "hoo-man-geh-nom-pro-yekt", meaning: "Human Genome Project (HGP)", gender: "das", example: { de: "Abgeschlossenes HGP 2003.", en: "Completed HGP 2003." } },
+    { word: "die epigenetische Modifikation", phonetic: "e-pi-geh-ne-ti-shuh-mo-di-fi-ka-tsee-ohn", meaning: "epigenetic modification", gender: "die", example: { de: "Histon-epigenetische Modifikation.", en: "Histone epigenetic modification." } },
+    { word: "die Methylierung (Epigenetik)", phonetic: "me-tü-lee-rung", meaning: "methylation (epigenetics)", gender: "die", example: { de: "DNA-Methylierung.", en: "DNA methylation." } },
+    { word: "der Transkriptionsfaktor", phonetic: "trans-krip-tsee-ohns-fak-tor", meaning: "transcription factor", gender: "der", example: { de: "Transkriptionsfaktor Bindung.", en: "Transcription factor binding." } },
+    { word: "das RNA-Interferenz (RNAi)", phonetic: "er-en-ah-in-ter-fe-rents", meaning: "RNA interference (RNAi)", gender: "die", example: { de: "RNAi-Genstilllegung.", en: "RNAi gene silencing." } },
+    { word: "CRISPR-Cas9 (Genombearbeitung)", phonetic: "kris-per-kas-noyn", meaning: "CRISPR-Cas9 gene editing", gender: "das", example: { de: "CRISPR-Cas9 Genschere.", en: "CRISPR-Cas9 gene scissors." } },
+    { word: "der Einzelnukleotid-Polymorphismus (SNP)", phonetic: "ayn-tsel-noo-kle-oh-teet-po-li-mor-fis-mus", meaning: "single nucleotide polymorphism (SNP)", gender: "der", example: { de: "SNP-Genomweite Studie.", en: "SNP genome-wide study." } },
+    { word: "die genomweite Assoziationsstudie (GWAS)", phonetic: "geh-nom-vy-tuh-a-so-tsee-a-tsee-ohns-shtoo-dee", meaning: "genome-wide association study (GWAS)", gender: "die", example: { de: "GWAS-Krankheitsgene.", en: "GWAS disease genes." } },
+  ]}] },
+};

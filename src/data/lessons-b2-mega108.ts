@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega108: Record<string, Lesson> = {
+  "lb2_m153": { id: "lb2_m153", title: "Evolutionary Biology B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Evolutionsbiologie", phonetic: "e-vo-loo-tsee-ohns-bi-oh-lo-gee", meaning: "evolutionary biology", gender: "die", example: { de: "Moderne Evolutionsbiologie.", en: "Modern evolutionary biology." } },
+    { word: "die natürliche Selektion", phonetic: "na-tür-li-khuh-ze-lek-tsee-ohn", meaning: "natural selection", gender: "die", example: { de: "Natürliche Selektion Darwin.", en: "Natural selection Darwin." } },
+    { word: "die sexuelle Selektion", phonetic: "zek-soo-e-luh-ze-lek-tsee-ohn", meaning: "sexual selection", gender: "die", example: { de: "Sexuelle Selektion Pfauenschwanz.", en: "Sexual selection peacock tail." } },
+    { word: "die Anpassung", phonetic: "an-pa-sung", meaning: "adaptation", gender: "die", example: { de: "Morphologische Anpassung.", en: "Morphological adaptation." } },
+    { word: "die Fitness (Evolution)", phonetic: "fit-nes", meaning: "fitness (evolutionary)", gender: "die", example: { de: "Inklusive Fitness Hamilton.", en: "Inclusive fitness Hamilton." } },
+    { word: "der genetische Drift", phonetic: "geh-ne-ti-shuh-drift", meaning: "genetic drift", gender: "der", example: { de: "Genetischer Drift kleine Population.", en: "Genetic drift small population." } },
+    { word: "der Flaschenhals-Effekt", phonetic: "fla-shen-hals-e-fekt", meaning: "bottleneck effect", gender: "der", example: { de: "Bevölkerungs-Flaschenhals-Effekt.", en: "Population bottleneck effect." } },
+    { word: "die Speziation", phonetic: "shpe-tsee-a-tsee-ohn", meaning: "speciation", gender: "die", example: { de: "Allopatrische Speziation.", en: "Allopatric speciation." } },
+    { word: "die sympatrische Speziation", phonetic: "züm-pa-tri-shuh-shpe-tsee-a-tsee-ohn", meaning: "sympatric speciation", gender: "die", example: { de: "Sympatrische Speziation ohne Isolation.", en: "Sympatric speciation without isolation." } },
+    { word: "der gemeinsame Vorfahre", phonetic: "geh-myn-zah-muh-for-fah-ruh", meaning: "common ancestor", gender: "der", example: { de: "Letzter gemeinsamer Vorfahre LUCA.", en: "Last common ancestor LUCA." } },
+    { word: "der Phylogenetische Baum", phonetic: "fü-lo-geh-ne-ti-shuh-bowm", meaning: "phylogenetic tree", gender: "der", example: { de: "Phylogenetischer Baum der Lebewesen.", en: "Phylogenetic tree of life." } },
+    { word: "die Kladistik", phonetic: "kla-dis-tik", meaning: "cladistics", gender: "die", example: { de: "Kladistische Systematik.", en: "Cladistic systematics." } },
+    { word: "die synthetische Evolutionstheorie (Moderne Synthese)", phonetic: "züntety-shuh-e-vo-loo-tsee-ohns-tay-oh-ree", meaning: "Modern Synthesis", gender: "die", example: { de: "Dobzhanskys Moderne Synthese.", en: "Dobzhansky's Modern Synthesis." } },
+    { word: "die neutrale Theorie (Kimura)", phonetic: "noy-trah-luh-tay-oh-ree", meaning: "neutral theory (Kimura)", gender: "die", example: { de: "Kimuras neutrale Theorie.", en: "Kimura's neutral theory." } },
+    { word: "das Exaptation", phonetic: "eks-ap-ta-tsee-ohn", meaning: "exaptation (Gould/Vrba)", gender: "die", example: { de: "Gould-Exaptation Federn.", en: "Gould exaptation feathers." } },
+    { word: "die Koevolution", phonetic: "ko-e-vo-loo-tsee-ohn", meaning: "coevolution", gender: "die", example: { de: "Pflanze-Bestäuber-Koevolution.", en: "Plant-pollinator coevolution." } },
+    { word: "der evo-devo (Evolutions-Entwicklungsbiologie)", phonetic: "e-vo-de-vo", meaning: "evo-devo (evolutionary developmental biology)", gender: "das", example: { de: "Hox-Gene Evo-Devo.", en: "Hox genes evo-devo." } },
+    { word: "die Hox-Gene", phonetic: "hoks-gay-nuh", meaning: "Hox genes", example: { de: "Konservierte Hox-Gene.", en: "Conserved Hox genes." } },
+    { word: "die Epigenetik (Evolution)", phonetic: "e-pi-geh-ne-tik", meaning: "epigenetics (evolution)", gender: "die", example: { de: "Evolutionäre Epigenetik.", en: "Evolutionary epigenetics." } },
+    { word: "die erweiterte Evolutionäre Synthese", phonetic: "er-vy-ter-tuh-e-vo-loo-tsee-oh-ney-ruh-züntey-zuh", meaning: "extended evolutionary synthesis", gender: "die", example: { de: "Erweiterte Evolutionäre Synthese.", en: "Extended Evolutionary Synthesis." } },
+  ]}] },
+};

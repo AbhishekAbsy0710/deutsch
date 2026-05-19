@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega107: Record<string, Lesson> = {
+  "lc2_m150": { id: "lc2_m150", title: "Operator Algebras & Spectral Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Operatoralgebra", phonetic: "o-pe-ra-tor-al-ge-brah", meaning: "operator algebra", gender: "die", example: { de: "Von-Neumann-Operatoralgebra.", en: "Von Neumann operator algebra." } },
+    { word: "die C*-Algebra", phonetic: "tsay-shtern-al-ge-brah", meaning: "C*-algebra", gender: "die", example: { de: "Kommutative C*-Algebra.", en: "Commutative C*-algebra." } },
+    { word: "die Von-Neumann-Algebra", phonetic: "fon-noy-man-al-ge-brah", meaning: "von Neumann algebra (W*-algebra)", gender: "die", example: { de: "Von-Neumann-Algebra Faktortyp.", en: "Von Neumann algebra factor type." } },
+    { word: "der Hilbert-Raum", phonetic: "hil-bert-rowm", meaning: "Hilbert space", gender: "der", example: { de: "Separabler Hilbert-Raum.", en: "Separable Hilbert space." } },
+    { word: "der beschränkte Operator", phonetic: "beh-shrenk-tuh-o-pe-ra-tor", meaning: "bounded operator", gender: "der", example: { de: "Beschränkter Hilbert-Raum-Operator.", en: "Bounded Hilbert space operator." } },
+    { word: "der selbstadjungierte Operator", phonetic: "zelpts-at-yoong-eer-tuh-o-pe-ra-tor", meaning: "self-adjoint operator", gender: "der", example: { de: "Selbstadjungierter Operator.", en: "Self-adjoint operator." } },
+    { word: "das Spektrum (Operator)", phonetic: "shpek-trum", meaning: "spectrum (of an operator)", gender: "das", example: { de: "Spektrum selbstadjungierter Operator.", en: "Spectrum self-adjoint operator." } },
+    { word: "der Spektralsatz", phonetic: "shpek-trahl-zats", meaning: "spectral theorem", gender: "der", example: { de: "Spektralsatz selbstadjungierter Operatoren.", en: "Spectral theorem self-adjoint operators." } },
+    { word: "die Fredholm-Theorie", phonetic: "fred-holm-tay-oh-ree", meaning: "Fredholm theory", gender: "die", example: { de: "Fredholm-Operator Index.", en: "Fredholm operator index." } },
+    { word: "der Atiyah-Singer-Index-Satz", phonetic: "a-ti-yah-sing-er-in-deks-zats", meaning: "Atiyah-Singer index theorem", gender: "der", example: { de: "Atiyah-Singer-Indexsatz.", en: "Atiyah-Singer index theorem." } },
+    { word: "die K-Theorie (Operatoralgebra)", phonetic: "kah-tay-oh-ree", meaning: "K-theory (operator algebra)", gender: "die", example: { de: "Topologische K-Theorie.", en: "Topological K-theory." } },
+    { word: "die nicht-kommutative Geometrie (Connes)", phonetic: "nikht-ko-moo-ta-tee-vuh-gay-oh-me-tree", meaning: "noncommutative geometry (Connes)", gender: "die", example: { de: "Connes nicht-kommutative Geometrie.", en: "Connes noncommutative geometry." } },
+    { word: "die Tomita-Takesaki-Modulartheorie", phonetic: "to-mi-ta-ta-ke-za-ki-mo-doo-lahr-tay-oh-ree", meaning: "Tomita-Takesaki modular theory", gender: "die", example: { de: "Tomita-Takesaki Modulartheorie.", en: "Tomita-Takesaki modular theory." } },
+    { word: "der KMS-Zustand (thermisch)", phonetic: "kah-em-es-tsoo-shtant", meaning: "KMS state (thermal equilibrium)", gender: "der", example: { de: "KMS-Zustand inverse Temperatur β.", en: "KMS state inverse temperature β." } },
+    { word: "die Connes-Invariante", phonetic: "kon-es-in-va-ree-an-tuh", meaning: "Connes invariant (von Neumann algebras)", gender: "die", example: { de: "Connes Invariante Γ(M).", en: "Connes invariant Γ(M)." } },
+    { word: "die Haagerup-Eigenschaft", phonetic: "hah-geh-roop-ayg-en-shaft", meaning: "Haagerup property", gender: "die", example: { de: "Haagerup-Eigenschaft Gruppe.", en: "Haagerup property of group." } },
+    { word: "die freie Wahrscheinlichkeitstheorie (Voiculescu)", phonetic: "fry-uh-vahr-shyn-likh-kyts-tay-oh-ree", meaning: "free probability theory (Voiculescu)", gender: "die", example: { de: "Voiculescus freie Wahrscheinlichkeit.", en: "Voiculescu's free probability." } },
+    { word: "der freie Erzeuger (freie Gruppen)", phonetic: "fry-uh-er-tsoy-ger", meaning: "free generators (free group factor)", gender: "die", example: { de: "Freier Erzeuger L(𝔽_n).", en: "Free generator L(𝔽_n)." } },
+    { word: "das Isomorphieproblem (freie Gruppen-Faktoren)", phonetic: "i-zo-mor-fee-pro-blaym", meaning: "isomorphism problem (free group factors)", gender: "das", example: { de: "L(𝔽_2) ≅ L(𝔽_3) Problem.", en: "L(𝔽_2) ≅ L(𝔽_3) problem." } },
+    { word: "die Quantengruppe (Drinfeld/Woronowicz)", phonetic: "kvan-ten-groo-puh", meaning: "quantum group (Drinfeld/Woronowicz)", gender: "die", example: { de: "Woronowicz Quantengruppe.", en: "Woronowicz quantum group." } },
+  ]}] },
+};

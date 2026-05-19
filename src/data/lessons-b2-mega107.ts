@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega107: Record<string, Lesson> = {
+  "lb2_m152": { id: "lb2_m152", title: "Political Philosophy B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die politische Philosophie", phonetic: "po-li-ti-shuh-fi-lo-zo-fee", meaning: "political philosophy", gender: "die", example: { de: "Klassische politische Philosophie.", en: "Classical political philosophy." } },
+    { word: "die Demokratie", phonetic: "de-mo-kra-tee", meaning: "democracy", gender: "die", example: { de: "Liberale Demokratie.", en: "Liberal democracy." } },
+    { word: "der Liberalismus (politisch)", phonetic: "li-be-ra-lis-mus", meaning: "liberalism (political)", gender: "der", example: { de: "Klassischer Liberalismus.", en: "Classical liberalism." } },
+    { word: "der Konservatismus", phonetic: "kon-zer-va-tis-mus", meaning: "conservatism", gender: "der", example: { de: "Burkescher Konservatismus.", en: "Burkean conservatism." } },
+    { word: "der Sozialismus", phonetic: "zo-tsee-a-lis-mus", meaning: "socialism", gender: "der", example: { de: "Demokratischer Sozialismus.", en: "Democratic socialism." } },
+    { word: "der Marxismus", phonetic: "mar-ksis-mus", meaning: "Marxism", gender: "der", example: { de: "Historischer Marxismus.", en: "Historical Marxism." } },
+    { word: "der Libertarismus (Nozick)", phonetic: "li-ber-ta-ris-mus", meaning: "libertarianism (Nozick)", gender: "der", example: { de: "Nozicks Libertarismus.", en: "Nozick's libertarianism." } },
+    { word: "die Gerechtigkeit (Rawls)", phonetic: "geh-rekh-tikh-kyte", meaning: "justice (Rawls)", gender: "die", example: { de: "Rawls Theorie der Gerechtigkeit.", en: "Rawls' Theory of Justice." } },
+    { word: "der Gesellschaftsvertrag (Rousseau)", phonetic: "geh-zel-shafts-fer-trak", meaning: "social contract (Rousseau)", gender: "der", example: { de: "Rousseaus Gesellschaftsvertrag.", en: "Rousseau's social contract." } },
+    { word: "der Naturzustand (Hobbes)", phonetic: "na-toor-tsoo-shtant", meaning: "state of nature (Hobbes)", gender: "der", example: { de: "Hobbes' Naturzustand bellum omnium.", en: "Hobbes' state of nature bellum omnium." } },
+    { word: "der Leviathan (Hobbes)", phonetic: "le-vi-a-tan", meaning: "Leviathan (Hobbes)", gender: "der", example: { de: "Hobbes' Leviathan.", en: "Hobbes' Leviathan." } },
+    { word: "die Gewaltenteilung (Montesquieu)", phonetic: "geh-val-ten-ty-lung", meaning: "separation of powers (Montesquieu)", gender: "die", example: { de: "Montesquieus Gewaltenteilung.", en: "Montesquieu's separation of powers." } },
+    { word: "der Anarchismus (politisch)", phonetic: "a-nar-khis-mus", meaning: "anarchism (political)", gender: "der", example: { de: "Bakunins Anarchismus.", en: "Bakunin's anarchism." } },
+    { word: "der Kommunitarismus (MacIntyre/Sandel)", phonetic: "ko-mü-ni-ta-ris-mus", meaning: "communitarianism", gender: "der", example: { de: "Sandels Kommunitarismus.", en: "Sandel's communitarianism." } },
+    { word: "die positive Freiheit (Isaiah Berlin)", phonetic: "po-zi-tee-vuh-fry-hyte", meaning: "positive liberty (Berlin)", gender: "die", example: { de: "Berlins positive Freiheit.", en: "Berlin's positive liberty." } },
+    { word: "die negative Freiheit (Isaiah Berlin)", phonetic: "ne-ga-tee-vuh-fry-hyte", meaning: "negative liberty (Berlin)", gender: "die", example: { de: "Berlins negative Freiheit.", en: "Berlin's negative liberty." } },
+    { word: "der Multikulturalismus", phonetic: "mool-ti-kool-too-ra-lis-mus", meaning: "multiculturalism", gender: "der", example: { de: "Politischer Multikulturalismus.", en: "Political multiculturalism." } },
+    { word: "der Feminismus (politisch)", phonetic: "fe-mi-nis-mus", meaning: "feminism (political)", gender: "der", example: { de: "Zweite Welle Feminismus.", en: "Second-wave feminism." } },
+    { word: "die deliberative Demokratie (Habermas)", phonetic: "de-li-be-ra-tee-vuh-de-mo-kra-tee", meaning: "deliberative democracy (Habermas)", gender: "die", example: { de: "Habermas' deliberative Demokratie.", en: "Habermas' deliberative democracy." } },
+    { word: "der kosmopolitische Ansatz (Kant)", phonetic: "kos-mo-po-li-ti-shuh-an-zats", meaning: "cosmopolitanism (Kant)", gender: "der", example: { de: "Kants Weltbürgerrecht.", en: "Kant's cosmopolitan right." } },
+  ]}] },
+};
