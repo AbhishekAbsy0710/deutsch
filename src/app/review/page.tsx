@@ -1,541 +1,373 @@
 "use client";
 
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useMemo, useCallback } from "react";
+import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { Volume2, ChevronLeft, ChevronRight, Trophy, BookOpen, Minus, ChevronDown, BookMarked, RotateCcw, Search, Filter } from "lucide-react";
-import { cn } from "@/lib/utils";
-import { speakGermanNeural } from "@/lib/tts";
 import { useProgressStore } from "@/store/useProgressStore";
 import { lessonData } from "@/data/lessons";
-import Link from "next/link";
+import { speakGermanNeural } from "@/lib/tts";
+import { Button } from "@/components/ui/button";
+import { Progress } from "@/components/ui/progress";
+import {
+  Volume2, ArrowLeft, Brain, CheckCircle2, XCircle,
+  Flame, Calendar, Trophy, BookOpen, Clock
+} from "lucide-react";
+import { cn } from "@/lib/utils";
 
-type ReviewCard = {
-  word_id: string;
-  word: string;
-  phonetic: string;
-  meaning: string;
-  gender?: string;
-  example: { de: string; en: string };
-  module: string;
-  lessonTitle: string;
+// ── SM-2 quality ratings ─────────────────────────────────────
+// 0 = complete blackout  1 = wrong  2 = wrong but remembered after
+// 3 = correct with difficulty  4 = correct  5 = perfect
+const RATING_LABELS: Record<number, { label: string; color: string; quality: number }> = {
+  0: { label: "Again",    color: "border-red-500    bg-red-500/10    text-red-600",    quality: 1 },
+  1: { label: "Hard",     color: "border-orange-500 bg-orange-500/10 text-orange-600", quality: 2 },
+  2: { label: "Good",     color: "border-blue-500   bg-blue-500/10   text-blue-600",   quality: 4 },
+  3: { label: "Easy",     color: "border-green-500  bg-green-500/10  text-green-600",  quality: 5 },
 };
 
-const MODULE_ORDER = ["A0", "A1", "A2", "B1", "B2", "C1", "C2"];
+// ── Collect all flashcard items from ALL lessons ──────────────
+interface ReviewCard {
+  word: string;
+  phonetic?: string;
+  meaning: string;
+  gender?: string;
+  example?: { de: string; en: string };
+  lessonId: string;
+  lessonTitle: string;
+  module: string;
+}
 
-/**
- * Extract ALL vocabulary from lessons up to and including the user's current learning level.
- */
-function getVocabUpToLevel(lessons: Record<string, { status: string }>, userLevel: string | null): ReviewCard[] {
-  const vocab: ReviewCard[] = [];
-  const seen = new Set<string>();
-
-  // Find the highest module the user has touched (completed or active)
-  let highestModuleIdx = 0;
-  if (userLevel) {
-    const idx = MODULE_ORDER.indexOf(userLevel);
-    if (idx >= 0) highestModuleIdx = idx;
-  }
-  // Also check actual lesson progress
-  for (const [lessonId, lp] of Object.entries(lessons)) {
-    if (lp.status === "completed" || lp.status === "active") {
-      const lesson = lessonData[lessonId];
-      if (lesson) {
-        const idx = MODULE_ORDER.indexOf(lesson.module);
-        if (idx > highestModuleIdx) highestModuleIdx = idx;
-      }
-    }
-  }
-
-  const includedModules = MODULE_ORDER.slice(0, highestModuleIdx + 1);
-
+function collectAllFlashcards(): ReviewCard[] {
+  const cards: ReviewCard[] = [];
   for (const [lessonId, lesson] of Object.entries(lessonData)) {
-    if (!includedModules.includes(lesson.module)) continue;
-    // Include ALL lessons from modules up to current level — full dictionary
-
     for (const block of lesson.blocks) {
-      if (block.type === "flashcard") {
+      if (block.type === "flashcard" && "cards" in block) {
         for (const card of block.cards) {
-          const id = card.word.toLowerCase().replace(/\s+/g, "_");
-          if (seen.has(id)) continue;
-          seen.add(id);
-          vocab.push({
-            word_id: id, word: card.word, phonetic: card.phonetic,
-            meaning: card.meaning, gender: card.gender,
-            example: card.example, module: lesson.module, lessonTitle: lesson.title,
+          cards.push({
+            word:        card.word,
+            phonetic:    card.phonetic,
+            meaning:     card.meaning,
+            gender:      (card as any).gender,
+            example:     card.example,
+            lessonId,
+            lessonTitle: lesson.title,
+            module:      lesson.module,
           });
         }
       }
-      if (block.type === "vocabulary") {
-        const id = block.word.toLowerCase().replace(/\s+/g, "_");
-        if (seen.has(id)) continue;
-        seen.add(id);
-        vocab.push({
-          word_id: id, word: block.word, phonetic: block.phonetic,
-          meaning: block.translation,
-          example: { de: block.example, en: block.translation },
-          module: lesson.module, lessonTitle: lesson.title,
-        });
-      }
     }
   }
-  return vocab;
+  return cards;
 }
 
-// === Session Storage helpers for review progress persistence ===
-const SESSION_KEY = "deutsch-review-session";
+// ── Determine which cards are due today ──────────────────────
+function getDueCards(
+  allCards: ReviewCard[],
+  srsData: Record<string, { nextReviewDate: string; interval: number; easeFactor: number; repetitions: number }>,
+  maxCards = 50
+): ReviewCard[] {
+  const now = new Date();
+  const due: ReviewCard[] = [];
+  const unseen: ReviewCard[] = [];
 
-type SessionState = {
-  currentIdx: number;
-  sessionResults: { word: string; correct: boolean }[];
-  sessionComplete: boolean;
-  dueCardIds: string[];
-  startedAt: string;
+  for (const card of allCards) {
+    const srs = srsData[card.word];
+    if (!srs) {
+      unseen.push(card);
+    } else if (new Date(srs.nextReviewDate) <= now) {
+      due.push(card);
+    }
+  }
+
+  // Prioritise: overdue first, then new unseen cards
+  const shuffledUnseen = unseen.sort(() => Math.random() - 0.5);
+  return [...due, ...shuffledUnseen].slice(0, maxCards);
+}
+
+// ── Module colour ─────────────────────────────────────────────
+const MODULE_COLOR: Record<string, string> = {
+  A0: "bg-slate-500",  A1: "bg-blue-500",   A2: "bg-cyan-500",
+  B1: "bg-teal-500",   B2: "bg-violet-500", C1: "bg-amber-500", C2: "bg-rose-500",
 };
 
-function saveSession(state: SessionState) {
-  try { sessionStorage.setItem(SESSION_KEY, JSON.stringify(state)); } catch {}
-}
-
-function loadSession(): SessionState | null {
-  try {
-    const raw = sessionStorage.getItem(SESSION_KEY);
-    if (!raw) return null;
-    const parsed = JSON.parse(raw) as SessionState;
-    // Expire sessions older than 2 hours
-    const age = Date.now() - new Date(parsed.startedAt).getTime();
-    if (age > 2 * 60 * 60 * 1000) { sessionStorage.removeItem(SESSION_KEY); return null; }
-    return parsed;
-  } catch { return null; }
-}
-
-function clearSession() {
-  try { sessionStorage.removeItem(SESSION_KEY); } catch {}
-}
-
-// ===================== MAIN PAGE =====================
+// ─────────────────────────────────────────────────────────────
 export default function ReviewPage() {
-  const [view, setView] = useState<"dictionary" | "flashcards">("dictionary");
-  const [allCards, setAllCards] = useState<ReviewCard[]>([]);
-  const [searchQuery, setSearchQuery] = useState("");
-  const [filterModule, setFilterModule] = useState<string>("all");
+  const router = useRouter();
+  const { srs, updateSRS, xp, streak } = useProgressStore();
 
-  const lessons = useProgressStore(s => s.lessons);
-  const srs = useProgressStore(s => s.srs);
-  const level = useProgressStore(s => s.level);
+  const allCards   = useMemo(() => collectAllFlashcards(), []);
+  const dueCards   = useMemo(() => getDueCards(allCards, srs), [allCards, srs]);
 
-  useEffect(() => {
-    const vocab = getVocabUpToLevel(lessons, level);
-    setAllCards(vocab);
-  }, [lessons, level]);
+  const [index,     setIndex]     = useState(0);
+  const [flipped,   setFlipped]   = useState(false);
+  const [done,      setDone]      = useState(false);
+  const [session,   setSession]   = useState<{ word: string; quality: number }[]>([]);
+  const [speaking,  setSpeaking]  = useState(false);
 
-  const mastered = allCards.filter(c => srs?.[c.word_id]?.interval >= 14).length;
-  const completedCount = Object.values(lessons || {}).filter(l => l.status === "completed").length;
+  const card = dueCards[index];
+  const progress = dueCards.length > 0 ? (index / dueCards.length) * 100 : 100;
 
-  // Get modules that have words
-  const availableModules = [...new Set(allCards.map(c => c.module))].sort(
-    (a, b) => MODULE_ORDER.indexOf(a) - MODULE_ORDER.indexOf(b)
-  );
+  const handleRate = useCallback((qualityKey: number) => {
+    if (!card) return;
+    const { quality } = RATING_LABELS[qualityKey];
+    updateSRS(card.word, quality);
+    setSession(prev => [...prev, { word: card.word, quality }]);
 
-  // Filter cards for dictionary
-  const filteredCards = allCards.filter(c => {
-    const matchesSearch = !searchQuery ||
-      c.word.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      c.meaning.toLowerCase().includes(searchQuery.toLowerCase());
-    const matchesModule = filterModule === "all" || c.module === filterModule;
-    return matchesSearch && matchesModule;
-  });
-
-  // Group by module for dictionary display
-  const groupedByModule: Record<string, ReviewCard[]> = {};
-  for (const card of filteredCards) {
-    if (!groupedByModule[card.module]) groupedByModule[card.module] = [];
-    groupedByModule[card.module].push(card);
-  }
-
-  return (
-    <div className="flex-1 overflow-y-auto">
-      {/* Header */}
-      <div className="px-6 md:px-16 py-12 max-w-[1000px] mx-auto w-full">
-        <header className="mb-10 border-b-4 border-foreground pb-8">
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
-            <div>
-              <div className="text-primary font-mono text-sm tracking-widest uppercase mb-4 flex items-center gap-4">
-                <span className="w-12 h-[2px] bg-primary block"></span>
-                Review & Dictionary
-              </div>
-              <h1 className="text-4xl md:text-6xl font-black tracking-tighter uppercase leading-[0.85]">
-                Your<br />
-                <span className="text-muted-foreground">Wörterbuch.</span>
-              </h1>
-            </div>
-            <div className="flex gap-6 font-mono text-sm">
-              <div className="flex flex-col items-center border-2 border-foreground px-4 py-3">
-                <span className="text-2xl font-black">{allCards.length}</span>
-                <span className="text-[10px] text-muted-foreground uppercase tracking-widest">Words</span>
-              </div>
-              <div className="flex flex-col items-center border-2 border-green-500 px-4 py-3">
-                <span className="text-2xl font-black text-green-600">{mastered}</span>
-                <span className="text-[10px] text-muted-foreground uppercase tracking-widest">Mastered</span>
-              </div>
-              <div className="flex flex-col items-center border-2 border-primary px-4 py-3">
-                <span className="text-2xl font-black text-primary">{completedCount}</span>
-                <span className="text-[10px] text-muted-foreground uppercase tracking-widest">Lessons</span>
-              </div>
-            </div>
-          </div>
-
-          {/* View Toggle Buttons */}
-          <div className="flex gap-3 mt-8">
-            <button
-              onClick={() => setView("dictionary")}
-              className={cn(
-                "flex items-center gap-2 px-5 py-3 font-mono text-sm font-bold uppercase tracking-widest transition-all border-2",
-                view === "dictionary"
-                  ? "border-foreground bg-foreground text-background"
-                  : "border-foreground/30 hover:border-foreground"
-              )}
-            >
-              <BookOpen size={16} /> Vocabulary Dictionary
-            </button>
-            <button
-              onClick={() => setView("flashcards")}
-              className={cn(
-                "flex items-center gap-2 px-5 py-3 font-mono text-sm font-bold uppercase tracking-widest transition-all border-2",
-                view === "flashcards"
-                  ? "border-primary bg-primary text-primary-foreground"
-                  : "border-primary/30 text-primary hover:border-primary"
-              )}
-            >
-              <BookMarked size={16} /> Flashcard Review
-            </button>
-          </div>
-        </header>
-
-        {view === "dictionary" ? (
-          <>
-            {allCards.length === 0 ? (
-              <div className="flex flex-col items-center justify-center py-20 text-center">
-                <Trophy size={64} className="text-primary mb-6" />
-                <h2 className="text-3xl font-black uppercase tracking-tighter mb-4">No words yet!</h2>
-                <p className="text-muted-foreground font-mono text-sm max-w-md">Complete some lessons first to build your vocabulary dictionary.</p>
-                <Link href="/learn" className="mt-8 border-2 border-foreground px-6 py-3 font-mono text-sm font-bold uppercase tracking-widest hover:bg-foreground hover:text-background transition-colors flex items-center gap-2">
-                  <BookOpen size={16} /> Start Learning
-                </Link>
-              </div>
-            ) : (
-              <>
-                {/* Search & Filter Bar */}
-                <div className="flex flex-col sm:flex-row gap-3 mb-8">
-                  <div className="flex-1 relative">
-                    <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground" />
-                    <input
-                      type="text"
-                      placeholder="Search words..."
-                      value={searchQuery}
-                      onChange={e => setSearchQuery(e.target.value)}
-                      className="w-full pl-10 pr-4 py-3 border-2 border-foreground/20 bg-background font-mono text-sm focus:outline-none focus:border-primary transition-colors"
-                    />
-                  </div>
-                  <div className="relative">
-                    <Filter size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground" />
-                    <select
-                      value={filterModule}
-                      onChange={e => setFilterModule(e.target.value)}
-                      className="pl-10 pr-8 py-3 border-2 border-foreground/20 bg-background font-mono text-sm focus:outline-none focus:border-primary appearance-none cursor-pointer"
-                    >
-                      <option value="all">All Levels</option>
-                      {availableModules.map(m => (
-                        <option key={m} value={m}>{m}</option>
-                      ))}
-                    </select>
-                  </div>
-                </div>
-
-                {/* Results count */}
-                <p className="font-mono text-xs text-muted-foreground mb-6 uppercase tracking-widest">
-                  {filteredCards.length} word{filteredCards.length !== 1 ? "s" : ""} found
-                </p>
-
-                {/* Dictionary grouped by module */}
-                {MODULE_ORDER.filter(m => groupedByModule[m]).map(mod => (
-                  <div key={mod} className="mb-10">
-                    <h3 className="text-lg font-black uppercase tracking-wider mb-3 flex items-center gap-3">
-                      <span className="bg-primary text-primary-foreground px-2 py-0.5 text-xs font-mono">{mod}</span>
-                      <span className="text-muted-foreground font-mono text-xs">{groupedByModule[mod].length} words</span>
-                    </h3>
-                    <div className="border-2 border-foreground bg-background divide-y-2 divide-foreground/10">
-                      {groupedByModule[mod].map(r => (
-                        <DictionaryEntry key={r.word_id} card={r} srs={srs} />
-                      ))}
-                    </div>
-                  </div>
-                ))}
-              </>
-            )}
-          </>
-        ) : (
-          <FlashcardReview allCards={allCards} />
-        )}
-      </div>
-    </div>
-  );
-}
-
-// ===================== DICTIONARY ENTRY =====================
-function DictionaryEntry({ card: r, srs }: { card: ReviewCard; srs: Record<string, any> }) {
-  const genderColor = r.gender === "der" ? "text-blue-500" : r.gender === "die" ? "text-pink-500" : r.gender === "das" ? "text-green-500" : "";
-  const cardSrs = srs?.[r.word_id];
-  const masteryStr = cardSrs ? (cardSrs.interval >= 14 ? "✓ Mastered" : `${cardSrs.interval}d interval`) : "New";
-  const masteryColor = cardSrs ? (cardSrs.interval >= 14 ? "text-green-600 border-green-500" : "text-yellow-600 border-yellow-500") : "text-muted-foreground border-muted";
-
-  return (
-    <details className="group">
-      <summary className="list-none hover:bg-muted/50 px-4 py-3 cursor-pointer transition-colors flex justify-between items-center outline-none group-open:bg-primary/5">
-        <div className="flex flex-col text-left">
-          <span className="text-lg font-black">{r.word}</span>
-          <div className="flex gap-2 items-center">
-            {r.gender && <span className={cn("font-mono text-[10px] uppercase tracking-widest font-bold", genderColor)}>{r.gender}</span>}
-            <span className={cn("font-mono text-[10px] border px-1", masteryColor)}>{masteryStr}</span>
-          </div>
-        </div>
-        <div className="flex items-center gap-3 text-muted-foreground">
-          <span className="font-mono text-sm max-w-[150px] truncate">{r.meaning}</span>
-          <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
-        </div>
-      </summary>
-      <div className="px-6 py-5 bg-secondary/20 border-t border-foreground/10">
-        <div className="space-y-4">
-          <div>
-            <h4 className="font-mono text-[10px] text-muted-foreground uppercase tracking-widest mb-1">Meaning</h4>
-            <p className="text-xl font-bold">{r.meaning}</p>
-          </div>
-          <div>
-            <h4 className="font-mono text-[10px] text-muted-foreground uppercase tracking-widest mb-1">Phonetic</h4>
-            <p className="text-base font-mono">/{r.phonetic}/</p>
-          </div>
-          {r.example?.de && (
-            <div className="border-l-4 border-primary pl-4 py-1">
-              <p className="font-bold">{r.example.de}</p>
-              <p className="text-muted-foreground text-sm mt-1">{r.example.en}</p>
-            </div>
-          )}
-          <div className="font-mono text-[10px] text-muted-foreground uppercase tracking-widest">
-            From: {r.lessonTitle}
-          </div>
-        </div>
-      </div>
-    </details>
-  );
-}
-
-// ===================== FLASHCARD REVIEW (with session persistence) =====================
-function FlashcardReview({ allCards }: { allCards: ReviewCard[] }) {
-  const srs = useProgressStore(s => s.srs);
-  const updateSRS = useProgressStore(s => s.updateSRS);
-
-  const [dueCards, setDueCards] = useState<ReviewCard[]>([]);
-  const [currentIdx, setCurrentIdx] = useState(0);
-  const [flipped, setFlipped] = useState(false);
-  const [sessionResults, setSessionResults] = useState<{ word: string; correct: boolean }[]>([]);
-  const [sessionComplete, setSessionComplete] = useState(false);
-  const [initialized, setInitialized] = useState(false);
-
-  const speak = useCallback((text: string) => { speakGermanNeural(text); }, []);
-
-  // Initialize: restore session or compute due cards
-  useEffect(() => {
-    if (allCards.length === 0) { setInitialized(true); return; }
-
-    const saved = loadSession();
-    const today = new Date().toISOString().split("T")[0];
-
-    if (saved && !saved.sessionComplete) {
-      // Restore session — rebuild dueCards from saved IDs
-      const cardMap = new Map(allCards.map(c => [c.word_id, c]));
-      const restored = saved.dueCardIds.map(id => cardMap.get(id)).filter(Boolean) as ReviewCard[];
-      if (restored.length > 0 && saved.currentIdx < restored.length) {
-        setDueCards(restored);
-        setCurrentIdx(saved.currentIdx);
-        setSessionResults(saved.sessionResults);
-        setSessionComplete(false);
-        setInitialized(true);
-        return;
-      }
-    }
-
-    // Fresh session: compute due cards
-    const due = allCards.filter(card => {
-      const cardSrs = srs?.[card.word_id];
-      if (!cardSrs) return true;
-      const reviewDate = cardSrs.nextReviewDate.split("T")[0];
-      return reviewDate <= today;
-    });
-    setDueCards(due);
-    setCurrentIdx(0);
-    setSessionResults([]);
-    setSessionComplete(false);
-    clearSession();
-    setInitialized(true);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [allCards]); // Only run on mount / when allCards changes
-
-  // Persist session state on every change
-  useEffect(() => {
-    if (!initialized || dueCards.length === 0) return;
-    saveSession({
-      currentIdx,
-      sessionResults,
-      sessionComplete,
-      dueCardIds: dueCards.map(c => c.word_id),
-      startedAt: new Date().toISOString(),
-    });
-  }, [currentIdx, sessionResults, sessionComplete, dueCards, initialized]);
-
-  const handleAnswer = (quality: number) => {
-    const card = dueCards[currentIdx];
-    updateSRS(card.word_id, quality);
-    const isCorrect = quality >= 3;
-    const newResults = [...sessionResults, { word: card.word, correct: isCorrect }];
-    setSessionResults(newResults);
-    setFlipped(false);
-
-    if (currentIdx >= dueCards.length - 1) {
-      setSessionComplete(true);
-      clearSession();
+    if (index >= dueCards.length - 1) {
+      setDone(true);
     } else {
-      setCurrentIdx(currentIdx + 1);
+      setIndex(i => i + 1);
+      setFlipped(false);
     }
-  };
+  }, [card, index, dueCards.length, updateSRS]);
 
-  const restartSession = () => {
-    clearSession();
-    const today = new Date().toISOString().split("T")[0];
-    const due = allCards.filter(card => {
-      const cardSrs = srs?.[card.word_id];
-      if (!cardSrs) return true;
-      const reviewDate = cardSrs.nextReviewDate.split("T")[0];
-      return reviewDate <= today;
-    });
-    setDueCards(due);
-    setCurrentIdx(0);
-    setSessionResults([]);
-    setSessionComplete(false);
-    setFlipped(false);
-  };
+  const handleSpeak = useCallback(async () => {
+    if (!card || speaking) return;
+    setSpeaking(true);
+    try { await speakGermanNeural(card.word); } catch { /* silent */ }
+    setSpeaking(false);
+  }, [card, speaking]);
 
-  if (!initialized) return null;
+  // Stats for the sidebar
+  const totalDue    = dueCards.length;
+  const totalSeen   = Object.keys(srs).length;
+  const totalCards  = allCards.length;
+  const goodToday   = session.filter(s => s.quality >= 4).length;
+  const againToday  = session.filter(s => s.quality < 3).length;
 
-  // No due cards
+  // ── No cards due ──────────────────────────────────────────
   if (dueCards.length === 0) {
     return (
-      <div className="flex flex-col items-center justify-center py-20 text-center">
-        <Trophy size={64} className="text-primary mb-6" />
-        <h2 className="text-3xl font-black uppercase tracking-tighter mb-4">
-          {allCards.length === 0 ? "No words to review yet!" : "All caught up!"}
-        </h2>
-        <p className="text-muted-foreground font-mono text-sm max-w-md">
-          {allCards.length === 0
-            ? "Complete some lessons first to unlock vocabulary for review."
-            : "No cards due for review today. Come back tomorrow!"}
-        </p>
-        <Link href="/learn" className="mt-8 border-2 border-foreground px-6 py-3 font-mono text-sm font-bold uppercase tracking-widest hover:bg-foreground hover:text-background transition-colors flex items-center gap-2">
-          <BookOpen size={16} /> Continue Learning
-        </Link>
-      </div>
-    );
-  }
-
-  // Session complete
-  if (sessionComplete) {
-    const correct = sessionResults.filter(r => r.correct).length;
-    return (
-      <div className="flex flex-col items-center justify-center py-16 text-center">
-        <div className="text-6xl mb-6">{correct === sessionResults.length ? "🏆" : correct >= sessionResults.length / 2 ? "👍" : "💪"}</div>
-        <h2 className="text-3xl font-black uppercase tracking-tighter mb-2">Session Complete!</h2>
-        <p className="font-mono text-2xl font-bold">{correct}/{sessionResults.length} correct</p>
-        <div className="flex gap-2 flex-wrap justify-center mt-6 max-w-lg">
-          {sessionResults.map((r, i) => (
-            <span key={i} className={cn("px-2 py-1 font-mono text-xs border-2", r.correct ? "border-green-500 text-green-600" : "border-red-500 text-red-600")}>{r.word}</span>
-          ))}
-        </div>
-        <div className="flex gap-4 mt-8">
-          <button onClick={restartSession} className="border-2 border-foreground px-6 py-3 font-mono text-sm font-bold uppercase tracking-widest hover:bg-foreground hover:text-background transition-colors flex items-center gap-2">
-            <RotateCcw size={14} /> Review Again
-          </button>
-          <Link href="/learn" className="border-2 border-primary bg-primary text-primary-foreground px-6 py-3 font-mono text-sm font-bold uppercase tracking-widest hover:opacity-90 flex items-center gap-2">
-            <BookOpen size={14} /> Continue Learning
-          </Link>
-        </div>
-      </div>
-    );
-  }
-
-  // Active review card
-  const card = dueCards[currentIdx];
-  const genderColor = card.gender === "der" ? "text-blue-500" : card.gender === "die" ? "text-pink-500" : card.gender === "das" ? "text-green-500" : "";
-
-  return (
-    <div className="max-w-3xl mx-auto w-full">
-      <div className="mb-8 border-b-2 border-foreground pb-4">
-        <div className="flex justify-between items-center mb-4">
-          <h2 className="text-2xl font-black uppercase tracking-tighter">📚 Daily Review</h2>
-          <span className="font-mono text-sm text-muted-foreground">{currentIdx + 1} / {dueCards.length}</span>
-        </div>
-        <div className="h-2 bg-secondary overflow-hidden">
-          <motion.div className="h-full bg-primary" animate={{ width: `${((currentIdx) / dueCards.length) * 100}%` }} transition={{ duration: 0.3 }} />
-        </div>
-      </div>
-
-      <motion.div
-        className="flex-1 flex flex-col justify-center cursor-pointer"
-        onClick={() => setFlipped(!flipped)}
-        whileTap={{ scale: 0.98 }}
-      >
-        <div className="border-4 border-foreground min-h-[320px] relative bg-card">
-          <AnimatePresence mode="wait">
-            {!flipped ? (
-              <motion.div key="front" initial={{ rotateY: 90 }} animate={{ rotateY: 0 }} exit={{ rotateY: -90 }} transition={{ duration: 0.25 }} className="p-10 flex flex-col items-center justify-center min-h-[320px] text-center">
-                {card.gender && <span className={cn("font-mono text-sm font-bold uppercase mb-2", genderColor)}>{card.gender}</span>}
-                <h2 className="text-5xl md:text-6xl font-black">{card.word}</h2>
-                <p className="text-muted-foreground font-mono text-lg mt-3">/{card.phonetic}/</p>
-                <button onClick={(e) => { e.stopPropagation(); speak(card.word); }} className="mt-6 border border-primary/30 px-4 py-2 flex items-center gap-2 text-primary hover:bg-primary hover:text-primary-foreground transition-colors font-mono text-xs uppercase tracking-widest">
-                  <Volume2 size={14} /> Listen
-                </button>
-                <p className="font-mono text-xs text-muted-foreground mt-8 uppercase tracking-widest">Tap to reveal</p>
-              </motion.div>
-            ) : (
-              <motion.div key="back" initial={{ rotateY: 90 }} animate={{ rotateY: 0 }} exit={{ rotateY: -90 }} transition={{ duration: 0.25 }} className="p-10 flex flex-col items-center justify-center min-h-[320px] text-center bg-secondary/30">
-                <p className="text-3xl font-bold">{card.meaning}</p>
-                {card.example?.de && (
-                  <>
-                    <div className="border-t border-border mt-8 pt-6 w-full max-w-md">
-                      <p className="text-xl font-bold">{card.example.de}</p>
-                      <p className="text-muted-foreground mt-2">{card.example.en}</p>
-                    </div>
-                    <button onClick={(e) => { e.stopPropagation(); speak(card.example.de); }} className="mt-6 border border-primary/30 px-4 py-2 flex items-center gap-2 text-primary hover:bg-primary hover:text-primary-foreground transition-colors font-mono text-xs uppercase tracking-widest">
-                      <Volume2 size={14} /> Listen
-                    </button>
-                  </>
-                )}
-              </motion.div>
-            )}
-          </AnimatePresence>
-        </div>
-      </motion.div>
-
-      {flipped && (
-        <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="flex gap-4 mt-6">
-          <button onClick={() => handleAnswer(1)} className="flex-1 border-4 border-red-500 text-red-600 py-4 font-black text-sm uppercase tracking-widest hover:bg-red-500 hover:text-white transition-colors flex flex-col items-center justify-center gap-1">
-            <ChevronLeft size={20} /> Forgot
-          </button>
-          <button onClick={() => handleAnswer(3)} className="flex-1 border-4 border-yellow-500 text-yellow-600 py-4 font-black text-sm uppercase tracking-widest hover:bg-yellow-500 hover:text-white transition-colors flex flex-col items-center justify-center gap-1">
-            <Minus size={20} /> Hard
-          </button>
-          <button onClick={() => handleAnswer(5)} className="flex-1 border-4 border-green-500 text-green-600 py-4 font-black text-sm uppercase tracking-widest hover:bg-green-500 hover:text-white transition-colors flex flex-col items-center justify-center gap-1">
-            <ChevronRight size={20} /> Easy
-          </button>
+      <div className="flex-1 flex items-center justify-center p-8">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          className="text-center space-y-6 max-w-md"
+        >
+          <div className="w-24 h-24 bg-green-500/10 border-2 border-green-500 flex items-center justify-center mx-auto rounded-2xl">
+            <CheckCircle2 className="w-12 h-12 text-green-500" />
+          </div>
+          <h1 className="text-4xl font-black uppercase tracking-tighter">All caught up!</h1>
+          <p className="text-muted-foreground font-mono text-sm">
+            No cards are due for review right now. Come back tomorrow or study a new lesson.
+          </p>
+          <div className="grid grid-cols-2 gap-4 text-left">
+            <div className="border-2 border-border p-4">
+              <p className="text-3xl font-black">{totalSeen.toLocaleString()}</p>
+              <p className="text-xs font-mono uppercase text-muted-foreground mt-1">Words in SRS</p>
+            </div>
+            <div className="border-2 border-border p-4">
+              <p className="text-3xl font-black">{(totalCards - totalSeen).toLocaleString()}</p>
+              <p className="text-xs font-mono uppercase text-muted-foreground mt-1">Not yet seen</p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-3">
+            <Button size="lg" className="w-full border-2" onClick={() => router.push("/learn")}>
+              <BookOpen className="mr-2 w-4 h-4" /> Study New Lesson
+            </Button>
+            <Button variant="outline" size="lg" className="w-full border-2" onClick={() => router.push("/")}>
+              <ArrowLeft className="mr-2 w-4 h-4" /> Home
+            </Button>
+          </div>
         </motion.div>
-      )}
+      </div>
+    );
+  }
+
+  // ── Session complete ──────────────────────────────────────
+  if (done) {
+    const accuracy = session.length > 0 ? Math.round((goodToday / session.length) * 100) : 0;
+    return (
+      <div className="flex-1 flex items-center justify-center p-8">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="text-center space-y-8 max-w-sm"
+        >
+          <div className="w-24 h-24 bg-primary flex items-center justify-center mx-auto rounded-2xl shadow-xl shadow-primary/20">
+            <Trophy className="w-12 h-12 text-primary-foreground" />
+          </div>
+          <h1 className="text-5xl font-black uppercase tracking-tighter">Session Done!</h1>
+
+          <div className="grid grid-cols-2 gap-4">
+            <div className="border-2 border-border p-4">
+              <p className="text-4xl font-black text-primary">{accuracy}%</p>
+              <p className="text-xs font-mono uppercase text-muted-foreground mt-1">Accuracy</p>
+            </div>
+            <div className="border-2 border-border p-4">
+              <p className="text-4xl font-black">{session.length}</p>
+              <p className="text-xs font-mono uppercase text-muted-foreground mt-1">Cards reviewed</p>
+            </div>
+            <div className="border-2 border-green-500 bg-green-500/5 p-4">
+              <p className="text-4xl font-black text-green-600">{goodToday}</p>
+              <p className="text-xs font-mono uppercase text-muted-foreground mt-1">Correct</p>
+            </div>
+            <div className="border-2 border-red-500 bg-red-500/5 p-4">
+              <p className="text-4xl font-black text-red-600">{againToday}</p>
+              <p className="text-xs font-mono uppercase text-muted-foreground mt-1">Again</p>
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-3">
+            <Button size="lg" className="w-full border-2" onClick={() => router.push("/learn")}>
+              Continue Learning <BookOpen className="ml-2 w-4 h-4" />
+            </Button>
+            <Button variant="outline" size="lg" className="w-full border-2" onClick={() => {
+              setIndex(0); setFlipped(false); setDone(false); setSession([]);
+            }}>
+              Review Again
+            </Button>
+          </div>
+        </motion.div>
+      </div>
+    );
+  }
+
+  // ── Main review UI ────────────────────────────────────────
+  return (
+    <div className="flex flex-col min-h-screen max-w-2xl mx-auto w-full p-4 sm:p-8">
+      {/* Header */}
+      <header className="flex items-center gap-4 mb-6 pt-4">
+        <Button variant="ghost" size="icon" onClick={() => router.push("/learn")}>
+          <ArrowLeft className="w-5 h-5 text-muted-foreground" />
+        </Button>
+        <div className="bg-primary text-primary-foreground px-3 py-1 font-mono text-xs font-bold uppercase tracking-wider flex items-center gap-2">
+          <Brain size={14} /> SRS Review
+        </div>
+        <Progress value={progress} className="h-2 flex-1" />
+        <span className="font-mono text-xs text-muted-foreground whitespace-nowrap">
+          {index + 1} / {totalDue}
+        </span>
+      </header>
+
+      {/* Stats row */}
+      <div className="flex gap-4 mb-6 text-xs font-mono">
+        <div className="flex items-center gap-1 text-muted-foreground">
+          <Flame size={12} className="text-orange-500" /> {streak} day streak
+        </div>
+        <div className="flex items-center gap-1 text-muted-foreground">
+          <CheckCircle2 size={12} className="text-green-500" /> {goodToday} good
+        </div>
+        <div className="flex items-center gap-1 text-muted-foreground">
+          <XCircle size={12} className="text-red-500" /> {againToday} again
+        </div>
+        <div className="flex items-center gap-1 text-muted-foreground ml-auto">
+          <Clock size={12} /> {totalDue - index} left
+        </div>
+      </div>
+
+      {/* Flashcard */}
+      <main className="flex-1 flex flex-col justify-center">
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={`${card.word}-${flipped}`}
+            initial={{ opacity: 0, rotateY: flipped ? -90 : 90 }}
+            animate={{ opacity: 1, rotateY: 0 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className={cn(
+              "border-2 border-border rounded-2xl p-8 min-h-[340px] flex flex-col justify-between cursor-pointer select-none transition-colors",
+              flipped ? "bg-secondary/30" : "bg-background hover:border-primary/50"
+            )}
+            onClick={() => !flipped && setFlipped(true)}
+          >
+            {/* Module badge */}
+            <div className="flex items-center justify-between">
+              <span className={cn("text-white text-xs font-mono font-bold px-2 py-1 rounded", MODULE_COLOR[card.module] ?? "bg-muted")}>
+                {card.module}
+              </span>
+              <button
+                onClick={(e) => { e.stopPropagation(); handleSpeak(); }}
+                className={cn(
+                  "p-2 rounded-lg border-2 transition-colors",
+                  speaking ? "border-primary bg-primary/10 text-primary" : "border-border hover:border-primary text-muted-foreground hover:text-primary"
+                )}
+              >
+                <Volume2 size={16} className={speaking ? "animate-pulse" : ""} />
+              </button>
+            </div>
+
+            {/* Front / Back */}
+            <div className="text-center space-y-3 flex-1 flex flex-col justify-center">
+              {!flipped ? (
+                <>
+                  <p className="text-5xl sm:text-6xl font-black tracking-tight">{card.word}</p>
+                  {card.phonetic && (
+                    <p className="text-muted-foreground font-mono text-lg">/{card.phonetic}/</p>
+                  )}
+                  {card.gender && (
+                    <span className="inline-block border border-border px-2 py-0.5 rounded font-mono text-xs text-muted-foreground">
+                      {card.gender}
+                    </span>
+                  )}
+                  <p className="text-muted-foreground font-mono text-sm mt-4 animate-pulse">
+                    Tap to reveal →
+                  </p>
+                </>
+              ) : (
+                <>
+                  <p className="text-3xl font-bold text-primary">{card.meaning}</p>
+                  {card.gender && (
+                    <span className="inline-block border border-border px-2 py-0.5 rounded font-mono text-xs text-muted-foreground">
+                      {card.gender}
+                    </span>
+                  )}
+                  {card.example && (
+                    <div className="mt-4 border-t border-border pt-4 space-y-1 text-left">
+                      <p className="font-bold text-base">{card.example.de}</p>
+                      <p className="text-muted-foreground text-sm italic">{card.example.en}</p>
+                    </div>
+                  )}
+                  <p className="text-muted-foreground font-mono text-xs mt-2 opacity-60">
+                    from: {card.lessonTitle}
+                  </p>
+                </>
+              )}
+            </div>
+          </motion.div>
+        </AnimatePresence>
+
+        {/* Rating buttons — only show after flip */}
+        <AnimatePresence>
+          {flipped && (
+            <motion.div
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0 }}
+              className="grid grid-cols-4 gap-3 mt-6"
+            >
+              {Object.entries(RATING_LABELS).map(([key, { label, color }]) => (
+                <button
+                  key={key}
+                  onClick={() => handleRate(Number(key))}
+                  className={cn(
+                    "border-2 rounded-xl py-3 font-bold text-sm transition-all hover:scale-105 active:scale-95",
+                    color
+                  )}
+                >
+                  {label}
+                </button>
+              ))}
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        {/* Hint when not flipped */}
+        {!flipped && (
+          <p className="text-center text-muted-foreground font-mono text-xs mt-6">
+            How well do you know this word? Tap the card to reveal.
+          </p>
+        )}
+      </main>
+
+      {/* SRS explanation footer */}
+      <footer className="mt-8 pt-4 border-t border-border">
+        <div className="flex justify-between text-xs font-mono text-muted-foreground">
+          <span>Again → tomorrow</span>
+          <span>Hard → +1-3d</span>
+          <span>Good → ×ease</span>
+          <span>Easy → ×ease+1.3</span>
+        </div>
+      </footer>
     </div>
   );
 }

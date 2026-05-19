@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Volume2, RotateCcw, ChevronLeft, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { speakGermanNeural } from "@/lib/tts";
+import { useProgressStore } from "@/store/useProgressStore";
 
 type Card = {
   word: string;
@@ -25,6 +26,7 @@ export default function FlashcardBlock({ cards, onComplete }: Props) {
   const [flipped, setFlipped] = useState(false);
   const [results, setResults] = useState<{ word: string; correct: boolean }[]>([]);
   const [done, setDone] = useState(false);
+  const updateSRS = useProgressStore(s => s.updateSRS);
 
   const card = cards[idx];
 
@@ -36,6 +38,9 @@ export default function FlashcardBlock({ cards, onComplete }: Props) {
     const newResults = [...results, { word: card.word, correct }];
     setResults(newResults);
     setFlipped(false);
+
+    // ── Feed SM-2: "Knew it" = quality 5 (perfect), "Forgot" = quality 1 (wrong)
+    updateSRS(card.word, correct ? 5 : 1);
 
     if (idx >= cards.length - 1) {
       setDone(true);
