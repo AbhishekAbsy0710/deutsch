@@ -25,8 +25,15 @@ export async function middleware(request: NextRequest) {
   const { data: { user } } = await supabase.auth.getUser();
 
   // Protected routes — redirect to login if not authenticated
-  const protectedPaths = ["/learn", "/profile", "/progress", "/review", "/tutor", "/assessment"];
+  const protectedPaths = ["/learn", "/lesson", "/profile", "/progress", "/review", "/tutor", "/assessment"];
   const isProtected = protectedPaths.some(path => request.nextUrl.pathname.startsWith(path));
+
+  // API routes — return 401 JSON instead of redirect
+  const protectedApi = ["/api/chat", "/api/tts"];
+  const isProtectedApi = protectedApi.some(path => request.nextUrl.pathname.startsWith(path));
+  if (isProtectedApi && !user) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
 
   if (isProtected && !user) {
     return NextResponse.redirect(new URL("/login", request.url));
@@ -46,11 +53,14 @@ export async function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     "/learn/:path*",
+    "/lesson/:path*",
     "/profile/:path*",
     "/progress/:path*",
     "/review/:path*",
     "/tutor/:path*",
     "/assessment/:path*",
+    "/api/chat/:path*",
+    "/api/tts/:path*",
     "/login",
     "/register",
   ],

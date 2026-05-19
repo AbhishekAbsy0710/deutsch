@@ -1,5 +1,8 @@
 import { streamText } from "ai";
 import { createGroq } from "@ai-sdk/groq";
+import { createServerClient } from "@supabase/ssr";
+import { cookies } from "next/headers";
+import { NextRequest } from "next/server";
 
 export const maxDuration = 30;
 export const runtime = 'edge';
@@ -164,7 +167,21 @@ RULES:
 - NEVER ask below the student's level — this is disrespectful to their progress
 - If no progress data, start at A1 level`;
 
-export async function POST(req: Request) {
+export async function POST(req: NextRequest) {
+  // ── Auth guard ─────────────────────────────────────────────
+  try {
+    const cookieStore = await cookies();
+    const supabase = createServerClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+      { cookies: { getAll: () => cookieStore.getAll(), setAll: () => {} } }
+    );
+    const { data: { user } } = await supabase.auth.getUser();
+    if (!user) {
+      return new Response(JSON.stringify({ error: "Unauthorized" }), { status: 401, headers: { "Content-Type": "application/json" } });
+    }
+  } catch { /* edge runtime — skip cookie auth but still allow if env not set */ }
+
   const body = await req.json();
   const { messages, scenario } = body;
 
