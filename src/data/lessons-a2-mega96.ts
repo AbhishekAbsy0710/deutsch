@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega96: Record<string, Lesson> = {
+  "la2_m141": { id: "la2_m141", title: "Directions & Navigation A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "der Weg", phonetic: "vehk", meaning: "way / path / route", gender: "der", example: { de: "Den Weg fragen.", en: "Ask the way." } },
+    { word: "links", phonetic: "links", meaning: "left", example: { de: "Biegen Sie links ab.", en: "Turn left." } },
+    { word: "rechts", phonetic: "rekhts", meaning: "right", example: { de: "Biegen Sie rechts ab.", en: "Turn right." } },
+    { word: "geradeaus", phonetic: "geh-rah-duh-ows", meaning: "straight ahead", example: { de: "Geradeaus gehen.", en: "Go straight ahead." } },
+    { word: "abbiegen", phonetic: "ap-bee-gen", meaning: "to turn (direction)", example: { de: "An der Kreuzung abbiegen.", en: "Turn at the crossroads." } },
+    { word: "die Kreuzung", phonetic: "kroyt-sung", meaning: "crossroads / intersection", gender: "die", example: { de: "An der nächsten Kreuzung.", en: "At the next crossroads." } },
+    { word: "die Ecke", phonetic: "e-kuh", meaning: "corner", gender: "die", example: { de: "An der Ecke.", en: "At the corner." } },
+    { word: "entlang", phonetic: "ent-lang", meaning: "along", example: { de: "Die Straße entlang.", en: "Along the street." } },
+    { word: "gegenüber", phonetic: "geh-gen-ü-ber", meaning: "opposite / across from", example: { de: "Gegenüber dem Bahnhof.", en: "Opposite the station." } },
+    { word: "in der Nähe", phonetic: "in-der-ney-uh", meaning: "near / nearby", example: { de: "In der Nähe des Zentrums.", en: "Near the centre." } },
+    { word: "weit weg", phonetic: "vyte-vehk", meaning: "far away", example: { de: "Ist es weit weg?", en: "Is it far away?" } },
+    { word: "die Entfernung", phonetic: "ent-fer-nung", meaning: "distance", gender: "die", example: { de: "Kurze Entfernung.", en: "Short distance." } },
+    { word: "das Navi", phonetic: "nah-vi", meaning: "sat-nav / GPS", gender: "das", example: { de: "Das Navi nutzen.", en: "Use the sat-nav." } },
+    { word: "die Karte", phonetic: "kar-tuh", meaning: "map / card", gender: "die", example: { de: "Die Karte lesen.", en: "Read the map." } },
+    { word: "der Bahnhof", phonetic: "bahn-hof", meaning: "train station", gender: "der", example: { de: "Am Bahnhof ankommen.", en: "Arrive at the station." } },
+    { word: "die Haltestelle", phonetic: "hal-tuh-shte-luh", meaning: "bus/tram stop", gender: "die", example: { de: "An der Haltestelle warten.", en: "Wait at the bus stop." } },
+    { word: "nördlich", phonetic: "nörd-likh", meaning: "northern / northwards", example: { de: "Nördlich der Stadt.", en: "North of the city." } },
+    { word: "südlich", phonetic: "züd-likh", meaning: "southern / southwards", example: { de: "Südlich des Parks.", en: "South of the park." } },
+    { word: "Wie komme ich zu…?", phonetic: "vee-ko-muh-ikh-tsoo", meaning: "How do I get to…?", example: { de: "Wie komme ich zum Bahnhof?", en: "How do I get to the station?" } },
+    { word: "sich verfahren", phonetic: "zikh-fer-fah-ren", meaning: "to get lost (driving)", example: { de: "Ich habe mich verfahren.", en: "I got lost." } },
+  ]}] },
+};

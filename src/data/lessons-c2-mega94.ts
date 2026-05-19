@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega94: Record<string, Lesson> = {
+  "lc2_m137": { id: "lc2_m137", title: "Algebraic Geometry C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die algebraische Geometrie", phonetic: "al-ge-bray-i-shuh-gay-oh-me-tree", meaning: "algebraic geometry", gender: "die", example: { de: "Moderne algebraische Geometrie.", en: "Modern algebraic geometry." } },
+    { word: "die Varietät (algebraisch)", phonetic: "va-ri-e-tayt", meaning: "variety (algebraic geometry)", gender: "die", example: { de: "Affine algebraische Varietät.", en: "Affine algebraic variety." } },
+    { word: "das Schema (Grothendieck)", phonetic: "shay-mah", meaning: "scheme (Grothendieck)", gender: "das", example: { de: "Grothendieck-Schema.", en: "Grothendieck scheme." } },
+    { word: "der Morphismus (Algebraische Geometrie)", phonetic: "mor-fis-mus", meaning: "morphism (algebraic geometry)", gender: "der", example: { de: "Regulärer Morphismus.", en: "Regular morphism." } },
+    { word: "die Kohomologie (algebraische Geometrie)", phonetic: "ko-ho-mo-lo-gee", meaning: "cohomology (algebraic geometry)", gender: "die", example: { de: "Étale-Kohomologie.", en: "Étale cohomology." } },
+    { word: "die Garbe (algebraische Geometrie)", phonetic: "gar-buh", meaning: "sheaf (algebraic geometry)", gender: "die", example: { de: "Kohärente Garbe.", en: "Coherent sheaf." } },
+    { word: "der Divisor (algebraische Geometrie)", phonetic: "di-vi-zor", meaning: "divisor (algebraic geometry)", gender: "der", example: { de: "Weil-Divisor.", en: "Weil divisor." } },
+    { word: "die elliptische Kurve", phonetic: "e-lip-ti-shuh-kur-vuh", meaning: "elliptic curve", gender: "die", example: { de: "Kryptographische elliptische Kurve.", en: "Cryptographic elliptic curve." } },
+    { word: "die abelsche Varietät", phonetic: "ah-bel-shuh-va-ri-e-tayt", meaning: "abelian variety", gender: "die", example: { de: "Jacobische abelsche Varietät.", en: "Jacobian abelian variety." } },
+    { word: "das Topos (algebraische Geometrie)", phonetic: "to-pos", meaning: "topos (algebraic geometry)", gender: "der", example: { de: "Étale-Topos.", en: "Étale topos." } },
+    { word: "der Zariski-Topologie", phonetic: "tsa-ris-ki-to-po-lo-gee", meaning: "Zariski topology", gender: "die", example: { de: "Affine Zariski-Topologie.", en: "Affine Zariski topology." } },
+    { word: "der Ringraum", phonetic: "ring-rowm", meaning: "ringed space", gender: "der", example: { de: "Lokal geringter Ringraum.", en: "Locally ringed space." } },
+    { word: "die Modulraumtheorie", phonetic: "mo-dool-rowm-tay-oh-ree", meaning: "moduli space theory", gender: "die", example: { de: "Deligne-Mumford-Modulraumtheorie.", en: "Deligne-Mumford moduli space theory." } },
+    { word: "der Satz von Riemann-Roch", phonetic: "zats-fon-ree-man-rokh", meaning: "Riemann-Roch theorem", gender: "der", example: { de: "Grothendieck-Riemann-Roch.", en: "Grothendieck-Riemann-Roch." } },
+    { word: "die Birkar-Cascini-Hacon-McKernan (BCHM)", phonetic: "bir-kar-ka-shee-ni-ha-kon-mek-ker-nan", meaning: "BCHM theorem (minimal model programme)", gender: "das", example: { de: "BCHM minimales Modell.", en: "BCHM minimal model." } },
+    { word: "die Hodge-Theorie", phonetic: "hodsh-tay-oh-ree", meaning: "Hodge theory", gender: "die", example: { de: "Hodge-Zerlegung.", en: "Hodge decomposition." } },
+    { word: "die p-adische Geometrie", phonetic: "pay-ah-di-shuh-gay-oh-me-tree", meaning: "p-adic geometry", gender: "die", example: { de: "Scholzes p-adische Geometrie.", en: "Scholze's p-adic geometry." } },
+    { word: "der Perfectoid-Raum (Scholze)", phonetic: "per-fek-to-id-rowm", meaning: "perfectoid space (Scholze)", gender: "der", example: { de: "Scholzes Perfectoid-Raum.", en: "Scholze's perfectoid space." } },
+    { word: "der Weil-Vermutungen (Deligne)", phonetic: "vyl-fer-moo-tung-en", meaning: "Weil conjectures (Deligne)", example: { de: "Deligne Weil-Vermutungen.", en: "Deligne Weil conjectures." } },
+    { word: "die motivische Geometrie", phonetic: "mo-tee-vi-shuh-gay-oh-me-tree", meaning: "motivic geometry", gender: "die", example: { de: "Voevodskysche motivische Geometrie.", en: "Voevodsky motivic geometry." } },
+  ]}] },
+};

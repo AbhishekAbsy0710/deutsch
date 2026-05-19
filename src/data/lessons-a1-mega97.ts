@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega97: Record<string, Lesson> = {
+  "la1_m147": { id: "la1_m147", title: "Household Objects A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Haus", phonetic: "hows", meaning: "house", gender: "das", example: { de: "Ein großes Haus.", en: "A big house." } },
+    { word: "die Wohnung", phonetic: "voh-nung", meaning: "flat / apartment", gender: "die", example: { de: "Meine Wohnung.", en: "My flat." } },
+    { word: "das Zimmer", phonetic: "tsim-er", meaning: "room", gender: "das", example: { de: "Ein helles Zimmer.", en: "A bright room." } },
+    { word: "die Küche", phonetic: "kü-khuh", meaning: "kitchen", gender: "die", example: { de: "In der Küche kochen.", en: "Cook in the kitchen." } },
+    { word: "das Wohnzimmer", phonetic: "vohn-tsim-er", meaning: "living room", gender: "das", example: { de: "Im Wohnzimmer sitzen.", en: "Sit in the living room." } },
+    { word: "das Schlafzimmer", phonetic: "shlahf-tsim-er", meaning: "bedroom", gender: "das", example: { de: "Das Schlafzimmer aufräumen.", en: "Tidy the bedroom." } },
+    { word: "das Badezimmer", phonetic: "bah-duh-tsim-er", meaning: "bathroom", gender: "das", example: { de: "Das Badezimmer putzen.", en: "Clean the bathroom." } },
+    { word: "der Tisch", phonetic: "tish", meaning: "table", gender: "der", example: { de: "Am Tisch sitzen.", en: "Sit at the table." } },
+    { word: "der Stuhl", phonetic: "shtool", meaning: "chair", gender: "der", example: { de: "Auf dem Stuhl sitzen.", en: "Sit on the chair." } },
+    { word: "das Bett", phonetic: "bet", meaning: "bed", gender: "das", example: { de: "Das Bett machen.", en: "Make the bed." } },
+    { word: "der Schrank", phonetic: "shrank", meaning: "cupboard / wardrobe", gender: "der", example: { de: "Kleidung im Schrank.", en: "Clothes in the wardrobe." } },
+    { word: "das Sofa", phonetic: "zo-fah", meaning: "sofa / couch", gender: "das", example: { de: "Auf dem Sofa liegen.", en: "Lie on the sofa." } },
+    { word: "das Fenster", phonetic: "fen-ster", meaning: "window", gender: "das", example: { de: "Das Fenster öffnen.", en: "Open the window." } },
+    { word: "die Tür", phonetic: "tür", meaning: "door", gender: "die", example: { de: "Die Tür schließen.", en: "Close the door." } },
+    { word: "das Licht", phonetic: "likht", meaning: "light", gender: "das", example: { de: "Das Licht einschalten.", en: "Turn on the light." } },
+    { word: "der Kühlschrank", phonetic: "kühl-shrank", meaning: "fridge / refrigerator", gender: "der", example: { de: "Essen im Kühlschrank.", en: "Food in the fridge." } },
+    { word: "der Herd", phonetic: "hert", meaning: "cooker / stove", gender: "der", example: { de: "Auf dem Herd kochen.", en: "Cook on the stove." } },
+    { word: "die Waschmaschine", phonetic: "vash-ma-shee-nuh", meaning: "washing machine", gender: "die", example: { de: "Wäsche in die Waschmaschine.", en: "Laundry in the washing machine." } },
+    { word: "der Spiegel", phonetic: "shpee-gel", meaning: "mirror", gender: "der", example: { de: "In den Spiegel schauen.", en: "Look in the mirror." } },
+    { word: "der Teppich", phonetic: "te-pikh", meaning: "carpet / rug", gender: "der", example: { de: "Weicher Teppich.", en: "Soft carpet." } },
+  ]}] },
+};

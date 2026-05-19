@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega96: Record<string, Lesson> = {
+  "lc1_m142": { id: "lc1_m142", title: "International Relations C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die internationalen Beziehungen", phonetic: "in-ter-na-tsee-oh-nah-len-beh-tsee-ung-en", meaning: "international relations", example: { de: "Wissenschaft internationaler Beziehungen.", en: "Science of international relations." } },
+    { word: "die Souveränität", phonetic: "zoo-ve-ley-ni-tayt", meaning: "sovereignty", gender: "die", example: { de: "Staatliche Souveränität.", en: "State sovereignty." } },
+    { word: "der Realismus (IR)", phonetic: "re-a-lis-mus", meaning: "realism (IR theory)", gender: "der", example: { de: "Klassischer Realismus (Morgenthau).", en: "Classical realism (Morgenthau)." } },
+    { word: "der Liberalismus (IR)", phonetic: "li-be-ra-lis-mus", meaning: "liberalism (IR theory)", gender: "der", example: { de: "Institutioneller Liberalismus.", en: "Institutional liberalism." } },
+    { word: "der Konstruktivismus (IR)", phonetic: "kon-strook-ti-vis-mus", meaning: "constructivism (IR)", gender: "der", example: { de: "Wendts Konstruktivismus.", en: "Wendt's constructivism." } },
+    { word: "die multilaterale Diplomatie", phonetic: "mool-ti-la-te-rah-luh-di-plo-mah-tsee", meaning: "multilateral diplomacy", gender: "die", example: { de: "UN-multilaterale Diplomatie.", en: "UN multilateral diplomacy." } },
+    { word: "die Vereinten Nationen (UN)", phonetic: "fer-ayn-ten-na-tsee-oh-nen", meaning: "United Nations", example: { de: "Sicherheitsrat der UN.", en: "UN Security Council." } },
+    { word: "das Völkerrecht", phonetic: "föl-ker-rekht", meaning: "international law", gender: "das", example: { de: "Bindende Völkerrechtsnormen.", en: "Binding international law norms." } },
+    { word: "die Diplomatie", phonetic: "di-plo-mah-tsee", meaning: "diplomacy", gender: "die", example: { de: "Stille Diplomatie.", en: "Quiet diplomacy." } },
+    { word: "das Außenministerium", phonetic: "ow-sen-mi-nis-te-ree-um", meaning: "foreign ministry", gender: "das", example: { de: "Deutsches Außenministerium.", en: "German foreign ministry." } },
+    { word: "der Botschafter", phonetic: "bot-shaf-ter", meaning: "ambassador", gender: "der", example: { de: "Botschafter akkreditieren.", en: "Accredit an ambassador." } },
+    { word: "die Sanktion (international)", phonetic: "zank-tsee-ohn", meaning: "sanction (international)", gender: "die", example: { de: "Wirtschaftliche Sanktionen.", en: "Economic sanctions." } },
+    { word: "das Bündnis", phonetic: "bünt-nis", meaning: "alliance", gender: "das", example: { de: "Militärisches Bündnis.", en: "Military alliance." } },
+    { word: "die NATO", phonetic: "nah-to", meaning: "NATO", gender: "die", example: { de: "NATO-Mitgliedschaft.", en: "NATO membership." } },
+    { word: "die Geopolitik", phonetic: "gay-oh-po-li-tik", meaning: "geopolitics", gender: "die", example: { de: "Eurasische Geopolitik.", en: "Eurasian geopolitics." } },
+    { word: "die weiche Macht", phonetic: "vy-khuh-makht", meaning: "soft power (Nye)", gender: "die", example: { de: "Nyes weiche Macht.", en: "Nye's soft power." } },
+    { word: "die harte Macht", phonetic: "har-tuh-makht", meaning: "hard power", gender: "die", example: { de: "Militärische harte Macht.", en: "Military hard power." } },
+    { word: "der Konflikt (international)", phonetic: "kon-flikt", meaning: "conflict (international)", gender: "der", example: { de: "Zwischenstaatlicher Konflikt.", en: "Interstate conflict." } },
+    { word: "der Frieden (international)", phonetic: "free-den", meaning: "peace (international)", gender: "der", example: { de: "Positiver Frieden (Galtung).", en: "Positive peace (Galtung)." } },
+    { word: "die Menschenrechtspolitik", phonetic: "men-shen-rekhts-po-li-tik", meaning: "human rights policy", gender: "die", example: { de: "Außenpolitische Menschenrechtspolitik.", en: "Foreign human rights policy." } },
+  ]}] },
+};

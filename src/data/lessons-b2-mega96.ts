@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega96: Record<string, Lesson> = {
+  "lb2_m141": { id: "lb2_m141", title: "Medicine & Anatomy B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Anatomie", phonetic: "a-na-to-mee", meaning: "anatomy", gender: "die", example: { de: "Menschliche Anatomie.", en: "Human anatomy." } },
+    { word: "das Organ", phonetic: "or-gahn", meaning: "organ (body)", gender: "das", example: { de: "Lebenswichtiges Organ.", en: "Vital organ." } },
+    { word: "die Lunge", phonetic: "loon-guh", meaning: "lung", gender: "die", example: { de: "Gesunde Lungen.", en: "Healthy lungs." } },
+    { word: "die Leber", phonetic: "lay-ber", meaning: "liver", gender: "die", example: { de: "Leber entgiftet Blut.", en: "Liver detoxifies blood." } },
+    { word: "die Niere", phonetic: "nee-ruh", meaning: "kidney", gender: "die", example: { de: "Nieren filtern Blut.", en: "Kidneys filter blood." } },
+    { word: "das Gehirn", phonetic: "geh-hern", meaning: "brain", gender: "das", example: { de: "Das menschliche Gehirn.", en: "The human brain." } },
+    { word: "das Blut", phonetic: "bloot", meaning: "blood", gender: "das", example: { de: "Blutgruppe bestimmen.", en: "Determine blood group." } },
+    { word: "die Arterie", phonetic: "ar-te-ree-uh", meaning: "artery", gender: "die", example: { de: "Verstopfte Arterie.", en: "Blocked artery." } },
+    { word: "die Vene", phonetic: "vay-nuh", meaning: "vein", gender: "die", example: { de: "Vene und Arterie.", en: "Vein and artery." } },
+    { word: "das Nervensystem", phonetic: "ner-ven-züs-tem", meaning: "nervous system", gender: "das", example: { de: "Zentrales Nervensystem.", en: "Central nervous system." } },
+    { word: "das Immunsystem", phonetic: "i-mun-züs-tem", meaning: "immune system", gender: "das", example: { de: "Starkes Immunsystem.", en: "Strong immune system." } },
+    { word: "der Antikörper", phonetic: "an-ti-kör-per", meaning: "antibody", gender: "der", example: { de: "Antikörper bilden.", en: "Form antibodies." } },
+    { word: "die Diagnose", phonetic: "di-ag-noh-zuh", meaning: "diagnosis", gender: "die", example: { de: "Medizinische Diagnose.", en: "Medical diagnosis." } },
+    { word: "die Therapie", phonetic: "te-ra-pee", meaning: "therapy / treatment", gender: "die", example: { de: "Physiotherapie.", en: "Physiotherapy." } },
+    { word: "die Operation", phonetic: "o-pe-ra-tsee-ohn", meaning: "operation / surgery", gender: "die", example: { de: "Eine Operation durchführen.", en: "Perform an operation." } },
+    { word: "das Medikament", phonetic: "me-di-ka-ment", meaning: "medication / drug", gender: "das", example: { de: "Medikament verschreiben.", en: "Prescribe medication." } },
+    { word: "die Prognose", phonetic: "prog-noh-zuh", meaning: "prognosis", gender: "die", example: { de: "Gute medizinische Prognose.", en: "Good medical prognosis." } },
+    { word: "das Symptom", phonetic: "zümp-tohm", meaning: "symptom", gender: "das", example: { de: "Typisches Symptom.", en: "Typical symptom." } },
+    { word: "die Infektion", phonetic: "in-fek-tsee-ohn", meaning: "infection", gender: "die", example: { de: "Bakterielle Infektion.", en: "Bacterial infection." } },
+    { word: "der Chirurg", phonetic: "khi-roork", meaning: "surgeon", gender: "der", example: { de: "Erfahrener Chirurg.", en: "Experienced surgeon." } },
+  ]}] },
+};

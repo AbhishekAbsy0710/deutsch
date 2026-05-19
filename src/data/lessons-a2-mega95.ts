@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega95: Record<string, Lesson> = {
+  "la2_m140": { id: "la2_m140", title: "Cooking & Recipes A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Rezept", phonetic: "re-tsept", meaning: "recipe", gender: "das", example: { de: "Ein einfaches Rezept.", en: "A simple recipe." } },
+    { word: "die Zutat", phonetic: "tsoo-taht", meaning: "ingredient", gender: "die", example: { de: "Alle Zutaten vorbereiten.", en: "Prepare all ingredients." } },
+    { word: "kochen", phonetic: "ko-khen", meaning: "to cook / boil", example: { de: "Wasser kochen.", en: "Boil water." } },
+    { word: "braten", phonetic: "brah-ten", meaning: "to fry / roast", example: { de: "Fleisch braten.", en: "Fry meat." } },
+    { word: "backen", phonetic: "ba-ken", meaning: "to bake", example: { de: "Brot backen.", en: "Bake bread." } },
+    { word: "schneiden", phonetic: "shny-den", meaning: "to cut / chop", example: { de: "Gemüse schneiden.", en: "Chop vegetables." } },
+    { word: "mischen", phonetic: "mi-shen", meaning: "to mix", example: { de: "Zutaten mischen.", en: "Mix ingredients." } },
+    { word: "der Topf", phonetic: "topf", meaning: "pot / saucepan", gender: "der", example: { de: "Suppe im Topf.", en: "Soup in the pot." } },
+    { word: "die Pfanne", phonetic: "pfa-nuh", meaning: "frying pan", gender: "die", example: { de: "Eier in der Pfanne.", en: "Eggs in the pan." } },
+    { word: "das Messer", phonetic: "me-ser", meaning: "knife", gender: "das", example: { de: "Scharfes Messer.", en: "Sharp knife." } },
+    { word: "der Löffel", phonetic: "lö-fel", meaning: "spoon", gender: "der", example: { de: "Mit dem Löffel rühren.", en: "Stir with the spoon." } },
+    { word: "die Gabel", phonetic: "gah-bel", meaning: "fork", gender: "die", example: { de: "Mit der Gabel essen.", en: "Eat with the fork." } },
+    { word: "das Öl", phonetic: "öl", meaning: "oil", gender: "das", example: { de: "Olivenöl verwenden.", en: "Use olive oil." } },
+    { word: "das Salz", phonetic: "zalts", meaning: "salt", gender: "das", example: { de: "Salz zum Würzen.", en: "Salt for seasoning." } },
+    { word: "der Pfeffer", phonetic: "pfe-fer", meaning: "pepper", gender: "der", example: { de: "Frischer Pfeffer.", en: "Fresh pepper." } },
+    { word: "der Zucker", phonetic: "tsoo-ker", meaning: "sugar", gender: "der", example: { de: "Süß mit Zucker.", en: "Sweet with sugar." } },
+    { word: "das Mehl", phonetic: "mehl", meaning: "flour", gender: "das", example: { de: "Mehl für den Teig.", en: "Flour for the dough." } },
+    { word: "würzen", phonetic: "vür-tsen", meaning: "to season / spice", example: { de: "Die Suppe würzen.", en: "Season the soup." } },
+    { word: "garen", phonetic: "gah-ren", meaning: "to cook through / simmer", example: { de: "Das Gemüse garen.", en: "Cook the vegetables through." } },
+    { word: "das Gericht", phonetic: "geh-rikht", meaning: "dish / meal", gender: "das", example: { de: "Ein deutsches Gericht.", en: "A German dish." } },
+  ]}] },
+};

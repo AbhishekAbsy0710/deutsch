@@ -112,6 +112,8 @@ import { lessonsA1Mega93 } from "./lessons-a1-mega93";
 import { lessonsA1Mega94 } from "./lessons-a1-mega94";
 import { lessonsA1Mega95 } from "./lessons-a1-mega95";
 import { lessonsA1Mega96 } from "./lessons-a1-mega96";
+import { lessonsA1Mega97 } from "./lessons-a1-mega97";
+import { lessonsA1Mega98 } from "./lessons-a1-mega98";
 import { lessonsA1New5, lessonsA2New9 } from "./lessons-final-gaps";
 import { lessonsA1Final, lessonsA2Final } from "./lessons-final-gaps2";
 import { lessonsA2ExamSkills } from "./lessons-a2-exam";
@@ -224,6 +226,8 @@ import { lessonsA2Mega91 } from "./lessons-a2-mega91";
 import { lessonsA2Mega92 } from "./lessons-a2-mega92";
 import { lessonsA2Mega93 } from "./lessons-a2-mega93";
 import { lessonsA2Mega94 } from "./lessons-a2-mega94";
+import { lessonsA2Mega95 } from "./lessons-a2-mega95";
+import { lessonsA2Mega96 } from "./lessons-a2-mega96";
 import { lessonsB1 } from "./lessons-b1";
 import { lessonsB1Grammar1 } from "./lessons-b1-grammar1";
 import { lessonsB1Grammar2 } from "./lessons-b1-grammar2";
@@ -337,6 +341,8 @@ import { lessonsB1Mega94 } from "./lessons-b1-mega94";
 import { lessonsB1Mega95 } from "./lessons-b1-mega95";
 import { lessonsB1Mega96 } from "./lessons-b1-mega96";
 import { lessonsB1Mega97 } from "./lessons-b1-mega97";
+import { lessonsB1Mega98 } from "./lessons-b1-mega98";
+import { lessonsB1Mega99 } from "./lessons-b1-mega99";
 import { lessonsB2 } from "./lessons-b2";
 import { lessonsB2Grammar1 } from "./lessons-b2-grammar1";
 import { lessonsB2Grammar2 } from "./lessons-b2-grammar2";
@@ -447,6 +453,8 @@ import { lessonsB2Mega92 } from "./lessons-b2-mega92";
 import { lessonsB2Mega93 } from "./lessons-b2-mega93";
 import { lessonsB2Mega94 } from "./lessons-b2-mega94";
 import { lessonsB2Mega95 } from "./lessons-b2-mega95";
+import { lessonsB2Mega96 } from "./lessons-b2-mega96";
+import { lessonsB2Mega97 } from "./lessons-b2-mega97";
 import { lessonsC1Partikeln } from "./lessons-c1-partikeln";
 import { lessonsC1Grammar } from "./lessons-c1-grammar";
 import { lessonsC1Grammar2 } from "./lessons-c1-grammar2";
@@ -575,6 +583,8 @@ import { lessonsC1Mega92 } from "./lessons-c1-mega92";
 import { lessonsC1Mega93 } from "./lessons-c1-mega93";
 import { lessonsC1Mega94 } from "./lessons-c1-mega94";
 import { lessonsC1Mega95 } from "./lessons-c1-mega95";
+import { lessonsC1Mega96 } from "./lessons-c1-mega96";
+import { lessonsC1Mega97 } from "./lessons-c1-mega97";
 import { lessonsC2Mega1 } from "./lessons-c2-mega1";
 import { lessonsC2Mega2 } from "./lessons-c2-mega2";
 import { lessonsC2Mega3 } from "./lessons-c2-mega3";
@@ -668,6 +678,8 @@ import { lessonsC2Mega90 } from "./lessons-c2-mega90";
 import { lessonsC2Mega91 } from "./lessons-c2-mega91";
 import { lessonsC2Mega92 } from "./lessons-c2-mega92";
 import { lessonsC2Mega93 } from "./lessons-c2-mega93";
+import { lessonsC2Mega94 } from "./lessons-c2-mega94";
+import { lessonsC2Mega95 } from "./lessons-c2-mega95";
 
 export type LessonBlock = 
   | { type: "vocabulary", word: string, translation: string, example: string, audioUrl?: string, phonetic: string }
@@ -806,6 +818,8 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsA1Mega94,
   ...lessonsA1Mega95,
   ...lessonsA1Mega96,
+  ...lessonsA1Mega97,
+  ...lessonsA1Mega98,
   ...lessonsA2,
   ...lessonsA2New,
   ...lessonsA2New2,
@@ -918,6 +932,8 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsA2Mega92,
   ...lessonsA2Mega93,
   ...lessonsA2Mega94,
+  ...lessonsA2Mega95,
+  ...lessonsA2Mega96,
   ...lessonsB1,
   ...lessonsB1Grammar1,
   ...lessonsB1Grammar2,
@@ -1031,6 +1047,8 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsB1Mega95,
   ...lessonsB1Mega96,
   ...lessonsB1Mega97,
+  ...lessonsB1Mega98,
+  ...lessonsB1Mega99,
   ...lessonsB2,
   ...lessonsB2Grammar1,
   ...lessonsB2Grammar2,
@@ -1142,6 +1160,8 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsB2Mega93,
   ...lessonsB2Mega94,
   ...lessonsB2Mega95,
+  ...lessonsB2Mega96,
+  ...lessonsB2Mega97,
   ...lessonsC1Partikeln,
   ...lessonsC1Grammar,
   ...lessonsC1Grammar2,
@@ -1270,6 +1290,8 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC1Mega93,
   ...lessonsC1Mega94,
   ...lessonsC1Mega95,
+  ...lessonsC1Mega96,
+  ...lessonsC1Mega97,
   ...lessonsC2Mega1,
   ...lessonsC2Mega2,
   ...lessonsC2Mega3,
@@ -1363,4 +1385,6 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsC2Mega91,
   ...lessonsC2Mega92,
   ...lessonsC2Mega93,
+  ...lessonsC2Mega94,
+  ...lessonsC2Mega95,
 };

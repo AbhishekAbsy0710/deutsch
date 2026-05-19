@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega98: Record<string, Lesson> = {
+  "lb1_m149": { id: "lb1_m149", title: "Computer Science Basics B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Informatik", phonetic: "in-for-ma-tik", meaning: "computer science", gender: "die", example: { de: "Informatik studieren.", en: "Study computer science." } },
+    { word: "der Computer", phonetic: "kom-pyoo-ter", meaning: "computer", gender: "der", example: { de: "Leistungsstarker Computer.", en: "Powerful computer." } },
+    { word: "das Programm", phonetic: "pro-gram", meaning: "program / application", gender: "das", example: { de: "Ein Programm installieren.", en: "Install a program." } },
+    { word: "programmieren", phonetic: "pro-gra-mee-ren", meaning: "to program", example: { de: "In Python programmieren.", en: "Program in Python." } },
+    { word: "der Code", phonetic: "kohd", meaning: "code", gender: "der", example: { de: "Sauberer Code.", en: "Clean code." } },
+    { word: "der Algorithmus", phonetic: "al-go-rit-mus", meaning: "algorithm", gender: "der", example: { de: "Effizienter Algorithmus.", en: "Efficient algorithm." } },
+    { word: "die Datenbank", phonetic: "dah-ten-bank", meaning: "database", gender: "die", example: { de: "Relationale Datenbank.", en: "Relational database." } },
+    { word: "die Schnittstelle", phonetic: "shnit-shte-luh", meaning: "interface / API", gender: "die", example: { de: "Programmierschnittstelle.", en: "Programming interface." } },
+    { word: "das Netzwerk", phonetic: "nets-verk", meaning: "network", gender: "das", example: { de: "Lokales Netzwerk.", en: "Local network." } },
+    { word: "das Internet", phonetic: "in-ter-net", meaning: "the internet", gender: "das", example: { de: "Schnelles Internet.", en: "Fast internet." } },
+    { word: "die Software", phonetic: "sof-tvehr", meaning: "software", gender: "die", example: { de: "Software aktualisieren.", en: "Update software." } },
+    { word: "die Hardware", phonetic: "hard-vehr", meaning: "hardware", gender: "die", example: { de: "Neue Hardware einbauen.", en: "Install new hardware." } },
+    { word: "der Server", phonetic: "ser-ver", meaning: "server", gender: "der", example: { de: "Daten auf dem Server.", en: "Data on the server." } },
+    { word: "der Fehler", phonetic: "feh-ler", meaning: "error / bug", gender: "der", example: { de: "Einen Fehler beheben.", en: "Fix a bug." } },
+    { word: "das Betriebssystem", phonetic: "beh-treeps-züs-tem", meaning: "operating system", gender: "das", example: { de: "Linux-Betriebssystem.", en: "Linux operating system." } },
+    { word: "die Verschlüsselung", phonetic: "fer-shlü-se-lung", meaning: "encryption", gender: "die", example: { de: "Ende-zu-Ende-Verschlüsselung.", en: "End-to-end encryption." } },
+    { word: "die künstliche Intelligenz", phonetic: "künst-li-khuh in-te-li-gents", meaning: "artificial intelligence", gender: "die", example: { de: "Künstliche Intelligenz einsetzen.", en: "Deploy artificial intelligence." } },
+    { word: "das maschinelle Lernen", phonetic: "ma-shee-ne-luh ler-nen", meaning: "machine learning", gender: "das", example: { de: "Maschinelles Lernen anwenden.", en: "Apply machine learning." } },
+    { word: "die Datensicherheit", phonetic: "dah-ten-zi-kher-hyte", meaning: "data security", gender: "die", example: { de: "Datensicherheit gewährleisten.", en: "Ensure data security." } },
+    { word: "die Open-Source-Software", phonetic: "oh-pen-sors-sof-tvehr", meaning: "open-source software", gender: "die", example: { de: "Open-Source-Software nutzen.", en: "Use open-source software." } },
+  ]}] },
+};

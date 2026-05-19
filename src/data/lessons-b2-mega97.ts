@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega97: Record<string, Lesson> = {
+  "lb2_m142": { id: "lb2_m142", title: "Advanced Computer Science B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Komplexitätstheorie", phonetic: "kom-plek-si-teyts-tay-oh-ree", meaning: "complexity theory", gender: "die", example: { de: "Berechnungskomplexitätstheorie.", en: "Computational complexity theory." } },
+    { word: "die Zeitkomplexität", phonetic: "tsyt-kom-plek-si-tayt", meaning: "time complexity", gender: "die", example: { de: "O(n log n) Zeitkomplexität.", en: "O(n log n) time complexity." } },
+    { word: "die Raumkomplexität", phonetic: "rowm-kom-plek-si-tayt", meaning: "space complexity", gender: "die", example: { de: "Konstante Raumkomplexität.", en: "Constant space complexity." } },
+    { word: "der NP-vollständige Problem", phonetic: "en-pay-fol-shten-di-guh-pro-blaym", meaning: "NP-complete problem", gender: "das", example: { de: "TSP ist NP-vollständig.", en: "TSP is NP-complete." } },
+    { word: "die Turingmaschine", phonetic: "too-ring-ma-shee-nuh", meaning: "Turing machine", gender: "die", example: { de: "Universelle Turingmaschine.", en: "Universal Turing machine." } },
+    { word: "die rekursive Funktion", phonetic: "re-koor-zee-vuh foonk-tsee-ohn", meaning: "recursive function", gender: "die", example: { de: "Rekursive Fibonacci-Funktion.", en: "Recursive Fibonacci function." } },
+    { word: "der Graph (Informatik)", phonetic: "graf", meaning: "graph (computer science)", gender: "der", example: { de: "Gerichteter Graph.", en: "Directed graph." } },
+    { word: "der Baum (Datenstruktur)", phonetic: "bowm", meaning: "tree (data structure)", gender: "der", example: { de: "Binärer Suchbaum.", en: "Binary search tree." } },
+    { word: "der Hash (Informatik)", phonetic: "hash", meaning: "hash (computer science)", gender: "der", example: { de: "Kryptographischer Hash.", en: "Cryptographic hash." } },
+    { word: "die parallele Berechnung", phonetic: "pa-ra-le-luh-beh-rekh-nung", meaning: "parallel computing", gender: "die", example: { de: "Verteilte parallele Berechnung.", en: "Distributed parallel computing." } },
+    { word: "das neuronale Netz", phonetic: "noy-ro-nah-luh-nets", meaning: "neural network", gender: "das", example: { de: "Tiefes neuronales Netz.", en: "Deep neural network." } },
+    { word: "das tiefe Lernen", phonetic: "tee-fuh-ler-nen", meaning: "deep learning", gender: "das", example: { de: "Convolutional tiefes Lernen.", en: "Convolutional deep learning." } },
+    { word: "die natürliche Sprachverarbeitung", phonetic: "na-tür-li-khuh-shprakh-fer-ar-by-tung", meaning: "natural language processing (NLP)", gender: "die", example: { de: "NLP-natürliche Sprachverarbeitung.", en: "NLP natural language processing." } },
+    { word: "der Compilerbau", phonetic: "kom-pi-ler-bow", meaning: "compiler construction", gender: "der", example: { de: "Compilerbau und Optimierung.", en: "Compiler construction and optimisation." } },
+    { word: "das Betriebssystem (Konzept)", phonetic: "beh-treeps-züs-tem", meaning: "operating system (concept)", gender: "das", example: { de: "Mikrokern-Betriebssystem.", en: "Microkernel operating system." } },
+    { word: "die Parallelverarbeitung", phonetic: "pa-ra-lel-fer-ar-by-tung", meaning: "parallel processing", gender: "die", example: { de: "GPU-Parallelverarbeitung.", en: "GPU parallel processing." } },
+    { word: "der verteilte System", phonetic: "fer-tylt-uh-züs-tem", meaning: "distributed system", gender: "das", example: { de: "Fehlertolerantes verteiltes System.", en: "Fault-tolerant distributed system." } },
+    { word: "die Blockchain (Konzept)", phonetic: "blok-cheyn", meaning: "blockchain (concept)", gender: "die", example: { de: "Dezentrale Blockchain-Technologie.", en: "Decentralised blockchain technology." } },
+    { word: "die formale Verifikation", phonetic: "for-mah-luh-ve-ri-fi-ka-tsee-ohn", meaning: "formal verification", gender: "die", example: { de: "Softwareformale Verifikation.", en: "Software formal verification." } },
+    { word: "der Quantencomputer", phonetic: "kvan-ten-kom-pyoo-ter", meaning: "quantum computer", gender: "der", example: { de: "Fehlertoleranter Quantencomputer.", en: "Fault-tolerant quantum computer." } },
+  ]}] },
+};

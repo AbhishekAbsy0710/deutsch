@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega97: Record<string, Lesson> = {
+  "lc1_m143": { id: "lc1_m143", title: "Advanced Rhetoric C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Rhetorik", phonetic: "re-toh-rik", meaning: "rhetoric", gender: "die", example: { de: "Klassische Rhetorik.", en: "Classical rhetoric." } },
+    { word: "das Ethos (Aristoteles)", phonetic: "ay-tos", meaning: "ethos (Aristotle)", gender: "das", example: { de: "Aristoteles Ethos.", en: "Aristotle's ethos." } },
+    { word: "der Pathos (Aristoteles)", phonetic: "pa-tos", meaning: "pathos (Aristotle)", gender: "der", example: { de: "Emotionaler Pathos.", en: "Emotional pathos." } },
+    { word: "der Logos (Aristoteles)", phonetic: "lo-gos", meaning: "logos (Aristotle)", gender: "der", example: { de: "Rationaler Logos.", en: "Rational logos." } },
+    { word: "die Metapher", phonetic: "me-ta-fer", meaning: "metaphor", gender: "die", example: { de: "Lebendige Metapher.", en: "Vivid metaphor." } },
+    { word: "die Metonymie", phonetic: "me-to-nü-mee", meaning: "metonymy", gender: "die", example: { de: "Synekdoche und Metonymie.", en: "Synecdoche and metonymy." } },
+    { word: "die Ironie (rhetorisch)", phonetic: "ee-ro-nee", meaning: "irony (rhetoric)", gender: "die", example: { de: "Sokratische Ironie.", en: "Socratic irony." } },
+    { word: "die Hyperbel", phonetic: "hü-per-bel", meaning: "hyperbole", gender: "die", example: { de: "Rhetorische Hyperbel.", en: "Rhetorical hyperbole." } },
+    { word: "die Antithese", phonetic: "an-ti-tay-zuh", meaning: "antithesis", gender: "die", example: { de: "Wirkungsvolle Antithese.", en: "Effective antithesis." } },
+    { word: "die Anapher", phonetic: "a-na-fer", meaning: "anaphora", gender: "die", example: { de: "Anapher für Nachdruck.", en: "Anaphora for emphasis." } },
+    { word: "der Chiasmus", phonetic: "khi-as-mus", meaning: "chiasmus", gender: "der", example: { de: "Stilistischer Chiasmus.", en: "Stylistic chiasmus." } },
+    { word: "die Klimax", phonetic: "klee-maks", meaning: "climax (rhetoric)", gender: "die", example: { de: "Rhetorische Klimax.", en: "Rhetorical climax." } },
+    { word: "das Argument (rhetorisch)", phonetic: "ar-goo-ment", meaning: "argument (rhetoric)", gender: "das", example: { de: "Schlüssiges Argument.", en: "Cogent argument." } },
+    { word: "die Enthymem", phonetic: "ent-ü-maym", meaning: "enthymeme (rhetorical syllogism)", gender: "das", example: { de: "Aristoteles Enthymem.", en: "Aristotle's enthymeme." } },
+    { word: "die Überzeugung (rhetorisch)", phonetic: "ü-ber-tsoy-gung", meaning: "persuasion (rhetoric)", gender: "die", example: { de: "Rhetorische Überzeugung.", en: "Rhetorical persuasion." } },
+    { word: "die Disputatio", phonetic: "dis-poo-ta-tsee-oh", meaning: "disputation / debate", gender: "die", example: { de: "Mittelalterliche Disputatio.", en: "Medieval disputation." } },
+    { word: "die Rede (rhetorisch)", phonetic: "ray-duh", meaning: "speech (rhetoric)", gender: "die", example: { de: "Öffentliche Rede halten.", en: "Give a public speech." } },
+    { word: "die Inventio", phonetic: "in-ven-tsee-oh", meaning: "inventio (finding arguments)", gender: "die", example: { de: "Ciceros Inventio.", en: "Cicero's inventio." } },
+    { word: "die Dispositio", phonetic: "dis-po-zi-tsee-oh", meaning: "dispositio (arrangement)", gender: "die", example: { de: "Rhetorische Dispositio.", en: "Rhetorical dispositio." } },
+    { word: "die Elocutio", phonetic: "e-lo-koo-tsee-oh", meaning: "elocutio (style)", gender: "die", example: { de: "Stilistische Elocutio.", en: "Stylistic elocutio." } },
+  ]}] },
+};

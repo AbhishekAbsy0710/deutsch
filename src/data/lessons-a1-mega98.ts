@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega98: Record<string, Lesson> = {
+  "la1_m148": { id: "la1_m148", title: "Colours & Shapes A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Farbe", phonetic: "far-buh", meaning: "colour", gender: "die", example: { de: "Meine Lieblingsfarbe.", en: "My favourite colour." } },
+    { word: "rot", phonetic: "roht", meaning: "red", example: { de: "Das rote Auto.", en: "The red car." } },
+    { word: "blau", phonetic: "blow", meaning: "blue", example: { de: "Der blaue Himmel.", en: "The blue sky." } },
+    { word: "grün", phonetic: "grün", meaning: "green", example: { de: "Das grüne Gras.", en: "The green grass." } },
+    { word: "gelb", phonetic: "gelp", meaning: "yellow", example: { de: "Die gelbe Sonne.", en: "The yellow sun." } },
+    { word: "schwarz", phonetic: "shvarts", meaning: "black", example: { de: "Eine schwarze Katze.", en: "A black cat." } },
+    { word: "weiß", phonetic: "vyss", meaning: "white", example: { de: "Weißer Schnee.", en: "White snow." } },
+    { word: "grau", phonetic: "grow", meaning: "grey", example: { de: "Graue Wolken.", en: "Grey clouds." } },
+    { word: "braun", phonetic: "brown", meaning: "brown", example: { de: "Braune Augen.", en: "Brown eyes." } },
+    { word: "lila", phonetic: "lee-lah", meaning: "purple / violet", example: { de: "Lila Blumen.", en: "Purple flowers." } },
+    { word: "orange", phonetic: "o-ran-zhuh", meaning: "orange", example: { de: "Orange Früchte.", en: "Orange fruits." } },
+    { word: "rosa", phonetic: "roh-zah", meaning: "pink", example: { de: "Ein rosanes Kleid.", en: "A pink dress." } },
+    { word: "die Form", phonetic: "form", meaning: "shape", gender: "die", example: { de: "Geometrische Formen.", en: "Geometric shapes." } },
+    { word: "der Kreis", phonetic: "kryse", meaning: "circle", gender: "der", example: { de: "Ein runder Kreis.", en: "A round circle." } },
+    { word: "das Quadrat", phonetic: "kva-draht", meaning: "square", gender: "das", example: { de: "Ein gleichmäßiges Quadrat.", en: "A regular square." } },
+    { word: "das Dreieck", phonetic: "dry-ek", meaning: "triangle", gender: "das", example: { de: "Ein Dreieck zeichnen.", en: "Draw a triangle." } },
+    { word: "das Rechteck", phonetic: "rekht-ek", meaning: "rectangle", gender: "das", example: { de: "Ein langes Rechteck.", en: "A long rectangle." } },
+    { word: "groß", phonetic: "grohs", meaning: "big / large", example: { de: "Ein großes Haus.", en: "A big house." } },
+    { word: "klein", phonetic: "kline", meaning: "small / little", example: { de: "Eine kleine Maus.", en: "A small mouse." } },
+    { word: "hell", phonetic: "hel", meaning: "light / bright", example: { de: "Eine helle Farbe.", en: "A light colour." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega95: Record<string, Lesson> = {
+  "lc2_m138": { id: "lc2_m138", title: "Homological Algebra C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die homologische Algebra", phonetic: "ho-mo-lo-gi-shuh-al-ge-bra", meaning: "homological algebra", gender: "die", example: { de: "Cartan-Eilenberg homologische Algebra.", en: "Cartan-Eilenberg homological algebra." } },
+    { word: "der Kettenkomplex", phonetic: "ke-ten-kom-pleks", meaning: "chain complex", gender: "der", example: { de: "Freier Kettenkomplex.", en: "Free chain complex." } },
+    { word: "die Homologie", phonetic: "ho-mo-lo-gee", meaning: "homology", gender: "die", example: { de: "Singuläre Homologie.", en: "Singular homology." } },
+    { word: "die Kohomologie", phonetic: "ko-ho-mo-lo-gee", meaning: "cohomology", gender: "die", example: { de: "De-Rham-Kohomologie.", en: "De Rham cohomology." } },
+    { word: "die exakte Sequenz", phonetic: "ek-zak-tuh-ze-kvents", meaning: "exact sequence", gender: "die", example: { de: "Kurze exakte Sequenz.", en: "Short exact sequence." } },
+    { word: "das Schlangenlemma", phonetic: "shlang-en-le-mah", meaning: "snake lemma", gender: "das", example: { de: "Verbindungshomomorphismus Schlangenlemma.", en: "Connecting homomorphism snake lemma." } },
+    { word: "die Abelsche Kategorie", phonetic: "ah-bel-shuh-ka-te-go-ree", meaning: "abelian category", gender: "die", example: { de: "Grothendieck abelsche Kategorie.", en: "Grothendieck abelian category." } },
+    { word: "der Funktor (Tor/Ext)", phonetic: "foonk-tor-tor-ekst", meaning: "Tor and Ext functors", gender: "der", example: { de: "Tor-Funktor und Ext-Funktor.", en: "Tor functor and Ext functor." } },
+    { word: "die freie Auflösung", phonetic: "fry-uh-owf-lö-zung", meaning: "free resolution", gender: "die", example: { de: "Projektive freie Auflösung.", en: "Projective free resolution." } },
+    { word: "die projektive Auflösung", phonetic: "pro-yek-tee-vuh-owf-lö-zung", meaning: "projective resolution", gender: "die", example: { de: "Minimale projektive Auflösung.", en: "Minimal projective resolution." } },
+    { word: "die injektive Auflösung", phonetic: "in-yek-tee-vuh-owf-lö-zung", meaning: "injective resolution", gender: "die", example: { de: "Injektive Garbenauflösung.", en: "Injective sheaf resolution." } },
+    { word: "der abgeleitete Funktor", phonetic: "ap-geh-ly-te-tuh-foonk-tor", meaning: "derived functor", gender: "der", example: { de: "Rechts-abgeleiteter Funktor.", en: "Right-derived functor." } },
+    { word: "die spektrale Sequenz", phonetic: "shpek-trah-luh-ze-kvents", meaning: "spectral sequence", gender: "die", example: { de: "Leray-Serre spektrale Sequenz.", en: "Leray-Serre spectral sequence." } },
+    { word: "die Hochschild-Kohomologie", phonetic: "hokh-shilt-ko-ho-mo-lo-gee", meaning: "Hochschild cohomology", gender: "die", example: { de: "Deformationstheoretische Hochschild-Kohomologie.", en: "Deformation-theoretic Hochschild cohomology." } },
+    { word: "die Ext-Gruppe", phonetic: "ekst-groo-puh", meaning: "Ext group", gender: "die", example: { de: "Ext-Gruppe von Moduln.", en: "Ext group of modules." } },
+    { word: "die Tor-Gruppe", phonetic: "tor-groo-puh", meaning: "Tor group", gender: "die", example: { de: "Tor-Gruppe und flache Auflösung.", en: "Tor group and flat resolution." } },
+    { word: "der dreieckige Funktor", phonetic: "dry-e-ki-guh-foonk-tor", meaning: "triangulated functor", gender: "der", example: { de: "Exakter dreieckiger Funktor.", en: "Exact triangulated functor." } },
+    { word: "die t-Struktur", phonetic: "tay-shtrook-toor", meaning: "t-structure", gender: "die", example: { de: "Perverse Garben t-Struktur.", en: "Perverse sheaves t-structure." } },
+    { word: "das Verdier-Dualität", phonetic: "ver-dee-ay-doo-a-li-tayt", meaning: "Verdier duality", gender: "die", example: { de: "Poincaré Verdier-Dualität.", en: "Poincaré Verdier duality." } },
+    { word: "die A∞-Algebra", phonetic: "a-in-fi-ni-tum-al-ge-bra", meaning: "A∞-algebra", gender: "die", example: { de: "Formale A∞-Algebra.", en: "Formal A∞-algebra." } },
+  ]}] },
+};

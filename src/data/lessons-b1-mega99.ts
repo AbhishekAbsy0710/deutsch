@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega99: Record<string, Lesson> = {
+  "lb1_m150": { id: "lb1_m150", title: "German History B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Wiedervereinigung", phonetic: "vee-der-fer-ayn-i-gung", meaning: "reunification (German)", gender: "die", example: { de: "Deutsche Wiedervereinigung 1990.", en: "German reunification 1990." } },
+    { word: "die Mauer (Berliner)", phonetic: "mow-er", meaning: "the (Berlin) Wall", gender: "die", example: { de: "Fall der Berliner Mauer.", en: "Fall of the Berlin Wall." } },
+    { word: "die DDR", phonetic: "day-day-er", meaning: "GDR / East Germany", gender: "die", example: { de: "Die DDR und die BRD.", en: "The GDR and the FRG." } },
+    { word: "die BRD", phonetic: "bay-er-day", meaning: "FRG / West Germany", gender: "die", example: { de: "Wirtschaft der BRD.", en: "Economy of the FRG." } },
+    { word: "das Wirtschaftswunder", phonetic: "virt-shafts-voon-der", meaning: "economic miracle", gender: "das", example: { de: "Deutsches Wirtschaftswunder.", en: "German economic miracle." } },
+    { word: "der Holocaust", phonetic: "ho-lo-kawst", meaning: "the Holocaust", gender: "der", example: { de: "Erinnerung an den Holocaust.", en: "Remembrance of the Holocaust." } },
+    { word: "der Nationalsozialismus", phonetic: "na-tsee-oh-nahl-zo-tsee-ah-lis-mus", meaning: "National Socialism / Nazism", gender: "der", example: { de: "Aufstieg des Nationalsozialismus.", en: "Rise of National Socialism." } },
+    { word: "die Weimarer Republik", phonetic: "vy-ma-rer-re-poo-blik", meaning: "Weimar Republic", gender: "die", example: { de: "Instabile Weimarer Republik.", en: "Unstable Weimar Republic." } },
+    { word: "das Dritte Reich", phonetic: "dri-tuh-ryckh", meaning: "Third Reich", gender: "das", example: { de: "Das Dritte Reich 1933–1945.", en: "The Third Reich 1933–1945." } },
+    { word: "der Kalte Krieg", phonetic: "kal-tuh-kreeg", meaning: "Cold War", gender: "der", example: { de: "Kalter Krieg in Deutschland.", en: "Cold War in Germany." } },
+    { word: "die Stasi", phonetic: "shta-zi", meaning: "Stasi (East German secret police)", gender: "die", example: { de: "Die Stasi überwachte Bürger.", en: "The Stasi surveilled citizens." } },
+    { word: "die Reformation", phonetic: "re-for-ma-tsee-ohn", meaning: "Reformation", gender: "die", example: { de: "Luthers Reformation.", en: "Luther's Reformation." } },
+    { word: "das Heilige Römische Reich", phonetic: "hy-li-guh-rö-mi-shuh-ryckh", meaning: "Holy Roman Empire", gender: "das", example: { de: "Das Heilige Römische Reich.", en: "The Holy Roman Empire." } },
+    { word: "die Bismarck-Ära", phonetic: "bis-mark-ey-rah", meaning: "Bismarck era", gender: "die", example: { de: "Bismarcks politische Ära.", en: "Bismarck's political era." } },
+    { word: "die Reichsgründung", phonetic: "ryckhs-grün-dung", meaning: "founding of the German Empire (1871)", gender: "die", example: { de: "Reichsgründung unter Bismarck.", en: "Founding of the Empire under Bismarck." } },
+    { word: "der Erste Weltkrieg", phonetic: "ers-tuh-velt-kreeg", meaning: "First World War", gender: "der", example: { de: "Der Erste Weltkrieg 1914–1918.", en: "The First World War 1914–1918." } },
+    { word: "der Zweite Weltkrieg", phonetic: "tsvy-tuh-velt-kreeg", meaning: "Second World War", gender: "der", example: { de: "Der Zweite Weltkrieg 1939–1945.", en: "The Second World War 1939–1945." } },
+    { word: "die Verfassung", phonetic: "fer-fa-sung", meaning: "constitution", gender: "die", example: { de: "Das Grundgesetz als Verfassung.", en: "The Basic Law as constitution." } },
+    { word: "der Bundespräsident", phonetic: "boon-des-pre-zi-dent", meaning: "Federal President", gender: "der", example: { de: "Der Bundespräsident repräsentiert.", en: "The Federal President represents." } },
+    { word: "die Nachkriegszeit", phonetic: "nakh-kreeks-tsyt", meaning: "post-war era", gender: "die", example: { de: "Deutsche Nachkriegszeit.", en: "German post-war era." } },
+  ]}] },
+};
