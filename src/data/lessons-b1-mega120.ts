@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega120: Record<string, Lesson> = {
+  "lb1_m171": { id: "lb1_m171", title: "Philosophy of Science B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Wissenschaftstheorie", phonetic: "vi-sen-shafts-tay-oh-ree", meaning: "philosophy of science", gender: "die", example: { de: "Analytische Wissenschaftstheorie.", en: "Analytic philosophy of science." } },
+    { word: "der Empirismus", phonetic: "em-pi-ris-mus", meaning: "empiricism", gender: "der", example: { de: "Logischer Empirismus.", en: "Logical empiricism." } },
+    { word: "der Rationalismus", phonetic: "ra-tsee-oh-na-lis-mus", meaning: "rationalism", gender: "der", example: { de: "Descartes Rationalismus.", en: "Descartes rationalism." } },
+    { word: "das Falsifikationsprinzip (Popper)", phonetic: "fal-zi-fi-ka-tsee-ohns-prin-tseep", meaning: "falsificationism (Popper)", gender: "das", example: { de: "Poppers Falsifikationsprinzip.", en: "Popper's falsificationism." } },
+    { word: "die Falsifizierbarkeit (Popper)", phonetic: "fal-zi-fi-tseer-bar-kyte", meaning: "falsifiability (Popper)", gender: "die", example: { de: "Wissenschaftliche Falsifizierbarkeit.", en: "Scientific falsifiability." } },
+    { word: "das Paradigma (Kuhn)", phonetic: "pa-ra-dig-mah", meaning: "paradigm (Kuhn)", gender: "das", example: { de: "Wissenschaftliches Paradigma.", en: "Scientific paradigm." } },
+    { word: "der Paradigmenwechsel (Kuhn)", phonetic: "pa-ra-dig-men-vek-sel", meaning: "paradigm shift (Kuhn)", gender: "der", example: { de: "Kuhns Paradigmenwechsel.", en: "Kuhn's paradigm shift." } },
+    { word: "die Normalwissenschaft (Kuhn)", phonetic: "nor-mahl-vi-sen-shaft", meaning: "normal science (Kuhn)", gender: "die", example: { de: "Kuhns Normalwissenschaft.", en: "Kuhn's normal science." } },
+    { word: "die wissenschaftliche Revolution", phonetic: "vi-sen-shaft-li-khuh-re-vo-loo-tsee-ohn", meaning: "scientific revolution (Kuhn)", gender: "die", example: { de: "Kopernikanische Revolution.", en: "Copernican revolution." } },
+    { word: "der Wiener Kreis (Carnap/Schlick)", phonetic: "vee-ner-krys", meaning: "Vienna Circle (Carnap/Schlick)", gender: "der", example: { de: "Wiener Kreis Logischer Positivismus.", en: "Vienna Circle logical positivism." } },
+    { word: "der logische Positivismus", phonetic: "lo-gi-shuh-po-zi-ti-vis-mus", meaning: "logical positivism", gender: "der", example: { de: "Wiener Kreis Positivismus.", en: "Vienna Circle positivism." } },
+    { word: "der Verifikationismus (Carnap)", phonetic: "ve-ri-fi-ka-tsee-oh-nis-mus", meaning: "verificationism (Carnap)", gender: "der", example: { de: "Carnap Verifikationsprinzip.", en: "Carnap verificationism." } },
+    { word: "der wissenschaftliche Realismus", phonetic: "vi-sen-shaft-li-khuh-re-a-lis-mus", meaning: "scientific realism", gender: "der", example: { de: "Wissenschaftlicher Realismus.", en: "Scientific realism." } },
+    { word: "der wissenschaftliche Anti-Realismus", phonetic: "an-ti-re-a-lis-mus", meaning: "scientific anti-realism (van Fraassen)", gender: "der", example: { de: "Van Fraassen Anti-Realismus.", en: "Van Fraassen anti-realism." } },
+    { word: "die Theorie-Unterbestimmtheit (Duhem-Quine)", phonetic: "tay-oh-ree-oon-ter-beh-shtimmt-hyte", meaning: "underdetermination (Duhem-Quine)", gender: "die", example: { de: "Duhem-Quine Unterbestimmtheit.", en: "Duhem-Quine underdetermination." } },
+    { word: "der Holismus (Quine)", phonetic: "ho-lis-mus", meaning: "holism (Quine)", gender: "der", example: { de: "Quines Epistemischer Holismus.", en: "Quine's epistemic holism." } },
+    { word: "das Induktionsproblem (Hume)", phonetic: "in-dook-tsee-ohns-pro-blaym", meaning: "problem of induction (Hume)", gender: "das", example: { de: "Humes Induktionsproblem.", en: "Hume's problem of induction." } },
+    { word: "die wissenschaftliche Erklärung", phonetic: "vi-sen-shaft-li-khuh-er-klä-rung", meaning: "scientific explanation", gender: "die", example: { de: "Kausale Erklärung.", en: "Causal explanation." } },
+    { word: "das Hempel-Oppenheim-Modell (DN-Modell)", phonetic: "hem-pel-o-pen-hym-mo-del", meaning: "covering law model (Hempel-Oppenheim)", gender: "das", example: { de: "Hempel DN-Erklärungsmodell.", en: "Hempel DN explanation model." } },
+    { word: "die Wissenschaftssoziologie (Latour/Woolgar)", phonetic: "vi-sen-shafts-zo-tsee-oh-lo-gee", meaning: "sociology of science (Latour/Woolgar)", gender: "die", example: { de: "Latour Wissenschaftssoziologie.", en: "Latour sociology of science." } },
+  ]}] },
+};

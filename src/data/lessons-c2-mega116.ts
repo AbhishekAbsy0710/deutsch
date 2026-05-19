@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega116: Record<string, Lesson> = {
+  "lc2_m159": { id: "lc2_m159", title: "Elliptic Curves & BSD Conjecture C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die elliptische Kurve (über Q)", phonetic: "e-lip-ti-shuh-kur-vuh", meaning: "elliptic curve (over Q)", gender: "die", example: { de: "Elliptische Kurve y²=x³+ax+b.", en: "Elliptic curve y²=x³+ax+b." } },
+    { word: "die Weierstraß-Gleichung", phonetic: "vy-er-shtrahs-gly-khung", meaning: "Weierstrass equation", gender: "die", example: { de: "Weierstraß-Normalform.", en: "Weierstrass normal form." } },
+    { word: "die Gruppenstruktur (E(K), elliptisch)", phonetic: "groo-pen-shtrook-toor", meaning: "group structure E(K) (elliptic curve)", gender: "die", example: { de: "E(Q) Gruppenstruktur.", en: "E(Q) group structure." } },
+    { word: "das Mordell-Theorem (E(Q) endlich erzeugt)", phonetic: "mor-del-tay-oh-rem", meaning: "Mordell's theorem (E(Q) finitely generated)", gender: "das", example: { de: "Mordell E(Q) endlich erzeugt.", en: "Mordell E(Q) finitely generated." } },
+    { word: "der Rang (elliptische Kurve)", phonetic: "rang", meaning: "rank (elliptic curve)", gender: "der", example: { de: "Rang der elliptischen Kurve.", en: "Rank of elliptic curve." } },
+    { word: "die Birch-Swinnerton-Dyer-Vermutung (BSD)", phonetic: "birts-svi-ner-ton-dayer-fer-moo-tung", meaning: "Birch-Swinnerton-Dyer conjecture (BSD)", gender: "die", example: { de: "BSD-Vermutung Millennium-Problem.", en: "BSD conjecture Millennium problem." } },
+    { word: "die L-Funktion (elliptische Kurve)", phonetic: "el-foonk-tsee-ohn", meaning: "L-function (elliptic curve)", gender: "die", example: { de: "L-Funktion L(E,s).", en: "L-function L(E,s)." } },
+    { word: "die analytische Fortsetzung (L-Funktion)", phonetic: "a-na-lü-ti-shuh-fort-ze-tsung", meaning: "analytic continuation (L-function)", gender: "die", example: { de: "Analytische Fortsetzung L(E,s).", en: "Analytic continuation L(E,s)." } },
+    { word: "die Modulform (zugehörig, Taniyama-Shimura)", phonetic: "mo-dool-form", meaning: "associated modular form (Taniyama-Shimura)", gender: "die", example: { de: "Modulform Taniyama-Shimura.", en: "Modular form Taniyama-Shimura." } },
+    { word: "der Heegner-Punkt (Gross-Zagier)", phonetic: "hayg-ner-poonkt", meaning: "Heegner point (Gross-Zagier theorem)", gender: "der", example: { de: "Gross-Zagier Heegner-Punkt.", en: "Gross-Zagier Heegner point." } },
+    { word: "der Torsionsuntergruppe (E(Q)_tors)", phonetic: "tor-zee-ohns-oon-ter-groo-puh", meaning: "torsion subgroup (E(Q)_tors)", gender: "die", example: { de: "Mazur Torsionsklassifikation.", en: "Mazur torsion classification." } },
+    { word: "das Mazur-Torsion-Theorem", phonetic: "ma-tsoor-tor-zee-ohn-tay-oh-rem", meaning: "Mazur's torsion theorem", gender: "das", example: { de: "Mazur Torsionsuntergruppe.", en: "Mazur torsion subgroup." } },
+    { word: "die Selmer-Gruppe", phonetic: "zel-mer-groo-puh", meaning: "Selmer group", gender: "die", example: { de: "2-Selmer Gruppe.", en: "2-Selmer group." } },
+    { word: "die Tate-Shafarevich-Gruppe (ш)", phonetic: "tayt-sha-fa-re-vich-groo-puh", meaning: "Tate-Shafarevich group (Ш)", gender: "die", example: { de: "Tate-Shafarevich Gruppe Ш.", en: "Tate-Shafarevich group Ш." } },
+    { word: "der Descent (Galois-Kohomologie)", phonetic: "de-sent", meaning: "descent (Galois cohomology)", gender: "der", example: { de: "Galois-Descent.", en: "Galois descent." } },
+    { word: "die Kolyvagin-Methode", phonetic: "ko-lü-vah-gin-me-to-duh", meaning: "Kolyvagin method (Euler systems)", gender: "die", example: { de: "Kolyvagin Euler-System.", en: "Kolyvagin Euler system." } },
+    { word: "das Euler-System (Kolyvagin/Rubin)", phonetic: "oy-ler-züs-tem", meaning: "Euler system (Kolyvagin/Rubin)", gender: "das", example: { de: "Rubin Euler-System.", en: "Rubin Euler system." } },
+    { word: "die Iwasawa-Theorie (elliptisch)", phonetic: "i-wa-sa-wah-tay-oh-ree", meaning: "Iwasawa theory (elliptic curves)", gender: "die", example: { de: "Iwasawa Elliptic Curves.", en: "Iwasawa elliptic curves." } },
+    { word: "der Abschluss von BSD (Kolyvagin, Rang ≤1)", phonetic: "kno-viger-rang-ayns", meaning: "BSD proven for rank ≤1 (Kolyvagin)", gender: "der", example: { de: "BSD Rang ≤1 Kolyvagin.", en: "BSD rank ≤1 Kolyvagin." } },
+    { word: "die Masser-Oesterlé-Vermutung (abc-Vermutung)", phonetic: "ma-ser-es-ter-ley-fer-moo-tung", meaning: "abc conjecture (Masser-Oesterlé)", gender: "die", example: { de: "abc-Vermutung Masser-Oesterlé.", en: "abc conjecture Masser-Oesterlé." } },
+  ]}] },
+};

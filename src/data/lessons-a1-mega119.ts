@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega119: Record<string, Lesson> = {
+  "la1_m169": { id: "la1_m169", title: "At the Doctor's & Pharmacy A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "der Arzt / die Ärztin", phonetic: "artst", meaning: "doctor (m/f)", gender: "der", example: { de: "Zum Arzt gehen.", en: "Go to the doctor." } },
+    { word: "die Praxis (Arztpraxis)", phonetic: "prak-sis", meaning: "doctor's surgery / practice", gender: "die", example: { de: "Arztpraxis aufsuchen.", en: "Visit the doctor's surgery." } },
+    { word: "Ich bin krank.", phonetic: "ikh-bin-krank", meaning: "I am ill.", example: { de: "Ich bin krank.", en: "I am ill." } },
+    { word: "Mir ist schlecht.", phonetic: "meer-ist-shlekht", meaning: "I feel sick / nauseous.", example: { de: "Mir ist schlecht.", en: "I feel sick." } },
+    { word: "Ich habe Schmerzen.", phonetic: "ikh-hah-buh-shmer-tsen", meaning: "I am in pain.", example: { de: "Ich habe Kopfschmerzen.", en: "I have a headache." } },
+    { word: "der Kopfschmerz", phonetic: "kopf-shmerz", meaning: "headache", gender: "der", example: { de: "Starke Kopfschmerzen.", en: "Severe headaches." } },
+    { word: "der Bauchschmerz", phonetic: "bowkh-shmerz", meaning: "stomach ache", gender: "der", example: { de: "Bauchschmerzen haben.", en: "Have a stomach ache." } },
+    { word: "der Halsschmerz", phonetic: "hals-shmerz", meaning: "sore throat", gender: "der", example: { de: "Halsschmerzen schlucken.", en: "Sore throat when swallowing." } },
+    { word: "der Husten", phonetic: "hoos-ten", meaning: "cough", gender: "der", example: { de: "Starker Husten.", en: "Severe cough." } },
+    { word: "der Schnupfen", phonetic: "shnoof-fen", meaning: "cold / runny nose", gender: "der", example: { de: "Erkältung mit Schnupfen.", en: "Cold with runny nose." } },
+    { word: "das Fieber", phonetic: "fee-ber", meaning: "fever", gender: "das", example: { de: "Hohes Fieber haben.", en: "Have a high fever." } },
+    { word: "die Erkältung", phonetic: "er-käl-tung", meaning: "cold (illness)", gender: "die", example: { de: "Erkältung bekommen.", en: "Catch a cold." } },
+    { word: "die Grippe", phonetic: "gri-puh", meaning: "flu / influenza", gender: "die", example: { de: "Grippe haben.", en: "Have the flu." } },
+    { word: "das Medikament", phonetic: "me-di-ka-ment", meaning: "medicine / medication", gender: "das", example: { de: "Medikament nehmen.", en: "Take medication." } },
+    { word: "der Krankenschein", phonetic: "kran-ken-shyn", meaning: "sick note / health insurance card", gender: "der", example: { de: "Krankenschein vorzeigen.", en: "Show the sick note." } },
+    { word: "der Termin machen", phonetic: "ter-meen-ma-khen", meaning: "to make an appointment", example: { de: "Termin beim Arzt machen.", en: "Make a doctor's appointment." } },
+    { word: "Was fehlt Ihnen?", phonetic: "vas-fehlt-ee-nen", meaning: "What is wrong with you? (formal)", example: { de: "Was fehlt Ihnen?", en: "What is wrong with you?" } },
+    { word: "Öffnen Sie den Mund.", phonetic: "öf-nen-zee-deyn-moont", meaning: "Open your mouth.", example: { de: "Öffnen Sie den Mund.", en: "Open your mouth." } },
+    { word: "verschreiben", phonetic: "fer-shry-ben", meaning: "to prescribe", example: { de: "Antibiotika verschreiben.", en: "Prescribe antibiotics." } },
+    { word: "gute Besserung!", phonetic: "goo-tuh-be-se-rung", meaning: "Get well soon!", example: { de: "Gute Besserung!", en: "Get well soon!" } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega119: Record<string, Lesson> = {
+  "lb2_m164": { id: "lb2_m164", title: "Computational Complexity Theory B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Komplexitätstheorie", phonetic: "kom-plek-si-tayts-tay-oh-ree", meaning: "complexity theory", gender: "die", example: { de: "Berechnungskomplexitätstheorie.", en: "Computational complexity theory." } },
+    { word: "die Zeitkomplexität", phonetic: "tsyt-kom-plek-si-tayt", meaning: "time complexity", gender: "die", example: { de: "O(n log n) Zeitkomplexität.", en: "O(n log n) time complexity." } },
+    { word: "die Raumkomplexität", phonetic: "rowm-kom-plek-si-tayt", meaning: "space complexity", gender: "die", example: { de: "O(n) Raumkomplexität.", en: "O(n) space complexity." } },
+    { word: "die Landau-Notation (O-Notation)", phonetic: "lan-dow-no-ta-tsee-ohn", meaning: "Big-O notation (Landau)", gender: "die", example: { de: "Landau O(n²) Notation.", en: "Landau O(n²) notation." } },
+    { word: "die Komplexitätsklasse P", phonetic: "kom-plek-si-tayts-kla-suh-pey", meaning: "complexity class P", gender: "die", example: { de: "Klasse P deterministisch.", en: "Class P deterministic." } },
+    { word: "die Komplexitätsklasse NP", phonetic: "kom-plek-si-tayts-kla-suh-en-pey", meaning: "complexity class NP", gender: "die", example: { de: "Klasse NP nichtdeterministisch.", en: "Class NP nondeterministic." } },
+    { word: "das P-vs-NP-Problem", phonetic: "pey-fee-ess-en-pey-pro-blaym", meaning: "P vs NP problem (Millennium Prize)", gender: "das", example: { de: "P=NP? Millennium-Problem.", en: "P=NP? Millennium problem." } },
+    { word: "die NP-Vollständigkeit", phonetic: "en-pey-fol-shtän-dikh-kyte", meaning: "NP-completeness", gender: "die", example: { de: "SAT NP-vollständig (Cook).", en: "SAT NP-complete (Cook)." } },
+    { word: "die polynomielle Reduktion (Karp)", phonetic: "po-lü-no-mi-e-luh-re-dook-tsee-ohn", meaning: "polynomial reduction (Karp)", gender: "die", example: { de: "Karp-Reduktion NP-vollständig.", en: "Karp reduction NP-complete." } },
+    { word: "die deterministiche Turingmaschine (DTM)", phonetic: "de-ter-mi-nis-ti-shuh-too-ring-mah-shee-nuh", meaning: "deterministic Turing machine (DTM)", gender: "die", example: { de: "Deterministische Turingmaschine DTM.", en: "Deterministic Turing machine DTM." } },
+    { word: "die nichtdeterministische Turingmaschine (NDTM)", phonetic: "nikht-de-ter-mi-nis-ti-shuh-too-ring-mah-shee-nuh", meaning: "nondeterministic Turing machine (NDTM)", gender: "die", example: { de: "NDTM NP.", en: "NDTM NP." } },
+    { word: "das Orakel (Komplexitätstheorie)", phonetic: "o-ra-kel", meaning: "oracle (complexity theory)", gender: "das", example: { de: "Relativierung Orakel Baker-Gill-Solovay.", en: "Relativisation oracle Baker-Gill-Solovay." } },
+    { word: "die PSPACE (Klasse)", phonetic: "pey-shpeys", meaning: "PSPACE (complexity class)", gender: "die", example: { de: "PSPACE Polynom-Raum.", en: "PSPACE polynomial space." } },
+    { word: "die EXPTIME (Klasse)", phonetic: "eks-pey-taym", meaning: "EXPTIME (complexity class)", gender: "die", example: { de: "EXPTIME exponentiell.", en: "EXPTIME exponential." } },
+    { word: "der Schaltkreiskomplexität", phonetic: "shalt-krys-kom-plek-si-tayt", meaning: "circuit complexity", gender: "die", example: { de: "Boolesche Schaltkreiskomplexität.", en: "Boolean circuit complexity." } },
+    { word: "die randomisierte Algorithmen (BPP)", phonetic: "ran-do-mi-zier-tuh-al-go-rit-men", meaning: "randomised algorithms (BPP)", example: { de: "BPP randomisierte Algorithmen.", en: "BPP randomised algorithms." } },
+    { word: "die Interaktive Beweissysteme (IP=PSPACE)", phonetic: "in-ter-ak-tee-vuh-beh-vys-züs-te-muh", meaning: "interactive proof systems (IP=PSPACE)", example: { de: "IP=PSPACE Shamir.", en: "IP=PSPACE Shamir." } },
+    { word: "die probabilistisch prüfbare Beweise (PCP)", phonetic: "pro-ba-bi-lis-tish-prüf-bah-ruh-beh-vy-zuh", meaning: "probabilistically checkable proofs (PCP)", example: { de: "PCP-Theorem Hastad.", en: "PCP theorem Hastad." } },
+    { word: "die Quantenkomplexität (BQP)", phonetic: "kvan-ten-kom-plek-si-tayt", meaning: "quantum complexity (BQP)", gender: "die", example: { de: "BQP Quantencomputer.", en: "BQP quantum computer." } },
+    { word: "die Kommunikationskomplexität", phonetic: "ko-moo-ni-ka-tsee-ohns-kom-plek-si-tayt", meaning: "communication complexity (Yao)", gender: "die", example: { de: "Yaos Kommunikationskomplexität.", en: "Yao's communication complexity." } },
+  ]}] },
+};

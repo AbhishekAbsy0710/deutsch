@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega118: Record<string, Lesson> = {
+  "lb2_m163": { id: "lb2_m163", title: "Algebraic Topology B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die algebraische Topologie", phonetic: "al-ge-bra-i-shuh-to-po-lo-gee", meaning: "algebraic topology", gender: "die", example: { de: "Algebraische Topologie Homotopie.", en: "Algebraic topology homotopy." } },
+    { word: "der topologische Raum", phonetic: "to-po-lo-gi-shuh-rowm", meaning: "topological space", gender: "der", example: { de: "Topologischer Raum.", en: "Topological space." } },
+    { word: "die Homotopie", phonetic: "ho-mo-to-pee", meaning: "homotopy", gender: "die", example: { de: "Homotopie stetiger Abbildungen.", en: "Homotopy of continuous maps." } },
+    { word: "die Fundamentalgruppe (π₁)", phonetic: "foon-da-men-tahl-groo-puh", meaning: "fundamental group (π₁)", gender: "die", example: { de: "Fundamentalgruppe π₁.", en: "Fundamental group π₁." } },
+    { word: "der Überlagerungsraum", phonetic: "ü-ber-lah-ge-rungs-rowm", meaning: "covering space", gender: "der", example: { de: "Universeller Überlagerungsraum.", en: "Universal covering space." } },
+    { word: "die singuläre Homologie", phonetic: "zing-goo-lä-ruh-ho-mo-lo-gee", meaning: "singular homology", gender: "die", example: { de: "Singuläre Homologie H_n.", en: "Singular homology H_n." } },
+    { word: "der Kettenkomplex", phonetic: "ke-ten-kom-pleks", meaning: "chain complex", gender: "der", example: { de: "Kettenkomplex C_*.", en: "Chain complex C_*." } },
+    { word: "der Zyklus / Rand (Homologie)", phonetic: "tsü-kloos-rant", meaning: "cycle / boundary (homology)", gender: "der", example: { de: "Zyklen und Ränder.", en: "Cycles and boundaries." } },
+    { word: "die Hurewicz-Abbildung", phonetic: "hoo-re-vits-ap-bil-dung", meaning: "Hurewicz homomorphism", gender: "die", example: { de: "Hurewicz-Satz.", en: "Hurewicz theorem." } },
+    { word: "die singuläre Kohomologie", phonetic: "zing-goo-lä-ruh-ko-ho-mo-lo-gee", meaning: "singular cohomology", gender: "die", example: { de: "Singuläre Kohomologie H^n.", en: "Singular cohomology H^n." } },
+    { word: "der Cupprodukt", phonetic: "kap-pro-dookt", meaning: "cup product (cohomology ring)", gender: "das", example: { de: "Cupprodukt Kohomologiering.", en: "Cup product cohomology ring." } },
+    { word: "die Mayer-Vietoris-Sequenz", phonetic: "my-er-vee-ah-to-ris-ze-kvents", meaning: "Mayer-Vietoris sequence", gender: "die", example: { de: "Mayer-Vietoris lange Sequenz.", en: "Mayer-Vietoris long sequence." } },
+    { word: "die lange exakte Sequenz (Paar)", phonetic: "lang-uh-eks-ak-tuh-ze-kvents", meaning: "long exact sequence (pair)", gender: "die", example: { de: "Lange exakte Paarsequenz.", en: "Long exact pair sequence." } },
+    { word: "die CW-Komplex", phonetic: "tsey-vey-kom-pleks", meaning: "CW complex", gender: "der", example: { de: "CW-Komplex zelluläre Homologie.", en: "CW complex cellular homology." } },
+    { word: "die Kohomologie-Operation (Steenrod)", phonetic: "ko-ho-mo-lo-gee-o-pe-ra-tsee-ohn", meaning: "cohomology operation (Steenrod)", gender: "die", example: { de: "Steenrod-Squares.", en: "Steenrod squares." } },
+    { word: "die spektrale Sequenz (Serre/Leray)", phonetic: "shpek-tra-luh-ze-kvents", meaning: "spectral sequence (Serre/Leray)", gender: "die", example: { de: "Serre spektrale Sequenz.", en: "Serre spectral sequence." } },
+    { word: "die K-Theorie (Atiyah-Hirzebruch)", phonetic: "ka-tay-oh-ree", meaning: "K-theory (topological)", gender: "die", example: { de: "Atiyah-Hirzebruch K-Theorie.", en: "Atiyah-Hirzebruch K-theory." } },
+    { word: "das Faserung / Faser (Serre)", phonetic: "fah-ze-rung-fah-zer", meaning: "fibration / fiber (Serre)", gender: "die", example: { de: "Serre-Faserung.", en: "Serre fibration." } },
+    { word: "der Whitehead-Satz", phonetic: "wayt-hed-zats", meaning: "Whitehead theorem", gender: "der", example: { de: "Whitehead-Satz Homotopieäquivalenz.", en: "Whitehead theorem homotopy equivalence." } },
+    { word: "die stabile Homotopietheorie (Adams)", phonetic: "shtah-bi-luh-ho-mo-to-pee-tay-oh-ree", meaning: "stable homotopy theory (Adams)", gender: "die", example: { de: "Adams stabile Homotopietheorie.", en: "Adams stable homotopy theory." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega121: Record<string, Lesson> = {
+  "lb1_m172": { id: "lb1_m172", title: "Cognitive Linguistics B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die kognitive Linguistik", phonetic: "kog-ni-tee-vuh-ling-gvis-tik", meaning: "cognitive linguistics", gender: "die", example: { de: "Kognitive Linguistik Lakoff.", en: "Cognitive linguistics Lakoff." } },
+    { word: "die Prototypensemantik (Rosch)", phonetic: "pro-to-tü-pen-ze-man-tik", meaning: "prototype semantics (Rosch)", gender: "die", example: { de: "Rosches Prototypensemantik.", en: "Rosch's prototype semantics." } },
+    { word: "der konzeptuelle Raum (Gärdenfors)", phonetic: "kon-tsep-too-e-luh-rowm", meaning: "conceptual space (Gärdenfors)", gender: "der", example: { de: "Gärdenfors konzeptueller Raum.", en: "Gärdenfors conceptual space." } },
+    { word: "die Metapher (konzeptuell, Lakoff/Johnson)", phonetic: "me-ta-fer", meaning: "conceptual metaphor (Lakoff/Johnson)", gender: "die", example: { de: "Konzeptuelle Metapher Lakoff.", en: "Conceptual metaphor Lakoff." } },
+    { word: "die Konzeptualisierung", phonetic: "kon-tsep-too-a-li-zee-rung", meaning: "conceptualisation", gender: "die", example: { de: "Linguistische Konzeptualisierung.", en: "Linguistic conceptualisation." } },
+    { word: "das Frame-Semantik (Fillmore)", phonetic: "freym-ze-man-tik", meaning: "frame semantics (Fillmore)", gender: "die", example: { de: "Fillmores Frame-Semantik.", en: "Fillmore's frame semantics." } },
+    { word: "das mentale Lexikon", phonetic: "men-tah-luh-lek-si-kon", meaning: "mental lexicon", gender: "das", example: { de: "Mentales Lexikon.", en: "Mental lexicon." } },
+    { word: "die Verkörperung (Embodiment)", phonetic: "fer-kör-pe-rung", meaning: "embodiment (cognitive ling.)", gender: "die", example: { de: "Verkörperung kognitiver Linguistik.", en: "Embodiment cognitive linguistics." } },
+    { word: "das image schema (Konzept)", phonetic: "i-medzh-skee-mah", meaning: "image schema (Lakoff)", gender: "das", example: { de: "Container Image Schema.", en: "Container image schema." } },
+    { word: "der Blending (konzeptuell, Fauconnier/Turner)", phonetic: "blen-ding", meaning: "conceptual blending (Fauconnier/Turner)", gender: "der", example: { de: "Konzeptuelles Blending.", en: "Conceptual blending." } },
+    { word: "der Radiale Kategorie (Lakoff)", phonetic: "ra-dee-ah-luh-ka-te-go-ree", meaning: "radial category (Lakoff)", gender: "die", example: { de: "Radiale Kategorie.", en: "Radial category." } },
+    { word: "die Grundebene (basic level category)", phonetic: "groont-ey-buh-nuh", meaning: "basic level category", gender: "die", example: { de: "Grundebenen-Kategorie.", en: "Basic level category." } },
+    { word: "die Polysemie", phonetic: "po-lü-ze-mee", meaning: "polysemy", gender: "die", example: { de: "Polysemie semantische Netzwerke.", en: "Polysemy semantic networks." } },
+    { word: "das Bedeutungsnetzwerk", phonetic: "beh-doy-tungs-nets-verk", meaning: "semantic network", gender: "das", example: { de: "Lexikalisches Bedeutungsnetzwerk.", en: "Lexical semantic network." } },
+    { word: "die Salience (Prominenz)", phonetic: "sey-lee-ents-pro-mi-nents", meaning: "salience / prominence", gender: "die", example: { de: "Kognitive Salience.", en: "Cognitive salience." } },
+    { word: "die Perspektivierung", phonetic: "pers-pek-ti-vee-rung", meaning: "perspectivisation / construal", gender: "die", example: { de: "Linguistische Perspektivierung.", en: "Linguistic construal." } },
+    { word: "der Profil-Basis-Unterschied (Langacker)", phonetic: "pro-feel-bah-zis-oon-ter-sheet", meaning: "profile-base distinction (Langacker)", gender: "der", example: { de: "Langackers Profil-Basis.", en: "Langacker's profile-base." } },
+    { word: "die konstruktionsgrammatik (Goldberg)", phonetic: "kons-trook-tsee-ohns-gra-ma-tik", meaning: "construction grammar (Goldberg)", gender: "die", example: { de: "Goldbergs Konstruktionsgrammatik.", en: "Goldberg's construction grammar." } },
+    { word: "das Muster (Konstruktion)", phonetic: "moos-ter", meaning: "pattern / construction", gender: "das", example: { de: "Grammatikalisches Muster.", en: "Grammatical pattern." } },
+    { word: "die Sprachliche Relativität (Sapir-Whorf)", phonetic: "shprahkh-li-khuh-re-la-ti-vi-tayt", meaning: "linguistic relativity (Sapir-Whorf)", gender: "die", example: { de: "Sapir-Whorf Hypothese.", en: "Sapir-Whorf hypothesis." } },
+  ]}] },
+};

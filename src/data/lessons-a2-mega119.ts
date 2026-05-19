@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega119: Record<string, Lesson> = {
+  "la2_m164": { id: "la2_m164", title: "Money, Banking & Finance A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Konto", phonetic: "kon-to", meaning: "bank account", gender: "das", example: { de: "Girokonto eröffnen.", en: "Open a current account." } },
+    { word: "die Bank", phonetic: "bank", meaning: "bank", gender: "die", example: { de: "Zur Bank gehen.", en: "Go to the bank." } },
+    { word: "der Bankautomat (ATM)", phonetic: "bank-ow-to-maht", meaning: "ATM / cash machine", gender: "der", example: { de: "Geld am Automaten abheben.", en: "Withdraw money at the ATM." } },
+    { word: "abheben", phonetic: "ap-hey-ben", meaning: "to withdraw (money)", example: { de: "100 Euro abheben.", en: "Withdraw 100 euros." } },
+    { word: "einzahlen", phonetic: "ayn-tsah-len", meaning: "to deposit (money)", example: { de: "Geld einzahlen.", en: "Deposit money." } },
+    { word: "überweisen", phonetic: "ü-ber-vy-zen", meaning: "to transfer (money)", example: { de: "Miete überweisen.", en: "Transfer rent." } },
+    { word: "die Überweisung", phonetic: "ü-ber-vy-zung", meaning: "bank transfer", gender: "die", example: { de: "Überweisung machen.", en: "Make a bank transfer." } },
+    { word: "der Kontostand", phonetic: "kon-to-shtant", meaning: "account balance", gender: "der", example: { de: "Kontostand prüfen.", en: "Check account balance." } },
+    { word: "die Kreditkarte", phonetic: "kre-deet-kar-tuh", meaning: "credit card", gender: "die", example: { de: "Mit Kreditkarte zahlen.", en: "Pay by credit card." } },
+    { word: "die EC-Karte / Debitkarte", phonetic: "ey-tsey-kar-tuh", meaning: "debit card (EC card)", gender: "die", example: { de: "EC-Karte bei Zahlung.", en: "Debit card at payment." } },
+    { word: "der Kredit / Darlehen", phonetic: "kre-deet-dar-ley-en", meaning: "loan / credit", gender: "der", example: { de: "Bankkredit aufnehmen.", en: "Take out a bank loan." } },
+    { word: "der Zinssatz", phonetic: "tsins-zats", meaning: "interest rate", gender: "der", example: { de: "Niedriger Zinssatz.", en: "Low interest rate." } },
+    { word: "sparen", phonetic: "shpah-ren", meaning: "to save (money)", example: { de: "Geld sparen.", en: "Save money." } },
+    { word: "die Ersparnisse", phonetic: "er-shpar-ni-suh", meaning: "savings", example: { de: "Ersparnisse anlegen.", en: "Invest savings." } },
+    { word: "das Budget", phonetic: "bü-dshey", meaning: "budget", gender: "das", example: { de: "Monatliches Budget.", en: "Monthly budget." } },
+    { word: "die Ausgaben", phonetic: "ows-gah-ben", meaning: "expenditure / expenses", example: { de: "Ausgaben reduzieren.", en: "Reduce expenses." } },
+    { word: "die Einnahmen", phonetic: "ayn-nah-men", meaning: "income / revenue", example: { de: "Monatliche Einnahmen.", en: "Monthly income." } },
+    { word: "die Schulden", phonetic: "shool-den", meaning: "debts", example: { de: "Schulden abbauen.", en: "Reduce debts." } },
+    { word: "die Miete", phonetic: "mee-tuh", meaning: "rent", gender: "die", example: { de: "Monatliche Miete zahlen.", en: "Pay monthly rent." } },
+    { word: "das Portemonnaie / Geldbörse", phonetic: "por-tuh-mo-ney", meaning: "wallet / purse", gender: "das", example: { de: "Portemonnaie vergessen.", en: "Forget the wallet." } },
+  ]}] },
+};

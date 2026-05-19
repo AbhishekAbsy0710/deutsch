@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega120: Record<string, Lesson> = {
+  "lc1_m166": { id: "lc1_m166", title: "Medieval German Literature (Nibelungenlied/Walther) C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Mittelhochdeutsch (MHD)", phonetic: "mi-tel-hokh-doytsh", meaning: "Middle High German (MHD)", gender: "das", example: { de: "Mittelhochdeutsch ca. 1050-1350.", en: "Middle High German ca. 1050-1350." } },
+    { word: "das Nibelungenlied (ca. 1200)", phonetic: "ni-beh-lun-gen-leed", meaning: "Song of the Nibelungs (ca. 1200)", gender: "das", example: { de: "Nibelungenlied Siegfried Kriemhild.", en: "Song of the Nibelungs Siegfried Kriemhild." } },
+    { word: "Siegfried (Nibelungenlied)", phonetic: "zeeg-freed", meaning: "Siegfried (hero of the Nibelungenlied)", example: { de: "Siegfried der Drachentöter.", en: "Siegfried the dragonslayer." } },
+    { word: "die Rache (Kriemhild)", phonetic: "ra-khuh", meaning: "revenge (Kriemhild's revenge)", gender: "die", example: { de: "Kriemhilds Rache.", en: "Kriemhild's revenge." } },
+    { word: "der Minnesang (Walther von der Vogelweide)", phonetic: "mi-nuh-zang", meaning: "Minnesang (courtly love poetry)", gender: "der", example: { de: "Walthers Minnesang.", en: "Walther's Minnesang." } },
+    { word: "Walther von der Vogelweide", phonetic: "val-ter-fon-der-fo-gel-vy-duh", meaning: "Walther von der Vogelweide (lyric poet)", example: { de: "Walther von der Vogelweide.", en: "Walther von der Vogelweide." } },
+    { word: "der Artusroman (Chrétien/Wolfram)", phonetic: "ar-toos-ro-mahn", meaning: "Arthurian romance (Chrétien/Wolfram)", gender: "der", example: { de: "Artusroman Parzival.", en: "Arthurian romance Parzival." } },
+    { word: "Parzival (Wolfram von Eschenbach)", phonetic: "par-tsi-fahl", meaning: "Parzival (Wolfram von Eschenbach)", example: { de: "Wolfram Parzival Gralsroman.", en: "Wolfram Parzival Grail romance." } },
+    { word: "der Gralsroman", phonetic: "grahls-ro-mahn", meaning: "Grail romance", gender: "der", example: { de: "Gralsroman Heiliger Gral.", en: "Grail romance Holy Grail." } },
+    { word: "das höfische Epos", phonetic: "hö-fi-shuh-ey-pos", meaning: "courtly epic", gender: "das", example: { de: "Höfisches Epos Tristan.", en: "Courtly epic Tristan." } },
+    { word: "Tristan und Isolde (Gottfried von Straßburg)", phonetic: "tris-tan-oon-ee-zol-duh", meaning: "Tristan and Isolde (Gottfried von Straßburg)", example: { de: "Gottfried Tristan und Isolde.", en: "Gottfried Tristan and Isolde." } },
+    { word: "die Minnedichtung", phonetic: "mi-nuh-dikh-tung", meaning: "love poetry (medieval)", gender: "die", example: { de: "Höfische Minnedichtung.", en: "Courtly love poetry." } },
+    { word: "der Minnesänger", phonetic: "mi-nuh-zeng-er", meaning: "Minnesinger / troubadour (German)", gender: "der", example: { de: "Berühmter Minnesänger.", en: "Famous Minnesinger." } },
+    { word: "das Heldenepos", phonetic: "hel-den-ey-pos", meaning: "heroic epic", gender: "das", example: { de: "Nibelungenlied Heldenepos.", en: "Song of the Nibelungs heroic epic." } },
+    { word: "die Strophe (MHD-Metrik)", phonetic: "shtro-fuh", meaning: "strophe (MHD metrics)", gender: "die", example: { de: "Nibelungenstrophe.", en: "Nibelung strophe." } },
+    { word: "die höfische Gesellschaft (Mittelalter)", phonetic: "hö-fi-shuh-geh-zel-shaft", meaning: "courtly society (Middle Ages)", gender: "die", example: { de: "Höfische Gesellschaft.", en: "Courtly society." } },
+    { word: "das Kudrunlied", phonetic: "koo-droon-leed", meaning: "Kudrun (heroic epic)", gender: "das", example: { de: "Kudrunlied Österreich.", en: "Kudrun heroic epic Austria." } },
+    { word: "Hartmann von Aue", phonetic: "hart-man-fon-ow-uh", meaning: "Hartmann von Aue (Arthurian author)", example: { de: "Hartmann von Aue Erec/Iwein.", en: "Hartmann von Aue Erec/Iwein." } },
+    { word: "das Meistergesang (Hans Sachs)", phonetic: "mys-ter-geh-zang", meaning: "Meistersang (Hans Sachs)", gender: "das", example: { de: "Hans Sachs Meistersang.", en: "Hans Sachs Meistersang." } },
+    { word: "Walthers Spruchdichtung (politisch)", phonetic: "val-ters-shprookh-dikh-tung", meaning: "Walther's political verse", gender: "die", example: { de: "Walthers politische Spruchdichtung.", en: "Walther's political verse." } },
+  ]}] },
+};

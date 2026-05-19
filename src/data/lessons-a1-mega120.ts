@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega120: Record<string, Lesson> = {
+  "la1_m170": { id: "la1_m170", title: "German Cases: Nominative, Accusative, Dative A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "der Nominativ (Wer/Was?)", phonetic: "no-mi-na-teef", meaning: "nominative case (who/what?)", gender: "der", example: { de: "Der Mann schläft.", en: "The man sleeps." } },
+    { word: "der Akkusativ (Wen/Was?)", phonetic: "a-koo-za-teef", meaning: "accusative case (whom/what?)", gender: "der", example: { de: "Ich sehe den Mann.", en: "I see the man." } },
+    { word: "der Dativ (Wem?)", phonetic: "da-teef", meaning: "dative case (to whom?)", gender: "der", example: { de: "Ich gebe dem Mann.", en: "I give to the man." } },
+    { word: "der bestimmte Artikel (der/die/das)", phonetic: "beh-shtim-tuh-ar-ti-kel", meaning: "definite article (der/die/das)", gender: "der", example: { de: "Der/die/das.", en: "The (der/die/das)." } },
+    { word: "der unbestimmte Artikel (ein/eine)", phonetic: "oon-beh-shtim-tuh-ar-ti-kel", meaning: "indefinite article (ein/eine)", gender: "der", example: { de: "Ein Mann, eine Frau.", en: "A man, a woman." } },
+    { word: "maskulin (der)", phonetic: "mas-koo-leen", meaning: "masculine (der)", example: { de: "Der Tisch – maskulin.", en: "The table – masculine." } },
+    { word: "feminin (die)", phonetic: "fe-mi-neen", meaning: "feminine (die)", example: { de: "Die Tür – feminin.", en: "The door – feminine." } },
+    { word: "neutral (das)", phonetic: "noy-tral", meaning: "neuter (das)", example: { de: "Das Kind – neutral.", en: "The child – neuter." } },
+    { word: "Nom. mask.: der → den (Akk.)", phonetic: "noh-mi-na-teef-ak-koo-za-teef", meaning: "Nom. masc. der → Acc. den", example: { de: "Nom: der Hund / Akk: den Hund.", en: "Nom: the dog / Acc: the dog." } },
+    { word: "Nom. mask.: der → dem (Dat.)", phonetic: "noh-mi-na-teef-da-teef", meaning: "Nom. masc. der → Dat. dem", example: { de: "Nom: der Mann / Dat: dem Mann.", en: "Nom: the man / Dat: to the man." } },
+    { word: "Nom. fem.: die → die (Akk.) → der (Dat.)", phonetic: "fee-mi-neen-fäl-luh", meaning: "Feminine: die → die → der", example: { de: "Die Frau → der Frau (Dat.).", en: "The woman → to the woman." } },
+    { word: "Nom. neut.: das → das (Akk.) → dem (Dat.)", phonetic: "noy-trum-fäl-luh", meaning: "Neuter: das → das → dem", example: { de: "Das Kind → dem Kind (Dat.).", en: "The child → to the child." } },
+    { word: "ich → mich (Akk.) → mir (Dat.)", phonetic: "ikh-mikh-meer", meaning: "I → me (acc.) → me (dat.)", example: { de: "Er sieht mich. Er gibt mir.", en: "He sees me. He gives me." } },
+    { word: "du → dich (Akk.) → dir (Dat.)", phonetic: "doo-dikh-deer", meaning: "you → you (acc.) → you (dat.)", example: { de: "Ich sehe dich.", en: "I see you." } },
+    { word: "er → ihn (Akk.) → ihm (Dat.)", phonetic: "er-een-eem", meaning: "he → him (acc.) → him (dat.)", example: { de: "Ich sehe ihn.", en: "I see him." } },
+    { word: "sie (Sg.) → sie (Akk.) → ihr (Dat.)", phonetic: "zee-eer", meaning: "she → her (acc.) → her (dat.)", example: { de: "Ich gebe ihr.", en: "I give to her." } },
+    { word: "wir → uns (Akk./Dat.)", phonetic: "veer-oons", meaning: "we → us (acc./dat.)", example: { de: "Er sieht uns.", en: "He sees us." } },
+    { word: "Dativpräpositionen: mit, bei, nach, seit, von, zu, aus, gegenüber", phonetic: "da-teef-prä-po-zi-tsee-oh-nen", meaning: "Dative prepositions: mit, bei, nach…", example: { de: "Mit dem Bus fahren.", en: "Travel by bus." } },
+    { word: "Akkusativpräpositionen: durch, für, gegen, ohne, um", phonetic: "a-koo-za-teef-prä-po-zi-tsee-oh-nen", meaning: "Accusative prepositions: durch, für, gegen…", example: { de: "Durch den Park laufen.", en: "Run through the park." } },
+    { word: "Wechselpräpositionen (2-Wege-Präpositionen)", phonetic: "vek-sel-prä-po-zi-tsee-oh-nen", meaning: "two-way prepositions (Dat./Akk.)", example: { de: "in + Dat: im Haus / in + Akk: ins Haus.", en: "in (dat): in the house / in (acc): into the house." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega122: Record<string, Lesson> = {
+  "la1_m172": { id: "la1_m172", title: "Common Adjectives & Opposites A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "groß ↔ klein", phonetic: "grohs-klyne", meaning: "big ↔ small", example: { de: "Ein großes Haus, ein kleines Auto.", en: "A big house, a small car." } },
+    { word: "alt ↔ jung", phonetic: "alt-yoong", meaning: "old ↔ young", example: { de: "Ein alter Mann, ein junges Mädchen.", en: "An old man, a young girl." } },
+    { word: "schnell ↔ langsam", phonetic: "shnel-lang-zahm", meaning: "fast ↔ slow", example: { de: "Schnelles Auto, langsamer Zug.", en: "Fast car, slow train." } },
+    { word: "heiß ↔ kalt", phonetic: "hys-kalt", meaning: "hot ↔ cold", example: { de: "Heißer Kaffee, kaltes Wasser.", en: "Hot coffee, cold water." } },
+    { word: "warm ↔ kühl", phonetic: "varm-kül", meaning: "warm ↔ cool", example: { de: "Warmer Sommer, kühler Herbst.", en: "Warm summer, cool autumn." } },
+    { word: "hell ↔ dunkel", phonetic: "hel-doon-kel", meaning: "bright ↔ dark", example: { de: "Helles Zimmer, dunkle Nacht.", en: "Bright room, dark night." } },
+    { word: "laut ↔ leise", phonetic: "lowt-ly-zuh", meaning: "loud ↔ quiet", example: { de: "Laute Musik, leises Gespräch.", en: "Loud music, quiet conversation." } },
+    { word: "schwer ↔ leicht", phonetic: "shveyr-lykht", meaning: "heavy/difficult ↔ light/easy", example: { de: "Schwere Tasche, leichte Aufgabe.", en: "Heavy bag, easy task." } },
+    { word: "schön ↔ hässlich", phonetic: "shön-hes-likh", meaning: "beautiful ↔ ugly", example: { de: "Schönes Bild, hässliches Gebäude.", en: "Beautiful picture, ugly building." } },
+    { word: "neu ↔ alt", phonetic: "noy-alt", meaning: "new ↔ old", example: { de: "Neues Buch, altes Fahrrad.", en: "New book, old bicycle." } },
+    { word: "sauber ↔ schmutzig", phonetic: "zow-ber-shmu-tsikh", meaning: "clean ↔ dirty", example: { de: "Sauberes Hemd, schmutzige Hände.", en: "Clean shirt, dirty hands." } },
+    { word: "reich ↔ arm", phonetic: "rykh-arm", meaning: "rich ↔ poor", example: { de: "Reicher Mann, arme Familie.", en: "Rich man, poor family." } },
+    { word: "stark ↔ schwach", phonetic: "shtark-shvakh", meaning: "strong ↔ weak", example: { de: "Starker Wind, schwaches Signal.", en: "Strong wind, weak signal." } },
+    { word: "lang ↔ kurz", phonetic: "lang-koorts", meaning: "long ↔ short", example: { de: "Langer Weg, kurze Pause.", en: "Long way, short break." } },
+    { word: "breit ↔ schmal", phonetic: "bryt-shmahl", meaning: "wide ↔ narrow", example: { de: "Breite Straße, schmaler Weg.", en: "Wide road, narrow path." } },
+    { word: "voll ↔ leer", phonetic: "fol-leyr", meaning: "full ↔ empty", example: { de: "Voller Kühlschrank, leeres Glas.", en: "Full fridge, empty glass." } },
+    { word: "offen ↔ geschlossen", phonetic: "o-fen-geh-shlo-sen", meaning: "open ↔ closed", example: { de: "Offenes Fenster, geschlossene Tür.", en: "Open window, closed door." } },
+    { word: "richtig ↔ falsch", phonetic: "rikh-tikh-falsh", meaning: "correct ↔ wrong", example: { de: "Richtige Antwort, falsche Zahl.", en: "Correct answer, wrong number." } },
+    { word: "früh ↔ spät", phonetic: "frü-shpeyt", meaning: "early ↔ late", example: { de: "Früh aufstehen, spät ins Bett.", en: "Get up early, go to bed late." } },
+    { word: "einfach ↔ kompliziert", phonetic: "ayn-fakh-kom-pli-tsiert", meaning: "simple ↔ complicated", example: { de: "Einfache Aufgabe.", en: "Simple task." } },
+  ]}] },
+};

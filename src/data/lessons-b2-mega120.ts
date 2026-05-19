@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega120: Record<string, Lesson> = {
+  "lb2_m165": { id: "lb2_m165", title: "Differential Geometry B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Differentialgeometrie", phonetic: "di-fe-ren-tsee-ahl-gay-oh-me-tree", meaning: "differential geometry", gender: "die", example: { de: "Riemannsche Differentialgeometrie.", en: "Riemannian differential geometry." } },
+    { word: "die glatte Mannigfaltigkeit", phonetic: "gla-tuh-ma-nikh-fal-tikh-kyte", meaning: "smooth manifold", gender: "die", example: { de: "Glatte Mannigfaltigkeit M.", en: "Smooth manifold M." } },
+    { word: "der Tangentialraum (TpM)", phonetic: "tan-gen-tsee-ahl-rowm", meaning: "tangent space (TpM)", gender: "der", example: { de: "Tangentialraum TpM.", en: "Tangent space TpM." } },
+    { word: "der Kotangentialraum (TpM*)", phonetic: "ko-tan-gen-tsee-ahl-rowm", meaning: "cotangent space (TpM*)", gender: "der", example: { de: "Kotangentialraum TpM*.", en: "Cotangent space TpM*." } },
+    { word: "das Vektorbündel", phonetic: "vek-tor-bün-del", meaning: "vector bundle", gender: "das", example: { de: "Tangentialbündel TM.", en: "Tangent bundle TM." } },
+    { word: "das Tensorfeld", phonetic: "ten-zor-felt", meaning: "tensor field", gender: "das", example: { de: "Riemannsches Tensorfeld.", en: "Riemannian tensor field." } },
+    { word: "die Riemannsche Metrik", phonetic: "ree-man-shuh-me-trik", meaning: "Riemannian metric", gender: "die", example: { de: "Riemannsche Metrik g.", en: "Riemannian metric g." } },
+    { word: "die Geodäte (kürzeste Kurve)", phonetic: "gay-oh-dey-tuh", meaning: "geodesic (shortest curve)", gender: "die", example: { de: "Geodäte Riemannscher Mannigfaltigkeit.", en: "Geodesic Riemannian manifold." } },
+    { word: "die Krümmung (Gauß/Riemann)", phonetic: "krü-mung", meaning: "curvature (Gauss/Riemann)", gender: "die", example: { de: "Gauß-Krümmung.", en: "Gaussian curvature." } },
+    { word: "die Riemannsche Krümmung (Ricci-Tensor)", phonetic: "ree-man-shuh-krü-mung", meaning: "Riemannian curvature (Ricci tensor)", gender: "die", example: { de: "Riemannscher Krümmungstensor.", en: "Riemannian curvature tensor." } },
+    { word: "der Levi-Civita-Zusammenhang", phonetic: "le-vi-shi-vi-ta-tsoo-za-men-hang", meaning: "Levi-Civita connection", gender: "der", example: { de: "Levi-Civita Zusammenhang.", en: "Levi-Civita connection." } },
+    { word: "der Parallelentransport", phonetic: "pa-ra-le-len-trans-port", meaning: "parallel transport", gender: "der", example: { de: "Parallelentransport.", en: "Parallel transport." } },
+    { word: "die Holonomie", phonetic: "ho-lo-no-mee", meaning: "holonomy", gender: "die", example: { de: "Holonomiegruppe.", en: "Holonomy group." } },
+    { word: "das Gauss-Bonnet-Theorem", phonetic: "gows-bo-ney-tay-oh-rem", meaning: "Gauss-Bonnet theorem", gender: "das", example: { de: "Gauss-Bonnet-Satz.", en: "Gauss-Bonnet theorem." } },
+    { word: "der Satz von Hopf-Rinow", phonetic: "zats-fon-hopf-ri-nov", meaning: "Hopf-Rinow theorem (completeness)", gender: "der", example: { de: "Hopf-Rinow Vollständigkeit.", en: "Hopf-Rinow completeness." } },
+    { word: "die Differentialform", phonetic: "di-fe-ren-tsee-ahl-form", meaning: "differential form", gender: "die", example: { de: "Differentialform ω.", en: "Differential form ω." } },
+    { word: "der äußere Ableitung (d)", phonetic: "oy-se-ruh-ap-ly-tung", meaning: "exterior derivative (d)", gender: "die", example: { de: "Äußere Ableitung d.", en: "Exterior derivative d." } },
+    { word: "der Stokes-Satz", phonetic: "shtokes-zats", meaning: "Stokes' theorem", gender: "der", example: { de: "Verallgemeinerter Stokes-Satz.", en: "Generalised Stokes' theorem." } },
+    { word: "die de Rham-Kohomologie (glatt)", phonetic: "de-ram-ko-ho-mo-lo-gee", meaning: "de Rham cohomology (smooth)", gender: "die", example: { de: "Glatte de Rham-Kohomologie.", en: "Smooth de Rham cohomology." } },
+    { word: "der Spin-Mannigfaltigkeit / Spinstruktur (Diff.Geom.)", phonetic: "shpin-ma-nikh-fal-tikh-kyte", meaning: "spin manifold / spin structure", gender: "die", example: { de: "Spin-Mannigfaltigkeit.", en: "Spin manifold." } },
+  ]}] },
+};

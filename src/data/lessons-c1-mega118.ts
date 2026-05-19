@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega118: Record<string, Lesson> = {
+  "lc1_m164": { id: "lc1_m164", title: "Hermeneutics & Phenomenology (Heidegger/Gadamer) C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Hermeneutik (Dilthey/Gadamer)", phonetic: "her-me-noy-tik", meaning: "hermeneutics (Dilthey/Gadamer)", gender: "die", example: { de: "Philosophische Hermeneutik.", en: "Philosophical hermeneutics." } },
+    { word: "der hermeneutische Zirkel (Gadamer)", phonetic: "her-me-noy-ti-shuh-tsir-kel", meaning: "hermeneutical circle (Gadamer)", gender: "der", example: { de: "Gadamers hermeneutischer Zirkel.", en: "Gadamer's hermeneutical circle." } },
+    { word: "das Vorverständnis (Gadamer)", phonetic: "for-fer-shtänt-nis", meaning: "pre-understanding (Gadamer)", gender: "das", example: { de: "Gadamers Vorverständnis.", en: "Gadamer's pre-understanding." } },
+    { word: "die Horizontverschmelzung (Gadamer)", phonetic: "ho-ri-tsont-fer-shmel-tsung", meaning: "fusion of horizons (Gadamer)", gender: "die", example: { de: "Gadamers Horizontverschmelzung.", en: "Gadamer's fusion of horizons." } },
+    { word: "die Wirkungsgeschichte (Gadamer)", phonetic: "vir-kungs-geh-shikh-tuh", meaning: "effective history (Gadamer)", gender: "die", example: { de: "Gadamers Wirkungsgeschichte.", en: "Gadamer's effective history." } },
+    { word: "die Phänomenologie (Husserl)", phonetic: "fä-no-me-no-lo-gee", meaning: "phenomenology (Husserl)", gender: "die", example: { de: "Husserls transzendentale Phänomenologie.", en: "Husserl's transcendental phenomenology." } },
+    { word: "die Epoché / Einklammerung (Husserl)", phonetic: "e-po-khey", meaning: "epoché / bracketing (Husserl)", gender: "die", example: { de: "Husserls phänomenologische Epoché.", en: "Husserl's phenomenological epoché." } },
+    { word: "die Intentionalität (Husserl)", phonetic: "in-ten-tsee-oh-na-li-tayt", meaning: "intentionality (Husserl)", gender: "die", example: { de: "Husserls Intentionalität.", en: "Husserl's intentionality." } },
+    { word: "das Dasein (Heidegger)", phonetic: "dah-zayn", meaning: "Dasein / being-there (Heidegger)", gender: "das", example: { de: "Heideggers Dasein.", en: "Heidegger's Dasein." } },
+    { word: "das In-der-Welt-sein (Heidegger)", phonetic: "in-der-velt-zayn", meaning: "being-in-the-world (Heidegger)", gender: "das", example: { de: "Heideggers In-der-Welt-sein.", en: "Heidegger's being-in-the-world." } },
+    { word: "die Sorge (Heidegger)", phonetic: "zor-guh", meaning: "care (Heidegger)", gender: "die", example: { de: "Heideggers Fundamentalontologie Sorge.", en: "Heidegger's fundamental ontology care." } },
+    { word: "die Zeitlichkeit (Heidegger)", phonetic: "tsyt-likh-kyte", meaning: "temporality (Heidegger)", gender: "die", example: { de: "Heideggers Zeitlichkeit.", en: "Heidegger's temporality." } },
+    { word: "die Eigentlichkeit/Uneigentlichkeit (Heidegger)", phonetic: "ayg-ent-likh-kyte", meaning: "authenticity / inauthenticity (Heidegger)", gender: "die", example: { de: "Heideggers Eigentlichkeit.", en: "Heidegger's authenticity." } },
+    { word: "das Man (Heidegger)", phonetic: "man", meaning: "the They / das Man (Heidegger)", gender: "das", example: { de: "Heideggers das Man.", en: "Heidegger's the They." } },
+    { word: "der Geworfen sein / Geworfenheit (Heidegger)", phonetic: "geh-vor-fen-hyte", meaning: "thrownness (Heidegger)", gender: "die", example: { de: "Heideggers Geworfenheit.", en: "Heidegger's thrownness." } },
+    { word: "die Angst (Existenzial, Heidegger)", phonetic: "angst", meaning: "anxiety (existential, Heidegger)", gender: "die", example: { de: "Heideggers Angst als Stimmung.", en: "Heidegger's anxiety as mood." } },
+    { word: "die Ricoeursche Hermeneutik (Text/Selbst)", phonetic: "ri-kör-shuh-her-me-noy-tik", meaning: "Ricoeur's hermeneutics (text/self)", gender: "die", example: { de: "Ricoeurs narrative Hermeneutik.", en: "Ricoeur's narrative hermeneutics." } },
+    { word: "die Existenzphilosophie (Kierkegaard/Sartre)", phonetic: "ek-sis-tents-fi-lo-zo-fee", meaning: "existential philosophy (Kierkegaard/Sartre)", gender: "die", example: { de: "Sartres Existenzphilosophie.", en: "Sartre's existential philosophy." } },
+    { word: "die Lebenswelt (Husserl)", phonetic: "lay-bens-velt", meaning: "lifeworld (Husserl)", gender: "die", example: { de: "Husserls Lebenswelt.", en: "Husserl's lifeworld." } },
+    { word: "die transzendentale Intersubjektivität (Husserl)", phonetic: "trans-tsen-den-tah-luh-in-ter-zoop-yek-ti-vi-tayt", meaning: "transcendental intersubjectivity (Husserl)", gender: "die", example: { de: "Husserls transzendentale Intersubjektivität.", en: "Husserl's transcendental intersubjectivity." } },
+  ]}] },
+};

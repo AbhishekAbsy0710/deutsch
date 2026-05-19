@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega119: Record<string, Lesson> = {
+  "lc1_m165": { id: "lc1_m165", title: "Minimalist Program & Biolinguistics (Chomsky) C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Minimalistische Programm (Chomsky)", phonetic: "mi-ni-ma-lis-ti-shuh-pro-gram", meaning: "Minimalist Program (Chomsky)", gender: "das", example: { de: "Chomskys Minimalistisches Programm.", en: "Chomsky's Minimalist Program." } },
+    { word: "der Merge (Operation)", phonetic: "merdsch", meaning: "Merge (syntactic operation)", gender: "der", example: { de: "Merge als primitiver Operation.", en: "Merge as primitive operation." } },
+    { word: "die numeration (Startmenge)", phonetic: "noo-me-ra-tsee-ohn", meaning: "numeration (starting set)", gender: "die", example: { de: "Numeration lexikalischer Einheiten.", en: "Numeration of lexical items." } },
+    { word: "das Lexikalische Array", phonetic: "lek-si-kah-li-shuh-a-rey", meaning: "lexical array", gender: "das", example: { de: "Lexikalisches Array.", en: "Lexical array." } },
+    { word: "die Spell-Out / Lautform (PF)", phonetic: "shpel-owt-lowt-form", meaning: "Spell-Out / PF (phonological form)", gender: "die", example: { de: "Spell-Out PF.", en: "Spell-Out PF." } },
+    { word: "die logische Form (LF)", phonetic: "lo-gi-shuh-form", meaning: "logical form (LF)", gender: "die", example: { de: "Logische Form LF.", en: "Logical form LF." } },
+    { word: "das Ökonomie-Prinzip (Chomsky)", phonetic: "ö-ko-no-mee-prin-tseep", meaning: "economy principles (Chomsky)", gender: "das", example: { de: "Merge-Ökonomieprinzip.", en: "Merge economy principle." } },
+    { word: "das Greediness-Prinzip (kurzeste Ableitung)", phonetic: "gree-di-nes-prin-tseep", meaning: "shortest derivation / greediness", gender: "das", example: { de: "Kürzeste Ableitung Prinzip.", en: "Shortest derivation principle." } },
+    { word: "das Agree (Feature-Abgleich)", phonetic: "a-gree", meaning: "Agree (feature-matching operation)", gender: "der", example: { de: "Agree-Merkmal Abgleich.", en: "Agree feature matching." } },
+    { word: "die Phase (vP/CP Phasenhypothese)", phonetic: "fah-zuh-pey-tsee-pee", meaning: "phase (vP/CP phase hypothesis)", gender: "die", example: { de: "Phasen-Hypothese vP/CP.", en: "Phase hypothesis vP/CP." } },
+    { word: "das Phase Impenetrability Condition (PIC)", phonetic: "fah-zuh-im-pe-ne-tra-bi-li-tee-kon-di-shon", meaning: "Phase Impenetrability Condition (PIC)", gender: "die", example: { de: "Phase Impenetrability Condition.", en: "Phase Impenetrability Condition." } },
+    { word: "die Biolinguistik (Chomsky)", phonetic: "bi-oh-ling-gvis-tik", meaning: "biolinguistics (Chomsky)", gender: "die", example: { de: "Chomskys Biolinguistik.", en: "Chomsky's biolinguistics." } },
+    { word: "das Sprachorgan / Sprachvermögen (Faculty of Language)", phonetic: "shprahkh-or-gan", meaning: "language faculty (FLN/FLB)", gender: "das", example: { de: "Faculty of Language (FLN).", en: "Faculty of language (FLN)." } },
+    { word: "die I-Sprache vs E-Sprache (Chomsky)", phonetic: "i-shprah-khuh-ey-shprah-khuh", meaning: "I-language vs E-language (Chomsky)", gender: "die", example: { de: "Chomskys I-/E-Sprache.", en: "Chomsky's I/E-language." } },
+    { word: "das Parametersystem (Principles & Parameters)", phonetic: "pa-ra-me-ter-züs-tem", meaning: "parameter (Principles & Parameters theory)", gender: "das", example: { de: "Pro-drop Parameter.", en: "Pro-drop parameter." } },
+    { word: "der Pro-Drop-Parameter", phonetic: "pro-drop-pa-ra-me-ter", meaning: "pro-drop parameter (null subjects)", gender: "der", example: { de: "Spanisch: Pro-Drop.", en: "Spanish: pro-drop." } },
+    { word: "das DP-Hypothesis (Abney)", phonetic: "dey-pey-hü-po-tey-zuh", meaning: "DP hypothesis (Abney)", gender: "die", example: { de: "Abney DP-Hypothese.", en: "Abney DP hypothesis." } },
+    { word: "das vP-VP-Shell (Larson)", phonetic: "fow-pey-vey-pey-shel", meaning: "vP shell (Larson)", gender: "die", example: { de: "Larson vP-Shell.", en: "Larson vP shell." } },
+    { word: "die Copy-Bewegungstheorie (Chomsky 1993)", phonetic: "ko-py-beh-vay-gungs-tay-oh-ree", meaning: "copy theory of movement (Chomsky 1993)", gender: "die", example: { de: "Copy-Bewegungstheorie.", en: "Copy theory of movement." } },
+    { word: "die Cartographieschule (Rizzi/Cinque)", phonetic: "kar-to-gra-fee-shoo-luh", meaning: "cartographic approach (Rizzi/Cinque)", gender: "die", example: { de: "Rizzi Cartography CP-Schicht.", en: "Rizzi cartography CP layer." } },
+  ]}] },
+};

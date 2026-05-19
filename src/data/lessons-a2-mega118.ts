@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega118: Record<string, Lesson> = {
+  "la2_m163": { id: "la2_m163", title: "German Festivals & Traditions A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Oktoberfest", phonetic: "ok-to-ber-fest", meaning: "Oktoberfest (Munich beer festival)", gender: "das", example: { de: "Oktoberfest in München.", en: "Oktoberfest in Munich." } },
+    { word: "das Weihnachten", phonetic: "vy-nakh-ten", meaning: "Christmas", gender: "das", example: { de: "Fröhliche Weihnachten!", en: "Merry Christmas!" } },
+    { word: "der Weihnachtsmarkt", phonetic: "vy-nakhts-markt", meaning: "Christmas market", gender: "der", example: { de: "Nürnberger Weihnachtsmarkt.", en: "Nuremberg Christmas market." } },
+    { word: "das Silvester / Neujahr", phonetic: "zil-ves-ter-noy-yahr", meaning: "New Year's Eve / New Year", gender: "das", example: { de: "Silvester feiern.", en: "Celebrate New Year's Eve." } },
+    { word: "Frohe Weihnachten!", phonetic: "froh-uh-vy-nakh-ten", meaning: "Merry Christmas!", example: { de: "Frohe Weihnachten!", en: "Merry Christmas!" } },
+    { word: "Frohes Neues Jahr!", phonetic: "fro-es-noy-es-yahr", meaning: "Happy New Year!", example: { de: "Frohes Neues Jahr!", en: "Happy New Year!" } },
+    { word: "Ostern", phonetic: "os-tern", meaning: "Easter", example: { de: "Frohe Ostern!", en: "Happy Easter!" } },
+    { word: "der Osterhase", phonetic: "os-ter-hah-zuh", meaning: "Easter bunny", gender: "der", example: { de: "Osterhase bringt Eier.", en: "Easter bunny brings eggs." } },
+    { word: "das Pfingsten", phonetic: "pfing-sten", meaning: "Pentecost / Whitsun", gender: "das", example: { de: "Pfingsten langer Wochenende.", en: "Pentecost long weekend." } },
+    { word: "der Karneval / Fasching / Fastnacht", phonetic: "kar-ne-vahl-fa-shing", meaning: "carnival (Karneval/Fasching)", gender: "der", example: { de: "Karneval in Köln.", en: "Carnival in Cologne." } },
+    { word: "die Volksfest", phonetic: "folks-fest", meaning: "folk festival", gender: "das", example: { de: "Bayerisches Volksfest.", en: "Bavarian folk festival." } },
+    { word: "der Tag der deutschen Einheit (3. Oktober)", phonetic: "tahk-der-doyt-shen-ayn-hyte", meaning: "German Unity Day (Oct. 3)", gender: "der", example: { de: "3. Oktober Einheitstag.", en: "3 October Unity Day." } },
+    { word: "der Vatertag / Muttertag", phonetic: "fah-ter-tahk-moo-ter-tahk", meaning: "Father's Day / Mother's Day", gender: "der", example: { de: "Muttertag im Mai.", en: "Mother's Day in May." } },
+    { word: "Geburtstag feiern", phonetic: "geh-boorts-tahk-fy-ern", meaning: "to celebrate a birthday", example: { de: "Geburtstag feiern.", en: "Celebrate a birthday." } },
+    { word: "die Torte / der Kuchen", phonetic: "tor-tuh-koo-khen", meaning: "gateau / cake", gender: "die", example: { de: "Geburtstagstorte.", en: "Birthday gateau." } },
+    { word: "die Kerze", phonetic: "ker-tsuh", meaning: "candle", gender: "die", example: { de: "Kerzen auf der Torte.", en: "Candles on the gateau." } },
+    { word: "Herzlichen Glückwunsch!", phonetic: "herts-li-khen-glük-voonsh", meaning: "Congratulations! / Happy birthday!", example: { de: "Herzlichen Glückwunsch zum Geburtstag!", en: "Happy birthday!" } },
+    { word: "das Geschenk", phonetic: "geh-shenk", meaning: "gift / present", gender: "das", example: { de: "Geschenke auspacken.", en: "Unwrap presents." } },
+    { word: "anstoßen", phonetic: "an-shtoh-sen", meaning: "to toast (with drinks)", example: { de: "Mit Sekt anstoßen.", en: "Toast with sparkling wine." } },
+    { word: "Prost! / Zum Wohl!", phonetic: "prost-tsoom-vohl", meaning: "Cheers!", example: { de: "Prost! Zum Wohl!", en: "Cheers!" } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega122: Record<string, Lesson> = {
+  "lb1_m173": { id: "lb1_m173", title: "Urban Sociology B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Stadtsoziologie", phonetic: "shtaht-zo-tsee-oh-lo-gee", meaning: "urban sociology", gender: "die", example: { de: "Klassische Stadtsoziologie.", en: "Classical urban sociology." } },
+    { word: "die Chicagoer Schule (Park/Burgess)", phonetic: "shi-kah-go-er-shoo-luh", meaning: "Chicago School (Park/Burgess)", gender: "die", example: { de: "Park Chicagoer Schule.", en: "Park Chicago School." } },
+    { word: "das Soziale Milieu", phonetic: "zo-tsee-ah-luh-mi-lyö", meaning: "social milieu / environment", gender: "das", example: { de: "Soziales Milieu Stadtquartier.", en: "Social milieu city district." } },
+    { word: "die Anonymität (Simmel)", phonetic: "a-no-ni-mi-tayt", meaning: "anonymity (Simmel)", gender: "die", example: { de: "Simmels städtische Anonymität.", en: "Simmel's urban anonymity." } },
+    { word: "die Blasiertheit (Simmel)", phonetic: "bla-zeert-hyte", meaning: "blasé attitude (Simmel)", gender: "die", example: { de: "Simmels Blasiertheit.", en: "Simmel's blasé attitude." } },
+    { word: "die soziale Interaktion (Goffman)", phonetic: "zo-tsee-ah-luh-in-ter-ak-tsee-ohn", meaning: "social interaction (Goffman)", gender: "die", example: { de: "Goffmans soziale Interaktion.", en: "Goffman's social interaction." } },
+    { word: "das Stigma (Goffman)", phonetic: "shtig-mah", meaning: "stigma (Goffman)", gender: "das", example: { de: "Goffmans Stigma-Konzept.", en: "Goffman's stigma concept." } },
+    { word: "die Öffentliche Sphäre (Lofland)", phonetic: "öf-fent-li-khuh-shfey-ruh", meaning: "public realm (Lofland)", gender: "die", example: { de: "Loflands öffentliche Sphäre.", en: "Lofland's public realm." } },
+    { word: "das Soziales Kapital (Putnam)", phonetic: "zo-tsee-ah-les-ka-pi-tahl", meaning: "social capital (Putnam)", gender: "das", example: { de: "Putnams soziales Kapital.", en: "Putnam's social capital." } },
+    { word: "die soziale Kohäsion", phonetic: "zo-tsee-ah-luh-ko-hey-zee-ohn", meaning: "social cohesion", gender: "die", example: { de: "Städtische soziale Kohäsion.", en: "Urban social cohesion." } },
+    { word: "die räumliche Ungleichheit", phonetic: "röym-li-khuh-oon-glyakh-hyte", meaning: "spatial inequality", gender: "die", example: { de: "Räumliche Ungleichheit.", en: "Spatial inequality." } },
+    { word: "die Kontrolltheorie (Broken Windows)", phonetic: "kon-trol-tay-oh-ree", meaning: "broken windows theory (Wilson/Kelling)", gender: "die", example: { de: "Broken-Windows-Theorie.", en: "Broken windows theory." } },
+    { word: "die Ethnizität (Stadtsoziologie)", phonetic: "et-ni-tsi-tayt", meaning: "ethnicity (urban sociology)", gender: "die", example: { de: "Städtische Ethnizität.", en: "Urban ethnicity." } },
+    { word: "das Quartiersentwicklung", phonetic: "kvar-teer-sent-vik-lung", meaning: "neighbourhood development", gender: "die", example: { de: "Soziale Quartiersentwicklung.", en: "Social neighbourhood development." } },
+    { word: "die Partizipation (Stadtplanung)", phonetic: "par-ti-tsi-pa-tsee-ohn", meaning: "participation (urban planning)", gender: "die", example: { de: "Bürgerbeteiligung Stadtplanung.", en: "Citizen participation urban planning." } },
+    { word: "der soziale Raum (Bourdieu)", phonetic: "zo-tsee-ah-ler-rowm", meaning: "social space (Bourdieu)", gender: "der", example: { de: "Bourdieus sozialer Raum.", en: "Bourdieu's social space." } },
+    { word: "die Dichte (Wirth)", phonetic: "dikh-tuh", meaning: "density (Wirth's urbanism)", gender: "die", example: { de: "Wirths Dichte Urbanismus.", en: "Wirth's density urbanism." } },
+    { word: "das Heterogenität (Wirth)", phonetic: "he-te-ro-ge-ni-tayt", meaning: "heterogeneity (Wirth)", gender: "die", example: { de: "Städtische Heterogenität.", en: "Urban heterogeneity." } },
+    { word: "die urbane Lebensweise (Wirth)", phonetic: "oor-bah-nuh-lay-bens-vy-zuh", meaning: "urbanism as a way of life (Wirth)", gender: "die", example: { de: "Wirths Urbanismus als Lebensweise.", en: "Wirth's urbanism as way of life." } },
+    { word: "das Recht auf Stadt (Lefebvre)", phonetic: "rekht-owf-shtaht", meaning: "right to the city (Lefebvre)", gender: "das", example: { de: "Lefebvres Recht auf Stadt.", en: "Lefebvre's right to the city." } },
+  ]}] },
+};

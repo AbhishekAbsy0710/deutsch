@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega121: Record<string, Lesson> = {
+  "la1_m171": { id: "la1_m171", title: "Separable Verbs (Trennbare Verben) A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "aufmachen (auf + machen)", phonetic: "owf-ma-khen", meaning: "to open", example: { de: "Die Tür aufmachen.", en: "Open the door." } },
+    { word: "zumachen (zu + machen)", phonetic: "tsoo-ma-khen", meaning: "to close", example: { de: "Das Fenster zumachen.", en: "Close the window." } },
+    { word: "anrufen (an + rufen)", phonetic: "an-roo-fen", meaning: "to call (phone)", example: { de: "Dich anrufen.", en: "Call you." } },
+    { word: "anfangen (an + fangen)", phonetic: "an-fang-en", meaning: "to begin / start", example: { de: "Das Spiel fängt an.", en: "The game starts." } },
+    { word: "aufhören (auf + hören)", phonetic: "owf-hö-ren", meaning: "to stop / cease", example: { de: "Aufhören zu reden.", en: "Stop talking." } },
+    { word: "mitkommen (mit + kommen)", phonetic: "mit-ko-men", meaning: "to come along", example: { de: "Kommst du mit?", en: "Are you coming along?" } },
+    { word: "einladen (ein + laden)", phonetic: "ayn-lah-den", meaning: "to invite", example: { de: "Freunde einladen.", en: "Invite friends." } },
+    { word: "abfahren (ab + fahren)", phonetic: "ap-fah-ren", meaning: "to depart / leave", example: { de: "Der Zug fährt ab.", en: "The train departs." } },
+    { word: "ankommen (an + kommen)", phonetic: "an-ko-men", meaning: "to arrive", example: { de: "In Berlin ankommen.", en: "Arrive in Berlin." } },
+    { word: "ausgehen (aus + gehen)", phonetic: "ows-gay-en", meaning: "to go out", example: { de: "Abends ausgehen.", en: "Go out in the evenings." } },
+    { word: "zurückkommen (zurück + kommen)", phonetic: "tsoo-rük-ko-men", meaning: "to come back / return", example: { de: "Nach Hause zurückkommen.", en: "Come back home." } },
+    { word: "fernsehen (fern + sehen)", phonetic: "fern-zey-en", meaning: "to watch TV", example: { de: "Abends fernsehen.", en: "Watch TV in the evenings." } },
+    { word: "einkaufen (ein + kaufen)", phonetic: "ayn-kow-fen", meaning: "to go shopping", example: { de: "Im Supermarkt einkaufen.", en: "Go shopping at the supermarket." } },
+    { word: "aufräumen (auf + räumen)", phonetic: "owf-roy-men", meaning: "to tidy up", example: { de: "Das Zimmer aufräumen.", en: "Tidy up the room." } },
+    { word: "vorstellen (vor + stellen)", phonetic: "for-shte-len", meaning: "to introduce / present", example: { de: "Sich vorstellen.", en: "Introduce oneself." } },
+    { word: "vorbereiten (vor + bereiten)", phonetic: "for-beh-ry-ten", meaning: "to prepare", example: { de: "Das Essen vorbereiten.", en: "Prepare the food." } },
+    { word: "umziehen (um + ziehen)", phonetic: "oom-tsee-hen", meaning: "to move (house) / get changed", example: { de: "In eine neue Stadt umziehen.", en: "Move to a new city." } },
+    { word: "kennenlernen (kennen + lernen)", phonetic: "ke-nen-ler-nen", meaning: "to get to know / meet", example: { de: "Neue Leute kennenlernen.", en: "Get to know new people." } },
+    { word: "Trennung im Satz (Position der Partikel)", phonetic: "tre-nung-im-zats", meaning: "Separation in sentence (prefix goes to end)", example: { de: "Ich rufe dich an.", en: "I call you." } },
+    { word: "im Infinitiv: zusammen (anrufen)", phonetic: "im-in-fi-ni-teef-tsoo-za-men", meaning: "In infinitive: together (anrufen)", example: { de: "Ich möchte anrufen.", en: "I would like to call." } },
+  ]}] },
+};

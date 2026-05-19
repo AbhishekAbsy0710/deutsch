@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega117: Record<string, Lesson> = {
+  "lc2_m160": { id: "lc2_m160", title: "String Theory & M-Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Stringtheorie", phonetic: "string-tay-oh-ree", meaning: "string theory", gender: "die", example: { de: "Superstringtheorie.", en: "Superstring theory." } },
+    { word: "die bosonische Stringtheorie", phonetic: "bo-zo-ni-shuh-string-tay-oh-ree", meaning: "bosonic string theory", gender: "die", example: { de: "26D bosonische Stringtheorie.", en: "26D bosonic string theory." } },
+    { word: "die Superstringtheorie (I, IIA, IIB, HO, HE)", phonetic: "zoo-per-string-tay-oh-ree", meaning: "superstring theories (I, IIA, IIB, HO, HE)", gender: "die", example: { de: "Typ IIB Superstringtheorie.", en: "Type IIB superstring theory." } },
+    { word: "die M-Theorie (Witten)", phonetic: "em-tay-oh-ree", meaning: "M-theory (Witten, 11 dimensions)", gender: "die", example: { de: "Wittens M-Theorie 11 Dimensionen.", en: "Witten's M-theory 11 dimensions." } },
+    { word: "die D-Brane (Dirichlet-Brane)", phonetic: "dey-brayn", meaning: "D-brane (Dirichlet-brane)", gender: "die", example: { de: "D-Branen Grenzflächen.", en: "D-brane boundary conditions." } },
+    { word: "die Supergravitation (SUGRA)", phonetic: "zoo-per-gra-vi-ta-tsee-ohn", meaning: "supergravity (SUGRA)", gender: "die", example: { de: "11D Supergravitation.", en: "11D supergravity." } },
+    { word: "die Compactification (Calabi-Yau)", phonetic: "kom-pak-ti-fi-ka-tsee-ohn", meaning: "compactification (Calabi-Yau)", gender: "die", example: { de: "Calabi-Yau Compactification.", en: "Calabi-Yau compactification." } },
+    { word: "die Calabi-Yau-Mannigfaltigkeit", phonetic: "ka-la-bi-yow-ma-nikh-fal-tikh-kyte", meaning: "Calabi-Yau manifold", gender: "die", example: { de: "Calabi-Yau-Mannigfaltigkeit.", en: "Calabi-Yau manifold." } },
+    { word: "das AdS/CFT-Dualität (Maldacena)", phonetic: "ahd-es-tsey-ef-tey-doo-a-li-tayt", meaning: "AdS/CFT duality (Maldacena)", gender: "die", example: { de: "Maldacena AdS/CFT.", en: "Maldacena AdS/CFT." } },
+    { word: "die Holographieprinzip ('t Hooft/Susskind)", phonetic: "ho-lo-gra-fee-prin-tseep", meaning: "holographic principle ('t Hooft/Susskind)", gender: "das", example: { de: "Holographieprinzip.", en: "Holographic principle." } },
+    { word: "die S-Dualität (stark-schwach)", phonetic: "es-doo-a-li-tayt", meaning: "S-duality (strong-weak)", gender: "die", example: { de: "S-Dualität Typ I/HO.", en: "S-duality Type I/HO." } },
+    { word: "die T-Dualität (Kompaktifizierung)", phonetic: "tey-doo-a-li-tayt", meaning: "T-duality (compactification)", gender: "die", example: { de: "T-Dualität R↔1/R.", en: "T-duality R↔1/R." } },
+    { word: "die U-Dualität (M-Theorie)", phonetic: "oo-doo-a-li-tayt", meaning: "U-duality (M-theory)", gender: "die", example: { de: "U-Dualität M-Theorie.", en: "U-duality M-theory." } },
+    { word: "die Weltfläche (string worldsheet)", phonetic: "velt-flä-khuh", meaning: "worldsheet (string theory)", gender: "die", example: { de: "Weltfläche Sigma-Modell.", en: "Worldsheet sigma model." } },
+    { word: "das Sigma-Modell (konform invariant)", phonetic: "zig-mah-mo-del", meaning: "sigma model (conformally invariant)", gender: "das", example: { de: "Konformes Sigma-Modell.", en: "Conformal sigma model." } },
+    { word: "die konforme Feldtheorie (CFT)", phonetic: "kon-for-muh-felt-tay-oh-ree", meaning: "conformal field theory (CFT)", gender: "die", example: { de: "2D konforme Feldtheorie.", en: "2D conformal field theory." } },
+    { word: "die Flusslandschaft / String-Landschaft (Susskind)", phonetic: "floos-lant-shaft", meaning: "string landscape (Susskind)", gender: "die", example: { de: "Susskind String-Landschaft.", en: "Susskind string landscape." } },
+    { word: "das Multiverse (Anthropisches Prinzip)", phonetic: "mool-ti-ver-suh", meaning: "multiverse (anthropic principle)", gender: "das", example: { de: "Multiverse anthropisches Prinzip.", en: "Multiverse anthropic principle." } },
+    { word: "die Tachyon-Kondensation (bosonisch)", phonetic: "ta-khü-on-kon-den-za-tsee-ohn", meaning: "tachyon condensation (bosonic string)", gender: "die", example: { de: "Tachyon-Kondensation.", en: "Tachyon condensation." } },
+    { word: "die Swampland-Hypothesen (Vafa)", phonetic: "svamp-lant-hü-po-tey-zen", meaning: "Swampland conjectures (Vafa)", example: { de: "Vafa Swampland Vermutungen.", en: "Vafa swampland conjectures." } },
+  ]}] },
+};

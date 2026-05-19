@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega117: Record<string, Lesson> = {
+  "la2_m162": { id: "la2_m162", title: "Sports & Hobbies A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "der Sport", phonetic: "shport", meaning: "sport", gender: "der", example: { de: "Sport treiben.", en: "Do sport." } },
+    { word: "das Fußball", phonetic: "foos-bal", meaning: "football / soccer", gender: "der", example: { de: "Fußball spielen.", en: "Play football." } },
+    { word: "das Tennis", phonetic: "te-nis", meaning: "tennis", gender: "das", example: { de: "Tennis spielen.", en: "Play tennis." } },
+    { word: "das Schwimmen", phonetic: "shvi-men", meaning: "swimming", gender: "das", example: { de: "Im See schwimmen.", en: "Swim in the lake." } },
+    { word: "das Radfahren", phonetic: "rat-fah-ren", meaning: "cycling", gender: "das", example: { de: "Radfahren gehen.", en: "Go cycling." } },
+    { word: "das Laufen / Joggen", phonetic: "low-fen-yo-gen", meaning: "running / jogging", gender: "das", example: { de: "Jeden Morgen joggen.", en: "Jog every morning." } },
+    { word: "das Yoga", phonetic: "yo-gah", meaning: "yoga", gender: "das", example: { de: "Yoga machen.", en: "Do yoga." } },
+    { word: "das Klettern", phonetic: "kle-tern", meaning: "climbing", gender: "das", example: { de: "Berge klettern.", en: "Climb mountains." } },
+    { word: "das Ski fahren", phonetic: "shee-fah-ren", meaning: "skiing", gender: "das", example: { de: "In den Alpen Ski fahren.", en: "Ski in the Alps." } },
+    { word: "das Hobby", phonetic: "ho-bee", meaning: "hobby", gender: "das", example: { de: "Mein Lieblingshoby.", en: "My favourite hobby." } },
+    { word: "lesen", phonetic: "lay-zen", meaning: "to read", example: { de: "Bücher lesen.", en: "Read books." } },
+    { word: "Musik hören", phonetic: "moo-zeek-hö-ren", meaning: "to listen to music", example: { de: "Musik hören.", en: "Listen to music." } },
+    { word: "malen / zeichnen", phonetic: "mah-len-tsykh-nen", meaning: "to paint / draw", example: { de: "Bilder malen.", en: "Paint pictures." } },
+    { word: "kochen", phonetic: "ko-khen", meaning: "to cook", example: { de: "Gerne kochen.", en: "Like to cook." } },
+    { word: "reisen", phonetic: "ry-zen", meaning: "to travel", example: { de: "In der Welt reisen.", en: "Travel the world." } },
+    { word: "fotografieren", phonetic: "fo-to-gra-fee-ren", meaning: "to take photos", example: { de: "Natur fotografieren.", en: "Photograph nature." } },
+    { word: "Gitarre spielen", phonetic: "gi-ta-ruh-shpee-len", meaning: "to play guitar", example: { de: "Gitarre lernen.", en: "Learn guitar." } },
+    { word: "wandern", phonetic: "van-dern", meaning: "to hike", example: { de: "Im Wald wandern.", en: "Hike in the forest." } },
+    { word: "tanzen", phonetic: "tan-tsen", meaning: "to dance", example: { de: "Salsa tanzen.", en: "Dance salsa." } },
+    { word: "der Verein", phonetic: "fer-ayn", meaning: "club / association", gender: "der", example: { de: "Sportverein beitreten.", en: "Join a sports club." } },
+  ]}] },
+};
