@@ -155,6 +155,7 @@ import { lessonsA2Vocab2 } from "./lessons-a2-vocab2";
 import { lessonsA2Vocab3 } from "./lessons-a2-vocab3";
 import { lessonsA2Vocab4 } from "./lessons-a2-vocab4";
 import { lessonsA2Vocab5 } from "./lessons-a2-vocab5";
+import { lessonsA2Vocab6 } from "./lessons-a2-vocab6";
 import { lessonsA2Expand1 } from "./lessons-a2-expand1";
 import { lessonsA2Mega1 } from "./lessons-a2-mega1";
 import { lessonsA2Mega2 } from "./lessons-a2-mega2";
@@ -1004,6 +1005,7 @@ export const lessonData: Record<string, Lesson> = {
   ...lessonsA2Vocab3,
   ...lessonsA2Vocab4,
   ...lessonsA2Vocab5,
+  ...lessonsA2Vocab6,
   ...lessonsA2Expand1,
   ...lessonsA2Mega1,
   ...lessonsA2Mega2,
