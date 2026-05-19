@@ -10,11 +10,25 @@ import { useSpeechSynthesis } from "@/hooks/useSpeechSynthesis";
 import { OrganicPulse } from "@/components/OrganicPulse";
 import { useProgressStore } from "@/store/useProgressStore";
 import { lessonData } from "@/data/lessons";
+import { createClient } from "@/lib/supabase";
 
 export default function TutorPage() {
   const { speak, stop, isSpeaking: isTtsSpeaking, isSupported: isTtsSupported } = useSpeechSynthesis();
   const { lessons: lessonProgress, xp, streak, level } = useProgressStore();
   const [hydrated, setHydrated] = useState(false);
+  const [authToken, setAuthToken] = useState<string | null>(null);
+
+  // Fetch Supabase session token for API auth
+  useEffect(() => {
+    const supabase = createClient();
+    supabase.auth.getSession().then(({ data }) => {
+      setAuthToken(data.session?.access_token ?? null);
+    });
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+      setAuthToken(session?.access_token ?? null);
+    });
+    return () => subscription.unsubscribe();
+  }, []);
 
   // Wait for Zustand persist to finish loading from localStorage
   useEffect(() => {
@@ -142,6 +156,8 @@ export default function TutorPage() {
   useEffect(() => { progressRef.current = progressSummary; }, [progressSummary]);
 
   const chatHelpers = useChat({
+    api: "/api/chat",
+    headers: authToken ? { Authorization: `Bearer ${authToken}` } : undefined,
     body: { scenario: activeScenario },
     messages: [
       {

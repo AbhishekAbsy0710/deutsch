@@ -1,7 +1,5 @@
 import { streamText } from "ai";
 import { createGroq } from "@ai-sdk/groq";
-import { createServerClient } from "@supabase/ssr";
-import { cookies } from "next/headers";
 import { NextRequest } from "next/server";
 
 export const maxDuration = 30;
@@ -168,19 +166,33 @@ RULES:
 - If no progress data, start at A1 level`;
 
 export async function POST(req: NextRequest) {
-  // ── Auth guard ─────────────────────────────────────────────
-  try {
-    const cookieStore = await cookies();
-    const supabase = createServerClient(
-      process.env.NEXT_PUBLIC_SUPABASE_URL!,
-      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-      { cookies: { getAll: () => cookieStore.getAll(), setAll: () => {} } }
-    );
-    const { data: { user } } = await supabase.auth.getUser();
-    if (!user) {
-      return new Response(JSON.stringify({ error: "Unauthorized" }), { status: 401, headers: { "Content-Type": "application/json" } });
+  // ── Auth guard (edge-compatible: check Authorization Bearer token) ──
+  const authHeader = req.headers.get("authorization");
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  if (supabaseUrl && supabaseKey) {
+    const token = authHeader?.startsWith("Bearer ") ? authHeader.slice(7) : null;
+    if (!token) {
+      return new Response(JSON.stringify({ error: "Unauthorized" }), {
+        status: 401,
+        headers: { "Content-Type": "application/json" },
+      });
     }
-  } catch { /* edge runtime — skip cookie auth but still allow if env not set */ }
+    // Verify token with Supabase
+    try {
+      const res = await fetch(`${supabaseUrl}/auth/v1/user`, {
+        headers: { Authorization: `Bearer ${token}`, apikey: supabaseKey },
+      });
+      if (!res.ok) {
+        return new Response(JSON.stringify({ error: "Unauthorized" }), {
+          status: 401,
+          headers: { "Content-Type": "application/json" },
+        });
+      }
+    } catch {
+      // If Supabase is unreachable, allow through (graceful degradation)
+    }
+  }
 
   const body = await req.json();
   const { messages, scenario } = body;
