@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega117: Record<string, Lesson> = {
+  "la1_m167": { id: "la1_m167", title: "Clothes & Fashion A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Hemd", phonetic: "hemt", meaning: "shirt", gender: "das", example: { de: "Weißes Hemd.", en: "White shirt." } },
+    { word: "die Bluse", phonetic: "bloo-zuh", meaning: "blouse", gender: "die", example: { de: "Seidene Bluse.", en: "Silk blouse." } },
+    { word: "die Hose", phonetic: "hoh-zuh", meaning: "trousers / pants", gender: "die", example: { de: "Jeans-Hose.", en: "Jeans trousers." } },
+    { word: "der Rock", phonetic: "rok", meaning: "skirt", gender: "der", example: { de: "Kurzer Rock.", en: "Short skirt." } },
+    { word: "das Kleid", phonetic: "klyt", meaning: "dress", gender: "das", example: { de: "Sommerkleid.", en: "Summer dress." } },
+    { word: "der Anzug", phonetic: "an-tsook", meaning: "suit", gender: "der", example: { de: "Dunkler Anzug.", en: "Dark suit." } },
+    { word: "die Jacke", phonetic: "ya-kuh", meaning: "jacket", gender: "die", example: { de: "Warme Jacke.", en: "Warm jacket." } },
+    { word: "der Mantel", phonetic: "man-tel", meaning: "coat", gender: "der", example: { de: "Wintermantel.", en: "Winter coat." } },
+    { word: "der Pullover", phonetic: "poo-lo-ver", meaning: "pullover / jumper", gender: "der", example: { de: "Wollpullover.", en: "Wool jumper." } },
+    { word: "das T-Shirt", phonetic: "tee-shirt", meaning: "T-shirt", gender: "das", example: { de: "Buntes T-Shirt.", en: "Colourful T-shirt." } },
+    { word: "die Socken", phonetic: "zo-ken", meaning: "socks", example: { de: "Wollsocken.", en: "Wool socks." } },
+    { word: "die Schuhe", phonetic: "shoo-uh", meaning: "shoes", example: { de: "Neue Schuhe.", en: "New shoes." } },
+    { word: "die Stiefel", phonetic: "shtee-fel", meaning: "boots", example: { de: "Lederstiefel.", en: "Leather boots." } },
+    { word: "die Mütze", phonetic: "mü-tsuh", meaning: "hat / cap (winter)", gender: "die", example: { de: "Wollmütze.", en: "Wool hat." } },
+    { word: "der Schal", phonetic: "shahl", meaning: "scarf", gender: "der", example: { de: "Langer Schal.", en: "Long scarf." } },
+    { word: "die Handschuhe", phonetic: "hant-shoo-uh", meaning: "gloves", example: { de: "Warme Handschuhe.", en: "Warm gloves." } },
+    { word: "tragen (Kleidung)", phonetic: "trah-gen", meaning: "to wear (clothing)", example: { de: "Ich trage ein Hemd.", en: "I am wearing a shirt." } },
+    { word: "anziehen", phonetic: "an-tsee-hen", meaning: "to put on (clothes)", example: { de: "Jacke anziehen.", en: "Put on a jacket." } },
+    { word: "ausziehen", phonetic: "ows-tsee-hen", meaning: "to take off (clothes)", example: { de: "Schuhe ausziehen.", en: "Take off shoes." } },
+    { word: "Welche Farbe?", phonetic: "vel-khuh-far-buh", meaning: "What colour?", example: { de: "Welche Farbe magst du?", en: "What colour do you like?" } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega117: Record<string, Lesson> = {
+  "lb2_m162": { id: "lb2_m162", title: "Epidemiology & Public Health B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Epidemiologie", phonetic: "e-pi-de-mee-oh-lo-gee", meaning: "epidemiology", gender: "die", example: { de: "Klinische Epidemiologie.", en: "Clinical epidemiology." } },
+    { word: "die Pandemie", phonetic: "pan-de-mee", meaning: "pandemic", gender: "die", example: { de: "COVID-19-Pandemie.", en: "COVID-19 pandemic." } },
+    { word: "die Epidemie", phonetic: "e-pi-de-mee", meaning: "epidemic", gender: "die", example: { de: "Regionale Epidemie.", en: "Regional epidemic." } },
+    { word: "die Inzidenzrate", phonetic: "in-tsi-dents-rah-tuh", meaning: "incidence rate", gender: "die", example: { de: "Inzidenzrate pro 100.000.", en: "Incidence rate per 100,000." } },
+    { word: "die Prävalenz", phonetic: "prä-va-lents", meaning: "prevalence", gender: "die", example: { de: "Punktprävalenz.", en: "Point prevalence." } },
+    { word: "die Herdenimmunität", phonetic: "her-den-i-moo-ni-tayt", meaning: "herd immunity", gender: "die", example: { de: "Herdenimmunität Schwellenwert.", en: "Herd immunity threshold." } },
+    { word: "der Reproduktionszahl (R-Wert)", phonetic: "re-pro-dook-tsee-ohns-tsahl", meaning: "reproduction number (R-value)", gender: "die", example: { de: "R-Wert unter 1.", en: "R-value below 1." } },
+    { word: "die Übertragungsrate", phonetic: "ü-ber-trah-gungs-rah-tuh", meaning: "transmission rate", gender: "die", example: { de: "Übertragungsrate senken.", en: "Reduce transmission rate." } },
+    { word: "der Infektionsweg", phonetic: "in-fek-tsee-ohns-veg", meaning: "route of transmission", gender: "der", example: { de: "Aerosol-Infektionsweg.", en: "Aerosol transmission route." } },
+    { word: "die Quarantäne", phonetic: "kva-ran-tey-nuh", meaning: "quarantine", gender: "die", example: { de: "14-tägige Quarantäne.", en: "14-day quarantine." } },
+    { word: "der Impfstoff", phonetic: "impf-shtof", meaning: "vaccine", gender: "der", example: { de: "mRNA-Impfstoff.", en: "mRNA vaccine." } },
+    { word: "die Impfquote", phonetic: "impf-kvo-tuh", meaning: "vaccination rate", gender: "die", example: { de: "Hohe Impfquote.", en: "High vaccination rate." } },
+    { word: "die klinische Studie (RCT)", phonetic: "kli-ni-shuh-shtoo-dee-uh", meaning: "clinical trial (RCT)", gender: "die", example: { de: "Randomisierte klinische Studie.", en: "Randomised clinical trial." } },
+    { word: "der Confounder (Störgröße)", phonetic: "kon-fown-der", meaning: "confounder", gender: "der", example: { de: "Epidemiologischer Confounder.", en: "Epidemiological confounder." } },
+    { word: "die Kohortenstudie", phonetic: "ko-hor-ten-shtoo-dee-uh", meaning: "cohort study", gender: "die", example: { de: "Prospektive Kohortenstudie.", en: "Prospective cohort study." } },
+    { word: "die Fall-Kontroll-Studie", phonetic: "fal-kon-trol-shtoo-dee-uh", meaning: "case-control study", gender: "die", example: { de: "Retrospektive Fall-Kontroll-Studie.", en: "Retrospective case-control study." } },
+    { word: "das relative Risiko (RR)", phonetic: "re-la-tee-vuh-ri-zi-ko", meaning: "relative risk (RR)", gender: "das", example: { de: "Relatives Risiko RR=2.", en: "Relative risk RR=2." } },
+    { word: "das Odds Ratio (OR)", phonetic: "ots-rah-tsee-oh", meaning: "odds ratio (OR)", gender: "das", example: { de: "Odds Ratio OR=1.5.", en: "Odds ratio OR=1.5." } },
+    { word: "die öffentliche Gesundheit", phonetic: "öf-fent-li-khuh-geh-zoont-hyte", meaning: "public health", gender: "die", example: { de: "Öffentliche Gesundheit WHO.", en: "Public health WHO." } },
+    { word: "die Gesundheitsprävention", phonetic: "geh-zoont-hyts-prä-ven-tsee-ohn", meaning: "health prevention", gender: "die", example: { de: "Primärprävention Risikofaktoren.", en: "Primary prevention risk factors." } },
+  ]}] },
+};

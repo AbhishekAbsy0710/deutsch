@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega115: Record<string, Lesson> = {
+  "lc2_m158": { id: "lc2_m158", title: "Global Analysis & Atiyah-Singer Index Theory C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "der Atiyah-Singer-Indexsatz", phonetic: "a-tee-ah-zing-er-in-deks-zats", meaning: "Atiyah-Singer index theorem", gender: "der", example: { de: "Atiyah-Singer Indexsatz.", en: "Atiyah-Singer index theorem." } },
+    { word: "der analytische Index (Dirac)", phonetic: "a-na-lü-ti-shuh-in-deks", meaning: "analytical index (Dirac operator)", gender: "der", example: { de: "Analytischer Index Dirac-Operator.", en: "Analytical index Dirac operator." } },
+    { word: "der topologische Index (K-Theorie)", phonetic: "to-po-lo-gi-shuh-in-deks", meaning: "topological index (K-theory)", gender: "der", example: { de: "Topologischer Index K-Theorie.", en: "Topological index K-theory." } },
+    { word: "der Dirac-Operator", phonetic: "di-rak-o-pe-rah-tor", meaning: "Dirac operator", gender: "der", example: { de: "Spin-Dirac-Operator.", en: "Spin Dirac operator." } },
+    { word: "die Spinstruktur", phonetic: "shpin-shtrook-toor", meaning: "spin structure", gender: "die", example: { de: "Spin^c-Struktur.", en: "Spin^c structure." } },
+    { word: "das Spinorbündel", phonetic: "shpi-nor-bün-del", meaning: "spinor bundle", gender: "das", example: { de: "Spinorbündel Mannigfaltigkeit.", en: "Spinor bundle manifold." } },
+    { word: "die elliptische Differentialoperator", phonetic: "e-lip-ti-shuh-di-fe-ren-tsee-ahl-o-pe-rah-tor", meaning: "elliptic differential operator", gender: "der", example: { de: "Elliptischer Differentialoperator.", en: "Elliptic differential operator." } },
+    { word: "das Symbol eines Operators", phonetic: "züm-bol-ey-nes-o-pe-rah-tors", meaning: "principal symbol of an operator", gender: "das", example: { de: "Hauptsymbol des Operators.", en: "Principal symbol of the operator." } },
+    { word: "das Fredholm-Operator", phonetic: "fred-holm-o-pe-rah-tor", meaning: "Fredholm operator", gender: "der", example: { de: "Fredholm-Operator Index.", en: "Fredholm operator index." } },
+    { word: "der Kern / Kokern (Operator)", phonetic: "kern-ko-kern", meaning: "kernel / cokernel (operator)", gender: "der", example: { de: "Kern und Kokern des Operators.", en: "Kernel and cokernel of the operator." } },
+    { word: "die Chern-Weil-Theorie", phonetic: "shern-veyl-tay-oh-ree", meaning: "Chern-Weil theory", gender: "die", example: { de: "Chern-Weil Charakteristische Klassen.", en: "Chern-Weil characteristic classes." } },
+    { word: "die Pontryagin-Klasse", phonetic: "pont-rya-gin-kla-suh", meaning: "Pontryagin class", gender: "die", example: { de: "Pontryagin-Klasse p_i.", en: "Pontryagin class p_i." } },
+    { word: "das Todd-Geschlecht", phonetic: "tot-geh-shlekht", meaning: "Todd genus", gender: "das", example: { de: "Todd-Geschlecht td(X).", en: "Todd genus td(X)." } },
+    { word: "das Â-Geschlecht (Dirac)", phonetic: "a-dakh-geh-shlekht", meaning: "Â-genus / hat-A genus", gender: "das", example: { de: "Â-Geschlecht Dirac.", en: "Â-genus Dirac." } },
+    { word: "der Hirzebruch-Riemann-Roch-Satz", phonetic: "hirts-brookh-ree-man-rokh-zats", meaning: "Hirzebruch-Riemann-Roch theorem", gender: "der", example: { de: "Hirzebruch-Riemann-Roch Satz.", en: "Hirzebruch-Riemann-Roch theorem." } },
+    { word: "die Wärmegleichung (Index)", phonetic: "vä-ruh-gly-khung", meaning: "heat equation method (index)", gender: "die", example: { de: "Wärmegleichungsmethode Atiyah.", en: "Heat equation method Atiyah." } },
+    { word: "die Eta-Invariante (Atiyah-Patodi-Singer)", phonetic: "ey-tah-in-var-ee-an-tuh", meaning: "eta invariant (APS)", gender: "die", example: { de: "APS eta-Invariante.", en: "APS eta invariant." } },
+    { word: "der APS-Indexsatz (Rand)", phonetic: "ah-pay-es-in-deks-zats", meaning: "APS index theorem (boundary)", gender: "der", example: { de: "Atiyah-Patodi-Singer Randindexsatz.", en: "Atiyah-Patodi-Singer boundary index theorem." } },
+    { word: "die Gromov-Lawson-Theorie (positive Skalarkrümmung)", phonetic: "gro-mov-low-son-tay-oh-ree", meaning: "Gromov-Lawson theory (positive scalar curvature)", gender: "die", example: { de: "Gromov-Lawson Positivkrümmung.", en: "Gromov-Lawson positive curvature." } },
+    { word: "die Witten-Deformation (supersymmetrisch)", phonetic: "vi-ten-de-for-ma-tsee-ohn", meaning: "Witten deformation (SUSY)", gender: "die", example: { de: "Witten supersymmetrische Deformation.", en: "Witten supersymmetric deformation." } },
+  ]}] },
+};

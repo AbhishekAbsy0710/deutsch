@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega116: Record<string, Lesson> = {
+  "la2_m161": { id: "la2_m161", title: "German Geography & Federal States A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Bundesland", phonetic: "boon-des-lant", meaning: "federal state (Germany)", gender: "das", example: { de: "16 Bundesländer.", en: "16 federal states." } },
+    { word: "Bayern (München)", phonetic: "by-ern", meaning: "Bavaria (Munich)", example: { de: "Bayern im Süden Deutschlands.", en: "Bavaria in southern Germany." } },
+    { word: "Berlin (Hauptstadt)", phonetic: "ber-leen", meaning: "Berlin (capital city)", example: { de: "Berlin Hauptstadt Deutschlands.", en: "Berlin capital of Germany." } },
+    { word: "Hamburg (Hafenstadt)", phonetic: "ham-boork", meaning: "Hamburg (port city)", example: { de: "Hamburg Hafenstadt im Norden.", en: "Hamburg port city in the north." } },
+    { word: "Nordrhein-Westfalen (Köln/Düsseldorf)", phonetic: "nort-ryn-vest-fah-len", meaning: "North Rhine-Westphalia", example: { de: "Nordrhein-Westfalen größtes Bundesland.", en: "NRW largest federal state." } },
+    { word: "Baden-Württemberg (Stuttgart)", phonetic: "bah-den-vür-tem-berk", meaning: "Baden-Württemberg (Stuttgart)", example: { de: "Baden-Württemberg im Süden.", en: "Baden-Württemberg in the south." } },
+    { word: "Sachsen (Dresden/Leipzig)", phonetic: "zak-sen", meaning: "Saxony (Dresden/Leipzig)", example: { de: "Sachsen in Ostdeutschland.", en: "Saxony in eastern Germany." } },
+    { word: "der Rhein (Fluss)", phonetic: "ryn", meaning: "Rhine (river)", gender: "der", example: { de: "Rhein wichtigster Fluss.", en: "Rhine most important river." } },
+    { word: "die Elbe (Fluss)", phonetic: "el-buh", meaning: "Elbe (river)", gender: "die", example: { de: "Elbe fließt durch Hamburg.", en: "Elbe flows through Hamburg." } },
+    { word: "die Mosel (Weinregion)", phonetic: "mo-zel", meaning: "Moselle (wine region)", gender: "die", example: { de: "Mosel Weinregion.", en: "Moselle wine region." } },
+    { word: "die Alpen (Gebirge)", phonetic: "al-pen", meaning: "Alps (mountains)", example: { de: "Alpen in Bayern.", en: "Alps in Bavaria." } },
+    { word: "der Schwarzwald", phonetic: "shvarts-valt", meaning: "Black Forest", gender: "der", example: { de: "Schwarzwald in Baden-Württemberg.", en: "Black Forest in Baden-Württemberg." } },
+    { word: "die Nordsee", phonetic: "nort-zey", meaning: "North Sea", gender: "die", example: { de: "Nordsee im Norden.", en: "North Sea in the north." } },
+    { word: "die Ostsee", phonetic: "ost-zey", meaning: "Baltic Sea", gender: "die", example: { de: "Ostsee im Nordosten.", en: "Baltic Sea in the northeast." } },
+    { word: "die Zugspitze (höchster Berg)", phonetic: "tsook-shpi-tsuh", meaning: "Zugspitze (highest mountain)", gender: "die", example: { de: "Zugspitze höchster Gipfel.", en: "Zugspitze highest summit." } },
+    { word: "Österreich (Nachbarland)", phonetic: "ös-ter-ryakh", meaning: "Austria (neighbouring country)", example: { de: "Österreich südliches Nachbarland.", en: "Austria southern neighbour." } },
+    { word: "die Schweiz (Nachbarland)", phonetic: "shvyts", meaning: "Switzerland (neighbour)", gender: "die", example: { de: "Schweiz westliches Nachbarland.", en: "Switzerland western neighbour." } },
+    { word: "Frankreich (Nachbarland)", phonetic: "frank-ryakh", meaning: "France (neighbour)", example: { de: "Frankreich westliches Nachbarland.", en: "France western neighbour." } },
+    { word: "die Hauptstadt", phonetic: "howpt-shtaht", meaning: "capital city", gender: "die", example: { de: "Berlin ist die Hauptstadt.", en: "Berlin is the capital city." } },
+    { word: "das Bundesland-Wappen", phonetic: "boon-des-lant-va-pen", meaning: "state coat of arms", gender: "das", example: { de: "Bayerisches Bundesland-Wappen.", en: "Bavarian state coat of arms." } },
+  ]}] },
+};

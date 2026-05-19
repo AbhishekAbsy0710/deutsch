@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega115: Record<string, Lesson> = {
+  "la1_m165": { id: "la1_m165", title: "At the Restaurant A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "das Restaurant", phonetic: "res-to-rang", meaning: "restaurant", gender: "das", example: { de: "Im Restaurant essen.", en: "Eat at the restaurant." } },
+    { word: "die Speisekarte", phonetic: "shpy-zuh-kar-tuh", meaning: "menu", gender: "die", example: { de: "Speisekarte bitte.", en: "The menu, please." } },
+    { word: "bestellen", phonetic: "beh-shte-len", meaning: "to order", example: { de: "Ich möchte bestellen.", en: "I would like to order." } },
+    { word: "das Gericht", phonetic: "geh-rikht", meaning: "dish / meal", gender: "das", example: { de: "Das Tagesgericht.", en: "The dish of the day." } },
+    { word: "die Vorspeise", phonetic: "for-shpy-zuh", meaning: "starter / appetiser", gender: "die", example: { de: "Suppe als Vorspeise.", en: "Soup as a starter." } },
+    { word: "das Hauptgericht", phonetic: "howpt-geh-rikht", meaning: "main course", gender: "das", example: { de: "Das Hauptgericht bitte.", en: "The main course, please." } },
+    { word: "die Nachspeise / das Dessert", phonetic: "nakh-shpy-zuh-de-sert", meaning: "dessert", gender: "die", example: { de: "Schokoladeneis als Nachspeise.", en: "Chocolate ice cream for dessert." } },
+    { word: "der Kellner / die Kellnerin", phonetic: "kel-ner", meaning: "waiter / waitress", gender: "der", example: { de: "Den Kellner rufen.", en: "Call the waiter." } },
+    { word: "die Rechnung", phonetic: "rekh-nung", meaning: "bill / check", gender: "die", example: { de: "Die Rechnung bitte.", en: "The bill, please." } },
+    { word: "Zahlen bitte!", phonetic: "tsah-len-bi-tuh", meaning: "I'd like to pay, please!", example: { de: "Zahlen bitte!", en: "I'd like to pay, please!" } },
+    { word: "das Trinkgeld", phonetic: "trink-gelt", meaning: "tip (gratuity)", gender: "das", example: { de: "Trinkgeld geben.", en: "Give a tip." } },
+    { word: "Zusammen oder getrennt?", phonetic: "tsoo-za-men-oh-der-geh-trent", meaning: "Together or separate (bill)?", example: { de: "Zusammen oder getrennt?", en: "Together or separate?" } },
+    { word: "das Wasser (Mineral)", phonetic: "va-ser", meaning: "water (mineral)", gender: "das", example: { de: "Ein Mineralwasser bitte.", en: "A mineral water, please." } },
+    { word: "das Bier", phonetic: "beer", meaning: "beer", gender: "das", example: { de: "Ein Bier bitte.", en: "A beer, please." } },
+    { word: "der Wein", phonetic: "vyn", meaning: "wine", gender: "der", example: { de: "Ein Glas Wein.", en: "A glass of wine." } },
+    { word: "der Kaffee", phonetic: "ka-fey", meaning: "coffee", gender: "der", example: { de: "Einen Kaffee bitte.", en: "A coffee, please." } },
+    { word: "vegetarisch", phonetic: "ve-ge-tah-rish", meaning: "vegetarian", example: { de: "Vegetarisches Gericht.", en: "Vegetarian dish." } },
+    { word: "lecker", phonetic: "le-ker", meaning: "delicious / tasty", example: { de: "Das Essen ist lecker.", en: "The food is delicious." } },
+    { word: "Ich habe Hunger.", phonetic: "ikh-hah-buh-hoon-ger", meaning: "I am hungry.", example: { de: "Ich habe Hunger.", en: "I am hungry." } },
+    { word: "Guten Appetit!", phonetic: "goo-ten-a-pe-teet", meaning: "Enjoy your meal!", example: { de: "Guten Appetit!", en: "Enjoy your meal!" } },
+  ]}] },
+};

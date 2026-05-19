@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega119: Record<string, Lesson> = {
+  "lb1_m170": { id: "lb1_m170", title: "Environmental Policy & Green Economy B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Umweltpolitik", phonetic: "oom-velt-po-li-tik", meaning: "environmental policy", gender: "die", example: { de: "EU-Umweltpolitik.", en: "EU environmental policy." } },
+    { word: "der Klimaschutz", phonetic: "klee-mah-shoots", meaning: "climate protection", gender: "der", example: { de: "Internationaler Klimaschutz.", en: "International climate protection." } },
+    { word: "das Pariser Klimaabkommen", phonetic: "pa-ree-zer-klee-mah-ap-ko-men", meaning: "Paris Climate Agreement", gender: "das", example: { de: "Pariser Klimaabkommen 2015.", en: "Paris Climate Agreement 2015." } },
+    { word: "die CO₂-Emissionen", phonetic: "tsey-oh-tsvy-e-mi-see-oh-nen", meaning: "CO₂ emissions", example: { de: "CO₂-Emissionen reduzieren.", en: "Reduce CO₂ emissions." } },
+    { word: "die Energiewende (Deutschland)", phonetic: "e-ner-gee-ven-duh", meaning: "energy transition (Germany)", gender: "die", example: { de: "Deutsche Energiewende.", en: "German energy transition." } },
+    { word: "die erneuerbare Energie", phonetic: "er-noy-er-bah-ruh-e-ner-gee", meaning: "renewable energy", gender: "die", example: { de: "Erneuerbare Energien Wind/Solar.", en: "Renewable energy wind/solar." } },
+    { word: "die Solarenergie", phonetic: "zo-lar-e-ner-gee", meaning: "solar energy", gender: "die", example: { de: "Photovoltaik Solarenergie.", en: "Photovoltaic solar energy." } },
+    { word: "die Windenergie", phonetic: "vint-e-ner-gee", meaning: "wind energy", gender: "die", example: { de: "Offshore-Windenergie.", en: "Offshore wind energy." } },
+    { word: "der CO₂-Handel (Emissionshandel)", phonetic: "tsey-oh-tsvy-han-del", meaning: "carbon trading (ETS)", gender: "der", example: { de: "EU-Emissionshandel ETS.", en: "EU emissions trading ETS." } },
+    { word: "die Kreislaufwirtschaft", phonetic: "krys-lowf-virt-shaft", meaning: "circular economy", gender: "die", example: { de: "EU-Kreislaufwirtschaft.", en: "EU circular economy." } },
+    { word: "die Green Economy", phonetic: "green-e-co-no-my", meaning: "green economy", gender: "die", example: { de: "UNEP Green Economy.", en: "UNEP green economy." } },
+    { word: "das Green New Deal (EU)", phonetic: "green-nyoo-deel", meaning: "European Green Deal", gender: "der", example: { de: "EU Green New Deal.", en: "EU Green New Deal." } },
+    { word: "die Biodiversität (Schutz)", phonetic: "bi-oh-di-ver-zi-tayt", meaning: "biodiversity (conservation)", gender: "die", example: { de: "Biodiversitätsschutz.", en: "Biodiversity conservation." } },
+    { word: "das Schutzgebiet (Naturschutz)", phonetic: "shoots-geh-beet", meaning: "protected area (nature reserve)", gender: "das", example: { de: "Naturschutzgebiet.", en: "Nature reserve." } },
+    { word: "das Recycling", phonetic: "re-sü-kling", meaning: "recycling", gender: "das", example: { de: "Recycling Mülltrennung.", en: "Recycling waste separation." } },
+    { word: "die Mülltrennung", phonetic: "mül-tre-nung", meaning: "waste separation (Germany)", gender: "die", example: { de: "Deutsche Mülltrennung.", en: "German waste separation." } },
+    { word: "der ökologische Fußabdruck", phonetic: "ö-ko-lo-gi-shuh-foos-ap-drook", meaning: "ecological footprint", gender: "der", example: { de: "Persönlicher Fußabdruck.", en: "Personal ecological footprint." } },
+    { word: "nachhaltig", phonetic: "nakh-hal-tikh", meaning: "sustainable", example: { de: "Nachhaltiges Wirtschaften.", en: "Sustainable economy." } },
+    { word: "die Klimagerechtigkeit", phonetic: "klee-mah-geh-rekh-tikh-kyte", meaning: "climate justice", gender: "die", example: { de: "Globale Klimagerechtigkeit.", en: "Global climate justice." } },
+    { word: "die Entwaldung", phonetic: "ent-val-dung", meaning: "deforestation", gender: "die", example: { de: "Amazonas-Entwaldung.", en: "Amazon deforestation." } },
+  ]}] },
+};

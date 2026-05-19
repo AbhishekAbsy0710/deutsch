@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega118: Record<string, Lesson> = {
+  "lb1_m169": { id: "lb1_m169", title: "Human Geography & Urbanisation B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Humangeographie", phonetic: "hoo-man-gay-oh-gra-fee", meaning: "human geography", gender: "die", example: { de: "Kulturelle Humangeographie.", en: "Cultural human geography." } },
+    { word: "die Urbanisierung", phonetic: "oor-ba-ni-zee-rung", meaning: "urbanisation", gender: "die", example: { de: "Globale Urbanisierung.", en: "Global urbanisation." } },
+    { word: "die Metropole", phonetic: "me-tro-po-luh", meaning: "metropolis / mega-city", gender: "die", example: { de: "Globale Metropole.", en: "Global metropolis." } },
+    { word: "die Megastadt", phonetic: "me-ga-shtaht", meaning: "megacity (10m+)", gender: "die", example: { de: "Megastadt Tokio.", en: "Megacity Tokyo." } },
+    { word: "das Hinterland", phonetic: "hin-ter-lant", meaning: "hinterland / rural area", gender: "das", example: { de: "Städtisches Hinterland.", en: "Urban hinterland." } },
+    { word: "die Suburbanisierung", phonetic: "zoo-oor-ba-ni-zee-rung", meaning: "suburbanisation", gender: "die", example: { de: "Suburbanisierung Stadtrand.", en: "Suburbanisation city edge." } },
+    { word: "die Reurbanisierung", phonetic: "re-oor-ba-ni-zee-rung", meaning: "re-urbanisation", gender: "die", example: { de: "Reurbanisierung Innenstadt.", en: "Re-urbanisation inner city." } },
+    { word: "die Gentrification", phonetic: "gen-tri-fi-ka-tsee-ohn", meaning: "gentrification", gender: "die", example: { de: "Gentrification Stadtteile.", en: "Gentrification city districts." } },
+    { word: "der Slum / Informelle Siedlung", phonetic: "slum-in-for-mel-uh-zee-dlung", meaning: "slum / informal settlement", gender: "der", example: { de: "Informelle Siedlung Global South.", en: "Informal settlement Global South." } },
+    { word: "die Segregation (räumlich)", phonetic: "ze-gre-ga-tsee-ohn", meaning: "residential segregation", gender: "die", example: { de: "Räumliche Segregation.", en: "Spatial segregation." } },
+    { word: "das Stadtquartier", phonetic: "shtaht-kvar-teer", meaning: "city district / quarter", gender: "das", example: { de: "Multikulturelles Stadtquartier.", en: "Multicultural city district." } },
+    { word: "die Stadtplanung", phonetic: "shtaht-plah-nung", meaning: "urban planning", gender: "die", example: { de: "Nachhaltige Stadtplanung.", en: "Sustainable urban planning." } },
+    { word: "die Infrastruktur (städtisch)", phonetic: "in-fra-shtrook-toor", meaning: "urban infrastructure", gender: "die", example: { de: "Städtische Infrastruktur.", en: "Urban infrastructure." } },
+    { word: "der öffentliche Nahverkehr (ÖPNV)", phonetic: "öf-fent-li-khuh-nah-fer-keyr", meaning: "public transport (local)", gender: "der", example: { de: "ÖPNV Bus/Bahn.", en: "Public transport bus/rail." } },
+    { word: "die Landflucht", phonetic: "lant-flookht", meaning: "rural exodus / urban migration", gender: "die", example: { de: "Landflucht in Entwicklungsländer.", en: "Rural exodus in developing countries." } },
+    { word: "die Bevölkerungsdichte", phonetic: "beh-völ-ke-rungs-dikh-tuh", meaning: "population density", gender: "die", example: { de: "Hohe Bevölkerungsdichte.", en: "High population density." } },
+    { word: "der demographische Wandel", phonetic: "de-mo-gra-fi-shuh-van-del", meaning: "demographic change", gender: "der", example: { de: "Demographischer Wandel Europa.", en: "Demographic change Europe." } },
+    { word: "die Smart City", phonetic: "smart-si-tee", meaning: "smart city", gender: "die", example: { de: "Smart City digitale Infrastruktur.", en: "Smart city digital infrastructure." } },
+    { word: "die Stadtentwicklung", phonetic: "shtaht-ent-vik-lung", meaning: "urban development", gender: "die", example: { de: "Nachhaltige Stadtentwicklung.", en: "Sustainable urban development." } },
+    { word: "die Wohnungsnot", phonetic: "voh-nungs-not", meaning: "housing shortage", gender: "die", example: { de: "Städtische Wohnungsnot.", en: "Urban housing shortage." } },
+  ]}] },
+};

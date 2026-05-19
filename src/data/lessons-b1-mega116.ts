@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega116: Record<string, Lesson> = {
+  "lb1_m167": { id: "lb1_m167", title: "Psychology of Motivation B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Motivationspsychologie", phonetic: "mo-ti-va-tsee-ohns-psü-kho-lo-gee", meaning: "psychology of motivation", gender: "die", example: { de: "Motivationspsychologische Forschung.", en: "Psychology of motivation research." } },
+    { word: "die Motivation", phonetic: "mo-ti-va-tsee-ohn", meaning: "motivation", gender: "die", example: { de: "Intrinsische Motivation.", en: "Intrinsic motivation." } },
+    { word: "die intrinsische Motivation", phonetic: "in-trin-zi-shuh-mo-ti-va-tsee-ohn", meaning: "intrinsic motivation", gender: "die", example: { de: "Innere intrinsische Motivation.", en: "Inner intrinsic motivation." } },
+    { word: "die extrinsische Motivation", phonetic: "eks-trin-zi-shuh-mo-ti-va-tsee-ohn", meaning: "extrinsic motivation", gender: "die", example: { de: "Belohnung extrinsische Motivation.", en: "Reward extrinsic motivation." } },
+    { word: "die Maslowsche Bedürfnispyramide", phonetic: "mas-lo-shuh-beh-dürf-nis-pü-ra-mee-duh", meaning: "Maslow's hierarchy of needs", gender: "die", example: { de: "Maslows Bedürfnispyramide.", en: "Maslow's hierarchy of needs." } },
+    { word: "das Bedürfnis", phonetic: "beh-dürf-nis", meaning: "need / requirement", gender: "das", example: { de: "Grundlegendes Bedürfnis.", en: "Basic need." } },
+    { word: "die Selbstverwirklichung (Maslow)", phonetic: "zelpts-fer-virk-li-khung", meaning: "self-actualisation (Maslow)", gender: "die", example: { de: "Maslows Selbstverwirklichung.", en: "Maslow's self-actualisation." } },
+    { word: "die Selbstbestimmungstheorie (Deci/Ryan)", phonetic: "zelpts-beh-shti-mungs-tay-oh-ree", meaning: "self-determination theory (Deci/Ryan)", gender: "die", example: { de: "Deci-Ryan Selbstbestimmungstheorie.", en: "Deci-Ryan self-determination theory." } },
+    { word: "die Kompetenz (SDT)", phonetic: "kom-pe-tents", meaning: "competence (SDT)", gender: "die", example: { de: "Kompetenz-Erleben SDT.", en: "Competence experience SDT." } },
+    { word: "die Autonomie (SDT)", phonetic: "ow-to-no-mee", meaning: "autonomy (SDT)", gender: "die", example: { de: "Autonomie-Erleben SDT.", en: "Autonomy experience SDT." } },
+    { word: "die soziale Eingebundenheit (SDT)", phonetic: "zo-tsee-ah-luh-ayn-geh-boon-den-hyte", meaning: "relatedness (SDT)", gender: "die", example: { de: "Soziale Eingebundenheit SDT.", en: "Social relatedness SDT." } },
+    { word: "das Flow-Erleben (Csikszentmihalyi)", phonetic: "flo-er-lay-ben", meaning: "flow state (Csikszentmihalyi)", gender: "das", example: { de: "Csikszentmihalyis Flow.", en: "Csikszentmihalyi's flow." } },
+    { word: "die Erwartungs-Valenz-Theorie (Vroom)", phonetic: "er-var-tungs-va-lents-tay-oh-ree", meaning: "expectancy-value theory (Vroom)", gender: "die", example: { de: "Vroomas Erwartungstheorie.", en: "Vroom's expectancy theory." } },
+    { word: "die Zieltheorie (Locke/Latham)", phonetic: "tseel-tay-oh-ree", meaning: "goal-setting theory (Locke/Latham)", gender: "die", example: { de: "Locke Zieltheorie.", en: "Locke goal-setting theory." } },
+    { word: "die Attribution (Weiner)", phonetic: "a-tri-boo-tsee-ohn", meaning: "attribution (Weiner)", gender: "die", example: { de: "Weiners Attributionstheorie.", en: "Weiner's attribution theory." } },
+    { word: "das Prokrastination", phonetic: "pro-kras-ti-na-tsee-ohn", meaning: "procrastination", gender: "die", example: { de: "Prokrastination überwinden.", en: "Overcome procrastination." } },
+    { word: "die Belohnung / Bestrafung", phonetic: "beh-loh-nung-beh-shtrah-fung", meaning: "reward / punishment", gender: "die", example: { de: "Belohnung und Bestrafung.", en: "Reward and punishment." } },
+    { word: "das Burnout", phonetic: "burn-owt", meaning: "burnout (psychological)", gender: "das", example: { de: "Burnout-Syndrom.", en: "Burnout syndrome." } },
+    { word: "die Resilienz", phonetic: "re-zi-lee-ents", meaning: "resilience", gender: "die", example: { de: "Psychologische Resilienz.", en: "Psychological resilience." } },
+    { word: "das Wachstumsdenken (Growth Mindset, Dweck)", phonetic: "vaks-tums-den-ken", meaning: "growth mindset (Dweck)", gender: "das", example: { de: "Dwecks Wachstumsdenken.", en: "Dweck's growth mindset." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega116: Record<string, Lesson> = {
+  "la1_m166": { id: "la1_m166", title: "Shopping & Prices A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "der Laden / das Geschäft", phonetic: "lah-den-geh-sheft", meaning: "shop / store", gender: "der", example: { de: "In den Laden gehen.", en: "Go to the shop." } },
+    { word: "der Supermarkt", phonetic: "zoo-per-markt", meaning: "supermarket", gender: "der", example: { de: "Im Supermarkt einkaufen.", en: "Shop at the supermarket." } },
+    { word: "kaufen", phonetic: "kow-fen", meaning: "to buy", example: { de: "Etwas kaufen.", en: "Buy something." } },
+    { word: "verkaufen", phonetic: "fer-kow-fen", meaning: "to sell", example: { de: "Etwas verkaufen.", en: "Sell something." } },
+    { word: "der Preis", phonetic: "prys", meaning: "price", gender: "der", example: { de: "Wie viel kostet das?", en: "How much does it cost?" } },
+    { word: "Wie viel kostet das?", phonetic: "vee-feel-kos-tet-das", meaning: "How much does it cost?", example: { de: "Wie viel kostet das?", en: "How much does it cost?" } },
+    { word: "teuer", phonetic: "toy-er", meaning: "expensive", example: { de: "Das ist zu teuer.", en: "That is too expensive." } },
+    { word: "billig / günstig", phonetic: "bi-likh-gün-stikh", meaning: "cheap / affordable", example: { de: "Das ist günstig.", en: "That is affordable." } },
+    { word: "der Rabatt", phonetic: "ra-bat", meaning: "discount", gender: "der", example: { de: "10% Rabatt.", en: "10% discount." } },
+    { word: "das Angebot (Sonderangebot)", phonetic: "an-geh-bot", meaning: "special offer", gender: "das", example: { de: "Im Sonderangebot.", en: "On special offer." } },
+    { word: "die Kasse", phonetic: "ka-suh", meaning: "checkout / till", gender: "die", example: { de: "An der Kasse zahlen.", en: "Pay at the checkout." } },
+    { word: "bar zahlen", phonetic: "bar-tsah-len", meaning: "to pay cash", example: { de: "Bar zahlen.", en: "Pay cash." } },
+    { word: "mit Karte zahlen", phonetic: "mit-kar-tuh-tsah-len", meaning: "to pay by card", example: { de: "Mit Karte zahlen.", en: "Pay by card." } },
+    { word: "der Bon / die Quittung", phonetic: "bon-kvi-tung", meaning: "receipt", gender: "der", example: { de: "Bon aufbewahren.", en: "Keep the receipt." } },
+    { word: "das Wechselgeld", phonetic: "vek-sel-gelt", meaning: "change (money back)", gender: "das", example: { de: "Wechselgeld zurück.", en: "Change back." } },
+    { word: "die Tüte", phonetic: "tü-tuh", meaning: "bag / carrier bag", gender: "die", example: { de: "Tüte kaufen.", en: "Buy a bag." } },
+    { word: "umtauschen", phonetic: "oom-tow-shen", meaning: "to exchange / swap", example: { de: "Artikel umtauschen.", en: "Exchange an item." } },
+    { word: "die Größe (Kleidung)", phonetic: "grö-suh", meaning: "size (clothing)", gender: "die", example: { de: "Größe 38.", en: "Size 38." } },
+    { word: "anprobieren", phonetic: "an-pro-bee-ren", meaning: "to try on", example: { de: "Das Kleid anprobieren.", en: "Try on the dress." } },
+    { word: "die Umkleidekabine", phonetic: "oom-kly-duh-ka-bee-nuh", meaning: "changing room / fitting room", gender: "die", example: { de: "Umkleidekabine benutzen.", en: "Use the changing room." } },
+  ]}] },
+};

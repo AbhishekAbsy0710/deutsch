@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega114: Record<string, Lesson> = {
+  "lc1_m160": { id: "lc1_m160", title: "Advanced German Grammar (Konjunktiv & Passive) C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "der Konjunktiv II (Irrealis)", phonetic: "kon-yoonk-teef-tsvy", meaning: "subjunctive II (counterfactual)", gender: "der", example: { de: "Wenn ich reich wäre...", en: "If I were rich..." } },
+    { word: "würde + Infinitiv", phonetic: "vür-duh-in-fi-ni-teef", meaning: "würde + infinitive (conditional)", example: { de: "Ich würde gehen.", en: "I would go." } },
+    { word: "der Konjunktiv I (Indirekte Rede)", phonetic: "kon-yoonk-teef-ayns", meaning: "subjunctive I (reported speech)", gender: "der", example: { de: "Er sagt, er sei krank.", en: "He says he is ill." } },
+    { word: "das Passiv (Vorgangspassiv)", phonetic: "pa-seef", meaning: "passive (process passive)", gender: "das", example: { de: "Das Buch wird gelesen.", en: "The book is being read." } },
+    { word: "das Zustandspassiv", phonetic: "tsoo-shtants-pa-seef", meaning: "statal passive", gender: "das", example: { de: "Das Buch ist gelesen.", en: "The book is read (done)." } },
+    { word: "das Passiv mit Modalverb", phonetic: "pa-seef-mit-mo-dahl-verp", meaning: "passive with modal verb", gender: "das", example: { de: "Das muss gemacht werden.", en: "That must be done." } },
+    { word: "das Partizip II als Adjektiv", phonetic: "par-ti-tseep-tsvy-als-at-yek-teef", meaning: "past participle as adjective", gender: "das", example: { de: "Das gelesene Buch.", en: "The read book." } },
+    { word: "der erweiterte Infinitiv (zu + Inf.)", phonetic: "er-vy-ter-tuh-in-fi-ni-teef", meaning: "extended infinitive (zu + inf.)", gender: "der", example: { de: "Er versucht zu schlafen.", en: "He tries to sleep." } },
+    { word: "die Infinitivkonstruktion (ohne zu)", phonetic: "in-fi-ni-teef-kons-trook-tsee-ohn", meaning: "infinitive without 'zu' (modal/lassen)", gender: "die", example: { de: "Er lässt das Auto reparieren.", en: "He has the car repaired." } },
+    { word: "der Relativsatz", phonetic: "re-la-teef-zats", meaning: "relative clause", gender: "der", example: { de: "Das Buch, das ich lese.", en: "The book that I am reading." } },
+    { word: "der Relativsatz mit Präposition", phonetic: "re-la-teef-zats-mit-prä-po-zi-tsee-ohn", meaning: "relative clause with preposition", gender: "der", example: { de: "Der Mann, mit dem ich spreche.", en: "The man with whom I speak." } },
+    { word: "das Genitivattribut", phonetic: "ge-ni-teef-a-tri-boot", meaning: "genitive attribute", gender: "das", example: { de: "Das Buch meines Vaters.", en: "My father's book." } },
+    { word: "die Kausalkonstruktion (da/weil)", phonetic: "kow-zahl-kons-trook-tsee-ohn", meaning: "causal clause (da/weil)", gender: "die", example: { de: "Da ich krank bin, bleibe ich.", en: "Since I am ill, I stay." } },
+    { word: "die Konzessivkonstruktion (obwohl)", phonetic: "kon-tse-seef-kons-trook-tsee-ohn", meaning: "concessive clause (obwohl)", gender: "die", example: { de: "Obwohl es regnet, gehe ich.", en: "Although it rains, I go." } },
+    { word: "die Finalkonstruktion (damit/um...zu)", phonetic: "fi-nahl-kons-trook-tsee-ohn", meaning: "final clause (damit/um...zu)", gender: "die", example: { de: "Um zu lernen, lese ich.", en: "In order to learn, I read." } },
+    { word: "die Partizipialkonstruktion", phonetic: "par-ti-tsee-pee-ahl-kons-trook-tsee-ohn", meaning: "participial construction", gender: "die", example: { de: "Schnell laufend, kam er an.", en: "Running quickly, he arrived." } },
+    { word: "das Gerundiv / sein + zu + Infinitiv", phonetic: "ge-roon-deef-zayn-tsoo-in-fi-ni-teef", meaning: "gerundive / sein + zu + inf.", gender: "das", example: { de: "Das Buch ist zu lesen.", en: "The book is to be read." } },
+    { word: "die Modalpartikeln (ja/doch/mal/eben)", phonetic: "mo-dahl-par-ti-keln", meaning: "modal particles (ja/doch/mal/eben)", example: { de: "Das ist ja interessant!", en: "That is interesting, isn't it!" } },
+    { word: "der Konjunktionaladverb", phonetic: "kon-yoonk-tsee-oh-nahl-at-verp", meaning: "conjunctional adverb (deshalb, daher, trotzdem)", gender: "der", example: { de: "Er ist krank, deshalb bleibt er.", en: "He is ill, therefore he stays." } },
+    { word: "die Nominalgruppe (Erweiterung)", phonetic: "no-mi-nahl-groo-puh", meaning: "extended noun phrase", gender: "die", example: { de: "Das schnell laufende Kind.", en: "The quickly running child." } },
+  ]}] },
+};

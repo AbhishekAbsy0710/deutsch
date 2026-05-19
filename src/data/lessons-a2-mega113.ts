@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega113: Record<string, Lesson> = {
+  "la2_m158": { id: "la2_m158", title: "Job Application & Workplace A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Bewerbung", phonetic: "beh-ver-bung", meaning: "job application", gender: "die", example: { de: "Bewerbung einreichen.", en: "Submit a job application." } },
+    { word: "der Lebenslauf (CV)", phonetic: "lay-bens-lowf", meaning: "CV / résumé", gender: "der", example: { de: "Lebenslauf schreiben.", en: "Write a CV." } },
+    { word: "das Anschreiben", phonetic: "an-shry-ben", meaning: "cover letter", gender: "das", example: { de: "Anschreiben verfassen.", en: "Write a cover letter." } },
+    { word: "das Vorstellungsgespräch", phonetic: "for-shte-lungs-geh-shprekh", meaning: "job interview", gender: "das", example: { de: "Vorstellungsgespräch bestehen.", en: "Pass a job interview." } },
+    { word: "die Stelle / der Job", phonetic: "shte-luh-yop", meaning: "position / job", gender: "die", example: { de: "Stelle bewerben.", en: "Apply for a position." } },
+    { word: "der Arbeitgeber / die Arbeitgeberin", phonetic: "ar-byt-gay-ber", meaning: "employer (m/f)", gender: "der", example: { de: "Neuer Arbeitgeber.", en: "New employer." } },
+    { word: "der Arbeitnehmer / die Arbeitnehmerin", phonetic: "ar-byt-ney-mer", meaning: "employee (m/f)", gender: "der", example: { de: "Motivierter Arbeitnehmer.", en: "Motivated employee." } },
+    { word: "das Gehalt", phonetic: "geh-halt", meaning: "salary", gender: "das", example: { de: "Monatliches Gehalt.", en: "Monthly salary." } },
+    { word: "die Arbeitszeit", phonetic: "ar-byts-tsyt", meaning: "working hours", gender: "die", example: { de: "Flexible Arbeitszeit.", en: "Flexible working hours." } },
+    { word: "die Vollzeit / Teilzeit", phonetic: "fol-tsyt-tyl-tsyt", meaning: "full-time / part-time", example: { de: "Vollzeit oder Teilzeit.", en: "Full-time or part-time." } },
+    { word: "der Urlaub", phonetic: "oor-lowp", meaning: "holiday / annual leave", gender: "der", example: { de: "Jahresurlaub nehmen.", en: "Take annual leave." } },
+    { word: "kündigen", phonetic: "kün-di-gen", meaning: "to resign / give notice", example: { de: "Den Job kündigen.", en: "Resign from the job." } },
+    { word: "entlassen werden", phonetic: "ent-la-sen-ver-den", meaning: "to be dismissed / fired", example: { de: "Entlassen werden.", en: "Be dismissed." } },
+    { word: "das Büro", phonetic: "bü-ro", meaning: "office", gender: "das", example: { de: "Im Büro arbeiten.", en: "Work in the office." } },
+    { word: "die Abteilung", phonetic: "ap-ty-lung", meaning: "department", gender: "die", example: { de: "Marketingabteilung.", en: "Marketing department." } },
+    { word: "der Chef / die Chefin", phonetic: "shef", meaning: "boss / manager (m/f)", gender: "der", example: { de: "Meinen Chef ansprechen.", en: "Talk to my boss." } },
+    { word: "das Meeting / die Besprechung", phonetic: "mee-ting-beh-shpre-khung", meaning: "meeting", gender: "das", example: { de: "Wichtiges Meeting.", en: "Important meeting." } },
+    { word: "die Überstunden", phonetic: "ü-ber-shtoon-den", meaning: "overtime", example: { de: "Überstunden machen.", en: "Work overtime." } },
+    { word: "das Homeoffice", phonetic: "hohm-o-fis", meaning: "working from home / remote work", gender: "das", example: { de: "Im Homeoffice arbeiten.", en: "Work from home." } },
+    { word: "die Beförderung", phonetic: "beh-för-de-rung", meaning: "promotion", gender: "die", example: { de: "Beförderung erhalten.", en: "Receive a promotion." } },
+  ]}] },
+};

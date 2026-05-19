@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega113: Record<string, Lesson> = {
+  "lc2_m156": { id: "lc2_m156", title: "Langlands Programme (Automorphic Forms) C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Langlands-Programm", phonetic: "lang-lants-pro-gram", meaning: "Langlands programme", gender: "das", example: { de: "Langlands globales Programm.", en: "Langlands global programme." } },
+    { word: "die automorphe Form", phonetic: "ow-to-mor-fuh-form", meaning: "automorphic form", gender: "die", example: { de: "Automorphe Form GL(n).", en: "Automorphic form GL(n)." } },
+    { word: "das automorphe Darstellung", phonetic: "ow-to-mor-fuh-dar-shte-lung", meaning: "automorphic representation", gender: "die", example: { de: "Automorphe Darstellung π.", en: "Automorphic representation π." } },
+    { word: "die Hecke-Algebra", phonetic: "he-kuh-al-ge-brah", meaning: "Hecke algebra", gender: "die", example: { de: "Hecke-Algebra Spektrum.", en: "Hecke algebra spectrum." } },
+    { word: "der Satake-Isomorphismus", phonetic: "sa-ta-kuh-i-zo-mor-fis-mus", meaning: "Satake isomorphism", gender: "der", example: { de: "Satake-Isomorphismus.", en: "Satake isomorphism." } },
+    { word: "die Langlands-Funktorialität", phonetic: "lang-lants-foonk-tsee-oh-na-li-tayt", meaning: "Langlands functoriality", gender: "die", example: { de: "Langlands Funktorialität.", en: "Langlands functoriality." } },
+    { word: "die Langlands-Reziprozität", phonetic: "lang-lants-re-tsi-pro-tsi-tayt", meaning: "Langlands reciprocity", gender: "die", example: { de: "Langlands Reziprozität.", en: "Langlands reciprocity." } },
+    { word: "das L-Gruppen-Formalism (Langlands)", phonetic: "el-groo-pen-for-ma-lis-mus", meaning: "L-group formalism (Langlands)", gender: "der", example: { de: "Langlands L-Gruppen.", en: "Langlands L-groups." } },
+    { word: "die lokale Langlands-Korrespondenz", phonetic: "lo-kah-luh-lang-lants-ko-res-pon-dents", meaning: "local Langlands correspondence", gender: "die", example: { de: "Lokale Langlands GL(n).", en: "Local Langlands GL(n)." } },
+    { word: "die globale Langlands-Korrespondenz", phonetic: "glo-bah-luh-lang-lants-ko-res-pon-dents", meaning: "global Langlands correspondence", gender: "die", example: { de: "Globale Langlands Korrespondenz.", en: "Global Langlands correspondence." } },
+    { word: "das Modulare Form (Langlands-Wiles)", phonetic: "mo-doo-lah-ruh-form", meaning: "modular form (Wiles proof, Langlands)", gender: "die", example: { de: "Wiles Fermat modulare Formen.", en: "Wiles Fermat modular forms." } },
+    { word: "die Shimura-Taniyama-Weil-Vermutung", phonetic: "shi-moo-rah-ta-ni-yah-mah-veyl-fer-moo-tung", meaning: "Shimura-Taniyama-Weil conjecture", gender: "die", example: { de: "Wiles Shimura-Taniyama.", en: "Wiles Shimura-Taniyama." } },
+    { word: "die Base Change (Langlands)", phonetic: "beys-cheyndzh", meaning: "base change (Langlands)", gender: "der", example: { de: "Langlands Base Change.", en: "Langlands base change." } },
+    { word: "der Endoskopie (Langlands)", phonetic: "en-do-sko-pee", meaning: "endoscopy (Langlands)", gender: "die", example: { de: "Langlands Endoskopie.", en: "Langlands endoscopy." } },
+    { word: "der Fundamental Lemma (Ngô)", phonetic: "foon-da-men-tal-lem-mah", meaning: "fundamental lemma (Ngô, Fields Medal)", gender: "das", example: { de: "Ngôs Fundamental Lemma.", en: "Ngô's fundamental lemma." } },
+    { word: "die Spur-Formel (Arthur-Selberg)", phonetic: "shpoor-for-mel", meaning: "trace formula (Arthur-Selberg)", gender: "die", example: { de: "Arthur-Selberg Spurformel.", en: "Arthur-Selberg trace formula." } },
+    { word: "die geometrische Langlands-Korrespondenz", phonetic: "gay-oh-me-tri-shuh-lang-lants-ko-res-pon-dents", meaning: "geometric Langlands correspondence", gender: "die", example: { de: "Geometrische Langlands.", en: "Geometric Langlands." } },
+    { word: "das D-Modul (Langlands geometrisch)", phonetic: "day-mo-dool", meaning: "D-module (geometric Langlands)", gender: "das", example: { de: "D-Modul Langlands-Dualität.", en: "D-module Langlands duality." } },
+    { word: "die Kapustin-Witten-Dualität", phonetic: "ka-poo-stin-vi-ten-doo-a-li-tayt", meaning: "Kapustin-Witten duality (physics/Langlands)", gender: "die", example: { de: "Kapustin-Witten S-Dualität.", en: "Kapustin-Witten S-duality." } },
+    { word: "das V. Lafforgue-Theorem (Langlands über Fq)", phonetic: "la-forg-tay-oh-rem", meaning: "V. Lafforgue's theorem (Langlands over Fq)", gender: "das", example: { de: "Lafforgues globales Langlands über Fq.", en: "Lafforgue's global Langlands over Fq." } },
+  ]}] },
+};

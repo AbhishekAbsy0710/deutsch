@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega114: Record<string, Lesson> = {
+  "lb2_m159": { id: "lb2_m159", title: "Statistical Mechanics & Thermodynamics B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Statistische Mechanik", phonetic: "shta-tis-ti-shuh-me-kha-nik", meaning: "statistical mechanics", gender: "die", example: { de: "Klassische statistische Mechanik.", en: "Classical statistical mechanics." } },
+    { word: "die Thermodynamik", phonetic: "ter-mo-dü-na-mik", meaning: "thermodynamics", gender: "die", example: { de: "Zweiter Hauptsatz Thermodynamik.", en: "Second law of thermodynamics." } },
+    { word: "die Entropie (Boltzmann)", phonetic: "en-tro-pee", meaning: "entropy (Boltzmann)", gender: "die", example: { de: "Boltzmanns S=k·lnW.", en: "Boltzmann's S=k·lnW." } },
+    { word: "die Boltzmann-Konstante", phonetic: "bolts-man-kons-tan-tuh", meaning: "Boltzmann constant", gender: "die", example: { de: "Boltzmann-Konstante k_B.", en: "Boltzmann constant k_B." } },
+    { word: "die Zustandssumme (Partition Function)", phonetic: "tsoo-shtants-zoo-muh", meaning: "partition function", gender: "die", example: { de: "Kanonische Zustandssumme Z.", en: "Canonical partition function Z." } },
+    { word: "das kanonische Ensemble", phonetic: "ka-no-ni-shuh-on-sam-bluh", meaning: "canonical ensemble", gender: "das", example: { de: "Kanonisches Ensemble NVT.", en: "Canonical ensemble NVT." } },
+    { word: "das großkanonische Ensemble", phonetic: "grohs-ka-no-ni-shuh-on-sam-bluh", meaning: "grand canonical ensemble", gender: "das", example: { de: "Großkanonisches Ensemble μVT.", en: "Grand canonical ensemble μVT." } },
+    { word: "das chemische Potential", phonetic: "khuh-mi-shuh-po-ten-tsee-ahl", meaning: "chemical potential", gender: "das", example: { de: "Chemisches Potential μ.", en: "Chemical potential μ." } },
+    { word: "die Maxwell-Boltzmann-Verteilung", phonetic: "maks-vel-bolts-man-fer-ty-lung", meaning: "Maxwell-Boltzmann distribution", gender: "die", example: { de: "Maxwell-Boltzmann Geschwindigkeitsverteilung.", en: "Maxwell-Boltzmann velocity distribution." } },
+    { word: "die Fermi-Dirac-Statistik", phonetic: "fer-mi-dee-rak-shta-tis-tik", meaning: "Fermi-Dirac statistics", gender: "die", example: { de: "Fermi-Dirac Elektronen.", en: "Fermi-Dirac electrons." } },
+    { word: "die Bose-Einstein-Statistik", phonetic: "bo-zuh-ayn-shtyn-shta-tis-tik", meaning: "Bose-Einstein statistics", gender: "die", example: { de: "Bose-Einstein Photonen.", en: "Bose-Einstein photons." } },
+    { word: "das Bose-Einstein-Kondensat", phonetic: "bo-zuh-ayn-shtyn-kon-den-zaht", meaning: "Bose-Einstein condensate", gender: "das", example: { de: "Bose-Einstein-Kondensat Rubidium.", en: "Bose-Einstein condensate rubidium." } },
+    { word: "der Phasenübergang", phonetic: "fah-zen-ü-ber-gang", meaning: "phase transition", gender: "der", example: { de: "Phasenübergang erster Ordnung.", en: "First-order phase transition." } },
+    { word: "der kritische Punkt (Thermodynamik)", phonetic: "kri-ti-shuh-poonkt", meaning: "critical point (thermodynamics)", gender: "der", example: { de: "Kritischer Punkt H₂O.", en: "Critical point H₂O." } },
+    { word: "die freie Energie (Helmholtz/Gibbs)", phonetic: "fry-uh-e-ner-gee", meaning: "free energy (Helmholtz/Gibbs)", gender: "die", example: { de: "Gibbs freie Energie ΔG.", en: "Gibbs free energy ΔG." } },
+    { word: "der Wirbel (Turbulenz)", phonetic: "vir-bel", meaning: "vortex / eddy (turbulence)", gender: "der", example: { de: "Turbulenter Wirbel.", en: "Turbulent vortex." } },
+    { word: "die Fluktuations-Dissipations-Theorem", phonetic: "flook-too-a-tsee-ohns-di-si-pa-tsee-ohns-tay-oh-rem", meaning: "fluctuation-dissipation theorem", gender: "das", example: { de: "Fluktuations-Dissipationstheorem.", en: "Fluctuation-dissipation theorem." } },
+    { word: "die Brownsche Bewegung (Einstein)", phonetic: "brown-shuh-beh-vay-gung", meaning: "Brownian motion (Einstein)", gender: "die", example: { de: "Einsteins Brownsche Bewegung.", en: "Einstein's Brownian motion." } },
+    { word: "das Gleichgewicht (thermisch)", phonetic: "glyakh-geh-vikht", meaning: "thermal equilibrium", gender: "das", example: { de: "Thermisches Gleichgewicht.", en: "Thermal equilibrium." } },
+    { word: "die Renormierungsgruppe (Wilson)", phonetic: "re-nor-mee-rungs-groo-puh", meaning: "renormalisation group (Wilson)", gender: "die", example: { de: "Wilsons Renormierungsgruppe.", en: "Wilson's renormalisation group." } },
+  ]}] },
+};

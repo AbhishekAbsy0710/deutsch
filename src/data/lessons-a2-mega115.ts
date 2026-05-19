@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega115: Record<string, Lesson> = {
+  "la2_m160": { id: "la2_m160", title: "Media & News A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Zeitung", phonetic: "tsy-tung", meaning: "newspaper", gender: "die", example: { de: "Tageszeitung lesen.", en: "Read the daily newspaper." } },
+    { word: "die Zeitschrift", phonetic: "tsyt-shrift", meaning: "magazine", gender: "die", example: { de: "Fachzeitschrift abonnieren.", en: "Subscribe to a journal." } },
+    { word: "das Radio", phonetic: "rah-dee-oh", meaning: "radio", gender: "das", example: { de: "Radio hören.", en: "Listen to the radio." } },
+    { word: "das Fernsehen (TV)", phonetic: "fern-zey-en", meaning: "television / TV", gender: "das", example: { de: "Abends fernsehen.", en: "Watch TV in the evenings." } },
+    { word: "die Nachrichten", phonetic: "nakh-rikh-ten", meaning: "news", example: { de: "Nachrichten schauen.", en: "Watch the news." } },
+    { word: "der Artikel", phonetic: "ar-ti-kel", meaning: "article (news)", gender: "der", example: { de: "Zeitungsartikel lesen.", en: "Read a newspaper article." } },
+    { word: "die Schlagzeile", phonetic: "shlahk-tsy-luh", meaning: "headline", gender: "die", example: { de: "Schlagzeile der Zeitung.", en: "Newspaper headline." } },
+    { word: "der Journalist / die Journalistin", phonetic: "zhoor-na-list", meaning: "journalist (m/f)", gender: "der", example: { de: "Investigativer Journalist.", en: "Investigative journalist." } },
+    { word: "der Bericht", phonetic: "beh-rikht", meaning: "report", gender: "der", example: { de: "Sonderbericht verfassen.", en: "Write a special report." } },
+    { word: "die Sendung", phonetic: "zen-dung", meaning: "programme / broadcast", gender: "die", example: { de: "Lieblingssendung.", en: "Favourite programme." } },
+    { word: "der Podcast", phonetic: "pod-kast", meaning: "podcast", gender: "der", example: { de: "Podcast abonnieren.", en: "Subscribe to a podcast." } },
+    { word: "das Streaming", phonetic: "stree-ming", meaning: "streaming (media)", gender: "das", example: { de: "Netflix Streaming.", en: "Netflix streaming." } },
+    { word: "die Werbung", phonetic: "ver-bung", meaning: "advertising / commercial", gender: "die", example: { de: "Werbung ausblenden.", en: "Skip the advertisement." } },
+    { word: "der Kommentar", phonetic: "ko-men-tar", meaning: "commentary / comment", gender: "der", example: { de: "Online Kommentar schreiben.", en: "Write an online comment." } },
+    { word: "die Pressemitteilung", phonetic: "pre-suh-mi-ty-lung", meaning: "press release", gender: "die", example: { de: "Pressemitteilung herausgeben.", en: "Issue a press release." } },
+    { word: "die Pressefreiheit", phonetic: "pre-suh-fry-hyte", meaning: "freedom of the press", gender: "die", example: { de: "Pressefreiheit schützen.", en: "Protect freedom of the press." } },
+    { word: "die Fake News (Falschinformationen)", phonetic: "feyk-nyoos", meaning: "fake news", example: { de: "Fake News erkennen.", en: "Identify fake news." } },
+    { word: "die öffentlich-rechtlichen Medien (ARD/ZDF)", phonetic: "öf-fent-likh-rekhts-li-khuh-may-dee-en", meaning: "public broadcasting (ARD/ZDF)", example: { de: "ARD ZDF öffentlich-rechtlich.", en: "ARD ZDF public broadcasting." } },
+    { word: "die Meinungsfreiheit", phonetic: "my-nungs-fry-hyte", meaning: "freedom of opinion / expression", gender: "die", example: { de: "Grundrecht Meinungsfreiheit.", en: "Fundamental right of expression." } },
+    { word: "abonnieren", phonetic: "a-bo-nee-ren", meaning: "to subscribe", example: { de: "Kanal abonnieren.", en: "Subscribe to a channel." } },
+  ]}] },
+};

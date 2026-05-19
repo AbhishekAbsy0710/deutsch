@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega116: Record<string, Lesson> = {
+  "lb2_m161": { id: "lb2_m161", title: "Category Theory B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Kategorientheorie", phonetic: "ka-te-go-reen-tay-oh-ree", meaning: "category theory", gender: "die", example: { de: "Mac Lane Kategorientheorie.", en: "Mac Lane category theory." } },
+    { word: "die Kategorie (math.)", phonetic: "ka-te-go-ree", meaning: "category (mathematics)", gender: "die", example: { de: "Kleine Kategorie C.", en: "Small category C." } },
+    { word: "das Objekt (Kategorie)", phonetic: "op-yekt", meaning: "object (category)", gender: "das", example: { de: "Objekte der Kategorie.", en: "Objects of the category." } },
+    { word: "der Morphismus", phonetic: "mor-fis-mus", meaning: "morphism", gender: "der", example: { de: "Morphismus f: A→B.", en: "Morphism f: A→B." } },
+    { word: "der Funktor", phonetic: "foonk-tor", meaning: "functor", gender: "der", example: { de: "Kovarianter Funktor F.", en: "Covariant functor F." } },
+    { word: "die natürliche Transformation", phonetic: "na-tür-li-khuh-trans-for-ma-tsee-ohn", meaning: "natural transformation", gender: "die", example: { de: "Natürliche Transformation η.", en: "Natural transformation η." } },
+    { word: "die Adjunktion (Kategorien)", phonetic: "at-yoonk-tsee-ohn", meaning: "adjunction (categories)", gender: "die", example: { de: "Links/rechts-adjungierter Funktor.", en: "Left/right adjoint functor." } },
+    { word: "der linksadjungierte Funktor", phonetic: "links-at-yoon-geer-tuh-foonk-tor", meaning: "left adjoint functor", gender: "der", example: { de: "Linksadjungierter Funktor L.", en: "Left adjoint functor L." } },
+    { word: "das Yoneda-Lemma", phonetic: "yo-ne-dah-le-mah", meaning: "Yoneda lemma", gender: "das", example: { de: "Yoneda-Lemma Hom-Funktor.", en: "Yoneda lemma Hom-functor." } },
+    { word: "der Limit / Kolimit", phonetic: "li-mit-ko-li-mit", meaning: "limit / colimit", gender: "der", example: { de: "Kategorieller Limes.", en: "Categorical limit." } },
+    { word: "das Produkt (Kategorien)", phonetic: "pro-dookt", meaning: "product (categories)", gender: "das", example: { de: "Kategorisches Produkt.", en: "Categorical product." } },
+    { word: "der Koprod (Coprodukt)", phonetic: "ko-pro-dookt", meaning: "coproduct", gender: "das", example: { de: "Kategorisches Koprodukt.", en: "Categorical coproduct." } },
+    { word: "der Pullback / Faserprodukt", phonetic: "pool-bek-fah-zer-pro-dookt", meaning: "pullback / fibered product", gender: "der", example: { de: "Kategorischer Pullback.", en: "Categorical pullback." } },
+    { word: "das Equalizer / Koegalizer", phonetic: "e-kva-ly-zer", meaning: "equalizer / coequalizer", gender: "der", example: { de: "Kategorischer Equalizer.", en: "Categorical equalizer." } },
+    { word: "der Topos (Elementartopos)", phonetic: "to-pos", meaning: "topos (elementary topos)", gender: "der", example: { de: "Elementartopos Lawvere.", en: "Elementary topos Lawvere." } },
+    { word: "die monoidale Kategorie", phonetic: "mo-noy-da-luh-ka-te-go-ree", meaning: "monoidal category", gender: "die", example: { de: "Symmetrische monoidale Kategorie.", en: "Symmetric monoidal category." } },
+    { word: "die Abelsche Kategorie", phonetic: "ah-bel-shuh-ka-te-go-ree", meaning: "abelian category", gender: "die", example: { de: "Abelsche Kategorie Mod-R.", en: "Abelian category Mod-R." } },
+    { word: "die derivierte Kategorie", phonetic: "de-ri-veer-tuh-ka-te-go-ree", meaning: "derived category", gender: "die", example: { de: "Derivierte Kategorie D(A).", en: "Derived category D(A)." } },
+    { word: "der Triangulated Kategorie", phonetic: "tri-ang-goo-leer-tuh-ka-te-go-ree", meaning: "triangulated category", gender: "die", example: { de: "Triangulierte Kategorie.", en: "Triangulated category." } },
+    { word: "die 2-Kategorie", phonetic: "tsvy-ka-te-go-ree", meaning: "2-category", gender: "die", example: { de: "Strikte 2-Kategorie.", en: "Strict 2-category." } },
+  ]}] },
+};

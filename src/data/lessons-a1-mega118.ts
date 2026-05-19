@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA1Mega118: Record<string, Lesson> = {
+  "la1_m168": { id: "la1_m168", title: "Daily Routine & Habits A1", module: "A1", blocks: [{ type: "flashcard", cards: [
+    { word: "aufstehen", phonetic: "owf-shtey-hen", meaning: "to get up", example: { de: "Um 7 Uhr aufstehen.", en: "Get up at 7 o'clock." } },
+    { word: "sich waschen", phonetic: "zikh-va-shen", meaning: "to wash (oneself)", example: { de: "Sich morgens waschen.", en: "Wash in the morning." } },
+    { word: "sich die Zähne putzen", phonetic: "zikh-dee-tsey-nuh-poo-tsen", meaning: "to brush one's teeth", example: { de: "Zähne putzen.", en: "Brush teeth." } },
+    { word: "sich anziehen", phonetic: "zikh-an-tsee-hen", meaning: "to get dressed", example: { de: "Schnell anziehen.", en: "Get dressed quickly." } },
+    { word: "frühstücken", phonetic: "frü-shtü-ken", meaning: "to eat breakfast", example: { de: "Um 8 Uhr frühstücken.", en: "Eat breakfast at 8 o'clock." } },
+    { word: "zur Arbeit gehen/fahren", phonetic: "tsoor-ar-byt-gay-en-fah-ren", meaning: "to go to work", example: { de: "Mit dem Bus zur Arbeit.", en: "To work by bus." } },
+    { word: "zu Mittag essen", phonetic: "tsoo-mi-tahk-e-sen", meaning: "to eat lunch", example: { de: "Um 12 Uhr zu Mittag essen.", en: "Eat lunch at 12 o'clock." } },
+    { word: "nach Hause kommen", phonetic: "nakh-how-zuh-ko-men", meaning: "to come home", example: { de: "Um 18 Uhr nach Hause.", en: "Come home at 6 pm." } },
+    { word: "zu Abend essen", phonetic: "tsoo-ah-bent-e-sen", meaning: "to eat dinner", example: { de: "Um 19 Uhr zu Abend essen.", en: "Eat dinner at 7 pm." } },
+    { word: "fernsehen", phonetic: "fern-zey-en", meaning: "to watch TV", example: { de: "Abends fernsehen.", en: "Watch TV in the evenings." } },
+    { word: "lesen", phonetic: "lay-zen", meaning: "to read", example: { de: "Ein Buch lesen.", en: "Read a book." } },
+    { word: "ins Bett gehen", phonetic: "ins-bet-gay-en", meaning: "to go to bed", example: { de: "Um 22 Uhr ins Bett.", en: "Go to bed at 10 pm." } },
+    { word: "schlafen gehen", phonetic: "shlah-fen-gay-en", meaning: "to go to sleep", example: { de: "Früh schlafen gehen.", en: "Go to sleep early." } },
+    { word: "das Wochenende", phonetic: "vo-khen-en-duh", meaning: "weekend", gender: "das", example: { de: "Am Wochenende.", en: "At the weekend." } },
+    { word: "unter der Woche", phonetic: "oon-ter-der-vo-khuh", meaning: "during the week / on weekdays", example: { de: "Unter der Woche arbeiten.", en: "Work during the week." } },
+    { word: "täglich", phonetic: "teg-likh", meaning: "daily / every day", example: { de: "Täglich Sport treiben.", en: "Exercise daily." } },
+    { word: "morgens", phonetic: "mor-gens", meaning: "in the mornings", example: { de: "Morgens Kaffee trinken.", en: "Drink coffee in the mornings." } },
+    { word: "mittags", phonetic: "mi-tahks", meaning: "at midday / lunchtime", example: { de: "Mittags eine Pause machen.", en: "Take a break at midday." } },
+    { word: "abends", phonetic: "ah-bents", meaning: "in the evenings", example: { de: "Abends spazieren gehen.", en: "Go for a walk in the evenings." } },
+    { word: "manchmal", phonetic: "manch-mahl", meaning: "sometimes", example: { de: "Manchmal ins Kino gehen.", en: "Sometimes go to the cinema." } },
+  ]}] },
+};

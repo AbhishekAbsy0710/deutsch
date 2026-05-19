@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega117: Record<string, Lesson> = {
+  "lb1_m168": { id: "lb1_m168", title: "Global Economics B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Weltwirtschaft", phonetic: "velt-virt-shaft", meaning: "global / world economy", gender: "die", example: { de: "Globale Weltwirtschaft.", en: "Global world economy." } },
+    { word: "das Bruttoinlandsprodukt (BIP)", phonetic: "broo-to-in-lants-pro-dookt", meaning: "GDP (gross domestic product)", gender: "das", example: { de: "BIP-Wachstum 2%.", en: "GDP growth 2%." } },
+    { word: "die Inflation", phonetic: "in-fla-tsee-ohn", meaning: "inflation", gender: "die", example: { de: "Hohe Inflationsrate.", en: "High inflation rate." } },
+    { word: "die Rezession", phonetic: "re-tses-see-ohn", meaning: "recession", gender: "die", example: { de: "Wirtschaftliche Rezession.", en: "Economic recession." } },
+    { word: "der Außenhandel", phonetic: "ow-sen-han-del", meaning: "foreign trade", gender: "der", example: { de: "Außenhandel exportieren.", en: "Export foreign trade." } },
+    { word: "der Export", phonetic: "eks-port", meaning: "export", gender: "der", example: { de: "Deutsche Exportgüter.", en: "German exports." } },
+    { word: "der Import", phonetic: "im-port", meaning: "import", gender: "der", example: { de: "Rohstoff importieren.", en: "Import raw materials." } },
+    { word: "der Freihandel", phonetic: "fry-han-del", meaning: "free trade", gender: "der", example: { de: "WTO Freihandel.", en: "WTO free trade." } },
+    { word: "der Protektionismus", phonetic: "pro-tek-tsee-oh-nis-mus", meaning: "protectionism", gender: "der", example: { de: "Wirtschaftlicher Protektionismus.", en: "Economic protectionism." } },
+    { word: "der Zoll", phonetic: "tsol", meaning: "customs / tariff", gender: "der", example: { de: "Zölle erheben.", en: "Impose tariffs." } },
+    { word: "die Globalisierung (Wirtschaft)", phonetic: "glo-ba-li-zee-rung", meaning: "globalisation (economy)", gender: "die", example: { de: "Wirtschaftliche Globalisierung.", en: "Economic globalisation." } },
+    { word: "die Lieferkette", phonetic: "lee-fer-ke-tuh", meaning: "supply chain", gender: "die", example: { de: "Globale Lieferkette.", en: "Global supply chain." } },
+    { word: "die Währungsunion", phonetic: "vey-rungs-oo-nee-ohn", meaning: "monetary union", gender: "die", example: { de: "Europäische Währungsunion.", en: "European monetary union." } },
+    { word: "der Euro", phonetic: "oy-ro", meaning: "euro (currency)", gender: "der", example: { de: "Europäische Euro-Währung.", en: "European euro currency." } },
+    { word: "der IWF (Internationaler Währungsfonds)", phonetic: "ee-vey-ef", meaning: "IMF (International Monetary Fund)", gender: "der", example: { de: "IWF-Kredit.", en: "IMF loan." } },
+    { word: "die Weltbank", phonetic: "velt-bank", meaning: "World Bank", gender: "die", example: { de: "Weltbank-Entwicklungshilfe.", en: "World Bank development aid." } },
+    { word: "die WTO (Welthandelsorganisation)", phonetic: "vey-tey-oh", meaning: "WTO (World Trade Organisation)", gender: "die", example: { de: "WTO-Handelsregeln.", en: "WTO trade rules." } },
+    { word: "das Entwicklungsland", phonetic: "ent-vik-lungs-lant", meaning: "developing country", gender: "das", example: { de: "Entwicklungsland fördern.", en: "Support a developing country." } },
+    { word: "die Ungleichheit (Wirtschaft)", phonetic: "oon-glyakh-hyte", meaning: "inequality (economic)", gender: "die", example: { de: "Wirtschaftliche Ungleichheit.", en: "Economic inequality." } },
+    { word: "die nachhaltige Entwicklung (SDGs)", phonetic: "nakh-hal-tikh-guh-ent-vik-lung", meaning: "sustainable development (SDGs)", gender: "die", example: { de: "UN SDGs nachhaltige Entwicklung.", en: "UN SDGs sustainable development." } },
+  ]}] },
+};

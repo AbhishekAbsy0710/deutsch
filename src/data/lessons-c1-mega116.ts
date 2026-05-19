@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega116: Record<string, Lesson> = {
+  "lc1_m162": { id: "lc1_m162", title: "Critical Theory (Foucault & Deleuze) C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Kritische Theorie (poststrukturalistisch)", phonetic: "kri-ti-shuh-tay-oh-ree", meaning: "critical theory (poststructuralist)", gender: "die", example: { de: "Poststrukturalistisch kritische Theorie.", en: "Poststructuralist critical theory." } },
+    { word: "der Diskurs (Foucault)", phonetic: "dis-koors", meaning: "discourse (Foucault)", gender: "der", example: { de: "Foucaults Diskursanalyse.", en: "Foucault's discourse analysis." } },
+    { word: "die Archäologie des Wissens (Foucault)", phonetic: "ar-khä-oh-lo-gee-des-vi-sens", meaning: "archaeology of knowledge (Foucault)", gender: "die", example: { de: "Foucaults Archäologie.", en: "Foucault's archaeology." } },
+    { word: "die Genealogie (Foucault/Nietzsche)", phonetic: "gey-ne-ah-lo-gee", meaning: "genealogy (Foucault/Nietzsche)", gender: "die", example: { de: "Foucaults Genealogie der Moral.", en: "Foucault's genealogy of morals." } },
+    { word: "die Biopolitik (Foucault)", phonetic: "bi-oh-po-li-tik", meaning: "biopolitics (Foucault)", gender: "die", example: { de: "Foucaults Biopolitik.", en: "Foucault's biopolitics." } },
+    { word: "das Panoptikum (Foucault/Bentham)", phonetic: "pan-op-ti-kum", meaning: "panopticon (Foucault/Bentham)", gender: "das", example: { de: "Bentham Panoptikum Foucault.", en: "Bentham panopticon Foucault." } },
+    { word: "die Episteme (Foucault)", phonetic: "e-pis-te-muh", meaning: "episteme (Foucault)", gender: "die", example: { de: "Foucaults Episteme.", en: "Foucault's episteme." } },
+    { word: "das Dispositiv (Foucault)", phonetic: "dis-po-zi-teef", meaning: "dispositif / apparatus (Foucault)", gender: "das", example: { de: "Foucaults Dispositiv.", en: "Foucault's dispositif." } },
+    { word: "die Subjektivierung (Foucault)", phonetic: "zoop-yek-ti-vee-rung", meaning: "subjectivation (Foucault)", gender: "die", example: { de: "Foucaults Subjektivierung.", en: "Foucault's subjectivation." } },
+    { word: "die Rhizom-Konzept (Deleuze/Guattari)", phonetic: "ri-zohm-kon-tsept", meaning: "rhizome concept (Deleuze/Guattari)", gender: "das", example: { de: "Deleuze Rhizom.", en: "Deleuze rhizome." } },
+    { word: "das Plateau (Deleuze/Guattari)", phonetic: "pla-toh", meaning: "plateau (Deleuze/Guattari)", gender: "das", example: { de: "Tausend Plateaus.", en: "A Thousand Plateaus." } },
+    { word: "die Deterritorialisierung (Deleuze)", phonetic: "de-te-ri-to-ree-a-li-zee-rung", meaning: "deterritorialisation (Deleuze)", gender: "die", example: { de: "Deleuze Deterritorialisierung.", en: "Deleuze deterritorialisation." } },
+    { word: "die Differenz und Wiederholung (Deleuze)", phonetic: "di-fe-rents-oont-vee-der-ho-lung", meaning: "difference and repetition (Deleuze)", gender: "die", example: { de: "Deleuze Differenz Wiederholung.", en: "Deleuze difference repetition." } },
+    { word: "das Begehren (Deleuze/Guattari)", phonetic: "beh-gey-ren", meaning: "desire (Deleuze/Guattari)", gender: "das", example: { de: "Anti-Ödipus Begehren.", en: "Anti-Oedipus desire." } },
+    { word: "das Schizoanalyse (Deleuze/Guattari)", phonetic: "shits-oh-a-na-lü-zuh", meaning: "schizoanalysis (Deleuze/Guattari)", gender: "die", example: { de: "Anti-Ödipus Schizoanalyse.", en: "Anti-Oedipus schizoanalysis." } },
+    { word: "der Poststrukturalismus", phonetic: "post-shtrook-too-ra-lis-mus", meaning: "poststructuralism", gender: "der", example: { de: "Französischer Poststrukturalismus.", en: "French poststructuralism." } },
+    { word: "der Dekonstruktion (Derrida)", phonetic: "de-kons-trook-tsee-ohn", meaning: "deconstruction (Derrida)", gender: "die", example: { de: "Derridas Dekonstruktion.", en: "Derrida's deconstruction." } },
+    { word: "die Différance (Derrida)", phonetic: "di-fe-rans", meaning: "différance (Derrida)", gender: "die", example: { de: "Derridas Différance.", en: "Derrida's différance." } },
+    { word: "das Supplement (Derrida)", phonetic: "zoo-ple-ment", meaning: "supplement / supplement (Derrida)", gender: "das", example: { de: "Derridas Supplement.", en: "Derrida's supplement." } },
+    { word: "das Simulakrum (Baudrillard)", phonetic: "zi-moo-la-krum", meaning: "simulacrum (Baudrillard)", gender: "das", example: { de: "Baudrillards Simulakrum.", en: "Baudrillard's simulacrum." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega115: Record<string, Lesson> = {
+  "lc1_m161": { id: "lc1_m161", title: "Philosophy of Mind C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Philosophie des Geistes", phonetic: "fi-lo-zo-fee-des-gys-tes", meaning: "philosophy of mind", gender: "die", example: { de: "Analytische Geistesphilosophie.", en: "Analytic philosophy of mind." } },
+    { word: "der Dualismus (Descartes)", phonetic: "doo-a-lis-mus", meaning: "dualism (Descartes)", gender: "der", example: { de: "Descartes Leib-Seele-Dualismus.", en: "Descartes mind-body dualism." } },
+    { word: "der Substanzdualismus", phonetic: "zoop-stants-doo-a-lis-mus", meaning: "substance dualism", gender: "der", example: { de: "Cartesianischer Substanzdualismus.", en: "Cartesian substance dualism." } },
+    { word: "der Eigenschaftsdualismus", phonetic: "ayg-en-shafts-doo-a-lis-mus", meaning: "property dualism", gender: "der", example: { de: "Nicht-reduzierender Eigenschaftsdualismus.", en: "Non-reductive property dualism." } },
+    { word: "der Physikalismus (Materialismus)", phonetic: "fü-zi-ka-lis-mus", meaning: "physicalism / materialism", gender: "der", example: { de: "Reduktiver Physikalismus.", en: "Reductive physicalism." } },
+    { word: "der Funktionalismus (Putnam)", phonetic: "foonk-tsee-oh-na-lis-mus", meaning: "functionalism (Putnam)", gender: "der", example: { de: "Putnams Funktionalismus.", en: "Putnam's functionalism." } },
+    { word: "das Qualia (Chalmers)", phonetic: "kva-lee-a", meaning: "qualia (Chalmers)", example: { de: "Phänomenales Qualia.", en: "Phenomenal qualia." } },
+    { word: "das harte Problem des Bewusstseins (Chalmers)", phonetic: "har-tuh-pro-blaym", meaning: "hard problem of consciousness", gender: "das", example: { de: "Chalmers hartes Bewusstseinsproblem.", en: "Chalmers' hard problem." } },
+    { word: "der Zombieargument (Chalmers)", phonetic: "tsombi-ar-goo-ment", meaning: "philosophical zombie argument (Chalmers)", gender: "der", example: { de: "Chalmers Zombie-Argument.", en: "Chalmers' zombie argument." } },
+    { word: "der Intentionalität (Brentano)", phonetic: "in-ten-tsee-oh-na-li-tayt", meaning: "intentionality (Brentano)", gender: "die", example: { de: "Brentanos Intentionalität.", en: "Brentano's intentionality." } },
+    { word: "das mentale Verursachung (Kausalität)", phonetic: "men-tah-luh-fer-oor-za-khung", meaning: "mental causation", gender: "die", example: { de: "Mentale Kausalität.", en: "Mental causation." } },
+    { word: "der Epiphänomenalismus", phonetic: "e-pi-fä-no-me-na-lis-mus", meaning: "epiphenomenalism", gender: "der", example: { de: "Bewusstsein epiphenomenal.", en: "Consciousness epiphenomenal." } },
+    { word: "der Eliminativer Materialismus (Churchland)", phonetic: "e-li-mi-na-tee-ver-ma-te-ree-a-lis-mus", meaning: "eliminative materialism (Churchland)", gender: "der", example: { de: "Churchlands eliminativer Materialismus.", en: "Churchland's eliminative materialism." } },
+    { word: "das Identitätstheorie (Mind-Brain Identity)", phonetic: "i-den-ti-tayts-tay-oh-ree", meaning: "mind-brain identity theory", gender: "die", example: { de: "Smart Place-Identitätstheorie.", en: "Smart-Place identity theory." } },
+    { word: "der Panpsychismus", phonetic: "pan-psü-khis-mus", meaning: "panpsychism", gender: "der", example: { de: "Goff Panpsychismus.", en: "Goff panpsychism." } },
+    { word: "die phänomenale Bewusstsein", phonetic: "fä-no-me-nah-luh-beh-voost-zayn", meaning: "phenomenal consciousness", gender: "das", example: { de: "Phänomenales Bewusstsein.", en: "Phenomenal consciousness." } },
+    { word: "das Selbstbewusstsein", phonetic: "zelpts-beh-voost-zayn", meaning: "self-consciousness / self-awareness", gender: "das", example: { de: "Phänomenales Selbstbewusstsein.", en: "Phenomenal self-consciousness." } },
+    { word: "die Global-Workspace-Theorie (Baars)", phonetic: "glo-bal-vork-speys-tay-oh-ree", meaning: "global workspace theory (Baars)", gender: "die", example: { de: "Baars Global Workspace.", en: "Baars global workspace." } },
+    { word: "der Anomale Monismus (Davidson)", phonetic: "a-no-mah-luh-mo-nis-mus", meaning: "anomalous monism (Davidson)", gender: "der", example: { de: "Davidsons anomaler Monismus.", en: "Davidson's anomalous monism." } },
+    { word: "die Interpretierbarkeit (Dennett)", phonetic: "in-ter-pre-teer-bar-kyte", meaning: "intentional stance (Dennett)", gender: "die", example: { de: "Dennetts Intentional Stance.", en: "Dennett's intentional stance." } },
+  ]}] },
+};

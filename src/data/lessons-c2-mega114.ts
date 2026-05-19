@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega114: Record<string, Lesson> = {
+  "lc2_m157": { id: "lc2_m157", title: "Prismatic Cohomology (Bhatt-Scholze) C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die prismatische Kohomologie (Bhatt-Scholze)", phonetic: "priz-ma-ti-shuh-ko-ho-mo-lo-gee", meaning: "prismatic cohomology (Bhatt-Scholze)", gender: "die", example: { de: "Bhatt-Scholze prismatische Kohomologie.", en: "Bhatt-Scholze prismatic cohomology." } },
+    { word: "der Prism (δ-Ring)", phonetic: "priz-muh", meaning: "prism (δ-ring)", gender: "das", example: { de: "δ-Ring prismatisch.", en: "δ-ring prismatic." } },
+    { word: "der δ-Ring", phonetic: "del-ta-ring", meaning: "δ-ring (Joyal)", gender: "der", example: { de: "δ-Ring Frobenius-Lift.", en: "δ-ring Frobenius lift." } },
+    { word: "die prismatische Site", phonetic: "priz-ma-ti-shuh-zyt", meaning: "prismatic site", gender: "die", example: { de: "Prismatische Site (A_inf).", en: "Prismatic site (A_inf)." } },
+    { word: "der Ainf-Ring (Fontaine)", phonetic: "a-inf-ring", meaning: "A_inf ring (Fontaine)", gender: "der", example: { de: "Fontaine A_inf Ring.", en: "Fontaine A_inf ring." } },
+    { word: "die p-adische Hodge-Theorie (moderne)", phonetic: "pay-ah-di-shuh-hodge-tay-oh-ree", meaning: "p-adic Hodge theory (modern)", gender: "die", example: { de: "Scholze p-adische Hodge.", en: "Scholze p-adic Hodge." } },
+    { word: "der perfectoid Raum (Scholze)", phonetic: "per-fek-toy-de-rowm", meaning: "perfectoid space (Scholze)", gender: "der", example: { de: "Scholzes perfectoid Raum.", en: "Scholze's perfectoid space." } },
+    { word: "der Tilting-Äquivalenz (Scholze)", phonetic: "til-ting-ä-kvi-va-lents", meaning: "tilting equivalence (Scholze)", gender: "die", example: { de: "Scholze Tilting-Äquivalenz.", en: "Scholze tilting equivalence." } },
+    { word: "die Witt-Vektoren", phonetic: "vit-vek-to-ren", meaning: "Witt vectors", example: { de: "p-typische Witt-Vektoren.", en: "p-typical Witt vectors." } },
+    { word: "das Dieudonné-Modul", phonetic: "dyö-do-ney-mo-dool", meaning: "Dieudonné module", gender: "das", example: { de: "Dieudonné-Modul formal.", en: "Dieudonné module formal." } },
+    { word: "die formale Gruppe (p-divisibel)", phonetic: "for-mah-luh-groo-puh", meaning: "p-divisible group / formal group", gender: "die", example: { de: "p-divisible Gruppe.", en: "p-divisible group." } },
+    { word: "das Hodge-Tate-Zerlegung", phonetic: "hodge-tayt-tser-lay-gung", meaning: "Hodge-Tate decomposition", gender: "die", example: { de: "Hodge-Tate Zerlegung.", en: "Hodge-Tate decomposition." } },
+    { word: "die de Rham-Kohomologie (p-adisch)", phonetic: "de-ram-ko-ho-mo-lo-gee", meaning: "de Rham cohomology (p-adic)", gender: "die", example: { de: "p-adische de Rham.", en: "p-adic de Rham." } },
+    { word: "die kristalline Kohomologie (Berthelot)", phonetic: "kris-ta-li-nuh-ko-ho-mo-lo-gee", meaning: "crystalline cohomology (Berthelot)", gender: "die", example: { de: "Berthelot kristalline Kohomologie.", en: "Berthelot crystalline cohomology." } },
+    { word: "der Vergleichs-Isomorphismus (BMS)", phonetic: "fer-glykhs-i-zo-mor-fis-mus", meaning: "comparison isomorphism (BMS/Bhatt-Morrow-Scholze)", gender: "der", example: { de: "BMS Vergleichsisomorphismus.", en: "BMS comparison isomorphism." } },
+    { word: "die Periode-Ring (BdR, Bcris)", phonetic: "pe-ree-oh-duh-ring", meaning: "period ring (BdR, Bcris, Bst)", gender: "der", example: { de: "Fontaine Periode-Ringe.", en: "Fontaine period rings." } },
+    { word: "der Syntomische Kohomologie", phonetic: "zün-to-mi-shuh-ko-ho-mo-lo-gee", meaning: "syntomic cohomology", gender: "die", example: { de: "Syntomische p-adische.", en: "Syntomic p-adic." } },
+    { word: "die absolute p-adische Hodge (Fargues-Fontaine)", phonetic: "far-guh-fon-teyn", meaning: "Fargues-Fontaine curve", gender: "die", example: { de: "Fargues-Fontaine-Kurve.", en: "Fargues-Fontaine curve." } },
+    { word: "die v-Überdeckung (Scholze)", phonetic: "fow-ü-ber-de-kung", meaning: "v-cover (Scholze, condensed math)", gender: "die", example: { de: "Scholze v-Überdeckung.", en: "Scholze v-cover." } },
+    { word: "die kondensierte Mathematik (Clausen-Scholze)", phonetic: "kon-den-zeer-tuh-ma-te-ma-tik", meaning: "condensed mathematics (Clausen-Scholze)", gender: "die", example: { de: "Clausen-Scholze kondensierte Mathematik.", en: "Clausen-Scholze condensed mathematics." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega112: Record<string, Lesson> = {
+  "lc2_m155": { id: "lc2_m155", title: "Étale Cohomology & Weil Conjectures C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die étale Kohomologie", phonetic: "e-tahl-ko-ho-mo-lo-gee", meaning: "étale cohomology", gender: "die", example: { de: "Grothendiecks étale Kohomologie.", en: "Grothendieck's étale cohomology." } },
+    { word: "die Weil-Vermutungen", phonetic: "veyl-fer-moo-tung-en", meaning: "Weil conjectures", example: { de: "Weil-Vermutungen Deligne.", en: "Weil conjectures Deligne." } },
+    { word: "der Beweis der Weil-Vermutungen (Deligne)", phonetic: "beh-vys-der-veyl-fer-moo-tung-en", meaning: "proof of Weil conjectures (Deligne)", gender: "der", example: { de: "Deligne Weil-I Beweis.", en: "Deligne Weil-I proof." } },
+    { word: "die l-adische Kohomologie", phonetic: "el-ah-di-shuh-ko-ho-mo-lo-gee", meaning: "l-adic cohomology", gender: "die", example: { de: "l-adische Galois-Darstellung.", en: "l-adic Galois representation." } },
+    { word: "die Galois-Darstellung (l-adisch)", phonetic: "ga-lwa-dar-shte-lung", meaning: "Galois representation (l-adic)", gender: "die", example: { de: "l-adische Galois-Darstellung.", en: "l-adic Galois representation." } },
+    { word: "der Frobenius-Endomorphismus", phonetic: "fro-bay-ni-oos-en-do-mor-fis-mus", meaning: "Frobenius endomorphism", gender: "der", example: { de: "Frobenius-Endomorphismus Fp.", en: "Frobenius endomorphism Fp." } },
+    { word: "der Frobenius-Eigenwert", phonetic: "fro-bay-ni-oos-ayg-en-vairt", meaning: "Frobenius eigenvalue", gender: "der", example: { de: "Frobenius-Eigenwert |α|=q^{n/2}.", en: "Frobenius eigenvalue |α|=q^{n/2}." } },
+    { word: "die Riemannsche Hypothese (endliche Körper)", phonetic: "ree-man-shuh-hü-po-tey-zuh", meaning: "Riemann hypothesis for finite fields (Weil)", gender: "die", example: { de: "Weil Riemann-Hypothese über Fp.", en: "Weil Riemann hypothesis over Fp." } },
+    { word: "der Lefschetz-Spurformel (Kohomologie)", phonetic: "lef-shets-shpoor-for-mel", meaning: "Lefschetz trace formula (cohomology)", gender: "die", example: { de: "Grothendieck-Lefschetz Spurformel.", en: "Grothendieck-Lefschetz trace formula." } },
+    { word: "die Zeta-Funktion (Varietät)", phonetic: "tsay-ta-foonk-tsee-ohn", meaning: "zeta function (variety)", gender: "die", example: { de: "Zeta-Funktion Z(X/Fq,T).", en: "Zeta function Z(X/Fq,T)." } },
+    { word: "die Poincaré-Dualität (étale)", phonetic: "pvan-ka-rey-doo-a-li-tayt", meaning: "Poincaré duality (étale)", gender: "die", example: { de: "Étale Poincaré-Dualität.", en: "Étale Poincaré duality." } },
+    { word: "das Perverse Garbe (BBD)", phonetic: "per-ver-zuh-gar-buh", meaning: "perverse sheaf (BBD)", gender: "die", example: { de: "BBD Perverse Garbe.", en: "BBD perverse sheaf." } },
+    { word: "die Decomposition Theorem (BBD)", phonetic: "de-kom-po-zi-tsee-ohns-tay-oh-rem", meaning: "decomposition theorem (BBD)", gender: "das", example: { de: "BBD Decompositionssatz.", en: "BBD decomposition theorem." } },
+    { word: "die Verdier-Dualität", phonetic: "ver-dee-ey-doo-a-li-tayt", meaning: "Verdier duality", gender: "die", example: { de: "Verdier-Dualität étale.", en: "Verdier duality étale." } },
+    { word: "die reine Kohomologie (Pureheit Deligne)", phonetic: "ry-nuh-ko-ho-mo-lo-gee", meaning: "purity (Deligne's purity theorem)", gender: "die", example: { de: "Deligne Reinheitssatz.", en: "Deligne purity theorem." } },
+    { word: "das Gewicht (gemischte Motive)", phonetic: "geh-vikht", meaning: "weight (mixed motives)", gender: "das", example: { de: "Gewichtsfiltrierung gemischter Motive.", en: "Weight filtration mixed motives." } },
+    { word: "das Koszul-Dualität", phonetic: "kos-tool-doo-a-li-tayt", meaning: "Koszul duality", gender: "die", example: { de: "Koszul-Dualität.", en: "Koszul duality." } },
+    { word: "die Weil-Darstellungen (rep. theory)", phonetic: "veyl-dar-shte-lung-en", meaning: "Weil representations (rep. theory)", example: { de: "Weil-Darstellungen symplektisch.", en: "Weil representations symplectic." } },
+    { word: "die Monodromiehypothese (Fontaine-Mazur)", phonetic: "mo-no-dro-mee-hü-po-tey-zuh", meaning: "monodromy conjecture (Fontaine-Mazur)", gender: "die", example: { de: "Fontaine-Mazur Monodromiehypothese.", en: "Fontaine-Mazur monodromy conjecture." } },
+    { word: "der Vergleichs-Theorem (p-adisch/étale)", phonetic: "fer-glykhs-tay-oh-rem", meaning: "comparison theorem (p-adic/étale)", gender: "das", example: { de: "Faltings Vergleichs-Theorem.", en: "Faltings comparison theorem." } },
+  ]}] },
+};

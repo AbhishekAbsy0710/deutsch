@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega115: Record<string, Lesson> = {
+  "lb2_m160": { id: "lb2_m160", title: "International Law B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Völkerrecht", phonetic: "völ-ker-rekht", meaning: "international law", gender: "das", example: { de: "Klassiches Völkerrecht.", en: "Classical international law." } },
+    { word: "die UN-Charta", phonetic: "oon-khar-ta", meaning: "UN Charter", gender: "die", example: { de: "UN-Charta 1945.", en: "UN Charter 1945." } },
+    { word: "der Staat (Völkerrecht)", phonetic: "shtaht", meaning: "state (international law)", gender: "der", example: { de: "Souveräner Staat.", en: "Sovereign state." } },
+    { word: "die Souveränität", phonetic: "zoo-ve-rä-ni-tayt", meaning: "sovereignty", gender: "die", example: { de: "Nationale Souveränität.", en: "National sovereignty." } },
+    { word: "das Selbstbestimmungsrecht der Völker", phonetic: "zelpts-beh-shti-mungs-rekht-der-völ-ker", meaning: "right to self-determination", gender: "das", example: { de: "Völker Selbstbestimmungsrecht.", en: "Peoples' right to self-determination." } },
+    { word: "das Gewaltverbot (UN-Charta)", phonetic: "geh-valt-fer-bot", meaning: "prohibition on the use of force (UN Charter)", gender: "das", example: { de: "Gewaltverbot Art. 2(4) UN-Charta.", en: "Prohibition on force Art. 2(4) UN Charter." } },
+    { word: "das humanitäre Völkerrecht (HVR)", phonetic: "hoo-ma-ni-tey-ruh-völ-ker-rekht", meaning: "international humanitarian law (IHL)", gender: "das", example: { de: "Genfer Konvention HVR.", en: "Geneva Convention IHL." } },
+    { word: "die Genfer Konventionen", phonetic: "gen-fer-kon-ven-tsee-oh-nen", meaning: "Geneva Conventions", example: { de: "Vier Genfer Konventionen.", en: "Four Geneva Conventions." } },
+    { word: "der Internationaler Strafgerichtshof (IStGH)", phonetic: "in-ter-na-tsee-oh-nah-ler-shtraf-geh-rikhts-hof", meaning: "International Criminal Court (ICC)", gender: "der", example: { de: "ICC Kriegsverbrechen.", en: "ICC war crimes." } },
+    { word: "der Internationale Gerichtshof (IGH)", phonetic: "in-ter-na-tsee-oh-nah-ler-geh-rikhts-hof", meaning: "International Court of Justice (ICJ)", gender: "der", example: { de: "IGH Den Haag.", en: "ICJ The Hague." } },
+    { word: "das Kriegsverbrechen", phonetic: "kreeks-fer-bre-khen", meaning: "war crime", gender: "das", example: { de: "Kriegsverbrechen strafrechtlich.", en: "War crime prosecution." } },
+    { word: "das Verbrechen gegen die Menschlichkeit", phonetic: "fer-bre-khen-gay-gen-dee-mensh-likh-kyte", meaning: "crime against humanity", gender: "das", example: { de: "Verbrechen gegen die Menschlichkeit.", en: "Crime against humanity." } },
+    { word: "der Völkermord (Genozid)", phonetic: "völ-ker-mort", meaning: "genocide", gender: "der", example: { de: "Völkermordkonvention 1948.", en: "Genocide Convention 1948." } },
+    { word: "das Asylrecht", phonetic: "a-zühl-rekht", meaning: "right of asylum", gender: "das", example: { de: "Asylrecht beantragen.", en: "Apply for asylum." } },
+    { word: "der Flüchtling (UNHCR)", phonetic: "flükht-ling", meaning: "refugee (UNHCR)", gender: "der", example: { de: "UNHCR Flüchtlingsschutz.", en: "UNHCR refugee protection." } },
+    { word: "der Vertrag (Völkerrecht)", phonetic: "fer-trahk", meaning: "treaty (international law)", gender: "der", example: { de: "Völkerrechtlicher Vertrag.", en: "International law treaty." } },
+    { word: "das Wiener Übereinkommen (Vertragsrecht)", phonetic: "vee-ner-ü-ber-ayn-ko-men", meaning: "Vienna Convention on the Law of Treaties", gender: "das", example: { de: "Wiener Vertragsrechtskonvention.", en: "Vienna Convention on treaties." } },
+    { word: "die diplomatische Immunität", phonetic: "di-plo-ma-ti-shuh-i-moo-ni-tayt", meaning: "diplomatic immunity", gender: "die", example: { de: "Diplomatische Immunität.", en: "Diplomatic immunity." } },
+    { word: "die Schutzverantwortung (R2P)", phonetic: "shoots-fer-ant-vor-tung", meaning: "responsibility to protect (R2P)", gender: "die", example: { de: "R2P Schutzverantwortung.", en: "R2P responsibility to protect." } },
+    { word: "das Seerecht (UNCLOS)", phonetic: "zey-rekht", meaning: "law of the sea (UNCLOS)", gender: "das", example: { de: "UNCLOS Seerecht.", en: "UNCLOS law of the sea." } },
+  ]}] },
+};

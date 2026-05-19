@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega114: Record<string, Lesson> = {
+  "la2_m159": { id: "la2_m159", title: "Technology & Internet A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "das Internet", phonetic: "in-ter-net", meaning: "internet", gender: "das", example: { de: "Im Internet surfen.", en: "Surf the internet." } },
+    { word: "die Website", phonetic: "vep-syt", meaning: "website", gender: "die", example: { de: "Website besuchen.", en: "Visit a website." } },
+    { word: "die App", phonetic: "ep", meaning: "app", gender: "die", example: { de: "App herunterladen.", en: "Download an app." } },
+    { word: "das Smartphone", phonetic: "smaht-fohn", meaning: "smartphone", gender: "das", example: { de: "Neues Smartphone kaufen.", en: "Buy a new smartphone." } },
+    { word: "der Computer", phonetic: "kom-pyoo-ter", meaning: "computer", gender: "der", example: { de: "Am Computer arbeiten.", en: "Work on the computer." } },
+    { word: "das Laptop", phonetic: "lep-top", meaning: "laptop", gender: "das", example: { de: "Laptop aufklappen.", en: "Open the laptop." } },
+    { word: "die E-Mail", phonetic: "ee-meyl", meaning: "email", gender: "die", example: { de: "E-Mail schreiben.", en: "Write an email." } },
+    { word: "herunterladen", phonetic: "her-oon-ter-lah-den", meaning: "to download", example: { de: "Datei herunterladen.", en: "Download a file." } },
+    { word: "hochladen", phonetic: "hokh-lah-den", meaning: "to upload", example: { de: "Foto hochladen.", en: "Upload a photo." } },
+    { word: "das Passwort", phonetic: "pas-vort", meaning: "password", gender: "das", example: { de: "Sicheres Passwort.", en: "Secure password." } },
+    { word: "das WLAN / WiFi", phonetic: "vey-lan", meaning: "WiFi / wireless internet", gender: "das", example: { de: "WLAN verbinden.", en: "Connect to WiFi." } },
+    { word: "die sozialen Medien", phonetic: "zo-tsee-ah-len-may-dee-en", meaning: "social media", example: { de: "Soziale Medien nutzen.", en: "Use social media." } },
+    { word: "der Benutzername", phonetic: "beh-noo-tser-nah-muh", meaning: "username", gender: "der", example: { de: "Benutzername eingeben.", en: "Enter username." } },
+    { word: "googeln", phonetic: "goo-geln", meaning: "to google / search online", example: { de: "Im Internet googeln.", en: "Google on the internet." } },
+    { word: "der Akku / die Batterie", phonetic: "a-koo-ba-te-ree", meaning: "battery", gender: "der", example: { de: "Akku aufladen.", en: "Charge the battery." } },
+    { word: "der Drucker", phonetic: "droo-ker", meaning: "printer", gender: "der", example: { de: "Dokument drucken.", en: "Print a document." } },
+    { word: "die Datei", phonetic: "da-ty", meaning: "file / document (digital)", gender: "die", example: { de: "PDF-Datei speichern.", en: "Save a PDF file." } },
+    { word: "der Virus (Computer)", phonetic: "vee-roos", meaning: "computer virus", gender: "der", example: { de: "Computervirus entfernen.", en: "Remove a computer virus." } },
+    { word: "abstürzen", phonetic: "ap-shtür-tsen", meaning: "to crash (computer)", example: { de: "Das Programm abstürzt.", en: "The program crashes." } },
+    { word: "der Bildschirm", phonetic: "bilt-shirm", meaning: "screen / monitor", gender: "der", example: { de: "Großer Bildschirm.", en: "Large screen." } },
+  ]}] },
+};

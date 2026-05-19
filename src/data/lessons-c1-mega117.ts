@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega117: Record<string, Lesson> = {
+  "lc1_m163": { id: "lc1_m163", title: "Advanced Phonology & Optimality Theory C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Phonologie (generativ)", phonetic: "fo-no-lo-gee", meaning: "phonology (generative)", gender: "die", example: { de: "Generative Phonologie Chomsky.", en: "Generative phonology Chomsky." } },
+    { word: "das distinktive Merkmal (Jakobson)", phonetic: "dis-tink-tee-vuh-merk-mahl", meaning: "distinctive feature (Jakobson)", gender: "das", example: { de: "Jakobsons distinktive Merkmale.", en: "Jakobson's distinctive features." } },
+    { word: "die Optimality Theory (OT, Prince/Smolensky)", phonetic: "op-ti-ma-li-tee-tay-oh-ree", meaning: "optimality theory (OT)", gender: "die", example: { de: "Prince-Smolensky OT.", en: "Prince-Smolensky OT." } },
+    { word: "das Constraint (OT)", phonetic: "kon-streynt", meaning: "constraint (OT)", gender: "das", example: { de: "Markiertheit-Constraint OT.", en: "Markedness constraint OT." } },
+    { word: "die Constraint-Hierarchie (OT)", phonetic: "kon-streynt-hie-rar-khee", meaning: "constraint ranking (OT)", gender: "die", example: { de: "Constraint-Hierarchie.", en: "Constraint ranking." } },
+    { word: "der Tableau (OT)", phonetic: "ta-bloh", meaning: "tableau (OT evaluation)", gender: "das", example: { de: "OT-Tableau Kandidaten.", en: "OT tableau candidates." } },
+    { word: "die silbenstruktur", phonetic: "zil-ben-shtrook-toor", meaning: "syllable structure", gender: "die", example: { de: "CV-Silbenstruktur.", en: "CV syllable structure." } },
+    { word: "der Onset (Silbe)", phonetic: "on-set", meaning: "onset (syllable)", gender: "der", example: { de: "Silbenanfang Onset.", en: "Syllable onset." } },
+    { word: "der Nukleus (Silbe)", phonetic: "noo-kle-oos", meaning: "nucleus (syllable)", gender: "der", example: { de: "Silbenkern Nukleus.", en: "Syllable nucleus." } },
+    { word: "die Coda (Silbe)", phonetic: "ko-dah", meaning: "coda (syllable)", gender: "die", example: { de: "Silbenende Coda.", en: "Syllable coda." } },
+    { word: "die Mora (prosodisch)", phonetic: "mo-rah", meaning: "mora (prosodics)", gender: "die", example: { de: "Morengewicht.", en: "Mora weight." } },
+    { word: "der Fuß (metrisch)", phonetic: "foos", meaning: "foot (metrical)", gender: "der", example: { de: "Trochäischer Fuß.", en: "Trochaic foot." } },
+    { word: "der prosodische Wortakzent", phonetic: "pro-zo-di-shuh-vort-ak-tsent", meaning: "prosodic word stress", gender: "der", example: { de: "Deutsch Wortakzent.", en: "German word stress." } },
+    { word: "die Assimilation (Phonologie)", phonetic: "a-si-mi-la-tsee-ohn", meaning: "assimilation (phonology)", gender: "die", example: { de: "Regressive Assimilation.", en: "Regressive assimilation." } },
+    { word: "die Dissimilation (Phonologie)", phonetic: "dis-si-mi-la-tsee-ohn", meaning: "dissimilation", gender: "die", example: { de: "Phonologische Dissimilation.", en: "Phonological dissimilation." } },
+    { word: "die Metathese", phonetic: "me-ta-tey-zuh", meaning: "metathesis", gender: "die", example: { de: "Historische Metathese.", en: "Historical metathesis." } },
+    { word: "die Vokalharmonie (Sprachtypologie)", phonetic: "vo-kahl-har-mo-nee", meaning: "vowel harmony (typology)", gender: "die", example: { de: "Türkische Vokalharmonie.", en: "Turkish vowel harmony." } },
+    { word: "der Umlaut (Deutsch)", phonetic: "oom-lowt", meaning: "umlaut (German)", gender: "der", example: { de: "Deutsch i-Umlaut.", en: "German i-umlaut." } },
+    { word: "die Lenition / Fortition", phonetic: "le-ni-tsee-ohn-for-ti-tsee-ohn", meaning: "lenition / fortition (consonant strength)", gender: "die", example: { de: "Keltische Lenition.", en: "Celtic lenition." } },
+    { word: "die Phonologische Zyklen (lexical phonology)", phonetic: "fo-no-lo-gi-shuh-tsü-klen", meaning: "phonological cycles (lexical phonology)", example: { de: "Lexikalische Phonologie.", en: "Lexical phonology cycles." } },
+  ]}] },
+};
