@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB1Mega123: Record<string, Lesson> = {
+  "lb1_m174": { id: "lb1_m174", title: "Ethics & Moral Philosophy B1", module: "B1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Ethik (Moralphilosophie)", phonetic: "ey-tik", meaning: "ethics (moral philosophy)", gender: "die", example: { de: "Normative Ethik.", en: "Normative ethics." } },
+    { word: "der Utilitarismus (Bentham/Mill)", phonetic: "oo-ti-li-ta-ris-mus", meaning: "utilitarianism (Bentham/Mill)", gender: "der", example: { de: "Bentham Utilitarismus.", en: "Bentham utilitarianism." } },
+    { word: "der Kantische Deontologismus", phonetic: "kan-ti-shuh-de-on-to-lo-gis-mus", meaning: "Kantian deontology", gender: "der", example: { de: "Kants kategorischer Imperativ.", en: "Kant's categorical imperative." } },
+    { word: "der kategorische Imperativ (Kant)", phonetic: "ka-te-go-ri-shuh-im-pe-ra-teef", meaning: "categorical imperative (Kant)", gender: "der", example: { de: "Handle nur nach derjenigen Maxime.", en: "Act only according to that maxim." } },
+    { word: "die Tugendethik (Aristoteles)", phonetic: "too-gent-ey-tik", meaning: "virtue ethics (Aristotle)", gender: "die", example: { de: "Aristotelische Tugendethik.", en: "Aristotelian virtue ethics." } },
+    { word: "die Eudaimonia (Aristoteles)", phonetic: "oy-day-mo-nee-ah", meaning: "eudaimonia / flourishing (Aristotle)", gender: "die", example: { de: "Aristoteles Eudaimonia.", en: "Aristotle's eudaimonia." } },
+    { word: "die Kontraktualismus (Rawls/Scanlon)", phonetic: "kon-trak-too-a-lis-mus", meaning: "contractualism (Rawls/Scanlon)", gender: "der", example: { de: "Rawls Kontraktualismus.", en: "Rawls contractualism." } },
+    { word: "der Schleier des Nichtwissens (Rawls)", phonetic: "shly-er-des-nikht-vi-sens", meaning: "veil of ignorance (Rawls)", gender: "der", example: { de: "Rawls Schleier des Nichtwissens.", en: "Rawls veil of ignorance." } },
+    { word: "die Pflichtenethik (Deontologie)", phonetic: "pflikh-ten-ey-tik", meaning: "duty ethics / deontology", gender: "die", example: { de: "Pflicht deontologisch.", en: "Duty deontological." } },
+    { word: "das moralische Dilemma", phonetic: "mo-rah-li-shuh-di-le-mah", meaning: "moral dilemma", gender: "das", example: { de: "Das Trolley-Problem.", en: "The trolley problem." } },
+    { word: "der moralische Relativismus", phonetic: "mo-rah-li-shuh-re-la-ti-vis-mus", meaning: "moral relativism", gender: "der", example: { de: "Kultureller Moralrelativismus.", en: "Cultural moral relativism." } },
+    { word: "der moralische Universalismus", phonetic: "mo-rah-li-shuh-oo-ni-ver-za-lis-mus", meaning: "moral universalism", gender: "der", example: { de: "Universelle Menschenrechte.", en: "Universal human rights." } },
+    { word: "die angewandte Ethik", phonetic: "an-geh-van-tuh-ey-tik", meaning: "applied ethics", gender: "die", example: { de: "Medizinische angewandte Ethik.", en: "Medical applied ethics." } },
+    { word: "die Bioethik", phonetic: "bi-oh-ey-tik", meaning: "bioethics", gender: "die", example: { de: "Bioethik Sterbehilfe.", en: "Bioethics euthanasia." } },
+    { word: "die Umweltethik", phonetic: "oom-velt-ey-tik", meaning: "environmental ethics", gender: "die", example: { de: "Umweltethik Nachhaltigkeit.", en: "Environmental ethics sustainability." } },
+    { word: "der moralische Status", phonetic: "mo-rah-li-shuh-shtah-toos", meaning: "moral status", gender: "der", example: { de: "Moralischer Status Tiere.", en: "Moral status of animals." } },
+    { word: "die Menschenwürde", phonetic: "men-shen-vür-duh", meaning: "human dignity", gender: "die", example: { de: "Unantastbare Menschenwürde.", en: "Inviolable human dignity." } },
+    { word: "die Gerechtigkeit", phonetic: "geh-rekh-tikh-kyte", meaning: "justice", gender: "die", example: { de: "Soziale Gerechtigkeit.", en: "Social justice." } },
+    { word: "die Autonomie (ethisch)", phonetic: "ow-to-no-mee", meaning: "autonomy (ethical)", gender: "die", example: { de: "Autonomie des Patienten.", en: "Patient autonomy." } },
+    { word: "das größte Glück der größten Zahl", phonetic: "gröhs-tuh-glük-der-gröhs-ten-tsahl", meaning: "greatest happiness of greatest number (Mill)", example: { de: "Mills größtes Glück.", en: "Mill's greatest happiness." } },
+  ]}] },
+};

@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC1Mega121: Record<string, Lesson> = {
+  "lc1_m167": { id: "lc1_m167", title: "Baroque & Classical German Literature (Lessing/Goethe/Schiller) C1", module: "C1", blocks: [{ type: "flashcard", cards: [
+    { word: "die Aufklärung (18. Jh.)", phonetic: "owf-klä-rung", meaning: "Enlightenment (18th century)", gender: "die", example: { de: "Deutsche Aufklärung 18. Jh.", en: "German Enlightenment 18th century." } },
+    { word: "Gotthold Ephraim Lessing", phonetic: "les-ing", meaning: "Lessing (German Enlightenment playwright)", example: { de: "Lessing Nathan der Weise.", en: "Lessing Nathan the Wise." } },
+    { word: "Nathan der Weise (Lessing, 1779)", phonetic: "na-tan-der-vy-zuh", meaning: "Nathan the Wise (Lessing, 1779)", example: { de: "Lessings Nathan der Weise.", en: "Lessing's Nathan the Wise." } },
+    { word: "die Hamburgische Dramaturgie (Lessing)", phonetic: "ham-boor-gi-shuh-dra-ma-toor-gee", meaning: "Hamburg Dramaturgy (Lessing)", gender: "die", example: { de: "Hamburgische Dramaturgie Lessing.", en: "Hamburg Dramaturgy Lessing." } },
+    { word: "die Weimarer Klassik (Goethe/Schiller)", phonetic: "vy-ma-rer-kla-sik", meaning: "Weimar Classicism (Goethe/Schiller)", gender: "die", example: { de: "Weimarer Klassik.", en: "Weimar Classicism." } },
+    { word: "Faust I & II (Goethe)", phonetic: "fowst", meaning: "Faust I & II (Goethe)", example: { de: "Goethes Faust.", en: "Goethe's Faust." } },
+    { word: "die Klassik-Trilogie (Schiller: Wallenstein)", phonetic: "kla-sik-tri-lo-gee", meaning: "Wallenstein trilogy (Schiller)", gender: "die", example: { de: "Schillers Wallenstein-Trilogie.", en: "Schiller's Wallenstein trilogy." } },
+    { word: "Die Leiden des jungen Werthers (Goethe, 1774)", phonetic: "lee-den-des-yoon-gen-ver-ters", meaning: "The Sorrows of Young Werther (Goethe, 1774)", example: { de: "Goethes Werther Sturm und Drang.", en: "Goethe's Werther Storm and Stress." } },
+    { word: "der Sturm und Drang (Epoche)", phonetic: "shtoorm-oont-drang", meaning: "Storm and Stress (literary epoch)", gender: "der", example: { de: "Sturm und Drang Goethe.", en: "Storm and Stress Goethe." } },
+    { word: "die Ode an die Freude (Schiller)", phonetic: "oh-duh-an-dee-froy-duh", meaning: "Ode to Joy (Schiller, 1785)", gender: "die", example: { de: "Schillers Ode an die Freude.", en: "Schiller's Ode to Joy." } },
+    { word: "Wilhelm Tell (Schiller, 1804)", phonetic: "vil-helm-tel", meaning: "Wilhelm Tell (Schiller, 1804)", example: { de: "Schillers Wilhelm Tell.", en: "Schiller's Wilhelm Tell." } },
+    { word: "die Klassizismus (Schönheit+Freiheit)", phonetic: "kla-si-tsis-mus", meaning: "classicism (beauty + freedom)", gender: "der", example: { de: "Schönheit als Freiheit Schiller.", en: "Beauty as freedom Schiller." } },
+    { word: "das Bildungsroman (Goethe: Wilhelm Meister)", phonetic: "bil-dungs-ro-mahn", meaning: "Bildungsroman (Goethe: Wilhelm Meister)", gender: "der", example: { de: "Goethes Wilhelm Meister.", en: "Goethe's Wilhelm Meister." } },
+    { word: "der deutsche Idealismus (Schelling/Hegel)", phonetic: "doyt-shuh-i-de-a-lis-mus", meaning: "German Idealism (Schelling/Hegel)", gender: "der", example: { de: "Hegels Geist.", en: "Hegel's spirit." } },
+    { word: "die Romantik (Novalis/Schlegel/Kleist)", phonetic: "ro-man-tik", meaning: "Romanticism (Novalis/Schlegel/Kleist)", gender: "die", example: { de: "Novalis Romantik.", en: "Novalis Romanticism." } },
+    { word: "Novalis (Hardenberg): Heinrich von Ofterdingen", phonetic: "no-vah-lis", meaning: "Novalis: Heinrich von Ofterdingen", example: { de: "Novalis blaue Blume.", en: "Novalis blue flower." } },
+    { word: "Heinrich von Kleist: Der zerbrochne Krug", phonetic: "klyst", meaning: "Kleist: The Broken Jug (comedy)", example: { de: "Kleists Zerbrochner Krug.", en: "Kleist's Broken Jug." } },
+    { word: "Das Nibelungenmythos (Romantik)", phonetic: "ni-beh-lun-gen-mü-tos", meaning: "Nibelung myth (Romantic reception)", gender: "der", example: { de: "Romantische Rezeption Nibelungen.", en: "Romantic reception Nibelungs." } },
+    { word: "E.T.A. Hoffmann: Der Sandmann", phonetic: "hof-man-zant-man", meaning: "E.T.A. Hoffmann: Der Sandmann (uncanny)", example: { de: "Hoffmanns Sandmann.", en: "Hoffmann's Sandmann." } },
+    { word: "das Unheimliche (Freud/Hoffmann)", phonetic: "oon-hym-li-khuh", meaning: "the uncanny (Freud/Hoffmann)", gender: "das", example: { de: "Freud das Unheimliche.", en: "Freud the uncanny." } },
+  ]}] },
+};

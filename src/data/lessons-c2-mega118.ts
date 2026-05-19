@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsC2Mega118: Record<string, Lesson> = {
+  "lc2_m161": { id: "lc2_m161", title: "Spectral Theory & Operator Algebras C2", module: "C2", blocks: [{ type: "flashcard", cards: [
+    { word: "die Spektraltheorie", phonetic: "shpek-tral-tay-oh-ree", meaning: "spectral theory", gender: "die", example: { de: "Spektraltheorie linearer Operatoren.", en: "Spectral theory of linear operators." } },
+    { word: "der Hilbert-Raum", phonetic: "hil-bert-rowm", meaning: "Hilbert space", gender: "der", example: { de: "Hilbert-Raum H.", en: "Hilbert space H." } },
+    { word: "der beschränkte lineare Operator", phonetic: "beh-shrenk-tuh-li-ne-ah-ruh-o-pe-ra-tor", meaning: "bounded linear operator", gender: "der", example: { de: "Beschränkter linearer Operator T.", en: "Bounded linear operator T." } },
+    { word: "das Spektrum (σ(T))", phonetic: "shpek-trum", meaning: "spectrum (σ(T))", gender: "das", example: { de: "Spektrum σ(T) des Operators.", en: "Spectrum σ(T) of operator." } },
+    { word: "das Punktspektrum (Eigenwerte)", phonetic: "poonkt-shpek-trum", meaning: "point spectrum (eigenvalues)", gender: "das", example: { de: "Punktspektrum Eigenwerte.", en: "Point spectrum eigenvalues." } },
+    { word: "die Resolventenmenge (ρ(T))", phonetic: "re-zol-ven-ten-men-guh", meaning: "resolvent set (ρ(T))", gender: "die", example: { de: "Resolventenmenge ρ(T).", en: "Resolvent set ρ(T)." } },
+    { word: "der Spektralsatz (selbstadjungiert)", phonetic: "shpek-tral-zats", meaning: "spectral theorem (self-adjoint)", gender: "der", example: { de: "Spektralsatz selbstadjungierter Operatoren.", en: "Spectral theorem self-adjoint operators." } },
+    { word: "die C*-Algebra", phonetic: "tsey-shtern-al-ge-brah", meaning: "C*-algebra", gender: "die", example: { de: "C*-Algebra Gelfand-Naimark.", en: "C*-algebra Gelfand-Naimark." } },
+    { word: "der Gelfand-Naimark-Satz", phonetic: "gel-fant-ny-mark-zats", meaning: "Gelfand-Naimark theorem", gender: "der", example: { de: "Gelfand-Naimark C*-Algebren.", en: "Gelfand-Naimark C*-algebras." } },
+    { word: "die von Neumann-Algebra (W*-Algebra)", phonetic: "fon-noy-man-al-ge-brah", meaning: "von Neumann algebra (W*-algebra)", gender: "die", example: { de: "von Neumann Algebren W*.", en: "von Neumann algebras W*." } },
+    { word: "die Faktor-Algebra (Typen I, II, III)", phonetic: "fak-tor-al-ge-brah", meaning: "factor (Type I, II, III)", gender: "die", example: { de: "Faktor Typ I, II, III.", en: "Factor type I, II, III." } },
+    { word: "die Tomita-Takesaki-Theorie", phonetic: "to-mi-tah-ta-ke-sa-ki-tay-oh-ree", meaning: "Tomita-Takesaki theory", gender: "die", example: { de: "Tomita-Takesaki Modulartheorie.", en: "Tomita-Takesaki modular theory." } },
+    { word: "die K-Theorie von C*-Algebren", phonetic: "ka-tay-oh-ree-fon-tsey-shtern-al-ge-bren", meaning: "K-theory of C*-algebras", gender: "die", example: { de: "K-Theorie C*-Algebren.", en: "K-theory C*-algebras." } },
+    { word: "die nichtkommutative Geometrie (Connes)", phonetic: "nikht-ko-moo-ta-tee-vuh-gay-oh-me-tree", meaning: "non-commutative geometry (Connes)", gender: "die", example: { de: "Connes nichtkommutative Geometrie.", en: "Connes non-commutative geometry." } },
+    { word: "die Quantengruppe (Drinfeld/Woronowicz)", phonetic: "kvan-ten-groo-puh", meaning: "quantum group (Drinfeld/Woronowicz)", gender: "die", example: { de: "Drinfeld Quantengruppe.", en: "Drinfeld quantum group." } },
+    { word: "die Fredholm-Operatoren (Index)", phonetic: "fred-holm-o-pe-ra-to-ren", meaning: "Fredholm operators (index)", example: { de: "Fredholm-Index.", en: "Fredholm index." } },
+    { word: "die Connes-Chern-Charakter", phonetic: "ko-nes-shern-ka-rak-ter", meaning: "Connes-Chern character", gender: "der", example: { de: "Connes-Chern Charakter.", en: "Connes-Chern character." } },
+    { word: "der KMS-Zustand (Kubo-Martin-Schwinger)", phonetic: "ka-em-es-tsoo-shtant", meaning: "KMS state (Kubo-Martin-Schwinger)", gender: "der", example: { de: "KMS-Zustand thermisches Gleichgewicht.", en: "KMS state thermal equilibrium." } },
+    { word: "die freie Wahrscheinlichkeitstheorie (Voiculescu)", phonetic: "fry-uh-vahr-shayn-likh-keyts-tay-oh-ree", meaning: "free probability theory (Voiculescu)", gender: "die", example: { de: "Voiculescu freie Wahrscheinlichkeit.", en: "Voiculescu free probability." } },
+    { word: "die Connes-Embedding-Vermutung (gelöst/widerlegt)", phonetic: "ko-nes-em-be-ding-fer-moo-tung", meaning: "Connes embedding conjecture (refuted 2020)", gender: "die", example: { de: "Connes Embedding Problem 2020.", en: "Connes embedding problem 2020." } },
+  ]}] },
+};

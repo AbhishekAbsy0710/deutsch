@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsB2Mega121: Record<string, Lesson> = {
+  "lb2_m166": { id: "lb2_m166", title: "Analytic Philosophy of Language B2", module: "B2", blocks: [{ type: "flashcard", cards: [
+    { word: "die analytische Sprachphilosophie", phonetic: "a-na-lü-ti-shuh-shprahkh-fi-lo-zo-fee", meaning: "analytic philosophy of language", gender: "die", example: { de: "Frege Sprachphilosophie.", en: "Frege philosophy of language." } },
+    { word: "der Sinn und die Bedeutung (Frege)", phonetic: "zin-oont-dee-beh-doy-tung", meaning: "sense and reference / meaning (Frege)", gender: "der", example: { de: "Freges Sinn vs. Bedeutung.", en: "Frege's sense vs. reference." } },
+    { word: "die Deskriptionstheorie (Russell)", phonetic: "des-krip-tsee-ohns-tay-oh-ree", meaning: "theory of descriptions (Russell)", gender: "die", example: { de: "Russells Deskriptionstheorie.", en: "Russell's theory of descriptions.", } },
+    { word: "der logische Eigennamen (Mill)", phonetic: "lo-gi-shuh-ayg-en-nah-men", meaning: "logically proper name (Mill/Russell)", gender: "der", example: { de: "Logischer Eigenname.", en: "Logically proper name." } },
+    { word: "die starre Designator (Kripke)", phonetic: "shta-ruh-deh-sig-na-tor", meaning: "rigid designator (Kripke)", gender: "der", example: { de: "Kripkes starrer Designator.", en: "Kripke's rigid designator." } },
+    { word: "die möglichen Welten (Kripke/Lewis)", phonetic: "mög-li-khuh-vel-ten", meaning: "possible worlds (Kripke/Lewis)", example: { de: "Mögliche-Welten-Semantik.", en: "Possible worlds semantics." } },
+    { word: "die Notwendigkeit a posteriori (Kripke)", phonetic: "not-ven-dikh-kyte-ah-pos-te-ree-oh-ree", meaning: "necessity a posteriori (Kripke)", gender: "die", example: { de: "Kripkes Notwendigkeit a posteriori.", en: "Kripke's necessity a posteriori." } },
+    { word: "die direkte Referenz (Kaplan/Millian)", phonetic: "di-rek-tuh-re-fe-rents", meaning: "direct reference theory (Kaplan)", gender: "die", example: { de: "Kaplans direkte Referenz.", en: "Kaplan's direct reference." } },
+    { word: "das Zeigwort / Indexikal (ich, hier, jetzt)", phonetic: "tsyk-vort-in-dek-si-kahl", meaning: "indexical (I, here, now)", gender: "das", example: { de: "Indexikalischer Ausdruck.", en: "Indexical expression." } },
+    { word: "die Sprechakttheorie (Austin/Searle)", phonetic: "shprekh-akt-tay-oh-ree", meaning: "speech act theory (Austin/Searle)", gender: "die", example: { de: "Austins Sprechakttheorie.", en: "Austin's speech act theory." } },
+    { word: "der Illokutionäre Akt (Austin)", phonetic: "i-lo-koo-tsee-oh-nä-ruh-akt", meaning: "illocutionary act (Austin)", gender: "der", example: { de: "Illokutionärer Akt Versprechen.", en: "Illocutionary act promise." } },
+    { word: "der Perlokutionäre Akt (Austin)", phonetic: "per-lo-koo-tsee-oh-nä-ruh-akt", meaning: "perlocutionary act (Austin)", gender: "der", example: { de: "Perlokution Überzeugung.", en: "Perlocution conviction." } },
+    { word: "die Konversationsmaximen (Grice)", phonetic: "kon-ver-za-tsee-ohns-mak-si-men", meaning: "conversational maxims (Grice)", example: { de: "Grices Konversationsmaximen.", en: "Grice's conversational maxims." } },
+    { word: "die konversationale Implikatur (Grice)", phonetic: "kon-ver-za-tsee-oh-na-luh-im-pli-ka-toor", meaning: "conversational implicature (Grice)", gender: "die", example: { de: "Grices konversationale Implikatur.", en: "Grice's conversational implicature." } },
+    { word: "die Präsupposition (Strawson)", phonetic: "prä-zoo-po-zi-tsee-ohn", meaning: "presupposition (Strawson)", gender: "die", example: { de: "Strawson Präsupposition.", en: "Strawson presupposition." } },
+    { word: "die Wahrheitsbedingungen (Tarski)", phonetic: "vahr-hyts-beh-din-gung-en", meaning: "truth conditions (Tarski)", example: { de: "Tarski Wahrheitsbedingungen.", en: "Tarski truth conditions." } },
+    { word: "die semantische Externalism (Putnam)", phonetic: "ze-man-ti-shuh-eks-ter-na-lis-mus", meaning: "semantic externalism (Putnam)", gender: "der", example: { de: "Putnams semantischer Externalismus.", en: "Putnam's semantic externalism." } },
+    { word: "die Bedeutungsholismus (Quine)", phonetic: "beh-doy-tungs-ho-lis-mus", meaning: "meaning holism (Quine)", gender: "der", example: { de: "Quines Bedeutungsholismus.", en: "Quine's meaning holism." } },
+    { word: "die Unbestimmtheit der Übersetzung (Quine)", phonetic: "oon-beh-shtimmt-hyte-der-ü-ber-ze-tsung", meaning: "indeterminacy of translation (Quine)", gender: "die", example: { de: "Quines Übersetzungsunbestimmtheit.", en: "Quine's indeterminacy of translation." } },
+    { word: "das Privatsprachen-Argument (Wittgenstein)", phonetic: "pri-vaht-shprah-khen-ar-goo-ment", meaning: "private language argument (Wittgenstein)", gender: "das", example: { de: "Wittgensteins Privatsprachen-Argument.", en: "Wittgenstein's private language argument." } },
+  ]}] },
+};

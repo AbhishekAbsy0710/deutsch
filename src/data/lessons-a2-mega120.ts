@@ -1,0 +1,25 @@
+import { Lesson } from "./lessons";
+export const lessonsA2Mega120: Record<string, Lesson> = {
+  "la2_m165": { id: "la2_m165", title: "Healthy Lifestyle & Nutrition A2", module: "A2", blocks: [{ type: "flashcard", cards: [
+    { word: "gesund", phonetic: "geh-zoont", meaning: "healthy", example: { de: "Gesund leben.", en: "Live healthily." } },
+    { word: "das Obst", phonetic: "opst", meaning: "fruit", gender: "das", example: { de: "Frisches Obst essen.", en: "Eat fresh fruit." } },
+    { word: "das Gemüse", phonetic: "geh-mü-zuh", meaning: "vegetables", gender: "das", example: { de: "Viel Gemüse essen.", en: "Eat lots of vegetables." } },
+    { word: "die Ernährung", phonetic: "er-nä-rung", meaning: "diet / nutrition", gender: "die", example: { de: "Ausgewogene Ernährung.", en: "Balanced diet." } },
+    { word: "ausgewogen", phonetic: "ows-geh-vo-gen", meaning: "balanced", example: { de: "Ausgewogene Mahlzeiten.", en: "Balanced meals." } },
+    { word: "die Kalorien", phonetic: "ka-lo-ree-en", meaning: "calories", example: { de: "Kalorien zählen.", en: "Count calories." } },
+    { word: "die Vitamine", phonetic: "vi-ta-mee-nuh", meaning: "vitamins", example: { de: "Vitamine nehmen.", en: "Take vitamins." } },
+    { word: "der Protein / das Eiweiß", phonetic: "pro-tayn-ay-vys", meaning: "protein", gender: "das", example: { de: "Viel Eiweiß essen.", en: "Eat plenty of protein." } },
+    { word: "die Kohlenhydrate", phonetic: "koh-len-hü-dra-tuh", meaning: "carbohydrates", example: { de: "Kohlenhydrate reduzieren.", en: "Reduce carbohydrates." } },
+    { word: "das Fett", phonetic: "fet", meaning: "fat", gender: "das", example: { de: "Gesunde Fette.", en: "Healthy fats." } },
+    { word: "Sport treiben", phonetic: "shport-try-ben", meaning: "to exercise / do sport", example: { de: "Regelmäßig Sport treiben.", en: "Exercise regularly." } },
+    { word: "schlafen", phonetic: "shlah-fen", meaning: "to sleep", example: { de: "Acht Stunden schlafen.", en: "Sleep eight hours." } },
+    { word: "der Stress", phonetic: "shtres", meaning: "stress", gender: "der", example: { de: "Stress abbauen.", en: "Reduce stress." } },
+    { word: "sich entspannen", phonetic: "zikh-ent-shpa-nen", meaning: "to relax", example: { de: "Sich nach der Arbeit entspannen.", en: "Relax after work." } },
+    { word: "das Wasser trinken", phonetic: "va-ser-trin-ken", meaning: "to drink water", example: { de: "Viel Wasser trinken.", en: "Drink plenty of water." } },
+    { word: "der Zucker", phonetic: "tsoo-ker", meaning: "sugar", gender: "der", example: { de: "Weniger Zucker essen.", en: "Eat less sugar." } },
+    { word: "vegetarisch", phonetic: "ve-ge-tah-rish", meaning: "vegetarian", example: { de: "Vegetarische Ernährung.", en: "Vegetarian diet." } },
+    { word: "vegan", phonetic: "vey-gahn", meaning: "vegan", example: { de: "Vegane Lebensweise.", en: "Vegan lifestyle." } },
+    { word: "das Übergewicht", phonetic: "ü-ber-geh-vikht", meaning: "overweight / obesity", gender: "das", example: { de: "Übergewicht vermeiden.", en: "Avoid being overweight." } },
+    { word: "fit bleiben", phonetic: "fit-bly-ben", meaning: "to stay fit", example: { de: "Fit bleiben.", en: "Stay fit." } },
+  ]}] },
+};
