@@ -5,6 +5,11 @@ import { createServerClient } from "@supabase/ssr";
 export async function middleware(request: NextRequest) {
   const response = NextResponse.next();
 
+  // API routes (/api/chat, /api/tts) use Bearer token auth handled inside the
+  // route handlers themselves — skip middleware for them entirely.
+  const isApiRoute = request.nextUrl.pathname.startsWith("/api/");
+  if (isApiRoute) return response;
+
   const supabase = createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
@@ -24,16 +29,9 @@ export async function middleware(request: NextRequest) {
 
   const { data: { user } } = await supabase.auth.getUser();
 
-  // Protected routes — redirect to login if not authenticated
+  // Protected pages — redirect to login if not authenticated
   const protectedPaths = ["/learn", "/lesson", "/profile", "/progress", "/review", "/tutor", "/assessment"];
   const isProtected = protectedPaths.some(path => request.nextUrl.pathname.startsWith(path));
-
-  // API routes — return 401 JSON instead of redirect
-  const protectedApi = ["/api/chat", "/api/tts"];
-  const isProtectedApi = protectedApi.some(path => request.nextUrl.pathname.startsWith(path));
-  if (isProtectedApi && !user) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
 
   if (isProtected && !user) {
     return NextResponse.redirect(new URL("/login", request.url));
@@ -59,8 +57,7 @@ export const config = {
     "/review/:path*",
     "/tutor/:path*",
     "/assessment/:path*",
-    "/api/chat/:path*",
-    "/api/tts/:path*",
+    "/api/:path*",
     "/login",
     "/register",
   ],
