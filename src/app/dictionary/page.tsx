@@ -218,7 +218,7 @@ export default function DictionaryPage() {
 
       {filtered.length > 0 && (
         <p className="text-center text-muted-foreground font-mono text-xs mt-8 pb-4">
-          Showing {filtered.length.toLocaleString()} of {allEntries.toLocaleString()} words
+          Showing {filtered.length.toLocaleString()} of {allEntries.length.toLocaleString()} words
         </p>
       )}
     </div>
