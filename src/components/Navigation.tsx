@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BookOpen, Home, Trophy, User, MessageSquare, BookMarked } from "lucide-react";
+import { BookOpen, Home, Trophy, User, MessageSquare, BookMarked, Library } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useProgressSync } from "@/hooks/useProgressSync";
 
@@ -10,6 +10,7 @@ const navItems = [
   { href: "/", label: "Home", icon: Home },
   { href: "/learn", label: "Learn", icon: BookOpen },
   { href: "/review", label: "Review", icon: BookMarked },
+  { href: "/dictionary", label: "Dictionary", icon: Library },
   { href: "/tutor", label: "Tutor", icon: MessageSquare },
   { href: "/progress", label: "Progress", icon: Trophy },
   { href: "/profile", label: "Profile", icon: User },

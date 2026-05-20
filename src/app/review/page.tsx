@@ -36,9 +36,11 @@ interface ReviewCard {
   module: string;
 }
 
-function collectAllFlashcards(): ReviewCard[] {
+function collectAllFlashcards(unlockedIds?: Set<string>): ReviewCard[] {
   const cards: ReviewCard[] = [];
   for (const [lessonId, lesson] of Object.entries(lessonData)) {
+    // Skip locked lessons — only review what the user has actually unlocked
+    if (unlockedIds && !unlockedIds.has(lessonId)) continue;
     for (const block of lesson.blocks) {
       if (block.type === "flashcard" && "cards" in block) {
         for (const card of block.cards) {
@@ -92,9 +94,15 @@ const MODULE_COLOR: Record<string, string> = {
 // ─────────────────────────────────────────────────────────────
 export default function ReviewPage() {
   const router = useRouter();
-  const { srs, updateSRS, xp, streak } = useProgressStore();
+  const { srs, updateSRS, xp, streak, lessons } = useProgressStore();
 
-  const allCards   = useMemo(() => collectAllFlashcards(), []);
+  // Only show cards from lessons the user has unlocked or completed
+  const unlockedLessonIds = useMemo(
+    () => new Set(Object.entries(lessons).filter(([, lp]) => lp.status !== "locked").map(([id]) => id)),
+    [lessons]
+  );
+
+  const allCards   = useMemo(() => collectAllFlashcards(unlockedLessonIds), [unlockedLessonIds]);
   const dueCards   = useMemo(() => getDueCards(allCards, srs), [allCards, srs]);
 
   const [index,     setIndex]     = useState(0);
