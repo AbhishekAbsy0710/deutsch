@@ -13,7 +13,7 @@ import { lessonData } from "@/data/lessons";
 import { createClient } from "@/lib/supabase";
 
 export default function TutorPage() {
-  const { speak, stop, isSpeaking: isTtsSpeaking, isSupported: isTtsSupported } = useSpeechSynthesis();
+  const { speak } = useSpeechSynthesis();
   const { lessons: lessonProgress, xp, streak, level } = useProgressStore();
   const [hydrated, setHydrated] = useState(false);
   const [authToken, setAuthToken] = useState<string | null>(null);
