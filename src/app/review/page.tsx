@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { useProgressStore } from "@/store/useProgressStore";
@@ -110,16 +110,47 @@ export default function ReviewPage() {
   const [done,      setDone]      = useState(false);
   const [session,   setSession]   = useState<{ word: string; quality: number }[]>([]);
   const [speaking,  setSpeaking]  = useState(false);
+  const speakingRef = useRef(false);
 
   const card = dueCards[index];
   const progress = dueCards.length > 0 ? (index / dueCards.length) * 100 : 100;
+
+  // Speak English via browser TTS
+  const speakEnglish = useCallback((text: string): Promise<void> => {
+    return new Promise<void>((resolve) => {
+      if (typeof window === "undefined" || !("speechSynthesis" in window)) { resolve(); return; }
+      window.speechSynthesis.cancel();
+      const utt = new SpeechSynthesisUtterance(text);
+      utt.lang = "en-US";
+      utt.rate = 0.88;
+      const voices = window.speechSynthesis.getVoices();
+      const enVoice = voices.find(v => v.lang.startsWith("en"));
+      if (enVoice) utt.voice = enVoice;
+      utt.onend = () => resolve();
+      utt.onerror = () => resolve();
+      window.speechSynthesis.speak(utt);
+    });
+  }, []);
+
+  // On reveal: German example → 600ms pause → English meaning
+  const speakRevealSequence = useCallback(async (c: ReviewCard) => {
+    if (speakingRef.current) return;
+    speakingRef.current = true;
+    setSpeaking(true);
+    try {
+      await speakGermanNeural(c.example?.de ?? c.word);
+      await new Promise(r => setTimeout(r, 600));
+      await speakEnglish(c.meaning);
+    } catch { /* silent */ }
+    speakingRef.current = false;
+    setSpeaking(false);
+  }, [speakEnglish]);
 
   const handleRate = useCallback((qualityKey: number) => {
     if (!card) return;
     const { quality } = RATING_LABELS[qualityKey];
     updateSRS(card.word, quality);
     setSession(prev => [...prev, { word: card.word, quality }]);
-
     if (index >= dueCards.length - 1) {
       setDone(true);
     } else {
@@ -128,6 +159,7 @@ export default function ReviewPage() {
     }
   }, [card, index, dueCards.length, updateSRS]);
 
+  // Manual TTS button — speaks just the German word
   const handleSpeak = useCallback(async () => {
     if (!card || speaking) return;
     setSpeaking(true);
@@ -276,7 +308,7 @@ export default function ReviewPage() {
               "border-2 border-border rounded-2xl p-8 min-h-[340px] flex flex-col justify-between cursor-pointer select-none transition-colors",
               flipped ? "bg-secondary/30" : "bg-background hover:border-primary/50"
             )}
-            onClick={() => !flipped && setFlipped(true)}
+            onClick={() => { if (!flipped) { setFlipped(true); speakRevealSequence(card); } }}
           >
             {/* Module badge */}
             <div className="flex items-center justify-between">
@@ -307,22 +339,28 @@ export default function ReviewPage() {
                       {card.gender}
                     </span>
                   )}
-                  <p className="text-muted-foreground font-mono text-sm mt-4 animate-pulse">
+                  {card.example && (
+                    <p className="text-muted-foreground text-sm mt-3 italic border-t border-border/50 pt-3">
+                      {card.example.de}
+                    </p>
+                  )}
+                  <p className="text-muted-foreground font-mono text-sm mt-3 animate-pulse">
                     Tap to reveal →
                   </p>
                 </>
               ) : (
                 <>
-                  <p className="text-3xl font-bold text-primary">{card.meaning}</p>
+                  <p className="text-lg font-bold text-muted-foreground">{card.word}</p>
+                  <p className="text-4xl font-black text-primary mt-1">{card.meaning}</p>
                   {card.gender && (
                     <span className="inline-block border border-border px-2 py-0.5 rounded font-mono text-xs text-muted-foreground">
                       {card.gender}
                     </span>
                   )}
                   {card.example && (
-                    <div className="mt-4 border-t border-border pt-4 space-y-1 text-left">
+                    <div className="mt-4 border-t border-border pt-4 space-y-1.5 text-left">
                       <p className="font-bold text-base">{card.example.de}</p>
-                      <p className="text-muted-foreground text-sm italic">{card.example.en}</p>
+                      <p className="text-primary/80 text-sm italic">{card.example.en}</p>
                     </div>
                   )}
                   <p className="text-muted-foreground font-mono text-xs mt-2 opacity-60">
