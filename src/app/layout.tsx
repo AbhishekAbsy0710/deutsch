@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navigation } from "@/components/Navigation";
 import { Noise } from "@/components/Noise";
+import { AuthProvider } from "@/components/AuthProvider";
 
 export const metadata: Metadata = {
   title: "Deutsch AI - Learn German to Fluency",
@@ -31,10 +32,12 @@ export default function RootLayout({
       <body suppressHydrationWarning className="min-h-screen bg-background text-foreground flex md:flex-row flex-col selection:bg-primary selection:text-primary-foreground">
         <Noise />
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-          <Navigation />
-          <main className="flex-1 flex flex-col pb-20 md:pb-0 min-h-screen overflow-x-hidden relative">
-            {children}
-          </main>
+          <AuthProvider>
+            <Navigation />
+            <main className="flex-1 flex flex-col pb-20 md:pb-0 min-h-screen overflow-x-hidden relative">
+              {children}
+            </main>
+          </AuthProvider>
         </ThemeProvider>
       </body>
     </html>
