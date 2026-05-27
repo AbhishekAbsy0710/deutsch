@@ -19,13 +19,18 @@ export default function TutorPage() {
   const [authToken, setAuthToken] = useState<string | null>(null);
 
   // Fetch Supabase session token for API auth
+  const authTokenRef = useRef<string | null>(null);
   useEffect(() => {
     const supabase = createClient();
     supabase.auth.getSession().then(({ data }) => {
-      setAuthToken(data.session?.access_token ?? null);
+      const token = data.session?.access_token ?? null;
+      setAuthToken(token);
+      authTokenRef.current = token;
     });
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
-      setAuthToken(session?.access_token ?? null);
+      const token = session?.access_token ?? null;
+      setAuthToken(token);
+      authTokenRef.current = token;
     });
     return () => subscription.unsubscribe();
   }, []);
@@ -157,7 +162,6 @@ export default function TutorPage() {
 
   const chatHelpers = useChat({
     api: "/api/chat",
-    headers: authToken ? { Authorization: `Bearer ${authToken}` } : undefined,
     body: { scenario: activeScenario },
     messages: [
       {
@@ -251,9 +255,12 @@ export default function TutorPage() {
 
   const handleSubmit = (e?: React.FormEvent<HTMLFormElement>) => {
     e?.preventDefault();
-    if (!input.trim()) return;
+    if (!input.trim() || !authTokenRef.current) return;
     hasInteracted.current = true;
-    sendMessage({ role: "user", content: buildMessageWithProgress(input) } as any);
+    sendMessage(
+      { role: "user", content: buildMessageWithProgress(input) } as any,
+      { body: { scenario: activeScenario, authToken: authTokenRef.current } } as any
+    );
     setInput("");
   };
 
@@ -268,7 +275,10 @@ export default function TutorPage() {
   // Handle Speech Recognition transcript
   useEffect(() => {
     if (status === "done" && transcript) {
-      sendMessage({ role: "user", content: buildMessageWithProgress(transcript) } as any);
+      sendMessage(
+        { role: "user", content: buildMessageWithProgress(transcript) } as any,
+        { body: { scenario: activeScenario, authToken: authTokenRef.current } } as any
+      );
     }
   }, [status, transcript, sendMessage]);
 

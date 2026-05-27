@@ -166,12 +166,18 @@ RULES:
 - If no progress data, start at A1 level`;
 
 export async function POST(req: NextRequest) {
-  // ── Auth guard (edge-compatible: check Authorization Bearer token) ──
+  // ── Auth guard: read body first so we can check body.authToken as fallback ──
+  // This fixes the race condition where useChat fires before React state updates
+  // with the session token — the token arrives in the body instead.
+  const body = await req.json();
+  const { messages, scenario, authToken: bodyToken } = body;
+
   const authHeader = req.headers.get("authorization");
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
   if (supabaseUrl && supabaseKey) {
-    const token = authHeader?.startsWith("Bearer ") ? authHeader.slice(7) : null;
+    // Accept token from Authorization header OR body.authToken
+    const token = authHeader?.startsWith("Bearer ") ? authHeader.slice(7) : (bodyToken ?? null);
     if (!token) {
       return new Response(JSON.stringify({ error: "Unauthorized" }), {
         status: 401,
@@ -194,8 +200,6 @@ export async function POST(req: NextRequest) {
     }
   }
 
-  const body = await req.json();
-  const { messages, scenario } = body;
 
   // Extract progress context from the latest user message
   let progressSummary = "";
