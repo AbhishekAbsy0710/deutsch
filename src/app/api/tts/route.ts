@@ -1,31 +1,64 @@
 import { NextRequest, NextResponse } from "next/server";
 
-export async function POST(request: NextRequest) {
-  // ── Auth guard (Bearer token — same pattern as /api/chat) ──
-  const authHeader = request.headers.get("authorization") ?? "";
-  const token = authHeader.startsWith("Bearer ") ? authHeader.slice(7) : null;
+// ── Azure TTS Configuration ──
+const AZURE_SPEECH_KEY = process.env.AZURE_SPEECH_KEY;
+const AZURE_SPEECH_REGION = process.env.AZURE_SPEECH_REGION || "westeurope";
+const AZURE_VOICE = process.env.AZURE_SPEECH_VOICE || "de-DE-KatjaNeural";
 
-  if (!token) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+// Token cache (Azure tokens last 10 minutes)
+let cachedToken: { token: string; expiresAt: number } | null = null;
+
+async function getAzureToken(): Promise<string> {
+  if (cachedToken && Date.now() < cachedToken.expiresAt) {
+    return cachedToken.token;
   }
 
-  // Verify token with Supabase REST API
-  const verifyRes = await fetch(
-    `${process.env.NEXT_PUBLIC_SUPABASE_URL}/auth/v1/user`,
-    { headers: { Authorization: `Bearer ${token}`, apikey: process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY! } }
+  const res = await fetch(
+    `https://${AZURE_SPEECH_REGION}.api.cognitive.microsoft.com/sts/v1.0/issueToken`,
+    {
+      method: "POST",
+      headers: {
+        "Ocp-Apim-Subscription-Key": AZURE_SPEECH_KEY!,
+        "Content-Length": "0",
+      },
+    }
   );
-  if (!verifyRes.ok) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+
+  if (!res.ok) {
+    throw new Error(`Azure token fetch failed: ${res.status}`);
   }
 
+  const token = await res.text();
+  cachedToken = { token, expiresAt: Date.now() + 9 * 60 * 1000 }; // 9 min
+  return token;
+}
+
+function buildSSML(text: string, voice: string, rate: string = "0.95"): string {
+  // Escape XML special characters
+  const escaped = text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+
+  return `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="de-DE">
+  <voice name="${voice}">
+    <prosody rate="${rate}">${escaped}</prosody>
+  </voice>
+</speak>`;
+}
+
+export async function POST(request: NextRequest) {
+  // No auth guard — TTS should be accessible for learning
   try {
-    const { text } = await request.json();
+    const body = await request.json();
+    const { text, voice, rate } = body;
 
     if (!text || typeof text !== "string") {
       return NextResponse.json({ error: "Text is required" }, { status: 400 });
     }
 
-    // Clean the text — only keep speakable characters
+    // Clean the text
     let cleaned = text
       .replace(/\*\*/g, "")
       .replace(/[^a-zA-ZäöüÄÖÜßàáâãèéêìíîòóôùúûñçÀÁÂÃÈÉÊÌÍÎÒÓÔÙÚÛÑÇ0-9.,!?;:'"()\-\s]/g, "")
@@ -37,12 +70,51 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "No speakable text" }, { status: 400 });
     }
 
-    // Cap text to prevent oversized requests
     if (cleaned.length > 600) {
       cleaned = cleaned.substring(0, 600);
     }
 
-    // Split into chunks (Google TTS has ~200 char limit)
+    // ── Azure Neural TTS ──
+    if (AZURE_SPEECH_KEY) {
+      try {
+        const token = await getAzureToken();
+        const selectedVoice = voice || AZURE_VOICE;
+        const ssml = buildSSML(cleaned, selectedVoice, rate || "0.95");
+
+        const ttsRes = await fetch(
+          `https://${AZURE_SPEECH_REGION}.tts.speech.microsoft.com/cognitiveservices/v1`,
+          {
+            method: "POST",
+            headers: {
+              Authorization: `Bearer ${token}`,
+              "Content-Type": "application/ssml+xml",
+              "X-Microsoft-OutputFormat": "audio-24khz-96kbitrate-mono-mp3",
+              "User-Agent": "DeutschLernen",
+            },
+            body: ssml,
+          }
+        );
+
+        if (!ttsRes.ok) {
+          throw new Error(`Azure TTS failed: ${ttsRes.status}`);
+        }
+
+        const audioBuffer = await ttsRes.arrayBuffer();
+
+        return new NextResponse(new Uint8Array(audioBuffer), {
+          headers: {
+            "Content-Type": "audio/mpeg",
+            "Content-Length": audioBuffer.byteLength.toString(),
+            "Cache-Control": "public, max-age=3600",
+          },
+        });
+      } catch (azureError) {
+        console.error("[TTS] Azure failed, falling back to Google:", azureError);
+        // Fall through to Google fallback
+      }
+    }
+
+    // ── Google Translate Fallback ──
     const chunks: string[] = [];
     let remaining = cleaned;
 
@@ -58,7 +130,6 @@ export async function POST(request: NextRequest) {
       remaining = remaining.substring(breakPoint).trimStart();
     }
 
-    // Fetch ALL chunks in PARALLEL for speed
     const results = await Promise.allSettled(
       chunks.filter(c => c.trim()).map(async (chunk) => {
         const url = `https://translate.google.com/translate_tts?ie=UTF-8&tl=de&client=tw-ob&q=${encodeURIComponent(chunk)}`;
@@ -81,7 +152,6 @@ export async function POST(request: NextRequest) {
       })
     );
 
-    // Collect successful results (in order)
     const audioBuffers: Uint8Array[] = [];
     for (const r of results) {
       if (r.status === "fulfilled") audioBuffers.push(r.value);
@@ -91,7 +161,6 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "TTS service unavailable" }, { status: 503 });
     }
 
-    // Concatenate
     const totalLength = audioBuffers.reduce((sum, buf) => sum + buf.length, 0);
     const combined = new Uint8Array(totalLength);
     let offset = 0;

@@ -2,7 +2,7 @@
 
 /**
  * Centralized German TTS utility.
- * Uses Google Translate neural voice via /api/tts endpoint.
+ * Uses Azure Neural TTS via /api/tts endpoint (de-DE-KatjaNeural).
  * Falls back to browser speechSynthesis only if the API fails.
  * 
  * ALL components should use this instead of raw window.speechSynthesis.
@@ -26,7 +26,10 @@ export function stopGermanAudio() {
   }
 }
 
-export async function speakGermanNeural(text: string): Promise<void> {
+export async function speakGermanNeural(
+  text: string,
+  options?: { voice?: string; rate?: string }
+): Promise<void> {
   if (!text.trim()) return;
 
   // Stop any currently playing audio
@@ -36,7 +39,11 @@ export async function speakGermanNeural(text: string): Promise<void> {
     const response = await fetch("/api/tts", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text }),
+      body: JSON.stringify({
+        text,
+        voice: options?.voice,
+        rate: options?.rate,
+      }),
     });
 
     if (!response.ok) throw new Error(`TTS API error: ${response.status}`);
