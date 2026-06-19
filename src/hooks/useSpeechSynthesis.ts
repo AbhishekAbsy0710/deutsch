@@ -2,6 +2,44 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 
+/**
+ * Extracts only the German parts from tutor messages.
+ * Strips: English translations in brackets, emojis, formatting markers.
+ * This way the Azure voice speaks natural German, not "Hallo parenthesis Hello parenthesis".
+ */
+function extractGermanForTTS(text: string): string {
+  let cleaned = text
+    // Remove English translations in brackets: (Hello!) or (This is good.)
+    .replace(/\([^)]*\)/g, "")
+    // Remove emoji and special markers
+    .replace(/[\u{1F600}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F900}-\u{1F9FF}]/gu, "")
+    // Remove common text markers: ✏️ ✅ 📖 🔄 🔍 🏗️ 🎭 etc.
+    .replace(/[✏️✅📖🔄🔍🏗️🎭⭐💡🎯❌⚠️]/g, "")
+    // Remove lines that are purely English (no German characters äöüß and no German structure)
+    .split("\n")
+    .filter(line => {
+      const trimmed = line.trim();
+      if (!trimmed) return false;
+      // Keep lines with German-specific characters
+      if (/[äöüÄÖÜß]/.test(trimmed)) return true;
+      // Keep lines that start with German words (common patterns)
+      if (/^(Ich|Du|Er|Sie|Wir|Ihr|Das|Der|Die|Ein|Eine|Mein|Dein|Ja|Nein|Gut|Super|Richtig|Fast|Genau|Also|Und|Aber|Oder|Wie|Was|Wo|Wann|Warum|Hallo|Auf|Zum|Komm|Erzähl|Klingt|Nicht|Noch|Sag|Versuch)/i.test(trimmed)) return true;
+      // Keep short lines (likely German phrases)
+      if (trimmed.length < 60 && !/^[A-Z][a-z]/.test(trimmed)) return true;
+      // Filter out pure English lines
+      if (/^(FORMAT|STEP|RULE|NOTE|TIP|Small tip|For example|In German|Your|The |That|This|I think|You |Nice|Great|Good|Almost|Correct|Wrong)/i.test(trimmed)) return false;
+      return true;
+    })
+    .join(". ")
+    // Clean up extra spaces and punctuation
+    .replace(/\s+/g, " ")
+    .replace(/\.\s*\./g, ".")
+    .replace(/,\s*,/g, ",")
+    .trim();
+
+  return cleaned || text.substring(0, 200); // Fallback: use raw text if stripping removes everything
+}
+
 export function useSpeechSynthesis() {
   const [isSpeaking, setIsSpeaking] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -39,7 +77,9 @@ export function useSpeechSynthesis() {
   const speak = useCallback(async (text: string) => {
     if (!text.trim()) return;
 
-    console.log("[TTS] Requesting neural voice for:", text.substring(0, 60) + "...");
+    // Extract only German parts for natural TTS
+    const germanText = extractGermanForTTS(text);
+    console.log("[TTS] Speaking German:", germanText.substring(0, 80) + "...");
 
     // Stop any currently playing audio
     if (audioRef.current) {
@@ -58,7 +98,7 @@ export function useSpeechSynthesis() {
       const response = await fetch("/api/tts", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text }),
+        body: JSON.stringify({ text: germanText }),
       });
 
       if (!response.ok) {
@@ -82,17 +122,17 @@ export function useSpeechSynthesis() {
         setIsSpeaking(false);
       };
 
-      console.log("[TTS] ▶ Playing neural audio...");
+      console.log("[TTS] ▶ Playing Azure Neural audio...");
       await audio.play();
     } catch (error) {
       console.error("[TTS] Error:", error);
       setIsSpeaking(false);
       
-      // Fallback to browser speech synthesis if neural TTS fails
+      // Fallback to browser speech synthesis if Azure TTS fails
       if ("speechSynthesis" in window) {
         console.log("[TTS] Falling back to browser speech synthesis");
         window.speechSynthesis.cancel();
-        const utterance = new SpeechSynthesisUtterance(text);
+        const utterance = new SpeechSynthesisUtterance(germanText);
         utterance.lang = "de-DE";
         utterance.rate = 0.93;
         utterance.pitch = 1.05;

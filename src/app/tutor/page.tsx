@@ -191,6 +191,8 @@ export default function TutorPage() {
     if (text.includes("---CONTEXT (hidden from display)---")) {
       text = text.split("---CONTEXT (hidden from display)---")[0].trim();
     }
+    // Strip input source tags from display
+    text = text.replace(/^\[INPUT:(voice|typed)\]\s*/i, "");
     return text;
   };
 
@@ -246,11 +248,13 @@ export default function TutorPage() {
     }
   };
 
-  // Helper to build message with progress context attached
-  const buildMessageWithProgress = (userText: string) => {
+  // Helper to build message with progress context and input source attached
+  const buildMessageWithProgress = (userText: string, inputSource: "typed" | "voice" = "typed") => {
     const progress = progressRef.current;
+    // Tag with input source so the AI knows whether to correct capitalization
+    const tagged = `[INPUT:${inputSource}] ${userText}`;
     // Attach progress as hidden context that the AI can read
-    return progress ? `${userText}\n\n---CONTEXT (hidden from display)---${progress}` : userText;
+    return progress ? `${tagged}\n\n---CONTEXT (hidden from display)---${progress}` : tagged;
   };
 
   const handleSubmit = (e?: React.FormEvent<HTMLFormElement>) => {
@@ -258,7 +262,7 @@ export default function TutorPage() {
     if (!input.trim() || !authTokenRef.current) return;
     hasInteracted.current = true;
     sendMessage(
-      { role: "user", content: buildMessageWithProgress(input) } as any,
+      { role: "user", content: buildMessageWithProgress(input, "typed") } as any,
       { body: { scenario: activeScenario, authToken: authTokenRef.current } } as any
     );
     setInput("");
@@ -275,8 +279,9 @@ export default function TutorPage() {
   // Handle Speech Recognition transcript
   useEffect(() => {
     if (status === "done" && transcript) {
+      hasInteracted.current = true;
       sendMessage(
-        { role: "user", content: buildMessageWithProgress(transcript) } as any,
+        { role: "user", content: buildMessageWithProgress(transcript, "voice") } as any,
         { body: { scenario: activeScenario, authToken: authTokenRef.current } } as any
       );
     }
