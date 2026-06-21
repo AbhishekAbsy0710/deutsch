@@ -33,6 +33,15 @@ export interface UserProgress {
   // Gamification & Review
   achievements: string[];
   srs: Record<string, SRSData>; // Maps a flashcard word to its SRS state
+  
+  // Daily challenge
+  dailyChallengeDate: string | null; // ISO date of last completed daily challenge
+  dailyChallengesCompleted: number; // Total daily challenges completed
+  todayLessonsCompleted: number; // Lessons completed today (resets daily)
+  todayLessonsDate: string | null; // Date for todayLessonsCompleted
+  
+  // Recently unlocked achievements (for toast display)
+  _pendingAchievements: string[];
 }
 
 interface ProgressStore extends UserProgress {
@@ -46,6 +55,9 @@ interface ProgressStore extends UserProgress {
   // Gamification
   unlockAchievement: (achievementId: string) => void;
   updateSRS: (word: string, quality: number) => void; // quality: 0-5
+  completeDailyChallenge: () => void;
+  checkAchievements: () => string[]; // Returns newly unlocked achievement IDs
+  consumePendingAchievements: () => string[];
   
   // Cloud sync
   syncWithSupabase: (userId: string) => Promise<void>;
@@ -97,6 +109,11 @@ const initialState: UserProgress = {
   level: null,
   achievements: [],
   srs: {},
+  dailyChallengeDate: null,
+  dailyChallengesCompleted: 0,
+  todayLessonsCompleted: 0,
+  todayLessonsDate: null,
+  _pendingAchievements: [],
 };
 
 function checkAndUpdateStreak(lastDate: string | null, currentStreak: number): number {
@@ -125,6 +142,12 @@ export const useProgressStore = create<ProgressStore>()(
         const isFirstCompletion = existing?.status !== "completed";
         const newStreak = checkAndUpdateStreak(state.lastActiveDate, state.streak);
         
+        // Track daily lessons count
+        const today = new Date().toISOString().split("T")[0];
+        const todayCount = state.todayLessonsDate === today
+          ? state.todayLessonsCompleted + 1
+          : 1;
+        
         set({
           lessons: {
             ...state.lessons,
@@ -137,7 +160,9 @@ export const useProgressStore = create<ProgressStore>()(
           },
           xp: state.xp + (isFirstCompletion ? xpEarned : Math.floor(xpEarned / 4)), // Less XP for replays
           streak: newStreak,
-          lastActiveDate: new Date().toISOString().split("T")[0],
+          lastActiveDate: today,
+          todayLessonsCompleted: todayCount,
+          todayLessonsDate: today,
         });
 
         // Unlock the next lesson in the chain
@@ -148,6 +173,9 @@ export const useProgressStore = create<ProgressStore>()(
             get().unlockLesson(nextLessonId);
           }
         }
+
+        // Check achievements after lesson completion
+        get().checkAchievements();
 
         // Auto-save to Supabase if user is logged in
         const userId = get()._userId;
@@ -196,6 +224,105 @@ export const useProgressStore = create<ProgressStore>()(
         
         const userId = get()._userId;
         if (userId) get().saveToCloud(userId);
+      },
+
+      completeDailyChallenge: () => {
+        const today = new Date().toISOString().split("T")[0];
+        const state = get();
+        if (state.dailyChallengeDate === today) return; // Already completed
+        
+        const newStreak = checkAndUpdateStreak(state.lastActiveDate, state.streak);
+        set({
+          dailyChallengeDate: today,
+          dailyChallengesCompleted: state.dailyChallengesCompleted + 1,
+          xp: state.xp + 50,
+          streak: newStreak,
+          lastActiveDate: today,
+        });
+        
+        // Check achievements
+        get().checkAchievements();
+        
+        const userId = get()._userId;
+        if (userId) get().saveToCloud(userId);
+      },
+
+      checkAchievements: () => {
+        const state = get();
+        const earned = new Set(state.achievements);
+        const newlyUnlocked: string[] = [];
+        
+        const completedCount = Object.values(state.lessons).filter(l => l.status === "completed").length;
+        const vocabCount = Object.keys(state.srs).length;
+        
+        // Helper to unlock if not already earned
+        const check = (id: string, condition: boolean) => {
+          if (condition && !earned.has(id)) {
+            earned.add(id);
+            newlyUnlocked.push(id);
+          }
+        };
+        
+        // Milestone badges
+        check("first-flame", completedCount >= 1);
+        check("bookworm-10", completedCount >= 10);
+        check("scholar-50", completedCount >= 50);
+        check("centurion", completedCount >= 100);
+        check("legend-500", completedCount >= 500);
+        
+        // Streak badges
+        check("streak-3", state.streak >= 3);
+        check("streak-7", state.streak >= 7);
+        check("streak-14", state.streak >= 14);
+        check("streak-30", state.streak >= 30);
+        check("streak-100", state.streak >= 100);
+        
+        // XP badges
+        check("xp-1000", state.xp >= 1000);
+        check("xp-5000", state.xp >= 5000);
+        
+        // Vocab badges
+        check("vocab-50", vocabCount >= 50);
+        check("vocab-200", vocabCount >= 200);
+        
+        // Speed runner — 5 lessons today
+        check("speed-runner", state.todayLessonsCompleted >= 5);
+        
+        // Perfect score — any lesson with 100%
+        const hasPerfect = Object.values(state.lessons).some(l => l.score === 100 && l.status === "completed");
+        check("perfect-score", hasPerfect);
+        
+        // Daily challenge badge
+        check("daily-challenge-7", state.dailyChallengesCompleted >= 7);
+        
+        // Level badges (check which modules are fully completed)
+        const moduleDone = (mod: string) => {
+          const modLessons = lessonIds.filter(id => lessonData[id]?.module === mod);
+          return modLessons.length > 0 && modLessons.every(id => state.lessons[id]?.status === "completed");
+        };
+        check("a1-explorer", moduleDone("A0"));
+        check("a2-adventurer", moduleDone("A1"));
+        check("b1-climber", moduleDone("A2"));
+        check("b2-navigator", moduleDone("B1"));
+        check("c1-master", moduleDone("B2"));
+        check("c2-native", moduleDone("C1"));
+        
+        if (newlyUnlocked.length > 0) {
+          set({
+            achievements: Array.from(earned),
+            _pendingAchievements: [...state._pendingAchievements, ...newlyUnlocked],
+          });
+        }
+        
+        return newlyUnlocked;
+      },
+      
+      consumePendingAchievements: () => {
+        const pending = get()._pendingAchievements;
+        if (pending.length > 0) {
+          set({ _pendingAchievements: [] });
+        }
+        return pending;
       },
 
       unlockLesson: (lessonId: string) => {
@@ -318,6 +445,11 @@ export const useProgressStore = create<ProgressStore>()(
           level: get().level,
           achievements: get().achievements,
           srs: get().srs,
+          dailyChallengeDate: get().dailyChallengeDate,
+          dailyChallengesCompleted: get().dailyChallengesCompleted,
+          todayLessonsCompleted: get().todayLessonsCompleted,
+          todayLessonsDate: get().todayLessonsDate,
+          _pendingAchievements: get()._pendingAchievements,
         };
 
         if (cloudProgress) {
@@ -347,6 +479,11 @@ export const useProgressStore = create<ProgressStore>()(
             level: state.level,
             achievements: state.achievements,
             srs: state.srs,
+            dailyChallengeDate: state.dailyChallengeDate,
+            dailyChallengesCompleted: state.dailyChallengesCompleted,
+            todayLessonsCompleted: state.todayLessonsCompleted,
+            todayLessonsDate: state.todayLessonsDate,
+            _pendingAchievements: state._pendingAchievements,
           });
         });
       },

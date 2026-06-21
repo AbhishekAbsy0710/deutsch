@@ -2,9 +2,13 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Lock, ArrowRight, CheckCircle2, RotateCcw } from "lucide-react";
+import { Lock, ArrowRight, CheckCircle2, RotateCcw, Flame, Zap, BookOpen } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useProgressStore } from "@/store/useProgressStore";
+import { DailyChallenge } from "@/components/DailyChallenge";
+import { WordOfTheDay } from "@/components/WordOfTheDay";
+import { AchievementToast, useAchievementToast } from "@/components/AchievementToast";
+import { useMemo, useEffect } from "react";
 
 import { lessonData } from "@/data/lessons";
 
@@ -83,7 +87,29 @@ const modules = moduleMetadata.map(meta => ({
 }));
 
 export default function LearnDashboard() {
-  const { lessons, xp, streak, getLessonStatus } = useProgressStore();
+  const { lessons, xp, streak, getLessonStatus, consumePendingAchievements, todayLessonsCompleted, todayLessonsDate } = useProgressStore();
+  const { triggerAchievement, AchievementToastComponent } = useAchievementToast();
+
+  // Check for pending achievements on mount and after state changes
+  useEffect(() => {
+    const pending = consumePendingAchievements();
+    pending.forEach(id => triggerAchievement(id));
+  }, [lessons]); // Re-check when lessons change
+
+  // Find next active lesson for "Continue Learning"
+  const nextActiveLesson = useMemo(() => {
+    const allLessons = Object.values(lessonData);
+    for (const lesson of allLessons) {
+      if (getLessonStatus(lesson.id) === "active") {
+        return lesson;
+      }
+    }
+    return null;
+  }, [lessons, getLessonStatus]);
+
+  // Today's lesson count
+  const today = new Date().toISOString().split("T")[0];
+  const todayCount = todayLessonsDate === today ? todayLessonsCompleted : 0;
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -130,6 +156,74 @@ export default function LearnDashboard() {
           </div>
         </div>
       </header>
+
+      {/* Achievement Toast Portal */}
+      <AchievementToastComponent />
+
+      {/* === ENGAGEMENT DASHBOARD === */}
+      <div className="mb-16 space-y-6">
+        {/* Live Stats Bar */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="grid grid-cols-3 gap-3"
+        >
+          <div className="border-2 border-foreground p-4 flex items-center gap-3">
+            <Flame size={20} className="text-orange-500" />
+            <div>
+              <p className="text-2xl font-black">{String(streak).padStart(2, "0")}</p>
+              <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">Day Streak</p>
+            </div>
+          </div>
+          <div className="border-2 border-foreground p-4 flex items-center gap-3">
+            <Zap size={20} className="text-yellow-500" />
+            <div>
+              <p className="text-2xl font-black">{xp.toLocaleString()}</p>
+              <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">Total XP</p>
+            </div>
+          </div>
+          <div className="border-2 border-foreground p-4 flex items-center gap-3">
+            <BookOpen size={20} className="text-primary" />
+            <div>
+              <p className="text-2xl font-black">{todayCount}</p>
+              <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">Today</p>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Continue Learning CTA */}
+        {nextActiveLesson && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 }}
+          >
+            <Link
+              href={`/lesson/${nextActiveLesson.id}`}
+              className="group flex items-center justify-between p-5 border-2 border-primary bg-primary/5 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+            >
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 bg-primary text-primary-foreground flex items-center justify-center group-hover:bg-primary-foreground group-hover:text-primary transition-colors">
+                  <ArrowRight size={20} />
+                </div>
+                <div>
+                  <p className="font-bold text-lg">Continue Learning</p>
+                  <p className="font-mono text-xs text-muted-foreground group-hover:text-primary-foreground/70 transition-colors">
+                    {nextActiveLesson.title}
+                  </p>
+                </div>
+              </div>
+              <ArrowRight size={24} className="opacity-0 -translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300" />
+            </Link>
+          </motion.div>
+        )}
+
+        {/* Daily Challenge + Word of the Day */}
+        <div className="grid md:grid-cols-2 gap-6">
+          <DailyChallenge />
+          <WordOfTheDay />
+        </div>
+      </div>
 
       <motion.div variants={containerVariants} initial="hidden" animate="show" className="space-y-32">
         {modules.map((mod, index) => {

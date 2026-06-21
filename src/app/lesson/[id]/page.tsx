@@ -17,6 +17,8 @@ import ListeningBlock from "@/components/blocks/ListeningBlock";
 import CulturalNoteBlock from "@/components/blocks/CulturalNoteBlock";
 import ExampleDialogueBlock from "@/components/blocks/ExampleDialogueBlock";
 import SummaryBlock from "@/components/blocks/SummaryBlock";
+import { useXPToast } from "@/components/XPToast";
+import { useAchievementToast } from "@/components/AchievementToast";
 import { motion } from "framer-motion";
 import Confetti from "react-confetti";
 import { useWindowSize } from "react-use";
@@ -37,7 +39,10 @@ export default function LessonPage({ params }: { params: Promise<{ id: string }>
   const router = useRouter();
   const { id } = use(params);
   const completeLesson = useProgressStore(s => s.completeLesson);
+  const consumePendingAchievements = useProgressStore(s => s.consumePendingAchievements);
   const { width, height } = useWindowSize();
+  const { triggerXP, XPToastComponent } = useXPToast();
+  const { triggerAchievement, AchievementToastComponent } = useAchievementToast();
 
   const lesson = lessonData[id as string];
   const [phase, setPhase] = useState<"study" | "test">("study");
@@ -80,6 +85,15 @@ export default function LessonPage({ params }: { params: Promise<{ id: string }>
       const xpEarned = 30 + Math.round(score * 0.2);
       completeLesson(lesson.id, score, xpEarned);
       setLessonComplete(true);
+      
+      // Trigger XP toast
+      triggerXP(xpEarned);
+      
+      // Check for newly unlocked achievements
+      setTimeout(() => {
+        const pending = consumePendingAchievements();
+        pending.forEach(id => triggerAchievement(id));
+      }, 1000); // Delay to let XP toast show first
     } else {
       setTestBlockIdx(prev => prev + 1);
     }
@@ -105,6 +119,8 @@ export default function LessonPage({ params }: { params: Promise<{ id: string }>
 
     return (
       <div className="flex-1 flex items-center justify-center p-8">
+        <XPToastComponent />
+        <AchievementToastComponent />
         <Confetti width={width} height={height} recycle={false} numberOfPieces={500} gravity={0.15} />
         <motion.div 
           className="text-center space-y-8 max-w-md relative z-10 bg-background/80 p-8 rounded-3xl backdrop-blur-sm"

@@ -7,6 +7,7 @@ import { useProgressStore } from "@/store/useProgressStore";
 import { lessonData } from "@/data/lessons";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { AchievementGallery } from "@/components/AchievementGallery";
 
 // ── Derive CEFR level dynamically from lessonData ─────────────
 const MODULE_ORDER = ["A0", "A1", "A2", "B1", "B2", "C1", "C2"];
@@ -182,6 +183,9 @@ export default function ProgressPage() {
           })}
         </div>
       </motion.section>
+
+      {/* Achievement Gallery */}
+      <AchievementGallery />
 
       {/* Recent Activity */}
       {recentActivity.length > 0 ? (
