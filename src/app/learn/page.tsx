@@ -134,27 +134,15 @@ export default function LearnDashboard() {
 
   return (
     <div className="flex-1 px-6 md:px-16 py-12 max-w-[1400px] mx-auto w-full">
-      <header className="mb-20 flex flex-col md:flex-row md:items-end justify-between gap-8 border-b-4 border-foreground pb-8">
-        <div>
-          <div className="text-primary font-mono text-sm tracking-widest uppercase mb-4 flex items-center gap-4">
-            <span className="w-12 h-[2px] bg-primary block"></span>
-            Curriculum
-          </div>
-          <h1 className="text-5xl md:text-8xl font-black tracking-tighter uppercase leading-[0.85]">
-            Pathway to<br />
-            <span className="text-muted-foreground">Fluency.</span>
-          </h1>
+      <header className="mb-12 border-b-4 border-foreground pb-8">
+        <div className="text-primary font-mono text-sm tracking-widest uppercase mb-4 flex items-center gap-4">
+          <span className="w-12 h-[2px] bg-primary block"></span>
+          Curriculum
         </div>
-        <div className="flex gap-8 font-mono text-sm">
-          <div className="flex flex-col">
-            <span className="text-muted-foreground uppercase">Streak</span>
-            <span className="text-3xl font-black text-primary">{String(streak).padStart(2, "0")}</span>
-          </div>
-          <div className="flex flex-col">
-            <span className="text-muted-foreground uppercase">XP</span>
-            <span className="text-3xl font-black">{xp}</span>
-          </div>
-        </div>
+        <h1 className="text-5xl md:text-8xl font-black tracking-tighter uppercase leading-[0.85]">
+          Pathway to<br />
+          <span className="text-muted-foreground">Fluency.</span>
+        </h1>
       </header>
 
       {/* Achievement Toast Portal */}
@@ -169,7 +157,9 @@ export default function LearnDashboard() {
           className="grid grid-cols-3 gap-3"
         >
           <div className="border-2 border-foreground p-4 flex items-center gap-3">
-            <Flame size={20} className="text-orange-500" />
+            <motion.div animate={streak > 0 ? { scale: [1, 1.2, 1] } : {}} transition={{ duration: 1.5, repeat: Infinity }}>
+              <Flame size={20} className={streak > 0 ? "text-orange-500" : "text-muted-foreground"} />
+            </motion.div>
             <div>
               <p className="text-2xl font-black">{String(streak).padStart(2, "0")}</p>
               <p className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">Day Streak</p>
