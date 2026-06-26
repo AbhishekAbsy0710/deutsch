@@ -1,3 +1,7 @@
+import { readingPassagesA1A2 } from "./reading-passages-a1a2";
+import { readingPassagesB1B2 } from "./reading-passages-b1b2";
+import { readingPassagesC1C2 } from "./reading-passages-c1c2";
+
 export interface ReadingPassage {
   id: string;
   level: string;
@@ -58,7 +62,7 @@ export const readingPassages: ReadingPassage[] = [
     category: "daily-life",
     title: "My Morning",
     titleDe: "Mein Morgen",
-    text: `Ich stehe um 7 Uhr auf. Zuerst dusche ich und dann frühstücke ich. Ich esse Brot mit Käse und trinke Orangensaft. Um 8 Uhr fahre ich mit dem Bus zur Arbeit. Die Busfahrt dauert 20 Minuten. Meine Kollegin Maria sagt: „Guten Morgen!" Ich sage: „Guten Morgen, Maria! Wie geht es dir?" Sie antwortet: „Gut, danke!"`,
+    text: `Ich stehe um 7 Uhr auf. Zuerst dusche ich und dann frühstücke ich. Ich esse Brot mit Käse und trinke Orangensaft. Um 8 Uhr fahre ich mit dem Bus zur Arbeit. Die Busfahrt dauert 20 Minuten. Meine Kollegin Maria sagt: 'Guten Morgen!' Ich sage: 'Guten Morgen, Maria! Wie geht es dir?' Sie antwortet: 'Gut, danke!'`,
     wordCount: 52,
     vocabulary: [
       { word: "aufstehen", meaning: "to get up" },
@@ -95,7 +99,7 @@ export const readingPassages: ReadingPassage[] = [
     category: "daily-life",
     title: "Looking for an Apartment",
     titleDe: "Wohnungssuche",
-    text: `Seit zwei Wochen suche ich eine neue Wohnung. Gestern habe ich eine Anzeige im Internet gefunden: „2-Zimmer-Wohnung, 55 qm, Altbau, Balkon, 650 Euro kalt." Die Wohnung liegt in der Schillerstraße, direkt neben einer U-Bahn-Station. Ich habe sofort eine E-Mail geschrieben und heute Morgen hat der Vermieter geantwortet. Am Donnerstag um 16 Uhr kann ich die Wohnung besichtigen. Ich bin aufgeregt, weil die Wohnung perfekt klingt! Hoffentlich gefällt sie mir auch in Wirklichkeit.`,
+    text: `Seit zwei Wochen suche ich eine neue Wohnung. Gestern habe ich eine Anzeige im Internet gefunden: '2-Zimmer-Wohnung, 55 qm, Altbau, Balkon, 650 Euro kalt." Die Wohnung liegt in der Schillerstraße, direkt neben einer U-Bahn-Station. Ich habe sofort eine E-Mail geschrieben und heute Morgen hat der Vermieter geantwortet. Am Donnerstag um 16 Uhr kann ich die Wohnung besichtigen. Ich bin aufgeregt, weil die Wohnung perfekt klingt! Hoffentlich gefällt sie mir auch in Wirklichkeit.`,
     wordCount: 78,
     vocabulary: [
       { word: "Anzeige", meaning: "advertisement/listing" },
@@ -270,7 +274,7 @@ Als Nachfolger wurde im Mai 2023 das Deutschlandticket für 49 Euro monatlich ei
 
 Die Ursachen sind vielschichtig: Zum einen hat die Digitalisierung dazu geführt, dass insbesondere jüngere Leserinnen und Leser Nachrichten überwiegend über soziale Medien und Online-Portale konsumieren. Zum anderen sind die Werbeeinnahmen — traditionell die wirtschaftliche Grundlage des Printjournalismus — massiv ins Internet abgewandert, allen voran zu Plattformen wie Google und Meta.
 
-Die Konsequenzen dieses Strukturwandels reichen weit über die Medienbranche hinaus. In sogenannten „Nachrichtenwüsten" — Regionen, in denen keine lokale Zeitung mehr erscheint — sinkt nachweislich die Wahlbeteiligung, steigt die Korruption in der Kommunalpolitik und verschlechtert sich die Qualität der öffentlichen Verwaltung. Der Kommunikationswissenschaftler Horst Pöttker spricht in diesem Zusammenhang von einem „demokratischen Blindflug".
+Die Konsequenzen dieses Strukturwandels reichen weit über die Medienbranche hinaus. In sogenannten 'Nachrichtenwüsten' — Regionen, in denen keine lokale Zeitung mehr erscheint — sinkt nachweislich die Wahlbeteiligung, steigt die Korruption in der Kommunalpolitik und verschlechtert sich die Qualität der öffentlichen Verwaltung. Der Kommunikationswissenschaftler Horst Pöttker spricht in diesem Zusammenhang von einem 'demokratischen Blindflug'.
 
 Verschiedene Lösungsansätze werden diskutiert: staatliche Presseförderung nach skandinavischem Vorbild, gemeinnütziger Journalismus, genossenschaftliche Modelle oder die Einführung einer Plattformabgabe, mit der Tech-Konzerne zur Finanzierung journalistischer Inhalte beitragen müssten. Ob diese Maßnahmen ausreichen, um den Niedergang aufzuhalten, bleibt indes fraglich.`,
     wordCount: 200,
@@ -316,9 +320,9 @@ Verschiedene Lösungsansätze werden diskutiert: staatliche Presseförderung nac
     category: "academic",
     title: "Language and Identity",
     titleDe: "Sprache und Identität: Gendergerechte Sprache",
-    text: `Die Debatte um gendergerechte Sprache hat sich in den vergangenen Jahren zu einem der polarisierendsten gesellschaftspolitischen Diskurse im deutschsprachigen Raum entwickelt. Befürworterinnen und Befürworter argumentieren, die sprachliche Sichtbarmachung aller Geschlechter sei nicht nur ein Gebot der Gleichstellung, sondern beeinflusse nachweislich die kognitive Repräsentation: Wer „Ärzte" höre, denke primär an Männer; wer „Ärztinnen und Ärzte" höre, aktiviere ein diverseres mentales Bild. Psycholinguistische Studien, etwa die vielzitierte Untersuchung von Stahlberg und Sczesny (2001), stützen diese These mit empirischen Daten.
+    text: `Die Debatte um gendergerechte Sprache hat sich in den vergangenen Jahren zu einem der polarisierendsten gesellschaftspolitischen Diskurse im deutschsprachigen Raum entwickelt. Befürworterinnen und Befürworter argumentieren, die sprachliche Sichtbarmachung aller Geschlechter sei nicht nur ein Gebot der Gleichstellung, sondern beeinflusse nachweislich die kognitive Repräsentation: Wer 'Ärzte' höre, denke primär an Männer; wer 'Ärztinnen und Ärzte' höre, aktiviere ein diverseres mentales Bild. Psycholinguistische Studien, etwa die vielzitierte Untersuchung von Stahlberg und Sczesny (2001), stützen diese These mit empirischen Daten.
 
-Kritikerinnen und Kritiker hingegen verweisen auf die Lesbarkeit und den ästhetischen Verfall, den Gendersternchen, Doppelpunkte und Binnen-I mit sich brächten. Der Sprachwissenschaftler Peter Eisenberg etwa bezeichnete das Gendern als „Eingriff in das Sprachsystem, der linguistisch nicht zu rechtfertigen ist" und verwies darauf, dass das generische Maskulinum keineswegs eine semantische, sondern lediglich eine grammatische Kategorie darstelle — ein Argument, das freilich die pragmatische Dimension von Sprache außer Acht lässt.
+Kritikerinnen und Kritiker hingegen verweisen auf die Lesbarkeit und den ästhetischen Verfall, den Gendersternchen, Doppelpunkte und Binnen-I mit sich brächten. Der Sprachwissenschaftler Peter Eisenberg etwa bezeichnete das Gendern als 'Eingriff in das Sprachsystem, der linguistisch nicht zu rechtfertigen ist" und verwies darauf, dass das generische Maskulinum keineswegs eine semantische, sondern lediglich eine grammatische Kategorie darstelle — ein Argument, das freilich die pragmatische Dimension von Sprache außer Acht lässt.
 
 Bemerkenswert ist, dass die offizielle Haltung gespalten bleibt: Während der Rat für deutsche Rechtschreibung Genderzeichen innerhalb von Wörtern explizit nicht in das amtliche Regelwerk aufgenommen hat, verwenden zahlreiche Universitäten, Medien und öffentliche Institutionen sie selbstverständlich. Dieser Widerspruch zwischen Norm und Praxis spiegelt die tiefgreifende Unsicherheit wider, mit der die Gesellschaft dem Wandel ihrer Kommunikationsformen begegnet.
 
@@ -374,6 +378,9 @@ Die Frage, ob und wie Sprache die Wirklichkeit nicht nur abbildet, sondern aktiv
       },
     ],
   },
+  ...readingPassagesA1A2,
+  ...readingPassagesB1B2,
+  ...readingPassagesC1C2,
 ];
 
 export function getPassagesByLevel(level: string): ReadingPassage[] {

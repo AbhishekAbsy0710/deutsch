@@ -1,3 +1,5 @@
+import { dictationSentencesExpanded, comprehensionDialoguesExpanded } from "./listening-data-expanded";
+
 // ── Dictation Data ───────────────────────────────────────
 export interface DictationSentence {
   id: string;
@@ -123,6 +125,7 @@ export const dictationSentences: DictationSentence[] = [
   { id: "d-c1-14", level: "C1", text: "Die Wechselwirkung zwischen technologischem Fortschritt und gesellschaftlichem Wandel ist nach wie vor unzureichend erforscht.", translation: "The interaction between technological progress and societal change is still insufficiently researched.", category: "academic" },
   { id: "d-c1-15", level: "C1", text: "Hinsichtlich der Datenschutzgrundverordnung sind Unternehmen verpflichtet, personenbezogene Daten besonders zu schützen.", translation: "With regard to the GDPR, companies are obliged to particularly protect personal data.", category: "legal" },
   { id: "d-c1-16", level: "C1", text: "Der Zusammenbruch der Lieferketten hat die Verwundbarkeit der globalisierten Wirtschaft offengelegt.", translation: "The collapse of supply chains has exposed the vulnerability of the globalized economy.", category: "news" },
+  ...dictationSentencesExpanded,
 ];
 
 
@@ -388,6 +391,7 @@ export const comprehensionDialogues: ComprehensionDialogue[] = [
       { question: "Was kritisiert die Professorin?", options: ["Die Kosten und fehlenden politischen Willen", "Zu viele Grünflächen", "Die Architektur"], correctIndex: 1, explanation: "Sie weist darauf hin, dass die Lösungen kostenintensiv sind und politischer Wille fehlt." },
     ],
   },
+  ...comprehensionDialoguesExpanded,
 ];
 
 export function getDictationByLevel(level: string): DictationSentence[] {

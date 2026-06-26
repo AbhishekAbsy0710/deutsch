@@ -1,3 +1,5 @@
+import { genderWordsExpanded } from "./games-data-expanded";
+
 // ── Der/Die/Das Challenge Data ────────────────────────────
 export interface GenderWord {
   word: string;
@@ -62,6 +64,7 @@ export const genderWords: GenderWord[] = [
   { word: "Sachverhalt", article: "der", meaning: "facts/circumstances", level: "B2" },
   { word: "Stellungnahme", article: "die", meaning: "position statement", level: "B2" },
   { word: "Verhältnis", article: "das", meaning: "relationship/ratio", level: "B2" },
+  ...genderWordsExpanded,
 ];
 
 // ── Sentence Builder Data ────────────────────────────────
