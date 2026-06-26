@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BookOpen, Home, Trophy, User, MessageSquare, BookMarked, Library } from "lucide-react";
+import { BookOpen, Home, Trophy, User, MessageSquare, BookMarked, Library, PenTool, Gamepad2, Dumbbell, Headphones, MessageSquareMore, FileText, Globe } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useProgressSync } from "@/hooks/useProgressSync";
 
@@ -14,6 +14,17 @@ const navItems = [
   { href: "/tutor", label: "Tutor", icon: MessageSquare },
   { href: "/progress", label: "Progress", icon: Trophy },
   { href: "/profile", label: "Profile", icon: User },
+];
+
+const practiceItems = [
+  { href: "/write", label: "Write", icon: PenTool },
+  { href: "/read", label: "Read", icon: BookOpen },
+  { href: "/listen", label: "Listen", icon: Headphones },
+  { href: "/games", label: "Games", icon: Gamepad2 },
+  { href: "/practice", label: "Practice", icon: Dumbbell },
+  { href: "/conversation", label: "Convo", icon: MessageSquareMore },
+  { href: "/exam", label: "Exam", icon: FileText },
+  { href: "/resources", label: "Resources", icon: Globe },
 ];
 
 export function Navigation() {
@@ -57,12 +68,36 @@ export function Navigation() {
             );
           })}
         </div>
+        <div className="mt-6 pt-6 border-t border-border">
+          <p className="px-4 mb-2 text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Practice</p>
+          <div className="flex flex-col gap-1">
+            {practiceItems.map((item) => {
+              const isActive = pathname === item.href || pathname.startsWith(`${item.href}/`);
+              const Icon = item.icon;
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={cn(
+                    "flex items-center gap-3 px-4 py-2.5 transition-colors text-sm",
+                    isActive
+                      ? "bg-primary text-primary-foreground font-medium shadow-md"
+                      : "text-muted-foreground hover:bg-secondary hover:text-foreground"
+                  )}
+                >
+                  <Icon size={18} />
+                  <span>{item.label}</span>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
       </nav>
 
       {/* Mobile Navigation (Bottom Bar) */}
-      <nav className="md:hidden fixed bottom-0 left-0 right-0 border-t bg-card z-50 px-6 py-3 pb-safe">
-        <div className="flex justify-between items-center max-w-md mx-auto">
-          {navItems.map((item) => {
+      <nav className="md:hidden fixed bottom-0 left-0 right-0 border-t bg-card z-50 px-4 py-2 pb-safe">
+        <div className="flex justify-between items-center max-w-lg mx-auto">
+          {[...navItems, ...practiceItems].map((item) => {
             const isActive = pathname === item.href || pathname.startsWith(`${item.href}/`);
             const Icon = item.icon;
             return (
@@ -70,17 +105,17 @@ export function Navigation() {
                 key={item.href}
                 href={item.href}
                 className={cn(
-                  "flex flex-col items-center gap-1 p-2 transition-colors",
+                  "flex flex-col items-center gap-0.5 p-1.5 transition-colors",
                   isActive ? "text-primary font-medium" : "text-muted-foreground hover:text-foreground"
                 )}
               >
                 <div className={cn(
-                  "p-1.5",
+                  "p-1",
                   isActive && "bg-primary/10"
                 )}>
-                  <Icon size={20} />
+                  <Icon size={18} />
                 </div>
-                <span className="text-[10px]">{item.label}</span>
+                <span className="text-[9px]">{item.label}</span>
               </Link>
             );
           })}

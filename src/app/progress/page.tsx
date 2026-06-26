@@ -2,12 +2,13 @@
 
 import { useMemo } from "react";
 import { motion } from "framer-motion";
-import { Flame, Zap, BookCheck, TrendingUp, Calendar, Brain, Star, RotateCcw, Lock } from "lucide-react";
+import { Flame, Zap, BookCheck, TrendingUp, Calendar, Brain, Star, RotateCcw, Lock, Headphones, MessageSquare, PenTool, Gamepad2, BookOpen } from "lucide-react";
 import { useProgressStore } from "@/store/useProgressStore";
 import { lessonData } from "@/data/lessons";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { AchievementGallery } from "@/components/AchievementGallery";
+import { ActivityHeatmap } from "@/components/ActivityHeatmap";
 
 // ── Derive CEFR level dynamically from lessonData ─────────────
 const MODULE_ORDER = ["A0", "A1", "A2", "B1", "B2", "C1", "C2"];
@@ -48,7 +49,7 @@ const MODULE_BORDER: Record<string, string> = {
 };
 
 export default function ProgressPage() {
-  const { xp, streak, lessons, level: storedLevel, srs } = useProgressStore();
+  const { xp, streak, lessons, level: storedLevel, srs, featureActivity, vocabularyBank, dailyXpLog } = useProgressStore();
 
   const thresholds   = useMemo(() => buildLevelThresholds(), []);
   const completedIds = useMemo(() => Object.entries(lessons).filter(([, l]) => l.status === "completed"), [lessons]);
@@ -131,6 +132,14 @@ export default function ProgressPage() {
         })}
       </motion.div>
 
+      {/* Activity Heatmap */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }}
+        className="border-2 border-border p-6"
+      >
+        <ActivityHeatmap dailyXpLog={dailyXpLog} />
+      </motion.div>
+
       {/* SRS Review CTA */}
       {dueToday > 0 && (
         <motion.div
@@ -187,6 +196,82 @@ export default function ProgressPage() {
       {/* Achievement Gallery */}
       <AchievementGallery />
 
+      {/* ── Skills Radar ── */}
+      <motion.section
+        initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }}
+      >
+        <h2 className="text-2xl font-black uppercase tracking-tight mb-6 flex items-center gap-3">
+          <Star size={20} className="text-primary" /> Skills Overview
+        </h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+          <SkillCard icon={Headphones} label="Listening" sublabel={`${featureActivity.listening.dictationsCompleted} dictations`}
+            score={featureActivity.listening.dictationAccuracy} color="text-cyan-500" />
+          <SkillCard icon={MessageSquare} label="Speaking" sublabel={`${featureActivity.conversation.scenariosCompleted.length} scenarios`}
+            score={featureActivity.conversation.averageGrammarScore} color="text-teal-500" />
+          <SkillCard icon={PenTool} label="Writing" sublabel={`${featureActivity.writing.totalSessions} sessions`}
+            score={featureActivity.writing.averageScore} color="text-violet-500" />
+          <SkillCard icon={BookOpen} label="Reading" sublabel={`${featureActivity.reading.passagesRead} passages`}
+            score={featureActivity.reading.questionsTotal > 0 ? Math.round((featureActivity.reading.questionsCorrect / featureActivity.reading.questionsTotal) * 100) : 0} color="text-amber-500" />
+          <SkillCard icon={Gamepad2} label="Grammar Games" sublabel={`${featureActivity.games.gamesPlayed} games`}
+            score={featureActivity.games.totalAttempted > 0 ? Math.round((featureActivity.games.totalCorrect / featureActivity.games.totalAttempted) * 100) : 0} color="text-rose-500" />
+          <SkillCard icon={Brain} label="Vocabulary" sublabel={`${Object.keys(vocabularyBank).length} words`}
+            score={totalSRSWords > 0 ? Math.round((masteredWords / totalSRSWords) * 100) : 0} color="text-green-500" />
+        </div>
+      </motion.section>
+
+      {/* ── Exam History ── */}
+      {featureActivity.exam.examsTaken.length > 0 && (
+        <motion.section
+          initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.28 }}
+        >
+          <h2 className="text-2xl font-black uppercase tracking-tight mb-6 flex items-center gap-3">
+            📝 Exam History
+          </h2>
+          <div className="border-2 border-foreground overflow-hidden">
+            <div className="grid grid-cols-4 gap-0 bg-foreground text-background p-3 font-mono text-xs uppercase tracking-wider">
+              <span>Exam</span><span>Score</span><span>Result</span><span>Date</span>
+            </div>
+            {featureActivity.exam.examsTaken.slice(-10).reverse().map((e, i) => (
+              <div key={i} className="grid grid-cols-4 gap-0 p-3 border-t border-border text-sm">
+                <span className="font-bold truncate">{e.examId}</span>
+                <span className="font-mono">{e.score}%</span>
+                <span className={e.passed ? "text-green-500 font-bold" : "text-red-500"}>{e.passed ? "PASSED" : "FAILED"}</span>
+                <span className="text-muted-foreground font-mono text-xs">{e.date}</span>
+              </div>
+            ))}
+          </div>
+        </motion.section>
+      )}
+
+      {/* ── Vocabulary Bank Stats ── */}
+      {Object.keys(vocabularyBank).length > 0 && (
+        <motion.section
+          initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }}
+        >
+          <h2 className="text-2xl font-black uppercase tracking-tight mb-6 flex items-center gap-3">
+            📚 Vocabulary Bank
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            <div className="border-2 border-foreground p-4">
+              <p className="text-3xl font-black">{Object.keys(vocabularyBank).length}</p>
+              <p className="font-mono text-xs text-muted-foreground uppercase">Total Words</p>
+            </div>
+            <div className="border-2 border-border p-4">
+              <p className="text-3xl font-black text-green-500">{masteredWords}</p>
+              <p className="font-mono text-xs text-muted-foreground uppercase">Mastered</p>
+            </div>
+            <div className="border-2 border-border p-4">
+              <p className="text-3xl font-black text-amber-500">{dueToday}</p>
+              <p className="font-mono text-xs text-muted-foreground uppercase">Due Today</p>
+            </div>
+            <div className="border-2 border-border p-4">
+              <p className="text-3xl font-black text-violet-500">{totalSRSWords > 0 ? Math.round((masteredWords / totalSRSWords) * 100) : 0}%</p>
+              <p className="font-mono text-xs text-muted-foreground uppercase">Retention</p>
+            </div>
+          </div>
+        </motion.section>
+      )}
+
       {/* Recent Activity */}
       {recentActivity.length > 0 ? (
         <motion.section
@@ -226,6 +311,36 @@ export default function ProgressPage() {
           </Link>
         </div>
       )}
+    </div>
+  );
+}
+
+// ── Skill Card ──────────────────────────────────────────────
+function SkillCard({ icon: Icon, label, sublabel, score, color }: {
+  icon: React.ElementType;
+  label: string;
+  sublabel: string;
+  score: number;
+  color: string;
+}) {
+  return (
+    <div className="border-2 border-border p-4 space-y-3 hover:border-foreground transition-colors">
+      <div className="flex items-center gap-2">
+        <Icon size={18} className={color} />
+        <span className="font-bold text-sm">{label}</span>
+      </div>
+      <div className="space-y-1">
+        <div className="h-2 bg-secondary rounded overflow-hidden">
+          <div
+            className="h-full bg-foreground rounded transition-all duration-500"
+            style={{ width: `${Math.min(100, score)}%` }}
+          />
+        </div>
+        <div className="flex justify-between text-xs font-mono text-muted-foreground">
+          <span>{sublabel}</span>
+          <span>{score}%</span>
+        </div>
+      </div>
     </div>
   );
 }

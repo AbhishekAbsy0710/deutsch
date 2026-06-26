@@ -80,6 +80,18 @@ export async function loadProgressFromSupabase(userId: string): Promise<UserProg
       dailyChallengesCompleted: 0,
       todayLessonsCompleted: 0,
       todayLessonsDate: null,
+      featureActivity: {
+        writing: { totalSessions: 0, averageScore: 0, lastDate: null },
+        reading: { passagesRead: 0, questionsCorrect: 0, questionsTotal: 0, lastDate: null },
+        listening: { dictationsCompleted: 0, dictationAccuracy: 0, comprehensionsCompleted: 0, comprehensionAccuracy: 0, lastDate: null },
+        conversation: { scenariosCompleted: [], totalMessages: 0, averageGrammarScore: 0, lastDate: null },
+        exam: { examsTaken: [] },
+        games: { gamesPlayed: 0, totalCorrect: 0, totalAttempted: 0, lastDate: null },
+        practice: { sessionsCompleted: 0, questionsCorrect: 0, questionsTotal: 0, lastDate: null },
+      },
+      vocabularyBank: {},
+      dailyXpLog: {},
+      writingErrors: [],
       _pendingAchievements: [],
     };
   } catch (err) {
@@ -136,6 +148,24 @@ export async function saveProgressToSupabase(userId: string, progress: UserProgr
  * Merge local and cloud progress — keep the better one
  */
 export function mergeProgress(local: UserProgress, cloud: UserProgress): UserProgress {
+  // Merge feature activity — keep the one with more data
+  const mergeActivity = () => {
+    const l = local.featureActivity;
+    const c = cloud.featureActivity;
+    if (!l && !c) return local.featureActivity;
+    if (!l) return c;
+    if (!c) return l;
+    return {
+      writing: l.writing.totalSessions >= (c.writing?.totalSessions || 0) ? l.writing : c.writing,
+      reading: l.reading.passagesRead >= (c.reading?.passagesRead || 0) ? l.reading : c.reading,
+      listening: l.listening.dictationsCompleted >= (c.listening?.dictationsCompleted || 0) ? l.listening : c.listening,
+      conversation: l.conversation.scenariosCompleted.length >= (c.conversation?.scenariosCompleted?.length || 0) ? l.conversation : c.conversation,
+      exam: { examsTaken: [...(c.exam?.examsTaken || []), ...(l.exam?.examsTaken || [])].filter((e, i, arr) => arr.findIndex(x => x.examId === e.examId && x.date === e.date) === i) },
+      games: l.games.gamesPlayed >= (c.games?.gamesPlayed || 0) ? l.games : c.games,
+      practice: l.practice.sessionsCompleted >= (c.practice?.sessionsCompleted || 0) ? l.practice : c.practice,
+    };
+  };
+
   const merged: UserProgress = {
     xp: Math.max(local.xp, cloud.xp),
     streak: Math.max(local.streak, cloud.streak),
@@ -149,6 +179,23 @@ export function mergeProgress(local: UserProgress, cloud: UserProgress): UserPro
     dailyChallengesCompleted: Math.max(local.dailyChallengesCompleted || 0, cloud.dailyChallengesCompleted || 0),
     todayLessonsCompleted: local.todayLessonsCompleted || 0,
     todayLessonsDate: local.todayLessonsDate || null,
+    featureActivity: mergeActivity(),
+    vocabularyBank: { ...(cloud.vocabularyBank || {}), ...(local.vocabularyBank || {}) },
+    dailyXpLog: (() => {
+      const merged: Record<string, number> = { ...(cloud.dailyXpLog || {}) };
+      for (const [date, xp] of Object.entries(local.dailyXpLog || {})) {
+        merged[date] = Math.max(merged[date] || 0, xp as number);
+      }
+      return merged;
+    })(),
+    writingErrors: (() => {
+      const map = new Map<string, { pattern: string; correction: string; count: number; lastDate: string }>();
+      for (const e of [...(cloud.writingErrors || []), ...(local.writingErrors || [])]) {
+        const existing = map.get(e.pattern);
+        if (!existing || e.count > existing.count) map.set(e.pattern, e);
+      }
+      return Array.from(map.values());
+    })(),
     _pendingAchievements: [],
   };
 

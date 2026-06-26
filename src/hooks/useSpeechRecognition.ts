@@ -7,6 +7,7 @@ type SpeechRecognitionStatus = "idle" | "listening" | "processing" | "done" | "e
 interface UseSpeechRecognitionReturn {
   status: SpeechRecognitionStatus;
   transcript: string;
+  confidence: number;
   error: string | null;
   startListening: () => void;
   stopListening: () => void;
@@ -16,6 +17,7 @@ interface UseSpeechRecognitionReturn {
 export function useSpeechRecognition(): UseSpeechRecognitionReturn {
   const [status, setStatus] = useState<SpeechRecognitionStatus>("idle");
   const [transcript, setTranscript] = useState("");
+  const [confidence, setConfidence] = useState(0);
   const [error, setError] = useState<string | null>(null);
   const [isSupported, setIsSupported] = useState(false);
   const recognitionRef = useRef<SpeechRecognition | null>(null);
@@ -45,8 +47,9 @@ export function useSpeechRecognition(): UseSpeechRecognitionReturn {
     recognition.maxAlternatives = 1;
 
     recognition.onresult = (event: SpeechRecognitionEvent) => {
-      const result = event.results[0][0].transcript;
-      setTranscript(result);
+      const result = event.results[0][0];
+      setTranscript(result.transcript);
+      setConfidence(Math.round((result.confidence ?? 0) * 100));
       setStatus("done");
     };
 
@@ -79,7 +82,7 @@ export function useSpeechRecognition(): UseSpeechRecognitionReturn {
     }
   }, []);
 
-  return { status, transcript, error, startListening, stopListening, isSupported };
+  return { status, transcript, confidence, error, startListening, stopListening, isSupported };
 }
 
 // Simple function to speak German text aloud

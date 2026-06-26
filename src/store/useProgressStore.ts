@@ -17,6 +17,26 @@ export interface SRSData {
   repetitions: number;
 }
 
+export interface VocabEntry {
+  word: string;
+  meaning: string;
+  gender?: string;
+  example?: { de: string; en: string };
+  source: "lesson" | "conversation" | "reading" | "listening" | "manual";
+  level: string;
+  addedDate: string; // ISO
+}
+
+export interface FeatureActivity {
+  writing: { totalSessions: number; averageScore: number; lastDate: string | null };
+  reading: { passagesRead: number; questionsCorrect: number; questionsTotal: number; lastDate: string | null };
+  listening: { dictationsCompleted: number; dictationAccuracy: number; comprehensionsCompleted: number; comprehensionAccuracy: number; lastDate: string | null };
+  conversation: { scenariosCompleted: string[]; totalMessages: number; averageGrammarScore: number; lastDate: string | null };
+  exam: { examsTaken: { examId: string; score: number; passed: boolean; date: string }[] };
+  games: { gamesPlayed: number; totalCorrect: number; totalAttempted: number; lastDate: string | null };
+  practice: { sessionsCompleted: number; questionsCorrect: number; questionsTotal: number; lastDate: string | null };
+}
+
 export interface UserProgress {
   // Core progress
   lessons: Record<string, LessonProgress>;
@@ -40,6 +60,18 @@ export interface UserProgress {
   todayLessonsCompleted: number; // Lessons completed today (resets daily)
   todayLessonsDate: string | null; // Date for todayLessonsCompleted
   
+  // Feature activity tracking
+  featureActivity: FeatureActivity;
+  
+  // Unified vocabulary bank
+  vocabularyBank: Record<string, VocabEntry>;
+  
+  // Daily XP log for activity heatmap
+  dailyXpLog: Record<string, number>; // YYYY-MM-DD -> XP earned
+  
+  // Writing error patterns for recycling
+  writingErrors: { pattern: string; correction: string; count: number; lastDate: string }[];
+  
   // Recently unlocked achievements (for toast display)
   _pendingAchievements: string[];
 }
@@ -58,6 +90,18 @@ interface ProgressStore extends UserProgress {
   completeDailyChallenge: () => void;
   checkAchievements: () => string[]; // Returns newly unlocked achievement IDs
   consumePendingAchievements: () => string[];
+  
+  // Feature activity recording
+  recordWritingSession: (score: number) => void;
+  recordReadingSession: (questionsCorrect: number, total: number) => void;
+  recordDictation: (accuracy: number) => void;
+  recordComprehension: (correct: number, total: number) => void;
+  recordConversation: (scenarioId: string, messageCount: number, grammarScore: number) => void;
+  recordExamResult: (examId: string, score: number, passed: boolean) => void;
+  recordGameSession: (correct: number, total: number) => void;
+  recordPracticeSession: (correct: number, total: number) => void;
+  addToVocabularyBank: (words: VocabEntry[]) => void;
+  recordWritingError: (pattern: string, correction: string) => void;
   
   // Cloud sync
   syncWithSupabase: (userId: string) => Promise<void>;
@@ -100,6 +144,16 @@ function getFirstLessonOfLevel(level: string): string | null {
   return lessonIds.find(id => lessonData[id]?.module === level) || null;
 }
 
+const DEFAULT_FEATURE_ACTIVITY: FeatureActivity = {
+  writing: { totalSessions: 0, averageScore: 0, lastDate: null },
+  reading: { passagesRead: 0, questionsCorrect: 0, questionsTotal: 0, lastDate: null },
+  listening: { dictationsCompleted: 0, dictationAccuracy: 0, comprehensionsCompleted: 0, comprehensionAccuracy: 0, lastDate: null },
+  conversation: { scenariosCompleted: [], totalMessages: 0, averageGrammarScore: 0, lastDate: null },
+  exam: { examsTaken: [] },
+  games: { gamesPlayed: 0, totalCorrect: 0, totalAttempted: 0, lastDate: null },
+  practice: { sessionsCompleted: 0, questionsCorrect: 0, questionsTotal: 0, lastDate: null },
+};
+
 const initialState: UserProgress = {
   lessons: DEFAULT_LESSONS,
   xp: 0,
@@ -113,6 +167,10 @@ const initialState: UserProgress = {
   dailyChallengesCompleted: 0,
   todayLessonsCompleted: 0,
   todayLessonsDate: null,
+  featureActivity: DEFAULT_FEATURE_ACTIVITY,
+  vocabularyBank: {},
+  dailyXpLog: {},
+  writingErrors: [],
   _pendingAchievements: [],
 };
 
@@ -159,6 +217,10 @@ export const useProgressStore = create<ProgressStore>()(
             },
           },
           xp: state.xp + (isFirstCompletion ? xpEarned : Math.floor(xpEarned / 4)), // Less XP for replays
+          dailyXpLog: {
+            ...state.dailyXpLog,
+            [today]: (state.dailyXpLog[today] || 0) + (isFirstCompletion ? xpEarned : Math.floor(xpEarned / 4)),
+          },
           streak: newStreak,
           lastActiveDate: today,
           todayLessonsCompleted: todayCount,
@@ -388,6 +450,175 @@ export const useProgressStore = create<ProgressStore>()(
         return lesson?.status ?? "locked";
       },
 
+      // ── Feature activity recording ──────────────────────────────
+      recordWritingSession: (score: number) => {
+        const state = get();
+        const today = new Date().toISOString().split("T")[0];
+        const w = state.featureActivity.writing;
+        const newTotal = w.totalSessions + 1;
+        const newAvg = Math.round((w.averageScore * w.totalSessions + score) / newTotal);
+        const newStreak = checkAndUpdateStreak(state.lastActiveDate, state.streak);
+        set({
+          featureActivity: { ...state.featureActivity, writing: { totalSessions: newTotal, averageScore: newAvg, lastDate: today } },
+          xp: state.xp + 25,
+          streak: newStreak,
+          lastActiveDate: today,
+        });
+        const userId = get()._userId;
+        if (userId) get().saveToCloud(userId);
+      },
+
+      recordReadingSession: (questionsCorrect: number, total: number) => {
+        const state = get();
+        const today = new Date().toISOString().split("T")[0];
+        const r = state.featureActivity.reading;
+        const newStreak = checkAndUpdateStreak(state.lastActiveDate, state.streak);
+        set({
+          featureActivity: { ...state.featureActivity, reading: { passagesRead: r.passagesRead + 1, questionsCorrect: r.questionsCorrect + questionsCorrect, questionsTotal: r.questionsTotal + total, lastDate: today } },
+          xp: state.xp + 20,
+          streak: newStreak,
+          lastActiveDate: today,
+        });
+        const userId = get()._userId;
+        if (userId) get().saveToCloud(userId);
+      },
+
+      recordDictation: (accuracy: number) => {
+        const state = get();
+        const today = new Date().toISOString().split("T")[0];
+        const l = state.featureActivity.listening;
+        const newCount = l.dictationsCompleted + 1;
+        const newAcc = Math.round((l.dictationAccuracy * l.dictationsCompleted + accuracy) / newCount);
+        const newStreak = checkAndUpdateStreak(state.lastActiveDate, state.streak);
+        set({
+          featureActivity: { ...state.featureActivity, listening: { ...l, dictationsCompleted: newCount, dictationAccuracy: newAcc, lastDate: today } },
+          xp: state.xp + 15,
+          streak: newStreak,
+          lastActiveDate: today,
+        });
+        const userId = get()._userId;
+        if (userId) get().saveToCloud(userId);
+      },
+
+      recordComprehension: (correct: number, total: number) => {
+        const state = get();
+        const today = new Date().toISOString().split("T")[0];
+        const l = state.featureActivity.listening;
+        const newCount = l.comprehensionsCompleted + 1;
+        const accuracy = total > 0 ? Math.round((correct / total) * 100) : 0;
+        const newAcc = Math.round((l.comprehensionAccuracy * l.comprehensionsCompleted + accuracy) / newCount);
+        const newStreak = checkAndUpdateStreak(state.lastActiveDate, state.streak);
+        set({
+          featureActivity: { ...state.featureActivity, listening: { ...l, comprehensionsCompleted: newCount, comprehensionAccuracy: newAcc, lastDate: today } },
+          xp: state.xp + 30,
+          streak: newStreak,
+          lastActiveDate: today,
+        });
+        const userId = get()._userId;
+        if (userId) get().saveToCloud(userId);
+      },
+
+      recordConversation: (scenarioId: string, messageCount: number, grammarScore: number) => {
+        const state = get();
+        const today = new Date().toISOString().split("T")[0];
+        const c = state.featureActivity.conversation;
+        const completedSet = new Set(c.scenariosCompleted);
+        completedSet.add(scenarioId);
+        const total = completedSet.size;
+        const prevTotal = c.scenariosCompleted.length;
+        const newAvg = prevTotal > 0 ? Math.round((c.averageGrammarScore * prevTotal + grammarScore) / (prevTotal + 1)) : grammarScore;
+        const newStreak = checkAndUpdateStreak(state.lastActiveDate, state.streak);
+        set({
+          featureActivity: { ...state.featureActivity, conversation: { scenariosCompleted: Array.from(completedSet), totalMessages: c.totalMessages + messageCount, averageGrammarScore: newAvg, lastDate: today } },
+          xp: state.xp + 40,
+          streak: newStreak,
+          lastActiveDate: today,
+        });
+        const userId = get()._userId;
+        if (userId) get().saveToCloud(userId);
+      },
+
+      recordExamResult: (examId: string, score: number, passed: boolean) => {
+        const state = get();
+        const today = new Date().toISOString().split("T")[0];
+        const e = state.featureActivity.exam;
+        const newStreak = checkAndUpdateStreak(state.lastActiveDate, state.streak);
+        set({
+          featureActivity: { ...state.featureActivity, exam: { examsTaken: [...e.examsTaken, { examId, score, passed, date: today }] } },
+          xp: state.xp + (passed ? 100 : 50),
+          streak: newStreak,
+          lastActiveDate: today,
+        });
+        get().checkAchievements();
+        const userId = get()._userId;
+        if (userId) get().saveToCloud(userId);
+      },
+
+      recordGameSession: (correct: number, total: number) => {
+        const state = get();
+        const today = new Date().toISOString().split("T")[0];
+        const g = state.featureActivity.games;
+        const newStreak = checkAndUpdateStreak(state.lastActiveDate, state.streak);
+        set({
+          featureActivity: { ...state.featureActivity, games: { gamesPlayed: g.gamesPlayed + 1, totalCorrect: g.totalCorrect + correct, totalAttempted: g.totalAttempted + total, lastDate: today } },
+          xp: state.xp + 15,
+          streak: newStreak,
+          lastActiveDate: today,
+        });
+        const userId = get()._userId;
+        if (userId) get().saveToCloud(userId);
+      },
+
+      recordPracticeSession: (correct: number, total: number) => {
+        const state = get();
+        const today = new Date().toISOString().split("T")[0];
+        const p = state.featureActivity.practice;
+        const newStreak = checkAndUpdateStreak(state.lastActiveDate, state.streak);
+        set({
+          featureActivity: { ...state.featureActivity, practice: { sessionsCompleted: p.sessionsCompleted + 1, questionsCorrect: p.questionsCorrect + correct, questionsTotal: p.questionsTotal + total, lastDate: today } },
+          xp: state.xp + 20,
+          streak: newStreak,
+          lastActiveDate: today,
+        });
+        const userId = get()._userId;
+        if (userId) get().saveToCloud(userId);
+      },
+
+      addToVocabularyBank: (words: VocabEntry[]) => {
+        const state = get();
+        const bank = { ...state.vocabularyBank };
+        for (const w of words) {
+          const key = w.word.toLowerCase();
+          if (!bank[key]) {
+            bank[key] = w;
+            // Also add to SRS for spaced repetition review
+            if (!state.srs[key]) {
+              get().updateSRS(key, 3); // Initial SRS entry
+            }
+          }
+        }
+        set({ vocabularyBank: bank });
+        const userId = get()._userId;
+        if (userId) get().saveToCloud(userId);
+      },
+
+      recordWritingError: (pattern: string, correction: string) => {
+        const state = get();
+        const today = new Date().toISOString().split("T")[0];
+        const existing = state.writingErrors.find(e => e.pattern === pattern);
+        let updated: typeof state.writingErrors;
+        if (existing) {
+          updated = state.writingErrors.map(e =>
+            e.pattern === pattern ? { ...e, count: e.count + 1, lastDate: today, correction } : e
+          );
+        } else {
+          updated = [...state.writingErrors, { pattern, correction, count: 1, lastDate: today }];
+        }
+        set({ writingErrors: updated });
+        const userId = get()._userId;
+        if (userId) get().saveToCloud(userId);
+      },
+
       resetProgress: async () => {
         // Clear cloud data FIRST and WAIT for it
         const userId = get()._userId;
@@ -395,13 +626,11 @@ export const useProgressStore = create<ProgressStore>()(
           try {
             const { createClient } = await import("@/lib/supabase");
             const supabase = createClient();
-            // Delete all lesson progress rows for this user — AWAIT!
             await supabase
               .from("lesson_progress")
               .delete()
               .eq("user_id", userId);
             console.log("[Store] Cleared cloud lesson progress");
-            // Reset profile stats — AWAIT!
             await supabase
               .from("profiles")
               .update({ xp: 0, streak: 0, current_level: "A0" })
@@ -412,13 +641,11 @@ export const useProgressStore = create<ProgressStore>()(
           }
         }
         
-        // Build FRESH lessons object (don't reuse DEFAULT_LESSONS reference)
         const freshLessons: Record<string, LessonProgress> = {};
         lessonIds.forEach((id) => {
           freshLessons[id] = { status: id === lessonIds[0] ? "active" : "locked", attempts: 0 };
         });
         
-        // Explicitly set every field to avoid Zustand persist shallow merge issues
         set({
           lessons: freshLessons,
           xp: 0,
@@ -426,6 +653,10 @@ export const useProgressStore = create<ProgressStore>()(
           lastActiveDate: null,
           goal: null,
           level: null,
+          featureActivity: DEFAULT_FEATURE_ACTIVITY,
+          vocabularyBank: {},
+          dailyXpLog: {},
+          writingErrors: [],
           _userId: userId,
         });
       },
@@ -449,6 +680,10 @@ export const useProgressStore = create<ProgressStore>()(
           dailyChallengesCompleted: get().dailyChallengesCompleted,
           todayLessonsCompleted: get().todayLessonsCompleted,
           todayLessonsDate: get().todayLessonsDate,
+          featureActivity: get().featureActivity,
+          vocabularyBank: get().vocabularyBank,
+          dailyXpLog: get().dailyXpLog,
+          writingErrors: get().writingErrors,
           _pendingAchievements: get()._pendingAchievements,
         };
 
@@ -483,6 +718,10 @@ export const useProgressStore = create<ProgressStore>()(
             dailyChallengesCompleted: state.dailyChallengesCompleted,
             todayLessonsCompleted: state.todayLessonsCompleted,
             todayLessonsDate: state.todayLessonsDate,
+            featureActivity: state.featureActivity,
+            vocabularyBank: state.vocabularyBank,
+            dailyXpLog: state.dailyXpLog,
+            writingErrors: state.writingErrors,
             _pendingAchievements: state._pendingAchievements,
           });
         });
