@@ -86,7 +86,7 @@ export default function ProfilePage() {
         className="space-y-8"
       >
         {/* Avatar & Info */}
-        <div className="border-2 border-foreground p-8 flex items-center gap-8">
+        <div className="border-2 border-foreground p-4 sm:p-8 flex flex-col sm:flex-row items-center gap-4 sm:gap-8">
           <div className="w-24 h-24 bg-primary flex items-center justify-center flex-shrink-0">
             <User size={48} className="text-primary-foreground" />
           </div>

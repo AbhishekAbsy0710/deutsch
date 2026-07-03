@@ -228,11 +228,11 @@ export default function ProgressPage() {
             📝 Exam History
           </h2>
           <div className="border-2 border-foreground overflow-hidden">
-            <div className="grid grid-cols-4 gap-0 bg-foreground text-background p-3 font-mono text-xs uppercase tracking-wider">
+            <div className="grid grid-cols-4 gap-0 bg-foreground text-background p-2 sm:p-3 font-mono text-[10px] sm:text-xs uppercase tracking-wider">
               <span>Exam</span><span>Score</span><span>Result</span><span>Date</span>
             </div>
             {featureActivity.exam.examsTaken.slice(-10).reverse().map((e, i) => (
-              <div key={i} className="grid grid-cols-4 gap-0 p-3 border-t border-border text-sm">
+              <div key={i} className="grid grid-cols-4 gap-0 p-2 sm:p-3 border-t border-border text-xs sm:text-sm">
                 <span className="font-bold truncate">{e.examId}</span>
                 <span className="font-mono">{e.score}%</span>
                 <span className={e.passed ? "text-green-500 font-bold" : "text-red-500"}>{e.passed ? "PASSED" : "FAILED"}</span>

@@ -22,6 +22,12 @@ export const metadata: Metadata = {
   description: "Master German from A0 to C1 with AI-powered conversation and pronunciation training.",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover" as const,
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{

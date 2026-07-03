@@ -154,7 +154,7 @@ export default function LearnDashboard() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="grid grid-cols-3 gap-3"
+          className="grid grid-cols-1 sm:grid-cols-3 gap-3"
         >
           <div className="border-2 border-foreground p-4 flex items-center gap-3">
             <motion.div animate={streak > 0 ? { scale: [1, 1.2, 1] } : {}} transition={{ duration: 1.5, repeat: Infinity }}>
@@ -226,7 +226,7 @@ export default function LearnDashboard() {
               <div className="hidden lg:block absolute left-[33%] top-0 bottom-[-8rem] w-[2px] bg-border z-0"></div>
 
               <div className="lg:col-span-4 z-10 bg-background pt-2">
-                <h2 className="text-7xl font-black text-muted-foreground opacity-20 absolute -top-8 -left-4 z-0 pointer-events-none select-none">
+                <h2 className="text-4xl lg:text-7xl font-black text-muted-foreground opacity-20 absolute -top-8 -left-4 z-0 pointer-events-none select-none">
                   {String(index + 1).padStart(2, '0')}
                 </h2>
                 <div className="relative z-10">

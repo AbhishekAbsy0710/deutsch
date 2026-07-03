@@ -190,7 +190,7 @@ export default function PracticePage() {
         {justFinished && (
           <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }}
             className="bg-card border-2 border-border p-8 text-center space-y-4">
-            <div className="text-6xl">{score >= total * 0.8 ? "🏆" : score >= total * 0.5 ? "👏" : "💪"}</div>
+            <div className="text-4xl sm:text-6xl">{score >= total * 0.8 ? "🏆" : score >= total * 0.5 ? "👏" : "💪"}</div>
             <h2 className="text-3xl font-black">{score}/{total}</h2>
             <p className="text-muted-foreground">
               {score >= total * 0.8 ? "Outstanding! You're mastering this content." :

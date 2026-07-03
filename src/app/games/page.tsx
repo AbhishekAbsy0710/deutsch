@@ -120,7 +120,7 @@ function GenderGame({ level, onBack }: { level: string; onBack: () => void }) {
       </AnimatePresence>
 
       {/* Article Buttons */}
-      <div className="grid grid-cols-3 gap-3">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
         {(["der", "die", "das"] as const).map(article => (
           <motion.button key={article} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}
             onClick={() => handleGuess(article)}

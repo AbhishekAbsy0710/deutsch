@@ -209,7 +209,7 @@ export default function ReviewPage() {
           <p className="text-muted-foreground font-mono text-sm">
             No cards are due for review right now. Come back tomorrow or study a new lesson.
           </p>
-          <div className="grid grid-cols-2 gap-4 text-left">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left">
             <div className="border-2 border-border p-4">
               <p className="text-3xl font-black">{totalSeen.toLocaleString()}</p>
               <p className="text-xs font-mono uppercase text-muted-foreground mt-1">Words in SRS</p>
@@ -245,9 +245,9 @@ export default function ReviewPage() {
           <div className="w-24 h-24 bg-primary flex items-center justify-center mx-auto rounded-2xl shadow-xl shadow-primary/20">
             <Trophy className="w-12 h-12 text-primary-foreground" />
           </div>
-          <h1 className="text-5xl font-black uppercase tracking-tighter">Session Done!</h1>
+          <h1 className="text-3xl sm:text-5xl font-black uppercase tracking-tighter">Session Done!</h1>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="border-2 border-border p-4">
               <p className="text-4xl font-black text-primary">{accuracy}%</p>
               <p className="text-xs font-mono uppercase text-muted-foreground mt-1">Accuracy</p>
@@ -398,7 +398,7 @@ export default function ReviewPage() {
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0 }}
-              className="grid grid-cols-4 gap-3 mt-6"
+              className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-6"
             >
               {Object.entries(RATING_LABELS).map(([key, { label, color }]) => (
                 <button

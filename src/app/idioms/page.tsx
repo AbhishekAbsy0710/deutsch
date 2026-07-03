@@ -89,7 +89,7 @@ export default function IdiomsPage() {
       return (
         <div className="flex-1 p-6 md:p-10 max-w-3xl mx-auto space-y-8 text-center">
           <h1 className="text-4xl font-black">Quiz Complete!</h1>
-          <p className="text-6xl font-black text-primary">{quizScore}/{quizIdioms.length}</p>
+          <p className="text-4xl sm:text-6xl font-black text-primary">{quizScore}/{quizIdioms.length}</p>
           <Button onClick={() => setMode("browse")} className="border-2 border-foreground font-bold text-lg px-8 py-4">
             Back to Idioms
           </Button>

@@ -135,11 +135,11 @@ export default function LessonPage({ params }: { params: Promise<{ id: string }>
             <Trophy className="w-12 h-12 text-primary-foreground" />
           </motion.div>
           
-          <motion.h1 variants={itemVariants} className="text-5xl font-black uppercase tracking-tighter">
+          <motion.h1 variants={itemVariants} className="text-3xl sm:text-5xl font-black uppercase tracking-tighter">
             Lesson Complete!
           </motion.h1>
           
-          <motion.div variants={itemVariants} className="grid grid-cols-2 gap-4">
+          <motion.div variants={itemVariants} className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="border-2 border-foreground p-4 bg-background">
               <p className="text-4xl font-black text-primary">{score}%</p>
               <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground mt-1">Score</p>

@@ -123,7 +123,7 @@ export default function ExamPage() {
                 </span>
               </div>
               <h3 className="font-bold text-lg mb-3">{exam.title}</h3>
-              <div className="grid grid-cols-2 gap-2 mb-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-4">
                 {(Object.keys(SECTION_LABELS) as SectionKey[]).map(key => (
                   <div key={key} className="text-xs font-mono text-muted-foreground flex items-center gap-1">
                     <span>{SECTION_LABELS[key].icon}</span> {SECTION_LABELS[key].label}
@@ -475,7 +475,7 @@ function ExamResults({ exam, lesenAnswers, hoerenAnswers, grammatikAnswers, writ
       <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }}
         className={cn("border-4 p-8 text-center mb-8", passed ? "border-green-500" : "border-red-500")}
       >
-        <div className={cn("text-7xl font-black mb-2", passed ? "text-green-500" : "text-red-500")}>
+        <div className={cn("text-4xl sm:text-7xl font-black mb-2", passed ? "text-green-500" : "text-red-500")}>
           {overallScore}%
         </div>
         <div className={cn("text-2xl font-bold uppercase mb-2", passed ? "text-green-500" : "text-red-500")}>
