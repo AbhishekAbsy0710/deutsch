@@ -109,7 +109,7 @@ export function PronunciationDrill({ sentences, onComplete }: PronunciationDrill
     return (
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-4">
         <div className="border-2 border-foreground p-6 text-center">
-          <p className="text-5xl font-black mb-2">{avgScore}%</p>
+          <p className="text-3xl sm:text-5xl font-black mb-2">{avgScore}%</p>
           <p className="font-mono text-sm uppercase text-muted-foreground">Average Pronunciation Score</p>
         </div>
         <div className="space-y-2">
