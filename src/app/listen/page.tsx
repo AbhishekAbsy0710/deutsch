@@ -438,7 +438,7 @@ function ComprehensionMode({ level }: { level: string }) {
               correctCount === current.questions.length ? "border-green-500 bg-green-500/10" : "border-foreground"
             )}>
               <div className="text-center">
-                <p className="text-5xl font-black mb-2">{correctCount}/{current.questions.length}</p>
+                <p className="text-3xl sm:text-5xl font-black mb-2">{correctCount}/{current.questions.length}</p>
                 <p className="font-mono text-sm text-muted-foreground uppercase">
                   {correctCount === current.questions.length ? "Perfect! 🎉" :
                     correctCount >= current.questions.length * 0.7 ? "Good job! 👏" : "Keep practicing 💪"}

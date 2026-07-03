@@ -182,7 +182,7 @@ export default function ReadPage() {
                 <h3 className="font-bold text-sm flex items-center gap-2">
                   <HelpCircle className="w-4 h-4 text-primary" /> Key Vocabulary
                 </h3>
-                <div className="grid grid-cols-2 gap-2">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                   {selectedPassage.vocabulary.map((v, i) => (
                     <div key={i} className="flex items-center gap-2 text-sm p-2 bg-muted/50">
                       <button onClick={() => speakGermanNeural(v.word)} className="text-primary hover:text-primary/80">

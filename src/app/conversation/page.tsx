@@ -388,7 +388,7 @@ function ConversationChat({
                     <div className="flex items-center gap-2 text-green-500 font-bold mb-3">
                       <Trophy size={18} /> {evalResult.goalAchieved ? "Goal Achieved!" : "Scenario Complete"}
                     </div>
-                    <div className="grid grid-cols-2 gap-2 text-xs">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
                       <div className="p-2 border border-border">
                         <span className="text-muted-foreground">Grammar</span>
                         <span className="block text-lg font-bold">{evalResult.grammarScore}%</span>
