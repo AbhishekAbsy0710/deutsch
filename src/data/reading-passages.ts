@@ -1,6 +1,7 @@
 import { readingPassagesA1A2 } from "./reading-passages-a1a2";
 import { readingPassagesB1B2 } from "./reading-passages-b1b2";
 import { readingPassagesC1C2 } from "./reading-passages-c1c2";
+import { readingPassagesExpansion } from "./reading-passages-expansion";
 
 export interface ReadingPassage {
   id: string;
@@ -381,6 +382,7 @@ Die Frage, ob und wie Sprache die Wirklichkeit nicht nur abbildet, sondern aktiv
   ...readingPassagesA1A2,
   ...readingPassagesB1B2,
   ...readingPassagesC1C2,
+  ...readingPassagesExpansion,
 ];
 
 export function getPassagesByLevel(level: string): ReadingPassage[] {

@@ -27,6 +27,8 @@ export const dictationSentencesExpanded: DictationSentence[] = [
   { id: "d-c2-ex-06", level: "C2", text: "Es obliegt dem Gesetzgeber, den Spannungsbogen zwischen individueller Freiheit und kollektiver Verantwortung verfassungskonform aufzulösen.", translation: "It is incumbent upon the legislator to resolve the tension between individual freedom and collective responsibility in a constitutionally compliant manner.", category: "legal" },
   { id: "d-c2-ex-07", level: "C2", text: "Die phänomenologische Reduktion suspendiert die natürliche Einstellung, um die intentionale Struktur des Bewusstseins freizulegen.", translation: "The phenomenological reduction suspends the natural attitude in order to reveal the intentional structure of consciousness.", category: "philosophy" },
   { id: "d-c2-ex-08", level: "C2", text: "Sein proustianischer Erzählstil, der mäandernd zwischen Erinnerung und Reflexion pendelt, mutet dem Leser Geduld und Konzentration zu.", translation: "His Proustian narrative style, meandering between memory and reflection, demands patience and concentration from the reader.", category: "literary" },
+  { id: "d-c2-ex-09", level: "C2", text: "Die Subsidiaritaet als Strukturprinzip der Europaeischen Union besagt, dass Entscheidungen auf der niedrigstmoeglichen Verwaltungsebene getroffen werden sollen.", translation: "Subsidiarity as a structural principle of the European Union states that decisions should be made at the lowest possible administrative level.", category: "legal" },
+  { id: "d-c2-ex-10", level: "C2", text: "Die Externalisierung gesellschaftlicher Kosten, insbesondere oekologischer Schaeden, untergreabt die Praemisse eines funktionierenden Preismechanismus.", translation: "The externalization of societal costs, particularly ecological damage, undermines the premise of a functioning price mechanism.", category: "academic" },
 ];
 
 
@@ -271,6 +273,45 @@ export const comprehensionDialoguesExpanded: ComprehensionDialogue[] = [
       { question: "Was behaupten die Neurowissenschaften laut der Philosophin?", options: ["Menschen sind völlig frei", "Entscheidungen sind durch neuronale Prozesse determiniert", "Moral ist angeboren"], correctIndex: 1, explanation: "Entscheidungen sind durch neuronale Prozesse determiniert, bevor wir sie bewusst erleben." },
       { question: "Was ist die kompatibilistische Position?", options: ["Freiheit existiert nicht", "Freiheit bedeutet, gemäß reflektierter Wünsche zu handeln", "Freiheit ist ein Geschenk Gottes"], correctIndex: 1, explanation: "Freiheit bedeutet, in Übereinstimmung mit reflektierten Wünschen zweiter Ordnung zu handeln." },
       { question: "Was ist der Einwand des Theologen?", options: ["Kompatibilismus ist zu einfach", "Woher kommen die Wünsche zweiter Ordnung — sind sie nicht auch determiniert?", "Freiheit ist offensichtlich"], correctIndex: 1, explanation: "Auch die Wünsche zweiter Ordnung könnten determiniert sein." },
+    ],
+  },
+  // ── C2 Additional Dialogues ──
+  {
+    id: "cd-c2-ex-02",
+    level: "C2",
+    title: "University Seminar: Digital Ethics",
+    titleDe: "Universitaetsseminar: Digitale Ethik",
+    category: "academic",
+    lines: [
+      { speaker: "Professorin", text: "Guten Tag. Heute befassen wir uns mit der Frage, ob algorithmische Entscheidungssysteme im Gesundheitswesen ethisch vertretbar sind. Frau Schmidt, Sie haben die Metastudie zusammengefasst. Bitte." },
+      { speaker: "Studentin", text: "Die Studie zeigt, dass KI-basierte Diagnosetools in der Dermatologie eine Trefferquote von 95 Prozent erreichen, waehrend Fachhaerzte auf 87 Prozent kommen. Allerdings weisen die Algorithmen signifikante Verzerrungen auf: Bei Patienten mit dunkler Hautfarbe sinkt die Genauigkeit auf 72 Prozent." },
+      { speaker: "Student", text: "Dann stellt sich die Frage der Gerechtigkeit: Duerfen wir ein System einsetzen, das strukturelle Diskriminierung reproduziert, selbst wenn es im Durchschnitt bessere Ergebnisse liefert als menschliche Aerzte?" },
+      { speaker: "Professorin", text: "Genau. Und hier greifen verschiedene ethische Frameworks: Der Utilitarismus wuerde das Gesamtergebnis bewerten, die deontologische Ethik wuerde die Gleichbehandlung als Pflicht betonen, und die Tugendethik wuerde fragen, welche Haltung wir als Gesellschaft kultivieren wollen." },
+      { speaker: "Studentin", text: "Hinzu kommt das Problem der Erklaerbarkeit. Wenn ein Algorithmus eine Diagnose stellt, kann er den Patienten nicht in gleicher Weise aufklaeren wie ein Arzt. Das beruehrt die Autonomie des Patienten." },
+    ],
+    questions: [
+      { question: "Wie hoch ist die Trefferquote der KI-Diagnosetools bei Patienten mit dunkler Hautfarbe?", options: ["95 Prozent", "87 Prozent", "72 Prozent"], correctIndex: 2, explanation: "Bei Patienten mit dunkler Hautfarbe sinkt die Genauigkeit auf 72 Prozent." },
+      { question: "Welches ethische Problem wird neben der Diskriminierung angesprochen?", options: ["Die Kosten", "Die Erklaerbarkeit und Patientenautonomie", "Die Geschwindigkeit"], correctIndex: 1, explanation: "Das Problem der Erklaerbarkeit beruehrt die Autonomie des Patienten." },
+      { question: "Welche ethischen Frameworks werden genannt?", options: ["Nur Utilitarismus", "Utilitarismus, Deontologie und Tugendethik", "Nur Kantianismus"], correctIndex: 1, explanation: "Utilitarismus, deontologische Ethik und Tugendethik werden genannt." },
+    ],
+  },
+  {
+    id: "cd-c2-ex-03",
+    level: "C2",
+    title: "Panel Discussion: Migration Policy",
+    titleDe: "Podiumsdiskussion: Migrationspolitik",
+    category: "formal",
+    lines: [
+      { speaker: "Moderator", text: "Meine Damen und Herren, willkommen zur heutigen Podiumsdiskussion. Die Frage lautet: Braucht Deutschland ein Einwanderungsgesetz nach kanadischem Vorbild? Herr Professor Koenig, Sie befuerworten ein Punktesystem." },
+      { speaker: "Prof. Koenig", text: "In der Tat. Kanadas Punktesystem hat sich bewaehrt: Es bewertet Qualifikation, Sprachkenntnisse, Berufserfahrung und Alter nach transparenten Kriterien. Deutschland koennte damit den Fachkraeftemangel gezielt bekaempfen, anstatt sich auf zufaellige Zuwanderungsmuster zu verlassen." },
+      { speaker: "Frau Weber", text: "Ich halte diesen Ansatz fuer reduktionistisch. Er reduziert Menschen auf ihren oekonomischen Nutzen und blendet humanitaere Verpflichtungen voellig aus. Migration ist ein menschenrechtliches, kein betriebswirtschaftliches Thema." },
+      { speaker: "Prof. Koenig", text: "Mit Verlaub, das sind zwei verschiedene Diskursstränge. Ein Einwanderungsgesetz regelt die Arbeitsmigration. Das Asylrecht bleibt davon unberuehrt. Die Vermischung beider Kategorien fuehrt zu einer Polarisierung, die niemandem nuetzt." },
+      { speaker: "Frau Weber", text: "Theoretisch haben Sie recht. Aber in der politischen Praxis werden diese Kategorien bewusst vermischt. Und ein Punktesystem signalisiert: Wir wollen nur die Nuetzlichen. Das ist ein gesellschaftliches Signal, das wir sehr sorgfaeltig abwaegen muessen." },
+    ],
+    questions: [
+      { question: "Was bewertet das kanadische Punktesystem?", options: ["Nur das Alter", "Qualifikation, Sprachkenntnisse, Berufserfahrung und Alter", "Nur die Herkunft"], correctIndex: 1, explanation: "Es bewertet Qualifikation, Sprachkenntnisse, Berufserfahrung und Alter." },
+      { question: "Was kritisiert Frau Weber am Punktesystem?", options: ["Es ist zu teuer", "Es reduziert Menschen auf oekonomischen Nutzen", "Es ist zu langsam"], correctIndex: 1, explanation: "Er reduziert Menschen auf ihren oekonomischen Nutzen." },
+      { question: "Wie antwortet Prof. Koenig auf die Kritik?", options: ["Er gibt ihr recht", "Arbeitsmigration und Asylrecht seien getrennte Kategorien", "Er zieht seinen Vorschlag zurueck"], correctIndex: 1, explanation: "Ein Einwanderungsgesetz regelt die Arbeitsmigration. Das Asylrecht bleibt davon unberuehrt." },
     ],
   },
 ];

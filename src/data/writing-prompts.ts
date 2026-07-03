@@ -1,4 +1,5 @@
 import { writingPromptsExpanded } from "./writing-prompts-expanded";
+import { writingPromptsAdvanced } from "./writing-prompts-advanced";
 
 export interface WritingPrompt {
   id: string;
@@ -218,6 +219,7 @@ export const writingPrompts: WritingPrompt[] = [
     keywords: ["wenngleich", "nichtsdestotrotz", "pädagogisch", "ethisch"],
   },
   ...writingPromptsExpanded,
+  ...writingPromptsAdvanced,
 ];
 
 export function getPromptsByLevel(level: string): WritingPrompt[] {

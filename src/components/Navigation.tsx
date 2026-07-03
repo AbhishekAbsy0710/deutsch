@@ -2,13 +2,14 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BookOpen, Home, Trophy, User, MessageSquare, BookMarked, Library, PenTool, Gamepad2, Dumbbell, Headphones, MessageSquareMore, FileText, Globe } from "lucide-react";
+import { BookOpen, Home, Trophy, User, MessageSquare, BookMarked, Library, PenTool, Gamepad2, Dumbbell, Headphones, MessageSquareMore, FileText, Globe, Languages, GraduationCap, MapPin, Mic, Map } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useProgressSync } from "@/hooks/useProgressSync";
 
 const navItems = [
   { href: "/", label: "Home", icon: Home },
   { href: "/learn", label: "Learn", icon: BookOpen },
+  { href: "/roadmap", label: "Roadmap", icon: Map },
   { href: "/review", label: "Review", icon: BookMarked },
   { href: "/dictionary", label: "Dictionary", icon: Library },
   { href: "/tutor", label: "Tutor", icon: MessageSquare },
@@ -20,6 +21,10 @@ const practiceItems = [
   { href: "/write", label: "Write", icon: PenTool },
   { href: "/read", label: "Read", icon: BookOpen },
   { href: "/listen", label: "Listen", icon: Headphones },
+  { href: "/speak", label: "Speak", icon: Mic },
+  { href: "/vocabulary", label: "Vocab", icon: GraduationCap },
+  { href: "/idioms", label: "Idioms", icon: Languages },
+  { href: "/culture", label: "Culture", icon: MapPin },
   { href: "/games", label: "Games", icon: Gamepad2 },
   { href: "/practice", label: "Practice", icon: Dumbbell },
   { href: "/conversation", label: "Convo", icon: MessageSquareMore },

@@ -94,7 +94,7 @@ const MODULE_COLOR: Record<string, string> = {
 // ─────────────────────────────────────────────────────────────
 export default function ReviewPage() {
   const router = useRouter();
-  const { srs, updateSRS, xp, streak, lessons } = useProgressStore();
+  const { srs, updateSRS, xp, streak, lessons, vocabularyBank } = useProgressStore();
 
   // Only show cards from lessons the user has unlocked or completed
   const unlockedLessonIds = useMemo(
@@ -102,7 +102,26 @@ export default function ReviewPage() {
     [lessons]
   );
 
-  const allCards   = useMemo(() => collectAllFlashcards(unlockedLessonIds), [unlockedLessonIds]);
+  // Merge lesson flashcards + vocabulary bank words into one unified card list
+  const allCards = useMemo(() => {
+    const lessonCards = collectAllFlashcards(unlockedLessonIds);
+    const lessonWords = new Set(lessonCards.map(c => c.word.toLowerCase()));
+
+    // Add vocabulary bank words that aren't already in lesson cards
+    const bankCards: ReviewCard[] = Object.values(vocabularyBank)
+      .filter(entry => !lessonWords.has(entry.word.toLowerCase()))
+      .map(entry => ({
+        word: entry.word,
+        meaning: entry.meaning,
+        gender: entry.gender,
+        example: entry.example,
+        lessonId: "vocab-bank",
+        lessonTitle: "Vocabulary Bank",
+        module: entry.level || "A1",
+      }));
+
+    return [...lessonCards, ...bankCards];
+  }, [unlockedLessonIds, vocabularyBank]);
   const dueCards   = useMemo(() => getDueCards(allCards, srs), [allCards, srs]);
 
   const [index,     setIndex]     = useState(0);

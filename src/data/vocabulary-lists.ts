@@ -1,3 +1,5 @@
+import { vocabularyTopicsAdvanced } from "./vocabulary-lists-advanced";
+
 // ── Vocabulary Lists: Curated words organized by CEFR level and topic ──────
 
 export interface VocabularyWord {
@@ -262,6 +264,7 @@ export const vocabularyTopics: VocabularyTopic[] = [
       { word: "herausragend", meaning: "outstanding / exceptional", example: "Ihre Leistung war herausragend.", exampleTranslation: "Her performance was outstanding.", level: "C2", topic: "idiomatic" },
     ],
   },
+  ...vocabularyTopicsAdvanced,
 ];
 
 // ── Helper functions ──────────────────────────────────────
