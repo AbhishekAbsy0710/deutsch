@@ -1,0 +1,25 @@
+import type { MetadataRoute } from "next";
+
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: "Deutsch Lernen — German Fluency Engine",
+    short_name: "Deutsch",
+    description: "Master German A1→C2 with AI-powered lessons, pronunciation coaching, and exam prep",
+    start_url: "/",
+    display: "standalone",
+    theme_color: "#09090b",
+    background_color: "#09090b",
+    orientation: "portrait-primary",
+    categories: ["education", "productivity"],
+    icons: [
+      { src: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { src: "/icon-512.png", sizes: "512x512", type: "image/png" },
+      {
+        src: "/icon-512.png",
+        sizes: "512x512",
+        type: "image/png",
+        purpose: "maskable",
+      },
+    ],
+  };
+}

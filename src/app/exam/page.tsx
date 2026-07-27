@@ -1,16 +1,16 @@
 "use client";
 
-import { useState, useEffect, useMemo, useCallback, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { FileText, Clock, Play, Check, X, ArrowRight, AlertTriangle, Trophy, ChevronRight, Volume2, Loader2 } from "lucide-react";
+import { FileText, Clock, Play, Check, X, AlertTriangle, Volume2, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { speakGermanNeural } from "@/lib/tts";
-import { mockExams, type MockExam, type ExamQuestion } from "@/data/exam-data";
+import { mockExams, type MockExam } from "@/data/exam-data";
 import { createClient } from "@/lib/supabase";
 import { useProgressStore } from "@/store/useProgressStore";
 
-type ExamPhase = "select" | "running" | "result";
+type ExamPhase = "select" | "running" | "result" | "times-up";
 type SectionKey = "lesen" | "hoeren" | "schreiben" | "grammatik";
 
 const SECTION_LABELS: Record<SectionKey, { label: string; icon: string }> = {
@@ -36,6 +36,9 @@ export default function ExamPage() {
   // Timer
   const [timeLeft, setTimeLeft] = useState(0);
   const [timerActive, setTimerActive] = useState(false);
+  const [strictMode, setStrictMode] = useState(false);
+  const [submittedSections, setSubmittedSections] = useState<Set<SectionKey>>(new Set());
+  const submitExamRef = useRef<(() => Promise<void>) | null>(null);
 
   // Auth
   const [authToken, setAuthToken] = useState<string | null>(null);
@@ -44,17 +47,26 @@ export default function ExamPage() {
     supabase.auth.getSession().then(({ data }) => setAuthToken(data.session?.access_token ?? null));
   }, []);
 
-  // Timer effect
+  // Timer effect — auto-submit on expiry
   useEffect(() => {
     if (!timerActive || timeLeft <= 0) return;
     const interval = setInterval(() => {
       setTimeLeft(t => {
-        if (t <= 1) { setTimerActive(false); return 0; }
+        if (t <= 1) {
+          setTimerActive(false);
+          // Auto-submit when time runs out
+          if (strictMode && submitExamRef.current) {
+            submitExamRef.current();
+          } else {
+            setPhase("times-up");
+          }
+          return 0;
+        }
         return t - 1;
       });
     }, 1000);
     return () => clearInterval(interval);
-  }, [timerActive, timeLeft]);
+  }, [timerActive, timeLeft, strictMode]);
 
   const startExam = (exam: MockExam) => {
     setSelectedExam(exam);
@@ -67,6 +79,7 @@ export default function ExamPage() {
     setWritingScore(null);
     setTimeLeft(exam.timeLimitMinutes * 60);
     setTimerActive(true);
+    setSubmittedSections(new Set());
   };
 
   const formatTime = (seconds: number) => {
@@ -97,6 +110,11 @@ export default function ExamPage() {
     }
     setPhase("result");
   };
+
+  // Keep submitExamRef current
+  useEffect(() => {
+    submitExamRef.current = submitExam;
+  });
 
   // ── Selection ──
   if (phase === "select") {
@@ -142,6 +160,26 @@ export default function ExamPage() {
             </motion.div>
           ))}
         </div>
+
+        {/* Strict Mode Toggle */}
+        <div className="mt-6 border-2 border-border p-4 flex items-center justify-between">
+          <div>
+            <p className="font-bold text-sm">🔒 Strict Mode</p>
+            <p className="text-xs text-muted-foreground">Auto-submit on timer expiry. Sections lock after completing. Real exam conditions.</p>
+          </div>
+          <button
+            onClick={() => setStrictMode(!strictMode)}
+            className={cn(
+              "w-12 h-6 rounded-full border-2 transition-all relative",
+              strictMode ? "bg-red-500 border-red-500" : "bg-muted border-border"
+            )}
+          >
+            <div className={cn(
+              "w-4 h-4 rounded-full bg-white absolute top-0.5 transition-all",
+              strictMode ? "left-6" : "left-0.5"
+            )} />
+          </button>
+        </div>
       </div>
     );
   }
@@ -160,21 +198,36 @@ export default function ExamPage() {
           <div className="flex items-center gap-4">
             <span className="font-mono text-lg font-bold">{selectedExam.level}</span>
             <div className="flex border-2 border-foreground">
-              {sections.map(s => (
-                <button key={s} onClick={() => setCurrentSection(s)}
-                  className={cn("px-3 py-1.5 font-mono text-xs uppercase transition-colors",
-                    currentSection === s ? "bg-foreground text-background" : "hover:bg-foreground/10",
-                    s !== sections[0] && "border-l-2 border-foreground"
-                  )}
-                >
-                  {SECTION_LABELS[s].icon} {SECTION_LABELS[s].label}
-                </button>
-              ))}
+              {sections.map(s => {
+                const isLocked = strictMode && submittedSections.has(s);
+                return (
+                  <button key={s}
+                    disabled={isLocked}
+                    onClick={() => {
+                      if (strictMode) {
+                        setSubmittedSections(prev => new Set(prev).add(currentSection));
+                      }
+                      setCurrentSection(s);
+                    }}
+                    className={cn("px-3 py-1.5 font-mono text-xs uppercase transition-colors",
+                      currentSection === s ? "bg-foreground text-background" : "hover:bg-foreground/10",
+                      s !== sections[0] && "border-l-2 border-foreground",
+                      isLocked && "opacity-40 cursor-not-allowed line-through hover:bg-transparent"
+                    )}
+                  >
+                    {SECTION_LABELS[s].icon} {SECTION_LABELS[s].label} {isLocked && "🔒"}
+                  </button>
+                );
+              })}
             </div>
           </div>
-          <div className={cn("flex items-center gap-2 font-mono text-lg font-bold", isTimeLow && "text-red-500 animate-pulse")}>
+          <div className={cn(
+            "flex items-center gap-2 font-mono text-lg font-bold px-3 py-1 rounded transition-all",
+            isTimeLow && "text-red-500 animate-pulse bg-red-500/10 border-2 border-red-500",
+          )}>
             <Clock size={18} />
             {formatTime(timeLeft)}
+            {strictMode && <span className="text-[10px] text-red-500 font-bold">STRICT</span>}
           </div>
         </div>
 
@@ -210,26 +263,30 @@ export default function ExamPage() {
           </Button>
         </div>
 
-        {/* Time warning */}
-        {timeLeft === 0 && (
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}
-            className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4"
-          >
-            <div className="bg-background border-2 border-foreground p-8 max-w-md w-full text-center">
-              <AlertTriangle className="w-12 h-12 mx-auto text-amber-500 mb-4" />
-              <h2 className="text-2xl font-black uppercase mb-2">Time&apos;s Up!</h2>
-              <p className="text-muted-foreground mb-6">Your exam time has expired. Submit your answers now.</p>
-              <Button onClick={submitExam} className="border-2 font-mono uppercase w-full">Submit Exam</Button>
-            </div>
-          </motion.div>
-        )}
+        {/* Time warning overlay — non-strict mode only */}
+      </div>
+    );
+  }
+
+  // ── Time's Up Modal ──
+  if (phase === "times-up") {
+    return (
+      <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+        <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }}
+          className="bg-background border-2 border-foreground p-8 max-w-md w-full text-center"
+        >
+          <AlertTriangle className="w-12 h-12 mx-auto text-amber-500 mb-4" />
+          <h2 className="text-2xl font-black uppercase mb-2">Time&apos;s Up!</h2>
+          <p className="text-muted-foreground mb-6">Your exam time has expired. Submit your answers now.</p>
+          <Button onClick={submitExam} className="border-2 font-mono uppercase w-full">Submit Exam</Button>
+        </motion.div>
       </div>
     );
   }
 
   // ── Results ──
   return <ExamResults exam={selectedExam} lesenAnswers={lesenAnswers} hoerenAnswers={hoerenAnswers}
-    grammatikAnswers={grammatikAnswers} writingScore={writingScore}
+    grammatikAnswers={grammatikAnswers} writingScore={writingScore} strictMode={strictMode}
     onBack={() => setPhase("select")} />;
 }
 
@@ -394,25 +451,15 @@ function GrammatikSection({ exam, answers, setAnswers }: {
 }
 
 // ── Results ──────────────────────────────────────────────
-function ExamResults({ exam, lesenAnswers, hoerenAnswers, grammatikAnswers, writingScore, onBack }: {
+function ExamResults({ exam, lesenAnswers, hoerenAnswers, grammatikAnswers, writingScore, strictMode, onBack }: {
   exam: MockExam;
   lesenAnswers: Record<string, number>;
   hoerenAnswers: Record<string, number>;
   grammatikAnswers: Record<number, string>;
   writingScore: number | null;
+  strictMode: boolean;
   onBack: () => void;
 }) {
-  // Calculate section scores
-  const calcMCQScore = (questions: ExamQuestion[], answers: Record<string, number>, prefix: string) => {
-    let correct = 0;
-    let total = 0;
-    questions.forEach((q, qi) => {
-      total++;
-      if (answers[`${prefix}-${qi}`] === q.correctIndex) correct++;
-    });
-    return total > 0 ? Math.round((correct / total) * 100) : 0;
-  };
-
   // Lesen
   let lesenTotal = 0, lesenCorrect = 0;
   exam.sections.lesen.forEach((reading, ri) => {
@@ -451,9 +498,18 @@ function ExamResults({ exam, lesenAnswers, hoerenAnswers, grammatikAnswers, writ
     schreibenScore >= exam.sectionMinimum && grammatikScore >= exam.sectionMinimum;
 
   // Record to progress store
-  const { recordExamResult } = useProgressStore();
+  const { recordExamResult, featureActivity } = useProgressStore();
+  const pastAttempts = featureActivity.exam.examsTaken.filter(
+    (e: { examId: string }) => e.examId === exam.id
+  );
+  const previousBest = pastAttempts.length > 0
+    ? Math.max(...pastAttempts.map((e: { score: number }) => e.score))
+    : null;
+  const isNewBest = previousBest === null || overallScore > previousBest;
+
   useEffect(() => {
-    recordExamResult(exam.id, overallScore, passed);
+    const sectionScores = { lesen: lesenScore, hoeren: hoerenScore, schreiben: schreibenScore, grammatik: grammatikScore };
+    recordExamResult(exam.id, overallScore, passed, sectionScores, strictMode);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -484,6 +540,25 @@ function ExamResults({ exam, lesenAnswers, hoerenAnswers, grammatikAnswers, writ
         <p className="text-sm text-muted-foreground">
           {passed ? "Congratulations! You passed!" : `You need ≥${exam.passThreshold}% overall and ≥${exam.sectionMinimum}% per section.`}
         </p>
+        <div className="flex items-center justify-center gap-3 mt-3 text-xs font-mono text-muted-foreground">
+          <span>{new Date().toLocaleDateString("de-DE", { day: "2-digit", month: "short", year: "numeric" })}</span>
+          {strictMode && <span className="px-2 py-0.5 border border-red-500 text-red-500">STRICT MODE</span>}
+        </div>
+        {/* Historical comparison */}
+        {pastAttempts.length > 0 && (
+          <div className="flex items-center justify-center gap-3 mt-3 text-xs font-mono">
+            <span className="text-muted-foreground">Attempt #{pastAttempts.length + 1}</span>
+            {isNewBest && <span className="px-2 py-0.5 border border-amber-500 text-amber-500">🏆 NEW BEST</span>}
+            {previousBest !== null && !isNewBest && (
+              <span className="text-muted-foreground">Best: {previousBest}%</span>
+            )}
+            {previousBest !== null && overallScore !== previousBest && (
+              <span className={overallScore > previousBest ? "text-green-500" : "text-red-500"}>
+                {overallScore > previousBest ? "▲" : "▼"} {Math.abs(overallScore - previousBest)}%
+              </span>
+            )}
+          </div>
+        )}
       </motion.div>
 
       {/* Section breakdown */}

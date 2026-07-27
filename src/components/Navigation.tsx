@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import {
   BookOpen, Home, Trophy, User, MessageSquare, BookMarked, Library,
   PenTool, Gamepad2, Dumbbell, Headphones, MessageSquareMore, FileText,
-  Globe, Languages, GraduationCap, MapPin, Mic, Map, Grid3X3, X
+  Globe, Languages, GraduationCap, MapPin, Mic, Map, Grid3X3, X, AlertTriangle, Target
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useProgressSync } from "@/hooks/useProgressSync";
@@ -35,6 +35,8 @@ const practiceItems = [
   { href: "/practice", label: "Practice", icon: Dumbbell },
   { href: "/conversation", label: "Convo", icon: MessageSquareMore },
   { href: "/exam", label: "Exam", icon: FileText },
+  { href: "/mistakes", label: "Mistakes", icon: AlertTriangle },
+  { href: "/error-hunt", label: "Error Hunt", icon: Target },
   { href: "/resources", label: "Resources", icon: Globe },
 ];
 

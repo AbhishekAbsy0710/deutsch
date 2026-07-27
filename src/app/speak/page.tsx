@@ -11,6 +11,7 @@ import { tongueTwisters, type TongueTwister } from "@/data/tongue-twisters";
 import { useProgressStore } from "@/store/useProgressStore";
 import { speakGermanNeural } from "@/lib/tts";
 import { useSpeechRecognition, comparePronunciation } from "@/hooks/useSpeechRecognition";
+import { usePronunciation } from "@/hooks/usePronunciation";
 
 type Mode = "practice" | "twisters" | "challenge";
 const LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
@@ -269,8 +270,12 @@ function ChallengeMode() {
   const [scores, setScores] = useState<{ text: string; score: number; time: number }[]>([]);
   const [startTime, setStartTime] = useState(0);
   const [isSpeaking, setIsSpeaking] = useState(false);
+  const [processing, setProcessing] = useState(false);
 
-  const { status, transcript, startListening, stopListening, isSupported } = useSpeechRecognition();
+  const pron = usePronunciation();
+  // Fallback for browsers without AudioWorklet
+  const speechRec = useSpeechRecognition();
+  const useAzure = pron.isSupported;
 
   const challengeSentences = useMemo(() =>
     dictationSentences
@@ -295,28 +300,45 @@ function ChallengeMode() {
     setIsSpeaking(false);
   };
 
-  const handleRecord = () => {
-    if (status === "listening") {
-      stopListening();
+  const handleRecord = async () => {
+    if (useAzure) {
+      if (pron.isRecording) {
+        setProcessing(true);
+        const result = await pron.stopAndScore();
+        const elapsed = Math.round((Date.now() - startTime) / 1000);
+        const score = Math.round(result.overall.pronunciation || result.overall.accuracy);
+        setScores(prev => [...prev, { text: current.text, score, time: elapsed }]);
+        setCurrentIdx(prev => prev + 1);
+        setProcessing(false);
+      } else {
+        setStartTime(Date.now());
+        pron.startAssessment(current.text);
+      }
     } else {
-      setStartTime(Date.now());
-      startListening();
+      if (speechRec.status === "listening") {
+        speechRec.stopListening();
+      } else {
+        setStartTime(Date.now());
+        speechRec.startListening();
+      }
     }
   };
 
-  // Process result
-  if (status === "done" && transcript && !isDone) {
-    const comparison = comparePronunciation(transcript, current.text);
+  // Fallback: Process browser SpeechRecognition result
+  if (!useAzure && speechRec.status === "done" && speechRec.transcript && !isDone) {
+    const comparison = comparePronunciation(speechRec.transcript, current.text);
     const elapsed = Math.round((Date.now() - startTime) / 1000);
     setScores(prev => [...prev, { text: current.text, score: comparison.score, time: elapsed }]);
     setCurrentIdx(prev => prev + 1);
   }
 
-  if (!isSupported) {
+  const isListening = useAzure ? pron.isRecording : speechRec.status === "listening";
+
+  if (!pron.isSupported && !speechRec.isSupported) {
     return (
       <div className="text-center p-8 border-2 border-border">
-        <p className="text-muted-foreground">Speech recognition is not supported in this browser.</p>
-        <p className="text-sm text-muted-foreground mt-2">Please use Chrome or Edge.</p>
+        <p className="text-muted-foreground">Speech input is not supported in this browser.</p>
+        <p className="text-sm text-muted-foreground mt-2">Please use Chrome, Edge, or Safari.</p>
       </div>
     );
   }
@@ -327,6 +349,9 @@ function ChallengeMode() {
         <Zap size={48} className="mx-auto mb-4 text-amber-500" />
         <h2 className="text-2xl font-black mb-2">Speed Challenge</h2>
         <p className="text-muted-foreground mb-6">5 sentences. Say them as fast and accurately as you can.</p>
+        {useAzure && (
+          <p className="text-xs font-mono text-blue-500 mb-4">🎯 Azure AI pronunciation scoring enabled</p>
+        )}
         <Button onClick={handleStart} className="border-2 border-foreground font-mono text-sm uppercase px-8 py-3">
           Start Challenge
         </Button>
@@ -374,7 +399,14 @@ function ChallengeMode() {
     <div className="space-y-6">
       <div className="flex items-center justify-between text-xs font-mono text-muted-foreground">
         <span>{currentIdx + 1} / {challengeSentences.length}</span>
-        <span className="px-2 py-0.5 border border-border">{current.level}</span>
+        <div className="flex items-center gap-2">
+          {useAzure && (
+            <span className="px-1.5 py-0.5 bg-blue-500/10 border border-blue-500/30 text-blue-500 text-[10px]">
+              AZURE AI
+            </span>
+          )}
+          <span className="px-2 py-0.5 border border-border">{current.level}</span>
+        </div>
       </div>
 
       <div className="border-2 border-foreground p-6 md:p-8 text-center">
@@ -390,21 +422,42 @@ function ChallengeMode() {
       </div>
 
       <div className="flex flex-col items-center gap-4">
-        <button
-          onClick={handleRecord}
-          className={cn(
-            "w-20 h-20 rounded-full border-4 flex items-center justify-center transition-all",
-            status === "listening"
-              ? "border-red-500 bg-red-500/10 animate-pulse"
-              : "border-foreground hover:bg-foreground hover:text-background"
+        <div className="relative">
+          {isListening && useAzure && (
+            <motion.div
+              className="absolute inset-0 rounded-full border-4 border-red-500/40"
+              animate={{ scale: 1 + pron.amplitude * 0.8 }}
+              transition={{ duration: 0.1 }}
+            />
           )}
-        >
-          <Mic size={32} />
-        </button>
+          <button
+            onClick={handleRecord}
+            disabled={processing}
+            className={cn(
+              "w-20 h-20 rounded-full border-4 flex items-center justify-center transition-all relative z-10",
+              processing ? "border-muted bg-muted/10" :
+              isListening
+                ? "border-red-500 bg-red-500/10 animate-pulse"
+                : "border-foreground hover:bg-foreground hover:text-background"
+            )}
+          >
+            <Mic size={32} />
+          </button>
+        </div>
         <p className="font-mono text-xs text-muted-foreground uppercase">
-          {status === "listening" ? "Listening... Tap to stop" : "Tap to speak"}
+          {processing ? "Scoring..." : isListening ? `Listening... ${pron.duration}s` : "Tap to speak"}
         </p>
+        {isListening && useAzure && (
+          <div className="h-1 w-32 bg-muted rounded-full overflow-hidden">
+            <motion.div
+              className="h-full bg-red-500"
+              animate={{ width: `${pron.amplitude * 100}%` }}
+              transition={{ duration: 0.05 }}
+            />
+          </div>
+        )}
       </div>
     </div>
   );
 }
+

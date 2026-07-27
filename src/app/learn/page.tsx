@@ -8,6 +8,11 @@ import { useProgressStore } from "@/store/useProgressStore";
 import { DailyChallenge } from "@/components/DailyChallenge";
 import { WordOfTheDay } from "@/components/WordOfTheDay";
 import { AchievementToast, useAchievementToast } from "@/components/AchievementToast";
+import { Fritz } from "@/components/mascot/Fritz";
+import type { FritzMood } from "@/components/mascot/fritz-states";
+import { MilestoneCelebration, useMilestoneTracker } from "@/components/MilestoneCelebration";
+import { SmartNudge } from "@/components/SmartNudge";
+import { DailyBriefing } from "@/components/DailyBriefing";
 import { useMemo, useEffect } from "react";
 
 import { lessonData } from "@/data/lessons";
@@ -90,6 +95,13 @@ export default function LearnDashboard() {
   const { lessons, xp, streak, getLessonStatus, consumePendingAchievements, todayLessonsCompleted, todayLessonsDate } = useProgressStore();
   const { triggerAchievement, AchievementToastComponent } = useAchievementToast();
 
+  // Completed lessons count for milestone tracking
+  const completedCount = useMemo(
+    () => Object.values(lessons).filter(l => l.status === "completed").length,
+    [lessons]
+  );
+  const { activeMilestone, dismiss: dismissMilestone } = useMilestoneTracker(xp, streak, completedCount);
+
   // Check for pending achievements on mount and after state changes
   useEffect(() => {
     const pending = consumePendingAchievements();
@@ -110,6 +122,38 @@ export default function LearnDashboard() {
   // Today's lesson count
   const today = new Date().toISOString().split("T")[0];
   const todayCount = todayLessonsDate === today ? todayLessonsCompleted : 0;
+
+  // Fritz mood logic — contextual awareness
+  const fritzMood: FritzMood = useMemo(() => {
+    const hour = new Date().getHours();
+    const lastActive = useProgressStore.getState().lastActiveDate;
+    const daysSinceActive = lastActive
+      ? Math.floor((Date.now() - new Date(lastActive).getTime()) / (1000 * 60 * 60 * 24))
+      : 999;
+
+    // Haven't been here in 3+ days
+    if (daysSinceActive >= 3) return "sleeping";
+    // Streak at risk (late in the day, no lessons today)
+    if (hour >= 20 && todayCount === 0) return "worried";
+    // Just completed lessons today
+    if (todayCount >= 3) return "celebrating";
+    if (todayCount >= 1) return "proud";
+    // High streak
+    if (streak >= 7) return "proud";
+    // Morning greeting
+    if (hour < 12) return "encouraging";
+    // Default
+    return "idle";
+  }, [streak, todayCount]);
+
+  const fritzMessage = useMemo(() => {
+    const hour = new Date().getHours();
+    if (todayCount >= 3) return "Gut gemacht! 3 lessons today! 🎉";
+    if (streak >= 7) return `${streak}-day streak! Unglaublich! 🔥`;
+    if (hour < 12) return "Guten Morgen! Let's learn! ☀️";
+    if (hour >= 20 && todayCount === 0) return "Your streak is at risk! 😟";
+    return null; // Use random from mood pool
+  }, [streak, todayCount]);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -135,14 +179,21 @@ export default function LearnDashboard() {
   return (
     <div className="flex-1 px-6 md:px-16 py-12 max-w-[1400px] mx-auto w-full">
       <header className="mb-12 border-b-4 border-foreground pb-8">
-        <div className="text-primary font-mono text-sm tracking-widest uppercase mb-4 flex items-center gap-4">
-          <span className="w-12 h-[2px] bg-primary block"></span>
-          Curriculum
+        <div className="flex items-start justify-between">
+          <div>
+            <div className="text-primary font-mono text-sm tracking-widest uppercase mb-4 flex items-center gap-4">
+              <span className="w-12 h-[2px] bg-primary block"></span>
+              Curriculum
+            </div>
+            <h1 className="text-5xl md:text-8xl font-black tracking-tighter uppercase leading-[0.85]">
+              Pathway to<br />
+              <span className="text-muted-foreground">Fluency.</span>
+            </h1>
+          </div>
+          <div className="hidden md:block mt-4">
+            <Fritz mood={fritzMood} message={fritzMessage} size={100} />
+          </div>
         </div>
-        <h1 className="text-5xl md:text-8xl font-black tracking-tighter uppercase leading-[0.85]">
-          Pathway to<br />
-          <span className="text-muted-foreground">Fluency.</span>
-        </h1>
       </header>
 
       {/* Achievement Toast Portal */}
@@ -150,6 +201,9 @@ export default function LearnDashboard() {
 
       {/* === ENGAGEMENT DASHBOARD === */}
       <div className="mb-16 space-y-6">
+        {/* Daily Briefing */}
+        <DailyBriefing />
+
         {/* Live Stats Bar */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -208,12 +262,20 @@ export default function LearnDashboard() {
           </motion.div>
         )}
 
+        {/* Smart Nudge */}
+        <SmartNudge />
+
         {/* Daily Challenge + Word of the Day */}
         <div className="grid md:grid-cols-2 gap-6">
           <DailyChallenge />
           <WordOfTheDay />
         </div>
       </div>
+
+      {/* Milestone Celebration Modal */}
+      {activeMilestone && (
+        <MilestoneCelebration milestone={activeMilestone} onDismiss={dismissMilestone} />
+      )}
 
       <motion.div variants={containerVariants} initial="hidden" animate="show" className="space-y-32">
         {modules.map((mod, index) => {

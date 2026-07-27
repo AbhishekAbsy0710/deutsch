@@ -21,10 +21,10 @@ export async function loadProgressFromSupabase(userId: string): Promise<UserProg
   const supabase = createClient();
   
   try {
-    // Load profile
+    // Load profile (include extended_state if it exists)
     const { data: profile, error: profileErr } = await supabase
       .from("profiles")
-      .select("xp, streak, current_level, last_active")
+      .select("xp, streak, current_level, last_active, extended_state")
       .eq("id", userId)
       .single();
 
@@ -67,31 +67,40 @@ export async function loadProgressFromSupabase(userId: string): Promise<UserProg
       }
     }
 
+    // Extract extended state (may be null if column doesn't exist or hasn't been saved yet)
+    const ext = (profile as Record<string, unknown>).extended_state as Record<string, unknown> | null;
+
+    const defaultFeatureActivity = {
+      writing: { totalSessions: 0, averageScore: 0, lastDate: null },
+      reading: { passagesRead: 0, questionsCorrect: 0, questionsTotal: 0, lastDate: null },
+      listening: { dictationsCompleted: 0, dictationAccuracy: 0, comprehensionsCompleted: 0, comprehensionAccuracy: 0, lastDate: null },
+      conversation: { scenariosCompleted: [], totalMessages: 0, averageGrammarScore: 0, lastDate: null },
+      exam: { examsTaken: [] },
+      games: { gamesPlayed: 0, totalCorrect: 0, totalAttempted: 0, lastDate: null },
+      practice: { sessionsCompleted: 0, questionsCorrect: 0, questionsTotal: 0, lastDate: null },
+    };
+
     return {
       lessons,
       xp: profile.xp || 0,
       streak: profile.streak || 0,
       lastActiveDate: profile.last_active || null,
-      goal: null,
+      goal: ext?.goal as string | null ?? null,
       level: profile.current_level || null,
-      achievements: [],
-      srs: {},
-      dailyChallengeDate: null,
-      dailyChallengesCompleted: 0,
-      todayLessonsCompleted: 0,
-      todayLessonsDate: null,
-      featureActivity: {
-        writing: { totalSessions: 0, averageScore: 0, lastDate: null },
-        reading: { passagesRead: 0, questionsCorrect: 0, questionsTotal: 0, lastDate: null },
-        listening: { dictationsCompleted: 0, dictationAccuracy: 0, comprehensionsCompleted: 0, comprehensionAccuracy: 0, lastDate: null },
-        conversation: { scenariosCompleted: [], totalMessages: 0, averageGrammarScore: 0, lastDate: null },
-        exam: { examsTaken: [] },
-        games: { gamesPlayed: 0, totalCorrect: 0, totalAttempted: 0, lastDate: null },
-        practice: { sessionsCompleted: 0, questionsCorrect: 0, questionsTotal: 0, lastDate: null },
-      },
-      vocabularyBank: {},
-      dailyXpLog: {},
-      writingErrors: [],
+      achievements: (ext?.achievements as string[]) || [],
+      srs: (ext?.srs as Record<string, unknown>) as UserProgress["srs"] || {},
+      dailyChallengeDate: (ext?.dailyChallengeDate as string) || null,
+      dailyChallengesCompleted: (ext?.dailyChallengesCompleted as number) || 0,
+      todayLessonsCompleted: (ext?.todayLessonsCompleted as number) || 0,
+      todayLessonsDate: (ext?.todayLessonsDate as string) || null,
+      featureActivity: (ext?.featureActivity as UserProgress["featureActivity"]) || defaultFeatureActivity,
+      vocabularyBank: (ext?.vocabularyBank as UserProgress["vocabularyBank"]) || {},
+      dailyXpLog: (ext?.dailyXpLog as Record<string, number>) || {},
+      writingErrors: (ext?.writingErrors as UserProgress["writingErrors"]) || [],
+      smartReviewHistory: (ext?.smartReviewHistory as UserProgress["smartReviewHistory"]) || [],
+      lastSmartReviewDate: (ext?.lastSmartReviewDate as string) || null,
+      writingRubricHistory: (ext?.writingRubricHistory as UserProgress["writingRubricHistory"]) || [],
+      errorHuntStats: (ext?.errorHuntStats as UserProgress["errorHuntStats"]) || [],
       _pendingAchievements: [],
     };
   } catch (err) {
@@ -107,8 +116,23 @@ export async function saveProgressToSupabase(userId: string, progress: UserProgr
   const supabase = createClient();
   
   try {
-    // Upsert profile stats
-    await supabase
+    // Build the extended state blob — everything that wasn't being saved before
+    const extendedState = {
+      achievements: progress.achievements || [],
+      srs: progress.srs || {},
+      vocabularyBank: progress.vocabularyBank || {},
+      featureActivity: progress.featureActivity,
+      dailyXpLog: progress.dailyXpLog || {},
+      writingErrors: progress.writingErrors || [],
+      dailyChallengeDate: progress.dailyChallengeDate,
+      dailyChallengesCompleted: progress.dailyChallengesCompleted || 0,
+      todayLessonsCompleted: progress.todayLessonsCompleted || 0,
+      todayLessonsDate: progress.todayLessonsDate,
+      goal: progress.goal,
+    };
+
+    // Upsert profile stats + extended state
+    const { error: profileError } = await supabase
       .from("profiles")
       .upsert({
         id: userId,
@@ -116,7 +140,26 @@ export async function saveProgressToSupabase(userId: string, progress: UserProgr
         streak: progress.streak,
         current_level: progress.level || "A0",
         last_active: progress.lastActiveDate || new Date().toISOString().split("T")[0],
+        extended_state: extendedState,
       });
+
+    if (profileError) {
+      // If extended_state column doesn't exist yet, fall back to saving without it
+      if (profileError.message?.includes("extended_state")) {
+        console.warn("[Sync] extended_state column not found — saving without it. Run the migration SQL.");
+        await supabase
+          .from("profiles")
+          .upsert({
+            id: userId,
+            xp: progress.xp,
+            streak: progress.streak,
+            current_level: progress.level || "A0",
+            last_active: progress.lastActiveDate || new Date().toISOString().split("T")[0],
+          });
+      } else {
+        console.error("[Sync] Profile save error:", profileError);
+      }
+    }
 
     // Upsert each lesson's progress (only non-default ones)
     const lessonUpserts = Object.entries(progress.lessons)
@@ -138,7 +181,7 @@ export async function saveProgressToSupabase(userId: string, progress: UserProgr
       if (error) console.error("[Sync] Lesson save error:", error);
     }
 
-    console.log("[Sync] Saved to Supabase:", progress.xp, "XP,", lessonUpserts.length, "lessons");
+    console.log("[Sync] Saved to Supabase:", progress.xp, "XP,", lessonUpserts.length, "lessons, extended_state included");
   } catch (err) {
     console.error("[Sync] Save error:", err);
   }
@@ -196,6 +239,30 @@ export function mergeProgress(local: UserProgress, cloud: UserProgress): UserPro
       }
       return Array.from(map.values());
     })(),
+    smartReviewHistory: (() => {
+      const localHist = local.smartReviewHistory || [];
+      const cloudHist = cloud.smartReviewHistory || [];
+      // Merge by deduplicating on date
+      const dateSet = new Set<string>();
+      const merged = [];
+      for (const h of [...cloudHist, ...localHist]) {
+        const key = `${h.date}-${h.itemsReviewed}`;
+        if (!dateSet.has(key)) {
+          dateSet.add(key);
+          merged.push(h);
+        }
+      }
+      return merged;
+    })(),
+    lastSmartReviewDate: local.lastSmartReviewDate || cloud.lastSmartReviewDate || null,
+    writingRubricHistory: [
+      ...(cloud.writingRubricHistory || []),
+      ...(local.writingRubricHistory || []),
+    ].filter((e, i, arr) => arr.findIndex(x => x.date === e.date && x.promptId === e.promptId) === i).slice(-50),
+    errorHuntStats: [
+      ...(cloud.errorHuntStats || []),
+      ...(local.errorHuntStats || []),
+    ].filter((e, i, arr) => arr.findIndex(x => x.date === e.date && x.score === e.score) === i).slice(-50),
     _pendingAchievements: [],
   };
 

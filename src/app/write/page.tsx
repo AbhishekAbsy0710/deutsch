@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { PenTool, Send, Loader2, ArrowLeft, CheckCircle2, XCircle, AlertTriangle, Sparkles, ChevronDown, RotateCcw, Volume2 } from "lucide-react";
+import { PenTool, Send, Loader2, ArrowLeft, CheckCircle2, AlertTriangle, Sparkles, ChevronDown, RotateCcw, Volume2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { writingPrompts, WritingPrompt, getAvailableLevels } from "@/data/writing-prompts";
@@ -28,6 +28,9 @@ interface WritingFeedback {
   grammarScore: number;
   vocabularyScore: number;
   structureScore: number;
+  goetheRubric?: { aufgabe: number; kohaerenz: number; wortschatz: number; strukturen: number; total: number };
+  modelAnswer?: string;
+  examReadiness?: string;
 }
 
 const CORRECTION_COLORS: Record<string, string> = {
@@ -68,7 +71,7 @@ function ScoreRing({ score, label, size = 64 }: { score: number; label: string; 
 }
 
 export default function WritePage() {
-  const { level: storedLevel, recordWritingError, writingErrors } = useProgressStore();
+  const { level: storedLevel, recordWritingError, writingErrors, recordWritingRubric, writingRubricHistory } = useProgressStore();
   const [selectedLevel, setSelectedLevel] = useState(storedLevel || "A1");
   const [selectedPrompt, setSelectedPrompt] = useState<WritingPrompt | null>(null);
   const [text, setText] = useState("");
@@ -111,6 +114,28 @@ export default function WritePage() {
         for (const c of data.corrections) {
           recordWritingError(c.original, c.corrected);
         }
+      }
+      // Record Goethe Rubric score history
+      if (data.goetheRubric) {
+        recordWritingRubric({
+          promptId: selectedPrompt.id,
+          level: selectedLevel,
+          rubric: {
+            aufgabe: data.goetheRubric.aufgabe,
+            kohaerenz: data.goetheRubric.kohaerenz,
+            wortschatz: data.goetheRubric.wortschatz,
+            strukturen: data.goetheRubric.strukturen,
+          },
+          total: data.goetheRubric.total,
+        });
+      } else if (typeof data.overallScore === "number") {
+        const est = Math.round(data.overallScore / 4);
+        recordWritingRubric({
+          promptId: selectedPrompt.id,
+          level: selectedLevel,
+          rubric: { aufgabe: est, kohaerenz: est, wortschatz: est, strukturen: est },
+          total: data.overallScore,
+        });
       }
     } catch {
       setFeedback(null);
@@ -176,6 +201,50 @@ export default function WritePage() {
                     <span className="text-green-400 text-xs font-bold">{e.correction}</span>
                   </div>
                 ))}
+            </div>
+          </div>
+        )}
+        {/* Writing History & Goethe Rubric Trend */}
+        {writingRubricHistory.length > 0 && (
+          <div className="bg-card border-2 border-border p-4 space-y-3">
+            <div className="flex items-center justify-between">
+              <span className="text-xs font-mono uppercase font-bold text-primary flex items-center gap-1.5">
+                <Sparkles className="w-3.5 h-3.5" /> Writing Performance Trend ({writingRubricHistory.length} Essays)
+              </span>
+              <span className="text-xs font-mono text-muted-foreground">
+                Avg Score: {Math.round(writingRubricHistory.reduce((acc, h) => acc + h.total, 0) / writingRubricHistory.length)}%
+              </span>
+            </div>
+            <div className="flex items-end gap-1.5 h-14 pt-2 border-b border-border pb-1">
+              {writingRubricHistory.slice(-15).map((h, idx) => {
+                const heightPct = Math.max(10, Math.min(100, h.total));
+                const barColor = h.total >= 80 ? "bg-green-500" : h.total >= 60 ? "bg-yellow-500" : "bg-red-500";
+                return (
+                  <div key={idx} className="flex-1 flex flex-col items-center gap-1 group relative">
+                    <div
+                      className={cn("w-full transition-all rounded-t", barColor)}
+                      style={{ height: `${heightPct}%` }}
+                    />
+                    <div className="absolute -top-7 hidden group-hover:block bg-popover border text-popover-foreground text-[10px] font-mono px-1.5 py-0.5 rounded shadow z-10 whitespace-nowrap">
+                      {h.level}: {h.total}% ({h.date})
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+            <div className="grid grid-cols-4 gap-2 text-center text-[10px] font-mono text-muted-foreground pt-1">
+              <div>
+                Aufgabe: {Math.round(writingRubricHistory.reduce((a, b) => a + (b.rubric?.aufgabe || 0), 0) / writingRubricHistory.length)}
+              </div>
+              <div>
+                Kohärenz: {Math.round(writingRubricHistory.reduce((a, b) => a + (b.rubric?.kohaerenz || 0), 0) / writingRubricHistory.length)}
+              </div>
+              <div>
+                Wortschatz: {Math.round(writingRubricHistory.reduce((a, b) => a + (b.rubric?.wortschatz || 0), 0) / writingRubricHistory.length)}
+              </div>
+              <div>
+                Strukturen: {Math.round(writingRubricHistory.reduce((a, b) => a + (b.rubric?.strukturen || 0), 0) / writingRubricHistory.length)}
+              </div>
             </div>
           </div>
         )}
@@ -277,6 +346,71 @@ export default function WritePage() {
                   <ScoreRing score={feedback.structureScore} label="Structure" />
                 </div>
               </div>
+
+              {/* Goethe-Institut Rubric */}
+              {feedback.goetheRubric && (
+                <div className="bg-card border-2 border-amber-500/30 p-6 space-y-4">
+                  <div className="flex items-center justify-between">
+                    <h3 className="font-bold text-lg flex items-center gap-2">
+                      🏛️ Goethe-Institut Rubric
+                    </h3>
+                    <span className={cn(
+                      "font-mono font-bold text-xl",
+                      feedback.goetheRubric.total >= 60 ? "text-green-500" :
+                      feedback.goetheRubric.total >= 40 ? "text-amber-500" : "text-red-500"
+                    )}>
+                      {feedback.goetheRubric.total}/100
+                    </span>
+                  </div>
+                  <div className="space-y-3">
+                    {[
+                      { key: "aufgabe", label: "Aufgabe (Task)", score: feedback.goetheRubric.aufgabe },
+                      { key: "kohaerenz", label: "Kohärenz (Coherence)", score: feedback.goetheRubric.kohaerenz },
+                      { key: "wortschatz", label: "Wortschatz (Vocabulary)", score: feedback.goetheRubric.wortschatz },
+                      { key: "strukturen", label: "Strukturen (Grammar)", score: feedback.goetheRubric.strukturen },
+                    ].map(({ key, label, score }) => (
+                      <div key={key} className="space-y-1">
+                        <div className="flex justify-between text-sm">
+                          <span className="font-mono">{label}</span>
+                          <span className={cn(
+                            "font-bold font-mono",
+                            score >= 18 ? "text-green-500" : score >= 13 ? "text-amber-500" : "text-red-500"
+                          )}>{score}/25</span>
+                        </div>
+                        <div className="h-2 bg-muted rounded-full overflow-hidden">
+                          <div
+                            className={cn(
+                              "h-full rounded-full transition-all",
+                              score >= 18 ? "bg-green-500" : score >= 13 ? "bg-amber-500" : "bg-red-500"
+                            )}
+                            style={{ width: `${(score / 25) * 100}%` }}
+                          />
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                  {feedback.examReadiness && (
+                    <p className="text-sm text-amber-600 dark:text-amber-400 border-t border-amber-500/20 pt-3">
+                      🎯 {feedback.examReadiness}
+                    </p>
+                  )}
+                  <p className="text-[10px] text-muted-foreground italic">
+                    AI-estimated scores — may differ from official exam results.
+                  </p>
+                </div>
+              )}
+
+              {/* Model Answer */}
+              {feedback.modelAnswer && (
+                <details className="bg-card border-2 border-blue-500/20">
+                  <summary className="p-4 cursor-pointer font-bold text-sm hover:bg-blue-500/5 transition-colors">
+                    📝 Musterantwort (Model Answer)
+                  </summary>
+                  <div className="px-4 pb-4 text-sm leading-relaxed whitespace-pre-wrap border-t border-blue-500/10 pt-3">
+                    {feedback.modelAnswer}
+                  </div>
+                </details>
+              )}
 
               {/* Strengths */}
               {feedback.strengths?.length > 0 && (

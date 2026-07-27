@@ -34,7 +34,7 @@ export default function Home() {
         <motion.div variants={itemVariants} className="space-y-4">
           <div className="text-primary font-mono text-sm tracking-widest uppercase mb-4 flex items-center gap-4">
             <span className="w-12 h-[2px] bg-primary block"></span>
-            A0 — C1 Fluency Engine
+            A0 — C2 Fluency Engine
           </div>
           <h1 className="text-7xl md:text-[9rem] font-extrabold leading-[0.85] tracking-tighter uppercase mix-blend-difference text-foreground">
             Learn German.

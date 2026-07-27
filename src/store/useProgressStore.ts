@@ -32,7 +32,7 @@ export interface FeatureActivity {
   reading: { passagesRead: number; questionsCorrect: number; questionsTotal: number; lastDate: string | null };
   listening: { dictationsCompleted: number; dictationAccuracy: number; comprehensionsCompleted: number; comprehensionAccuracy: number; lastDate: string | null };
   conversation: { scenariosCompleted: string[]; totalMessages: number; averageGrammarScore: number; lastDate: string | null };
-  exam: { examsTaken: { examId: string; score: number; passed: boolean; date: string }[] };
+  exam: { examsTaken: { examId: string; score: number; passed: boolean; date: string; sectionScores?: Record<string, number>; strictMode?: boolean }[] };
   games: { gamesPlayed: number; totalCorrect: number; totalAttempted: number; lastDate: string | null };
   practice: { sessionsCompleted: number; questionsCorrect: number; questionsTotal: number; lastDate: string | null };
 }
@@ -72,6 +72,35 @@ export interface UserProgress {
   // Writing error patterns for recycling
   writingErrors: { pattern: string; correction: string; count: number; lastDate: string }[];
   
+  // Smart review session history
+  smartReviewHistory: {
+    date: string;
+    itemsReviewed: number;
+    accuracy: number;
+    categories: {
+      vocab: number;
+      writingError: number;
+      grammar: number;
+      dictation: number;
+      pronunciation: number;
+    };
+  }[];
+  lastSmartReviewDate: string | null;
+  writingRubricHistory: {
+    date: string;
+    promptId: string;
+    level: string;
+    rubric: { aufgabe: number; kohaerenz: number; wortschatz: number; strukturen: number };
+    total: number;
+  }[];
+  errorHuntStats: {
+    date: string;
+    level: string;
+    score: number;
+    accuracy: number;
+    categoriesMissed: string[];
+  }[];
+  
   // Recently unlocked achievements (for toast display)
   _pendingAchievements: string[];
 }
@@ -97,11 +126,14 @@ interface ProgressStore extends UserProgress {
   recordDictation: (accuracy: number) => void;
   recordComprehension: (correct: number, total: number) => void;
   recordConversation: (scenarioId: string, messageCount: number, grammarScore: number) => void;
-  recordExamResult: (examId: string, score: number, passed: boolean) => void;
+  recordExamResult: (examId: string, score: number, passed: boolean, sectionScores?: Record<string, number>, strictMode?: boolean) => void;
   recordGameSession: (correct: number, total: number) => void;
   recordPracticeSession: (correct: number, total: number) => void;
   addToVocabularyBank: (words: VocabEntry[]) => void;
   recordWritingError: (pattern: string, correction: string) => void;
+  recordSmartReview: (accuracy: number, categories: Record<string, number>, itemCount: number) => void;
+  recordWritingRubric: (data: { promptId: string; level: string; rubric: { aufgabe: number; kohaerenz: number; wortschatz: number; strukturen: number }; total: number }) => void;
+  recordErrorHunt: (data: { level: string; score: number; accuracy: number; categoriesMissed: string[] }) => void;
   
   // Cloud sync
   syncWithSupabase: (userId: string) => Promise<void>;
@@ -171,6 +203,10 @@ const initialState: UserProgress = {
   vocabularyBank: {},
   dailyXpLog: {},
   writingErrors: [],
+  smartReviewHistory: [],
+  lastSmartReviewDate: null,
+  writingRubricHistory: [],
+  errorHuntStats: [],
   _pendingAchievements: [],
 };
 
@@ -538,13 +574,13 @@ export const useProgressStore = create<ProgressStore>()(
         if (userId) get().saveToCloud(userId);
       },
 
-      recordExamResult: (examId: string, score: number, passed: boolean) => {
+      recordExamResult: (examId: string, score: number, passed: boolean, sectionScores?: Record<string, number>, strictMode?: boolean) => {
         const state = get();
         const today = new Date().toISOString().split("T")[0];
         const e = state.featureActivity.exam;
         const newStreak = checkAndUpdateStreak(state.lastActiveDate, state.streak);
         set({
-          featureActivity: { ...state.featureActivity, exam: { examsTaken: [...e.examsTaken, { examId, score, passed, date: today }] } },
+          featureActivity: { ...state.featureActivity, exam: { examsTaken: [...e.examsTaken, { examId, score, passed, date: today, sectionScores, strictMode }] } },
           xp: state.xp + (passed ? 100 : 50),
           streak: newStreak,
           lastActiveDate: today,
@@ -619,6 +655,79 @@ export const useProgressStore = create<ProgressStore>()(
         if (userId) get().saveToCloud(userId);
       },
 
+      recordSmartReview: (accuracy: number, categories: Record<string, number>, itemCount: number) => {
+        const state = get();
+        const today = new Date().toISOString().slice(0, 10);
+        
+        // Award XP: 5 per correct item (based on accuracy)
+        const correctItems = Math.round((accuracy / 100) * itemCount);
+        const xpEarned = correctItems * 5;
+        const newXp = state.xp + xpEarned;
+        
+        // Update streak
+        const newStreak = checkAndUpdateStreak(state.lastActiveDate, state.streak);
+        
+        // Update daily XP log
+        const newDailyXpLog = { ...state.dailyXpLog };
+        newDailyXpLog[today] = (newDailyXpLog[today] || 0) + xpEarned;
+        
+        // Add to history
+        const entry = {
+          date: today,
+          itemsReviewed: itemCount,
+          accuracy,
+          categories: {
+            vocab: categories.vocab ?? 0,
+            writingError: categories["writing-error"] ?? categories.writingError ?? 0,
+            grammar: categories["grammar-mcq"] ?? categories["grammar-fill"] ?? categories.grammar ?? 0,
+            dictation: categories.dictation ?? 0,
+            pronunciation: categories.pronunciation ?? 0,
+          },
+        };
+        
+        set({
+          xp: newXp,
+          streak: newStreak,
+          lastActiveDate: today,
+          dailyXpLog: newDailyXpLog,
+          smartReviewHistory: [...state.smartReviewHistory, entry],
+          lastSmartReviewDate: today,
+        });
+        
+        const userId = get()._userId;
+        if (userId) get().saveToCloud(userId);
+      },
+
+      recordWritingRubric: (data) => {
+        const state = get();
+        const today = new Date().toISOString().slice(0, 10);
+        set({
+          writingRubricHistory: [...state.writingRubricHistory, { date: today, ...data }].slice(-50), // keep last 50
+        });
+        const userId = get()._userId;
+        if (userId) get().saveToCloud(userId);
+      },
+
+      recordErrorHunt: (data) => {
+        const state = get();
+        const today = new Date().toISOString().slice(0, 10);
+        const xpEarned = Math.round(data.score / 2); // 5 XP per correct answer approx
+        const newXp = state.xp + xpEarned;
+        const newStreak = checkAndUpdateStreak(state.lastActiveDate, state.streak);
+        const newDailyXpLog = { ...state.dailyXpLog };
+        newDailyXpLog[today] = (newDailyXpLog[today] || 0) + xpEarned;
+        
+        set({
+          xp: newXp,
+          streak: newStreak,
+          lastActiveDate: today,
+          dailyXpLog: newDailyXpLog,
+          errorHuntStats: [...state.errorHuntStats, { date: today, ...data }].slice(-50),
+        });
+        const userId = get()._userId;
+        if (userId) get().saveToCloud(userId);
+      },
+
       resetProgress: async () => {
         // Clear cloud data FIRST and WAIT for it
         const userId = get()._userId;
@@ -684,6 +793,10 @@ export const useProgressStore = create<ProgressStore>()(
           vocabularyBank: get().vocabularyBank,
           dailyXpLog: get().dailyXpLog,
           writingErrors: get().writingErrors,
+          smartReviewHistory: get().smartReviewHistory,
+          lastSmartReviewDate: get().lastSmartReviewDate,
+          writingRubricHistory: get().writingRubricHistory,
+          errorHuntStats: get().errorHuntStats,
           _pendingAchievements: get()._pendingAchievements,
         };
 
@@ -722,6 +835,10 @@ export const useProgressStore = create<ProgressStore>()(
             vocabularyBank: state.vocabularyBank,
             dailyXpLog: state.dailyXpLog,
             writingErrors: state.writingErrors,
+            smartReviewHistory: state.smartReviewHistory,
+            lastSmartReviewDate: state.lastSmartReviewDate,
+            writingRubricHistory: state.writingRubricHistory,
+            errorHuntStats: state.errorHuntStats,
             _pendingAchievements: state._pendingAchievements,
           });
         });

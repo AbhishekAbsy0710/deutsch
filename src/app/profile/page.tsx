@@ -7,6 +7,8 @@ import { useProgressStore } from "@/store/useProgressStore";
 import { createClient } from "@/lib/supabase";
 import { signOut } from "@/lib/supabase-auth";
 import { useRouter } from "next/navigation";
+import { useTheme } from "next-themes";
+import { StudyReminder } from "@/components/StudyReminder";
 
 const goalLabels: Record<string, string> = {
   job: "Job in Germany",
@@ -24,7 +26,7 @@ const goalDescriptions: Record<string, string> = {
 
 export default function ProfilePage() {
   const router = useRouter();
-  const [darkMode, setDarkMode] = useState(false);
+  const { theme, setTheme } = useTheme();
   const [userEmail, setUserEmail] = useState<string | null>(null);
 
   const handleLogout = async () => {
@@ -48,8 +50,6 @@ export default function ProfilePage() {
   );
 
   useEffect(() => {
-    setDarkMode(document.documentElement.classList.contains("dark"));
-    
     // Fetch user from Supabase
     const fetchUser = async () => {
       const supabase = createClient();
@@ -63,8 +63,7 @@ export default function ProfilePage() {
   }, []);
 
   const toggleDarkMode = () => {
-    document.documentElement.classList.toggle("dark");
-    setDarkMode(!darkMode);
+    setTheme(theme === "dark" ? "light" : "dark");
   };
 
   return (
@@ -113,18 +112,18 @@ export default function ProfilePage() {
             className="w-full flex items-center justify-between p-6 border-b-2 border-border hover:bg-secondary transition-colors text-left"
           >
             <div className="flex items-center gap-4">
-              {darkMode ? <Moon size={20} /> : <Sun size={20} />}
+              {theme === "dark" ? <Moon size={20} /> : <Sun size={20} />}
               <div>
                 <p className="font-bold text-lg">Dark Mode</p>
                 <p className="text-sm text-muted-foreground font-mono">
-                  {darkMode ? "Currently dark" : "Currently light"}
+                  {theme === "dark" ? "Currently dark" : "Currently light"}
                 </p>
               </div>
             </div>
-            <div className={`w-14 h-8 border-2 border-foreground flex items-center px-1 transition-colors ${darkMode ? "bg-primary" : "bg-secondary"}`}>
+            <div className={`w-14 h-8 border-2 border-foreground flex items-center px-1 transition-colors ${theme === "dark" ? "bg-primary" : "bg-secondary"}`}>
               <motion.div
                 className="w-5 h-5 bg-foreground"
-                animate={{ x: darkMode ? 20 : 0 }}
+                animate={{ x: theme === "dark" ? 20 : 0 }}
                 transition={{ type: "spring" as const, stiffness: 300, damping: 25 }}
               />
             </div>
@@ -150,6 +149,11 @@ export default function ProfilePage() {
                 <p className="text-sm text-muted-foreground font-mono">Enabled</p>
               </div>
             </div>
+          </div>
+
+          {/* Study Reminders */}
+          <div className="border-b-2 border-border">
+            <StudyReminder />
           </div>
 
           {/* Logout */}
