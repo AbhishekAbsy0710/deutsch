@@ -74,13 +74,13 @@ export function Navigation() {
     <>
       {/* ── Desktop Sidebar ── */}
       <nav className="hidden md:flex flex-col w-64 border-r bg-card h-screen sticky top-0 py-8 px-4">
-        <div className="flex items-center gap-3 px-4 mb-10">
+        <div className="flex items-center gap-3 px-4 mb-10 shrink-0">
           <div className="bg-primary text-primary-foreground p-2">
             <BookOpen size={24} />
           </div>
           <h1 className="text-2xl font-bold tracking-tight">Deutsch AI</h1>
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 overflow-y-auto flex-1 min-h-0 pr-1">
           {navItems.map((item) => {
             const isActive = pathname === item.href || pathname.startsWith(`${item.href}/`);
             const Icon = item.icon;
@@ -89,7 +89,7 @@ export function Navigation() {
                 key={item.href}
                 href={item.href}
                 className={cn(
-                  "flex items-center gap-3 px-4 py-3 transition-colors",
+                  "flex items-center gap-3 px-4 py-3 transition-colors shrink-0",
                   isActive
                     ? "bg-primary text-primary-foreground font-medium shadow-md"
                     : "text-muted-foreground hover:bg-secondary hover:text-foreground"
@@ -100,29 +100,29 @@ export function Navigation() {
               </Link>
             );
           })}
-        </div>
-        <div className="mt-6 pt-6 border-t border-border">
-          <p className="px-4 mb-2 text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Practice</p>
-          <div className="flex flex-col gap-1">
-            {practiceItems.map((item) => {
-              const isActive = pathname === item.href || pathname.startsWith(`${item.href}/`);
-              const Icon = item.icon;
-              return (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className={cn(
-                    "flex items-center gap-3 px-4 py-2.5 transition-colors text-sm",
-                    isActive
-                      ? "bg-primary text-primary-foreground font-medium shadow-md"
-                      : "text-muted-foreground hover:bg-secondary hover:text-foreground"
-                  )}
-                >
-                  <Icon size={18} />
-                  <span>{item.label}</span>
-                </Link>
-              );
-            })}
+          <div className="mt-6 pt-6 border-t border-border shrink-0">
+            <p className="px-4 mb-2 text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Practice</p>
+            <div className="flex flex-col gap-1">
+              {practiceItems.map((item) => {
+                const isActive = pathname === item.href || pathname.startsWith(`${item.href}/`);
+                const Icon = item.icon;
+                return (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className={cn(
+                      "flex items-center gap-3 px-4 py-2.5 transition-colors text-sm shrink-0",
+                      isActive
+                        ? "bg-primary text-primary-foreground font-medium shadow-md"
+                        : "text-muted-foreground hover:bg-secondary hover:text-foreground"
+                    )}
+                  >
+                    <Icon size={18} />
+                    <span>{item.label}</span>
+                  </Link>
+                );
+              })}
+            </div>
           </div>
         </div>
       </nav>
