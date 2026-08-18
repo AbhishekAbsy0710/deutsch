@@ -49,11 +49,11 @@ export default function Home() {
           </p>
         </motion.div>
 
-        <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-8 pt-10">
-          <MagneticButton>
+        <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-8 pt-10 relative z-50">
+          <MagneticButton className="relative z-50">
             <Link 
               href="/assessment" 
-              className="group relative inline-flex items-center justify-center px-8 py-4 text-base sm:px-12 sm:py-6 sm:text-xl font-bold text-primary-foreground bg-primary overflow-hidden border-2 border-primary transition-all duration-300"
+              className="group relative z-50 inline-flex items-center justify-center px-8 py-4 text-base sm:px-12 sm:py-6 sm:text-xl font-bold text-primary-foreground bg-primary overflow-hidden border-2 border-primary transition-all duration-300"
             >
               <div className="absolute inset-0 w-full h-full bg-foreground -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out z-0"></div>
               <span className="relative z-10 group-hover:text-background transition-colors duration-300">INITIATE SEQUENCE</span>
@@ -62,7 +62,7 @@ export default function Home() {
           
           <Link 
             href="/login" 
-            className="group inline-flex items-center justify-center px-8 py-4 text-base sm:px-12 sm:py-6 sm:text-xl font-bold text-foreground border-2 border-border hover:border-foreground transition-colors duration-300"
+            className="group relative z-50 inline-flex items-center justify-center px-8 py-4 text-base sm:px-12 sm:py-6 sm:text-xl font-bold text-foreground border-2 border-border hover:border-foreground transition-colors duration-300"
           >
             LOGIN
           </Link>

@@ -43,8 +43,7 @@ export default function LoginPage() {
 
   return (
     <div className="flex-1 flex items-center justify-center px-6 py-20 relative overflow-hidden">
-      {/* Background Typography */}
-      <div className="absolute top-[-15%] right-[-10%] text-[20vw] font-extrabold text-foreground/[0.03] select-none pointer-events-none leading-none tracking-tighter">
+      <div className="absolute top-[-15%] right-[-10%] -z-10 text-[20vw] font-extrabold text-foreground/[0.03] select-none pointer-events-none leading-none tracking-tighter">
         ANMELDEN
       </div>
 
