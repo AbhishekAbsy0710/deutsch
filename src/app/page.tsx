@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen justify-center px-6 md:px-20 py-20 bg-background relative overflow-hidden">
       {/* Decorative background typography */}
-      <div className="absolute top-[-10%] right-[-10%] text-[25vw] font-extrabold text-foreground/[0.03] select-none pointer-events-none leading-none tracking-tighter mix-blend-difference">
+      <div className="absolute top-[-10%] right-[-10%] -z-10 text-[25vw] font-extrabold text-foreground/[0.03] select-none pointer-events-none leading-none tracking-tighter mix-blend-difference">
         DEUTSCH
       </div>
 
