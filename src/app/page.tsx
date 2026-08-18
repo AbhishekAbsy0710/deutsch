@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { MagneticButton } from "@/components/MagneticButton";
+
 
 export default function Home() {
   const containerVariants = {
@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen justify-center px-6 md:px-20 py-20 bg-background relative overflow-hidden">
       {/* Decorative background typography */}
-      <div className="absolute top-[-10%] right-[-10%] -z-10 text-[25vw] font-extrabold text-foreground/[0.03] select-none pointer-events-none leading-none tracking-tighter mix-blend-difference">
+      <div className="absolute top-[-10%] right-[-10%] -z-10 text-[25vw] font-extrabold text-foreground/[0.03] select-none pointer-events-none leading-none tracking-tighter ">
         DEUTSCH
       </div>
 
@@ -36,7 +36,7 @@ export default function Home() {
             <span className="w-12 h-[2px] bg-primary block"></span>
             A0 — C2 Fluency Engine
           </div>
-          <h1 className="text-7xl md:text-[9rem] font-extrabold leading-[0.85] tracking-tighter uppercase mix-blend-difference text-foreground">
+          <h1 className="text-7xl md:text-[9rem] font-extrabold leading-[0.85] tracking-tighter uppercase  text-foreground">
             Learn German.
             <br />
             <span className="text-primary">Speak Reality.</span>
@@ -50,19 +50,19 @@ export default function Home() {
         </motion.div>
 
         <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-8 pt-10 relative z-50">
-          <MagneticButton className="relative z-50">
+          
             <Link 
               href="/assessment" 
-              className="group relative z-50 inline-flex items-center justify-center px-8 py-4 text-base sm:px-12 sm:py-6 sm:text-xl font-bold text-primary-foreground bg-primary overflow-hidden border-2 border-primary transition-all duration-300"
+              style={{ pointerEvents: "auto" }} className="group relative z-50 inline-flex items-center justify-center px-8 py-4 text-base sm:px-12 sm:py-6 sm:text-xl font-bold text-primary-foreground bg-primary overflow-hidden border-2 border-primary transition-all duration-300"
             >
               <div className="absolute inset-0 w-full h-full bg-foreground -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out z-0"></div>
               <span className="relative z-10 group-hover:text-background transition-colors duration-300">INITIATE SEQUENCE</span>
             </Link>
-          </MagneticButton>
+          
           
           <Link 
             href="/login" 
-            className="group relative z-50 inline-flex items-center justify-center px-8 py-4 text-base sm:px-12 sm:py-6 sm:text-xl font-bold text-foreground border-2 border-border hover:border-foreground transition-colors duration-300"
+            style={{ pointerEvents: "auto" }} className="group relative z-50 inline-flex items-center justify-center px-8 py-4 text-base sm:px-12 sm:py-6 sm:text-xl font-bold text-foreground border-2 border-border hover:border-foreground transition-colors duration-300"
           >
             LOGIN
           </Link>
